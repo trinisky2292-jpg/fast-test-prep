@@ -326,6 +326,30 @@
             localStorage.setItem('fast-users', JSON.stringify(users));
         };
 
+        // Default accounts — pre-seeded so they work on ANY device (localStorage is per-browser).
+        // Anthony shares the link + credentials with family; account auto-seeds on first visit.
+        const DEFAULT_ACCOUNTS = {
+            aleena: {
+                username: 'aleena',
+                passHash: '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', // "1234"
+                securityQuestion: 'color',
+                securityAnswerHash: '16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548', // "blue"
+                createdAt: '2026-05-03T00:00:00.000Z',
+                isDefault: true
+            }
+        };
+        (() => {
+            const users = getUsers();
+            let changed = false;
+            for (const [key, acct] of Object.entries(DEFAULT_ACCOUNTS)) {
+                if (!users[key]) {
+                    users[key] = acct;
+                    changed = true;
+                }
+            }
+            if (changed) saveUsers(users);
+        })();
+
         // Main login/signup handler
         document.getElementById('auth-form').addEventListener('submit', async (e) => {
             e.preventDefault();
