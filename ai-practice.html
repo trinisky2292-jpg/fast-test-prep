@@ -265,6 +265,38 @@
         let score = 0;
         const answers = [];
         let selectedChoice = null;
+        const exampleCache = {}; // section -> array of example questions
+
+        // Load examples from real FAST JSON to use as few-shot training examples
+        async function loadExamples(section) {
+            if (exampleCache[section]) return exampleCache[section];
+            try {
+                const res = await fetch(`data/${section}.json`);
+                if (!res.ok) return [];
+                const data = await res.json();
+                let questions = data.questions || [];
+                // Reading data is shaped differently — pull questions from passages
+                if (section === 'reading' && data.passages) {
+                    questions = [];
+                    data.passages.forEach(p => {
+                        (p.questions || []).forEach(q => {
+                            questions.push({ ...q, _passage: p.text });
+                        });
+                    });
+                }
+                exampleCache[section] = questions;
+                return questions;
+            } catch (e) {
+                console.warn('Could not load examples:', e);
+                return [];
+            }
+        }
+
+        function pickRandomExamples(pool, n) {
+            if (!pool || pool.length === 0) return [];
+            const shuffled = [...pool].sort(() => Math.random() - 0.5);
+            return shuffled.slice(0, Math.min(n, pool.length));
+        }
 
         // --- Section pick ---
         const getQueryParam = (p) => new URLSearchParams(window.location.search).get(p);
@@ -355,7 +387,7 @@
             return JSON.parse(t.slice(start, end + 1));
         }
 
-        function buildGeneratorPrompt(section) {
+        function buildGeneratorPrompt(section, examples) {
             const sectionGuides = {
                 reading: 'Write a short 100-150 word age-appropriate passage for a 5th grader, then ask one comprehension question about it. Use Florida B.E.S.T. ELA standard codes like ELA.5.R.1.1, ELA.5.R.2.2, ELA.5.R.3.1.',
                 grammar: 'Ask one grammar question for a 5th grader: subject-verb agreement, pronouns, verb tense, punctuation, capitalization, or sentence structure. Use Florida B.E.S.T. ELA standard codes like ELA.5.C.3.1.',
@@ -363,14 +395,31 @@
                 science: 'Ask one Florida 5th grade science question covering Physical, Earth & Space, or Life Science. Use codes like SC.5.P.10.1, SC.5.E.5.1, SC.5.L.14.1.',
                 math: 'Ask one Florida 5th grade math question covering NSO (number sense), AR (algebraic reasoning), FR (fractions), M (measurement), GR (geometry), or DP (data). Use codes like MA.5.NSO.1.1, MA.5.AR.1.1, MA.5.FR.1.1.'
             };
+
+            // Build few-shot example block from real FAST questions
+            let examplesBlock = '';
+            if (examples && examples.length > 0) {
+                examplesBlock = '\n\nHere are REAL Florida FAST 5th grade ' + section + ' example questions to model your style after:\n\n';
+                examples.forEach((ex, i) => {
+                    const exJson = {
+                        question: (ex._passage ? `[Passage: ${ex._passage}] ` : '') + (ex.question || ex.text || ''),
+                        choices: ex.choices || ex.options || {},
+                        correctAnswer: ex.correctAnswer || ex.answer || 'A',
+                        standard: ex.standard || ''
+                    };
+                    examplesBlock += `EXAMPLE ${i+1}:\n${JSON.stringify(exJson, null, 2)}\n\n`;
+                });
+                examplesBlock += 'Generate a NEW question with the same style, difficulty, and Florida standard format — but with completely DIFFERENT content. Do not copy the example questions.';
+            }
+
             return [
                 {
                     role: 'system',
-                    content: `You are a Florida 5th grade FAST test question generator. Output ONLY valid JSON. No markdown, no commentary, no code fences.`
+                    content: `You are a Florida 5th grade FAST test question generator. Output ONLY valid JSON matching the exact format of the real FAST examples shown. No markdown, no commentary, no code fences.`
                 },
                 {
                     role: 'user',
-                    content: `Generate ONE multiple-choice question for the ${section} section. ${sectionGuides[section]}
+                    content: `Generate ONE multiple-choice question for the ${section} section. ${sectionGuides[section]}${examplesBlock}
 
 Return ONLY this JSON shape (no extra text):
 {
@@ -388,7 +437,10 @@ The question should be appropriate for a 10-11 year old. Make it challenging but
         }
 
         async function generateQuestion(section, onProgress) {
-            const messages = buildGeneratorPrompt(section);
+            if (onProgress) onProgress('Loading example FAST questions…');
+            const allExamples = await loadExamples(section);
+            const fewShot = pickRandomExamples(allExamples, 2);
+            const messages = buildGeneratorPrompt(section, fewShot);
             const { content, model } = await callOpenRouter(messages, generatorModel, onProgress);
             const q = extractJson(content);
             // Sanity check shape
