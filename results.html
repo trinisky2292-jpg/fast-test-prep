@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — Results</title>
+    <style>
+        :root {
+            --primary: #4CAF50;
+            --secondary: #2196F3;
+            --accent: #FFC107;
+            --background: #F5F5F5;
+            --text: #212121;
+            --light-text: #757575;
+            --white: #ffffff;
+            --correct: #4CAF50;
+            --incorrect: #F44336;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .results-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .score-circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--light-text) 0);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 1.5rem auto;
+            position: relative;
+            background-color: var(--white);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .score-circle::after {
+            content: '';
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background-color: var(--background);
+        }
+        .score-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            position: relative;
+            z-index: 2;
+        }
+        .score-percentage {
+            font-size: 1.2rem;
+            color: var(--light-text);
+            position: relative;
+            z-index: 2;
+        }
+        .score-text {
+            text-align: center;
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+        }
+        .encouragement {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 12px;
+        }
+        .encouragement.amazing {
+            background: #e8f5e9;
+            color: var(--correct);
+            border: 1px solid var(--correct);
+        }
+        .encouragement.good {
+            background: #e3f2fd;
+            color: var(--secondary);
+            border: 1px solid var(--secondary);
+        }
+        .encouragement.keep {
+            background: #fff3e0;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+        }
+        .weak-areas {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        .weak-areas h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+        .standard-item {
+            border-bottom: 1px solid var(--light-text);
+            padding: 1rem 0;
+        }
+        .standard-item:last-child {
+            border-bottom: none;
+        }
+        .standard-code {
+            font-weight: bold;
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        .standard-stats {
+            font-size: 0.9rem;
+            color: var(--light-text);
+            margin-bottom: 0.5rem;
+        }
+        .standard-questions {
+            margin-top: 0.5rem;
+        }
+        .question-item {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        .btn-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            flex: 1;
+            min-width: 120px;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-try-again {
+            background: var(--primary);
+            color: var(--white);
+        }
+        .btn-try-again:hover {
+            background: #43a047;
+        }
+        .btn-back-home {
+            background: var(--secondary);
+            color: var(--white);
+        }
+        .btn-back-home:hover {
+            background: #1976d2;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--light-text);
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--light-text);
+        }
+        @media (max-width: 480px) {
+            .results-container {
+                padding: 1rem;
+            }
+            .score-circle {
+                width: 150px;
+                height: 150px;
+            }
+            .score-number {
+                font-size: 2rem;
+            }
+            .btn-container {
+                flex-direction: column;
+            }
+            .btn {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="results-container">
+        <header>
+            <h1>Great job! Here's how you did:</h1>
+        </header>
+
+        <div class="score-circle" id="score-circle">
+            <div class="score-number" id="score-number">--</div>
+            <div class="score-percentage" id="score-percentage">--%</div>
+        </div>
+
+        <div class="score-text" id="score-text">You got: -- / -- = --%</div>
+
+        <div class="encouragement" id="encouragement"></div>
+
+        <div class="weak-areas" id="weak-areas">
+            <h2>Weak Area Breakdown</h2>
+            <div id="weak-areas-content">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn btn-try-again" id="try-again-btn">Try Again</button>
+            <button class="btn btn-back-home" id="back-home-btn">Back to Home</button>
+        </div>
+
+        <div class="footer">
+            Your weak areas have been saved. Check back here anytime under My Weak Areas.
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        // Helper to get URL parameter
+        const getQueryParam = (param) => {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        };
+
+        const sessionId = getQueryParam('session');
+
+        // If no sessionId, redirect to home
+        if (!sessionId) {
+            window.location.href = 'index.html';
+            return;
+        }
+
+        // Load session data from localStorage
+        const sessionKey = `fast-session-${sessionId}`;
+        const sessionData = JSON.parse(localStorage.getItem(sessionKey));
+
+        // If no session data, redirect to home
+        if (!sessionData) {
+            window.location.href = 'index.html';
+            return;
+        }
+
+        // Update score circle percentage
+        const percentage = Math.round((sessionData.score / sessionData.total) * 100);
+        document.getElementById('score-number').textContent = `${sessionData.score} / ${sessionData.total}`;
+        document.getElementById('score-percentage').textContent = `${percentage}%`;
+        document.getElementById('score-circle').style.setProperty('--percentage', percentage);
+        
+        // Update score text
+        document.getElementById('score-text').textContent = `You got: ${sessionData.score} / ${sessionData.total} = ${percentage}%`;
+        
+        // Update encouragement message
+        const encouragementEl = document.getElementById('encouragement');
+        if (percentage >= 90) {
+            encouragementEl.textContent = 'Amazing!';
+            encouragementEl.className = 'encouragement amazing';
+        } else if (percentage >= 70) {
+            encouragementEl.textContent = 'Good work!';
+            encouragementEl.className = 'encouragement good';
+        } else {
+            encouragementEl.textContent = 'Keep practicing — you\'ve got this!';
+            encouragementEl.className = 'encouragement keep';
+        }
+        
+        // Group wrong answers by standard
+        const wrongAnswersByStandard = {};
+        sessionData.answers.forEach((answer, index) => {
+            if (!answer.isCorrect) {
+                const standard = answer.standard || 'unknown';
+                if (!wrongAnswersByStandard[standard]) {
+                    wrongAnswersByStandard[standard] = {
+                        count: 0,
+                        questions: [],
+                        totalInStandard: 0
+                    };
+                }
+                wrongAnswersByStandard[standard].count++;
+                wrongAnswersByStandard[standard].questions.push({
+                    id: answer.questionId,
+                    text: answer.questionText,
+                    standard: answer.standard
+                });
+            }
+            
+            // Count total questions per standard (for percentage calculation)
+            const standard = answer.standard || 'unknown';
+            if (!wrongAnswersByStandard[standard]) {
+                wrongAnswersByStandard[standard] = {
+                    count: 0,
+                    questions: [],
+                    totalInStandard: 0
+                };
+            }
+            wrongAnswersByStandard[standard].totalInStandard++;
+        });
+        
+        // Update weak areas content
+        const weakAreasContent = document.getElementById('weak-areas-content');
+        if (Object.keys(wrongAnswersByStandard).length === 0) {
+            weakAreasContent.innerHTML = '<p>No weak areas — you aced it! 🎉</p>';
+        } else {
+            let html = '';
+            Object.entries(wrongAnswersByStandard).forEach(([standard, data]) => {
+                const wrongPct = Math.round((data.count / data.totalInStandard) * 100);
+                html += `
+                    <div class="standard-item">
+                        <span class="standard-code">${standard}</span>
+                        <div class="standard-stats">${data.count} wrong out of ${data.totalInStandard} total (${wrongPct}%)</div>
+                        <div class="standard-questions">
+                            ${data.questions.map(q => `
+                                <div class="question-item">"${q.text}"</div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+            weakAreasContent.innerHTML = html;
+        }
+        
+        // Note: aggregate weak-areas already saved by quiz.html when session ended.
+        // results.html only DISPLAYS — it does not double-count.
+
+        // Button event listeners
+        document.getElementById('try-again-btn').addEventListener('click', () => {
+            window.location.href = `quiz.html?section=${sessionData.section}`;
+        });
+
+        document.getElementById('back-home-btn').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+    })();
+    </script>
+</body>
+</html>

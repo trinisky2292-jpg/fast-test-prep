@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — Settings</title>
+    <style>
+        :root {
+            --primary: #4CAF50;
+            --secondary: #2196F3;
+            --accent: #FFC107;
+            --background: #F5F5F5;
+            --text: #212121;
+            --light-text: #757575;
+            --white: #ffffff;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .settings-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: var(--white);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .header-left h1 {
+            font-size: 1.8rem;
+            color: var(--primary);
+        }
+        .header-left p {
+            font-size: 1rem;
+            color: var(--light-text);
+        }
+        .header-right a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .section {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+            border-bottom: 1px solid var(--light-text);
+            padding-bottom: 0.5rem;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--light-text);
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        .form-group input[type="password"] {
+            font-family: monospace;
+        }
+        .form-group .toggle-container {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .form-group .toggle-container input {
+            width: auto;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 1rem;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: var(--white);
+        }
+        .btn-primary:hover {
+            background: #43a047;
+        }
+        .btn-secondary {
+            background: var(--secondary);
+            color: var(--white);
+        }
+        .btn-secondary:hover {
+            background: #1976d2;
+        }
+        .btn-outline {
+            background: var(--white);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        .btn-outline:hover {
+            background: #e8f5e9;
+        }
+        .status {
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        .status.success {
+            background: #e8f5e9;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+        .status.error {
+            background: #ffebee;
+            color: #F44336;
+            border: 1px solid #F44336;
+        }
+        .status.info {
+            background: #e3f2fd;
+            color: var(--secondary);
+            border: 1px solid var(--secondary);
+        }
+        .model-list {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        .model-list h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: var(--secondary);
+        }
+        .model-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .model-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--light-text);
+        }
+        .model-list li:last-child {
+            border-bottom: none;
+        }
+        @media (max-width: 480px) {
+            .settings-container {
+                padding: 1rem;
+            }
+            header {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            .header-left h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="settings-container">
+        <header>
+            <div class="header-left">
+                <h1>FAST Test Prep Settings</h1>
+                <p>Configure your OpenRouter API key and models</p>
+            </div>
+            <div class="header-right">
+                <a href="index.html">← Back to Home</a>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>API Key Configuration</h2>
+            <div class="form-group">
+                <label for="api-key">OpenRouter API Key</label>
+                <input type="password" id="api-key" placeholder="sk-or-v1-...">
+                <small>Get your key from https://openrouter.ai/keys</small>
+            </div>
+            <div class="toggle-container">
+                <input type="checkbox" id="show-key">
+                <label for="show-key">Show API key</label>
+            </div>
+            <button class="btn btn-primary" id="save-key-btn">Save API Key</button>
+            <button class="btn btn-outline" id="test-connection-btn">Test Connection</button>
+            <div class="status" id="api-status"></div>
+        </div>
+
+        <div class="section">
+            <h2>Question Generator Model</h2>
+            <div class="form-group">
+                <label for="generator-model">Select model for generating questions:</label>
+                <select id="generator-model">
+                    <option value="meta-llama/llama-3.3-70b-instruct:free">Llama 3.3 70B Instruct (free)</option>
+                    <option value="google/gemini-2.5-flash:free">Gemini 2.5 Flash (free)</option>
+                    <option value="deepseek/deepseek-r1:free">DeepSeek R1 (free)</option>
+                    <option value="google/gemini-2.5-flash">Gemini 2.5 Flash</option>
+                    <option value="deepseek/deepseek-chat">DeepSeek Chat</option>
+                    <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super 120B (free)</option>
+                </select>
+            </div>
+            <button class="btn btn-primary" id="save-generator-btn">Save Generator Model</button>
+            <div class="status" id="generator-status"></div>
+        </div>
+
+        <div class="section">
+            <h2>Validator Model</h2>
+            <div class="form-group">
+                <label for="validator-model">Select model for validating questions:</label>
+                <select id="validator-model">
+                    <option value="meta-llama/llama-3.3-70b-instruct:free">Llama 3.3 70B Instruct (free)</option>
+                    <option value="google/gemini-2.5-flash:free">Gemini 2.5 Flash (free)</option>
+                    <option value="deepseek/deepseek-r1:free">DeepSeek R1 (free)</option>
+                    <option value="google/gemini-2.5-flash">Gemini 2.5 Flash</option>
+                    <option value="deepseek/deepseek-chat">DeepSeek Chat</option>
+                    <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super 120B (free)</option>
+                </select>
+            </div>
+            <button class="btn btn-primary" id="save-validator-btn">Save Validator Model</button>
+            <div class="status" id="validator-status"></div>
+        </div>
+
+        <div class="section">
+            <h2>Advanced Settings</h2>
+            <div class="form-group toggle-container">
+                <input type="checkbox" id="auto-fallback">
+                <label for="auto-fallback">Enable auto-fallback (try next model if current fails)</label>
+            </div>
+            <button class="btn btn-primary" id="save-fallback-btn">Save Fallback Setting</button>
+            <div class="status" id="fallback-status"></div>
+        </div>
+    </div>
+
+    <script>
+        // Helper to get from localStorage with fallback
+        const getFromStorage = (key, defaultValue = null) => {
+            const value = localStorage.getItem(key);
+            return value !== null ? JSON.parse(value) : defaultValue;
+        };
+
+        // Helper to save to localStorage
+        const saveToStorage = (key, value) => {
+            localStorage.setItem(key, JSON.stringify(value));
+        };
+
+        // Show API key toggle
+        document.getElementById('show-key').addEventListener('change', (e) => {
+            const apiKeyInput = document.getElementById('api-key');
+            apiKeyInput.type = e.target.checked ? 'text' : 'password';
+        });
+
+        // Save API Key
+        document.getElementById('save-key-btn').addEventListener('click', () => {
+            const apiKey = document.getElementById('api-key').value.trim();
+            if (apiKey) {
+                saveToStorage('fast-openrouter-key', apiKey);
+                showStatus('api-status', 'success', 'API key saved successfully!');
+            } else {
+                showStatus('api-status', 'error', 'Please enter an API key');
+            }
+        });
+
+        // Test Connection
+        document.getElementById('test-connection-btn').addEventListener('click', async () => {
+            const apiKey = getFromStorage('fast-openrouter-key');
+            if (!apiKey) {
+                showStatus('api-status', 'error', 'Please save an API key first');
+                return;
+            }
+
+            showStatus('api-status', 'info', 'Testing connection...');
+            
+            try {
+                const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${apiKey}`,
+                        'Content-Type': 'application/json',
+                        'HTTP-Referer': 'https://fast-test-prep.com',
+                        'X-Title': 'FAST Test Prep'
+                    },
+                    body: JSON.stringify({
+                        model: 'google/gemini-2.5-flash:free', // Use a known free model for test
+                        messages: [{ role: 'user', content: 'Hello' }],
+                        max_tokens: 1
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    showStatus('api-status', 'success', 'Connection successful! API is working.');
+                } else {
+                    const errorData = await response.json();
+                    showStatus('api-status', 'error', `Connection failed: ${errorData.error?.message || 'Unknown error'}`);
+                }
+            } catch (error) {
+                showStatus('api-status', 'error', `Connection failed: ${error.message}`);
+            }
+        });
+
+        // Save Generator Model
+        document.getElementById('save-generator-btn').addEventListener('click', () => {
+            const model = document.getElementById('generator-model').value;
+            saveToStorage('fast-generator-model', model);
+            showStatus('generator-status', 'success', 'Generator model saved!');
+        });
+
+        // Save Validator Model
+        document.getElementById('save-validator-btn').addEventListener('click', () => {
+            const model = document.getElementById('validator-model').value;
+            saveToStorage('fast-validator-model', model);
+            showStatus('validator-status', 'success', 'Validator model saved!');
+        });
+
+        // Save Fallback Setting
+        document.getElementById('save-fallback-btn').addEventListener('click', () => {
+            const fallback = document.getElementById('auto-fallback').checked;
+            saveToStorage('fast-auto-fallback', fallback);
+            showStatus('fallback-status', 'success', 'Fallback setting saved!');
+        });
+
+        // Load existing values on page load
+        window.addEventListener('load', () => {
+            // Load API key (don't show it for security)
+            const apiKey = getFromStorage('fast-openrouter-key');
+            if (apiKey) {
+                document.getElementById('api-key').value = apiKey;
+                showStatus('api-status', 'info', 'API key loaded (hidden for security)');
+            }
+
+            // Load generator model
+            const generatorModel = getFromStorage('fast-generator-model', 'meta-llama/llama-3.3-70b-instruct:free');
+            document.getElementById('generator-model').value = generatorModel;
+
+            // Load validator model
+            const validatorModel = getFromStorage('fast-validator-model', 'google/gemini-2.5-flash:free');
+            document.getElementById('validator-model').value = validatorModel;
+
+            // Load fallback setting
+            const autoFallback = getFromStorage('fast-auto-fallback', true);
+            document.getElementById('auto-fallback').checked = autoFallback;
+        });
+
+        // Helper to show status messages
+        function showStatus(elementId, type, message) {
+            const statusEl = document.getElementById(elementId);
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+            statusEl.style.display = 'block';
+            
+            // Hide after 5 seconds if not error
+            if (type !== 'error') {
+                setTimeout(() => {
+                    statusEl.style.display = 'none';
+                }, 5000);
+            }
+        }
+    </script>
+</body>
+</html>

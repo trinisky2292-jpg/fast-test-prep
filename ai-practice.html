@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — AI Practice</title>
+    <style>
+        :root {
+            --primary: #4CAF50;
+            --secondary: #2196F3;
+            --accent: #FFC107;
+            --background: #F5F5F5;
+            --text: #212121;
+            --light-text: #757575;
+            --white: #ffffff;
+            --correct: #4CAF50;
+            --incorrect: #F44336;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 1rem;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--white);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        header h1 { font-size: 1.5rem; color: var(--primary); }
+        header a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .section-picker {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        .section-picker h2 { margin-bottom: 1rem; color: var(--text); }
+        .section-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 0.75rem;
+        }
+        .section-btn {
+            padding: 1rem;
+            background: var(--secondary);
+            color: var(--white);
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .section-btn:hover { background: #1976d2; }
+        .section-btn.active { background: var(--primary); }
+        .status-banner {
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
+        .status-banner.error {
+            background: #ffebee;
+            color: var(--incorrect);
+            border: 1px solid var(--incorrect);
+        }
+        .status-banner.info {
+            background: #e3f2fd;
+            color: var(--secondary);
+            border: 1px solid var(--secondary);
+        }
+        .status-banner.success {
+            background: #e8f5e9;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+        .quiz-card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        .progress {
+            font-size: 0.95rem;
+            color: var(--light-text);
+            margin-bottom: 1rem;
+        }
+        .question-text {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+        .choices { display: flex; flex-direction: column; gap: 0.75rem; }
+        .choice-btn {
+            padding: 1rem;
+            background: var(--white);
+            border: 2px solid var(--light-text);
+            border-radius: 8px;
+            font-size: 1rem;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .choice-btn:hover { border-color: var(--secondary); background: #f5f5f5; }
+        .choice-btn.selected { border-color: var(--secondary); background: #e3f2fd; }
+        .choice-btn.correct { border-color: var(--correct); background: #e8f5e9; color: var(--correct); }
+        .choice-btn.incorrect { border-color: var(--incorrect); background: #ffebee; color: var(--incorrect); }
+        .choice-btn:disabled { cursor: not-allowed; }
+        .choice-letter { font-weight: bold; margin-right: 0.5rem; }
+        .feedback-box {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        .feedback-box.correct {
+            background: #e8f5e9;
+            border: 1px solid var(--correct);
+            color: var(--correct);
+        }
+        .feedback-box.incorrect {
+            background: #ffebee;
+            border: 1px solid var(--incorrect);
+            color: var(--incorrect);
+        }
+        .action-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            margin-top: 1rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            background: var(--primary);
+            color: var(--white);
+            transition: background 0.2s;
+        }
+        .action-btn:hover { background: #43a047; }
+        .action-btn:disabled { background: var(--light-text); cursor: not-allowed; }
+        .loader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .small-note { font-size: 0.85rem; color: var(--light-text); margin-top: 0.5rem; }
+        .standard-tag {
+            display: inline-block;
+            background: #e3f2fd;
+            color: var(--secondary);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-bottom: 0.75rem;
+        }
+        @media (max-width: 480px) {
+            header { flex-direction: column; gap: 0.5rem; }
+            .question-text { font-size: 1.05rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Practice</h1>
+            <a href="index.html">← Home</a>
+        </header>
+
+        <div id="api-warning" class="status-banner error" style="display:none;">
+            No API key set. <a href="settings.html" style="color:inherit;text-decoration:underline;">Add your OpenRouter key in Settings</a> first.
+        </div>
+
+        <div id="section-picker" class="section-picker">
+            <h2>Pick a section to practice</h2>
+            <div class="section-buttons">
+                <button class="section-btn" data-section="reading">Reading</button>
+                <button class="section-btn" data-section="grammar">Grammar</button>
+                <button class="section-btn" data-section="figurative">Figurative</button>
+                <button class="section-btn" data-section="science">Science</button>
+                <button class="section-btn" data-section="math">Math</button>
+            </div>
+            <p class="small-note">AI generates new FAST-style questions each round. Powered by OpenRouter.</p>
+        </div>
+
+        <div id="status-banner" class="status-banner info" style="display:none;"></div>
+
+        <div id="loader" class="loader" style="display:none;">
+            <div class="spinner"></div>
+            <div id="loader-text">Generating question…</div>
+        </div>
+
+        <div id="quiz-card" class="quiz-card" style="display:none;">
+            <div class="progress" id="progress">Question 1</div>
+            <div class="standard-tag" id="standard-tag" style="display:none;"></div>
+            <div class="question-text" id="question-text"></div>
+            <div class="choices" id="choices"></div>
+            <div class="feedback-box" id="feedback-box" style="display:none;"></div>
+            <button class="action-btn" id="submit-btn" disabled>Submit Answer</button>
+            <button class="action-btn" id="finish-btn" style="display:none;background:var(--secondary);">Finish & See Results</button>
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        // --- Config + storage helpers ---
+        const FALLBACK_MODELS = [
+            'meta-llama/llama-3.3-70b-instruct:free',
+            'google/gemini-2.5-flash:free',
+            'deepseek/deepseek-r1:free',
+            'nvidia/nemotron-3-super-120b-a12b:free'
+        ];
+
+        const getStore = (k, def = null) => {
+            const v = localStorage.getItem(k);
+            return v !== null ? JSON.parse(v) : def;
+        };
+
+        const apiKey = getStore('fast-openrouter-key');
+        const generatorModel = getStore('fast-generator-model', 'meta-llama/llama-3.3-70b-instruct:free');
+        const validatorModel = getStore('fast-validator-model', 'google/gemini-2.5-flash:free');
+        const autoFallback = getStore('fast-auto-fallback', true);
+
+        if (!apiKey) {
+            document.getElementById('api-warning').style.display = 'block';
+        }
+
+        // --- State ---
+        const QUESTIONS_PER_ROUND = 5;
+        const sessionId = `aip-${Date.now()}-${Math.random().toString(36).slice(2,7)}`;
+        let currentSection = null;
+        let currentQuestion = null;
+        let currentIndex = 0;
+        let score = 0;
+        const answers = [];
+        let selectedChoice = null;
+
+        // --- Section pick ---
+        const getQueryParam = (p) => new URLSearchParams(window.location.search).get(p);
+        const preselect = getQueryParam('section');
+        if (preselect) {
+            startSection(preselect);
+        }
+
+        document.querySelectorAll('.section-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.section-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                startSection(btn.dataset.section);
+            });
+        });
+
+        function startSection(section) {
+            if (!apiKey) {
+                showStatus('error', 'Please set your API key in Settings first.');
+                return;
+            }
+            currentSection = section;
+            currentIndex = 0;
+            score = 0;
+            answers.length = 0;
+            document.getElementById('section-picker').style.display = 'none';
+            loadNextQuestion();
+        }
+
+        // --- LLM calls ---
+        async function callOpenRouter(messages, primaryModel) {
+            const modelsToTry = autoFallback
+                ? [primaryModel, ...FALLBACK_MODELS.filter(m => m !== primaryModel)]
+                : [primaryModel];
+
+            let lastError = null;
+            for (const model of modelsToTry) {
+                try {
+                    const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': `Bearer ${apiKey}`,
+                            'Content-Type': 'application/json',
+                            'HTTP-Referer': 'https://fast-test-prep.com',
+                            'X-Title': 'FAST Test Prep'
+                        },
+                        body: JSON.stringify({
+                            model,
+                            messages,
+                            temperature: 0.7,
+                            max_tokens: 800
+                        })
+                    });
+                    if (!res.ok) {
+                        const errText = await res.text();
+                        lastError = `${model}: ${res.status} ${errText}`;
+                        continue;
+                    }
+                    const data = await res.json();
+                    const content = data.choices?.[0]?.message?.content;
+                    if (!content) {
+                        lastError = `${model}: empty response`;
+                        continue;
+                    }
+                    return { content, model };
+                } catch (e) {
+                    lastError = `${model}: ${e.message}`;
+                    continue;
+                }
+            }
+            throw new Error('All models failed. Last: ' + lastError);
+        }
+
+        function extractJson(text) {
+            // Strip code fences
+            let t = text.trim();
+            if (t.startsWith('```')) {
+                t = t.replace(/^```(?:json)?\s*/i, '').replace(/```\s*$/i, '');
+            }
+            // Find first { and last }
+            const start = t.indexOf('{');
+            const end = t.lastIndexOf('}');
+            if (start === -1 || end === -1) throw new Error('No JSON object in response');
+            return JSON.parse(t.slice(start, end + 1));
+        }
+
+        function buildGeneratorPrompt(section) {
+            const sectionGuides = {
+                reading: 'Write a short 100-150 word age-appropriate passage for a 5th grader, then ask one comprehension question about it. Use Florida B.E.S.T. ELA standard codes like ELA.5.R.1.1, ELA.5.R.2.2, ELA.5.R.3.1.',
+                grammar: 'Ask one grammar question for a 5th grader: subject-verb agreement, pronouns, verb tense, punctuation, capitalization, or sentence structure. Use Florida B.E.S.T. ELA standard codes like ELA.5.C.3.1.',
+                figurative: 'Ask one figurative language question for a 5th grader: simile, metaphor, personification, hyperbole, or idiom. Use Florida B.E.S.T. ELA standard ELA.5.R.3.1.',
+                science: 'Ask one Florida 5th grade science question covering Physical, Earth & Space, or Life Science. Use codes like SC.5.P.10.1, SC.5.E.5.1, SC.5.L.14.1.',
+                math: 'Ask one Florida 5th grade math question covering NSO (number sense), AR (algebraic reasoning), FR (fractions), M (measurement), GR (geometry), or DP (data). Use codes like MA.5.NSO.1.1, MA.5.AR.1.1, MA.5.FR.1.1.'
+            };
+            return [
+                {
+                    role: 'system',
+                    content: `You are a Florida 5th grade FAST test question generator. Output ONLY valid JSON. No markdown, no commentary, no code fences.`
+                },
+                {
+                    role: 'user',
+                    content: `Generate ONE multiple-choice question for the ${section} section. ${sectionGuides[section]}
+
+Return ONLY this JSON shape (no extra text):
+{
+  "question": "the question text${section === 'reading' ? ' INCLUDING the passage at the start' : ''}",
+  "choices": { "A": "...", "B": "...", "C": "...", "D": "..." },
+  "correctAnswer": "A",
+  "explanation": "why that's the right answer in one short sentence",
+  "standard": "Florida standard code",
+  "difficulty": "easy|medium|hard"
+}
+
+The question should be appropriate for a 10-11 year old. Make it challenging but fair. Avoid trick questions.`
+                }
+            ];
+        }
+
+        async function generateQuestion(section) {
+            const messages = buildGeneratorPrompt(section);
+            const { content, model } = await callOpenRouter(messages, generatorModel);
+            const q = extractJson(content);
+            // Sanity check shape
+            if (!q.question || !q.choices || !q.correctAnswer) {
+                throw new Error('Generated JSON missing required fields');
+            }
+            if (!['A','B','C','D'].includes(q.correctAnswer)) {
+                throw new Error('correctAnswer must be A/B/C/D, got: ' + q.correctAnswer);
+            }
+            q._generatorModel = model;
+            return q;
+        }
+
+        async function validateQuestion(q) {
+            const messages = [
+                {
+                    role: 'system',
+                    content: 'You are a 5th grade test question validator. Output ONLY valid JSON.'
+                },
+                {
+                    role: 'user',
+                    content: `Verify this 5th grade question is correct, age-appropriate, and the marked correct answer is actually correct.
+
+Question: ${q.question}
+A) ${q.choices.A}
+B) ${q.choices.B}
+C) ${q.choices.C}
+D) ${q.choices.D}
+Marked correct: ${q.correctAnswer}
+
+Return ONLY this JSON (no extra text):
+{ "isValid": true|false, "reason": "short reason" }`
+                }
+            ];
+            try {
+                const { content } = await callOpenRouter(messages, validatorModel);
+                const v = extractJson(content);
+                return v;
+            } catch (e) {
+                // If validator fails, accept the question (don't block the kid)
+                console.warn('Validator failed, accepting question:', e.message);
+                return { isValid: true, reason: 'validator unavailable' };
+            }
+        }
+
+        // --- Render flow ---
+        async function loadNextQuestion() {
+            hideStatus();
+            document.getElementById('quiz-card').style.display = 'none';
+            document.getElementById('loader').style.display = 'flex';
+            document.getElementById('loader-text').textContent = 'Generating question…';
+            selectedChoice = null;
+
+            let q = null;
+            let attempts = 0;
+            while (attempts < 3 && !q) {
+                attempts++;
+                try {
+                    document.getElementById('loader-text').textContent = `Generating question (attempt ${attempts})…`;
+                    const candidate = await generateQuestion(currentSection);
+                    document.getElementById('loader-text').textContent = 'Validating with second LLM…';
+                    const v = await validateQuestion(candidate);
+                    if (v.isValid) {
+                        q = candidate;
+                    } else {
+                        console.warn('Validator rejected:', v.reason);
+                    }
+                } catch (e) {
+                    console.error('Generation attempt failed:', e.message);
+                    if (attempts >= 3) {
+                        showStatus('error', `Couldn't generate a valid question: ${e.message}`);
+                        document.getElementById('loader').style.display = 'none';
+                        return;
+                    }
+                }
+            }
+            if (!q) {
+                showStatus('error', 'Could not generate a valid question after 3 tries. Try a different section or check your API key.');
+                document.getElementById('loader').style.display = 'none';
+                return;
+            }
+
+            currentQuestion = q;
+            renderQuestion(q);
+            document.getElementById('loader').style.display = 'none';
+            document.getElementById('quiz-card').style.display = 'block';
+        }
+
+        function renderQuestion(q) {
+            document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${QUESTIONS_PER_ROUND}`;
+            document.getElementById('question-text').textContent = q.question;
+
+            const tag = document.getElementById('standard-tag');
+            if (q.standard) {
+                tag.textContent = q.standard;
+                tag.style.display = 'inline-block';
+            } else {
+                tag.style.display = 'none';
+            }
+
+            const choicesEl = document.getElementById('choices');
+            choicesEl.innerHTML = '';
+            ['A','B','C','D'].forEach(letter => {
+                const btn = document.createElement('button');
+                btn.className = 'choice-btn';
+                btn.dataset.letter = letter;
+                btn.innerHTML = `<span class="choice-letter">${letter}</span> ${q.choices[letter] || ''}`;
+                btn.addEventListener('click', () => selectChoice(letter, btn));
+                choicesEl.appendChild(btn);
+            });
+
+            document.getElementById('feedback-box').style.display = 'none';
+            const submitBtn = document.getElementById('submit-btn');
+            submitBtn.style.display = 'block';
+            submitBtn.textContent = 'Submit Answer';
+            submitBtn.disabled = true;
+            document.getElementById('finish-btn').style.display = 'none';
+        }
+
+        function selectChoice(letter, btn) {
+            selectedChoice = letter;
+            document.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+            document.getElementById('submit-btn').disabled = false;
+        }
+
+        document.getElementById('submit-btn').addEventListener('click', () => {
+            if (!selectedChoice) return;
+            const submitBtn = document.getElementById('submit-btn');
+            if (submitBtn.textContent === 'Next Question') {
+                currentIndex++;
+                if (currentIndex >= QUESTIONS_PER_ROUND) {
+                    finishRound();
+                } else {
+                    loadNextQuestion();
+                }
+                return;
+            }
+
+            // Grade
+            const isCorrect = selectedChoice === currentQuestion.correctAnswer;
+            if (isCorrect) score++;
+
+            answers.push({
+                questionId: `aip-${currentIndex}`,
+                questionText: currentQuestion.question.slice(0, 200),
+                selectedAnswer: selectedChoice,
+                correctAnswer: currentQuestion.correctAnswer,
+                isCorrect,
+                standard: currentQuestion.standard || 'AI-generated',
+                explanation: currentQuestion.explanation || ''
+            });
+
+            // Mark choices
+            document.querySelectorAll('.choice-btn').forEach(b => {
+                b.disabled = true;
+                if (b.dataset.letter === currentQuestion.correctAnswer) {
+                    b.classList.add('correct');
+                } else if (b.dataset.letter === selectedChoice && !isCorrect) {
+                    b.classList.add('incorrect');
+                }
+            });
+
+            const fb = document.getElementById('feedback-box');
+            fb.className = `feedback-box ${isCorrect ? 'correct' : 'incorrect'}`;
+            fb.innerHTML = isCorrect
+                ? `<strong>Correct!</strong> ${currentQuestion.explanation || ''}`
+                : `<strong>Not quite.</strong> The correct answer is ${currentQuestion.correctAnswer}. ${currentQuestion.explanation || ''}`;
+            fb.style.display = 'block';
+
+            if (currentIndex + 1 >= QUESTIONS_PER_ROUND) {
+                submitBtn.style.display = 'none';
+                document.getElementById('finish-btn').style.display = 'block';
+            } else {
+                submitBtn.textContent = 'Next Question';
+            }
+        });
+
+        document.getElementById('finish-btn').addEventListener('click', finishRound);
+
+        function finishRound() {
+            const total = answers.length;
+            const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
+            const sessionData = {
+                sessionId,
+                section: `ai-${currentSection}`,
+                score,
+                total,
+                percentage,
+                answers,
+                completedAt: new Date().toISOString()
+            };
+
+            try {
+                localStorage.setItem(`fast-session-${sessionId}`, JSON.stringify(sessionData));
+            } catch (e) { console.error('session save failed:', e); }
+
+            try {
+                const wa = JSON.parse(localStorage.getItem('fast-weak-areas') || '{}');
+                answers.forEach(a => {
+                    const std = a.standard || 'unknown';
+                    if (!wa[std]) wa[std] = { wrongCount: 0, totalCount: 0, lastSeen: null };
+                    wa[std].totalCount += 1;
+                    if (!a.isCorrect) wa[std].wrongCount += 1;
+                    wa[std].lastSeen = new Date().toISOString();
+                });
+                localStorage.setItem('fast-weak-areas', JSON.stringify(wa));
+            } catch (e) { console.error('weak-areas save failed:', e); }
+
+            try {
+                const sessions = JSON.parse(localStorage.getItem('fast-sessions-list') || '[]');
+                sessions.push({ sessionId, section: `ai-${currentSection}`, score, total, percentage, completedAt: sessionData.completedAt });
+                localStorage.setItem('fast-sessions-list', JSON.stringify(sessions));
+            } catch (e) { console.error('sessions list save failed:', e); }
+
+            window.location.href = `results.html?session=${sessionId}`;
+        }
+
+        function showStatus(type, msg) {
+            const el = document.getElementById('status-banner');
+            el.className = `status-banner ${type}`;
+            el.textContent = msg;
+            el.style.display = 'block';
+        }
+        function hideStatus() {
+            document.getElementById('status-banner').style.display = 'none';
+        }
+    })();
+    </script>
+</body>
+</html>

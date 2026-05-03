@@ -1,0 +1,302 @@
+{
+  "section": "reading",
+  "passageCount": 3,
+  "questionCount": 16,
+  "passages": [
+    {
+      "id": "passage-1",
+      "title": "The Boy Lincoln's Best Teacher",
+      "author": "Wayne Whipple",
+      "text": "A passage about Abraham Lincoln's childhood in the backwoods, focusing on the influence of his mother as his earliest teacher. The text describes Abe's first teachers, the family reading of 'The Pilgrim's Progress,' the spicewood branch incident, and how these humble beginnings shaped the future president. Key sentences include: 'It would be strange if her eyes did not fill, as she read to her fascinated family, but that was not the sort of thing the fondest mother could speak of.' and 'But in the centuries following the humble yet beautiful career of \"the Backwoods Boy\" from the hut to the White House, history keeps the whole world saying with bated breath, \"the half was never told!\"'",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "passage-2",
+      "title": "Night and Day",
+      "author": "Robert Louis Stevenson",
+      "text": "A poem contrasting how the world appears at night versus during the day. The speaker observes a garden under both conditions. Key lines: 'As the blinding showers fall, / As the rays diminish, / Under evening's cloak they all / Roll away and vanish.' and 'Here I see it glow with day / Under glowing heaven. / Every path and every plot, / Every bush of roses, / Every blue forget-me-not / Where the dew reposes.' The poem describes how night seems to make everything vanish under its cloak, while day brings the garden, houses, trees, and hedges into clear, glowing view.",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "passage-3",
+      "title": "from The Story of My Life",
+      "author": "Helen Keller",
+      "text": "An excerpt from Helen Keller's autobiography. An introduction notes that Helen was without hearing, vision, or speech before age two, highlighting her challenges and eventual triumph. Helen describes how she used her hands to feel every object and observe every motion to learn about the world: 'My hands felt every object and observed every motion, and in this way I learned to know many things. Soon I felt the need of some communication with others and began to make crude signs.' She tells of folding clothes at age five ('At five I learned to fold and put away the clean clothes when they were brought in from the laundry, and I distinguished my own from the rest.'), feeling people's lips when they spoke to try to understand them, and the pantry incident where she locked her mother in the pantry — which convinced her parents she needed a teacher. The story ends with the arrival of Miss Sullivan, her teacher.",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "read-1",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "Read this sentence from the passage: \"It would be strange if her eyes did not fill, as she read to her fascinated family, but that was not the sort of thing the fondest mother could speak of.\" Knowing the base word of fondest helps the reader understand that Abe's mother was",
+      "choices": {
+        "A": "the most clever member of the family.",
+        "B": "the most popular teacher in the backwoods.",
+        "C": "the most affectionate person in Abe's family.",
+        "D": "the most important person to Abe's education."
+      },
+      "correctAnswer": "C",
+      "explanation": "The base word of fondest is fond, meaning affectionate or tender. The context supports that the mother is very appreciative and affectionate.",
+      "standard": "ELA.5.V.1.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-2",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "Read this sentence from the passage: \"But in the centuries following the humble yet beautiful career of 'the Backwoods Boy' from the hut to the White House, history keeps the whole world saying with bated breath, 'the half was never told!'\" Which word has the same meaning as humble?",
+      "choices": {
+        "A": "difficult",
+        "B": "famous",
+        "C": "modest",
+        "D": "powerful"
+      },
+      "correctAnswer": "C",
+      "explanation": "Modest is a synonym for humble. The phrase 'from the hut to the White House' supports understanding of the word.",
+      "standard": "ELA.5.V.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-3",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "Why is the setting important to the passage?",
+      "choices": {
+        "A": "His time in history explains the problems Abraham Lincoln faced as president.",
+        "B": "The school he attended reveals why Abraham Lincoln was able to run for president.",
+        "C": "His childhood home reveals the simple beginnings where Abraham Lincoln was raised.",
+        "D": "The beliefs of the nation made it possible for Abraham Lincoln to succeed in his career."
+      },
+      "correctAnswer": "C",
+      "explanation": "By showing how simple Abe's house and the backwoods were, the author helps explain why the future president was a humble man who rose to greatness against all odds.",
+      "standard": "ELA.5.R.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-4",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "What is the main idea of this passage?",
+      "choices": {
+        "A": "Abraham Lincoln enjoyed reading as a young boy.",
+        "B": "Abraham Lincoln's childhood was spent in a log cabin.",
+        "C": "Abraham Lincoln had several teachers throughout his life.",
+        "D": "Abraham Lincoln's mother contributed to his successful career."
+      },
+      "correctAnswer": "D",
+      "explanation": "Abe's mother insisted on sending the children to school and had a large share in his early education. The reading of 'The Pilgrim's Progress' showed she valued and encouraged learning.",
+      "standard": "ELA.5.R.2.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-5",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "How is this passage organized?",
+      "choices": {
+        "A": "by comparing Lincoln to other great presidents",
+        "B": "by explaining how Lincoln solved his problems",
+        "C": "by describing childhood events that shaped Lincoln's future",
+        "D": "by listing the effects of Lincoln's decisions throughout his life"
+      },
+      "correctAnswer": "C",
+      "explanation": "The author begins with Abe's first teachers, describes the reading of 'The Pilgrim's Progress,' details the spicewood branch incident, and shows how these events shaped him.",
+      "standard": "ELA.5.R.2.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-6",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "Which pair of words used in the poem are similar in meaning?",
+      "choices": {
+        "A": "glow, shine",
+        "B": "ledges, valleys",
+        "C": "closing, sleeping",
+        "D": "smiling, yawning"
+      },
+      "correctAnswer": "A",
+      "explanation": "Glow and shine are the closest in meaning among the choices, both appearing in the poem focusing on what can be seen during darkness and daytime.",
+      "standard": "ELA.5.V.1.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-7",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "Read these lines from the poem: \"As the blinding showers fall, / As the rays diminish, / Under evening's cloak they all / Roll away and vanish.\" Why does the poem refer to the evening having a cloak?",
+      "choices": {
+        "A": "to hint that the evening will be cold",
+        "B": "to indicate that the evening is trying to hide",
+        "C": "to suggest that the evening covers everything",
+        "D": "to show that the evening seeks protection from the rain"
+      },
+      "correctAnswer": "C",
+      "explanation": "The poem specifies that things vanish 'Under evening's cloak,' presenting the cloak as a vast covering that blankets all people and objects.",
+      "standard": "ELA.5.R.1.4",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-8",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "Read these lines from the poem: \"Here I see it glow with day / Under glowing heaven. / Every path and every plot, / Every bush of roses, / Every blue forget-me-not / Where the dew reposes.\" Which phrase best expresses the description of the garden in the lines above?",
+      "choices": {
+        "A": "the amount of plants in the garden",
+        "B": "the way the morning lights up the garden",
+        "C": "how the plants in the garden are organized",
+        "D": "how much the garden has grown overnight"
+      },
+      "correctAnswer": "B",
+      "explanation": "The phrases 'glow with day' and 'Under glowing heaven' clearly express the image of the garden being lit up by the morning sun.",
+      "standard": "ELA.5.R.1.4",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-9",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "Why is the garden important to the poem's setting?",
+      "choices": {
+        "A": "Night and day change the appearance of the garden.",
+        "B": "Interesting things happen in the garden all day and all night.",
+        "C": "Night and day bring their own dangers to the plants in the garden.",
+        "D": "Taking care of the garden is a job that seems to last all day and all night."
+      },
+      "correctAnswer": "A",
+      "explanation": "The speaker uses the garden to highlight the influence of day and night on nature - at night the garden is darkened and flowers shut, while in daylight they appear vividly.",
+      "standard": "ELA.5.R.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-10",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "In the poem, how are night and day DIFFERENT?",
+      "choices": {
+        "A": "Night makes people feel sad, while day makes them feel happy.",
+        "B": "The sun sets quickly at night, while the sun rises slowly as day begins.",
+        "C": "Some animals are active during the night, while others are busy during the day.",
+        "D": "Night makes the world seem to disappear, while day makes everything visible again."
+      },
+      "correctAnswer": "D",
+      "explanation": "The night is compared to a cloak under which things vanish. At evening, things fade from view. In morning, the speaker sees the garden glow with day, and houses, trees, and hedges grow clearer.",
+      "standard": "ELA.5.R.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-11",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "How does the introduction help readers learn more about Helen Keller?",
+      "choices": {
+        "A": "by communicating the importance of Helen Keller's book",
+        "B": "by providing facts about Helen Keller's life before her illness",
+        "C": "by describing the effect Helen Keller had on the people she met",
+        "D": "by revealing the challenges that Helen Keller had conquered in her life"
+      },
+      "correctAnswer": "D",
+      "explanation": "The introduction reveals Helen was without hearing, vision, or speech before age two, highlighting her challenges and eventual success.",
+      "standard": "ELA.5.R.2.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-12",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "Read these sentences from the article: \"My hands felt every object and observed every motion, and in this way I learned to know many things. Soon I felt the need of some communication with others and began to make crude signs.\" The origin of the word communication is the Latin word communicare, meaning \"to take part in.\" What does knowing the Latin root of communication help readers understand about Helen Keller?",
+      "choices": {
+        "A": "She wanted to be a part of the activities going on around her.",
+        "B": "She used her hands to touch each part of the many objects she found.",
+        "C": "She felt that the signs she used displayed only part of what she wanted to say.",
+        "D": "She learned only part of what she needed to know about some items in her home."
+      },
+      "correctAnswer": "A",
+      "explanation": "The Latin root communicare means 'to take part in,' suggesting Helen wanted to participate in family activities.",
+      "standard": "ELA.5.V.1.2",
+      "difficulty": "hard",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-13",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "Read this sentence from the article: \"At five I learned to fold and put away the clean clothes when they were brought in from the laundry, and I distinguished my own from the rest.\" Which sentence uses the word fold in the same way as used in the sentence above?",
+      "choices": {
+        "A": "The barking dog herded the stray sheep back into the fold.",
+        "B": "Fold the page on the dotted lines to make it into a paper airplane.",
+        "C": "Our teacher told us to fold our hands and place them on our desks.",
+        "D": "The explorers noticed a shiny object hidden in a small fold in the cave wall."
+      },
+      "correctAnswer": "B",
+      "explanation": "Only option B uses fold to indicate bending an object over upon itself, matching the context of folding clothes.",
+      "standard": "ELA.5.V.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-14",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "Based on the article, why did Helen Keller feel people's lips when they were talking?",
+      "choices": {
+        "A": "She was trying to determine if she knew them.",
+        "B": "She worried that they would not know she was present.",
+        "C": "She wanted them to stop speaking since she could not hear.",
+        "D": "She was using her sense of touch to try to understand them."
+      },
+      "correctAnswer": "D",
+      "explanation": "Keller stood between two persons conversing and touched their lips, revealing she used touch to try to understand them.",
+      "standard": "ELA.5.R.2.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-15",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "Why does Helen Keller include the story about the pantry incident?",
+      "choices": {
+        "A": "to show her newest discovery of how to use a key",
+        "B": "to explain why her parents thought she needed a teacher",
+        "C": "to explain what kinds of memories were most clear to her",
+        "D": "to show that she learned more quickly than others of the same age"
+      },
+      "correctAnswer": "B",
+      "explanation": "Keller connects locking her mother in the pantry to her parents' conviction that she needed a teacher, followed by 'After my teacher, Miss Sullivan, came to me.'",
+      "standard": "ELA.5.R.2.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    },
+    {
+      "id": "read-16",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "What message is presented in the article?",
+      "choices": {
+        "A": "Polite behavior can be the key to an improved life.",
+        "B": "Teamwork is necessary for building a good relationship.",
+        "C": "Imitating others is important but may also cause frustration.",
+        "D": "Being different can be a challenge but can also encourage creativity."
+      },
+      "correctAnswer": "D",
+      "explanation": "Throughout the article, Keller describes creative ways she communicates with her family and participates in daily life despite her differences.",
+      "standard": "ELA.5.R.1.2",
+      "difficulty": "hard",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl538836_gr5rdgstm_tb_wt_r1g.pdf"
+    }
+  ]
+}

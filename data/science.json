@@ -1,0 +1,166 @@
+{
+  "section": "science",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "sci-1",
+      "section": "science",
+      "question": "Ariana uses balloons to investigate static electricity. Which of the following best explains what will happen when she brings two positively charged balloons close to each other?",
+      "choices": {
+        "A": "The balloons will move apart.",
+        "B": "One balloon will lose its charge.",
+        "C": "The balloons will come together.",
+        "D": "One balloon will gain a negative charge."
+      },
+      "correctAnswer": "A",
+      "explanation": "Two objects with the same charge (both positive) repel each other. The balloons will move apart due to electrostatic repulsion.",
+      "standard": "SC.5.P.10.3",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_TestBook.pdf"
+    },
+    {
+      "id": "sci-2",
+      "section": "science",
+      "question": "Mr. Washington mixed iron filings with sand. Then, he asked his students to separate the iron filings from the sand. Which of the following is the best tool to use to separate the iron filings from the sand?",
+      "choices": {
+        "A": "Hand Lens",
+        "B": "Bar Magnet",
+        "C": "Test Tube",
+        "D": "Eyedropper"
+      },
+      "correctAnswer": "B",
+      "explanation": "Iron filings are magnetic and can be separated from sand using a magnet because sand is not magnetic. This uses observable properties (magnetic attraction) to separate the mixture.",
+      "standard": "SC.5.P.8.3",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-3",
+      "section": "science",
+      "question": "Roger collected four rock samples and wrote a description of how each was formed. Which of the following rocks that Roger collected is a metamorphic rock?",
+      "choices": {
+        "A": "Formed from magma that cooled slowly",
+        "B": "Formed by pressure and heat over time",
+        "C": "Formed from lava that cooled quickly",
+        "D": "Formed by pieces of rock cemented together"
+      },
+      "correctAnswer": "B",
+      "explanation": "Metamorphic rocks form under intense heat and pressure, typically deep underground. The description 'formed by pressure and heat over time' is the defining characteristic of metamorphic rocks.",
+      "standard": "SC.4.E.6.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-4",
+      "section": "science",
+      "question": "Jenny measures the outside temperature as 16 degrees Celsius (16°C), 61 degrees Fahrenheit (61°F). She observes precipitation falling from the clouds in a solid form. What type of precipitation is Jenny most likely observing?",
+      "choices": {
+        "A": "hail",
+        "B": "rain",
+        "C": "sleet",
+        "D": "snow"
+      },
+      "correctAnswer": "A",
+      "explanation": "At 16°C (61°F), which is above freezing at ground level, hail is the correct answer because hail forms higher in the atmosphere where temperatures are below freezing, then falls as solid pellets through the warmer air. Snow would occur if surface temperature were near/below freezing; sleet requires below-freezing surface air.",
+      "standard": "SC.5.E.7.4",
+      "difficulty": "hard",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-5",
+      "section": "science",
+      "question": "Erosion and weathering can both cause changes to the surface of Earth. Which of the following happens only because of erosion and NOT because of weathering?",
+      "choices": {
+        "A": "Rocks form deep underground.",
+        "B": "Rocks become smooth and round.",
+        "C": "Rocks are broken apart into small pieces.",
+        "D": "Rocks are moved from one place to another."
+      },
+      "correctAnswer": "D",
+      "explanation": "Erosion is the movement or transport of rock/material. Weathering breaks rock down in place but doesn't move it. Only erosion causes rocks to be moved from one location to another.",
+      "standard": "SC.4.E.6.4",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-6",
+      "section": "science",
+      "question": "Astronomers study many different kinds of objects in our Solar System. Which of the following best describes a difference between comets and asteroids?",
+      "choices": {
+        "A": "Comets orbit planets, and most asteroids orbit the Sun.",
+        "B": "Comets are hot balls of gas, and asteroids are made mostly of ice.",
+        "C": "Comets are made mostly of ice, and asteroids are made mostly of rocks.",
+        "D": "Comets orbit the Sun between Mars and Jupiter, and asteroids form patterns in the sky."
+      },
+      "correctAnswer": "C",
+      "explanation": "Comets are composed of ice, dust, and rock and have elongated orbits. Asteroids are rocky bodies that primarily orbit the Sun between Mars and Jupiter.",
+      "standard": "SC.5.E.5.3",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-7",
+      "section": "science",
+      "question": "The stem is an important part of many plants. Which of the following is most similar to the role performed by the stem of a plant?",
+      "choices": {
+        "A": "an anchor holding a boat in place",
+        "B": "a snack company producing energy bars",
+        "C": "a colorful sign attracting people into a store",
+        "D": "an elevator transporting supplies from one floor to another"
+      },
+      "correctAnswer": "D",
+      "explanation": "The stem transports water and nutrients from the roots to the leaves and flowers, similar to an elevator transporting supplies between floors. It does not anchor (roots do), produce energy (leaves do), or attract (flowers do).",
+      "standard": "SC.3.L.14.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-8",
+      "section": "science",
+      "question": "Plants are classified according to their structures. The plant has simple tubes for transporting water and reproduces without seeds. In which group of plants would this plant be classified?",
+      "choices": {
+        "A": "spore-producing plants with many leaves",
+        "B": "plants that produce fruit on their leaves",
+        "C": "plants that carry seeds on their leaves",
+        "D": "flowering plants with many leaves"
+      },
+      "correctAnswer": "A",
+      "explanation": "Plants that reproduce without seeds but have tubes for water transport (like ferns) produce spores. Spore-producing plants typically have many leaves. Seed-bearing plants are flowering plants or conifers.",
+      "standard": "SC.3.L.15.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-9",
+      "section": "science",
+      "question": "Some organisms live in or near bodies of water. Some are classified as vertebrates and some as invertebrates. Which organism is classified as an invertebrate?",
+      "choices": {
+        "A": "crab",
+        "B": "fish",
+        "C": "manatee",
+        "D": "turtle"
+      },
+      "correctAnswer": "A",
+      "explanation": "A crab is an invertebrate arthropod with an exoskeleton and no internal backbone. Fish have backbones (vertebrates), manatees are mammals with backbones (vertebrates), and turtles are reptiles with backbones (vertebrates).",
+      "standard": "SC.3.L.15.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    },
+    {
+      "id": "sci-10",
+      "section": "science",
+      "question": "A radiometer is a device with fins that spin when light energy comes in contact with them. As part of an experiment, a light source was placed 50 centimeters from a radiometer. The light source gave off four different-colored lights for 30 seconds each. After each color of light was turned off, the spinning time of the fins on the radiometer was recorded. The results: Red = 46 s, Green = 55 s, Blue = 72 s, White = 75 s. Which color of light provided the greatest amount of light energy according to the data in the table?",
+      "choices": {
+        "A": "red",
+        "B": "green",
+        "C": "blue",
+        "D": "white"
+      },
+      "correctAnswer": "D",
+      "explanation": "The white light caused the longest spinning time (75 seconds), indicating it provided the most energy. In science, when data shows a correlation, we interpret longer spinning time as greater energy transfer.",
+      "standard": "SC.5.N.1.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/5663/urlt/Grade5Science_STM_AnswerKey.pdf"
+    }
+  ]
+}

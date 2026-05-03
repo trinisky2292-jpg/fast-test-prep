@@ -1,0 +1,166 @@
+{
+  "section": "figurative",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "fig-1",
+      "section": "figurative",
+      "question": "\"AS PALE AS A GHOST\" means very...",
+      "choices": {
+        "A": "Angry",
+        "B": "Dressed up as a ghost",
+        "C": "Very scary",
+        "D": "Very white"
+      },
+      "correctAnswer": "D",
+      "explanation": "A simile compares two things using 'like' or 'as.' Being pale as a ghost means to be very white or colorless.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-2",
+      "section": "figurative",
+      "question": "\"AS MAD AS A HORNET\" describes someone who is...",
+      "choices": {
+        "A": "To flap your arms like a bug",
+        "B": "Buzzed around",
+        "C": "Extremely upset",
+        "D": "To sting something"
+      },
+      "correctAnswer": "C",
+      "explanation": "This simile compares being angry to a hornet's aggressive behavior, meaning extremely angry or upset.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-3",
+      "section": "figurative",
+      "question": "\"AS SHARP AS A RAZOR\" describes barbed wire that is...",
+      "choices": {
+        "A": "The wire has razors on its ends",
+        "B": "Very pointy",
+        "C": "Very smart",
+        "D": "Has a handle on it"
+      },
+      "correctAnswer": "B",
+      "explanation": "This simile compares the sharpness of wire to a razor blade, indicating it is very sharp and dangerous.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-4",
+      "section": "figurative",
+      "question": "A flashlight beam described as \"AS BRIGHT AS THE MOON\" produces...",
+      "choices": {
+        "A": "Lots of light",
+        "B": "Resembles a moon",
+        "C": "Has craters on it",
+        "D": "Causes dogs to howl at it"
+      },
+      "correctAnswer": "A",
+      "explanation": "The simile compares the brightness of a flashlight to the brightness of the moon, indicating it produces considerable light.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-5",
+      "section": "figurative",
+      "question": "After 15 hours of work, he \"SLEPT LIKE A LOG,\" meaning he...",
+      "choices": {
+        "A": "To nap very still",
+        "B": "To use a log as a pillow",
+        "C": "To nap soundly",
+        "D": "To nap lightly"
+      },
+      "correctAnswer": "C",
+      "explanation": "This simile describes sleeping deeply and heavily, without waking, like an immobile log.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-6",
+      "section": "figurative",
+      "question": "A woman who donates to the shelter has a \"HEART OF GOLD,\" which means she is...",
+      "choices": {
+        "A": "To have a heavy heart",
+        "B": "To be very kind",
+        "C": "To have heart replacement surgery",
+        "D": "To wear a gold necklace"
+      },
+      "correctAnswer": "B",
+      "explanation": "This metaphor directly compares a kind person's character to gold, suggesting great value and kindness.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-7",
+      "section": "figurative",
+      "question": "A speaker has \"COLD FEET\" before giving a speech, which means...",
+      "choices": {
+        "A": "Quickly doing something",
+        "B": "Freezing toes",
+        "C": "Freezing temperatures",
+        "D": "Strong doubt to not do something"
+      },
+      "correctAnswer": "D",
+      "explanation": "This metaphor expresses doubt, hesitation, or fear about doing something (not literal cold feet).",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-8",
+      "section": "figurative",
+      "question": "A troublemaking group in class is called \"A FEW BAD APPLES,\" referring to...",
+      "choices": {
+        "A": "Helpful people",
+        "B": "Troubling people",
+        "C": "Young people",
+        "D": "Loud people"
+      },
+      "correctAnswer": "B",
+      "explanation": "This metaphor compares problematic individuals to spoiled apples that ruin the bunch.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-9",
+      "section": "figurative",
+      "question": "A crumbly muffin described as \"DRY POWDER\" indicates it has...",
+      "choices": {
+        "A": "No moisture",
+        "B": "Delicious",
+        "C": "Hurtful",
+        "D": "Happy"
+      },
+      "correctAnswer": "A",
+      "explanation": "The metaphor compares dry, crumbly texture to powder, indicating lack of moisture.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    },
+    {
+      "id": "fig-10",
+      "section": "figurative",
+      "question": "Karen who earned straight A's is called the \"SHINING STAR\" of her class, meaning she is the...",
+      "choices": {
+        "A": "Principal",
+        "B": "Teacher",
+        "C": "Struggling student",
+        "D": "Best student"
+      },
+      "correctAnswer": "D",
+      "explanation": "The metaphor compares an excellent student to a bright star, the most prominent and notable.",
+      "standard": "ELA.5.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.educationquizzes.com/us/elementary-school-3rd-4th-and-5th-grade/english-language-arts/grade-5-language-figurative-language/"
+    }
+  ]
+}

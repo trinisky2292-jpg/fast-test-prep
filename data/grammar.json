@@ -1,0 +1,358 @@
+{
+  "section": "grammar",
+  "questionCount": 22,
+  "questions": [
+    {
+      "id": "gram-1",
+      "section": "grammar",
+      "question": "Choose the correct verb: \"All of his books _____ worth reading.\"",
+      "choices": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "be"
+      },
+      "correctAnswer": "B",
+      "explanation": "A plural subject ('books') takes the plural verb 'are.'",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/subject-verb-agreement-exercise-2/"
+    },
+    {
+      "id": "gram-2",
+      "section": "grammar",
+      "question": "Choose the correct verb: \"A lot of work _____ to be done.\"",
+      "choices": {
+        "A": "need",
+        "B": "needs",
+        "C": "are needing",
+        "D": "have needed"
+      },
+      "correctAnswer": "B",
+      "explanation": "When 'a lot of' is followed by an uncountable noun like 'work,' the verb is singular.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/subject-verb-agreement-exercise-2/"
+    },
+    {
+      "id": "gram-3",
+      "section": "grammar",
+      "question": "Choose the correct verb: \"A lot of people _____ in ghosts.\"",
+      "choices": {
+        "A": "believes",
+        "B": "is believing",
+        "C": "believe",
+        "D": "was believing"
+      },
+      "correctAnswer": "C",
+      "explanation": "When 'a lot of' is followed by a plural noun like 'people,' the verb is plural.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/subject-verb-agreement-exercise-2/"
+    },
+    {
+      "id": "gram-4",
+      "section": "grammar",
+      "question": "Choose the correct verb: \"I _____ Tokyo last summer.\"",
+      "choices": {
+        "A": "visit",
+        "B": "visited",
+        "C": "will visit",
+        "D": "am visiting"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Last summer' signals simple past tense; 'visited' is the past form.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/tenses-exercise/"
+    },
+    {
+      "id": "gram-5",
+      "section": "grammar",
+      "question": "Choose the correct verb: \"Every morning I _____ the paper.\"",
+      "choices": {
+        "A": "read",
+        "B": "will read",
+        "C": "would read",
+        "D": "have read"
+      },
+      "correctAnswer": "A",
+      "explanation": "Habits and routines use simple present tense.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/tenses-exercise/"
+    },
+    {
+      "id": "gram-6",
+      "section": "grammar",
+      "question": "Choose the correct verb: \"When I saw him he _____ writing a letter.\"",
+      "choices": {
+        "A": "is",
+        "B": "has been",
+        "C": "was",
+        "D": "will be"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Saw' is past simple, so the second verb takes past continuous 'was writing.'",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/tenses-exercise/"
+    },
+    {
+      "id": "gram-7",
+      "section": "grammar",
+      "question": "Add the correct punctuation: \"We had a great time in France ___ the kids really enjoyed it.\"",
+      "choices": {
+        "A": "no punctuation, leave as one sentence",
+        "B": "period after 'France,' capital 'T' on 'the'",
+        "C": "comma after 'France'",
+        "D": "semicolon after 'France' with no other change"
+      },
+      "correctAnswer": "B",
+      "explanation": "These are two complete thoughts; separate them with a period and start the next thought with a capital letter to avoid a run-on.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/punctuation-exercise/"
+    },
+    {
+      "id": "gram-8",
+      "section": "grammar",
+      "question": "Add the correct punctuation: \"Some people work best in the mornings ___ others do better in the evenings.\"",
+      "choices": {
+        "A": ", (comma)",
+        "B": "; (semicolon)",
+        "C": "and (no punctuation)",
+        "D": ": (colon)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Two related independent clauses joined without a conjunction take a semicolon.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": "https://www.englishgrammar.org/punctuation-exercise/"
+    },
+    {
+      "id": "gram-9",
+      "section": "grammar",
+      "question": "Rewrite this sentence with correct capitalization: \"i met john at the post office\"",
+      "choices": {
+        "A": "I met john at the post office.",
+        "B": "I met John at the post office.",
+        "C": "i met John at the post office.",
+        "D": "I Met John At The Post Office."
+      },
+      "correctAnswer": "B",
+      "explanation": "Capitalize the first word of a sentence ('I') and proper nouns ('John'). 'Post office' is a common noun and is not capitalized.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/punctuation-capitalization-exercise-beginner-level/"
+    },
+    {
+      "id": "gram-10",
+      "section": "grammar",
+      "question": "Rewrite this sentence with correct capitalization: \"chinese is difficult to learn\"",
+      "choices": {
+        "A": "Chinese is difficult to learn.",
+        "B": "chinese is Difficult to learn.",
+        "C": "Chinese Is Difficult To Learn.",
+        "D": "chinese is difficult to Learn."
+      },
+      "correctAnswer": "A",
+      "explanation": "Capitalize the first word of a sentence and proper nouns including languages ('Chinese').",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/punctuation-capitalization-exercise-beginner-level/"
+    },
+    {
+      "id": "gram-11",
+      "section": "grammar",
+      "question": "Rewrite this sentence with correct capitalization: \"miss sophia is my teacher\"",
+      "choices": {
+        "A": "miss Sophia is my teacher.",
+        "B": "Miss sophia is my teacher.",
+        "C": "Miss Sophia is my teacher.",
+        "D": "Miss Sophia Is My Teacher."
+      },
+      "correctAnswer": "C",
+      "explanation": "Capitalize the title ('Miss') and the proper noun ('Sophia'), plus the first word of the sentence.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/punctuation-capitalization-exercise-beginner-level/"
+    },
+    {
+      "id": "gram-12",
+      "section": "grammar",
+      "question": "What is the full form of the underlined word? \"He's just gone out.\"",
+      "choices": {
+        "A": "He was",
+        "B": "He is",
+        "C": "He has",
+        "D": "He will"
+      },
+      "correctAnswer": "C",
+      "explanation": "In this sentence 'He's' stands for 'He has' because of the perfect-tense 'gone.'",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": "https://www.englishgrammar.org/remove-apostrophe/"
+    },
+    {
+      "id": "gram-13",
+      "section": "grammar",
+      "question": "What is the full form of the underlined word? \"It's raining.\"",
+      "choices": {
+        "A": "It is",
+        "B": "It has",
+        "C": "It was",
+        "D": "Its"
+      },
+      "correctAnswer": "A",
+      "explanation": "'It's' = 'It is.' (Note: 'its' without an apostrophe is the possessive form.)",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/remove-apostrophe/"
+    },
+    {
+      "id": "gram-14",
+      "section": "grammar",
+      "question": "What is the full form of the underlined word? \"I can't give an explanation.\"",
+      "choices": {
+        "A": "can not",
+        "B": "cannot",
+        "C": "could not",
+        "D": "can has not"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Can't' is the contraction of 'cannot' (one word).",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/remove-apostrophe/"
+    },
+    {
+      "id": "gram-15",
+      "section": "grammar",
+      "question": "Choose the correct conjunction: \"He must be punished _____ he is guilty.\"",
+      "choices": {
+        "A": "so",
+        "B": "because",
+        "C": "but",
+        "D": "or"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Because' introduces a reason (subordinating conjunction).",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/conjunctions-exercise/"
+    },
+    {
+      "id": "gram-16",
+      "section": "grammar",
+      "question": "Choose the correct conjunction: \"I waited for him _____ the clock struck seven.\"",
+      "choices": {
+        "A": "until",
+        "B": "unless",
+        "C": "up to",
+        "D": "so"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Until' shows the time something stopped happening.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/conjunctions-exercise/"
+    },
+    {
+      "id": "gram-17",
+      "section": "grammar",
+      "question": "Choose the correct conjunction: \"_____ you do not apologize, I shall punish you.\"",
+      "choices": {
+        "A": "Although",
+        "B": "Because",
+        "C": "If",
+        "D": "So"
+      },
+      "correctAnswer": "C",
+      "explanation": "'If' introduces a condition that must be met (subordinating conjunction).",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/conjunctions-exercise/"
+    },
+    {
+      "id": "gram-18",
+      "section": "grammar",
+      "question": "Which is the best way to fix this run-on sentence: \"We had a great time in France the kids really enjoyed it\"?",
+      "choices": {
+        "A": "Leave it as it is — it reads fine.",
+        "B": "We had a great time in France, the kids really enjoyed it.",
+        "C": "We had a great time in France. The kids really enjoyed it.",
+        "D": "We had a great time in France the kids, really enjoyed it."
+      },
+      "correctAnswer": "C",
+      "explanation": "Two complete thoughts must be separated with a period (or a semicolon or a comma + conjunction). A comma alone (choice B) creates a comma splice, another type of run-on.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/punctuation-exercise/"
+    },
+    {
+      "id": "gram-19",
+      "section": "grammar",
+      "question": "Which is the best way to fix this run-on: \"Some people work best in the mornings others do better in the evenings\"?",
+      "choices": {
+        "A": "Some people work best in the mornings, others do better in the evenings.",
+        "B": "Some people work best in the mornings; others do better in the evenings.",
+        "C": "Some, people work best in the mornings others do better, in the evenings.",
+        "D": "Some people work best, in the mornings others do better in the evenings."
+      },
+      "correctAnswer": "B",
+      "explanation": "A semicolon correctly joins two related independent clauses. Choice A is a comma splice.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": "https://www.englishgrammar.org/punctuation-exercise/"
+    },
+    {
+      "id": "gram-20",
+      "section": "grammar",
+      "question": "Choose the correct pronoun: \"We are going to the movies. Would you like to come with _____?\"",
+      "choices": {
+        "A": "we",
+        "B": "us",
+        "C": "our",
+        "D": "ours"
+      },
+      "correctAnswer": "B",
+      "explanation": "After the preposition 'with,' use the object pronoun 'us.'",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.englishgrammar.org/pronouns-exercise/"
+    },
+    {
+      "id": "gram-21",
+      "section": "grammar",
+      "question": "Choose the correct pronoun: \"Diana is one player _____ may beat me.\"",
+      "choices": {
+        "A": "who",
+        "B": "whom",
+        "C": "which",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Who' is the subject of the verb 'may beat' in the relative clause.",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": "https://www.englishgrammar.org/pronouns-exercise/"
+    },
+    {
+      "id": "gram-22",
+      "section": "grammar",
+      "question": "Choose the correct pronoun: \"An argument developed between his sister and _____.\"",
+      "choices": {
+        "A": "he",
+        "B": "him",
+        "C": "his",
+        "D": "himself"
+      },
+      "correctAnswer": "B",
+      "explanation": "After the preposition 'between,' use the object pronoun 'him.'",
+      "standard": "ELA.5.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.englishgrammar.org/pronouns-exercise/"
+    }
+  ]
+}

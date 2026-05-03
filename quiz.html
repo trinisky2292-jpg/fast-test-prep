@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — Quiz</title>
+    <style>
+        :root {
+            --primary: #4CAF50;
+            --secondary: #2196F3;
+            --accent: #FFC107;
+            --background: #F5F5F5;
+            --text: #212121;
+            --light-text: #757575;
+            --white: #ffffff;
+            --correct: #4CAF50;
+            --incorrect: #F44336;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--white);
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .header-left a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .header-center {
+            flex: 1;
+            text-align: center;
+            font-weight: 600;
+        }
+        .header-right {
+            /* Timer placeholder */
+            font-size: 0.9rem;
+            color: var(--light-text);
+        }
+        /* Reading layout: two columns */
+        .reading-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .passage-panel {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        .passage-panel h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: var(--secondary);
+        }
+        .question-panel {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        /* For non-reading sections, we use a single column */
+        .single-column {
+            display: block;
+        }
+        .question-text {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+        .choices {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .choice-btn {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            background: var(--white);
+            border: 2px solid var(--light-text);
+            border-radius: 12px;
+            padding: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-height: 70px;
+        }
+        .choice-btn:hover {
+            border-color: var(--primary);
+            background: #f0fff0;
+        }
+        .choice-btn.selected {
+            border-color: var(--primary);
+            background: #e8f5e9;
+        }
+        .choice-btn .choice-letter {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: var(--primary);
+        }
+        .choice-btn .choice-text {
+            font-size: 1.1rem;
+        }
+        .feedback {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        .feedback.correct {
+            background: #e8f5e9;
+            color: var(--correct);
+            border: 1px solid var(--correct);
+        }
+        .feedback.incorrect {
+            background: #ffebee;
+            color: var(--incorrect);
+            border: 1px solid var(--incorrect);
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            background: var(--primary);
+            color: var(--white);
+            border: none;
+            padding: 1rem;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background 0.2s;
+            min-height: 60px;
+        }
+        .submit-btn:disabled {
+            background: var(--light-text);
+            cursor: not-allowed;
+        }
+        .submit-btn:hover:not(:disabled) {
+            background: #43a047;
+        }
+        .progress-dots {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+        .dot {
+            width: 12px;
+            height: 12px;
+            background: var(--light-text);
+            border-radius: 50%;
+        }
+        .dot.active {
+            background: var(--primary);
+        }
+        .dot.filled {
+            background: var(--secondary);
+        }
+        @media (max-width: 768px) {
+            .reading-layout {
+                grid-template-columns: 1fr;
+            }
+            .passage-panel {
+                order: -1;
+                max-height: 40vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <div class="header-left">
+                <a href="index.html">← Back</a>
+            </div>
+            <div class="header-center" id="header-center">
+                Section: Question 1 of 1
+            </div>
+            <div class="header-right" id="header-right">
+                Timer: 00:00
+            </div>
+        </header>
+
+        <main id="main-content">
+            <!-- Content will be injected by JavaScript -->
+        </main>
+
+        <button id="submit-btn" class="submit-btn" disabled>Submit Answer</button>
+    </div>
+
+    <script>
+        // Helper to get URL parameter
+        const getQueryParam = (param) => {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        };
+
+        const section = getQueryParam('section') || 'math'; // default to math for testing
+        let questions = [];
+        let passages = []; // for reading section
+        let currentQuestionIndex = 0;
+        let answers = []; // stores the selected answer for each question index
+        let feedbackShown = false;
+
+        // Fetch the JSON data for the section
+        fetch(`/data/${section}.json`)
+            .then(response => response.json())
+            .then(data => {
+                if (section === 'reading') {
+                    passages = data.passages || [];
+                    questions = data.questions || [];
+                } else {
+                    questions = data.questions || [];
+                }
+                initQuiz();
+            })
+            .catch(err => {
+                console.error('Failed to load questions:', err);
+                document.getElementById('main-content').innerHTML = '<p>Error loading questions. Please try again.</p>';
+            });
+
+        function initQuiz() {
+            if (questions.length === 0) {
+                document.getElementById('main-content').innerHTML = '<p>No questions available for this section.</p>';
+                return;
+            }
+            renderHeader();
+            renderQuestion();
+        }
+
+        function renderHeader() {
+            document.getElementById('header-center').textContent = 
+                `${section.charAt(0).toUpperCase() + section.slice(1)}: Question ${currentQuestionIndex + 1} of ${questions.length}`;
+        }
+
+        function renderQuestion() {
+            const mainContent = document.getElementById('main-content');
+            const questionObj = questions[currentQuestionIndex];
+
+            // Reset feedback state
+            feedbackShown = false;
+            document.getElementById('submit-btn').disabled = true;
+            document.getElementById('submit-btn').textContent = 'Submit Answer';
+
+            if (section === 'reading') {
+                // Find the passage for this question
+                const passageId = questionObj.passageId;
+                const passage = passages.find(p => p.id === passageId) || {title: 'Unknown Passage', text: 'Passage not found.'};
+
+                mainContent.innerHTML = `
+                    <div class="reading-layout">
+                        <div class="passage-panel">
+                            <h3>${passage.title}</h3>
+                            <div class="passage-text">${passage.text}</div>
+                        </div>
+                        <div class="question-panel">
+                            <div class="question-text">${questionObj.question}</div>
+                            <div class="choices" id="choices-container">
+                                ${Object.entries(questionObj.choices).map(([key, text]) => `
+                                    <div class="choice-btn" data-choice="${key}">
+                                        <div class="choice-letter">${key}</div>
+                                        <div class="choice-text">${text}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="feedback" id="feedback"></div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                mainContent.innerHTML = `
+                    <div class="single-column">
+                        <div class="question-panel">
+                            <div class="question-text">${questionObj.question}</div>
+                            <div class="choices" id="choices-container">
+                                ${Object.entries(questionObj.choices).map(([key, text]) => `
+                                    <div class="choice-btn" data-choice="${key}">
+                                        <div class="choice-letter">${key}</div>
+                                        <div class="choice-text">${text}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="feedback" id="feedback"></div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Add event listeners to choice buttons
+            document.querySelectorAll('.choice-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Deselect all
+                    document.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
+                    // Select this one
+                    btn.classList.add('selected');
+                    // Enable submit button
+                    document.getElementById('submit-btn').disabled = false;
+                });
+            });
+
+            // Update progress dots
+            renderProgressDots();
+        }
+
+        function renderProgressDots() {
+            // We'll add progress dots below the submit button for now
+            const submitBtn = document.getElementById('submit-btn');
+            const existing = document.querySelector('.progress-dots');
+            if (existing) existing.remove();
+
+            const dotsContainer = document.createElement('div');
+            dotsContainer.className = 'progress-dots';
+            for (let i = 0; i < questions.length; i++) {
+                const dot = document.createElement('div');
+                dot.className = 'dot';
+                if (i < currentQuestionIndex) {
+                    dot.classList.add('filled'); // answered
+                } else if (i === currentQuestionIndex) {
+                    dot.classList.add('active'); // current
+                }
+                dotsContainer.appendChild(dot);
+            }
+            submitBtn.insertAdjacentElement('afterend', dotsContainer);
+        }
+
+        // Submit button handler
+        document.getElementById('submit-btn').addEventListener('click', () => {
+            if (feedbackShown) {
+                // If feedback is shown, clicking goes to next question
+                goToNextQuestion();
+                return;
+            }
+
+            // Get selected choice
+            const selectedBtn = document.querySelector('.choice-btn.selected');
+            if (!selectedBtn) return;
+
+            const selectedChoice = selectedBtn.getAttribute('data-choice');
+            const questionObj = questions[currentQuestionIndex];
+            const correctChoice = questionObj.correctAnswer;
+
+            // Record answer
+            answers[currentQuestionIndex] = selectedChoice;
+
+            // Show feedback
+            const feedbackEl = document.getElementById('feedback');
+            if (selectedChoice === correctChoice) {
+                feedbackEl.className = 'feedback correct';
+                feedbackEl.textContent = '✓ Correct!';
+            } else {
+                feedbackEl.className = 'feedback incorrect';
+                feedbackEl.textContent = `✗ Incorrect — correct answer was ${correctChoice}`;
+            }
+
+            // Change button to Next Question
+            document.getElementById('submit-btn').textContent = 'Next Question';
+            feedbackShown = true;
+
+            // Update progress dots (mark current as filled)
+            const dots = document.querySelectorAll('.dot');
+            if (dots[currentQuestionIndex]) {
+                dots[currentQuestionIndex].classList.add('filled');
+                dots[currentQuestionIndex].classList.remove('active');
+            }
+        });
+
+        function goToNextQuestion() {
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                renderHeader();
+                renderQuestion();
+            } else {
+                // Quiz complete - save session data and redirect to results
+                const score = answers.filter((ans, idx) => ans === questions[idx].correctAnswer).length;
+                const total = questions.length;
+                const percentage = Math.round((score / total) * 100);
+                
+                // Generate session ID
+                const sessionId = 'sess-' + Date.now();
+                
+                // Prepare session data
+                const sessionData = {
+                    section: section,
+                    score: score,
+                    total: total,
+                    percentage: percentage,
+                    answers: answers.map((selected, idx) => ({
+                        questionId: questions[idx].id,
+                        selected: selected,
+                        correct: questions[idx].correctAnswer,
+                        isCorrect: selected === questions[idx].correctAnswer,
+                        standard: questions[idx].standard,
+                        questionText: questions[idx].question
+                    })),
+                    completedAt: Date.now()
+                };
+                
+                // Save session record
+                try {
+                    localStorage.setItem(`fast-session-${sessionId}`, JSON.stringify(sessionData));
+                } catch (e) { console.error('session save failed:', e); }
+
+                // Update aggregate weak-areas tracker (used by My Weak Areas screen)
+                try {
+                    const wa = JSON.parse(localStorage.getItem('fast-weak-areas') || '{}');
+                    sessionData.answers.forEach(a => {
+                        const std = a.standard || 'unknown';
+                        if (!wa[std]) wa[std] = { wrongCount: 0, totalCount: 0, lastSeen: null };
+                        wa[std].totalCount += 1;
+                        if (!a.isCorrect) wa[std].wrongCount += 1;
+                        wa[std].lastSeen = new Date().toISOString();
+                    });
+                    localStorage.setItem('fast-weak-areas', JSON.stringify(wa));
+                } catch (e) { console.error('weak-areas save failed:', e); }
+
+                // Track session list
+                try {
+                    const sessions = JSON.parse(localStorage.getItem('fast-sessions-list') || '[]');
+                    sessions.push({ sessionId, section, score, total, percentage, completedAt: sessionData.completedAt });
+                    localStorage.setItem('fast-sessions-list', JSON.stringify(sessions));
+                } catch (e) { console.error('sessions list save failed:', e); }
+
+                // Redirect to results page
+                window.location.href = `results.html?session=${sessionId}`;
+            }
+        }
+    </script>
+</body>
+</html>
