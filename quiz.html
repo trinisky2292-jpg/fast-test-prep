@@ -230,7 +230,7 @@
         let feedbackShown = false;
 
         // Fetch the JSON data for the section
-        fetch(`/data/${section}.json`)
+        fetch(`data/${section}.json`)
             .then(response => response.json())
             .then(data => {
                 if (section === 'reading') {
