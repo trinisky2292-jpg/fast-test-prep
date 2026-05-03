@@ -295,13 +295,14 @@
         }
 
         // --- LLM calls ---
-        async function callOpenRouter(messages, primaryModel) {
+        async function callOpenRouter(messages, primaryModel, onProgress) {
             const modelsToTry = autoFallback
                 ? [primaryModel, ...FALLBACK_MODELS.filter(m => m !== primaryModel)]
                 : [primaryModel];
 
             let lastError = null;
             for (const model of modelsToTry) {
+                if (onProgress) onProgress(`Trying ${model.split('/')[1] || model}…`);
                 try {
                     const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
                         method: 'POST',
@@ -315,27 +316,30 @@
                             model,
                             messages,
                             temperature: 0.7,
-                            max_tokens: 800
+                            max_tokens: 1500,
+                            response_format: { type: 'json_object' }
                         })
                     });
                     if (!res.ok) {
                         const errText = await res.text();
-                        lastError = `${model}: ${res.status} ${errText}`;
+                        console.warn(`${model} failed: ${res.status}`, errText);
+                        lastError = `${model}: HTTP ${res.status}`;
                         continue;
                     }
                     const data = await res.json();
                     const content = data.choices?.[0]?.message?.content;
-                    if (!content) {
+                    if (!content || !content.trim()) {
                         lastError = `${model}: empty response`;
                         continue;
                     }
                     return { content, model };
                 } catch (e) {
+                    console.warn(`${model} threw:`, e.message);
                     lastError = `${model}: ${e.message}`;
                     continue;
                 }
             }
-            throw new Error('All models failed. Last: ' + lastError);
+            throw new Error('All models failed. Last error: ' + lastError);
         }
 
         function extractJson(text) {
@@ -383,9 +387,9 @@ The question should be appropriate for a 10-11 year old. Make it challenging but
             ];
         }
 
-        async function generateQuestion(section) {
+        async function generateQuestion(section, onProgress) {
             const messages = buildGeneratorPrompt(section);
-            const { content, model } = await callOpenRouter(messages, generatorModel);
+            const { content, model } = await callOpenRouter(messages, generatorModel, onProgress);
             const q = extractJson(content);
             // Sanity check shape
             if (!q.question || !q.choices || !q.correctAnswer) {
@@ -435,42 +439,25 @@ Return ONLY this JSON (no extra text):
             hideStatus();
             document.getElementById('quiz-card').style.display = 'none';
             document.getElementById('loader').style.display = 'flex';
-            document.getElementById('loader-text').textContent = 'Generating question…';
+            const loaderText = document.getElementById('loader-text');
+            loaderText.textContent = 'Generating question…';
             selectedChoice = null;
 
-            let q = null;
-            let attempts = 0;
-            while (attempts < 3 && !q) {
-                attempts++;
-                try {
-                    document.getElementById('loader-text').textContent = `Generating question (attempt ${attempts})…`;
-                    const candidate = await generateQuestion(currentSection);
-                    document.getElementById('loader-text').textContent = 'Validating with second LLM…';
-                    const v = await validateQuestion(candidate);
-                    if (v.isValid) {
-                        q = candidate;
-                    } else {
-                        console.warn('Validator rejected:', v.reason);
-                    }
-                } catch (e) {
-                    console.error('Generation attempt failed:', e.message);
-                    if (attempts >= 3) {
-                        showStatus('error', `Couldn't generate a valid question: ${e.message}`);
-                        document.getElementById('loader').style.display = 'none';
-                        return;
-                    }
-                }
-            }
-            if (!q) {
-                showStatus('error', 'Could not generate a valid question after 3 tries. Try a different section or check your API key.');
-                document.getElementById('loader').style.display = 'none';
-                return;
-            }
+            const setProgress = (msg) => { loaderText.textContent = msg; };
 
-            currentQuestion = q;
-            renderQuestion(q);
-            document.getElementById('loader').style.display = 'none';
-            document.getElementById('quiz-card').style.display = 'block';
+            try {
+                const q = await generateQuestion(currentSection, setProgress);
+                currentQuestion = q;
+                renderQuestion(q);
+                document.getElementById('loader').style.display = 'none';
+                document.getElementById('quiz-card').style.display = 'block';
+            } catch (e) {
+                console.error('Generation failed:', e);
+                document.getElementById('loader').style.display = 'none';
+                showStatus('error', `Couldn't generate question: ${e.message}. Try changing the model in Settings, or check your API key has free credits.`);
+                document.getElementById('section-picker').style.display = 'block';
+            }
+            return;
         }
 
         function renderQuestion(q) {
