@@ -229,6 +229,60 @@
         let answers = []; // stores the selected answer for each question index
         let feedbackShown = false;
 
+        // ---- Timer ----
+        const timerSeconds = (() => {
+            try { return parseInt(JSON.parse(localStorage.getItem('fast-timer-per-question') || '0'), 10) || 0; }
+            catch (e) { return 0; }
+        })();
+        let timerInterval = null;
+        let timerRemaining = 0;
+
+        function formatTime(s) {
+            const m = Math.floor(s / 60).toString().padStart(2, '0');
+            const sec = (s % 60).toString().padStart(2, '0');
+            return `${m}:${sec}`;
+        }
+
+        function stopTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
+
+        function startTimer() {
+            stopTimer();
+            const headerRight = document.getElementById('header-right');
+            if (timerSeconds === 0) {
+                if (headerRight) headerRight.textContent = '';
+                return;
+            }
+            timerRemaining = timerSeconds;
+            const tick = () => {
+                if (headerRight) {
+                    headerRight.textContent = `⏱️ ${formatTime(timerRemaining)}`;
+                    if (timerRemaining <= 30) headerRight.style.color = '#F44336';
+                    else headerRight.style.color = '';
+                }
+                if (timerRemaining <= 0) {
+                    stopTimer();
+                    // Auto-submit current question (with whatever is selected, or null)
+                    const submitBtn = document.getElementById('submit-btn');
+                    if (submitBtn && submitBtn.textContent === 'Next Question') {
+                        submitBtn.click();
+                    } else if (submitBtn) {
+                        // Force submit even if disabled
+                        submitBtn.disabled = false;
+                        submitBtn.click();
+                    }
+                    return;
+                }
+                timerRemaining--;
+            };
+            tick();
+            timerInterval = setInterval(tick, 1000);
+        }
+
         // Fetch the JSON data for the section
         fetch(`data/${section}.json`)
             .then(response => response.json())
@@ -268,6 +322,9 @@
             feedbackShown = false;
             document.getElementById('submit-btn').disabled = true;
             document.getElementById('submit-btn').textContent = 'Submit Answer';
+
+            // Start fresh timer for this question
+            startTimer();
 
             if (section === 'reading') {
                 // Find the passage for this question
@@ -358,11 +415,12 @@
                 return;
             }
 
-            // Get selected choice
-            const selectedBtn = document.querySelector('.choice-btn.selected');
-            if (!selectedBtn) return;
+            // Stop timer the moment they submit
+            stopTimer();
 
-            const selectedChoice = selectedBtn.getAttribute('data-choice');
+            // Get selected choice (or null if timer expired with nothing picked)
+            const selectedBtn = document.querySelector('.choice-btn.selected');
+            const selectedChoice = selectedBtn ? selectedBtn.getAttribute('data-choice') : null;
             const questionObj = questions[currentQuestionIndex];
             const correctChoice = questionObj.correctAnswer;
 
@@ -371,7 +429,10 @@
 
             // Show feedback
             const feedbackEl = document.getElementById('feedback');
-            if (selectedChoice === correctChoice) {
+            if (selectedChoice === null) {
+                feedbackEl.className = 'feedback incorrect';
+                feedbackEl.textContent = `⏱️ Time's up! Correct answer was ${correctChoice}`;
+            } else if (selectedChoice === correctChoice) {
                 feedbackEl.className = 'feedback correct';
                 feedbackEl.textContent = '✓ Correct!';
             } else {

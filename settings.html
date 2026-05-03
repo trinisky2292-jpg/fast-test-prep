@@ -307,6 +307,25 @@
         </div>
 
         <div class="section">
+            <h2>Test Timer</h2>
+            <div class="form-group">
+                <label for="timer-per-question">Time per question:</label>
+                <select id="timer-per-question">
+                    <option value="0">No timer (untimed)</option>
+                    <option value="120">2 minutes per question</option>
+                    <option value="180">3 minutes per question</option>
+                    <option value="300">5 minutes per question</option>
+                    <option value="360">6 minutes per question</option>
+                    <option value="480">8 minutes per question</option>
+                    <option value="600">10 minutes per question</option>
+                </select>
+                <small style="display:block; margin-top:0.5rem; color:var(--light-text);">When timer hits zero, the question auto-submits with whatever answer is selected (or no answer).</small>
+            </div>
+            <button class="btn btn-primary" id="save-timer-btn">Save Timer Setting</button>
+            <div class="status" id="timer-status"></div>
+        </div>
+
+        <div class="section">
             <h2>Advanced Settings</h2>
             <div class="form-group toggle-container">
                 <input type="checkbox" id="auto-fallback">
@@ -399,6 +418,13 @@
             showStatus('validator-status', 'success', 'Validator model saved!');
         });
 
+        // Save Timer Setting
+        document.getElementById('save-timer-btn').addEventListener('click', () => {
+            const seconds = parseInt(document.getElementById('timer-per-question').value, 10);
+            saveToStorage('fast-timer-per-question', seconds);
+            showStatus('timer-status', 'success', seconds === 0 ? 'Timer disabled — questions are untimed.' : `Timer saved: ${seconds/60} min per question.`);
+        });
+
         // Save Fallback Setting
         document.getElementById('save-fallback-btn').addEventListener('click', () => {
             const fallback = document.getElementById('auto-fallback').checked;
@@ -426,6 +452,10 @@
             // Load fallback setting
             const autoFallback = getFromStorage('fast-auto-fallback', true);
             document.getElementById('auto-fallback').checked = autoFallback;
+
+            // Load timer setting
+            const timerSeconds = getFromStorage('fast-timer-per-question', 0);
+            document.getElementById('timer-per-question').value = timerSeconds;
         });
 
         // ---- Account: Change Password + Logout ----

@@ -194,6 +194,7 @@
     <div class="container">
         <header>
             <h1>AI Practice</h1>
+            <div id="header-right" style="font-weight:600;font-size:1.1rem;"></div>
             <a href="index.html">← Home</a>
         </header>
 
@@ -246,6 +247,50 @@
             const v = localStorage.getItem(k);
             return v !== null ? JSON.parse(v) : def;
         };
+
+        // Timer config (per question, seconds; 0 = off)
+        const timerSeconds = (() => {
+            try { return parseInt(JSON.parse(localStorage.getItem('fast-timer-per-question') || '0'), 10) || 0; }
+            catch (e) { return 0; }
+        })();
+        let timerInterval = null;
+        let timerRemaining = 0;
+
+        function formatTime(s) {
+            const m = Math.floor(s / 60).toString().padStart(2, '0');
+            const sec = (s % 60).toString().padStart(2, '0');
+            return `${m}:${sec}`;
+        }
+        function stopTimer() {
+            if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+        }
+        function startTimer() {
+            stopTimer();
+            const headerRight = document.getElementById('header-right');
+            if (timerSeconds === 0) { if (headerRight) headerRight.textContent = ''; return; }
+            timerRemaining = timerSeconds;
+            const tick = () => {
+                if (headerRight) {
+                    headerRight.textContent = `⏱️ ${formatTime(timerRemaining)}`;
+                    if (timerRemaining <= 30) headerRight.style.color = '#F44336';
+                    else headerRight.style.color = '';
+                }
+                if (timerRemaining <= 0) {
+                    stopTimer();
+                    const submitBtn = document.getElementById('submit-btn');
+                    if (submitBtn && submitBtn.textContent === 'Next Question') {
+                        submitBtn.click();
+                    } else if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.click();
+                    }
+                    return;
+                }
+                timerRemaining--;
+            };
+            tick();
+            timerInterval = setInterval(tick, 1000);
+        }
 
         const apiKey = getStore('fast-openrouter-key');
         const generatorModel = getStore('fast-generator-model', 'meta-llama/llama-3.3-70b-instruct:free');
@@ -541,6 +586,7 @@ Return ONLY this JSON (no extra text):
             submitBtn.textContent = 'Submit Answer';
             submitBtn.disabled = true;
             document.getElementById('finish-btn').style.display = 'none';
+            startTimer();
         }
 
         function selectChoice(letter, btn) {
@@ -551,9 +597,9 @@ Return ONLY this JSON (no extra text):
         }
 
         document.getElementById('submit-btn').addEventListener('click', () => {
-            if (!selectedChoice) return;
             const submitBtn = document.getElementById('submit-btn');
             if (submitBtn.textContent === 'Next Question') {
+                stopTimer();
                 currentIndex++;
                 if (currentIndex >= QUESTIONS_PER_ROUND) {
                     finishRound();
@@ -563,8 +609,10 @@ Return ONLY this JSON (no extra text):
                 return;
             }
 
-            // Grade
-            const isCorrect = selectedChoice === currentQuestion.correctAnswer;
+            stopTimer();
+
+            // Grade (selectedChoice may be null if timer expired without an answer)
+            const isCorrect = selectedChoice !== null && selectedChoice === currentQuestion.correctAnswer;
             if (isCorrect) score++;
 
             answers.push({
@@ -589,9 +637,13 @@ Return ONLY this JSON (no extra text):
 
             const fb = document.getElementById('feedback-box');
             fb.className = `feedback-box ${isCorrect ? 'correct' : 'incorrect'}`;
-            fb.innerHTML = isCorrect
-                ? `<strong>Correct!</strong> ${currentQuestion.explanation || ''}`
-                : `<strong>Not quite.</strong> The correct answer is ${currentQuestion.correctAnswer}. ${currentQuestion.explanation || ''}`;
+            if (selectedChoice === null) {
+                fb.innerHTML = `<strong>⏱️ Time's up!</strong> The correct answer is ${currentQuestion.correctAnswer}. ${currentQuestion.explanation || ''}`;
+            } else if (isCorrect) {
+                fb.innerHTML = `<strong>Correct!</strong> ${currentQuestion.explanation || ''}`;
+            } else {
+                fb.innerHTML = `<strong>Not quite.</strong> The correct answer is ${currentQuestion.correctAnswer}. ${currentQuestion.explanation || ''}`;
+            }
             fb.style.display = 'block';
 
             if (currentIndex + 1 >= QUESTIONS_PER_ROUND) {
