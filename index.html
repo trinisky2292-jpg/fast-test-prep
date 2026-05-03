@@ -156,9 +156,33 @@
         </div>
         <div class="header-right">
             <a href="settings.html">Settings</a>
-            <a href="#" class="sign-in">Sign In</a>
+            <a href="#" id="auth-link" class="sign-in">Sign In</a>
         </div>
     </header>
+
+    <script>
+    (function() {
+        // Auth gate — must be logged in to use the app
+        const currentUser = localStorage.getItem('fast-current-user');
+        if (!currentUser) {
+            window.location.href = 'login.html';
+            return;
+        }
+        // Show username + logout
+        const greeting = document.querySelector('.header-left p');
+        if (greeting) greeting.textContent = `Hi ${currentUser}! Ready to practice for the FAST?`;
+        const authLink = document.getElementById('auth-link');
+        if (authLink) {
+            authLink.textContent = 'Log Out';
+            authLink.href = '#';
+            authLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                localStorage.removeItem('fast-current-user');
+                window.location.href = 'login.html';
+            });
+        }
+    })();
+    </script>
 
     <div class="sections">
         <!-- Reading -->
