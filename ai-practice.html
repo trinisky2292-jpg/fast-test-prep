@@ -236,9 +236,10 @@
         // --- Config + storage helpers ---
         const FALLBACK_MODELS = [
             'meta-llama/llama-3.3-70b-instruct:free',
-            'google/gemini-2.5-flash:free',
-            'deepseek/deepseek-r1:free',
-            'nvidia/nemotron-3-super-120b-a12b:free'
+            'nvidia/nemotron-3-super-120b-a12b:free',
+            'qwen/qwen3-next-80b-a3b-instruct:free',
+            'openai/gpt-oss-120b:free',
+            'google/gemma-3-27b-it:free'
         ];
 
         const getStore = (k, def = null) => {

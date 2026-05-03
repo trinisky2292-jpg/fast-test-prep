@@ -220,12 +220,18 @@
             <div class="form-group">
                 <label for="generator-model">Select model for generating questions:</label>
                 <select id="generator-model">
-                    <option value="meta-llama/llama-3.3-70b-instruct:free">Llama 3.3 70B Instruct (free)</option>
-                    <option value="google/gemini-2.5-flash:free">Gemini 2.5 Flash (free)</option>
-                    <option value="deepseek/deepseek-r1:free">DeepSeek R1 (free)</option>
-                    <option value="google/gemini-2.5-flash">Gemini 2.5 Flash</option>
-                    <option value="deepseek/deepseek-chat">DeepSeek Chat</option>
-                    <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super 120B (free)</option>
+                    <optgroup label="Free models (recommended)">
+                        <option value="meta-llama/llama-3.3-70b-instruct:free">Llama 3.3 70B Instruct (free) — best</option>
+                        <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super 120B (free)</option>
+                        <option value="qwen/qwen3-next-80b-a3b-instruct:free">Qwen 3 Next 80B (free)</option>
+                        <option value="openai/gpt-oss-120b:free">GPT-OSS 120B (free)</option>
+                        <option value="google/gemma-3-27b-it:free">Gemma 3 27B (free)</option>
+                        <option value="z-ai/glm-4.5-air:free">GLM 4.5 Air (free)</option>
+                    </optgroup>
+                    <optgroup label="Cheap paid models (very low cost)">
+                        <option value="google/gemini-2.5-flash">Gemini 2.5 Flash (1M context, cheap)</option>
+                        <option value="deepseek/deepseek-chat">DeepSeek Chat (cheap)</option>
+                    </optgroup>
                 </select>
             </div>
             <button class="btn btn-primary" id="save-generator-btn">Save Generator Model</button>
@@ -237,12 +243,18 @@
             <div class="form-group">
                 <label for="validator-model">Select model for validating questions:</label>
                 <select id="validator-model">
-                    <option value="meta-llama/llama-3.3-70b-instruct:free">Llama 3.3 70B Instruct (free)</option>
-                    <option value="google/gemini-2.5-flash:free">Gemini 2.5 Flash (free)</option>
-                    <option value="deepseek/deepseek-r1:free">DeepSeek R1 (free)</option>
-                    <option value="google/gemini-2.5-flash">Gemini 2.5 Flash</option>
-                    <option value="deepseek/deepseek-chat">DeepSeek Chat</option>
-                    <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super 120B (free)</option>
+                    <optgroup label="Free models (recommended)">
+                        <option value="meta-llama/llama-3.3-70b-instruct:free">Llama 3.3 70B Instruct (free) — best</option>
+                        <option value="nvidia/nemotron-3-super-120b-a12b:free">Nemotron 3 Super 120B (free)</option>
+                        <option value="qwen/qwen3-next-80b-a3b-instruct:free">Qwen 3 Next 80B (free)</option>
+                        <option value="openai/gpt-oss-120b:free">GPT-OSS 120B (free)</option>
+                        <option value="google/gemma-3-27b-it:free">Gemma 3 27B (free)</option>
+                        <option value="z-ai/glm-4.5-air:free">GLM 4.5 Air (free)</option>
+                    </optgroup>
+                    <optgroup label="Cheap paid models (very low cost)">
+                        <option value="google/gemini-2.5-flash">Gemini 2.5 Flash (1M context, cheap)</option>
+                        <option value="deepseek/deepseek-chat">DeepSeek Chat (cheap)</option>
+                    </optgroup>
                 </select>
             </div>
             <button class="btn btn-primary" id="save-validator-btn">Save Validator Model</button>
@@ -332,9 +344,9 @@
                         'X-Title': 'FAST Test Prep'
                     },
                     body: JSON.stringify({
-                        model: 'google/gemini-2.5-flash:free', // Use a known free model for test
-                        messages: [{ role: 'user', content: 'Hello' }],
-                        max_tokens: 1
+                        model: 'meta-llama/llama-3.3-70b-instruct:free',
+                        messages: [{ role: 'user', content: 'Hi' }],
+                        max_tokens: 5
                     })
                 });
 
@@ -385,7 +397,7 @@
             document.getElementById('generator-model').value = generatorModel;
 
             // Load validator model
-            const validatorModel = getFromStorage('fast-validator-model', 'google/gemini-2.5-flash:free');
+            const validatorModel = getFromStorage('fast-validator-model', 'nvidia/nemotron-3-super-120b-a12b:free');
             document.getElementById('validator-model').value = validatorModel;
 
             // Load fallback setting
