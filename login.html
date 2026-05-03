@@ -80,15 +80,18 @@
             font-weight: 600;
             font-size: 0.95rem;
         }
-        .form-group input {
+        .form-group input,
+        .form-group select {
             width: 100%;
             padding: 0.85rem;
             border: 2px solid #e0e0e0;
             border-radius: 10px;
             font-size: 1rem;
             transition: border 0.2s;
+            background: var(--white);
         }
-        .form-group input:focus {
+        .form-group input:focus,
+        .form-group select:focus {
             outline: none;
             border-color: var(--primary);
         }
@@ -120,6 +123,16 @@
             display: none;
         }
         .error-msg.show { display: block; }
+        .success-msg {
+            background: #e8f5e9;
+            color: var(--primary);
+            padding: 0.75rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            display: none;
+        }
+        .success-msg.show { display: block; }
         .small-note {
             text-align: center;
             font-size: 0.85rem;
@@ -130,6 +143,12 @@
             color: var(--secondary);
             text-decoration: none;
             font-weight: 600;
+            cursor: pointer;
+        }
+        .help-text {
+            font-size: 0.8rem;
+            color: var(--light-text);
+            margin-top: 0.25rem;
         }
     </style>
 </head>
@@ -141,13 +160,15 @@
             <p>5th Grade Practice</p>
         </div>
 
-        <div class="tabs">
+        <div class="tabs" id="tabs-row">
             <div class="tab active" id="tab-login" data-tab="login">Sign In</div>
             <div class="tab" id="tab-signup" data-tab="signup">Create Account</div>
         </div>
 
         <div class="error-msg" id="error-msg"></div>
+        <div class="success-msg" id="success-msg"></div>
 
+        <!-- LOGIN / SIGNUP FORM -->
         <form id="auth-form">
             <div class="form-group">
                 <label for="username">Username</label>
@@ -161,11 +182,51 @@
                 <label for="confirm-password">Confirm Password</label>
                 <input type="password" id="confirm-password" placeholder="type password again" autocomplete="new-password">
             </div>
+            <div class="form-group" id="security-q-group" style="display:none;">
+                <label for="security-q">Security Question</label>
+                <select id="security-q">
+                    <option value="pet">What is the name of your first pet?</option>
+                    <option value="school">What was the name of your first school?</option>
+                    <option value="color">What is your favorite color?</option>
+                    <option value="city">What city were you born in?</option>
+                    <option value="food">What is your favorite food?</option>
+                </select>
+                <div class="help-text">You'll need this if you forget your password.</div>
+            </div>
+            <div class="form-group" id="security-a-group" style="display:none;">
+                <label for="security-a">Your Answer</label>
+                <input type="text" id="security-a" placeholder="answer" autocomplete="off">
+            </div>
             <button type="submit" class="submit-btn" id="submit-btn">Sign In</button>
         </form>
 
+        <!-- FORGOT PASSWORD FORM (hidden by default) -->
+        <form id="forgot-form" style="display:none;">
+            <div class="form-group">
+                <label for="fp-username">Username</label>
+                <input type="text" id="fp-username" placeholder="your username" required>
+            </div>
+            <button type="button" class="submit-btn" id="fp-lookup-btn" style="background: var(--secondary);">Find Account</button>
+            <div id="fp-recovery" style="display:none; margin-top:1rem;">
+                <div class="form-group">
+                    <label id="fp-question-label">Security Question</label>
+                    <input type="text" id="fp-answer" placeholder="your answer" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="fp-new-password">New Password</label>
+                    <input type="password" id="fp-new-password" placeholder="new password (4+ chars)" autocomplete="new-password">
+                </div>
+                <div class="form-group">
+                    <label for="fp-confirm-password">Confirm New Password</label>
+                    <input type="password" id="fp-confirm-password" placeholder="type new password again" autocomplete="new-password">
+                </div>
+                <button type="submit" class="submit-btn">Reset Password</button>
+            </div>
+        </form>
+
         <p class="small-note" id="footer-note">
-            New here? <a href="#" id="switch-to-signup">Create an account</a>
+            New here? <a id="switch-to-signup">Create an account</a><br>
+            <a id="switch-to-forgot" style="font-size:0.8rem;">Forgot password?</a>
         </p>
     </div>
 
@@ -173,25 +234,59 @@
     (function() {
         let mode = 'login';
 
+        const SECURITY_QUESTIONS = {
+            pet: 'What is the name of your first pet?',
+            school: 'What was the name of your first school?',
+            color: 'What is your favorite color?',
+            city: 'What city were you born in?',
+            food: 'What is your favorite food?'
+        };
+
         const setMode = (newMode) => {
             mode = newMode;
+            hideError(); hideSuccess();
+
+            // Tab visibility
+            const tabsRow = document.getElementById('tabs-row');
+            tabsRow.style.display = (mode === 'forgot') ? 'none' : 'flex';
+
+            // Form visibility
+            document.getElementById('auth-form').style.display = (mode === 'forgot') ? 'none' : 'block';
+            document.getElementById('forgot-form').style.display = (mode === 'forgot') ? 'block' : 'none';
+            document.getElementById('fp-recovery').style.display = 'none';
+
+            // Tab active states
             document.getElementById('tab-login').classList.toggle('active', mode === 'login');
             document.getElementById('tab-signup').classList.toggle('active', mode === 'signup');
+
+            // Signup-only fields
             document.getElementById('confirm-group').style.display = mode === 'signup' ? 'block' : 'none';
+            document.getElementById('security-q-group').style.display = mode === 'signup' ? 'block' : 'none';
+            document.getElementById('security-a-group').style.display = mode === 'signup' ? 'block' : 'none';
+
+            // Submit button text
             document.getElementById('submit-btn').textContent = mode === 'signup' ? 'Create Account' : 'Sign In';
             document.getElementById('password').setAttribute('autocomplete', mode === 'signup' ? 'new-password' : 'current-password');
-            document.getElementById('footer-note').innerHTML = mode === 'signup'
-                ? 'Already have an account? <a href="#" id="switch-to-login">Sign in</a>'
-                : 'New here? <a href="#" id="switch-to-signup">Create an account</a>';
+
+            // Footer note
+            const note = document.getElementById('footer-note');
+            if (mode === 'forgot') {
+                note.innerHTML = '<a id="switch-to-login">← Back to Sign In</a>';
+            } else if (mode === 'signup') {
+                note.innerHTML = 'Already have an account? <a id="switch-to-login">Sign in</a>';
+            } else {
+                note.innerHTML = 'New here? <a id="switch-to-signup">Create an account</a><br><a id="switch-to-forgot" style="font-size:0.8rem;">Forgot password?</a>';
+            }
             wireFooterLinks();
-            hideError();
         };
 
         const wireFooterLinks = () => {
             const su = document.getElementById('switch-to-signup');
             const si = document.getElementById('switch-to-login');
+            const sf = document.getElementById('switch-to-forgot');
             if (su) su.addEventListener('click', (e) => { e.preventDefault(); setMode('signup'); });
             if (si) si.addEventListener('click', (e) => { e.preventDefault(); setMode('login'); });
+            if (sf) sf.addEventListener('click', (e) => { e.preventDefault(); setMode('forgot'); });
         };
 
         document.getElementById('tab-login').addEventListener('click', () => setMode('login'));
@@ -202,12 +297,20 @@
             const el = document.getElementById('error-msg');
             el.textContent = msg;
             el.classList.add('show');
+            document.getElementById('success-msg').classList.remove('show');
         };
         const hideError = () => document.getElementById('error-msg').classList.remove('show');
+        const showSuccess = (msg) => {
+            const el = document.getElementById('success-msg');
+            el.textContent = msg;
+            el.classList.add('show');
+            document.getElementById('error-msg').classList.remove('show');
+        };
+        const hideSuccess = () => document.getElementById('success-msg').classList.remove('show');
 
-        // Simple hash (NOT real security — just so passwords aren't plaintext in localStorage)
-        const hashPassword = async (password) => {
-            const enc = new TextEncoder().encode(password);
+        // SHA-256 hash (NOT real security — just so passwords aren't plaintext in localStorage)
+        const hashString = async (s) => {
+            const enc = new TextEncoder().encode(s);
             const buf = await crypto.subtle.digest('SHA-256', enc);
             return Array.from(new Uint8Array(buf))
                 .map(b => b.toString(16).padStart(2, '0'))
@@ -223,9 +326,10 @@
             localStorage.setItem('fast-users', JSON.stringify(users));
         };
 
+        // Main login/signup handler
         document.getElementById('auth-form').addEventListener('submit', async (e) => {
             e.preventDefault();
-            hideError();
+            hideError(); hideSuccess();
             const username = document.getElementById('username').value.trim().toLowerCase();
             const password = document.getElementById('password').value;
 
@@ -239,10 +343,13 @@
             }
 
             const users = getUsers();
-            const passHash = await hashPassword(password);
+            const passHash = await hashString(password);
 
             if (mode === 'signup') {
                 const confirm = document.getElementById('confirm-password').value;
+                const secQ = document.getElementById('security-q').value;
+                const secA = document.getElementById('security-a').value.trim().toLowerCase();
+
                 if (password.length < 4) {
                     showError('Password must be at least 4 characters.');
                     return;
@@ -251,31 +358,106 @@
                     showError('Passwords don\'t match.');
                     return;
                 }
+                if (!secA) {
+                    showError('Please answer the security question.');
+                    return;
+                }
                 if (users[username]) {
                     showError('That username is taken. Try another.');
                     return;
                 }
+
+                const secAHash = await hashString(secA);
                 users[username] = {
                     username,
                     passHash,
+                    securityQuestion: secQ,
+                    securityAnswerHash: secAHash,
                     createdAt: new Date().toISOString()
                 };
                 saveUsers(users);
                 localStorage.setItem('fast-current-user', username);
                 window.location.href = 'index.html';
             } else {
+                // login
                 const user = users[username];
                 if (!user) {
                     showError('No account with that username. Create one?');
                     return;
                 }
                 if (user.passHash !== passHash) {
-                    showError('Wrong password. Try again.');
+                    showError('Wrong password. Try again — or click Forgot password.');
                     return;
                 }
                 localStorage.setItem('fast-current-user', username);
                 window.location.href = 'index.html';
             }
+        });
+
+        // Forgot password: find account
+        document.getElementById('fp-lookup-btn').addEventListener('click', () => {
+            hideError(); hideSuccess();
+            const username = document.getElementById('fp-username').value.trim().toLowerCase();
+            if (!username) {
+                showError('Enter your username.');
+                return;
+            }
+            const users = getUsers();
+            const user = users[username];
+            if (!user) {
+                showError('No account with that username on this device.');
+                return;
+            }
+            if (!user.securityQuestion || !user.securityAnswerHash) {
+                showError('This account has no security question. Ask Dad for help resetting.');
+                return;
+            }
+            // Show recovery form
+            document.getElementById('fp-question-label').textContent = SECURITY_QUESTIONS[user.securityQuestion] || 'Security Question';
+            document.getElementById('fp-recovery').style.display = 'block';
+            document.getElementById('fp-answer').focus();
+        });
+
+        // Forgot password: reset
+        document.getElementById('forgot-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            hideError(); hideSuccess();
+            const username = document.getElementById('fp-username').value.trim().toLowerCase();
+            const answer = document.getElementById('fp-answer').value.trim().toLowerCase();
+            const newPass = document.getElementById('fp-new-password').value;
+            const confirmPass = document.getElementById('fp-confirm-password').value;
+
+            if (!answer || !newPass) {
+                showError('Fill in all fields.');
+                return;
+            }
+            if (newPass.length < 4) {
+                showError('New password must be at least 4 characters.');
+                return;
+            }
+            if (newPass !== confirmPass) {
+                showError('New passwords don\'t match.');
+                return;
+            }
+
+            const users = getUsers();
+            const user = users[username];
+            if (!user) {
+                showError('Account not found.');
+                return;
+            }
+
+            const answerHash = await hashString(answer);
+            if (answerHash !== user.securityAnswerHash) {
+                showError('Wrong answer to security question.');
+                return;
+            }
+
+            user.passHash = await hashString(newPass);
+            user.passwordResetAt = new Date().toISOString();
+            saveUsers(users);
+            showSuccess('Password reset! Sign in with your new password.');
+            setTimeout(() => setMode('login'), 1500);
         });
 
         // If already logged in, bounce to home

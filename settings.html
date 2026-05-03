@@ -249,6 +249,29 @@
             <div class="status" id="validator-status"></div>
         </div>
 
+        <div class="section" id="account-section">
+            <h2>My Account</h2>
+            <p id="current-user-display" style="margin-bottom:1rem; color:var(--light-text);"></p>
+            <div class="form-group">
+                <label for="current-password">Current Password</label>
+                <input type="password" id="current-password" placeholder="enter current password">
+            </div>
+            <div class="form-group">
+                <label for="new-password">New Password</label>
+                <input type="password" id="new-password" placeholder="new password (4+ chars)">
+            </div>
+            <div class="form-group">
+                <label for="confirm-new-password">Confirm New Password</label>
+                <input type="password" id="confirm-new-password" placeholder="type new password again">
+            </div>
+            <button class="btn btn-primary" id="change-password-btn">Change Password</button>
+            <div class="status" id="password-status"></div>
+
+            <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid var(--light-text);">
+
+            <button class="btn btn-secondary" id="logout-btn">Log Out</button>
+        </div>
+
         <div class="section">
             <h2>Advanced Settings</h2>
             <div class="form-group toggle-container">
@@ -368,6 +391,81 @@
             // Load fallback setting
             const autoFallback = getFromStorage('fast-auto-fallback', true);
             document.getElementById('auto-fallback').checked = autoFallback;
+        });
+
+        // ---- Account: Change Password + Logout ----
+        const hashString = async (s) => {
+            const enc = new TextEncoder().encode(s);
+            const buf = await crypto.subtle.digest('SHA-256', enc);
+            return Array.from(new Uint8Array(buf))
+                .map(b => b.toString(16).padStart(2, '0'))
+                .join('');
+        };
+
+        const currentUser = localStorage.getItem('fast-current-user');
+        const userDisplay = document.getElementById('current-user-display');
+        if (currentUser) {
+            userDisplay.textContent = `Signed in as: ${currentUser}`;
+        } else {
+            userDisplay.innerHTML = 'Not signed in. <a href="login.html">Sign in here</a>';
+            document.getElementById('change-password-btn').disabled = true;
+        }
+
+        document.getElementById('change-password-btn').addEventListener('click', async () => {
+            if (!currentUser) {
+                showStatus('password-status', 'error', 'You must be signed in.');
+                return;
+            }
+            const currentPass = document.getElementById('current-password').value;
+            const newPass = document.getElementById('new-password').value;
+            const confirmPass = document.getElementById('confirm-new-password').value;
+
+            if (!currentPass || !newPass || !confirmPass) {
+                showStatus('password-status', 'error', 'Fill in all password fields.');
+                return;
+            }
+            if (newPass.length < 4) {
+                showStatus('password-status', 'error', 'New password must be at least 4 characters.');
+                return;
+            }
+            if (newPass !== confirmPass) {
+                showStatus('password-status', 'error', 'New passwords don\'t match.');
+                return;
+            }
+
+            let users;
+            try {
+                users = JSON.parse(localStorage.getItem('fast-users') || '{}');
+            } catch (e) { users = {}; }
+
+            const user = users[currentUser];
+            if (!user) {
+                showStatus('password-status', 'error', 'Account not found.');
+                return;
+            }
+
+            const currentHash = await hashString(currentPass);
+            if (currentHash !== user.passHash) {
+                showStatus('password-status', 'error', 'Current password is wrong.');
+                return;
+            }
+
+            user.passHash = await hashString(newPass);
+            user.passwordChangedAt = new Date().toISOString();
+            users[currentUser] = user;
+            localStorage.setItem('fast-users', JSON.stringify(users));
+
+            // Clear inputs
+            document.getElementById('current-password').value = '';
+            document.getElementById('new-password').value = '';
+            document.getElementById('confirm-new-password').value = '';
+
+            showStatus('password-status', 'success', 'Password changed successfully!');
+        });
+
+        document.getElementById('logout-btn').addEventListener('click', () => {
+            localStorage.removeItem('fast-current-user');
+            window.location.href = 'login.html';
         });
 
         // Helper to show status messages
