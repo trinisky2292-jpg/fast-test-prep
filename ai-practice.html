@@ -293,8 +293,8 @@
         }
 
         const apiKey = getStore('fast-openrouter-key');
-        const generatorModel = getStore('fast-generator-model', 'meta-llama/llama-3.3-70b-instruct:free');
-        const validatorModel = getStore('fast-validator-model', 'google/gemini-2.5-flash:free');
+        const generatorModel = getStore('fast-generator-model', 'google/gemini-2.5-flash');
+        const validatorModel = getStore('fast-validator-model', 'google/gemini-2.5-flash');
         const autoFallback = getStore('fast-auto-fallback', true);
 
         if (!apiKey) {
@@ -302,7 +302,7 @@
         }
 
         // --- State ---
-        const QUESTIONS_PER_ROUND = 5;
+        const QUESTIONS_PER_ROUND = 15; // matches real FAST test length
         const sessionId = `aip-${Date.now()}-${Math.random().toString(36).slice(2,7)}`;
         let currentSection = null;
         let currentQuestion = null;
@@ -311,6 +311,7 @@
         const answers = [];
         let selectedChoice = null;
         const exampleCache = {}; // section -> array of example questions
+        const sessionGeneratedQuestions = []; // tracks questions generated this session to prevent repeats
 
         // Load examples from real FAST JSON to use as few-shot training examples
         async function loadExamples(section) {
@@ -367,6 +368,7 @@
             currentIndex = 0;
             score = 0;
             answers.length = 0;
+            sessionGeneratedQuestions.length = 0; // fresh slate per section
             document.getElementById('section-picker').style.display = 'none';
             loadNextQuestion();
         }
@@ -432,7 +434,7 @@
             return JSON.parse(t.slice(start, end + 1));
         }
 
-        function buildGeneratorPrompt(section, examples) {
+        function buildGeneratorPrompt(section, examples, alreadyGenerated) {
             const sectionGuides = {
                 reading: 'Write a short 100-150 word age-appropriate passage for a 5th grader, then ask one comprehension question about it. Use Florida B.E.S.T. ELA standard codes like ELA.5.R.1.1, ELA.5.R.2.2, ELA.5.R.3.1.',
                 grammar: 'Ask one grammar question for a 5th grader: subject-verb agreement, pronouns, verb tense, punctuation, capitalization, or sentence structure. Use Florida B.E.S.T. ELA standard codes like ELA.5.C.3.1.',
@@ -441,10 +443,10 @@
                 math: 'Ask one Florida 5th grade math question covering NSO (number sense), AR (algebraic reasoning), FR (fractions), M (measurement), GR (geometry), or DP (data). Use codes like MA.5.NSO.1.1, MA.5.AR.1.1, MA.5.FR.1.1.'
             };
 
-            // Build few-shot example block from real FAST questions
+            // Build few-shot example block from ALL real FAST questions in the pool
             let examplesBlock = '';
             if (examples && examples.length > 0) {
-                examplesBlock = '\n\nHere are REAL Florida FAST 5th grade ' + section + ' example questions to model your style after:\n\n';
+                examplesBlock = '\n\nHere are ALL the REAL Florida FAST 5th grade ' + section + ' example questions for your reference (use as STYLE templates, not for copying):\n\n';
                 examples.forEach((ex, i) => {
                     const exJson = {
                         question: (ex._passage ? `[Passage: ${ex._passage}] ` : '') + (ex.question || ex.text || ''),
@@ -454,17 +456,27 @@
                     };
                     examplesBlock += `EXAMPLE ${i+1}:\n${JSON.stringify(exJson, null, 2)}\n\n`;
                 });
-                examplesBlock += 'Generate a NEW question with the same style, difficulty, and Florida standard format — but with completely DIFFERENT content. Do not copy the example questions.';
+                examplesBlock += 'Generate a NEW question matching the style, difficulty, and Florida standard format of the examples — but with completely DIFFERENT content. Do not copy any example question or its choices.';
+            }
+
+            // Avoid-repeats block: previously generated questions in this session
+            let avoidBlock = '';
+            if (alreadyGenerated && alreadyGenerated.length > 0) {
+                avoidBlock = '\n\n⚠️ DO NOT REPEAT or rephrase any of the following questions that were already shown in this session:\n\n';
+                alreadyGenerated.forEach((prevQ, i) => {
+                    avoidBlock += `ALREADY ASKED ${i+1}: ${prevQ}\n\n`;
+                });
+                avoidBlock += 'Your new question MUST be substantively different in topic, content, and wording from every "ALREADY ASKED" item above. Cover a different concept or scenario.';
             }
 
             return [
                 {
                     role: 'system',
-                    content: `You are a Florida 5th grade FAST test question generator. Output ONLY valid JSON matching the exact format of the real FAST examples shown. No markdown, no commentary, no code fences.`
+                    content: `You are a Florida 5th grade FAST test question generator. Output ONLY valid JSON matching the exact format of the real FAST examples shown. No markdown, no commentary, no code fences. Every question you generate in a session must be unique — never repeat or paraphrase a previous question.`
                 },
                 {
                     role: 'user',
-                    content: `Generate ONE multiple-choice question for the ${section} section. ${sectionGuides[section]}${examplesBlock}
+                    content: `Generate ONE multiple-choice question for the ${section} section. ${sectionGuides[section]}${examplesBlock}${avoidBlock}
 
 Return ONLY this JSON shape (no extra text):
 {
@@ -476,7 +488,7 @@ Return ONLY this JSON shape (no extra text):
   "difficulty": "easy|medium|hard"
 }
 
-The question should be appropriate for a 10-11 year old. Make it challenging but fair. Avoid trick questions.`
+The question should be appropriate for a 10-11 year old. Make it challenging but fair. Avoid trick questions. Pick a fresh topic/concept that has not been covered yet in this session.`
                 }
             ];
         }
@@ -484,8 +496,8 @@ The question should be appropriate for a 10-11 year old. Make it challenging but
         async function generateQuestion(section, onProgress) {
             if (onProgress) onProgress('Loading example FAST questions…');
             const allExamples = await loadExamples(section);
-            const fewShot = pickRandomExamples(allExamples, 2);
-            const messages = buildGeneratorPrompt(section, fewShot);
+            // v2: Pass ALL examples (small pool — fits easily) + session-generated avoidance list
+            const messages = buildGeneratorPrompt(section, allExamples, sessionGeneratedQuestions);
             const { content, model } = await callOpenRouter(messages, generatorModel, onProgress);
             const q = extractJson(content);
             // Sanity check shape
@@ -545,6 +557,8 @@ Return ONLY this JSON (no extra text):
             try {
                 const q = await generateQuestion(currentSection, setProgress);
                 currentQuestion = q;
+                // Track this question to prevent repeats in the same session
+                sessionGeneratedQuestions.push(q.question.slice(0, 250));
                 renderQuestion(q);
                 document.getElementById('loader').style.display = 'none';
                 document.getElementById('quiz-card').style.display = 'block';
