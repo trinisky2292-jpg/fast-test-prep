@@ -371,14 +371,22 @@
             }
 
             // Add event listeners to choice buttons
+            const isMultiSelect = Array.isArray(questionObj.correctAnswer);
+            if (isMultiSelect) {
+                const hint = document.createElement('div');
+                hint.style.cssText = 'text-align:center;font-size:13px;color:#666;margin-bottom:8px;font-weight:600;';
+                hint.textContent = 'Select ALL that apply';
+                document.getElementById('choices-container').insertAdjacentElement('beforebegin', hint);
+            }
             document.querySelectorAll('.choice-btn').forEach(btn => {
                 btn.addEventListener('click', () => {
-                    // Deselect all
-                    document.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
-                    // Select this one
-                    btn.classList.add('selected');
-                    // Enable submit button
-                    document.getElementById('submit-btn').disabled = false;
+                    if (isMultiSelect) {
+                        btn.classList.toggle('selected');
+                    } else {
+                        document.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
+                        btn.classList.add('selected');
+                    }
+                    document.getElementById('submit-btn').disabled = !document.querySelector('.choice-btn.selected');
                 });
             });
 
@@ -418,26 +426,31 @@
             // Stop timer the moment they submit
             stopTimer();
 
-            // Get selected choice (or null if timer expired with nothing picked)
-            const selectedBtn = document.querySelector('.choice-btn.selected');
-            const selectedChoice = selectedBtn ? selectedBtn.getAttribute('data-choice') : null;
             const questionObj = questions[currentQuestionIndex];
             const correctChoice = questionObj.correctAnswer;
+            const isMulti = Array.isArray(correctChoice);
 
-            // Record answer
+            let selectedChoice;
+            if (isMulti) {
+                const selectedBtns = document.querySelectorAll('.choice-btn.selected');
+                selectedChoice = selectedBtns.length > 0 ? Array.from(selectedBtns).map(b => b.getAttribute('data-choice')).sort() : null;
+            } else {
+                const selectedBtn = document.querySelector('.choice-btn.selected');
+                selectedChoice = selectedBtn ? selectedBtn.getAttribute('data-choice') : null;
+            }
+
             answers[currentQuestionIndex] = selectedChoice;
 
-            // Show feedback
             const feedbackEl = document.getElementById('feedback');
             if (selectedChoice === null) {
                 feedbackEl.className = 'feedback incorrect';
-                feedbackEl.textContent = `⏱️ Time's up! Correct answer was ${correctChoice}`;
-            } else if (selectedChoice === correctChoice) {
+                feedbackEl.textContent = `⏱️ Time's up! Correct answer was ${isMulti ? correctChoice.join(', ') : correctChoice}`;
+            } else if (isMulti ? (selectedChoice.length === correctChoice.length && selectedChoice.every((v,i) => v === [...correctChoice].sort()[i])) : selectedChoice === correctChoice) {
                 feedbackEl.className = 'feedback correct';
                 feedbackEl.textContent = '✓ Correct!';
             } else {
                 feedbackEl.className = 'feedback incorrect';
-                feedbackEl.textContent = `✗ Incorrect — correct answer was ${correctChoice}`;
+                feedbackEl.textContent = `✗ Incorrect — correct answer was ${isMulti ? correctChoice.join(', ') : correctChoice}`;
             }
 
             // Change button to Next Question
@@ -459,7 +472,13 @@
                 renderQuestion();
             } else {
                 // Quiz complete - save session data and redirect to results
-                const score = answers.filter((ans, idx) => ans === questions[idx].correctAnswer).length;
+                const score = answers.filter((ans, idx) => {
+                    const correct = questions[idx].correctAnswer;
+                    if (Array.isArray(correct)) {
+                        return Array.isArray(ans) && ans.length === correct.length && ans.every((v,i) => v === [...correct].sort()[i]);
+                    }
+                    return ans === correct;
+                }).length;
                 const total = questions.length;
                 const percentage = Math.round((score / total) * 100);
                 
@@ -476,7 +495,7 @@
                         questionId: questions[idx].id,
                         selected: selected,
                         correct: questions[idx].correctAnswer,
-                        isCorrect: selected === questions[idx].correctAnswer,
+                        isCorrect: Array.isArray(questions[idx].correctAnswer) ? (Array.isArray(selected) && selected.length === questions[idx].correctAnswer.length && selected.every((v,i) => v === [...questions[idx].correctAnswer].sort()[i])) : selected === questions[idx].correctAnswer,
                         standard: questions[idx].standard,
                         questionText: questions[idx].question
                     })),
