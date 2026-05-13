@@ -103,6 +103,51 @@
             color: var(--accent);
             border: 1px solid var(--accent);
         }
+        .celebration {
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            animation: celebrateBounce 1s ease-in-out;
+        }
+        @keyframes celebrateBounce {
+            0% { transform: scale(0); opacity: 0; }
+            50% { transform: scale(1.3); }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .confetti-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 999;
+            overflow: hidden;
+        }
+        .confetti {
+            position: absolute;
+            top: -20px;
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            animation: confettiFall linear forwards;
+        }
+        @keyframes confettiFall {
+            0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+        }
+        .emoji-rain {
+            position: absolute;
+            top: -40px;
+            font-size: 1.5rem;
+            animation: emojiDrop linear forwards;
+        }
+        @keyframes emojiDrop {
+            0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+            80% { opacity: 1; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
         .weak-areas {
             background: var(--white);
             border-radius: 12px;
@@ -235,6 +280,7 @@
             <h1>Great job! Here's how you did:</h1>
         </header>
 
+        <div class="celebration" id="celebration"></div>
         <div class="score-circle" id="score-circle">
             <div class="score-number" id="score-number">--</div>
             <div class="score-percentage" id="score-percentage">--%</div>
@@ -296,17 +342,24 @@
         // Update score text
         document.getElementById('score-text').textContent = `You got: ${sessionData.score} / ${sessionData.total} = ${percentage}%`;
         
-        // Update encouragement message
+        // Update celebration emoji + encouragement message
+        const celebrationEl = document.getElementById('celebration');
         const encouragementEl = document.getElementById('encouragement');
         if (percentage >= 90) {
-            encouragementEl.textContent = 'Amazing!';
+            celebrationEl.textContent = '🎉🌟🏆';
+            encouragementEl.innerHTML = '✨ Amazing job! You\'re a math superstar! ✨';
             encouragementEl.className = 'encouragement amazing';
+            launchConfetti();
         } else if (percentage >= 70) {
-            encouragementEl.textContent = 'Good work!';
+            celebrationEl.textContent = '💪😊👏';
+            encouragementEl.innerHTML = '🎯 Good work! You\'re getting there!';
             encouragementEl.className = 'encouragement good';
+            launchEmojiRain(['⭐', '👏', '💪', '🎯']);
         } else {
-            encouragementEl.textContent = 'Keep practicing — you\'ve got this!';
+            celebrationEl.textContent = '💜🌈📚';
+            encouragementEl.innerHTML = '🌟 Keep practicing — you\'ve got this! Every try makes you stronger!';
             encouragementEl.className = 'encouragement keep';
+            launchEmojiRain(['💪', '📚', '🌟', '💜']);
         }
         
         // Group wrong answers by standard
@@ -425,6 +478,51 @@
         document.getElementById('back-home-btn').addEventListener('click', () => {
             window.location.href = 'index.html';
         });
+        function launchConfetti() {
+            const container = document.createElement('div');
+            container.className = 'confetti-container';
+            document.body.appendChild(container);
+            const colors = ['#4CAF50', '#2196F3', '#FFC107', '#F44336', '#9C27B0', '#FF9800', '#E91E63'];
+            for (let i = 0; i < 60; i++) {
+                const piece = document.createElement('div');
+                piece.className = 'confetti';
+                piece.style.left = Math.random() * 100 + '%';
+                piece.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                piece.style.animationDuration = (2 + Math.random() * 2) + 's';
+                piece.style.animationDelay = Math.random() * 1.5 + 's';
+                piece.style.width = (8 + Math.random() * 8) + 'px';
+                piece.style.height = (8 + Math.random() * 8) + 'px';
+                container.appendChild(piece);
+            }
+            // Also add some emoji rain for extra celebration
+            const celebEmojis = ['🎉', '⭐', '🌟', '🏆', '💫', '✨', '🎊'];
+            for (let i = 0; i < 15; i++) {
+                const emoji = document.createElement('div');
+                emoji.className = 'emoji-rain';
+                emoji.textContent = celebEmojis[Math.floor(Math.random() * celebEmojis.length)];
+                emoji.style.left = Math.random() * 100 + '%';
+                emoji.style.animationDuration = (2.5 + Math.random() * 2) + 's';
+                emoji.style.animationDelay = Math.random() * 2 + 's';
+                container.appendChild(emoji);
+            }
+            setTimeout(() => container.remove(), 5000);
+        }
+
+        function launchEmojiRain(emojis) {
+            const container = document.createElement('div');
+            container.className = 'confetti-container';
+            document.body.appendChild(container);
+            for (let i = 0; i < 12; i++) {
+                const emoji = document.createElement('div');
+                emoji.className = 'emoji-rain';
+                emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+                emoji.style.left = Math.random() * 100 + '%';
+                emoji.style.animationDuration = (2.5 + Math.random() * 2) + 's';
+                emoji.style.animationDelay = Math.random() * 1.5 + 's';
+                container.appendChild(emoji);
+            }
+            setTimeout(() => container.remove(), 5000);
+        }
     })();
     </script>
 </body>
