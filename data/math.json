@@ -1,6 +1,6 @@
 {
   "section": "math",
-  "questionCount": 29,
+  "questionCount": 10,
   "questions": [
     {
       "id": "math-1",
@@ -39,120 +39,6 @@
     {
       "id": "math-3",
       "section": "math",
-      "questionType": "gridded-response",
-      "question": "Caitlyn set a goal to swim 675 laps in her pool during summer vacation. She will swim 12 laps each day. What is the least whole number of days Caitlyn will swim to reach her goal?",
-      "choices": {
-        "A": "56",
-        "B": "57",
-        "C": "58",
-        "D": "59"
-      },
-      "correctAnswer": "B",
-      "explanation": "675 / 12 = 56 remainder 3. Swimming 56 days gives only 672 laps (3 short), so she needs one extra day. 57 days.",
-      "standard": "MA.5.A.1.4",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-4",
-      "section": "math",
-      "question": "Last year, a gray whale made a round-trip journey from Alaska to the shores of Mexico. The one-way journey was 6,272 miles, and the gray whale traveled 80 miles each day. Which of the following is closest to the number of days it took the gray whale to travel from Alaska to Mexico and back again last year?",
-      "choices": {
-        "A": "78",
-        "B": "157",
-        "C": "1,568",
-        "D": "12,544"
-      },
-      "correctAnswer": "B",
-      "explanation": "Round-trip = 6,272 x 2 = 12,544 miles. Estimate: 12,544 / 80 is approximately 12,800 / 80 = 160. The closest answer is 157.",
-      "standard": "MA.5.A.1.4",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-5",
-      "section": "math",
-      "question": "Ella needs to sort her base-ten blocks into 3 equal groups. She has 1 ten-rod (worth 10) and 2 unit squares, for a total value of 12. How many unit squares should be in each of the three equal groups?",
-      "choices": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6"
-      },
-      "correctAnswer": "B",
-      "explanation": "Decompose the bars into unit squares: 10 unit squares (from a ten-rod) plus 2 individual units = 12 unit squares total. 12 / 3 = 4 unit squares per group.",
-      "standard": "MA.5.A.1.1",
-      "difficulty": "easy",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-6",
-      "section": "math",
-      "questionType": "gridded-response",
-      "question": "Both Alex and Stephanie have some coins in their pockets. Each shaded square represents $0.05. Alex's grid shows 27 shaded squares ($1.35). Stephanie's grid shows 24 shaded squares ($1.20). What is the total value, in dollars, of the coins that Alex and Stephanie have together?",
-      "choices": {
-        "A": "$2.40",
-        "B": "$2.55",
-        "C": "$2.65",
-        "D": "$2.70"
-      },
-      "correctAnswer": "B",
-      "explanation": "Each square = $0.05. Alex = 27 x $0.05 = $1.35. Stephanie = 24 x $0.05 = $1.20. Total = $1.35 + $1.20 = $2.55.",
-      "standard": "MA.5.A.2.1",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-7",
-      "section": "math",
-      "question": "Which factor tree correctly shows the prime factorization of 80?",
-      "choices": {
-        "A": "80 -> 8 x 10 -> 4 x 2 x 2 x 5 (4 not factored further)",
-        "B": "80 -> 4 x 20 -> 4 x 4 x 5 (4 not factored further)",
-        "C": "80 -> 8 x 10 -> (2 x 2 x 2) x (2 x 5)",
-        "D": "80 -> 2 x 40 -> 2 x 4 x 10 (4 and 10 not factored)"
-      },
-      "correctAnswer": "C",
-      "explanation": "80 = 8 x 10 = (2 x 2 x 2) x (2 x 5). All five terminal numbers (2, 2, 2, 2, 5) are prime, so the factor tree is complete.",
-      "standard": "MA.5.A.2.4",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-8",
-      "section": "math",
-      "question": "Several sources have recorded the lowest temperature in Florida as -2 degrees F on February 13, 1899. However, according to one website, the lowest recorded temperature was actually 4 degrees warmer. What temperature would that website show?",
-      "choices": {
-        "A": "2 degrees F",
-        "B": "6 degrees F",
-        "C": "-6 degrees F",
-        "D": "-2 degrees F"
-      },
-      "correctAnswer": "A",
-      "explanation": "Starting at -2 degrees F, count up 4 degrees. -2 + 4 = 2 degrees F.",
-      "standard": "MA.5.A.6.3",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-9",
-      "section": "math",
-      "question": "A number line has 5 evenly-spaced divisions between -100 and 0. Point T is plotted at -80. Which temperature is higher than the temperature at point T?",
-      "choices": {
-        "A": "-70 degrees F",
-        "B": "-90 degrees F",
-        "C": "-100 degrees F",
-        "D": "-85 degrees F"
-      },
-      "correctAnswer": "A",
-      "explanation": "Each division = 100 / 5 = 20 degrees. Point T is at -80 degrees F. The only choice higher than -80 is -70 (closer to zero on a number line means greater).",
-      "standard": "MA.5.A.6.4",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-10",
-      "section": "math",
       "question": "Which statement correctly describes the expression 3 + 7 x 4?",
       "choices": {
         "A": "The sum of 4 and 3, multiplied by 7",
@@ -167,7 +53,7 @@
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_5M.pdf"
     },
     {
-      "id": "math-11",
+      "id": "math-4",
       "section": "math",
       "questionType": "multi-select",
       "question": "An expression with a missing number is shown: 7 + 3 x 2 x __. Select all the expressions that are equivalent to the given expression. (Choose three.)",
@@ -178,65 +64,18 @@
         "D": "7 + (3 x 2 x __)",
         "E": "(7 + 3) x (2 x __)"
       },
-      "correctAnswer": ["B", "C", "D"],
+      "correctAnswer": [
+        "B",
+        "C",
+        "D"
+      ],
       "explanation": "The original expression evaluates as 7 + (3 x 2 x __) because multiplication is performed before addition. Options B, C, D preserve this order with parentheses that don't change the result (associative property). Options A and E incorrectly include 7 in the multiplied group.",
       "standard": "MA.5.AR.2.2",
       "difficulty": "hard",
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST_5M_Answer-Key_PBT.pdf"
     },
     {
-      "id": "math-12",
-      "section": "math",
-      "questionType": "gridded-response",
-      "question": "The three Gibbons brothers are all 3 years apart in age. The total of their ages equals 33 years. What is the age of the oldest brother?",
-      "choices": {
-        "A": "11",
-        "B": "13",
-        "C": "14",
-        "D": "16"
-      },
-      "correctAnswer": "C",
-      "explanation": "33 / 3 = 11 (the middle brother). Subtract 3 to get the youngest (8) and add 3 to get the oldest (14). Check: 8 + 11 + 14 = 33.",
-      "standard": "MA.5.A.6.5",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-13",
-      "section": "math",
-      "questionType": "gridded-response",
-      "question": "In two days, David and James sold the same number of tickets to a Caribbean dinner. David sold 17 tickets on Monday and 30 tickets on Tuesday. James sold 22 tickets on Tuesday. The equation 17 + 30 = s + 22 can be used to find s, the number of tickets James sold on Monday. How many tickets did James sell on Monday?",
-      "choices": {
-        "A": "22",
-        "B": "25",
-        "C": "27",
-        "D": "30"
-      },
-      "correctAnswer": "B",
-      "explanation": "17 + 30 = 47. 47 = s + 22, so s = 47 - 22 = 25.",
-      "standard": "MA.5.A.4.1",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-14",
-      "section": "math",
-      "questionType": "gridded-response",
-      "question": "Christy wanted to find the surface area of a square pyramid. She wrote the expression (24 x 5) / 2 + 6 squared. What is the value of this expression?",
-      "choices": {
-        "A": "78",
-        "B": "84",
-        "C": "96",
-        "D": "120"
-      },
-      "correctAnswer": "C",
-      "explanation": "Apply order of operations: 24 x 5 = 120. Then 6 squared = 36. Then 120 / 2 = 60. Finally 60 + 36 = 96.",
-      "standard": "MA.5.A.6.2",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-15",
+      "id": "math-5",
       "section": "math",
       "question": "The table shows the amount of rainwater three students gather: Damien = 1 1/8 gallons, Taylor = 1 gallon and 4 cups, Veronica = 19 1/2 cups. Who gathers the most rainwater?",
       "choices": {
@@ -252,7 +91,7 @@
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST_5M_Answer-Key_PBT.pdf"
     },
     {
-      "id": "math-16",
+      "id": "math-6",
       "section": "math",
       "question": "Rebekah makes a quilt using red, blue, and purple fabric. She uses 3 1/2 total yards of fabric. She uses exactly 2 3/5 yards of purple fabric. What is the total amount, in yards, of red and blue fabric combined?",
       "choices": {
@@ -268,7 +107,7 @@
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST_5M_Answer-Key_PBT.pdf"
     },
     {
-      "id": "math-17",
+      "id": "math-7",
       "section": "math",
       "question": "An expression is shown: 12 x 5/6. Complete the sentence: 'The value of the expression is predicted to be ___ 12, because 12 is being multiplied by a fraction ___ 1.'",
       "choices": {
@@ -284,56 +123,7 @@
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST_5M_Answer-Key_PBT.pdf"
     },
     {
-      "id": "math-18",
-      "section": "math",
-      "question": "Sam is mailing items to his brother and weighed each: Computer paper = 5 7/8 pounds, Laptop computer = 3 1/4 pounds, Recipe book = 15/16 pound. Between which two weights is the total weight of all three items?",
-      "choices": {
-        "A": "between 9 and 9 1/2 pounds",
-        "B": "between 10 and 10 1/8 pounds",
-        "C": "between 10 1/4 and 10 1/2 pounds",
-        "D": "between 10 1/2 and 11 pounds"
-      },
-      "correctAnswer": "B",
-      "explanation": "Estimate: 5 7/8 is approximately 6, 15/16 is approximately 1, so 6 + 3 1/4 + 1 = 10 1/4. But two values were rounded up, so the true total is just over 10. Total falls between 10 and 10 1/8.",
-      "standard": "MA.5.A.2.2",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-19",
-      "section": "math",
-      "questionType": "gridded-response",
-      "question": "Ms. Mather needs 144 inches of ribbon for her craft project. To save money, she will buy the ribbon by the yard. Each yard of ribbon costs $6, not including tax. What is the least number of yards of ribbon Ms. Mather needs to buy?",
-      "choices": {
-        "A": "3",
-        "B": "4",
-        "C": "12",
-        "D": "48"
-      },
-      "correctAnswer": "B",
-      "explanation": "144 inches / 12 = 12 feet. 12 / 3 = 4 yards. (Cost is irrelevant — distractor information.)",
-      "standard": "MA.5.G.5.2",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-20",
-      "section": "math",
-      "question": "A carpenter is measuring the width of a window in a house. Which method provides the most precise measurement?",
-      "choices": {
-        "A": "measure to the nearest foot",
-        "B": "measure to the nearest inch",
-        "C": "measure to the nearest 1/4 foot",
-        "D": "measure to the nearest 1/2 inch"
-      },
-      "correctAnswer": "D",
-      "explanation": "Smaller units of measurement give more precision. 1/2 inch is the smallest unit listed.",
-      "standard": "MA.5.G.5.3",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-21",
+      "id": "math-8",
       "section": "math",
       "question": "A right rectangular prism measuring 4 cubes long, 3 cubes wide, and 2 cubes tall is partially filled with 12 unit cubes. How many more unit cubes are needed to completely fill the prism?",
       "choices": {
@@ -349,7 +139,7 @@
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_5M.pdf"
     },
     {
-      "id": "math-22",
+      "id": "math-9",
       "section": "math",
       "questionType": "multi-select",
       "question": "Select all the figures that have parallel bases.",
@@ -360,78 +150,18 @@
         "D": "rectangular prism",
         "E": "triangular prism"
       },
-      "correctAnswer": ["C", "D", "E"],
-      "explanation": "Figures with parallel bases include cylinders and prisms (rectangular and triangular). Cones and pyramids have one base only — no parallel bases.",
+      "correctAnswer": [
+        "C",
+        "D",
+        "E"
+      ],
+      "explanation": "Figures with parallel bases include cylinders and prisms (rectangular and triangular). Cones and pyramids have one base only \u2014 no parallel bases.",
       "standard": "MA.5.GR.3.1",
       "difficulty": "medium",
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST_5M_Answer-Key_PBT.pdf"
     },
     {
-      "id": "math-23",
-      "section": "math",
-      "question": "The track team runs a path that forms a rectangle. Three vertices are shown on a coordinate grid: (2, 1), (5, 1), and (2, 3). What are the coordinates of the fourth vertex of the rectangle?",
-      "choices": {
-        "A": "(3, 5)",
-        "B": "(5, 2)",
-        "C": "(5, 3)",
-        "D": "(3, 3)"
-      },
-      "correctAnswer": "C",
-      "explanation": "A rectangle has 4 right angles and opposite sides congruent. The base goes from (2,1) to (5,1) (length 3). The left side goes from (2,1) to (2,3) (length 2). The fourth vertex must be 3 units right of (2,3), i.e., (5, 3).",
-      "standard": "MA.5.GR.4.2",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-24",
-      "section": "math",
-      "question": "Kayla received a special award shaped like a rectangular pyramid. Which graphic represents the top view of the pyramid?",
-      "choices": {
-        "A": "a rectangle (the base outline only)",
-        "B": "a rectangle with diagonals meeting at the apex",
-        "C": "a triangle (the side view)",
-        "D": "a net showing 4 triangles and 1 rectangle"
-      },
-      "correctAnswer": "B",
-      "explanation": "The top view of a rectangular pyramid is a rectangle with diagonals meeting at the apex (you see the base outline plus the four lateral edges converging at the top).",
-      "standard": "MA.5.G.3.1",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-25",
-      "section": "math",
-      "question": "Carole has a cube-shaped photo frame with each edge = 5 inches. Which expression should Carole use to find the surface area, in square inches, of her cube-shaped photo frame?",
-      "choices": {
-        "A": "5 x 5 x 1",
-        "B": "5 x 5 x 3",
-        "C": "5 x 5 x 5",
-        "D": "5 x 5 x 6"
-      },
-      "correctAnswer": "D",
-      "explanation": "A cube has 6 congruent square faces. Each face has area 5 x 5. Total surface area = 6 x (5 x 5) = 5 x 5 x 6.",
-      "standard": "MA.5.G.5",
-      "difficulty": "medium",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-26",
-      "section": "math",
-      "question": "Tori plotted points A, B, and C on a grid (1 square = 1 square unit). She needs to plot one more point to create a trapezoid that has an area of exactly 32 square units. Using point S, the trapezoid decomposes into two triangles (each 2 sq units) plus a rectangle (28 sq units). Which point should she plot?",
-      "choices": {
-        "A": "point P",
-        "B": "point Q",
-        "C": "point R",
-        "D": "point S"
-      },
-      "correctAnswer": "D",
-      "explanation": "Using point S, trapezoid ABCS can be decomposed into two triangles (each 2 sq units) plus a rectangle (28 sq units). Total area = 2 + 2 + 28 = 32 sq units.",
-      "standard": "MA.5.G.5.4",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-27",
+      "id": "math-10",
       "section": "math",
       "question": "A line graph shows the number of cups of water Beatrice drinks each day for five days. The Day 4 data point is between 11 and 11.5. How many cups of water does Beatrice drink on Day 4?",
       "choices": {
@@ -445,38 +175,6 @@
       "standard": "MA.5.DP.1.1",
       "difficulty": "easy",
       "sourceUrl": "https://flfast.org/content/contentresources/en/FAST_5M_Answer-Key_PBT.pdf"
-    },
-    {
-      "id": "math-28",
-      "section": "math",
-      "question": "Which of the following situations should NOT be represented by a double bar graph (showing two bars per category across five categories)?",
-      "choices": {
-        "A": "comparing prices of five kinds of apples sold in October vs. April",
-        "B": "comparing the number of boys to the number of girls competing in five afterschool activities",
-        "C": "comparing the heights of five different mountains in each of two different continents",
-        "D": "comparing the number of cameras sold in two different stores over five months"
-      },
-      "correctAnswer": "C",
-      "explanation": "Options A, B, and D each have two parallel data sets that can be paired across the same five categories — perfect for a double bar graph. Option C uses ten different mountains (five per continent), so the bars wouldn't pair up by category.",
-      "standard": "MA.5.S.7.1",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
-    },
-    {
-      "id": "math-29",
-      "section": "math",
-      "question": "Emily measured her bamboo plant each day for 5 days: Day 1 = 10 in, Day 2 = 12 in, Day 3 = 13 in, Day 4 = 15 in, Day 5 = 17 in. Which is a true statement about the type of graph Emily should use to display these data?",
-      "choices": {
-        "A": "She should use a line graph because the data are continuous.",
-        "B": "She should use a line graph because the data are discrete.",
-        "C": "She should use a bar graph because the data are continuous.",
-        "D": "She should use a bar graph because the data are discrete."
-      },
-      "correctAnswer": "A",
-      "explanation": "Both day count and plant height can take on infinitely many values between whole numbers (the plant grows continuously, time flows continuously), so the data are continuous and a line graph is appropriate.",
-      "standard": "MA.5.S.7.2",
-      "difficulty": "hard",
-      "sourceUrl": "https://www.fldoe.org/core/fileparse.php/3/urlt/fl540177_gr5mthstm_ak_wt_r2g.pdf"
     }
   ]
 }
