@@ -309,9 +309,20 @@
             renderQuestion();
         }
 
+        const sectionLabels = {
+            'math': 'Math — Official FAST',
+            'math-classic': 'Math — Classic FLDOE',
+            'math-ai-bank': 'Full FAST Practice',
+            'reading': 'Reading',
+            'grammar': 'Grammar',
+            'figurative': 'Figurative Language',
+            'science': 'Science'
+        };
+
         function renderHeader() {
-            document.getElementById('header-center').textContent = 
-                `${section.charAt(0).toUpperCase() + section.slice(1)}: Question ${currentQuestionIndex + 1} of ${questions.length}`;
+            const label = sectionLabels[section] || section.charAt(0).toUpperCase() + section.slice(1);
+            document.getElementById('header-center').textContent =
+                `${label}: Question ${currentQuestionIndex + 1} of ${questions.length}`;
         }
 
         function renderQuestion() {

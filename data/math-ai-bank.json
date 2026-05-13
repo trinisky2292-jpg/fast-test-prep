@@ -1,0 +1,1015 @@
+{
+  "section": "math-ai-bank",
+  "description": "Pre-generated FAST-style questions covering all 36 B.E.S.T. Grade 5 math benchmarks",
+  "questionCount": 72,
+  "questions": [
+    {
+      "id": "ai-1",
+      "standard": "MA.5.NSO.1.1",
+      "topic": "number-sense",
+      "question": "What is the value of the digit 7 in the number 274,831?",
+      "choices": {
+        "A": "7,000",
+        "B": "70,000",
+        "C": "700",
+        "D": "700,000"
+      },
+      "correctAnswer": "B",
+      "explanation": "The digit 7 is in the ten-thousands place, so its value is 7 × 10,000 = 70,000."
+    },
+    {
+      "id": "ai-2",
+      "standard": "MA.5.NSO.1.1",
+      "topic": "number-sense",
+      "question": "Which shows 408,523 written in expanded form?",
+      "choices": {
+        "A": "400,000 + 8,000 + 500 + 23",
+        "B": "400,000 + 80,000 + 5,000 + 200 + 30",
+        "C": "400,000 + 8,000 + 500 + 20 + 3",
+        "D": "40,000 + 8,000 + 500 + 20 + 3"
+      },
+      "correctAnswer": "C",
+      "explanation": "408,523 = 400,000 + 8,000 + 500 + 20 + 3. The 0 in the ten-thousands place means no ten-thousands."
+    },
+    {
+      "id": "ai-3",
+      "standard": "MA.5.NSO.1.2",
+      "topic": "number-sense",
+      "question": "Which shows 0.349 written in word form?",
+      "choices": {
+        "A": "three hundred forty-nine tenths",
+        "B": "three hundred forty-nine thousandths",
+        "C": "three and forty-nine thousandths",
+        "D": "thirty-four and nine hundredths"
+      },
+      "correctAnswer": "B",
+      "explanation": "0.349 is read as 'three hundred forty-nine thousandths' because the last digit is in the thousandths place."
+    },
+    {
+      "id": "ai-4",
+      "standard": "MA.5.NSO.1.2",
+      "topic": "number-sense",
+      "question": "Which decimal represents 'fifty-two and six hundredths'?",
+      "choices": {
+        "A": "52.006",
+        "B": "52.6",
+        "C": "52.06",
+        "D": "52.60"
+      },
+      "correctAnswer": "C",
+      "explanation": "Six hundredths means 6 in the hundredths place: 52.06. Choice D (52.60) is fifty-two and sixty hundredths."
+    },
+    {
+      "id": "ai-5",
+      "standard": "MA.5.NSO.1.4",
+      "topic": "number-sense",
+      "question": "What is 14.687 rounded to the nearest tenth?",
+      "choices": {
+        "A": "14.6",
+        "B": "14.69",
+        "C": "14.7",
+        "D": "15.0"
+      },
+      "correctAnswer": "C",
+      "explanation": "Look at the hundredths digit (8). Since 8 ≥ 5, round the tenths digit up: 14.687 rounds to 14.7."
+    },
+    {
+      "id": "ai-6",
+      "standard": "MA.5.NSO.1.4",
+      "topic": "number-sense",
+      "question": "Mia measures a ribbon at 3.842 meters. What is this length rounded to the nearest hundredth?",
+      "choices": {
+        "A": "3.84",
+        "B": "3.85",
+        "C": "3.80",
+        "D": "3.9"
+      },
+      "correctAnswer": "A",
+      "explanation": "Look at the thousandths digit (2). Since 2 < 5, keep the hundredths digit: 3.842 rounds to 3.84."
+    },
+    {
+      "id": "ai-7",
+      "standard": "MA.5.NSO.1.5",
+      "topic": "number-sense",
+      "question": "Which expression has the same value as 0.73 × 10?",
+      "choices": {
+        "A": "0.073",
+        "B": "73",
+        "C": "7.3",
+        "D": "730"
+      },
+      "correctAnswer": "C",
+      "explanation": "When you multiply a decimal by 10, move the decimal point one place to the right: 0.73 × 10 = 7.3."
+    },
+    {
+      "id": "ai-8",
+      "standard": "MA.5.NSO.1.5",
+      "topic": "number-sense",
+      "question": "What is 45.2 ÷ 100?",
+      "choices": {
+        "A": "4.52",
+        "B": "0.452",
+        "C": "4,520",
+        "D": "0.0452"
+      },
+      "correctAnswer": "B",
+      "explanation": "When you divide by 100, move the decimal point two places to the left: 45.2 ÷ 100 = 0.452."
+    },
+    {
+      "id": "ai-9",
+      "standard": "MA.5.NSO.2.1",
+      "topic": "number-sense",
+      "question": "What is 347 × 28?",
+      "choices": {
+        "A": "9,716",
+        "B": "9,616",
+        "C": "8,716",
+        "D": "9,816"
+      },
+      "correctAnswer": "A",
+      "explanation": "347 × 28 = 347 × 20 + 347 × 8 = 6,940 + 2,776 = 9,716."
+    },
+    {
+      "id": "ai-10",
+      "standard": "MA.5.NSO.2.1",
+      "topic": "number-sense",
+      "question": "A school orders 156 boxes of pencils. Each box has 24 pencils. How many pencils did the school order in all?",
+      "choices": {
+        "A": "3,744",
+        "B": "3,644",
+        "C": "3,344",
+        "D": "3,844"
+      },
+      "correctAnswer": "A",
+      "explanation": "156 × 24 = 156 × 20 + 156 × 4 = 3,120 + 624 = 3,744."
+    },
+    {
+      "id": "ai-11",
+      "standard": "MA.5.NSO.2.2",
+      "topic": "number-sense",
+      "question": "What is 4,536 ÷ 18?",
+      "choices": {
+        "A": "250",
+        "B": "252",
+        "C": "248",
+        "D": "262"
+      },
+      "correctAnswer": "B",
+      "explanation": "4,536 ÷ 18 = 252. Check: 252 × 18 = 252 × 20 − 252 × 2 = 5,040 − 504 = 4,536."
+    },
+    {
+      "id": "ai-12",
+      "standard": "MA.5.NSO.2.2",
+      "topic": "number-sense",
+      "question": "A farmer packed 2,850 oranges equally into 15 crates. How many oranges are in each crate?",
+      "choices": {
+        "A": "180",
+        "B": "190",
+        "C": "200",
+        "D": "170"
+      },
+      "correctAnswer": "B",
+      "explanation": "2,850 ÷ 15 = 190. Check: 190 × 15 = 190 × 10 + 190 × 5 = 1,900 + 950 = 2,850."
+    },
+    {
+      "id": "ai-13",
+      "standard": "MA.5.NSO.2.3",
+      "topic": "number-sense",
+      "question": "What is 12.45 + 3.678?",
+      "choices": {
+        "A": "16.128",
+        "B": "15.128",
+        "C": "16.028",
+        "D": "16.118"
+      },
+      "correctAnswer": "A",
+      "explanation": "Line up the decimals: 12.450 + 3.678 = 16.128."
+    },
+    {
+      "id": "ai-14",
+      "standard": "MA.5.NSO.2.3",
+      "topic": "number-sense",
+      "question": "Emma had $20.00. She spent $7.53 on a book and $4.29 on lunch. How much money does she have left?",
+      "choices": {
+        "A": "$8.28",
+        "B": "$8.18",
+        "C": "$8.08",
+        "D": "$7.18"
+      },
+      "correctAnswer": "B",
+      "explanation": "$7.53 + $4.29 = $11.82. Then $20.00 − $11.82 = $8.18."
+    },
+    {
+      "id": "ai-15",
+      "standard": "MA.5.NSO.2.4",
+      "topic": "number-sense",
+      "question": "What is 3.6 × 4.2?",
+      "choices": {
+        "A": "14.12",
+        "B": "15.12",
+        "C": "15.02",
+        "D": "14.52"
+      },
+      "correctAnswer": "B",
+      "explanation": "36 × 42 = 1,512. Both factors have one decimal place total, so place the decimal: 15.12."
+    },
+    {
+      "id": "ai-16",
+      "standard": "MA.5.NSO.2.4",
+      "topic": "number-sense",
+      "question": "A roll of ribbon costs $2.75 per meter. Kim buys 3.2 meters. How much does she pay?",
+      "choices": {
+        "A": "$8.80",
+        "B": "$8.60",
+        "C": "$9.00",
+        "D": "$8.25"
+      },
+      "correctAnswer": "A",
+      "explanation": "$2.75 × 3.2: 275 × 32 = 8,800. Three decimal places total → $8.800 = $8.80."
+    },
+    {
+      "id": "ai-17",
+      "standard": "MA.5.FR.1.1",
+      "topic": "fractions",
+      "question": "Five friends share 3 pizzas equally. What fraction of a pizza does each friend get?",
+      "choices": {
+        "A": "5/3",
+        "B": "3/5",
+        "C": "1/5",
+        "D": "3/8"
+      },
+      "correctAnswer": "B",
+      "explanation": "3 pizzas ÷ 5 friends = 3/5 of a pizza each. A fraction a/b can represent a ÷ b."
+    },
+    {
+      "id": "ai-18",
+      "standard": "MA.5.FR.1.1",
+      "topic": "fractions",
+      "question": "Which expression is equivalent to 7/4?",
+      "choices": {
+        "A": "4 ÷ 7",
+        "B": "7 ÷ 4",
+        "C": "7 × 4",
+        "D": "4 − 7"
+      },
+      "correctAnswer": "B",
+      "explanation": "The fraction 7/4 means 7 divided by 4, which equals 1.75 or 1¾."
+    },
+    {
+      "id": "ai-19",
+      "standard": "MA.5.FR.2.2",
+      "topic": "fractions",
+      "question": "What is 3/4 + 2/3?",
+      "choices": {
+        "A": "5/7",
+        "B": "1 5/12",
+        "C": "1 1/2",
+        "D": "1 1/7"
+      },
+      "correctAnswer": "B",
+      "explanation": "Find a common denominator: 3/4 = 9/12, 2/3 = 8/12. Then 9/12 + 8/12 = 17/12 = 1 5/12."
+    },
+    {
+      "id": "ai-20",
+      "standard": "MA.5.FR.2.2",
+      "topic": "fractions",
+      "question": "What is 4 1/6 − 2 3/4?",
+      "choices": {
+        "A": "1 5/12",
+        "B": "2 1/3",
+        "C": "1 2/3",
+        "D": "1 1/3"
+      },
+      "correctAnswer": "A",
+      "explanation": "Convert: 4 1/6 = 4 2/12, and 2 3/4 = 2 9/12. Borrow: 3 14/12 − 2 9/12 = 1 5/12."
+    },
+    {
+      "id": "ai-21",
+      "standard": "MA.5.FR.2.3",
+      "topic": "fractions",
+      "question": "What is 2/3 × 4/5?",
+      "choices": {
+        "A": "6/8",
+        "B": "8/15",
+        "C": "6/15",
+        "D": "8/8"
+      },
+      "correctAnswer": "B",
+      "explanation": "Multiply numerators and denominators: (2 × 4)/(3 × 5) = 8/15."
+    },
+    {
+      "id": "ai-22",
+      "standard": "MA.5.FR.2.3",
+      "topic": "fractions",
+      "question": "A recipe calls for 2 1/2 cups of flour. Maria is making 1/3 of the recipe. How much flour does she need?",
+      "choices": {
+        "A": "1/3 cup",
+        "B": "5/6 cup",
+        "C": "2/3 cup",
+        "D": "1 1/6 cups"
+      },
+      "correctAnswer": "B",
+      "explanation": "2 1/2 × 1/3 = 5/2 × 1/3 = 5/6 cup."
+    },
+    {
+      "id": "ai-23",
+      "standard": "MA.5.FR.2.4",
+      "topic": "fractions",
+      "question": "A garden plot is 3/4 meter wide and 2/3 meter long. What is the area of the garden?",
+      "choices": {
+        "A": "5/7 square meter",
+        "B": "6/12 square meter",
+        "C": "1/2 square meter",
+        "D": "1 5/12 square meters"
+      },
+      "correctAnswer": "C",
+      "explanation": "Area = 3/4 × 2/3 = 6/12 = 1/2 square meter."
+    },
+    {
+      "id": "ai-24",
+      "standard": "MA.5.AR.1.1",
+      "topic": "algebraic-reasoning",
+      "question": "Which expression represents 'the sum of 12 and 8, divided by 4'?",
+      "choices": {
+        "A": "12 + 8 ÷ 4",
+        "B": "(12 + 8) ÷ 4",
+        "C": "12 ÷ 4 + 8",
+        "D": "4 ÷ (12 + 8)"
+      },
+      "correctAnswer": "B",
+      "explanation": "'The sum of 12 and 8' needs parentheses: (12 + 8). Then divide by 4: (12 + 8) ÷ 4 = 20 ÷ 4 = 5."
+    },
+    {
+      "id": "ai-25",
+      "standard": "MA.5.AR.1.1",
+      "topic": "algebraic-reasoning",
+      "question": "Which written description matches the expression 6 × (3 + 5)?",
+      "choices": {
+        "A": "6 times 3, plus 5",
+        "B": "The product of 6 and the sum of 3 and 5",
+        "C": "The sum of 6 and 3, multiplied by 5",
+        "D": "6 plus the product of 3 and 5"
+      },
+      "correctAnswer": "B",
+      "explanation": "6 × (3 + 5) means multiply 6 by the sum of 3 and 5. The product of 6 and (3 + 5) = 6 × 8 = 48."
+    },
+    {
+      "id": "ai-26",
+      "standard": "MA.5.AR.1.2",
+      "topic": "algebraic-reasoning",
+      "question": "What is the value of 3 × (8 + 4) − 6?",
+      "choices": {
+        "A": "36",
+        "B": "30",
+        "C": "18",
+        "D": "42"
+      },
+      "correctAnswer": "B",
+      "explanation": "Parentheses first: 8 + 4 = 12. Then multiply: 3 × 12 = 36. Then subtract: 36 − 6 = 30."
+    },
+    {
+      "id": "ai-27",
+      "standard": "MA.5.AR.1.2",
+      "topic": "algebraic-reasoning",
+      "question": "Evaluate: 48 ÷ (3 + 5) + 2 × 3",
+      "choices": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "30"
+      },
+      "correctAnswer": "A",
+      "explanation": "Parentheses: 3 + 5 = 8. Divide: 48 ÷ 8 = 6. Multiply: 2 × 3 = 6. Add: 6 + 6 = 12."
+    },
+    {
+      "id": "ai-28",
+      "standard": "MA.5.AR.1.3",
+      "topic": "algebraic-reasoning",
+      "question": "Which expression has a value of 20? \n(A) 2 × 3 + 7  (B) 2 × (3 + 7)  (C) (2 + 3) × 7  (D) 2 + 3 × 7",
+      "choices": {
+        "A": "2 × 3 + 7 = 13",
+        "B": "2 × (3 + 7) = 20",
+        "C": "(2 + 3) × 7 = 35",
+        "D": "2 + 3 × 7 = 23"
+      },
+      "correctAnswer": "B",
+      "explanation": "2 × (3 + 7) = 2 × 10 = 20. Parentheses change the order of operations."
+    },
+    {
+      "id": "ai-29",
+      "standard": "MA.5.AR.1.3",
+      "topic": "algebraic-reasoning",
+      "question": "Where should parentheses be placed to make this equation true? 5 + 3 × 2 = 16",
+      "choices": {
+        "A": "(5 + 3) × 2",
+        "B": "5 + (3 × 2)",
+        "C": "No parentheses needed",
+        "D": "(5 + 3 × 2)"
+      },
+      "correctAnswer": "A",
+      "explanation": "(5 + 3) × 2 = 8 × 2 = 16. Without parentheses: 5 + 3 × 2 = 5 + 6 = 11."
+    },
+    {
+      "id": "ai-30",
+      "standard": "MA.5.AR.2.1",
+      "topic": "algebraic-reasoning",
+      "question": "Marcus has 48 baseball cards. He gives the same number of cards to each of his 6 friends. Which equation can be used to find c, the number of cards each friend gets?",
+      "choices": {
+        "A": "6 × 48 = c",
+        "B": "48 − 6 = c",
+        "C": "48 ÷ 6 = c",
+        "D": "48 + 6 = c"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dividing 48 cards equally among 6 friends: 48 ÷ 6 = c, so c = 8."
+    },
+    {
+      "id": "ai-31",
+      "standard": "MA.5.AR.2.1",
+      "topic": "algebraic-reasoning",
+      "question": "A toy costs $d. Ana buys 3 toys and pays with a $50 bill. Which expression shows her change?",
+      "choices": {
+        "A": "50 − d",
+        "B": "3d − 50",
+        "C": "50 − 3d",
+        "D": "50 + 3d"
+      },
+      "correctAnswer": "C",
+      "explanation": "3 toys cost 3 × d = 3d. Change = $50 − 3d."
+    },
+    {
+      "id": "ai-32",
+      "standard": "MA.5.AR.2.2",
+      "topic": "algebraic-reasoning",
+      "question": "Which equation is true when n = 9?",
+      "choices": {
+        "A": "4 × n = 32",
+        "B": "63 ÷ n = 9",
+        "C": "n + 15 = 24",
+        "D": "n − 3 = 5"
+      },
+      "correctAnswer": "C",
+      "explanation": "Substitute n = 9: 9 + 15 = 24. True! Check others: 4 × 9 = 36 (not 32); 63 ÷ 9 = 7 (not 9); 9 − 3 = 6 (not 5)."
+    },
+    {
+      "id": "ai-33",
+      "standard": "MA.5.AR.2.3",
+      "topic": "algebraic-reasoning",
+      "question": "Lisa earns $12 per hour babysitting. She also got a $15 tip. She earned $63 total. Which equation can be used to find h, the hours she worked, and what is h?",
+      "choices": {
+        "A": "12h + 15 = 63; h = 4",
+        "B": "12h − 15 = 63; h = 6.5",
+        "C": "15h + 12 = 63; h = 3.4",
+        "D": "12 + 15h = 63; h = 3.4"
+      },
+      "correctAnswer": "A",
+      "explanation": "12h + 15 = 63. Subtract 15: 12h = 48. Divide by 12: h = 4 hours."
+    },
+    {
+      "id": "ai-34",
+      "standard": "MA.5.AR.2.3",
+      "topic": "algebraic-reasoning",
+      "question": "A store sells notebooks for $3 each and pens for $2 each. Tyler buys 4 notebooks and some pens and spends $20 total. How many pens did he buy?",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctAnswer": "B",
+      "explanation": "4 notebooks = 4 × $3 = $12. Remaining: $20 − $12 = $8. Pens: $8 ÷ $2 = 4 pens."
+    },
+    {
+      "id": "ai-35",
+      "standard": "MA.5.AR.2.4",
+      "topic": "algebraic-reasoning",
+      "question": "Which inequality is true?",
+      "choices": {
+        "A": "3 × 4 > 15",
+        "B": "20 ÷ 5 < 3",
+        "C": "7 + 6 > 12",
+        "D": "18 − 9 < 8"
+      },
+      "correctAnswer": "C",
+      "explanation": "7 + 6 = 13, and 13 > 12 is true. Check: 3 × 4 = 12 (not > 15); 20 ÷ 5 = 4 (not < 3); 18 − 9 = 9 (not < 8)."
+    },
+    {
+      "id": "ai-36",
+      "standard": "MA.5.AR.2.4",
+      "topic": "algebraic-reasoning",
+      "question": "You must be at least 48 inches tall to ride a roller coaster. Which inequality shows this rule, where h is height in inches?",
+      "choices": {
+        "A": "h < 48",
+        "B": "h > 48",
+        "C": "h ≤ 48",
+        "D": "h ≥ 48"
+      },
+      "correctAnswer": "D",
+      "explanation": "'At least 48 inches' means 48 or more: h ≥ 48."
+    },
+    {
+      "id": "ai-37",
+      "standard": "MA.5.AR.3.1",
+      "topic": "algebraic-reasoning",
+      "question": "Look at the pattern: 5, 11, 17, 23, 29, ... What is the rule for this pattern?",
+      "choices": {
+        "A": "Add 5",
+        "B": "Add 6",
+        "C": "Multiply by 2, then add 1",
+        "D": "Add 7"
+      },
+      "correctAnswer": "B",
+      "explanation": "11 − 5 = 6, 17 − 11 = 6, 23 − 17 = 6. The rule is add 6."
+    },
+    {
+      "id": "ai-38",
+      "standard": "MA.5.AR.3.1",
+      "topic": "algebraic-reasoning",
+      "question": "A number pattern starts at 3 and follows the rule 'multiply by 2.' What are the first 5 terms?",
+      "choices": {
+        "A": "3, 5, 7, 9, 11",
+        "B": "3, 6, 12, 24, 48",
+        "C": "3, 6, 9, 12, 15",
+        "D": "3, 6, 12, 18, 24"
+      },
+      "correctAnswer": "B",
+      "explanation": "Start at 3: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, 24 × 2 = 48."
+    },
+    {
+      "id": "ai-39",
+      "standard": "MA.5.AR.3.2",
+      "topic": "algebraic-reasoning",
+      "question": "The table shows a pattern. Input: 1, 2, 3, 4. Output: 4, 7, 10, 13. Which expression describes the rule?",
+      "choices": {
+        "A": "n + 3",
+        "B": "3n + 1",
+        "C": "4n",
+        "D": "n × 3"
+      },
+      "correctAnswer": "B",
+      "explanation": "Test n = 1: 3(1) + 1 = 4. n = 2: 3(2) + 1 = 7. n = 3: 3(3) + 1 = 10. n = 4: 3(4) + 1 = 13. The rule is 3n + 1."
+    },
+    {
+      "id": "ai-40",
+      "standard": "MA.5.AR.3.2",
+      "topic": "algebraic-reasoning",
+      "question": "Jake earns money mowing lawns. He charges $5 per lawn plus a $10 flat fee for gas. If he mows n lawns, his earnings are 5n + 10. How much does he earn for 7 lawns?",
+      "choices": {
+        "A": "$35",
+        "B": "$40",
+        "C": "$45",
+        "D": "$50"
+      },
+      "correctAnswer": "C",
+      "explanation": "5(7) + 10 = 35 + 10 = $45."
+    },
+    {
+      "id": "ai-41",
+      "standard": "MA.5.M.2.1",
+      "topic": "measurement",
+      "question": "How many cups are in 3 quarts? (1 quart = 4 cups)",
+      "choices": {
+        "A": "8 cups",
+        "B": "10 cups",
+        "C": "12 cups",
+        "D": "16 cups"
+      },
+      "correctAnswer": "C",
+      "explanation": "3 quarts × 4 cups per quart = 12 cups."
+    },
+    {
+      "id": "ai-42",
+      "standard": "MA.5.M.2.1",
+      "topic": "measurement",
+      "question": "A recipe calls for 5,000 milliliters of water. How many liters is that? (1 liter = 1,000 mL)",
+      "choices": {
+        "A": "0.5 liters",
+        "B": "5 liters",
+        "C": "50 liters",
+        "D": "500 liters"
+      },
+      "correctAnswer": "B",
+      "explanation": "5,000 mL ÷ 1,000 = 5 liters."
+    },
+    {
+      "id": "ai-43",
+      "standard": "MA.5.M.1.1",
+      "topic": "measurement",
+      "question": "A fish tank holds 3 gallons of water. Each gallon equals 4 quarts, and each quart equals 2 pints. How many pints does the tank hold?",
+      "choices": {
+        "A": "12 pints",
+        "B": "18 pints",
+        "C": "24 pints",
+        "D": "36 pints"
+      },
+      "correctAnswer": "C",
+      "explanation": "3 gallons × 4 quarts/gallon = 12 quarts. 12 quarts × 2 pints/quart = 24 pints."
+    },
+    {
+      "id": "ai-44",
+      "standard": "MA.5.M.1.1",
+      "topic": "measurement",
+      "question": "Sarah runs 2 kilometers each morning. How many meters does she run in 5 days? (1 km = 1,000 m)",
+      "choices": {
+        "A": "1,000 meters",
+        "B": "5,000 meters",
+        "C": "10,000 meters",
+        "D": "2,500 meters"
+      },
+      "correctAnswer": "C",
+      "explanation": "2 km × 1,000 = 2,000 meters per day. 2,000 × 5 days = 10,000 meters."
+    },
+    {
+      "id": "ai-45",
+      "standard": "MA.5.GR.1.1",
+      "topic": "geometry",
+      "question": "On a coordinate plane, which point is located at the origin?",
+      "choices": {
+        "A": "(1, 0)",
+        "B": "(0, 1)",
+        "C": "(0, 0)",
+        "D": "(1, 1)"
+      },
+      "correctAnswer": "C",
+      "explanation": "The origin is where the x-axis and y-axis meet, at the point (0, 0)."
+    },
+    {
+      "id": "ai-46",
+      "standard": "MA.5.GR.1.1",
+      "topic": "geometry",
+      "question": "On a coordinate plane, the x-axis is the horizontal line and the y-axis is the vertical line. Which describes the location of point (3, 7)?",
+      "choices": {
+        "A": "3 units up and 7 units right",
+        "B": "3 units right and 7 units up",
+        "C": "7 units right and 3 units up",
+        "D": "7 units right and 7 units up"
+      },
+      "correctAnswer": "B",
+      "explanation": "In an ordered pair (x, y), x tells how far right and y tells how far up. (3, 7) = 3 right, 7 up."
+    },
+    {
+      "id": "ai-47",
+      "standard": "MA.5.GR.1.2",
+      "topic": "geometry",
+      "question": "Start at the origin. Move 4 units right and 6 units up. What ordered pair describes this location?",
+      "choices": {
+        "A": "(6, 4)",
+        "B": "(4, 6)",
+        "C": "(4, 4)",
+        "D": "(6, 6)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Right = x-coordinate, up = y-coordinate. 4 right and 6 up = (4, 6)."
+    },
+    {
+      "id": "ai-48",
+      "standard": "MA.5.GR.1.2",
+      "topic": "geometry",
+      "question": "A treasure map shows the treasure at (5, 3). Which describes how to get there from the origin?",
+      "choices": {
+        "A": "Move 3 units right and 5 units up",
+        "B": "Move 5 units up and 3 units right",
+        "C": "Move 5 units right and 3 units up",
+        "D": "Move 8 units right"
+      },
+      "correctAnswer": "C",
+      "explanation": "(5, 3) means x = 5 (right) and y = 3 (up). Move 5 right, then 3 up."
+    },
+    {
+      "id": "ai-49",
+      "standard": "MA.5.GR.2.1",
+      "topic": "geometry",
+      "question": "A triangle has angles measuring 60°, 60°, and 60°. How should this triangle be classified?",
+      "choices": {
+        "A": "Right triangle",
+        "B": "Scalene triangle",
+        "C": "Equilateral triangle",
+        "D": "Obtuse triangle"
+      },
+      "correctAnswer": "C",
+      "explanation": "All three angles are equal (60°), so all three sides are equal. This is an equilateral triangle."
+    },
+    {
+      "id": "ai-50",
+      "standard": "MA.5.GR.2.1",
+      "topic": "geometry",
+      "question": "A quadrilateral has exactly one pair of parallel sides. What is this shape called?",
+      "choices": {
+        "A": "Parallelogram",
+        "B": "Rectangle",
+        "C": "Trapezoid",
+        "D": "Rhombus"
+      },
+      "correctAnswer": "C",
+      "explanation": "A trapezoid has exactly one pair of parallel sides. Parallelograms, rectangles, and rhombuses all have two pairs."
+    },
+    {
+      "id": "ai-51",
+      "standard": "MA.5.GR.3.1",
+      "topic": "geometry",
+      "question": "A rectangle has an area of 36 square feet. If the length is 9 feet, what is the perimeter?",
+      "choices": {
+        "A": "22 feet",
+        "B": "26 feet",
+        "C": "13 feet",
+        "D": "30 feet"
+      },
+      "correctAnswer": "B",
+      "explanation": "Width = 36 ÷ 9 = 4 feet. Perimeter = 2 × (9 + 4) = 2 × 13 = 26 feet."
+    },
+    {
+      "id": "ai-52",
+      "standard": "MA.5.GR.3.2",
+      "topic": "geometry",
+      "question": "What is the area of a rectangle with a length of 4.5 meters and a width of 3.2 meters?",
+      "choices": {
+        "A": "14.4 square meters",
+        "B": "15.4 square meters",
+        "C": "7.7 square meters",
+        "D": "13.4 square meters"
+      },
+      "correctAnswer": "A",
+      "explanation": "Area = length × width = 4.5 × 3.2 = 14.4 square meters."
+    },
+    {
+      "id": "ai-53",
+      "standard": "MA.5.GR.3.3",
+      "topic": "geometry",
+      "question": "An L-shaped room is made of two rectangles. Rectangle 1 is 8 ft by 5 ft. Rectangle 2 is 4 ft by 3 ft. What is the total area?",
+      "choices": {
+        "A": "40 square feet",
+        "B": "52 square feet",
+        "C": "12 square feet",
+        "D": "20 square feet"
+      },
+      "correctAnswer": "B",
+      "explanation": "Area 1 = 8 × 5 = 40 sq ft. Area 2 = 4 × 3 = 12 sq ft. Total = 40 + 12 = 52 sq ft."
+    },
+    {
+      "id": "ai-54",
+      "standard": "MA.5.GR.3.3",
+      "topic": "geometry",
+      "question": "A sidewalk is shaped like a rectangle with a smaller rectangular section cut out. The large rectangle is 12 m by 4 m. The cutout is 3 m by 2 m. What is the area of the sidewalk?",
+      "choices": {
+        "A": "48 square meters",
+        "B": "42 square meters",
+        "C": "54 square meters",
+        "D": "36 square meters"
+      },
+      "correctAnswer": "B",
+      "explanation": "Large area = 12 × 4 = 48. Cutout = 3 × 2 = 6. Sidewalk area = 48 − 6 = 42 square meters."
+    },
+    {
+      "id": "ai-55",
+      "standard": "MA.5.GR.4.1",
+      "topic": "geometry",
+      "question": "A rectangular prism is made of unit cubes. It is 5 cubes long, 3 cubes wide, and 2 cubes tall. What is the volume?",
+      "choices": {
+        "A": "10 cubic units",
+        "B": "16 cubic units",
+        "C": "30 cubic units",
+        "D": "25 cubic units"
+      },
+      "correctAnswer": "C",
+      "explanation": "Volume = length × width × height = 5 × 3 × 2 = 30 cubic units."
+    },
+    {
+      "id": "ai-56",
+      "standard": "MA.5.GR.4.1",
+      "topic": "geometry",
+      "question": "Which formula can be used to find the volume of a rectangular prism?",
+      "choices": {
+        "A": "V = length + width + height",
+        "B": "V = length × width",
+        "C": "V = length × width × height",
+        "D": "V = 2 × (length + width + height)"
+      },
+      "correctAnswer": "C",
+      "explanation": "Volume of a rectangular prism = length × width × height (or V = l × w × h)."
+    },
+    {
+      "id": "ai-57",
+      "standard": "MA.5.GR.4.2",
+      "topic": "geometry",
+      "question": "A storage box is 8 inches long, 5 inches wide, and 4 inches tall. What is its volume?",
+      "choices": {
+        "A": "120 cubic inches",
+        "B": "160 cubic inches",
+        "C": "200 cubic inches",
+        "D": "100 cubic inches"
+      },
+      "correctAnswer": "B",
+      "explanation": "V = 8 × 5 × 4 = 160 cubic inches."
+    },
+    {
+      "id": "ai-58",
+      "standard": "MA.5.GR.4.2",
+      "topic": "geometry",
+      "question": "Two boxes are stacked. Box A is 6 cm × 4 cm × 3 cm. Box B is 6 cm × 4 cm × 5 cm. What is the total volume?",
+      "choices": {
+        "A": "192 cubic cm",
+        "B": "72 cubic cm",
+        "C": "120 cubic cm",
+        "D": "140 cubic cm"
+      },
+      "correctAnswer": "A",
+      "explanation": "Box A: 6 × 4 × 3 = 72. Box B: 6 × 4 × 5 = 120. Total = 72 + 120 = 192 cubic cm."
+    },
+    {
+      "id": "ai-59",
+      "standard": "MA.5.DP.1.1",
+      "topic": "data-probability",
+      "question": "A class votes for their favorite fruit: Apple (8), Banana (5), Orange (7), Grapes (4). Which fruit received the most votes?",
+      "choices": {
+        "A": "Banana",
+        "B": "Apple",
+        "C": "Grapes",
+        "D": "Orange"
+      },
+      "correctAnswer": "B",
+      "explanation": "Apple received 8 votes, which is more than Orange (7), Banana (5), or Grapes (4)."
+    },
+    {
+      "id": "ai-60",
+      "standard": "MA.5.DP.1.1",
+      "topic": "data-probability",
+      "question": "A line plot shows the lengths of caterpillars (in inches): 1, 1, 1½, 1½, 1½, 2, 2, 2½. How many caterpillars are at least 2 inches long?",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "At least 2 inches: 2, 2, 2½ = 3 caterpillars."
+    },
+    {
+      "id": "ai-61",
+      "standard": "MA.5.DP.1.2",
+      "topic": "data-probability",
+      "question": "Five students scored: 85, 90, 75, 90, 80 on a test. What is the mean (average)?",
+      "choices": {
+        "A": "82",
+        "B": "84",
+        "C": "85",
+        "D": "86"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sum = 85 + 90 + 75 + 90 + 80 = 420. Mean = 420 ÷ 5 = 84."
+    },
+    {
+      "id": "ai-62",
+      "standard": "MA.5.DP.1.2",
+      "topic": "data-probability",
+      "question": "A set of data is: 3, 5, 7, 7, 8. What is the range?",
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "8"
+      },
+      "correctAnswer": "B",
+      "explanation": "Range = highest − lowest = 8 − 3 = 5."
+    },
+    {
+      "id": "ai-63",
+      "standard": "MA.5.NSO.1.3",
+      "topic": "number-sense",
+      "question": "Which shows a way to decompose 6.205?",
+      "choices": {
+        "A": "6 + 0.2 + 0.05",
+        "B": "6 + 0.2 + 0.005",
+        "C": "6 + 0.25",
+        "D": "6 + 2 tenths + 5 tenths"
+      },
+      "correctAnswer": "B",
+      "explanation": "6.205 = 6 ones + 2 tenths (0.2) + 0 hundredths + 5 thousandths (0.005)."
+    },
+    {
+      "id": "ai-64",
+      "standard": "MA.5.NSO.2.5",
+      "topic": "number-sense",
+      "question": "What is 9.36 ÷ 2.4?",
+      "choices": {
+        "A": "3.6",
+        "B": "3.9",
+        "C": "4.9",
+        "D": "3.4"
+      },
+      "correctAnswer": "B",
+      "explanation": "Multiply both by 10 to remove decimals: 93.6 ÷ 24. 24 × 3 = 72, remainder 21.6. 24 × 0.9 = 21.6. So 3.9."
+    },
+    {
+      "id": "ai-65",
+      "standard": "MA.5.FR.2.1",
+      "topic": "fractions",
+      "question": "What is 3/8 + 1/4?",
+      "choices": {
+        "A": "4/12",
+        "B": "4/8",
+        "C": "5/8",
+        "D": "1/2"
+      },
+      "correctAnswer": "C",
+      "explanation": "Convert 1/4 to 2/8. Then 3/8 + 2/8 = 5/8."
+    },
+    {
+      "id": "ai-66",
+      "standard": "MA.5.FR.2.1",
+      "topic": "fractions",
+      "question": "What is 5/6 − 1/3?",
+      "choices": {
+        "A": "4/3",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "4/6"
+      },
+      "correctAnswer": "B",
+      "explanation": "Convert 1/3 to 2/6. Then 5/6 − 2/6 = 3/6 = 1/2."
+    },
+    {
+      "id": "ai-67",
+      "standard": "MA.5.AR.2.2",
+      "topic": "algebraic-reasoning",
+      "question": "Is the equation 4 × 8 = 56 ÷ 2 true or false?",
+      "choices": {
+        "A": "True, both sides equal 32",
+        "B": "True, both sides equal 28",
+        "C": "False, 32 does not equal 28",
+        "D": "False, 28 does not equal 32"
+      },
+      "correctAnswer": "C",
+      "explanation": "Left side: 4 × 8 = 32. Right side: 56 ÷ 2 = 28. Since 32 ≠ 28, the equation is false."
+    },
+    {
+      "id": "ai-68",
+      "standard": "MA.5.M.1.1",
+      "topic": "measurement",
+      "question": "A trail is 3.5 kilometers long. How many meters is the trail? (1 km = 1,000 m)",
+      "choices": {
+        "A": "350 meters",
+        "B": "3,500 meters",
+        "C": "35,000 meters",
+        "D": "35 meters"
+      },
+      "correctAnswer": "B",
+      "explanation": "3.5 km × 1,000 m/km = 3,500 meters."
+    },
+    {
+      "id": "ai-69",
+      "standard": "MA.5.GR.3.1",
+      "topic": "geometry",
+      "question": "Two rectangles have the same perimeter of 24 cm. Rectangle A is 10 cm by 2 cm. Rectangle B is 8 cm by 4 cm. Which has the greater area?",
+      "choices": {
+        "A": "Rectangle A (20 sq cm)",
+        "B": "Rectangle B (32 sq cm)",
+        "C": "They have the same area",
+        "D": "Cannot be determined"
+      },
+      "correctAnswer": "B",
+      "explanation": "A: 10 × 2 = 20 sq cm. B: 8 × 4 = 32 sq cm. Same perimeter, but B has greater area."
+    },
+    {
+      "id": "ai-70",
+      "standard": "MA.5.DP.1.2",
+      "topic": "data-probability",
+      "question": "The temperatures for 5 days were: 72°F, 68°F, 75°F, 68°F, 82°F. What is the mode?",
+      "choices": {
+        "A": "72°F",
+        "B": "75°F",
+        "C": "68°F",
+        "D": "73°F"
+      },
+      "correctAnswer": "C",
+      "explanation": "The mode is the value that appears most often. 68°F appears twice; all others appear once."
+    },
+    {
+      "id": "ai-71",
+      "standard": "MA.5.DP.1.1",
+      "topic": "data-probability",
+      "question": "A table shows students' favorite sports: Soccer (12), Basketball (9), Baseball (6), Swimming (3). How many students were surveyed in total?",
+      "choices": {
+        "A": "24",
+        "B": "27",
+        "C": "30",
+        "D": "33"
+      },
+      "correctAnswer": "C",
+      "explanation": "12 + 9 + 6 + 3 = 30 students total."
+    },
+    {
+      "id": "ai-72",
+      "standard": "MA.5.GR.2.1",
+      "topic": "geometry",
+      "question": "A triangle has sides measuring 5 cm, 5 cm, and 8 cm. How should this triangle be classified by its sides?",
+      "choices": {
+        "A": "Equilateral",
+        "B": "Scalene",
+        "C": "Isosceles",
+        "D": "Right"
+      },
+      "correctAnswer": "C",
+      "explanation": "Two sides are equal (5 cm and 5 cm), so this is an isosceles triangle."
+    }
+  ]
+}
