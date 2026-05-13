@@ -306,16 +306,27 @@
         }
 
         // --- State ---
-        const QUESTIONS_PER_ROUND = 15; // matches real FAST test length
+        const QUESTIONS_PER_ROUND = 15;
         const sessionId = `aip-${Date.now()}-${Math.random().toString(36).slice(2,7)}`;
         let currentSection = null;
+        let currentTopic = null;
+        let currentStandard = null;
         let currentQuestion = null;
         let currentIndex = 0;
         let score = 0;
         const answers = [];
         let selectedChoice = null;
-        const exampleCache = {}; // section -> array of example questions
-        const sessionGeneratedQuestions = []; // tracks questions generated this session to prevent repeats
+        const exampleCache = {};
+        const sessionGeneratedQuestions = [];
+
+        const topicGuides = {
+            'number-sense': { name: 'Number Sense & Operations', codes: 'MA.5.NSO', focus: 'place value, reading/writing multi-digit numbers, decimals to thousandths, multi-digit multiplication and division, powers of 10' },
+            'fractions': { name: 'Fractions', codes: 'MA.5.FR', focus: 'adding/subtracting fractions with unlike denominators, multiplying fractions by whole numbers and fractions, fraction word problems, mixed numbers' },
+            'algebraic-reasoning': { name: 'Algebraic Reasoning', codes: 'MA.5.AR', focus: 'numerical expressions, order of operations, translating words to expressions, writing and solving equations, numerical patterns, two-part word problems' },
+            'measurement': { name: 'Measurement', codes: 'MA.5.M', focus: 'converting measurement units (customary and metric), multi-step real-world measurement problems, elapsed time, money calculations' },
+            'geometry': { name: 'Geometric Reasoning', codes: 'MA.5.GR', focus: 'classifying 2D figures, coordinate plane (first quadrant), plotting and identifying points, volume of rectangular prisms, 3D figure properties, nets and cross-sections' },
+            'data-probability': { name: 'Data Analysis & Probability', codes: 'MA.5.DP', focus: 'interpreting tables and graphs, line plots with fractions, mean/median/mode/range, choosing appropriate graph types, making predictions from data' }
+        };
 
         // Load examples from real FAST JSON to use as few-shot training examples
         async function loadExamples(section) {
@@ -351,8 +362,10 @@
         // --- Section pick ---
         const getQueryParam = (p) => new URLSearchParams(window.location.search).get(p);
         const preselect = getQueryParam('section');
+        const preselectTopic = getQueryParam('topic');
+        const preselectStandard = getQueryParam('standard');
         if (preselect) {
-            startSection(preselect);
+            startSection(preselect, preselectTopic, preselectStandard);
         }
 
         document.querySelectorAll('.section-btn').forEach(btn => {
@@ -363,17 +376,22 @@
             });
         });
 
-        function startSection(section) {
+        function startSection(section, topic, standard) {
             if (!apiKey) {
                 showStatus('error', 'Please set your API key in Settings first.');
                 return;
             }
             currentSection = section;
+            currentTopic = topic || null;
+            currentStandard = standard || null;
             currentIndex = 0;
             score = 0;
             answers.length = 0;
-            sessionGeneratedQuestions.length = 0; // fresh slate per section
+            sessionGeneratedQuestions.length = 0;
             document.getElementById('section-picker').style.display = 'none';
+            if (currentTopic && topicGuides[currentTopic]) {
+                showStatus('info', `Focused practice: ${topicGuides[currentTopic].name}`);
+            }
             loadNextQuestion();
         }
 
@@ -447,11 +465,28 @@
                 math: 'Ask one Florida 5th grade math question covering NSO (number sense), AR (algebraic reasoning), FR (fractions), M (measurement), GR (geometry), or DP (data). Use codes like MA.5.NSO.1.1, MA.5.AR.1.1, MA.5.FR.1.1.'
             };
 
-            // Build few-shot example block from ALL real FAST questions in the pool
+            let topicFocus = '';
+            if (currentTopic && topicGuides[currentTopic]) {
+                const tg = topicGuides[currentTopic];
+                topicFocus = `\n\n🎯 TOPIC FOCUS: Generate a question ONLY about ${tg.name} (${tg.codes}). Specifically cover: ${tg.focus}. Use standard codes starting with ${tg.codes}.`;
+            }
+            if (currentStandard) {
+                topicFocus += `\n\nThe student is weak on standard ${currentStandard} specifically. Target that standard or closely related ones.`;
+            }
+
             let examplesBlock = '';
             if (examples && examples.length > 0) {
-                examplesBlock = '\n\nHere are ALL the REAL Florida FAST 5th grade ' + section + ' example questions for your reference (use as STYLE templates, not for copying):\n\n';
-                examples.forEach((ex, i) => {
+                const relevantExamples = (currentTopic && topicGuides[currentTopic])
+                    ? examples.filter(ex => {
+                        const std = ex.standard || '';
+                        const codes = topicGuides[currentTopic].codes;
+                        return std.startsWith(codes) || (currentTopic === 'geometry' && (std.startsWith('MA.5.G') || std.startsWith('MA.5.GR'))) || (currentTopic === 'algebraic-reasoning' && (std.startsWith('MA.5.AR') || std.startsWith('MA.5.A')));
+                    })
+                    : examples;
+                const displayExamples = relevantExamples.length > 0 ? relevantExamples : examples;
+
+                examplesBlock = '\n\nHere are REAL Florida FAST 5th grade ' + section + ' example questions for reference (STYLE templates, not for copying):\n\n';
+                displayExamples.forEach((ex, i) => {
                     const exJson = {
                         question: (ex._passage ? `[Passage: ${ex._passage}] ` : '') + (ex.question || ex.text || ''),
                         choices: ex.choices || ex.options || {},
@@ -460,39 +495,46 @@
                     };
                     examplesBlock += `EXAMPLE ${i+1}:\n${JSON.stringify(exJson, null, 2)}\n\n`;
                 });
-                examplesBlock += 'Generate a NEW question matching the style, difficulty, and Florida standard format of the examples — but with completely DIFFERENT content. Do not copy any example question or its choices.';
+                examplesBlock += 'Generate a NEW question matching the style, difficulty, and Florida standard format — but with completely DIFFERENT content.';
             }
 
-            // Avoid-repeats block: previously generated questions in this session
             let avoidBlock = '';
             if (alreadyGenerated && alreadyGenerated.length > 0) {
-                avoidBlock = '\n\n⚠️ DO NOT REPEAT or rephrase any of the following questions that were already shown in this session:\n\n';
+                avoidBlock = '\n\n⚠️ DO NOT REPEAT or rephrase any of these previously shown questions:\n\n';
                 alreadyGenerated.forEach((prevQ, i) => {
                     avoidBlock += `ALREADY ASKED ${i+1}: ${prevQ}\n\n`;
                 });
-                avoidBlock += 'Your new question MUST be substantively different in topic, content, and wording from every "ALREADY ASKED" item above. Cover a different concept or scenario.';
+                avoidBlock += 'Your new question MUST be substantively different in topic, content, and wording from every "ALREADY ASKED" item above.';
             }
 
             return [
                 {
                     role: 'system',
-                    content: `You are a Florida 5th grade FAST test question generator. Output ONLY valid JSON matching the exact format of the real FAST examples shown. No markdown, no commentary, no code fences. Every question you generate in a session must be unique — never repeat or paraphrase a previous question.`
+                    content: `You are a Florida 5th grade B.E.S.T./FAST test question generator. Output ONLY valid JSON. No markdown, no commentary, no code fences.
+
+CRITICAL RULES:
+1. Every question must be unique — never repeat or paraphrase a previous question.
+2. VERIFY YOUR ANSWER: Before outputting, solve the problem yourself step by step. Make sure the correctAnswer letter actually matches the correct choice. Double-check the math/logic.
+3. All distractors (wrong choices) must be plausible but clearly wrong when solved correctly.
+4. The explanation must show the work that proves the answer is correct.`
                 },
                 {
                     role: 'user',
-                    content: `Generate ONE multiple-choice question for the ${section} section. ${sectionGuides[section]}${examplesBlock}${avoidBlock}
+                    content: `Generate ONE multiple-choice question for the ${section} section. ${sectionGuides[section]}${topicFocus}${examplesBlock}${avoidBlock}
+
+IMPORTANT: After generating the question, VERIFY that your marked correct answer is actually correct by solving the problem. If your math shows a different answer than what you marked, FIX IT before responding.
 
 Return ONLY this JSON shape (no extra text):
 {
   "question": "the question text${section === 'reading' ? ' INCLUDING the passage at the start' : ''}",
   "choices": { "A": "...", "B": "...", "C": "...", "D": "..." },
   "correctAnswer": "A",
-  "explanation": "why that's the right answer in one short sentence",
+  "explanation": "Step-by-step solution proving the answer is correct",
   "standard": "Florida standard code",
   "difficulty": "easy|medium|hard"
 }
 
-The question should be appropriate for a 10-11 year old. Make it challenging but fair. Avoid trick questions. Pick a fresh topic/concept that has not been covered yet in this session.`
+The question should be appropriate for a 10-11 year old. Challenging but fair. No trick questions. Pick a fresh concept not yet covered this session.`
                 }
             ];
         }
@@ -519,11 +561,11 @@ The question should be appropriate for a 10-11 year old. Make it challenging but
             const messages = [
                 {
                     role: 'system',
-                    content: 'You are a 5th grade test question validator. Output ONLY valid JSON.'
+                    content: 'You are a strict 5th grade test question validator. You MUST independently solve the problem before checking the answer. Output ONLY valid JSON.'
                 },
                 {
                     role: 'user',
-                    content: `Verify this 5th grade question is correct, age-appropriate, and the marked correct answer is actually correct.
+                    content: `Independently solve this 5th grade question, then check if the marked answer is correct.
 
 Question: ${q.question}
 A) ${q.choices.A}
@@ -532,16 +574,28 @@ C) ${q.choices.C}
 D) ${q.choices.D}
 Marked correct: ${q.correctAnswer}
 
+Steps:
+1. Solve the problem yourself step by step
+2. Determine which choice matches your answer
+3. Compare with the marked correct answer
+4. Check that the question is age-appropriate for a 10-11 year old
+5. Check that all 4 choices are distinct and make sense
+
 Return ONLY this JSON (no extra text):
-{ "isValid": true|false, "reason": "short reason" }`
+{ "isValid": true|false, "correctLetter": "the letter YOU calculated as correct", "reason": "your step-by-step solution and verdict" }`
                 }
             ];
             try {
                 const { content } = await callOpenRouter(messages, validatorModel);
                 const v = extractJson(content);
+                if (!v.isValid && v.correctLetter && ['A','B','C','D'].includes(v.correctLetter) && v.correctLetter !== q.correctAnswer) {
+                    q.correctAnswer = v.correctLetter;
+                    q.explanation = (q.explanation || '') + ' (Answer corrected by validator)';
+                    v.isValid = true;
+                    v.reason = 'Answer was corrected from original to ' + v.correctLetter;
+                }
                 return v;
             } catch (e) {
-                // If validator fails, accept the question (don't block the kid)
                 console.warn('Validator failed, accepting question:', e.message);
                 return { isValid: true, reason: 'validator unavailable' };
             }
@@ -559,11 +613,22 @@ Return ONLY this JSON (no extra text):
             const setProgress = (msg) => { loaderText.textContent = msg; };
 
             try {
+                setProgress('Generating question…');
                 const q = await generateQuestion(currentSection, setProgress);
-                currentQuestion = q;
-                // Track this question to prevent repeats in the same session
-                sessionGeneratedQuestions.push(q.question.slice(0, 250));
-                renderQuestion(q);
+                setProgress('Verifying answer is correct…');
+                const validation = await validateQuestion(q);
+                if (!validation.isValid) {
+                    setProgress('Answer check failed — generating a new question…');
+                    const q2 = await generateQuestion(currentSection, setProgress);
+                    setProgress('Verifying replacement…');
+                    await validateQuestion(q2);
+                    currentQuestion = q2;
+                    sessionGeneratedQuestions.push(q2.question.slice(0, 250));
+                } else {
+                    currentQuestion = q;
+                    sessionGeneratedQuestions.push(q.question.slice(0, 250));
+                }
+                renderQuestion(currentQuestion);
                 document.getElementById('loader').style.display = 'none';
                 document.getElementById('quiz-card').style.display = 'block';
             } catch (e) {
@@ -576,7 +641,8 @@ Return ONLY this JSON (no extra text):
         }
 
         function renderQuestion(q) {
-            document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${QUESTIONS_PER_ROUND}`;
+            const topicLabel = (currentTopic && topicGuides[currentTopic]) ? ` · ${topicGuides[currentTopic].name}` : '';
+            document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${QUESTIONS_PER_ROUND}${topicLabel}`;
             document.getElementById('question-text').textContent = q.question;
 
             const tag = document.getElementById('standard-tag');

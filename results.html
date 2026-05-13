@@ -122,16 +122,43 @@
         .standard-item:last-child {
             border-bottom: none;
         }
+        .standard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
         .standard-code {
             font-weight: bold;
             color: var(--secondary);
             margin-bottom: 0.5rem;
             display: block;
         }
+        .standard-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
         .standard-stats {
             font-size: 0.9rem;
             color: var(--light-text);
             margin-bottom: 0.5rem;
+        }
+        .practice-btn {
+            background: var(--incorrect);
+            color: var(--white);
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .practice-btn:hover {
+            background: #d32f2f;
         }
         .standard-questions {
             margin-top: 0.5rem;
@@ -314,18 +341,68 @@
             wrongAnswersByStandard[standard].totalInStandard++;
         });
         
-        // Update weak areas content
+        const standardNames = {
+            'MA.5.NSO': 'Number Sense & Operations',
+            'MA.5.AR': 'Algebraic Reasoning',
+            'MA.5.FR': 'Fractions',
+            'MA.5.M': 'Measurement',
+            'MA.5.GR': 'Geometric Reasoning',
+            'MA.5.DP': 'Data Analysis & Probability',
+            'MA.5.A': 'Algebra',
+            'MA.5.G': 'Geometry',
+            'MA.5.S': 'Statistics',
+            'ELA.5.R': 'Reading',
+            'ELA.5.C': 'Grammar & Writing',
+            'SC.5': 'Science'
+        };
+
+        function getStandardName(code) {
+            if (!code) return '';
+            for (const [prefix, name] of Object.entries(standardNames)) {
+                if (code.startsWith(prefix)) return name;
+            }
+            return '';
+        }
+
+        function getTopicFromStandard(code) {
+            if (!code) return '';
+            if (code.startsWith('MA.5.NSO')) return 'number-sense';
+            if (code.startsWith('MA.5.AR')) return 'algebraic-reasoning';
+            if (code.startsWith('MA.5.FR')) return 'fractions';
+            if (code.startsWith('MA.5.M')) return 'measurement';
+            if (code.startsWith('MA.5.GR')) return 'geometry';
+            if (code.startsWith('MA.5.DP')) return 'data-probability';
+            if (code.startsWith('MA.5.A')) return 'algebra';
+            if (code.startsWith('MA.5.G')) return 'geometry';
+            if (code.startsWith('MA.5.S')) return 'statistics';
+            return '';
+        }
+
         const weakAreasContent = document.getElementById('weak-areas-content');
-        if (Object.keys(wrongAnswersByStandard).length === 0) {
+        const weakStandards = Object.entries(wrongAnswersByStandard).filter(([_, d]) => d.count > 0);
+        if (weakStandards.length === 0) {
             weakAreasContent.innerHTML = '<p>No weak areas — you aced it! 🎉</p>';
         } else {
             let html = '';
-            Object.entries(wrongAnswersByStandard).forEach(([standard, data]) => {
+            weakStandards.sort((a, b) => (b[1].count / b[1].totalInStandard) - (a[1].count / a[1].totalInStandard));
+            weakStandards.forEach(([standard, data]) => {
                 const wrongPct = Math.round((data.count / data.totalInStandard) * 100);
+                const friendlyName = getStandardName(standard);
+                const topic = getTopicFromStandard(standard);
+                const section = sessionData.section.replace('ai-', '');
+                const practiceUrl = topic
+                    ? `ai-practice.html?section=${section}&topic=${topic}&standard=${encodeURIComponent(standard)}`
+                    : `ai-practice.html?section=${section}`;
                 html += `
                     <div class="standard-item">
-                        <span class="standard-code">${standard}</span>
-                        <div class="standard-stats">${data.count} wrong out of ${data.totalInStandard} total (${wrongPct}%)</div>
+                        <div class="standard-header">
+                            <div>
+                                <span class="standard-code">${standard}</span>
+                                ${friendlyName ? `<div class="standard-name">${friendlyName}</div>` : ''}
+                            </div>
+                            <a href="${practiceUrl}" class="practice-btn">Practice This</a>
+                        </div>
+                        <div class="standard-stats">${data.count} wrong out of ${data.totalInStandard} (${wrongPct}% missed)</div>
                         <div class="standard-questions">
                             ${data.questions.map(q => `
                                 <div class="question-item">"${q.text}"</div>
