@@ -298,8 +298,8 @@
         }
 
         const apiKey = getStore('fast-openrouter-key');
-        const generatorModel = getStore('fast-generator-model', 'google/gemini-2.5-flash');
-        const validatorModel = getStore('fast-validator-model', 'google/gemini-2.5-flash');
+        const generatorModel = getStore('fast-generator-model', 'meta-llama/llama-3.3-70b-instruct:free');
+        const validatorModel = getStore('fast-validator-model', 'nvidia/nemotron-3-super-120b-a12b:free');
         const autoFallback = getStore('fast-auto-fallback', true);
 
         if (!apiKey) {
