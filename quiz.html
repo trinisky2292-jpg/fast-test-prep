@@ -194,8 +194,9 @@
         }
     </style>
     <script src="js/grade.js"></script>
+    <script src="js/funfx.js"></script>
 </head>
-<body>
+<body data-funfx-hud>
     <div class="quiz-container">
         <header>
             <div class="header-left">
@@ -456,13 +457,15 @@
             const feedbackEl = document.getElementById('feedback');
             if (selectedChoice === null) {
                 feedbackEl.className = 'feedback incorrect';
-                feedbackEl.textContent = `⏱️ Time's up! Correct answer was ${isMulti ? correctChoice.join(', ') : correctChoice}`;
+                if (window.FunFX) FunFX.onWrong();
+                feedbackEl.textContent = `⏱️ Time's up! The correct answer was ${isMulti ? correctChoice.join(', ') : correctChoice}`;
             } else if (isMulti ? (selectedChoice.length === correctChoice.length && selectedChoice.every((v,i) => v === [...correctChoice].sort()[i])) : selectedChoice === correctChoice) {
                 feedbackEl.className = 'feedback correct';
-                feedbackEl.textContent = '✓ Correct!';
+                feedbackEl.textContent = '✅ ' + (window.FunFX ? FunFX.onCorrect() : 'Correct!');
             } else {
                 feedbackEl.className = 'feedback incorrect';
-                feedbackEl.textContent = `✗ Incorrect — correct answer was ${isMulti ? correctChoice.join(', ') : correctChoice}`;
+                if (window.FunFX) FunFX.onWrong();
+                feedbackEl.textContent = `❌ Not quite — the correct answer was ${isMulti ? correctChoice.join(', ') : correctChoice}. Keep going, you've got this! 💪`;
             }
 
             // Change button to Next Question
@@ -539,8 +542,9 @@
                     localStorage.setItem('fast-sessions-list', JSON.stringify(sessions));
                 } catch (e) { console.error('sessions list save failed:', e); }
 
-                // Redirect to results page
-                window.location.href = `results.html?session=${sessionId}`;
+                // Celebrate, then go to results
+                if (window.FunFX) FunFX.celebrate();
+                setTimeout(function () { window.location.href = `results.html?session=${sessionId}`; }, 750);
             }
         }
     </script>
