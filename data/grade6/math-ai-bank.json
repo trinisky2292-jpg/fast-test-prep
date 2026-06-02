@@ -1,0 +1,847 @@
+{
+  "section": "math-ai-bank",
+  "description": "Pre-generated FAST-style questions covering all 40 B.E.S.T. Grade 6 math benchmarks",
+  "questionCount": 60,
+  "questions": [
+    {
+      "id": "ai-1",
+      "standard": "MA.6.NSO.1.1",
+      "topic": "number-sense",
+      "question": "Which list orders the numbers -2, 1/2, -1.5, and 0 from least to greatest?",
+      "choices": {
+        "A": "-2, -1.5, 0, 1/2",
+        "B": "-1.5, -2, 0, 1/2",
+        "C": "1/2, 0, -1.5, -2",
+        "D": "0, 1/2, -1.5, -2"
+      },
+      "correctAnswer": "A",
+      "explanation": "As decimals: -2, -1.5, 0, 0.5. From least to greatest on a number line: -2, -1.5, 0, 1/2."
+    },
+    {
+      "id": "ai-2",
+      "standard": "MA.6.NSO.1.1",
+      "topic": "number-sense",
+      "question": "Which symbol makes the statement true? -3/4 ___ -1/4",
+      "choices": {
+        "A": ">",
+        "B": "<",
+        "C": "=",
+        "D": "none"
+      },
+      "correctAnswer": "B",
+      "explanation": "-3/4 = -0.75 and -1/4 = -0.25. Since -0.75 is farther left on the number line, -3/4 < -1/4."
+    },
+    {
+      "id": "ai-3",
+      "standard": "MA.6.NSO.1.2",
+      "topic": "number-sense",
+      "question": "A bank account balance of -$25 represents what situation?",
+      "choices": {
+        "A": "$25 saved",
+        "B": "$25 owed (debt)",
+        "C": "no money and no debt",
+        "D": "$25 earned"
+      },
+      "correctAnswer": "B",
+      "explanation": "A negative balance represents money owed. -$25 means the account is $25 in debt. Zero represents owing nothing."
+    },
+    {
+      "id": "ai-4",
+      "standard": "MA.6.NSO.1.2",
+      "topic": "number-sense",
+      "question": "On a vertical number line, which elevation is higher: -10 meters or -3 meters?",
+      "choices": {
+        "A": "-10 meters",
+        "B": "-3 meters",
+        "C": "they are equal",
+        "D": "cannot tell"
+      },
+      "correctAnswer": "B",
+      "explanation": "-3 is greater than -10 (closer to zero), so -3 meters is the higher elevation."
+    },
+    {
+      "id": "ai-5",
+      "standard": "MA.6.NSO.1.3",
+      "topic": "number-sense",
+      "question": "What is the absolute value of -12?",
+      "choices": {
+        "A": "-12",
+        "B": "12",
+        "C": "0",
+        "D": "24"
+      },
+      "correctAnswer": "B",
+      "explanation": "Absolute value is the distance from zero. |-12| = 12 because -12 is 12 units from zero."
+    },
+    {
+      "id": "ai-6",
+      "standard": "MA.6.NSO.1.4",
+      "topic": "number-sense",
+      "question": "City A's temperature is -8 degrees F and City B's is -15 degrees F. Which city is colder, and by how many degrees?",
+      "choices": {
+        "A": "City A, by 7 degrees",
+        "B": "City B, by 7 degrees",
+        "C": "City B, by 23 degrees",
+        "D": "City A, by 23 degrees"
+      },
+      "correctAnswer": "B",
+      "explanation": "-15 < -8, so City B is colder. The difference is -8 - (-15) = 7 degrees. City B is colder by 7 degrees."
+    },
+    {
+      "id": "ai-7",
+      "standard": "MA.6.NSO.2.1",
+      "topic": "number-sense",
+      "question": "What is 8.4 x 2.5?",
+      "choices": {
+        "A": "21",
+        "B": "2.1",
+        "C": "210",
+        "D": "20.1"
+      },
+      "correctAnswer": "A",
+      "explanation": "84 x 25 = 2,100. Two decimal places total, so 21.00 = 21."
+    },
+    {
+      "id": "ai-8",
+      "standard": "MA.6.NSO.2.1",
+      "topic": "number-sense",
+      "question": "What is 7.5 divided by 0.3?",
+      "choices": {
+        "A": "2.5",
+        "B": "25",
+        "C": "0.25",
+        "D": "250"
+      },
+      "correctAnswer": "B",
+      "explanation": "Multiply both by 10: 75 / 3 = 25. Verify: 25 x 0.3 = 7.5."
+    },
+    {
+      "id": "ai-9",
+      "standard": "MA.6.NSO.2.2",
+      "topic": "number-sense",
+      "question": "What is 2/3 divided by 4/5?",
+      "choices": {
+        "A": "8/15",
+        "B": "5/6",
+        "C": "10/12",
+        "D": "3/10"
+      },
+      "correctAnswer": "B",
+      "explanation": "Dividing by a fraction means multiply by its reciprocal: 2/3 x 5/4 = 10/12 = 5/6."
+    },
+    {
+      "id": "ai-10",
+      "standard": "MA.6.NSO.2.2",
+      "topic": "number-sense",
+      "question": "What is 3 1/2 divided by 1/4?",
+      "choices": {
+        "A": "14",
+        "B": "7/8",
+        "C": "12",
+        "D": "3 3/4"
+      },
+      "correctAnswer": "A",
+      "explanation": "3 1/2 = 7/2. Then 7/2 divided by 1/4 = 7/2 x 4/1 = 28/2 = 14."
+    },
+    {
+      "id": "ai-11",
+      "standard": "MA.6.NSO.2.3",
+      "topic": "number-sense",
+      "question": "A runner runs 2.5 miles each day for 6 days, then 3.75 miles on the 7th day. How many total miles did the runner run?",
+      "choices": {
+        "A": "15 miles",
+        "B": "18.75 miles",
+        "C": "17.25 miles",
+        "D": "16.25 miles"
+      },
+      "correctAnswer": "B",
+      "explanation": "6 days x 2.5 = 15 miles. Add the 7th day: 15 + 3.75 = 18.75 miles."
+    },
+    {
+      "id": "ai-12",
+      "standard": "MA.6.NSO.2.3",
+      "topic": "number-sense",
+      "question": "A ribbon is 5 3/4 yards long. A piece 2 1/2 yards long is cut off. How much ribbon remains?",
+      "choices": {
+        "A": "3 1/4 yards",
+        "B": "3 1/2 yards",
+        "C": "2 3/4 yards",
+        "D": "8 1/4 yards"
+      },
+      "correctAnswer": "A",
+      "explanation": "5 3/4 - 2 1/2 = 5 3/4 - 2 2/4 = 3 1/4 yards."
+    },
+    {
+      "id": "ai-13",
+      "standard": "MA.6.NSO.3.1",
+      "topic": "number-sense",
+      "question": "What is the least common multiple (LCM) of 6 and 8?",
+      "choices": {
+        "A": "12",
+        "B": "24",
+        "C": "48",
+        "D": "2"
+      },
+      "correctAnswer": "B",
+      "explanation": "Multiples of 6: 6,12,18,24. Multiples of 8: 8,16,24. The least common multiple is 24."
+    },
+    {
+      "id": "ai-14",
+      "standard": "MA.6.NSO.3.1",
+      "topic": "number-sense",
+      "question": "What is the greatest common factor (GCF) of 18 and 30?",
+      "choices": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "90"
+      },
+      "correctAnswer": "B",
+      "explanation": "Factors of 18: 1,2,3,6,9,18. Factors of 30: 1,2,3,5,6,10,15,30. The greatest shared factor is 6."
+    },
+    {
+      "id": "ai-15",
+      "standard": "MA.6.NSO.3.2",
+      "topic": "number-sense",
+      "question": "Using the GCF, which expression is equivalent to 24 + 36?",
+      "choices": {
+        "A": "6(4 + 6)",
+        "B": "12(2 + 3)",
+        "C": "4(6 + 9)",
+        "D": "2(12 + 18)"
+      },
+      "correctAnswer": "B",
+      "explanation": "The GCF of 24 and 36 is 12. Factor it out: 24 + 36 = 12(2 + 3). Verify: 12 x 5 = 60 = 24 + 36."
+    },
+    {
+      "id": "ai-16",
+      "standard": "MA.6.NSO.3.3",
+      "topic": "number-sense",
+      "question": "What is the value of 5^3?",
+      "choices": {
+        "A": "15",
+        "B": "125",
+        "C": "25",
+        "D": "8"
+      },
+      "correctAnswer": "B",
+      "explanation": "5^3 = 5 x 5 x 5 = 25 x 5 = 125."
+    },
+    {
+      "id": "ai-17",
+      "standard": "MA.6.NSO.3.4",
+      "topic": "number-sense",
+      "question": "Which is the prime factorization of 60 using exponents?",
+      "choices": {
+        "A": "2^2 x 3 x 5",
+        "B": "2 x 3 x 10",
+        "C": "2^3 x 5",
+        "D": "4 x 15"
+      },
+      "correctAnswer": "A",
+      "explanation": "60 = 2 x 30 = 2 x 2 x 15 = 2 x 2 x 3 x 5 = 2^2 x 3 x 5. Verify: 4 x 3 x 5 = 60."
+    },
+    {
+      "id": "ai-18",
+      "standard": "MA.6.NSO.3.5",
+      "topic": "number-sense",
+      "question": "Which set of values are all equivalent forms of the same number?",
+      "choices": {
+        "A": "3/4, 0.75, 75%",
+        "B": "3/4, 0.34, 34%",
+        "C": "3/4, 0.75, 7.5%",
+        "D": "3/4, 1.75, 75%"
+      },
+      "correctAnswer": "A",
+      "explanation": "3/4 = 3 divided by 4 = 0.75 = 75%. All three forms equal the same value."
+    },
+    {
+      "id": "ai-19",
+      "standard": "MA.6.NSO.4.1",
+      "topic": "number-sense",
+      "question": "What is -7 + 12?",
+      "choices": {
+        "A": "5",
+        "B": "-5",
+        "C": "19",
+        "D": "-19"
+      },
+      "correctAnswer": "A",
+      "explanation": "Start at -7 and move 12 right on a number line: -7 + 12 = 5."
+    },
+    {
+      "id": "ai-20",
+      "standard": "MA.6.NSO.4.1",
+      "topic": "number-sense",
+      "question": "What is -4 - 9?",
+      "choices": {
+        "A": "5",
+        "B": "-5",
+        "C": "-13",
+        "D": "13"
+      },
+      "correctAnswer": "C",
+      "explanation": "-4 - 9 = -4 + (-9) = -13. Both moves are in the negative direction."
+    },
+    {
+      "id": "ai-21",
+      "standard": "MA.6.NSO.4.2",
+      "topic": "number-sense",
+      "question": "What is -36 divided by 9?",
+      "choices": {
+        "A": "4",
+        "B": "-4",
+        "C": "-27",
+        "D": "27"
+      },
+      "correctAnswer": "B",
+      "explanation": "A negative divided by a positive is negative: -36 / 9 = -4. Verify: -4 x 9 = -36."
+    },
+    {
+      "id": "ai-22",
+      "standard": "MA.6.NSO.4.2",
+      "topic": "number-sense",
+      "question": "What is the product of -5 and 7?",
+      "choices": {
+        "A": "35",
+        "B": "-35",
+        "C": "-2",
+        "D": "12"
+      },
+      "correctAnswer": "B",
+      "explanation": "A negative times a positive is negative: -5 x 7 = -35."
+    },
+    {
+      "id": "ai-23",
+      "standard": "MA.6.AR.1.1",
+      "topic": "algebraic-reasoning",
+      "question": "Which algebraic expression represents 'the sum of a number x and 7, multiplied by 2'?",
+      "choices": {
+        "A": "x + 7 x 2",
+        "B": "2x + 7",
+        "C": "2(x + 7)",
+        "D": "2x + 14x"
+      },
+      "correctAnswer": "C",
+      "explanation": "'The sum of x and 7' is (x + 7). Multiplied by 2 gives 2(x + 7)."
+    },
+    {
+      "id": "ai-24",
+      "standard": "MA.6.AR.1.1",
+      "topic": "algebraic-reasoning",
+      "question": "A phone plan costs $30 per month plus $0.10 per text. Which expression gives the monthly cost for t texts?",
+      "choices": {
+        "A": "30t + 0.10",
+        "B": "30 + 0.10t",
+        "C": "30.10t",
+        "D": "0.10 + 30t"
+      },
+      "correctAnswer": "B",
+      "explanation": "Fixed cost $30 plus $0.10 for each of t texts: 30 + 0.10t."
+    },
+    {
+      "id": "ai-25",
+      "standard": "MA.6.AR.1.2",
+      "topic": "algebraic-reasoning",
+      "question": "A ride requires riders to be no more than 200 pounds. Which inequality represents the allowed weights w?",
+      "choices": {
+        "A": "w > 200",
+        "B": "w < 200",
+        "C": "w >= 200",
+        "D": "w <= 200"
+      },
+      "correctAnswer": "D",
+      "explanation": "'No more than 200' means 200 or less: w <= 200. A weight of exactly 200 is allowed."
+    },
+    {
+      "id": "ai-26",
+      "standard": "MA.6.AR.1.3",
+      "topic": "algebraic-reasoning",
+      "question": "Evaluate 5x - 2 when x = -3.",
+      "choices": {
+        "A": "-17",
+        "B": "-13",
+        "C": "13",
+        "D": "17"
+      },
+      "correctAnswer": "A",
+      "explanation": "Substitute x = -3: 5(-3) - 2 = -15 - 2 = -17."
+    },
+    {
+      "id": "ai-27",
+      "standard": "MA.6.AR.1.3",
+      "topic": "algebraic-reasoning",
+      "question": "Evaluate 2a + 3b when a = 4 and b = -2.",
+      "choices": {
+        "A": "2",
+        "B": "14",
+        "C": "-2",
+        "D": "8"
+      },
+      "correctAnswer": "A",
+      "explanation": "2(4) + 3(-2) = 8 + (-6) = 2."
+    },
+    {
+      "id": "ai-28",
+      "standard": "MA.6.AR.1.4",
+      "topic": "algebraic-reasoning",
+      "question": "Which expression is equivalent to 6x + 9?",
+      "choices": {
+        "A": "3(2x + 3)",
+        "B": "6(x + 9)",
+        "C": "3(2x + 9)",
+        "D": "9(x + 6)"
+      },
+      "correctAnswer": "A",
+      "explanation": "Factor out the GCF 3: 6x + 9 = 3(2x + 3). Verify by distributing: 3 x 2x = 6x, 3 x 3 = 9."
+    },
+    {
+      "id": "ai-29",
+      "standard": "MA.6.AR.1.4",
+      "topic": "algebraic-reasoning",
+      "question": "Simplify the expression 4x + 3x + 5.",
+      "choices": {
+        "A": "12x",
+        "B": "7x + 5",
+        "C": "12x + 5",
+        "D": "7x"
+      },
+      "correctAnswer": "B",
+      "explanation": "Combine like terms 4x + 3x = 7x. The constant 5 stays: 7x + 5."
+    },
+    {
+      "id": "ai-30",
+      "standard": "MA.6.AR.2.1",
+      "topic": "algebraic-reasoning",
+      "question": "Which value of x makes the equation 3x - 4 = 11 true?",
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "15"
+      },
+      "correctAnswer": "B",
+      "explanation": "Test x = 5: 3(5) - 4 = 15 - 4 = 11. True. Other values do not satisfy the equation."
+    },
+    {
+      "id": "ai-31",
+      "standard": "MA.6.AR.2.1",
+      "topic": "algebraic-reasoning",
+      "question": "For which value of x is the inequality x + 3 < 7 true?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "10"
+      },
+      "correctAnswer": "C",
+      "explanation": "Solve: x < 4. Of the choices, only x = 3 is less than 4. Verify: 3 + 3 = 6 < 7 true."
+    },
+    {
+      "id": "ai-32",
+      "standard": "MA.6.AR.2.2",
+      "topic": "algebraic-reasoning",
+      "question": "Solve for x: x - 8 = -3.",
+      "choices": {
+        "A": "5",
+        "B": "-11",
+        "C": "11",
+        "D": "-5"
+      },
+      "correctAnswer": "A",
+      "explanation": "Add 8 to both sides: x = -3 + 8 = 5. Verify: 5 - 8 = -3."
+    },
+    {
+      "id": "ai-33",
+      "standard": "MA.6.AR.2.2",
+      "topic": "algebraic-reasoning",
+      "question": "Maya spent $12 and has $20 left. The equation x - 12 = 20 finds her starting amount x. How much did she start with?",
+      "choices": {
+        "A": "$8",
+        "B": "$24",
+        "C": "$32",
+        "D": "$240"
+      },
+      "correctAnswer": "C",
+      "explanation": "Add 12 to both sides: x = 20 + 12 = 32. Maya started with $32. Verify: 32 - 12 = 20."
+    },
+    {
+      "id": "ai-34",
+      "standard": "MA.6.AR.2.3",
+      "topic": "algebraic-reasoning",
+      "question": "Solve for x: x/5 = 9.",
+      "choices": {
+        "A": "45",
+        "B": "14",
+        "C": "4",
+        "D": "1.8"
+      },
+      "correctAnswer": "A",
+      "explanation": "Multiply both sides by 5: x = 9 x 5 = 45. Verify: 45 / 5 = 9."
+    },
+    {
+      "id": "ai-35",
+      "standard": "MA.6.AR.2.3",
+      "topic": "algebraic-reasoning",
+      "question": "Six friends split a bill equally and each pays $8. The equation 6x = 48 is not it; instead x/6 = 8 finds the total x. What is the total bill?",
+      "choices": {
+        "A": "$14",
+        "B": "$48",
+        "C": "$2",
+        "D": "$54"
+      },
+      "correctAnswer": "B",
+      "explanation": "Multiply both sides by 6: x = 8 x 6 = 48. The total bill is $48. Verify: 48 / 6 = 8."
+    },
+    {
+      "id": "ai-36",
+      "standard": "MA.6.AR.2.4",
+      "topic": "algebraic-reasoning",
+      "question": "Find the unknown: 2.5 + n = 6.1.",
+      "choices": {
+        "A": "3.6",
+        "B": "8.6",
+        "C": "3.5",
+        "D": "4.6"
+      },
+      "correctAnswer": "A",
+      "explanation": "Subtract 2.5 from both sides: n = 6.1 - 2.5 = 3.6. Verify: 2.5 + 3.6 = 6.1."
+    },
+    {
+      "id": "ai-37",
+      "standard": "MA.6.AR.2.4",
+      "topic": "algebraic-reasoning",
+      "question": "Find the unknown fraction: 3/4 x n = 3/8.",
+      "choices": {
+        "A": "1/2",
+        "B": "9/32",
+        "C": "2",
+        "D": "3/8"
+      },
+      "correctAnswer": "A",
+      "explanation": "n = (3/8) divided by (3/4) = 3/8 x 4/3 = 12/24 = 1/2. Verify: 3/4 x 1/2 = 3/8."
+    },
+    {
+      "id": "ai-38",
+      "standard": "MA.6.AR.3.1",
+      "topic": "ratios-rates",
+      "question": "A bag has 6 red marbles and 9 blue marbles. What is the ratio of red marbles to blue marbles in simplest form?",
+      "choices": {
+        "A": "6:9",
+        "B": "2:3",
+        "C": "3:2",
+        "D": "2:5"
+      },
+      "correctAnswer": "B",
+      "explanation": "6:9 simplifies by dividing both by the GCF 3: 2:3."
+    },
+    {
+      "id": "ai-39",
+      "standard": "MA.6.AR.3.1",
+      "topic": "ratios-rates",
+      "question": "A class has 10 girls and 14 boys. What is the ratio of girls to the total number of students?",
+      "choices": {
+        "A": "10:14",
+        "B": "5:7",
+        "C": "5:12",
+        "D": "10:24"
+      },
+      "correctAnswer": "C",
+      "explanation": "Total students = 10 + 14 = 24. Girls to total = 10:24, which simplifies (divide by 2) to 5:12."
+    },
+    {
+      "id": "ai-40",
+      "standard": "MA.6.AR.3.2",
+      "topic": "ratios-rates",
+      "question": "A printer prints 90 pages in 3 minutes. What is the unit rate in pages per minute?",
+      "choices": {
+        "A": "30 pages per minute",
+        "B": "27 pages per minute",
+        "C": "93 pages per minute",
+        "D": "3 pages per minute"
+      },
+      "correctAnswer": "A",
+      "explanation": "90 pages / 3 minutes = 30 pages per minute. Verify: 30 x 3 = 90."
+    },
+    {
+      "id": "ai-41",
+      "standard": "MA.6.AR.3.3",
+      "topic": "ratios-rates",
+      "question": "A table shows equivalent ratios of cups of juice to cups of water: 2:5, 4:10, 6:15. What is the next row that keeps the same ratio?",
+      "choices": {
+        "A": "8:18",
+        "B": "8:20",
+        "C": "7:20",
+        "D": "10:20"
+      },
+      "correctAnswer": "B",
+      "explanation": "The pattern multiplies 2:5 by 1, 2, 3, then 4: 2x4=8 and 5x4=20, giving 8:20."
+    },
+    {
+      "id": "ai-42",
+      "standard": "MA.6.AR.3.4",
+      "topic": "ratios-rates",
+      "question": "What is 15% of 80?",
+      "choices": {
+        "A": "12",
+        "B": "15",
+        "C": "8",
+        "D": "1.2"
+      },
+      "correctAnswer": "A",
+      "explanation": "15% = 0.15. 0.15 x 80 = 12. Verify with part/whole = percent/100: part/80 = 15/100, part = 12."
+    },
+    {
+      "id": "ai-43",
+      "standard": "MA.6.AR.3.4",
+      "topic": "ratios-rates",
+      "question": "30 is what percent of 120?",
+      "choices": {
+        "A": "4%",
+        "B": "25%",
+        "C": "40%",
+        "D": "90%"
+      },
+      "correctAnswer": "B",
+      "explanation": "part/whole = 30/120 = 1/4 = 25%. Verify: 25% of 120 = 0.25 x 120 = 30."
+    },
+    {
+      "id": "ai-44",
+      "standard": "MA.6.AR.3.5",
+      "topic": "ratios-rates",
+      "question": "A paint mixture uses 3 parts blue to 2 parts yellow. To make 20 cups of mixture, how many cups of blue paint are needed?",
+      "choices": {
+        "A": "8 cups",
+        "B": "10 cups",
+        "C": "12 cups",
+        "D": "15 cups"
+      },
+      "correctAnswer": "C",
+      "explanation": "Total parts = 3 + 2 = 5. Each part = 20 / 5 = 4 cups. Blue = 3 parts x 4 = 12 cups. Verify: yellow = 2 x 4 = 8, and 12 + 8 = 20."
+    },
+    {
+      "id": "ai-45",
+      "standard": "MA.6.GR.1.1",
+      "topic": "geometry",
+      "question": "In which quadrant is the point (-4, -2) located?",
+      "choices": {
+        "A": "Quadrant I",
+        "B": "Quadrant II",
+        "C": "Quadrant III",
+        "D": "Quadrant IV"
+      },
+      "correctAnswer": "C",
+      "explanation": "Both coordinates are negative (x < 0, y < 0), which places the point in Quadrant III."
+    },
+    {
+      "id": "ai-46",
+      "standard": "MA.6.GR.1.1",
+      "topic": "geometry",
+      "question": "The point (5, -3) is reflected across the y-axis. What are the coordinates of the new point?",
+      "choices": {
+        "A": "(-5, -3)",
+        "B": "(5, 3)",
+        "C": "(-5, 3)",
+        "D": "(3, -5)"
+      },
+      "correctAnswer": "A",
+      "explanation": "Reflecting across the y-axis negates the x-coordinate and keeps the y-coordinate: (5, -3) becomes (-5, -3)."
+    },
+    {
+      "id": "ai-47",
+      "standard": "MA.6.GR.1.2",
+      "topic": "geometry",
+      "question": "What is the distance between the points (-3, 4) and (5, 4) on the coordinate plane?",
+      "choices": {
+        "A": "2 units",
+        "B": "8 units",
+        "C": "9 units",
+        "D": "1 unit"
+      },
+      "correctAnswer": "B",
+      "explanation": "The points share y = 4, so they lie on a horizontal line. Distance = |5 - (-3)| = |8| = 8 units."
+    },
+    {
+      "id": "ai-48",
+      "standard": "MA.6.GR.1.3",
+      "topic": "geometry",
+      "question": "A rectangle has vertices at (1, 1), (6, 1), and (1, 4). What is the area of the rectangle?",
+      "choices": {
+        "A": "15 square units",
+        "B": "8 square units",
+        "C": "16 square units",
+        "D": "20 square units"
+      },
+      "correctAnswer": "A",
+      "explanation": "Length = |6 - 1| = 5 units, width = |4 - 1| = 3 units. Area = 5 x 3 = 15 square units."
+    },
+    {
+      "id": "ai-49",
+      "standard": "MA.6.GR.2.1",
+      "topic": "geometry",
+      "question": "A right triangle has legs of 10 cm and 6 cm forming the right angle. What is its area?",
+      "choices": {
+        "A": "60 square cm",
+        "B": "30 square cm",
+        "C": "16 square cm",
+        "D": "32 square cm"
+      },
+      "correctAnswer": "B",
+      "explanation": "Area of a triangle = (1/2) x base x height = (1/2) x 10 x 6 = 30 square cm. It is half of a 10 x 6 = 60 rectangle."
+    },
+    {
+      "id": "ai-50",
+      "standard": "MA.6.GR.2.2",
+      "topic": "geometry",
+      "question": "A figure is made of a 7 m by 4 m rectangle and a triangle with base 7 m and height 6 m attached to one side. What is the total area?",
+      "choices": {
+        "A": "28 square m",
+        "B": "21 square m",
+        "C": "49 square m",
+        "D": "63 square m"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rectangle = 7 x 4 = 28 sq m. Triangle = (1/2) x 7 x 6 = 21 sq m. Total = 28 + 21 = 49 sq m."
+    },
+    {
+      "id": "ai-51",
+      "standard": "MA.6.GR.2.3",
+      "topic": "geometry",
+      "question": "A right rectangular prism has a length of 4.5 cm, a width of 2 cm, and a height of 3 cm. What is its volume?",
+      "choices": {
+        "A": "27 cubic cm",
+        "B": "9.5 cubic cm",
+        "C": "13.5 cubic cm",
+        "D": "54 cubic cm"
+      },
+      "correctAnswer": "A",
+      "explanation": "Volume = length x width x height = 4.5 x 2 x 3 = 9 x 3 = 27 cubic cm."
+    },
+    {
+      "id": "ai-52",
+      "standard": "MA.6.GR.2.4",
+      "topic": "geometry",
+      "question": "Using its net, what is the surface area of a cube with edge length 3 inches?",
+      "choices": {
+        "A": "27 square inches",
+        "B": "9 square inches",
+        "C": "54 square inches",
+        "D": "18 square inches"
+      },
+      "correctAnswer": "C",
+      "explanation": "A cube has 6 square faces. Each face = 3 x 3 = 9 sq in. Total surface area = 6 x 9 = 54 square inches."
+    },
+    {
+      "id": "ai-53",
+      "standard": "MA.6.DP.1.1",
+      "topic": "data-probability",
+      "question": "Which of the following is a statistical question?",
+      "choices": {
+        "A": "How tall is the Eiffel Tower?",
+        "B": "What are the heights of the students in our class?",
+        "C": "How many days are in a week?",
+        "D": "What year did the school open?"
+      },
+      "correctAnswer": "B",
+      "explanation": "A statistical question expects variability in answers. Students' heights vary, generating numerical data. The others each have one fixed answer."
+    },
+    {
+      "id": "ai-54",
+      "standard": "MA.6.DP.1.2",
+      "topic": "data-probability",
+      "question": "The data set is: 5, 8, 8, 10, 14. What is the mean?",
+      "choices": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "45"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sum = 5 + 8 + 8 + 10 + 14 = 45. Mean = 45 / 5 = 9."
+    },
+    {
+      "id": "ai-55",
+      "standard": "MA.6.DP.1.2",
+      "topic": "data-probability",
+      "question": "The data set is: 6, 9, 9, 12, 15. What is the mode?",
+      "choices": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "15"
+      },
+      "correctAnswer": "B",
+      "explanation": "The mode is the value that appears most often. 9 appears twice; all others appear once."
+    },
+    {
+      "id": "ai-56",
+      "standard": "MA.6.DP.1.3",
+      "topic": "data-probability",
+      "question": "A box plot shows minimum = 10, Q1 = 15, median = 20, Q3 = 28, maximum = 35. What is the interquartile range (IQR)?",
+      "choices": {
+        "A": "25",
+        "B": "13",
+        "C": "20",
+        "D": "5"
+      },
+      "correctAnswer": "B",
+      "explanation": "IQR = Q3 - Q1 = 28 - 15 = 13."
+    },
+    {
+      "id": "ai-57",
+      "standard": "MA.6.DP.1.4",
+      "topic": "data-probability",
+      "question": "A histogram of test scores has most bars clustered between 70 and 90, with one short bar at 20-30. What does the bar at 20-30 represent?",
+      "choices": {
+        "A": "the median",
+        "B": "an outlier",
+        "C": "the mode",
+        "D": "a gap"
+      },
+      "correctAnswer": "B",
+      "explanation": "A value far from the cluster of the rest of the data is an outlier. The lone low score at 20-30 is separated from the main cluster at 70-90."
+    },
+    {
+      "id": "ai-58",
+      "standard": "MA.6.DP.1.5",
+      "topic": "data-probability",
+      "question": "To create a box plot from a data set, which five values must you find?",
+      "choices": {
+        "A": "mean, mode, median, range, sum",
+        "B": "minimum, Q1, median, Q3, maximum",
+        "C": "minimum, mean, median, mode, maximum",
+        "D": "Q1, Q2, Q3, Q4, Q5"
+      },
+      "correctAnswer": "B",
+      "explanation": "A box plot displays the five-number summary: minimum, lower quartile (Q1), median, upper quartile (Q3), and maximum."
+    },
+    {
+      "id": "ai-59",
+      "standard": "MA.6.DP.1.6",
+      "topic": "data-probability",
+      "question": "A data set is 4, 6, 8, 10. If the value 8 is changed to 20, what happens to the mean?",
+      "choices": {
+        "A": "It stays the same.",
+        "B": "It increases.",
+        "C": "It decreases.",
+        "D": "It becomes zero."
+      },
+      "correctAnswer": "B",
+      "explanation": "Original mean = 28/4 = 7. New set 4,6,20,10 sums to 40, mean = 40/4 = 10. Replacing 8 with a larger value 20 increases the mean."
+    },
+    {
+      "id": "ai-60",
+      "standard": "MA.6.NSO.1.4",
+      "topic": "number-sense",
+      "question": "Which number has the greater absolute value: -9 or 6?",
+      "choices": {
+        "A": "-9",
+        "B": "6",
+        "C": "they are equal",
+        "D": "cannot tell"
+      },
+      "correctAnswer": "A",
+      "explanation": "|-9| = 9 and |6| = 6. Since 9 > 6, -9 has the greater absolute value."
+    }
+  ]
+}

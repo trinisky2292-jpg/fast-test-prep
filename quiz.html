@@ -193,6 +193,7 @@
             }
         }
     </style>
+    <script src="js/grade.js"></script>
 </head>
 <body>
     <div class="quiz-container">
@@ -283,8 +284,8 @@
             timerInterval = setInterval(tick, 1000);
         }
 
-        // Fetch the JSON data for the section
-        fetch(`data/${section}.json`)
+        // Fetch the JSON data for the section (grade-aware path)
+        fetch(FastGrade.dataPath(section))
             .then(response => response.json())
             .then(data => {
                 if (section === 'reading') {

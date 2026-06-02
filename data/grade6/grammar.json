@@ -1,0 +1,326 @@
+{
+  "section": "grammar",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "gram-1",
+      "section": "grammar",
+      "question": "Which sentence correctly uses a comma after an introductory dependent clause?",
+      "choices": {
+        "A": "Because the storm was approaching the captain steered the ship to harbor.",
+        "B": "Because the storm was approaching, the captain steered the ship to harbor.",
+        "C": "Because, the storm was approaching the captain steered the ship to harbor.",
+        "D": "Because the storm was approaching the captain, steered the ship to harbor."
+      },
+      "correctAnswer": "B",
+      "explanation": "When a dependent (subordinate) clause begins a sentence, a comma separates it from the independent clause that follows. The clause 'Because the storm was approaching' is dependent, so a comma comes after 'approaching.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-2",
+      "section": "grammar",
+      "question": "Identify the independent clause in this sentence: \"While the orchestra tuned its instruments, the audience grew quiet.\"",
+      "choices": {
+        "A": "While the orchestra tuned its instruments",
+        "B": "the audience grew quiet",
+        "C": "While the orchestra tuned",
+        "D": "tuned its instruments"
+      },
+      "correctAnswer": "B",
+      "explanation": "An independent clause can stand alone as a complete sentence. 'The audience grew quiet' expresses a complete thought. 'While the orchestra tuned its instruments' is a dependent clause that cannot stand alone.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-3",
+      "section": "grammar",
+      "question": "Choose the pronoun that agrees with its antecedent: \"Each of the students must bring _____ own notebook to class.\"",
+      "choices": {
+        "A": "their",
+        "B": "they're",
+        "C": "his or her",
+        "D": "its"
+      },
+      "correctAnswer": "C",
+      "explanation": "The antecedent 'Each' is singular, so it takes a singular pronoun. 'His or her' agrees in number with the singular 'Each of the students.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-4",
+      "section": "grammar",
+      "question": "Which sentence corrects the vague pronoun reference in: \"When Maya put the book on the shelf, it broke\"?",
+      "choices": {
+        "A": "When Maya put the book on the shelf, they broke.",
+        "B": "When Maya put the book on the shelf, the shelf broke.",
+        "C": "When Maya put it on the shelf, it broke.",
+        "D": "When Maya put the book on the shelf it broke."
+      },
+      "correctAnswer": "B",
+      "explanation": "In the original, 'it' could refer to either the book or the shelf, making the reference vague. Replacing 'it' with the specific noun 'the shelf' removes the confusion.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-5",
+      "section": "grammar",
+      "question": "Choose the correct pronoun case: \"The award was shared between Carla and _____.\"",
+      "choices": {
+        "A": "I",
+        "B": "me",
+        "C": "myself",
+        "D": "mine"
+      },
+      "correctAnswer": "B",
+      "explanation": "After the preposition 'between,' use the object pronoun 'me.' The object pronouns are me, him, her, us, and them.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-6",
+      "section": "grammar",
+      "question": "Which sentence is written in the active voice?",
+      "choices": {
+        "A": "The winning goal was scored by Devon.",
+        "B": "The window was broken during the game.",
+        "C": "Devon scored the winning goal.",
+        "D": "A decision will be made by the committee."
+      },
+      "correctAnswer": "C",
+      "explanation": "In active voice, the subject performs the action. 'Devon scored the winning goal' has Devon (the subject) doing the action. The others are passive, with the subject receiving the action.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-7",
+      "section": "grammar",
+      "question": "Which revision changes the sentence from passive to active voice: \"The experiment was completed by the sixth-grade scientists\"?",
+      "choices": {
+        "A": "The experiment had been completed.",
+        "B": "The sixth-grade scientists completed the experiment.",
+        "C": "The experiment was being completed by the scientists.",
+        "D": "By the scientists the experiment was completed."
+      },
+      "correctAnswer": "B",
+      "explanation": "Active voice puts the doer of the action ('the sixth-grade scientists') in the subject position: 'The sixth-grade scientists completed the experiment.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-8",
+      "section": "grammar",
+      "question": "Which sentence uses the subjunctive mood correctly to express a wish or condition contrary to fact?",
+      "choices": {
+        "A": "If I was taller, I would join the basketball team.",
+        "B": "If I were taller, I would join the basketball team.",
+        "C": "If I am taller, I would join the basketball team.",
+        "D": "If I be taller, I would join the basketball team."
+      },
+      "correctAnswer": "B",
+      "explanation": "The subjunctive mood uses 'were' (not 'was') to express a hypothetical or wish that is contrary to fact: 'If I were taller.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-9",
+      "section": "grammar",
+      "question": "Which sentence correctly uses commas to set off a nonrestrictive (extra-information) phrase?",
+      "choices": {
+        "A": "My uncle who lives in Miami is visiting next week.",
+        "B": "My uncle, who lives in Miami, is visiting next week.",
+        "C": "My uncle who lives in Miami, is visiting next week.",
+        "D": "My uncle who, lives in Miami is visiting next week."
+      },
+      "correctAnswer": "B",
+      "explanation": "A nonrestrictive clause adds extra, nonessential information and is set off with a pair of commas: 'My uncle, who lives in Miami, is visiting next week.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-10",
+      "section": "grammar",
+      "question": "Which sentence correctly joins two independent clauses with a comma and a coordinating conjunction?",
+      "choices": {
+        "A": "The rain stopped, the sun appeared.",
+        "B": "The rain stopped the sun appeared.",
+        "C": "The rain stopped, and the sun appeared.",
+        "D": "The rain stopped and, the sun appeared."
+      },
+      "correctAnswer": "C",
+      "explanation": "Two independent clauses can be joined with a comma plus a coordinating conjunction (for, and, nor, but, or, yet, so). 'The rain stopped, and the sun appeared' is correct. Choice A is a comma splice.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-11",
+      "section": "grammar",
+      "question": "Which sentence correctly fixes this comma splice: \"The library closes at nine, we should hurry\"?",
+      "choices": {
+        "A": "The library closes at nine we should hurry.",
+        "B": "The library closes at nine; we should hurry.",
+        "C": "The library, closes at nine we should hurry.",
+        "D": "The library closes, at nine we should hurry."
+      },
+      "correctAnswer": "B",
+      "explanation": "A comma splice joins two independent clauses with only a comma. A semicolon correctly links two closely related independent clauses: 'The library closes at nine; we should hurry.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-12",
+      "section": "grammar",
+      "question": "Which sentence uses correct capitalization?",
+      "choices": {
+        "A": "We studied the pacific ocean in mrs. lee's geography class.",
+        "B": "We studied the Pacific Ocean in Mrs. Lee's Geography class.",
+        "C": "We studied the Pacific Ocean in Mrs. Lee's geography class.",
+        "D": "we studied the Pacific ocean in Mrs. Lee's geography Class."
+      },
+      "correctAnswer": "C",
+      "explanation": "Capitalize proper nouns ('Pacific Ocean,' 'Mrs. Lee') and the first word of the sentence. The common noun 'geography' is not capitalized when it is not part of an official course title.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-13",
+      "section": "grammar",
+      "question": "Choose the correct verb to keep consistent verb tense: \"She opened her notebook and _____ to write her essay.\"",
+      "choices": {
+        "A": "begins",
+        "B": "began",
+        "C": "will begin",
+        "D": "begin"
+      },
+      "correctAnswer": "B",
+      "explanation": "The first verb 'opened' is past tense, so the second verb should also be past tense to stay consistent. 'Began' is the simple past form.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "easy",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-14",
+      "section": "grammar",
+      "question": "Which sentence correctly uses the comparative or superlative form?",
+      "choices": {
+        "A": "Of the three runners, Jordan was the faster.",
+        "B": "Of the three runners, Jordan was the fastest.",
+        "C": "Of the three runners, Jordan was more fast.",
+        "D": "Of the three runners, Jordan was most faster."
+      },
+      "correctAnswer": "B",
+      "explanation": "When comparing three or more things, use the superlative form. 'Fastest' is the superlative of 'fast,' so 'the fastest' is correct for three runners.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-15",
+      "section": "grammar",
+      "question": "In which sentence is the gerund (a verb form ending in -ing used as a noun) used as the subject?",
+      "choices": {
+        "A": "The runners were jogging along the beach.",
+        "B": "Jogging along the beach is great exercise.",
+        "C": "They will go jogging after school.",
+        "D": "The jogging path was newly paved."
+      },
+      "correctAnswer": "B",
+      "explanation": "A gerund is an -ing verb form that acts as a noun. In 'Jogging along the beach is great exercise,' the gerund phrase 'Jogging along the beach' is the subject of the verb 'is.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-16",
+      "section": "grammar",
+      "question": "Which sentence correctly uses an infinitive phrase?",
+      "choices": {
+        "A": "Maria wants to learn Spanish before her trip.",
+        "B": "Maria wants learns Spanish before her trip.",
+        "C": "Maria wants learning Spanish before her trip.",
+        "D": "Maria wants to learning Spanish before her trip."
+      },
+      "correctAnswer": "A",
+      "explanation": "An infinitive is 'to' plus the base form of a verb. 'To learn Spanish' is a correct infinitive phrase functioning as the object of 'wants.'",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-17",
+      "section": "grammar",
+      "question": "Which sentence correctly combines these two sentences using a subordinating conjunction: \"The team practiced hard. They lost the game.\"",
+      "choices": {
+        "A": "The team practiced hard, they lost the game.",
+        "B": "Although the team practiced hard, they lost the game.",
+        "C": "The team practiced hard so they lost the game.",
+        "D": "Because the team practiced hard, they lost the game."
+      },
+      "correctAnswer": "B",
+      "explanation": "A subordinating conjunction should show the logical relationship. The ideas contrast (hard practice, yet a loss), so 'Although' is correct. 'Because' (D) wrongly states the practice caused the loss.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-18",
+      "section": "grammar",
+      "question": "Which sentence correctly uses an apostrophe to show plural possession?",
+      "choices": {
+        "A": "The girls' locker room was repainted over the summer.",
+        "B": "The girl's locker room was repainted over the summer.",
+        "C": "The girls locker room was repainted over the summer.",
+        "D": "The girls's locker room was repainted over the summer."
+      },
+      "correctAnswer": "A",
+      "explanation": "To show possession by a plural noun ending in -s, add only an apostrophe after the s. 'Girls'' shows that the locker room belongs to more than one girl.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-19",
+      "section": "grammar",
+      "question": "Which revision corrects the dangling modifier in: \"Running to catch the bus, the backpack slipped off her shoulder\"?",
+      "choices": {
+        "A": "Running to catch the bus, the backpack slipped off her shoulder quickly.",
+        "B": "The backpack, running to catch the bus, slipped off her shoulder.",
+        "C": "Running to catch the bus, she felt the backpack slip off her shoulder.",
+        "D": "Running to catch the bus the backpack slipped off her shoulder."
+      },
+      "correctAnswer": "C",
+      "explanation": "The modifier 'Running to catch the bus' should describe a person, not the backpack. Revising so that 'she' (the runner) follows the modifier fixes the dangling modifier.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "gram-20",
+      "section": "grammar",
+      "question": "Which sentence shows the best variety in sentence structure by combining short, choppy sentences smoothly?",
+      "choices": {
+        "A": "The hikers were tired. They were hungry. They kept walking.",
+        "B": "Although the hikers were tired and hungry, they kept walking.",
+        "C": "The hikers were tired and they were hungry and they kept walking.",
+        "D": "The hikers tired hungry kept walking."
+      },
+      "correctAnswer": "B",
+      "explanation": "Combining the ideas with a subordinating conjunction ('Although') creates a complex sentence that flows smoothly and shows variety, rather than the choppy series in A or the stringy 'and' chain in C.",
+      "standard": "ELA.6.C.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    }
+  ]
+}

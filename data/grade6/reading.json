@@ -1,0 +1,336 @@
+{
+  "section": "reading",
+  "passageCount": 3,
+  "questionCount": 18,
+  "passages": [
+    {
+      "id": "passage-1",
+      "title": "The Lighthouse Keeper's Apprentice",
+      "author": "Original (Grade 6 literary)",
+      "text": "Mara had always considered the lighthouse her grandfather's kingdom, and herself an unwilling visitor to it. Each summer her parents shipped her north to the rocky point where the old man lived alone, and each summer she counted the days until she could leave. The lighthouse smelled of salt and kerosene; the wind never stopped complaining against the windows; and her grandfather, Eli, spoke so rarely that she sometimes forgot the sound of his voice.\n\n\"You think the light is for the ships,\" he told her one evening, the first full sentence he had offered in days. They stood at the top of the tower while the lamp turned its slow, patient circle. \"That's only half of it. The light is a promise. It says: someone is awake, someone is watching, you are not alone out there.\" Mara said nothing, but the words lodged in her like a splinter she could not quite remove.\n\nThe storm came on the third week without warning. The radio crackled into silence, the power failed, and the great lamp went dark. Eli, gripping the rail, could barely climb the spiral stairs; his hands, she realized for the first time, were not the hands of a young man. \"The hand crank,\" he gasped. \"In the cabinet. We turn the light by hand or the boats lose their way.\" Mara had spent three summers resenting this place. Now, with the wind screaming and her grandfather pale beside her, she found the crank, fitted it to the mechanism, and began to turn. Her arms burned. The light swung out across the black water, weak but steady, again and again, a promise repeated into the dark.\n\nWhen dawn finally came and the sea lay flat and gray, a fishing boat passed close to the point. The captain lifted his hand to them, a small salute across the water. Mara understood then what her grandfather had meant. She had not saved the boat, exactly; she had only kept a promise. But she thought, watching the captain's boat shrink toward the harbor, that perhaps a promise kept was its own kind of rescue. She did not count the days until she could leave anymore.",
+      "sourceUrl": null
+    },
+    {
+      "id": "passage-2",
+      "title": "The Sea Speaks",
+      "author": "Original (Grade 6 poetry)",
+      "text": "I am older than the mountains,\nolder than the patient stone,\nyet I forget myself each morning\nand am born again, alone.\n\nThe rivers rush to lose their names\nand pour their voices into mine;\nI gather up their thousand stories\nand hold them in a single line.\n\nThe sailors think they read my temper—\nthey name me cruel, they call me kind—\nbut I am neither friend nor stranger,\nonly weather, only mind.\n\nThe moon and I keep ancient counsel;\nshe pulls, and faithfully I rise.\nI wear the sky upon my surface\nand mirror back its changing eyes.\n\nSo do not ask me to be gentle,\nand do not ask me to be still.\nThe restless heart that beats within you\nis the very heart I fill.",
+      "sourceUrl": null
+    },
+    {
+      "id": "passage-3",
+      "title": "How Coral Reefs Build Themselves",
+      "author": "Original (Grade 6 informational)",
+      "text": "When most people picture a coral reef, they imagine a colorful underwater rock garden. In truth, a reef is not a rock at all, and it is very much alive. A coral reef is built by millions of tiny animals called polyps, each one no larger than a pencil eraser, working together over thousands of years to construct one of the largest living structures on Earth.\n\nA single coral polyp looks like a miniature sea anemone, with a soft, tube-shaped body crowned by a ring of stinging tentacles. The secret to reef-building lies in what the polyp does with the minerals dissolved in seawater. Each polyp draws calcium and carbonate from the water and combines them to form limestone, which hardens into a protective cup around its body. As old polyps die, new ones grow on top of the limestone skeletons left behind. Layer upon layer, century upon century, these skeletons accumulate into the massive ridges we call reefs.\n\nThe polyps do not build alone. Living inside the tissue of each polyp are microscopic algae called zooxanthellae. This partnership benefits both organisms: the algae use sunlight to produce food through photosynthesis and share that food with the polyp, while the polyp gives the algae a safe, sunlit home. Scientists call such a mutually beneficial relationship symbiosis. The vivid colors that make reefs famous come largely from these algae. When the water grows too warm, however, the polyps expel their algae partners and turn a ghostly white—an event known as coral bleaching. A bleached coral is not yet dead, but it is starving, because it has lost the partner that fed it.\n\nReefs matter far beyond their beauty. Though they cover less than one percent of the ocean floor, reefs shelter roughly a quarter of all marine species, providing nurseries for fish and barriers that protect coastlines from storm waves. Their slow, patient construction—begun by creatures smaller than your fingernail—reminds us that some of the planet's grandest achievements are the work of the smallest builders, repeated faithfully over unimaginable spans of time.",
+      "sourceUrl": null
+    }
+  ],
+  "questions": [
+    {
+      "id": "read-1",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "How does the interaction between Mara and her grandfather Eli most contribute to the development of the plot?",
+      "choices": {
+        "A": "Their arguments cause Mara to run away from the lighthouse during the storm.",
+        "B": "Eli's words about the light prepare Mara to act when the storm forces her to keep the light turning.",
+        "C": "Their silence shows that the two characters never come to understand each other.",
+        "D": "Eli's stories about ships convince Mara to become a fisherman herself."
+      },
+      "correctAnswer": "B",
+      "explanation": "Eli tells Mara that the light is 'a promise' that someone is watching. This idea 'lodged in her like a splinter,' and later, during the storm, it shapes her decision to crank the light by hand. The conversation directly sets up the climax.",
+      "standard": "ELA.6.R.1.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-2",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "Which statement best expresses an implied theme of the passage?",
+      "choices": {
+        "A": "People who live alone are always unhappy and need rescuing.",
+        "B": "Storms are dangerous and should always be avoided at sea.",
+        "C": "Keeping a promise to others can transform how a person sees the world.",
+        "D": "Old machines are more reliable than modern technology."
+      },
+      "correctAnswer": "C",
+      "explanation": "The theme is implied, not stated. Mara begins resentful and counts the days to leave, but after keeping the 'promise' of the light, she 'did not count the days until she could leave anymore.' Her change reveals the message that keeping a promise to others can change a person.",
+      "standard": "ELA.6.R.1.2",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-3",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "The passage is told from a third-person point of view that follows Mara closely. How does this point of view shape the reader's understanding?",
+      "choices": {
+        "A": "It hides Mara's feelings so that the ending is a complete surprise.",
+        "B": "It lets readers experience Mara's changing thoughts and feelings about the lighthouse.",
+        "C": "It focuses mainly on Eli's memories rather than Mara's experience.",
+        "D": "It presents the events as if a fishing captain were narrating them."
+      },
+      "correctAnswer": "B",
+      "explanation": "The narration reports Mara's inner reactions—her resentment, the words lodging 'like a splinter,' her realization at dawn. Because the point of view stays close to Mara, readers track her internal change throughout the story.",
+      "standard": "ELA.6.R.1.3",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-4",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "Read this sentence: \"Mara said nothing, but the words lodged in her like a splinter she could not quite remove.\" What does the figurative comparison to a splinter suggest about the words?",
+      "choices": {
+        "A": "The words physically hurt Mara's body.",
+        "B": "The words were quickly forgotten by Mara.",
+        "C": "The words stayed with Mara and bothered her even though she did not respond.",
+        "D": "The words made Mara angry at her grandfather."
+      },
+      "correctAnswer": "C",
+      "explanation": "A splinter is small but lingers and is hard to remove. The simile shows that, although Mara said nothing, Eli's words stuck with her and kept working on her thoughts, which sets up her later actions.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-5",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "Read this sentence: \"Her arms burned.\" Using context, what is the most precise meaning of burned as it is used here?",
+      "choices": {
+        "A": "caught fire",
+        "B": "ached painfully from hard effort",
+        "C": "felt sunburned",
+        "D": "glowed with light"
+      },
+      "correctAnswer": "B",
+      "explanation": "Mara is cranking a heavy mechanism 'again and again' until her arms burned. In this context the connotation of 'burned' is a deep muscular ache from sustained physical effort, not literal fire.",
+      "standard": "ELA.6.V.1.3",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-6",
+      "section": "reading",
+      "passageId": "passage-1",
+      "question": "Read this sentence: \"But she thought... that perhaps a promise kept was its own kind of rescue.\" How does this sentence help develop the theme of the story?",
+      "choices": {
+        "A": "It shows that Mara still wants to leave the lighthouse forever.",
+        "B": "It restates Eli's idea that the light is a promise and shows Mara now believes it.",
+        "C": "It proves that Mara saved the fishing boat single-handedly.",
+        "D": "It explains how the lighthouse machinery works."
+      },
+      "correctAnswer": "B",
+      "explanation": "Earlier Eli called the light 'a promise.' By the end, Mara concludes that 'a promise kept was its own kind of rescue,' echoing his idea. This shows she has absorbed and now believes his lesson, advancing the story's theme about keeping promises.",
+      "standard": "ELA.6.R.1.2",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-7",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "In the poem, the sea is the speaker. This use of personification mainly serves to",
+      "choices": {
+        "A": "explain the scientific causes of ocean tides.",
+        "B": "give the sea human thoughts and feelings so it can reflect on its own nature.",
+        "C": "warn sailors about the dangers of storms at sea.",
+        "D": "describe how rivers are formed in the mountains."
+      },
+      "correctAnswer": "B",
+      "explanation": "By letting the sea speak in the first person ('I am older than the mountains'), the poet uses personification to give the sea human awareness, allowing it to reflect on its age, moods, and relationship to people.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-8",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "Read these lines: \"The sailors think they read my temper— / they name me cruel, they call me kind— / but I am neither friend nor stranger, / only weather, only mind.\" What do these lines reveal about how the sea views the sailors' judgments?",
+      "choices": {
+        "A": "The sea agrees that it is sometimes cruel and sometimes kind.",
+        "B": "The sea believes the sailors understand it perfectly.",
+        "C": "The sea rejects being labeled, saying it is simply itself rather than cruel or kind.",
+        "D": "The sea is afraid of what the sailors might do to it."
+      },
+      "correctAnswer": "C",
+      "explanation": "The sea says the sailors only 'think they read' its temper and insists it is 'neither friend nor stranger, / only weather, only mind.' This rejects the human labels of cruel or kind, claiming the sea simply is what it is.",
+      "standard": "ELA.6.R.1.2",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-9",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "The poem is organized into five rhymed stanzas of four lines each. How does this regular poetic form contribute to the poem's meaning?",
+      "choices": {
+        "A": "The steady, repeating stanzas mirror the ocean's endless, rhythmic motion.",
+        "B": "The irregular line lengths show that the sea is chaotic and unpredictable.",
+        "C": "The lack of any rhyme reflects the silence of the deep ocean.",
+        "D": "The single long stanza suggests the sea never changes at all."
+      },
+      "correctAnswer": "A",
+      "explanation": "The poem uses five even, rhymed quatrains. This regular, repeating structure echoes the rhythmic, recurring movement of the tides and waves the sea describes ('I forget myself each morning / and am born again').",
+      "standard": "ELA.6.R.1.4",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-10",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "Read these lines: \"The rivers rush to lose their names / and pour their voices into mine.\" What does the phrase \"lose their names\" most nearly mean in context?",
+      "choices": {
+        "A": "The rivers dry up and disappear before reaching the sea.",
+        "B": "The rivers become part of the sea and are no longer separate, named rivers.",
+        "C": "The rivers forget which direction they are flowing.",
+        "D": "The rivers are renamed by the sailors who travel on them."
+      },
+      "correctAnswer": "B",
+      "explanation": "When a river flows into the ocean, it merges and is no longer a distinct, named river. The phrase 'lose their names' figuratively expresses this merging—the rivers 'pour their voices' into the sea and become one with it.",
+      "standard": "ELA.6.V.1.3",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-11",
+      "section": "reading",
+      "passageId": "passage-2",
+      "question": "Read the final stanza: \"So do not ask me to be gentle, / and do not ask me to be still. / The restless heart that beats within you / is the very heart I fill.\" What is the speaker suggesting about the relationship between the sea and people?",
+      "choices": {
+        "A": "People and the sea have nothing in common.",
+        "B": "The sea wishes it could be as calm as people are.",
+        "C": "The restlessness people feel inside is mirrored by the sea's own restless nature.",
+        "D": "People should fear the sea and stay away from it."
+      },
+      "correctAnswer": "C",
+      "explanation": "The sea connects its own refusal to be 'gentle' or 'still' to the 'restless heart' that beats within the listener, claiming it is 'the very heart I fill.' This links the sea's restless nature to the restlessness within people.",
+      "standard": "ELA.6.R.1.2",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-12",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "What is the central idea of the passage?",
+      "choices": {
+        "A": "Coral reefs are colorful rock gardens that have always existed unchanged.",
+        "B": "Tiny living polyps slowly build coral reefs into vast, important structures over thousands of years.",
+        "C": "Algae are the only organisms responsible for building coral reefs.",
+        "D": "Coral bleaching is the most important topic in ocean science."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage develops the idea that reefs are alive and are built by 'millions of tiny animals called polyps... working together over thousands of years.' This central idea is supported throughout, from how polyps make limestone to why reefs matter.",
+      "standard": "ELA.6.R.2.2",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-13",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "How does the third paragraph (about zooxanthellae) mainly contribute to the development of the text?",
+      "choices": {
+        "A": "It explains the partnership between polyps and algae and why bleaching harms coral.",
+        "B": "It lists every type of fish that lives on a reef.",
+        "C": "It argues that reefs should be removed to protect ships.",
+        "D": "It describes the history of ocean exploration."
+      },
+      "correctAnswer": "A",
+      "explanation": "The third paragraph introduces the symbiosis between polyps and algae, explains how each benefits, and uses that relationship to explain coral bleaching ('it has lost the partner that fed it'). This section deepens the central idea about how reefs live and grow.",
+      "standard": "ELA.6.R.2.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-14",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "The word symbiosis is built from the Greek roots syn- meaning \"together\" and bios meaning \"life.\" Based on these roots and the passage, what does symbiosis mean?",
+      "choices": {
+        "A": "a living thing that destroys another",
+        "B": "two organisms living together in a relationship",
+        "C": "the study of ocean life",
+        "D": "a structure made of limestone"
+      },
+      "correctAnswer": "B",
+      "explanation": "The roots combine to mean 'living together.' The passage defines symbiosis as 'a mutually beneficial relationship' between the polyp and the algae, matching the meaning built from the Greek roots.",
+      "standard": "ELA.6.V.1.2",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-15",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "Read this sentence: \"A bleached coral is not yet dead, but it is starving, because it has lost the partner that fed it.\" Which word has nearly the same meaning as expel as it is used earlier in the paragraph (\"the polyps expel their algae partners\")?",
+      "choices": {
+        "A": "welcome",
+        "B": "feed",
+        "C": "force out",
+        "D": "color"
+      },
+      "correctAnswer": "C",
+      "explanation": "Because expelling the algae leaves the coral 'ghostly white' and 'starving,' the polyps must be driving the algae away. 'Expel' means to force out, which fits the result described—the coral loses 'the partner that fed it.'",
+      "standard": "ELA.6.V.1.3",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-16",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "What is the author's main purpose in writing this passage?",
+      "choices": {
+        "A": "to persuade readers to go scuba diving",
+        "B": "to inform readers about how coral reefs are built and why they matter",
+        "C": "to entertain readers with a fictional story about the ocean",
+        "D": "to compare coral reefs with rainforests"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage presents facts, definitions, and explanations about how polyps build reefs and why reefs are valuable. Its purpose is to inform, not to persuade, entertain, or compare.",
+      "standard": "ELA.6.R.2.3",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-17",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "Read the final sentence of the passage. By emphasizing that reefs are built by 'the smallest builders, repeated faithfully over unimaginable spans of time,' the author appeals to the reader mainly through",
+      "choices": {
+        "A": "logos, by offering exact measurements of every reef.",
+        "B": "pathos, by stirring a sense of wonder at small creatures achieving something grand.",
+        "C": "ethos, by listing the author's scientific credentials.",
+        "D": "humor, by making a joke about fingernails."
+      },
+      "correctAnswer": "B",
+      "explanation": "The closing line uses emotional language ('grandest achievements,' 'unimaginable spans of time,' 'smallest builders') to inspire awe and wonder. This is an appeal to pathos, the audience's emotions, rather than pure logic or credentials.",
+      "standard": "ELA.6.R.3.4",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "read-18",
+      "section": "reading",
+      "passageId": "passage-3",
+      "question": "Both 'The Lighthouse Keeper's Apprentice' and 'How Coral Reefs Build Themselves' explore a similar idea. Which idea do they share?",
+      "choices": {
+        "A": "Small, patient, repeated effort can create something far larger and more important than itself.",
+        "B": "Living near the ocean is dangerous and should be avoided.",
+        "C": "Technology always fails during storms.",
+        "D": "Animals are smarter than people."
+      },
+      "correctAnswer": "A",
+      "explanation": "In the story, Mara keeps the light turning with patient, repeated effort, and a single kept promise becomes 'its own kind of rescue.' In the article, tiny polyps build vast reefs through effort 'repeated faithfully over unimaginable spans of time.' Both texts share the idea that small, patient, repeated effort builds something larger.",
+      "standard": "ELA.6.R.3.3",
+      "difficulty": "hard",
+      "sourceUrl": null
+    }
+  ]
+}

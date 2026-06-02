@@ -22,11 +22,13 @@
             line-height: 1.6;
             padding: 1rem;
         }
-        .container { max-width: 900px; margin: 0 auto; }
+        .container { max-width: 1000px; margin: 0 auto; }
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
             margin-bottom: 1.5rem;
             padding: 1rem;
             background: var(--white);
@@ -34,11 +36,8 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         header h1 { font-size: 1.5rem; color: var(--primary); }
-        header a {
-            color: var(--secondary);
-            text-decoration: none;
-            font-weight: 500;
-        }
+        .header-right { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+        header a { color: var(--secondary); text-decoration: none; font-weight: 500; }
         .intro {
             background: var(--white);
             border-radius: 12px;
@@ -48,386 +47,232 @@
             text-align: center;
         }
         .intro p { font-size: 1.05rem; color: var(--light-text); }
-        .topic-section {
-            background: var(--white);
-            border-radius: 16px;
-            padding: 1.25rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            margin-bottom: 1.25rem;
+        h2.group-title {
+            margin: 1.75rem 0 0.75rem;
+            font-size: 1.25rem;
+            color: var(--text);
+            border-left: 5px solid var(--secondary);
+            padding-left: 0.6rem;
         }
-        .topic-header {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            margin-bottom: 1rem;
-            cursor: pointer;
-        }
-        .topic-icon { font-size: 1.8rem; }
-        .topic-header h2 { font-size: 1.25rem; color: var(--text); }
-        .topic-header .toggle {
-            margin-left: auto;
-            font-size: 1.5rem;
-            color: var(--light-text);
-            transition: transform 0.3s;
-        }
-        .topic-header.open .toggle { transform: rotate(180deg); }
         .video-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 0.75rem;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1rem;
         }
         .video-card {
-            display: block;
-            background: var(--background);
+            background: var(--white);
             border-radius: 12px;
             overflow: hidden;
-            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border: none;
+            text-align: left;
             color: var(--text);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .video-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-        }
-        .video-thumb {
+            display: block;
             width: 100%;
-            aspect-ratio: 16/9;
-            object-fit: cover;
-            background: #ddd;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            padding: 0;
         }
-        .video-info {
-            padding: 0.75rem;
+        .video-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+        .thumb-wrap { position: relative; }
+        .video-thumb { width: 100%; aspect-ratio: 16/9; object-fit: cover; display:block; background:#ddd; }
+        .play-badge {
+            position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+            width:54px; height:54px; border-radius:50%;
+            background:rgba(244,67,54,0.92); color:#fff;
+            display:flex; align-items:center; justify-content:center;
+            font-size:1.4rem; box-shadow:0 2px 8px rgba(0,0,0,0.3);
         }
-        .video-info h3 {
-            font-size: 0.95rem;
-            margin-bottom: 0.25rem;
-            line-height: 1.3;
-        }
+        .video-info { padding: 0.85rem; }
         .video-info .standard-tag {
-            display: inline-block;
-            background: var(--secondary);
-            color: var(--white);
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
+            display:inline-block;
+            background:#e3f2fd;
+            color:var(--secondary);
+            font-size:0.72rem;
+            font-weight:700;
+            padding:0.15rem 0.5rem;
+            border-radius:6px;
+            margin-bottom:0.4rem;
         }
-        .video-info .desc {
-            font-size: 0.8rem;
-            color: var(--light-text);
-            margin-top: 0.35rem;
+        .video-info h3 { font-size: 1rem; margin-bottom: 0.25rem; }
+        .video-info .desc { font-size: 0.82rem; color: var(--light-text); line-height:1.35; }
+
+        /* In-app player modal */
+        .modal-overlay {
+            display:none;
+            position:fixed; inset:0; z-index:9999;
+            background:rgba(0,0,0,0.85);
+            align-items:center; justify-content:center;
+            padding:1rem;
         }
-        .practice-link {
-            display: inline-block;
-            margin-top: 0.75rem;
-            background: var(--primary);
-            color: var(--white);
-            padding: 0.5rem 1rem;
-            border-radius: 50px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-decoration: none;
+        .modal-overlay.open { display:flex; }
+        .modal-box { width:100%; max-width:880px; }
+        .modal-head { display:flex; justify-content:space-between; align-items:center; color:#fff; margin-bottom:0.6rem; gap:1rem; }
+        .modal-head h3 { font-size:1.1rem; }
+        .modal-close {
+            background:#fff; color:#212121; border:none; border-radius:50px;
+            padding:0.5rem 1.1rem; font-size:1rem; font-weight:700; cursor:pointer;
         }
-        .practice-link:hover { background: #43a047; }
+        .modal-frame { position:relative; width:100%; aspect-ratio:16/9; background:#000; border-radius:12px; overflow:hidden; }
+        .modal-frame iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+        .modal-yt { display:inline-block; margin-top:0.6rem; color:#90caf9; font-size:0.85rem; text-decoration:none; }
         @media (max-width: 480px) {
             .video-grid { grid-template-columns: 1fr; }
-            header { flex-direction: column; gap: 0.5rem; }
+            header { flex-direction: column; align-items: stretch; }
         }
     </style>
+    <script src="js/grade.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Study Videos</h1>
-            <a href="index.html">&larr; Home</a>
+            <h1 id="page-title">Study Videos</h1>
+            <div class="header-right">
+                <div class="grade-switcher" id="grade-switcher"></div>
+                <a href="index.html">&larr; Home</a>
+            </div>
         </header>
 
         <div class="intro">
-            <p>Watch these short videos to learn each math topic. Each video is matched to an exact B.E.S.T. standard on the FAST test!</p>
+            <p>Watch these short videos to learn each topic — they play right here in the app. Every video is matched to a real B.E.S.T. standard or FAST skill. 🎬</p>
         </div>
 
-        <!-- Number Sense & Operations -->
-        <div class="topic-section">
-            <div class="topic-header open" onclick="toggleSection(this)">
-                <span class="topic-icon">🔢</span>
-                <h2>Number Sense & Operations</h2>
-                <span class="toggle">▼</span>
-            </div>
-            <div class="video-grid">
-                <a class="video-card" href="https://www.youtube.com/watch?v=NnChWgvnfdk" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/NnChWgvnfdk/mqdefault.jpg" alt="MA.5.NSO.1.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.NSO.1.1</span>
-                        <h3>Place Value</h3>
-                        <div class="desc">Express numbers in different forms through hundred thousands</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=kLXaFBPwrnU" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/kLXaFBPwrnU/mqdefault.jpg" alt="MA.5.NSO.1.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.NSO.1.2</span>
-                        <h3>Forms of Decimals</h3>
-                        <div class="desc">Read and write decimals to thousandths using standard, word, and expanded form</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=inu8ayoTANs" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/inu8ayoTANs/mqdefault.jpg" alt="MA.5.NSO.1.3" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.NSO.1.3</span>
-                        <h3>Compose & Decompose Numbers</h3>
-                        <div class="desc">Compose and decompose multi-digit numbers with decimals</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=o7qMdV-3O8Q" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/o7qMdV-3O8Q/mqdefault.jpg" alt="MA.5.NSO.1.4" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.NSO.1.4</span>
-                        <h3>Round Decimals</h3>
-                        <div class="desc">Round decimals to the nearest hundredth, tenth, or whole number</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=Av0s3D984Kc" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/Av0s3D984Kc/mqdefault.jpg" alt="MA.5.NSO.2.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.NSO.2.1</span>
-                        <h3>Multiply Multi-Digit Numbers</h3>
-                        <div class="desc">Multiply multi-digit whole numbers using the standard algorithm</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=nkh9zKXFH1w" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/nkh9zKXFH1w/mqdefault.jpg" alt="MA.5.NSO.2.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.NSO.2.2</span>
-                        <h3>Divide Multi-Digit Numbers</h3>
-                        <div class="desc">Divide multi-digit whole numbers, up to 5 digits by 2 digits</div>
-                    </div>
-                </a>
-            </div>
-            <a class="practice-link" href="ai-practice.html?section=math&topic=number-sense">Practice Number Sense →</a>
-        </div>
+        <div id="video-root"></div>
+    </div>
 
-        <!-- Fractions -->
-        <div class="topic-section">
-            <div class="topic-header open" onclick="toggleSection(this)">
-                <span class="topic-icon">🍕</span>
-                <h2>Fractions</h2>
-                <span class="toggle">▼</span>
+    <!-- In-app YouTube player -->
+    <div class="modal-overlay" id="player-modal">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h3 id="player-title"></h3>
+                <button class="modal-close" id="player-close">✕ Close</button>
             </div>
-            <div class="video-grid">
-                <a class="video-card" href="https://www.youtube.com/watch?v=aWa9FKiZp2Y" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/aWa9FKiZp2Y/mqdefault.jpg" alt="MA.5.FR.1.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.FR.1.1</span>
-                        <h3>Interpret Fractions as Division</h3>
-                        <div class="desc">Given a fraction, interpret it as a division of the numerator by the denominator</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=fyRqTrYjXqs" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/fyRqTrYjXqs/mqdefault.jpg" alt="MA.5.FR.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.FR.2</span>
-                        <h3>Fraction Operations Overview</h3>
-                        <div class="desc">Add, subtract, and multiply fractions and mixed numbers</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=0_bsZVSV7l4" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/0_bsZVSV7l4/mqdefault.jpg" alt="MA.5.FR.2.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.FR.2.2</span>
-                        <h3>Add & Subtract Fractions</h3>
-                        <div class="desc">Add and subtract fractions with unlike denominators, including mixed numbers</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=w2QyY4Bw5Mg" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/w2QyY4Bw5Mg/mqdefault.jpg" alt="MA.5.FR.2.3" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.FR.2.3</span>
-                        <h3>Multiply Fractions</h3>
-                        <div class="desc">Multiply a fraction by a fraction, including mixed numbers</div>
-                    </div>
-                </a>
-            </div>
-            <a class="practice-link" href="ai-practice.html?section=math&topic=fractions">Practice Fractions →</a>
-        </div>
-
-        <!-- Algebraic Reasoning -->
-        <div class="topic-section">
-            <div class="topic-header open" onclick="toggleSection(this)">
-                <span class="topic-icon">⚖️</span>
-                <h2>Algebraic Reasoning</h2>
-                <span class="toggle">▼</span>
-            </div>
-            <div class="video-grid">
-                <a class="video-card" href="https://www.youtube.com/watch?v=UFFz_q45f-4" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/UFFz_q45f-4/mqdefault.jpg" alt="MA.5.AR.1.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.AR.1.1</span>
-                        <h3>Translate Expressions</h3>
-                        <div class="desc">Translate written descriptions into numerical expressions</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=mLV3EX2mftY" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/mLV3EX2mftY/mqdefault.jpg" alt="MA.5.AR.1.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.AR.1.2</span>
-                        <h3>Evaluate Expressions</h3>
-                        <div class="desc">Evaluate multi-step numerical expressions using order of operations</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=Sbovd5K7WJk" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/Sbovd5K7WJk/mqdefault.jpg" alt="MA.5.AR.2.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.AR.2.1</span>
-                        <h3>Write Equations</h3>
-                        <div class="desc">Translate written real-world problems into equations with a variable</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=2flcSVQXt6M" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/2flcSVQXt6M/mqdefault.jpg" alt="MA.5.AR.2.3" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.AR.2.3</span>
-                        <h3>Two-Step Equations</h3>
-                        <div class="desc">Solve two-step real-world problems with whole numbers</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=OppPsgWoV5E" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/OppPsgWoV5E/mqdefault.jpg" alt="MA.5.AR.2.4" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.AR.2.4</span>
-                        <h3>Inequalities</h3>
-                        <div class="desc">Write and determine if equations and inequalities are true or false</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=CUXNDxegp-Q" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/CUXNDxegp-Q/mqdefault.jpg" alt="MA.5.AR.3.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.AR.3.1</span>
-                        <h3>Numerical Patterns</h3>
-                        <div class="desc">Given a numerical pattern, identify and write a rule as an expression</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=9njCscfQlE0" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/9njCscfQlE0/mqdefault.jpg" alt="MA.5.AR.3.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.AR.3.2</span>
-                        <h3>Algebraic Rules</h3>
-                        <div class="desc">Given a rule, complete a table and state the rule as an expression</div>
-                    </div>
-                </a>
-            </div>
-            <a class="practice-link" href="ai-practice.html?section=math&topic=algebraic-reasoning">Practice Algebra →</a>
-        </div>
-
-        <!-- Measurement -->
-        <div class="topic-section">
-            <div class="topic-header open" onclick="toggleSection(this)">
-                <span class="topic-icon">📏</span>
-                <h2>Measurement</h2>
-                <span class="toggle">▼</span>
-            </div>
-            <div class="video-grid">
-                <a class="video-card" href="https://www.youtube.com/watch?v=eNllqUIbNPE" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/eNllqUIbNPE/mqdefault.jpg" alt="MA.5.M.2.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.M.2.1</span>
-                        <h3>Unit Conversions</h3>
-                        <div class="desc">Solve multi-step real-world problems that involve converting measurement units</div>
-                    </div>
-                </a>
-            </div>
-            <a class="practice-link" href="ai-practice.html?section=math&topic=measurement">Practice Measurement →</a>
-        </div>
-
-        <!-- Geometric Reasoning -->
-        <div class="topic-section">
-            <div class="topic-header open" onclick="toggleSection(this)">
-                <span class="topic-icon">📐</span>
-                <h2>Geometric Reasoning</h2>
-                <span class="toggle">▼</span>
-            </div>
-            <div class="video-grid">
-                <a class="video-card" href="https://www.youtube.com/watch?v=Kki1yh9Z-3Q" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/Kki1yh9Z-3Q/mqdefault.jpg" alt="MA.5.GR.1.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.GR.1.1</span>
-                        <h3>Coordinate Plane</h3>
-                        <div class="desc">Identify the origin and axes in the coordinate system</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=jvEhc0kbqiQ" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/jvEhc0kbqiQ/mqdefault.jpg" alt="MA.5.GR.1.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.GR.1.2</span>
-                        <h3>Plot & Label Points</h3>
-                        <div class="desc">Plot and label ordered pairs in the first quadrant of the coordinate plane</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=2WI63g-3-1k" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/2WI63g-3-1k/mqdefault.jpg" alt="MA.5.GR.2.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.GR.2.1</span>
-                        <h3>Classify Triangles</h3>
-                        <div class="desc">Classify triangles or quadrilaterals based on their defining attributes</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=eZnhOFN6mnY" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/eZnhOFN6mnY/mqdefault.jpg" alt="MA.5.GR.3.1" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.GR.3.1</span>
-                        <h3>Perimeter & Area Formulas</h3>
-                        <div class="desc">Explore the relationship between the perimeter and area of a rectangle</div>
-                    </div>
-                </a>
-                <a class="video-card" href="https://www.youtube.com/watch?v=3XfBAoIThRU" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/3XfBAoIThRU/mqdefault.jpg" alt="MA.5.GR.3.2" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.GR.3.2</span>
-                        <h3>Find Perimeter & Area</h3>
-                        <div class="desc">Find the perimeter and area of a rectangle with fractional or decimal side lengths</div>
-                    </div>
-                </a>
-            </div>
-            <a class="practice-link" href="ai-practice.html?section=math&topic=geometry">Practice Geometry →</a>
-        </div>
-
-        <!-- Data & Probability -->
-        <div class="topic-section">
-            <div class="topic-header open" onclick="toggleSection(this)">
-                <span class="topic-icon">📊</span>
-                <h2>Data Analysis & Probability</h2>
-                <span class="toggle">▼</span>
-            </div>
-            <div class="video-grid">
-                <a class="video-card" href="https://www.youtube.com/watch?v=eNllqUIbNPE" target="_blank">
-                    <img class="video-thumb" src="https://img.youtube.com/vi/eNllqUIbNPE/mqdefault.jpg" alt="Data Analysis" loading="lazy">
-                    <div class="video-info">
-                        <span class="standard-tag">MA.5.DP.1</span>
-                        <h3>Interpret Data</h3>
-                        <div class="desc">Collect, represent, and interpret data; find mean, median, mode, and range</div>
-                    </div>
-                </a>
-            </div>
-            <a class="practice-link" href="ai-practice.html?section=math&topic=data-probability">Practice Data Analysis →</a>
-        </div>
-
-        <div style="text-align:center;margin:1.5rem 0;">
-            <p style="color:var(--light-text);font-size:0.85rem;">Videos by McCarthy Math Academy — aligned to Florida B.E.S.T. Standards</p>
+            <div class="modal-frame" id="player-frame"></div>
+            <a class="modal-yt" id="player-yt" href="#" target="_blank" rel="noopener">Open on YouTube ↗</a>
         </div>
     </div>
 
     <script>
-    function toggleSection(header) {
-        header.classList.toggle('open');
-        const grid = header.nextElementSibling;
-        const link = grid.nextElementSibling;
-        if (header.classList.contains('open')) {
-            grid.style.display = '';
-            if (link && link.classList.contains('practice-link')) link.style.display = '';
-        } else {
-            grid.style.display = 'none';
-            if (link && link.classList.contains('practice-link')) link.style.display = 'none';
+    const GRADE_VIDEOS = {
+        '5': [{"id":"NnChWgvnfdk","code":"MA.5.NSO.1.1","title":"Place Value","desc":"Express numbers in different forms through hundred thousands","group":"Number Sense & Operations"},{"id":"kLXaFBPwrnU","code":"MA.5.NSO.1.2","title":"Forms of Decimals","desc":"Read and write decimals to thousandths using standard, word, and expanded form","group":"Number Sense & Operations"},{"id":"inu8ayoTANs","code":"MA.5.NSO.1.3","title":"Compose & Decompose Numbers","desc":"Compose and decompose multi-digit numbers with decimals","group":"Number Sense & Operations"},{"id":"o7qMdV-3O8Q","code":"MA.5.NSO.1.4","title":"Round Decimals","desc":"Round decimals to the nearest hundredth, tenth, or whole number","group":"Number Sense & Operations"},{"id":"Av0s3D984Kc","code":"MA.5.NSO.2.1","title":"Multiply Multi-Digit Numbers","desc":"Multiply multi-digit whole numbers using the standard algorithm","group":"Number Sense & Operations"},{"id":"nkh9zKXFH1w","code":"MA.5.NSO.2.2","title":"Divide Multi-Digit Numbers","desc":"Divide multi-digit whole numbers, up to 5 digits by 2 digits","group":"Number Sense & Operations"},{"id":"aWa9FKiZp2Y","code":"MA.5.FR.1.1","title":"Interpret Fractions as Division","desc":"Given a fraction, interpret it as a division of the numerator by the denominator","group":"Fractions"},{"id":"fyRqTrYjXqs","code":"MA.5.FR.2","title":"Fraction Operations Overview","desc":"Add, subtract, and multiply fractions and mixed numbers","group":"Fractions"},{"id":"0_bsZVSV7l4","code":"MA.5.FR.2.2","title":"Add & Subtract Fractions","desc":"Add and subtract fractions with unlike denominators, including mixed numbers","group":"Fractions"},{"id":"w2QyY4Bw5Mg","code":"MA.5.FR.2.3","title":"Multiply Fractions","desc":"Multiply a fraction by a fraction, including mixed numbers","group":"Fractions"},{"id":"UFFz_q45f-4","code":"MA.5.AR.1.1","title":"Translate Expressions","desc":"Translate written descriptions into numerical expressions","group":"Algebraic Reasoning"},{"id":"mLV3EX2mftY","code":"MA.5.AR.1.2","title":"Evaluate Expressions","desc":"Evaluate multi-step numerical expressions using order of operations","group":"Algebraic Reasoning"},{"id":"Sbovd5K7WJk","code":"MA.5.AR.2.1","title":"Write Equations","desc":"Translate written real-world problems into equations with a variable","group":"Algebraic Reasoning"},{"id":"2flcSVQXt6M","code":"MA.5.AR.2.3","title":"Two-Step Equations","desc":"Solve two-step real-world problems with whole numbers","group":"Algebraic Reasoning"},{"id":"OppPsgWoV5E","code":"MA.5.AR.2.4","title":"Inequalities","desc":"Write and determine if equations and inequalities are true or false","group":"Algebraic Reasoning"},{"id":"CUXNDxegp-Q","code":"MA.5.AR.3.1","title":"Numerical Patterns","desc":"Given a numerical pattern, identify and write a rule as an expression","group":"Algebraic Reasoning"},{"id":"9njCscfQlE0","code":"MA.5.AR.3.2","title":"Algebraic Rules","desc":"Given a rule, complete a table and state the rule as an expression","group":"Algebraic Reasoning"},{"id":"eNllqUIbNPE","code":"MA.5.M.2.1","title":"Unit Conversions","desc":"Solve multi-step real-world problems that involve converting measurement units","group":"Measurement"},{"id":"Kki1yh9Z-3Q","code":"MA.5.GR.1.1","title":"Coordinate Plane","desc":"Identify the origin and axes in the coordinate system","group":"Geometric Reasoning"},{"id":"jvEhc0kbqiQ","code":"MA.5.GR.1.2","title":"Plot & Label Points","desc":"Plot and label ordered pairs in the first quadrant of the coordinate plane","group":"Geometric Reasoning"},{"id":"2WI63g-3-1k","code":"MA.5.GR.2.1","title":"Classify Triangles","desc":"Classify triangles or quadrilaterals based on their defining attributes","group":"Geometric Reasoning"},{"id":"eZnhOFN6mnY","code":"MA.5.GR.3.1","title":"Perimeter & Area Formulas","desc":"Explore the relationship between the perimeter and area of a rectangle","group":"Geometric Reasoning"},{"id":"3XfBAoIThRU","code":"MA.5.GR.3.2","title":"Find Perimeter & Area","desc":"Find the perimeter and area of a rectangle with fractional or decimal side lengths","group":"Geometric Reasoning"},{"id":"eNllqUIbNPE","code":"MA.5.DP.1","title":"Interpret Data","desc":"Collect, represent, and interpret data; find mean, median, mode, and range","group":"Data Analysis & Probability"}],
+        '6': [
+            {"id":"5R9qMZYKiqw","code":"MA.6.NSO","title":"Multiply Fractions","desc":"Step-by-step multiplying fractions — Math with Mr. J","group":"Math · Rational Numbers"},
+            {"id":"KCjISw0g78w","code":"MA.6.NSO","title":"Multiply a Fraction by a Fraction","desc":"Math with Mr. J","group":"Math · Rational Numbers"},
+            {"id":"7EWPkw_R-MA","code":"MA.6.NSO","title":"Multiply AND Divide Fractions","desc":"Math with Mr. J","group":"Math · Rational Numbers"},
+            {"id":"zysA0-C4iM4","code":"MA.6.NSO","title":"Divide Fractions","desc":"Math with Mr. J","group":"Math · Rational Numbers"},
+            {"id":"7fp1VvFL1vM","code":"MA.6.NSO","title":"Divide Mixed Numbers","desc":"Math with Mr. J","group":"Math · Rational Numbers"},
+            {"id":"Cg-_TeiaSa8","code":"MA.6.NSO","title":"Add & Subtract Decimals","desc":"Math with Mr. J","group":"Math · Rational Numbers"},
+            {"id":"IuUpcCKTJBk","code":"MA.6.NSO","title":"Multiply & Divide Decimals","desc":"Math with Mr. J","group":"Math · Rational Numbers"},
+            {"id":"O6bRgxVRoZ4","code":"MA.6.NSO","title":"Integers Overview","desc":"Add, subtract, multiply & divide integers — Math with Mr. J","group":"Math · Integers & Rational Numbers"},
+            {"id":"LnfhdtjcpVY","code":"MA.6.NSO","title":"Absolute Value","desc":"What it is, with examples — Math with Mr. J","group":"Math · Integers & Rational Numbers"},
+            {"id":"GJjbq1C0MaA","code":"MA.6.NSO","title":"Add & Subtract Integers","desc":"Math with Mr. J","group":"Math · Integers & Rational Numbers"},
+            {"id":"FeP-EVRW-RA","code":"MA.6.NSO","title":"Multiply & Divide Integers","desc":"Math with Mr. J","group":"Math · Integers & Rational Numbers"},
+            {"id":"NS4vHqJIPiE","code":"MA.6.AR","title":"What Is an Exponent?","desc":"Intro to exponents — Math with Mr. J","group":"Math · Expressions"},
+            {"id":"vBcmH5TmTxM","code":"MA.6.NSO","title":"Greatest Common Factor (GCF)","desc":"Math with Mr. J","group":"Math · Expressions"},
+            {"id":"o_Ubm7OI8t4","code":"MA.6.AR","title":"Write Algebraic Expressions","desc":"Using variables — Math with Mr. J","group":"Math · Expressions"},
+            {"id":"k-KiWkV81fQ","code":"MA.6.AR","title":"Evaluate Algebraic Expressions","desc":"Math with Mr. J","group":"Math · Expressions"},
+            {"id":"1MmhAq-XVN0","code":"MA.6.AR","title":"Simplify Expressions","desc":"Distributive property + combine like terms — Math with Mr. J","group":"Math · Expressions"},
+            {"id":"PtGRqNQ7IAE","code":"MA.6.AR","title":"Solve One-Step Equations","desc":"Math with Mr. J","group":"Math · Equations & Inequalities"},
+            {"id":"yHvQXl-NDqA","code":"MA.6.AR","title":"Graph Inequalities","desc":"On a number line — Math with Mr. J","group":"Math · Equations & Inequalities"},
+            {"id":"f2kvrjB8AXE","code":"MA.6.AR.3","title":"Equivalent Ratios","desc":"Math with Mr. J","group":"Math · Ratios & Rates"},
+            {"id":"jC1K7fM91sE","code":"MA.6.AR.3","title":"Rates & Unit Rates","desc":"Math with Mr. J","group":"Math · Ratios & Rates"},
+            {"id":"9VKbD2oxHpk","code":"MA.6.AR.3","title":"Unit Conversions","desc":"Customary length — Math with Mr. J","group":"Math · Ratios & Rates"},
+            {"id":"2vjbNZaFz3c","code":"MA.6.AR.3","title":"Fractions, Decimals & Percents","desc":"Convert between them — Math with Mr. J","group":"Math · Percent"},
+            {"id":"5CAncQ4TZD4","code":"MA.6.AR.3","title":"Percent of a Number","desc":"Math with Mr. J","group":"Math · Percent"},
+            {"id":"9sMQEajxVwk","code":"MA.6.AR.3","title":"Find the Whole (Percent Equation)","desc":"Math with Mr. J","group":"Math · Percent"},
+            {"id":"qcb-mcREIi0","code":"MA.6.GR","title":"Coordinate Plane Intro","desc":"Plus vocabulary — Math with Mr. J","group":"Math · Geometry"},
+            {"id":"-ZPfB1uDjEw","code":"MA.6.GR","title":"Area of a Triangle","desc":"Math with Mr. J","group":"Math · Geometry"},
+            {"id":"LAXHgQwcrDc","code":"MA.6.GR","title":"Area of Composite Shapes","desc":"Polygons — Math with Mr. J","group":"Math · Geometry"},
+            {"id":"HBSLrN9LWBA","code":"MA.6.GR","title":"What's a Net?","desc":"Math with Mr. J","group":"Math · Geometry"},
+            {"id":"dCD02kuobnY","code":"MA.6.GR","title":"Surface Area of a Rectangular Prism","desc":"Using a net — Math with Mr. J","group":"Math · Geometry"},
+            {"id":"By7sVb2IhFs","code":"MA.6.GR","title":"Volume of Rectangular Prisms","desc":"Math with Mr. J","group":"Math · Geometry"},
+            {"id":"OjzfQDFf7Uk","code":"MA.6.DP","title":"Statistical Questions","desc":"What makes a question statistical — Khan Academy","group":"Math · Statistics & Data"},
+            {"id":"e3uY2LraXts","code":"MA.6.DP","title":"Mean, Median, Mode & Range","desc":"Math with Mr. J","group":"Math · Statistics & Data"},
+            {"id":"SPPSfRopS0c","code":"MA.6.DP","title":"Box Plots (Box & Whisker)","desc":"Find the range from a box plot — Math with Mr. J","group":"Math · Statistics & Data"},
+            {"id":"4swFGRhQoMI","code":"ELA.6.R.2","title":"Main / Central Idea","desc":"Khan Academy","group":"Reading & Writing (ELA)"},
+            {"id":"MAu3e5GZo4k","code":"ELA.6.R.1","title":"Theme","desc":"Khan Academy","group":"Reading & Writing (ELA)"},
+            {"id":"vwhjAYX8DRo","code":"ELA.6.R.2","title":"Author's Purpose","desc":"Innovative Teaching Ideas","group":"Reading & Writing (ELA)"},
+            {"id":"lzKj-bLvrYQ","code":"ELA.6.R.3","title":"Figurative Language","desc":"Khan Academy","group":"Reading & Writing (ELA)"},
+            {"id":"k_vfm81eYD0","code":"ELA.6.V.1","title":"Context Clues","desc":"Khan Academy","group":"Reading & Writing (ELA)"},
+            {"id":"fiaPqgwJFo4","code":"ELA.6.V.1","title":"Greek & Latin Roots / Affixes","desc":"Khan Academy","group":"Reading & Writing (ELA)"},
+            {"id":"GGS3NcmAZnw","code":"ELA.6.R.1","title":"Point of View","desc":"Khan Academy","group":"Reading & Writing (ELA)"},
+            {"id":"as7xe8UQEr4","code":"ELA.6.R.2","title":"Summarizing","desc":"Khan Academy","group":"Reading & Writing (ELA)"},
+            {"id":"NgItXHHyvvQ","code":"ELA.6.C.1","title":"Argument: Claim, Evidence, Reasoning","desc":"Knockout Writing","group":"Reading & Writing (ELA)"},
+            {"id":"iU3x40B0FP8","code":"ELA.6.C.1","title":"Narrative Writing","desc":"Mari Devine","group":"Reading & Writing (ELA)"},
+            {"id":"5FOh_A1FotU","code":"ELA.6.C.1","title":"Expository / Informative Writing","desc":"Denise Ross","group":"Reading & Writing (ELA)"},
+            {"id":"xOLcZMw0hd4","code":"SC.6.N","title":"The Scientific Method","desc":"CrashCourse","group":"Science (Earth / Space)"},
+            {"id":"yzIW4qRgjNo","code":"SC.6.E.6","title":"Earth's Layers & Structure","desc":"Crust, mantle, core — Grade 6","group":"Science (Earth / Space)"},
+            {"id":"7CPv0NSIG2M","code":"SC.6.E.6","title":"Plate Tectonics","desc":"CrashCourse Geography","group":"Science (Earth / Space)"},
+            {"id":"Vp_S3BDiR-I","code":"SC.6.E.6","title":"The Rock Cycle","desc":"Learning Made Fun","group":"Science (Earth / Space)"},
+            {"id":"YbAWny7FV3w","code":"SC.6.E.7","title":"Weather vs. Climate","desc":"Crash Course Kids","group":"Science (Earth / Space)"},
+            {"id":"z5G4NCwWUxY","code":"SC.6.E.7","title":"The Water Cycle","desc":"Crash Course Kids","group":"Science (Earth / Space)"},
+            {"id":"ASQkz4XaphU","code":"SC.6.E.5","title":"Solar System & Planets","desc":"Happy Learning English","group":"Science (Earth / Space)"},
+            {"id":"IqV5L66EP2E","code":"SC.6.P.11","title":"Energy: Potential & Kinetic","desc":"It's AumSum Time","group":"Science (Earth / Space)"},
+            {"id":"Yocja_N5s1I","code":"SS.6.W","title":"Early Humans & the Agricultural Revolution","desc":"Crash Course World History #1","group":"Social Studies (World History)"},
+            {"id":"sohXPx_XZ6Y","code":"SS.6.W","title":"Mesopotamia","desc":"Crash Course World History #3","group":"Social Studies (World History)"},
+            {"id":"Z3Wvw6BivVI","code":"SS.6.W","title":"Ancient Egypt","desc":"Crash Course World History #4","group":"Social Studies (World History)"},
+            {"id":"Q-mkVSasZIM","code":"SS.6.W","title":"Ancient Greece","desc":"Crash Course World History #5","group":"Social Studies (World History)"},
+            {"id":"oPf27gAup9U","code":"SS.6.W","title":"Ancient Rome","desc":"Crash Course World History #10","group":"Social Studies (World History)"},
+            {"id":"n7ndRwqJYDM","code":"SS.6.W","title":"Ancient India (Indus Valley)","desc":"Crash Course World History #2","group":"Social Studies (World History)"},
+            {"id":"ylWORyToTo4","code":"SS.6.W","title":"Ancient China","desc":"Crash Course World History #7","group":"Social Studies (World History)"},
+            {"id":"tuvKtMtEdoE","code":"SS.6.G","title":"Map Skills: Latitude & Longitude","desc":"Miacademy Learning Channel","group":"Social Studies (World History)"}
+        ]
+    };
+
+    (function () {
+        const grade = window.FastGrade ? FastGrade.get() : '6';
+        const gLabel = window.FastGrade ? FastGrade.label() : 'Grade 6';
+        document.title = 'FAST Test Prep — Study Videos (' + gLabel + ')';
+        const t = document.getElementById('page-title');
+        if (t) t.textContent = 'Study Videos — ' + gLabel;
+        if (window.FastGrade) FastGrade.renderSwitcher('grade-switcher');
+
+        const vids = GRADE_VIDEOS[grade] || GRADE_VIDEOS['6'];
+        const groups = [];
+        const byGroup = {};
+        vids.forEach(function (v) {
+            if (!byGroup[v.group]) { byGroup[v.group] = []; groups.push(v.group); }
+            byGroup[v.group].push(v);
+        });
+        const root = document.getElementById('video-root');
+        root.innerHTML = groups.map(function (g) {
+            const cards = byGroup[g].map(function (v) {
+                return '<button class="video-card" data-id="' + v.id + '" data-title="' + v.title.replace(/"/g, '&quot;') + '">' +
+                    '<div class="thumb-wrap">' +
+                    '<img class="video-thumb" src="https://img.youtube.com/vi/' + v.id + '/mqdefault.jpg" alt="' + v.title + '" loading="lazy">' +
+                    '<span class="play-badge">▶</span>' +
+                    '</div>' +
+                    '<div class="video-info">' +
+                    '<span class="standard-tag">' + v.code + '</span>' +
+                    '<h3>' + v.title + '</h3>' +
+                    '<div class="desc">' + v.desc + '</div>' +
+                    '</div></button>';
+            }).join('');
+            return '<h2 class="group-title">' + g + '</h2><div class="video-grid">' + cards + '</div>';
+        }).join('');
+
+        // In-app player
+        const modal = document.getElementById('player-modal');
+        const frame = document.getElementById('player-frame');
+        const ptitle = document.getElementById('player-title');
+        const pyt = document.getElementById('player-yt');
+        function openPlayer(id, title) {
+            ptitle.textContent = title;
+            pyt.href = 'https://www.youtube.com/watch?v=' + id;
+            frame.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0&modestbranding=1" ' +
+                'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            modal.classList.add('open');
         }
-    }
+        function closePlayer() { modal.classList.remove('open'); frame.innerHTML = ''; }
+        root.addEventListener('click', function (e) {
+            const card = e.target.closest('.video-card');
+            if (!card) return;
+            openPlayer(card.getAttribute('data-id'), card.getAttribute('data-title'));
+        });
+        document.getElementById('player-close').addEventListener('click', closePlayer);
+        modal.addEventListener('click', function (e) { if (e.target === modal) closePlayer(); });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closePlayer(); });
+    })();
     </script>
 </body>
 </html>

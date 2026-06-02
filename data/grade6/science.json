@@ -1,0 +1,230 @@
+{
+  "section": "science",
+  "questionCount": 14,
+  "questions": [
+    {
+      "id": "sci-1",
+      "section": "science",
+      "question": "A scientist studies the movement of Earth's plates by collecting earthquake data over many years. Which of the following best explains why other scientists should be able to repeat this kind of investigation?",
+      "choices": {
+        "A": "Repeating an investigation makes the results more exciting.",
+        "B": "Repeating an investigation helps confirm that the results are reliable.",
+        "C": "Repeating an investigation guarantees the results will be different.",
+        "D": "Repeating an investigation removes the need to collect any data."
+      },
+      "correctAnswer": "B",
+      "explanation": "Scientific investigations should be replicable so that other scientists can repeat them and check whether they get the same results. Consistent, repeatable results build confidence that the findings are reliable and not due to chance or error.",
+      "standard": "SC.6.N.1.2",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3286"
+    },
+    {
+      "id": "sci-2",
+      "section": "science",
+      "question": "A student claims that gravity is 'just a theory,' so it might not be true. Which statement best explains why a scientific theory like the theory of plate tectonics is NOT just a guess?",
+      "choices": {
+        "A": "A scientific theory is an idea one person came up with that has not been tested.",
+        "B": "A scientific theory is a wild guess that scientists hope is correct.",
+        "C": "A scientific theory is a well-supported, widely accepted explanation backed by a large body of evidence.",
+        "D": "A scientific theory is the same as a hunch you have in everyday life."
+      },
+      "correctAnswer": "C",
+      "explanation": "In science, a theory is a well-supported and widely accepted explanation of the natural world, backed by large amounts of evidence. This is very different from the everyday use of 'theory,' which can mean a guess or hunch.",
+      "standard": "SC.6.N.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3299"
+    },
+    {
+      "id": "sci-3",
+      "section": "science",
+      "question": "Over thousands of years, a flowing river in Florida slowly carves a deeper channel and carries sand downstream, building up a delta where the river meets the ocean. Which combination of processes is responsible for these changes to Earth's surface?",
+      "choices": {
+        "A": "Only weathering",
+        "B": "Erosion and deposition",
+        "C": "Only condensation",
+        "D": "Radiation and convection"
+      },
+      "correctAnswer": "B",
+      "explanation": "Erosion moves and transports material (the river carrying sand downstream and carving the channel), and deposition lays that material down in a new place (building the delta). Together these processes both tear down and build up Earth's surface.",
+      "standard": "SC.6.E.6.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3262"
+    },
+    {
+      "id": "sci-4",
+      "section": "science",
+      "question": "Florida has many different landforms shaped by water and weather. Which of the following landforms is created where a river deposits sediment as it empties into the ocean?",
+      "choices": {
+        "A": "A glacier",
+        "B": "A mountain",
+        "C": "A delta",
+        "D": "A canyon"
+      },
+      "correctAnswer": "C",
+      "explanation": "A delta forms when a river slows as it enters a larger body of water, such as the ocean, and drops the sediment it was carrying. Glaciers form from compacted snow, mountains form from uplift, and canyons form from erosion cutting downward.",
+      "standard": "SC.6.E.6.2",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3263"
+    },
+    {
+      "id": "sci-5",
+      "section": "science",
+      "question": "On a sunny day at a Florida beach, warm air directly above the hot sand rises while cooler air moves in from over the ocean to take its place. Which method of heat transfer best explains how heat moves through this circulating air?",
+      "choices": {
+        "A": "Conduction",
+        "B": "Convection",
+        "C": "Radiation",
+        "D": "Insulation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Convection is the transfer of heat by the movement of a fluid such as air. Warm air is less dense and rises, while cooler, denser air sinks and moves in to replace it, creating a circulating convection current. (The sand is heated by radiation from the Sun, but the moving air is convection.)",
+      "standard": "SC.6.E.7.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3266"
+    },
+    {
+      "id": "sci-6",
+      "section": "science",
+      "question": "During the water cycle, water moves between Earth's surface and the atmosphere. Which sequence correctly shows the order of processes that returns water vapor from the ocean back to the land as rain?",
+      "choices": {
+        "A": "Condensation, then evaporation, then precipitation",
+        "B": "Evaporation, then condensation, then precipitation",
+        "C": "Precipitation, then evaporation, then condensation",
+        "D": "Evaporation, then precipitation, then condensation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Water first evaporates from the ocean into water vapor, then condenses into cloud droplets as it cools in the atmosphere, and finally falls as precipitation (rain) over land. This cycling of water between the hydrosphere and atmosphere drives weather patterns.",
+      "standard": "SC.6.E.7.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3267"
+    },
+    {
+      "id": "sci-7",
+      "section": "science",
+      "question": "Meteorologists track large-scale patterns to predict local weather. Which of the following is the best example of a global pattern that influences local weather conditions such as temperature and precipitation?",
+      "choices": {
+        "A": "A single thunderstorm over one city",
+        "B": "The jet stream steering storm systems across a region",
+        "C": "A puddle drying up in a parking lot",
+        "D": "A thermometer reading on a back porch"
+      },
+      "correctAnswer": "B",
+      "explanation": "The jet stream is a fast-moving band of air high in the atmosphere that steers weather systems and influences local conditions like temperature, wind, and precipitation over large areas. A single storm, a drying puddle, or one thermometer reading are local, not global patterns.",
+      "standard": "SC.6.E.7.3",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3268"
+    },
+    {
+      "id": "sci-8",
+      "section": "science",
+      "question": "Earth's systems constantly interact with one another. When ocean water (hydrosphere) evaporates, forms clouds, and rains onto a forest where plants absorb the water, which two spheres are interacting in that final step?",
+      "choices": {
+        "A": "Geosphere and cryosphere",
+        "B": "Atmosphere and cryosphere",
+        "C": "Hydrosphere and biosphere",
+        "D": "Cryosphere and geosphere"
+      },
+      "correctAnswer": "C",
+      "explanation": "When rainwater (part of the hydrosphere) is absorbed by living plants (part of the biosphere), the hydrosphere and biosphere are interacting. The cryosphere is frozen water (ice/snow) and the geosphere is the solid rock and soil, neither of which is the focus of this final step.",
+      "standard": "SC.6.E.7.4",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3269"
+    },
+    {
+      "id": "sci-9",
+      "section": "science",
+      "question": "The Sun is the main source of energy that drives Earth's weather and climate. Which statement best explains why the Sun causes wind to form in the atmosphere?",
+      "choices": {
+        "A": "The Sun heats Earth's surface evenly everywhere, so air never moves.",
+        "B": "The Sun heats Earth's surface unevenly, and the resulting temperature differences cause air to move.",
+        "C": "The Sun cools the atmosphere, which causes air to freeze in place.",
+        "D": "The Sun has no effect on the movement of air in the atmosphere."
+      },
+      "correctAnswer": "B",
+      "explanation": "The Sun heats Earth's surface unevenly because of differences such as latitude and surface type (land versus water). These temperature differences cause some air to warm and rise while other air cools and sinks, creating the pressure differences that produce wind and global atmospheric movement.",
+      "standard": "SC.6.E.7.5",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3270"
+    },
+    {
+      "id": "sci-10",
+      "section": "science",
+      "question": "A student says, 'Today it is hot and rainy in Miami,' and then says, 'Miami is hot and rainy in the summer almost every year.' Which statement correctly identifies which is describing climate?",
+      "choices": {
+        "A": "The first statement describes climate because it is about today.",
+        "B": "The second statement describes climate because it describes typical conditions over many years.",
+        "C": "Both statements describe climate because both mention rain.",
+        "D": "Neither statement describes climate because climate cannot be measured."
+      },
+      "correctAnswer": "B",
+      "explanation": "Weather is the condition of the atmosphere at a particular place and time (today's hot, rainy day). Climate is the average pattern of weather in a region over many years (Miami being hot and rainy in summer almost every year). The second statement describes climate.",
+      "standard": "SC.6.E.7.6",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3271"
+    },
+    {
+      "id": "sci-11",
+      "section": "science",
+      "question": "Florida residents must prepare for hazardous weather. Which of the following is the best example of a way human beings protect themselves from a hurricane?",
+      "choices": {
+        "A": "Leaving windows wide open so wind can pass through",
+        "B": "Installing storm shutters and following evacuation orders",
+        "C": "Standing outside to watch the storm arrive",
+        "D": "Turning off the weather forecast to avoid worrying"
+      },
+      "correctAnswer": "B",
+      "explanation": "Installing storm shutters protects windows from flying debris, and following evacuation orders moves people out of dangerous areas. These are responsible ways people protect themselves from hazardous weather like hurricanes. The other choices increase risk instead of reducing it.",
+      "standard": "SC.6.E.7.8",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3273"
+    },
+    {
+      "id": "sci-12",
+      "section": "science",
+      "question": "Earth's atmosphere does more than provide air to breathe. Which of the following best describes how the composition and structure of the atmosphere protects life on Earth?",
+      "choices": {
+        "A": "The ozone layer absorbs much of the Sun's harmful ultraviolet radiation.",
+        "B": "The atmosphere blocks all sunlight from reaching Earth's surface.",
+        "C": "The atmosphere prevents any water from evaporating.",
+        "D": "The atmosphere stops Earth from rotating on its axis."
+      },
+      "correctAnswer": "A",
+      "explanation": "The ozone layer, found in the stratosphere, absorbs most of the Sun's harmful ultraviolet (UV) radiation, protecting living things. The atmosphere also insulates the planet by trapping some heat. It does not block all sunlight, stop evaporation, or affect Earth's rotation.",
+      "standard": "SC.6.E.7.9",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3274"
+    },
+    {
+      "id": "sci-13",
+      "section": "science",
+      "question": "Scientists use models to study objects in the universe that are too large or too far away to observe directly. Which of the following is the best reason a scientist would build a scale model of the solar system?",
+      "choices": {
+        "A": "A model lets scientists represent the planets' sizes and distances in a way that is easier to study.",
+        "B": "A model is exactly the same size as the real solar system.",
+        "C": "A model proves that no other planets exist anywhere.",
+        "D": "A model replaces the need for any observations or evidence."
+      },
+      "correctAnswer": "A",
+      "explanation": "Models help scientists represent things that are too large, too small, or too far away to study directly, such as the solar system. A scale model shows the relative sizes and distances of planets in a way people can study and understand. Models are not the same size as the real thing and do not replace observation.",
+      "standard": "SC.6.N.3.4",
+      "difficulty": "easy",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3302"
+    },
+    {
+      "id": "sci-14",
+      "section": "science",
+      "question": "A roller coaster car sits at the top of the highest hill before the ride begins. As the car races down the hill, which energy change is taking place?",
+      "choices": {
+        "A": "Kinetic energy is changing into potential energy.",
+        "B": "Potential energy is changing into kinetic energy.",
+        "C": "Energy is being destroyed as the car moves.",
+        "D": "No energy change occurs as the car moves."
+      },
+      "correctAnswer": "B",
+      "explanation": "At the top of the hill, the car has stored (potential) energy because of its height. As it races downhill, that stored potential energy is transformed into kinetic energy, the energy of motion. By the Law of Conservation of Energy, energy is transformed but not created or destroyed.",
+      "standard": "SC.6.P.11.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://www.cpalms.org/PreviewStandard/Preview/3329"
+    }
+  ]
+}

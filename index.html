@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAST Test Prep — 5th Grade</title>
+    <title>FAST Test Prep</title>
     <style>
         :root {
             --primary: #4CAF50;
@@ -30,11 +30,13 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 1rem;
             margin-bottom: 2rem;
             padding: 1rem;
             background: var(--white);
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            flex-wrap: wrap;
         }
         .header-left h1 {
             font-size: 1.8rem;
@@ -48,6 +50,12 @@
         .header-right {
             display: flex;
             gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .grade-switcher {
+            display: flex;
+            align-items: center;
         }
         .header-right a {
             color: var(--secondary);
@@ -151,15 +159,17 @@
 <body>
     <header>
         <div class="header-left">
-            <h1>FAST Test Prep — 5th Grade</h1>
+            <h1 id="app-title">FAST Test Prep</h1>
             <p>Hi! Ready to practice for the FAST?</p>
         </div>
         <div class="header-right">
+            <div class="grade-switcher" id="grade-switcher"></div>
             <a href="settings.html">Settings</a>
             <a href="#" id="auth-link" class="sign-in">Sign In</a>
         </div>
     </header>
 
+    <script src="js/grade.js"></script>
     <script>
     (function() {
         // Auth gate — must be logged in to use the app
@@ -168,6 +178,12 @@
             window.location.href = 'login.html';
             return;
         }
+        // Grade label + switcher
+        document.title = `FAST Test Prep — ${FastGrade.label()}`;
+        const title = document.getElementById('app-title');
+        if (title) title.textContent = `FAST Test Prep — ${FastGrade.label()}`;
+        FastGrade.renderSwitcher('grade-switcher');
+
         // Show username + logout
         const greeting = document.querySelector('.header-left p');
         if (greeting) greeting.textContent = `Hi ${currentUser}! Ready to practice for the FAST?`;
@@ -188,18 +204,18 @@
         <!-- Reading -->
         <div class="section-card">
             <h2>Reading</h2>
-            <div class="count">16 questions</div>
+            <div class="count" data-count-section="reading">… questions</div>
             <button class="start-btn" onclick="location.href='quiz.html?section=reading'">Start Practice</button>
         </div>
 
         <!-- Grammar -->
         <div class="section-card">
             <h2>Grammar</h2>
-            <div class="count">22 questions</div>
+            <div class="count" data-count-section="grammar">… questions</div>
             <button class="start-btn" onclick="location.href='quiz.html?section=grammar'">Start Practice</button>
             <div class="grammar-sub">
                 <h3>Figurative Language</h3>
-                <div class="count">10 questions</div>
+                <div class="count" data-count-section="figurative">… questions</div>
                 <button class="start-btn" onclick="location.href='quiz.html?section=figurative'">Start Practice</button>
             </div>
         </div>
@@ -207,14 +223,14 @@
         <!-- Science -->
         <div class="section-card">
             <h2>Science</h2>
-            <div class="count">10 questions</div>
+            <div class="count" data-count-section="science">… questions</div>
             <button class="start-btn" onclick="location.href='quiz.html?section=science'">Start Practice</button>
         </div>
 
         <!-- Math — New FAST -->
         <div class="section-card">
             <h2>Math — Official FAST Test</h2>
-            <div class="count">10 questions (B.E.S.T. standards)</div>
+            <div class="count"><span data-count-section="math">…</span> questions (B.E.S.T. standards)</div>
             <button class="start-btn" onclick="location.href='quiz.html?section=math'">Start Practice</button>
             <div style="font-size:0.85rem;color:var(--light-text);margin-top:0.5rem;">Current state practice test</div>
         </div>
@@ -222,34 +238,56 @@
         <!-- Math — Classic -->
         <div class="section-card">
             <h2>Math — Classic Practice</h2>
-            <div class="count">19 questions (FLDOE)</div>
+            <div class="count"><span data-count-section="math-classic">…</span> questions</div>
             <button class="start-btn" style="background:var(--secondary);" onclick="location.href='quiz.html?section=math-classic'">Start Practice</button>
-            <div style="font-size:0.85rem;color:var(--light-text);margin-top:0.5rem;">Previous state test format</div>
+            <div style="font-size:0.85rem;color:var(--light-text);margin-top:0.5rem;">Extra practice set</div>
         </div>
 
         <!-- Full FAST Practice -->
         <div class="section-card">
             <h2>Full FAST Practice Test</h2>
-            <div class="count">72 questions — ALL 36 standards</div>
+            <div class="count"><span data-count-section="math-ai-bank">…</span> questions — full bank</div>
             <button class="start-btn" style="background:#F44336;" onclick="location.href='quiz.html?section=math-ai-bank'">Start Full Test</button>
-            <div style="font-size:0.85rem;color:var(--light-text);margin-top:0.5rem;">Covers every topic on the real FAST</div>
+            <div style="font-size:0.85rem;color:var(--light-text);margin-top:0.5rem;">Covers every benchmark on the real FAST</div>
         </div>
 
         <!-- AI Practice -->
         <div class="section-card">
             <h2>AI Practice</h2>
-            <div class="count">Look-Alike Questions</div>
+            <div class="count">Unlimited Questions</div>
             <button class="start-btn" onclick="location.href='ai-practice.html'">Start Practice</button>
             <div style="font-size: 0.9rem; color: var(--light-text); margin-top: 0.5rem;">
-                AI generates new questions in FAST style
+                Bonus: AI generates fresh questions in FAST style
             </div>
         </div>
     </div>
 
     <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem;">
-        <button class="weak-areas" style="margin:0;">My Weak Areas</button>
+        <button class="weak-areas" style="margin:0;" onclick="location.href='skills.html'">My Weak Areas</button>
         <button class="weak-areas" style="margin:0;background:#2196F3;" onclick="location.href='skills.html'">Math Skills Practice</button>
         <button class="weak-areas" style="margin:0;background:#F44336;" onclick="location.href='videos.html'">Study Videos</button>
     </div>
+
+    <script>
+    // Fill question counts dynamically for the selected grade.
+    (function () {
+        const nodes = document.querySelectorAll('[data-count-section]');
+        nodes.forEach(function (node) {
+            const section = node.getAttribute('data-count-section');
+            const onlyNumber = node.tagName === 'SPAN';
+            fetch(FastGrade.dataPath(section))
+                .then(function (r) { return r.ok ? r.json() : null; })
+                .then(function (data) {
+                    if (!data) { node.textContent = onlyNumber ? '0' : 'Coming soon'; return; }
+                    let n = data.questionCount;
+                    if (typeof n !== 'number') {
+                        n = Array.isArray(data.questions) ? data.questions.length : 0;
+                    }
+                    node.textContent = onlyNumber ? String(n) : (n + ' questions');
+                })
+                .catch(function () { node.textContent = onlyNumber ? '0' : 'Coming soon'; });
+        });
+    })();
+    </script>
 </body>
 </html>

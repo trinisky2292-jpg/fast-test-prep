@@ -1,0 +1,166 @@
+{
+  "section": "figurative",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "fig-1",
+      "section": "figurative",
+      "question": "Read this line: \"The abandoned house wore a coat of ivy and stared back with empty windows.\" Which type of figurative language is used, and what does it suggest about the house?",
+      "choices": {
+        "A": "Simile; it suggests the house is warm and welcoming.",
+        "B": "Personification; it gives the house human qualities to make it seem eerie and alive.",
+        "C": "Hyperbole; it exaggerates how large the house is.",
+        "D": "Idiom; it is a common saying about old houses."
+      },
+      "correctAnswer": "B",
+      "explanation": "Giving the house human actions—'wore a coat' and 'stared back'—is personification. These human qualities create an eerie, almost living tone, suggesting the house is unsettling rather than welcoming.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-2",
+      "section": "figurative",
+      "question": "Read this line: \"Her voice was a warm blanket on a cold night.\" What does this metaphor suggest about her voice, and how does it affect the tone?",
+      "choices": {
+        "A": "It suggests her voice was loud and harsh, creating an angry tone.",
+        "B": "It suggests her voice was comforting and soothing, creating a gentle tone.",
+        "C": "It suggests her voice was cold and distant, creating a lonely tone.",
+        "D": "It suggests her voice was confusing, creating a tense tone."
+      },
+      "correctAnswer": "B",
+      "explanation": "The metaphor compares her voice to a 'warm blanket on a cold night,' something that brings comfort. This suggests her voice was soothing and reassuring, giving the passage a gentle, comforting tone.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-3",
+      "section": "figurative",
+      "question": "Read this line: \"I've told you a million times to close the door.\" What kind of figurative language is this, and what is its effect?",
+      "choices": {
+        "A": "Simile; it compares the speaker to a number.",
+        "B": "Personification; it gives the door human feelings.",
+        "C": "Hyperbole; it exaggerates to emphasize the speaker's frustration.",
+        "D": "Allusion; it refers to a famous person."
+      },
+      "correctAnswer": "C",
+      "explanation": "Saying 'a million times' is an obvious exaggeration—hyperbole. The speaker has not literally said it a million times; the exaggeration stresses how frustrated the speaker feels.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "easy",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-4",
+      "section": "figurative",
+      "question": "Read this sentence: \"When the coach asked who broke the trophy, the room suddenly grew as silent as a tomb.\" What does this simile contribute to the meaning?",
+      "choices": {
+        "A": "It shows the players were laughing loudly.",
+        "B": "It emphasizes a heavy, uncomfortable silence full of dread.",
+        "C": "It explains that the room was actually a tomb.",
+        "D": "It suggests the trophy was very old."
+      },
+      "correctAnswer": "B",
+      "explanation": "The simile compares the silence to a 'tomb,' a place associated with death and stillness. This comparison emphasizes how complete and uncomfortable the silence was, adding a tense, dread-filled tone.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-5",
+      "section": "figurative",
+      "question": "Read this idiom in context: \"After failing the quiz, Marcus knew he had to bite the bullet and ask his teacher for help.\" What does \"bite the bullet\" mean here?",
+      "choices": {
+        "A": "to chew on something hard",
+        "B": "to do something difficult or unpleasant that one has been avoiding",
+        "C": "to become very angry",
+        "D": "to give up completely"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Bite the bullet' is an idiom meaning to face and do something difficult or unpleasant that one would rather avoid. In context, Marcus must force himself to ask for help even though it is uncomfortable.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-6",
+      "section": "figurative",
+      "question": "Read this line: \"The thunder grumbled and growled across the darkening sky.\" Which two types of figurative or sound devices are used?",
+      "choices": {
+        "A": "Hyperbole and allusion",
+        "B": "Simile and idiom",
+        "C": "Personification and alliteration",
+        "D": "Metaphor and onomatopoeia only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giving thunder the human actions 'grumbled and growled' is personification. The repeated 'g' sound in 'grumbled,' 'growled,' and 'darkening' creates alliteration. Together they make the storm feel menacing.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-7",
+      "section": "figurative",
+      "question": "Read this sentence: \"Don't worry, he has the patience of Job when it comes to teaching beginners.\" This phrase is an allusion. What does it suggest?",
+      "choices": {
+        "A": "The teacher is impatient and easily annoyed.",
+        "B": "The teacher has an extraordinary amount of patience.",
+        "C": "The teacher works at a job he dislikes.",
+        "D": "The teacher is in a hurry to finish."
+      },
+      "correctAnswer": "B",
+      "explanation": "An allusion refers to a well-known person, story, or event. 'The patience of Job' alludes to a famous figure known for enduring great hardship patiently, so the phrase means the teacher is extremely patient.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-8",
+      "section": "figurative",
+      "question": "Read these lines from a poem: \"The frost-tipped grass crunched beneath our boots, / and our breath bloomed in pale white clouds.\" Which sense does this imagery most appeal to in the second line?",
+      "choices": {
+        "A": "taste",
+        "B": "sight",
+        "C": "smell",
+        "D": "hearing"
+      },
+      "correctAnswer": "B",
+      "explanation": "Imagery uses sensory language to create pictures in the reader's mind. 'Breath bloomed in pale white clouds' describes how the breath looks, appealing mainly to the sense of sight.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-9",
+      "section": "figurative",
+      "question": "Read this line: \"Time is a thief that steals our quiet afternoons.\" What is the meaning and effect of this metaphor?",
+      "choices": {
+        "A": "It warns readers about real burglars in the neighborhood.",
+        "B": "It compares time to a thief to suggest that time takes away moments before we notice, creating a reflective, slightly sorrowful tone.",
+        "C": "It states that afternoons are dangerous.",
+        "D": "It exaggerates how slowly time passes."
+      },
+      "correctAnswer": "B",
+      "explanation": "The metaphor calls time a 'thief' that 'steals' afternoons, suggesting that time quietly takes away precious moments. This comparison creates a thoughtful, slightly sad tone about how quickly time passes.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "hard",
+      "sourceUrl": null
+    },
+    {
+      "id": "fig-10",
+      "section": "figurative",
+      "question": "Read this sentence: \"The old engine coughed, wheezed, and finally surrendered halfway up the hill.\" How does the personification affect the meaning?",
+      "choices": {
+        "A": "It makes the engine seem brand new and powerful.",
+        "B": "It makes the engine seem tired and worn out, like a sick or exhausted person giving up.",
+        "C": "It explains exactly how engines are built.",
+        "D": "It compares the engine to a hill using 'like.'"
+      },
+      "correctAnswer": "B",
+      "explanation": "The human actions 'coughed,' 'wheezed,' and 'surrendered' are personification. They make the engine seem sick and exhausted, helping the reader picture a worn-out machine that finally gives up, which sets a tone of struggle and failure.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": null
+    }
+  ]
+}

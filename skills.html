@@ -29,6 +29,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
             margin-bottom: 1.5rem;
             padding: 1rem;
             background: var(--white);
@@ -36,11 +38,8 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         header h1 { font-size: 1.5rem; color: var(--primary); }
-        header a {
-            color: var(--secondary);
-            text-decoration: none;
-            font-weight: 500;
-        }
+        .header-right { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+        header a { color: var(--secondary); text-decoration: none; font-weight: 500; }
         .intro {
             background: var(--white);
             border-radius: 12px;
@@ -49,10 +48,7 @@
             margin-bottom: 1.5rem;
             text-align: center;
         }
-        .intro p {
-            font-size: 1.05rem;
-            color: var(--light-text);
-        }
+        .intro p { font-size: 1.05rem; color: var(--light-text); }
         .topic-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -76,26 +72,10 @@
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(0,0,0,0.12);
         }
-        .topic-icon {
-            font-size: 2.5rem;
-            margin-bottom: 0.75rem;
-        }
-        .topic-card h3 {
-            font-size: 1.15rem;
-            margin-bottom: 0.5rem;
-            color: var(--text);
-        }
-        .topic-card p {
-            font-size: 0.85rem;
-            color: var(--light-text);
-            line-height: 1.4;
-        }
-        .topic-card .standard-codes {
-            margin-top: 0.75rem;
-            font-size: 0.75rem;
-            color: var(--secondary);
-            font-weight: 600;
-        }
+        .topic-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+        .topic-card h3 { font-size: 1.15rem; margin-bottom: 0.5rem; color: var(--text); }
+        .topic-card p { font-size: 0.85rem; color: var(--light-text); line-height: 1.4; }
+        .topic-card .standard-codes { margin-top: 0.75rem; font-size: 0.75rem; color: var(--secondary); font-weight: 600; }
         .topic-card .start-label {
             display: inline-block;
             margin-top: 0.75rem;
@@ -114,16 +94,8 @@
             margin-bottom: 1.5rem;
             text-align: center;
         }
-        .weak-banner h3 {
-            color: #e65100;
-            margin-bottom: 0.5rem;
-        }
-        .weak-tags {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 0.5rem;
-        }
+        .weak-banner h3 { color: #e65100; margin-bottom: 0.5rem; }
+        .weak-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
         .weak-tag {
             background: var(--incorrect);
             color: var(--white);
@@ -139,12 +111,16 @@
             header { flex-direction: column; gap: 0.5rem; }
         }
     </style>
+    <script src="js/grade.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Math Skills Practice</h1>
-            <a href="index.html">&larr; Home</a>
+            <h1 id="page-title">Math Skills Practice</h1>
+            <div class="header-right">
+                <div class="grade-switcher" id="grade-switcher"></div>
+                <a href="index.html">&larr; Home</a>
+            </div>
         </header>
 
         <div class="intro">
@@ -156,102 +132,85 @@
             <div class="weak-tags" id="weak-tags"></div>
         </div>
 
-        <div class="topic-grid">
-            <a class="topic-card" href="ai-practice.html?section=math&topic=number-sense">
-                <div class="topic-icon">🔢</div>
-                <h3>Number Sense & Operations</h3>
-                <p>Place value, decimals, multi-digit multiplication & division</p>
-                <div class="standard-codes">MA.5.NSO</div>
-                <span class="start-label">Practice</span>
-            </a>
-
-            <a class="topic-card" href="ai-practice.html?section=math&topic=fractions">
-                <div class="topic-icon">🍕</div>
-                <h3>Fractions</h3>
-                <p>Add, subtract & multiply fractions and mixed numbers</p>
-                <div class="standard-codes">MA.5.FR</div>
-                <span class="start-label">Practice</span>
-            </a>
-
-            <a class="topic-card" href="ai-practice.html?section=math&topic=algebraic-reasoning">
-                <div class="topic-icon">⚖️</div>
-                <h3>Algebraic Reasoning</h3>
-                <p>Expressions, equations, order of operations, patterns</p>
-                <div class="standard-codes">MA.5.AR</div>
-                <span class="start-label">Practice</span>
-            </a>
-
-            <a class="topic-card" href="ai-practice.html?section=math&topic=measurement">
-                <div class="topic-icon">📏</div>
-                <h3>Measurement</h3>
-                <p>Unit conversions, time, money, customary & metric units</p>
-                <div class="standard-codes">MA.5.M</div>
-                <span class="start-label">Practice</span>
-            </a>
-
-            <a class="topic-card" href="ai-practice.html?section=math&topic=geometry">
-                <div class="topic-icon">📐</div>
-                <h3>Geometric Reasoning</h3>
-                <p>Coordinates, 3D figures, volume, surface area, classify shapes</p>
-                <div class="standard-codes">MA.5.GR</div>
-                <span class="start-label">Practice</span>
-            </a>
-
-            <a class="topic-card" href="ai-practice.html?section=math&topic=data-probability">
-                <div class="topic-icon">📊</div>
-                <h3>Data Analysis & Probability</h3>
-                <p>Tables, graphs, line plots, interpreting data, mean & range</p>
-                <div class="standard-codes">MA.5.DP</div>
-                <span class="start-label">Practice</span>
-            </a>
-        </div>
+        <div class="topic-grid" id="topic-grid"></div>
     </div>
 
     <script>
     (function() {
-        const topicNames = {
-            'MA.5.NSO': 'Number Sense',
-            'MA.5.AR': 'Algebraic Reasoning',
-            'MA.5.FR': 'Fractions',
-            'MA.5.M': 'Measurement',
-            'MA.5.GR': 'Geometry',
-            'MA.5.DP': 'Data & Probability',
-            'MA.5.A': 'Algebra',
-            'MA.5.G': 'Geometry',
-            'MA.5.S': 'Statistics'
-        };
+        const grade = window.FastGrade ? FastGrade.get() : '6';
+        const gLabel = window.FastGrade ? FastGrade.label() : 'Grade 6';
+        document.title = 'FAST Test Prep — Math Skills (' + gLabel + ')';
+        const pt = document.getElementById('page-title');
+        if (pt) pt.textContent = 'Math Skills Practice — ' + gLabel;
+        if (window.FastGrade) FastGrade.renderSwitcher('grade-switcher');
 
+        const topicsByGrade = {
+            '5': [
+                { slug:'number-sense', icon:'🔢', name:'Number Sense & Operations', desc:'Place value, decimals, multi-digit multiplication & division', codes:'MA.5.NSO' },
+                { slug:'fractions', icon:'🍕', name:'Fractions', desc:'Add, subtract & multiply fractions and mixed numbers', codes:'MA.5.FR' },
+                { slug:'algebraic-reasoning', icon:'⚖️', name:'Algebraic Reasoning', desc:'Expressions, equations, order of operations, patterns', codes:'MA.5.AR' },
+                { slug:'measurement', icon:'📏', name:'Measurement', desc:'Unit conversions, time, money, customary & metric units', codes:'MA.5.M' },
+                { slug:'geometry', icon:'📐', name:'Geometric Reasoning', desc:'Coordinates, 3D figures, volume, surface area, classify shapes', codes:'MA.5.GR' },
+                { slug:'data-probability', icon:'📊', name:'Data Analysis & Probability', desc:'Tables, graphs, line plots, interpreting data, mean & range', codes:'MA.5.DP' }
+            ],
+            '6': [
+                { slug:'number-sense', icon:'🔢', name:'Number Sense & Operations', desc:'Integers, absolute value, rational numbers, GCF/LCM, dividing fractions, exponents', codes:'MA.6.NSO' },
+                { slug:'ratios-rates', icon:'⚖️', name:'Ratios, Rates & Percent', desc:'Ratios, unit rates, equivalent ratios, and percent problems', codes:'MA.6.AR' },
+                { slug:'expressions-equations', icon:'🧮', name:'Expressions & Equations', desc:'Algebraic expressions, one-variable equations & inequalities', codes:'MA.6.AR' },
+                { slug:'geometry', icon:'📐', name:'Geometric Reasoning', desc:'Area, polygons on the coordinate plane, surface area & volume with nets', codes:'MA.6.GR' },
+                { slug:'statistics', icon:'📊', name:'Data & Statistics', desc:'Statistical questions, mean/median, IQR/MAD, dot plots, histograms, box plots', codes:'MA.6.DP' }
+            ]
+        };
+        const topics = topicsByGrade[grade] || topicsByGrade['6'];
+        document.getElementById('topic-grid').innerHTML = topics.map(function(t){
+            return '<a class="topic-card" href="ai-practice.html?section=math&topic=' + t.slug + '">' +
+                '<div class="topic-icon">' + t.icon + '</div>' +
+                '<h3>' + t.name + '</h3>' +
+                '<p>' + t.desc + '</p>' +
+                '<div class="standard-codes">' + t.codes + '</div>' +
+                '<span class="start-label">Practice</span>' +
+                '</a>';
+        }).join('');
+
+        // Weak areas — map a standard code to a topic slug for the current grade.
         function getTopicSlug(code) {
+            if (grade === '6') {
+                if (code.startsWith('MA.6.NSO')) return 'number-sense';
+                if (code.startsWith('MA.6.AR.3')) return 'ratios-rates';
+                if (code.startsWith('MA.6.AR')) return 'expressions-equations';
+                if (code.startsWith('MA.6.GR')) return 'geometry';
+                if (code.startsWith('MA.6.DP')) return 'statistics';
+                return '';
+            }
             if (code.startsWith('MA.5.NSO')) return 'number-sense';
             if (code.startsWith('MA.5.AR')) return 'algebraic-reasoning';
             if (code.startsWith('MA.5.FR')) return 'fractions';
             if (code.startsWith('MA.5.M')) return 'measurement';
             if (code.startsWith('MA.5.GR') || code.startsWith('MA.5.G')) return 'geometry';
             if (code.startsWith('MA.5.DP') || code.startsWith('MA.5.S')) return 'data-probability';
-            if (code.startsWith('MA.5.A')) return 'algebraic-reasoning';
             return '';
         }
+        const nameBySlug = {};
+        topics.forEach(function(t){ nameBySlug[t.slug] = t.name; });
 
         try {
             const wa = JSON.parse(localStorage.getItem('fast-weak-areas') || '{}');
             const weakTopics = [];
-            Object.entries(wa).forEach(([std, data]) => {
-                if (data.wrongCount > 0 && std.startsWith('MA.')) {
+            Object.entries(wa).forEach(function(entry) {
+                const std = entry[0], data = entry[1];
+                if (data.wrongCount > 0 && std.startsWith('MA.' + grade + '.')) {
                     const slug = getTopicSlug(std);
-                    const name = Object.entries(topicNames).find(([p]) => std.startsWith(p));
-                    if (slug && name && !weakTopics.find(t => t.slug === slug)) {
-                        weakTopics.push({ slug, name: name[1], pct: Math.round((data.wrongCount / data.totalCount) * 100) });
+                    if (slug && nameBySlug[slug] && !weakTopics.find(function(t){ return t.slug === slug; })) {
+                        weakTopics.push({ slug: slug, name: nameBySlug[slug], pct: Math.round((data.wrongCount / data.totalCount) * 100) });
                     }
                 }
             });
             if (weakTopics.length > 0) {
-                weakTopics.sort((a, b) => b.pct - a.pct);
-                const banner = document.getElementById('weak-banner');
-                const tags = document.getElementById('weak-tags');
-                banner.style.display = 'block';
-                tags.innerHTML = weakTopics.map(t =>
-                    `<a class="weak-tag" href="ai-practice.html?section=math&topic=${t.slug}">${t.name} (${t.pct}% missed)</a>`
-                ).join('');
+                weakTopics.sort(function(a, b){ return b.pct - a.pct; });
+                document.getElementById('weak-banner').style.display = 'block';
+                document.getElementById('weak-tags').innerHTML = weakTopics.map(function(t){
+                    return '<a class="weak-tag" href="ai-practice.html?section=math&topic=' + t.slug + '">' + t.name + ' (' + t.pct + '% missed)</a>';
+                }).join('');
             }
         } catch (e) { console.warn('weak areas load failed:', e); }
     })();

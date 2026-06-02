@@ -1,0 +1,327 @@
+{
+  "section": "math",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "math-c1",
+      "section": "math",
+      "questionType": "gridded-response",
+      "question": "A baker uses 3/4 cup of sugar for one batch of cookies. How many full batches can the baker make with 9 cups of sugar?",
+      "choices": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "27"
+      },
+      "correctAnswer": "C",
+      "explanation": "9 divided by 3/4 means 9 x 4/3 = 36/3 = 12 batches. Verify: 12 batches x 3/4 cup = 36/4 = 9 cups exactly.",
+      "standard": "MA.6.NSO.2.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c2",
+      "section": "math",
+      "question": "What is the value of the expression 4.25 x 3.6?",
+      "choices": {
+        "A": "15.3",
+        "B": "12.6",
+        "C": "153",
+        "D": "1.53"
+      },
+      "correctAnswer": "A",
+      "explanation": "425 x 36 = 15,300. Total decimal places: 2 (in 4.25) + 1 (in 3.6) = 3, giving 15.300 = 15.3. Verify with estimate: about 4 x 4 = 16, so 15.3 is reasonable.",
+      "standard": "MA.6.NSO.2.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c3",
+      "section": "math",
+      "question": "What is the absolute value of -7.5?",
+      "choices": {
+        "A": "-7.5",
+        "B": "7.5",
+        "C": "0",
+        "D": "-1"
+      },
+      "correctAnswer": "B",
+      "explanation": "Absolute value is the distance from zero on a number line, always non-negative. The distance from -7.5 to 0 is 7.5, so |-7.5| = 7.5.",
+      "standard": "MA.6.NSO.1.3",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c4",
+      "section": "math",
+      "question": "A diver is at -45 feet relative to sea level and a fish is at -30 feet. Which statement is true?",
+      "choices": {
+        "A": "The diver is closer to the surface than the fish.",
+        "B": "The fish is closer to the surface than the diver.",
+        "C": "The diver and fish are at the same depth.",
+        "D": "The fish is deeper than the diver."
+      },
+      "correctAnswer": "B",
+      "explanation": "Sea level is 0. -30 is greater than -45 (closer to zero), so the fish at -30 ft is higher/closer to the surface. Verify with absolute value: |-45| = 45 ft deep vs |-30| = 30 ft deep; the fish is less deep.",
+      "standard": "MA.6.NSO.1.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c5",
+      "section": "math",
+      "question": "What is the value of 2 to the 4th power (2^4)?",
+      "choices": {
+        "A": "8",
+        "B": "16",
+        "C": "6",
+        "D": "32"
+      },
+      "correctAnswer": "B",
+      "explanation": "2^4 = 2 x 2 x 2 x 2. Step by step: 2 x 2 = 4, 4 x 2 = 8, 8 x 2 = 16. Verify: 2^4 is 16, not 2 x 4 = 8 (a common error).",
+      "standard": "MA.6.NSO.3.3",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c6",
+      "section": "math",
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "72"
+      },
+      "correctAnswer": "C",
+      "explanation": "Factors of 24: 1,2,3,4,6,8,12,24. Factors of 36: 1,2,3,4,6,9,12,18,36. The greatest factor common to both is 12. Verify with primes: 24 = 2^3 x 3, 36 = 2^2 x 3^2; GCF = 2^2 x 3 = 12.",
+      "standard": "MA.6.NSO.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c7",
+      "section": "math",
+      "question": "What is the product of -6 and -4?",
+      "choices": {
+        "A": "-24",
+        "B": "24",
+        "C": "-10",
+        "D": "10"
+      },
+      "correctAnswer": "B",
+      "explanation": "A negative times a negative is positive. -6 x -4 = 24. Verify: the signs are the same (both negative), so the product is positive 24.",
+      "standard": "MA.6.NSO.4.2",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c8",
+      "section": "math",
+      "question": "Which fraction is equivalent to 0.625?",
+      "choices": {
+        "A": "5/8",
+        "B": "3/5",
+        "C": "5/6",
+        "D": "2/3"
+      },
+      "correctAnswer": "A",
+      "explanation": "0.625 = 625/1000. Simplify by dividing both by 125: 5/8. Verify the reverse: 5 / 8 = 0.625.",
+      "standard": "MA.6.NSO.3.5",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c9",
+      "section": "math",
+      "question": "A car travels 150 miles in 3 hours at a constant speed. What is the unit rate in miles per hour?",
+      "choices": {
+        "A": "45 miles per hour",
+        "B": "50 miles per hour",
+        "C": "60 miles per hour",
+        "D": "153 miles per hour"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unit rate = 150 miles / 3 hours = 50 miles per hour. Verify: 50 x 3 = 150 miles.",
+      "standard": "MA.6.AR.3.2",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c10",
+      "section": "math",
+      "question": "A recipe uses 3 cups of flour for every 2 cups of sugar. If a baker uses 12 cups of flour, how many cups of sugar are needed to keep the same ratio?",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "18"
+      },
+      "correctAnswer": "B",
+      "explanation": "Flour:sugar = 3:2. Scale 3 cups flour to 12 cups by multiplying by 4. Apply to sugar: 2 x 4 = 8 cups. Verify: 12:8 simplifies to 3:2.",
+      "standard": "MA.6.AR.3.3",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c11",
+      "section": "math",
+      "question": "A test has 40 questions. A student answered 34 correctly. What percent of the questions did the student answer correctly?",
+      "choices": {
+        "A": "80%",
+        "B": "85%",
+        "C": "75%",
+        "D": "90%"
+      },
+      "correctAnswer": "B",
+      "explanation": "Use part/whole = percent/100. 34/40 = x/100, so x = 34 x 100 / 40 = 3400/40 = 85. The student got 85%. Verify: 85% of 40 = 0.85 x 40 = 34.",
+      "standard": "MA.6.AR.3.4",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c12",
+      "section": "math",
+      "question": "Which algebraic expression represents the phrase 'eight less than three times a number n'?",
+      "choices": {
+        "A": "8 - 3n",
+        "B": "3n - 8",
+        "C": "3(n - 8)",
+        "D": "8n - 3"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Three times a number' is 3n. 'Eight less than' that means subtract 8 from 3n: 3n - 8. Verify: 'less than' reverses order, so it is 3n - 8, not 8 - 3n.",
+      "standard": "MA.6.AR.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c13",
+      "section": "math",
+      "question": "Solve the equation 7x = 91 for x.",
+      "choices": {
+        "A": "13",
+        "B": "12",
+        "C": "98",
+        "D": "84"
+      },
+      "correctAnswer": "A",
+      "explanation": "Divide both sides by 7: x = 91 / 7 = 13. Verify: 7 x 13 = 91.",
+      "standard": "MA.6.AR.2.3",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c14",
+      "section": "math",
+      "question": "A student must score at least 90 points to earn an A. Which inequality represents the scores s that earn an A?",
+      "choices": {
+        "A": "s > 90",
+        "B": "s < 90",
+        "C": "s >= 90",
+        "D": "s <= 90"
+      },
+      "correctAnswer": "C",
+      "explanation": "'At least 90' means 90 or more, which is s >= 90. Verify: a score of exactly 90 earns an A, so the symbol must include equality.",
+      "standard": "MA.6.AR.1.2",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c15",
+      "section": "math",
+      "question": "Points P(2, 3) and Q(2, -4) are plotted on the coordinate plane. What is the distance between point P and point Q?",
+      "choices": {
+        "A": "1 unit",
+        "B": "5 units",
+        "C": "7 units",
+        "D": "11 units"
+      },
+      "correctAnswer": "C",
+      "explanation": "Both points share x = 2, so they lie on a vertical line. Distance = difference of y-coordinates using absolute value: |3 - (-4)| = |7| = 7 units. Verify: from y = 3 down to y = 0 is 3 units, from 0 to -4 is 4 units, total 7.",
+      "standard": "MA.6.GR.1.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c16",
+      "section": "math",
+      "question": "A composite figure is made of a rectangle measuring 8 cm by 5 cm with a right triangle attached on top. The triangle has a base of 8 cm and a height of 3 cm. What is the total area of the figure?",
+      "choices": {
+        "A": "40 square cm",
+        "B": "52 square cm",
+        "C": "55 square cm",
+        "D": "64 square cm"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rectangle area = 8 x 5 = 40 sq cm. Triangle area = (1/2) x 8 x 3 = 12 sq cm. Total = 40 + 12 = 52 sq cm. Verify: decompose the composite into a rectangle (40) plus a triangle (12) = 52.",
+      "standard": "MA.6.GR.2.2",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c17",
+      "section": "math",
+      "question": "A right rectangular prism has dimensions 6 cm by 4 cm by 2 cm. Using its net, what is the total surface area?",
+      "choices": {
+        "A": "48 square cm",
+        "B": "88 square cm",
+        "C": "44 square cm",
+        "D": "96 square cm"
+      },
+      "correctAnswer": "B",
+      "explanation": "Surface area = 2(lw + lh + wh) = 2(6x4 + 6x2 + 4x2) = 2(24 + 12 + 8) = 2(44) = 88 sq cm. Verify by net faces: two 6x4=24, two 6x2=12, two 4x2=8; total 48+24+16 = 88.",
+      "standard": "MA.6.GR.2.4",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c18",
+      "section": "math",
+      "question": "A data set is: 4, 8, 6, 10, 7. What is the mean of the data set?",
+      "choices": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "35"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sum = 4 + 8 + 6 + 10 + 7 = 35. Mean = 35 / 5 = 7. Verify: 5 values averaging 7 should sum to 35, which matches.",
+      "standard": "MA.6.DP.1.2",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c19",
+      "section": "math",
+      "question": "Which question is a statistical question that would generate numerical data with variability?",
+      "choices": {
+        "A": "How old is the principal of our school?",
+        "B": "How many minutes did each student in our class spend reading last night?",
+        "C": "What is the date of the next holiday?",
+        "D": "How many days are in the month of June?"
+      },
+      "correctAnswer": "B",
+      "explanation": "A statistical question anticipates variability in the answers. Different students read for different amounts of time, producing a numerical data set. The other options each have a single fixed answer, so they are not statistical questions.",
+      "standard": "MA.6.DP.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "math-c20",
+      "section": "math",
+      "question": "A data set is 12, 15, 15, 18, 20. A new value of 50 is added to the data set. Which measure of center is affected MORE by adding 50?",
+      "choices": {
+        "A": "The mean increases more than the median.",
+        "B": "The median increases more than the mean.",
+        "C": "Both increase by the same amount.",
+        "D": "Neither the mean nor the median changes."
+      },
+      "correctAnswer": "A",
+      "explanation": "Original mean = 80/5 = 16; new mean = 130/6 = about 21.7, an increase of about 5.7. Original median = 15 (middle of 5); new ordered set 12,15,15,18,20,50 has median (15+18)/2 = 16.5, an increase of 1.5. The mean is pulled up more by the outlier 50, so it changes more than the median.",
+      "standard": "MA.6.DP.1.6",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    }
+  ]
+}

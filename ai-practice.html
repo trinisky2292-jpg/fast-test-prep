@@ -193,6 +193,7 @@
             .question-text { font-size: 1.05rem; }
         }
     </style>
+    <script src="js/grade.js"></script>
 </head>
 <body>
     <div class="container">
@@ -319,20 +320,34 @@
         const exampleCache = {};
         const sessionGeneratedQuestions = [];
 
-        const topicGuides = {
-            'number-sense': { name: 'Number Sense & Operations', codes: 'MA.5.NSO', focus: 'place value, reading/writing multi-digit numbers, decimals to thousandths, multi-digit multiplication and division, powers of 10' },
-            'fractions': { name: 'Fractions', codes: 'MA.5.FR', focus: 'adding/subtracting fractions with unlike denominators, multiplying fractions by whole numbers and fractions, fraction word problems, mixed numbers' },
-            'algebraic-reasoning': { name: 'Algebraic Reasoning', codes: 'MA.5.AR', focus: 'numerical expressions, order of operations, translating words to expressions, writing and solving equations, numerical patterns, two-part word problems' },
-            'measurement': { name: 'Measurement', codes: 'MA.5.M', focus: 'converting measurement units (customary and metric), multi-step real-world measurement problems, elapsed time, money calculations' },
-            'geometry': { name: 'Geometric Reasoning', codes: 'MA.5.GR', focus: 'classifying 2D figures, coordinate plane (first quadrant), plotting and identifying points, volume of rectangular prisms, 3D figure properties, nets and cross-sections' },
-            'data-probability': { name: 'Data Analysis & Probability', codes: 'MA.5.DP', focus: 'interpreting tables and graphs, line plots with fractions, mean/median/mode/range, choosing appropriate graph types, making predictions from data' }
+        // Grade-aware state. Default grade 6 (current student).
+        const GRADE = (window.FastGrade ? FastGrade.get() : '6');
+        const GRADE_ORD = (GRADE === '6') ? '6th' : '5th';
+
+        const topicGuidesByGrade = {
+            '5': {
+                'number-sense': { name: 'Number Sense & Operations', codes: 'MA.5.NSO', focus: 'place value, reading/writing multi-digit numbers, decimals to thousandths, multi-digit multiplication and division, powers of 10' },
+                'fractions': { name: 'Fractions', codes: 'MA.5.FR', focus: 'adding/subtracting fractions with unlike denominators, multiplying fractions by whole numbers and fractions, fraction word problems, mixed numbers' },
+                'algebraic-reasoning': { name: 'Algebraic Reasoning', codes: 'MA.5.AR', focus: 'numerical expressions, order of operations, translating words to expressions, writing and solving equations, numerical patterns, two-part word problems' },
+                'measurement': { name: 'Measurement', codes: 'MA.5.M', focus: 'converting measurement units (customary and metric), multi-step real-world measurement problems, elapsed time, money calculations' },
+                'geometry': { name: 'Geometric Reasoning', codes: 'MA.5.GR', focus: 'classifying 2D figures, coordinate plane (first quadrant), plotting and identifying points, volume of rectangular prisms, 3D figure properties, nets and cross-sections' },
+                'data-probability': { name: 'Data Analysis & Probability', codes: 'MA.5.DP', focus: 'interpreting tables and graphs, line plots with fractions, mean/median/mode/range, choosing appropriate graph types, making predictions from data' }
+            },
+            '6': {
+                'number-sense': { name: 'Number Sense & Operations', codes: 'MA.6.NSO', focus: 'integers and rational numbers, absolute value, opposites, ordering and the coordinate plane (all four quadrants), GCF/LCM, dividing fractions, operating with multi-digit decimals, and exponents' },
+                'ratios-rates': { name: 'Ratios, Rates & Percent', codes: 'MA.6.AR', focus: 'ratios and equivalent ratios, unit rates, ratio tables, comparing ratios, and solving percent problems (part/whole/percent)' },
+                'expressions-equations': { name: 'Expressions & Equations', codes: 'MA.6.AR', focus: 'writing and evaluating algebraic expressions with exponents and order of operations, the distributive property, and writing/solving one-variable equations and inequalities' },
+                'geometry': { name: 'Geometric Reasoning', codes: 'MA.6.GR', focus: 'area of triangles, special quadrilaterals and composite polygons, polygons on the coordinate plane, and surface area and volume of right rectangular prisms using nets' },
+                'statistics': { name: 'Data & Statistics', codes: 'MA.6.DP', focus: 'recognizing statistical questions, measures of center (mean, median, mode) and spread (range, IQR, MAD), and interpreting dot plots, histograms, and box plots' }
+            }
         };
+        const topicGuides = topicGuidesByGrade[GRADE] || topicGuidesByGrade['6'];
 
         // Load examples from real FAST JSON to use as few-shot training examples
         async function loadExamples(section) {
             if (exampleCache[section]) return exampleCache[section];
             try {
-                const res = await fetch(`data/${section}.json`);
+                const res = await fetch(FastGrade.dataPath(section));
                 if (!res.ok) return [];
                 const data = await res.json();
                 let questions = data.questions || [];
@@ -457,13 +472,23 @@
         }
 
         function buildGeneratorPrompt(section, examples, alreadyGenerated) {
-            const sectionGuides = {
-                reading: 'Write a short 100-150 word age-appropriate passage for a 5th grader, then ask one comprehension question about it. Use Florida B.E.S.T. ELA standard codes like ELA.5.R.1.1, ELA.5.R.2.2, ELA.5.R.3.1.',
-                grammar: 'Ask one grammar question for a 5th grader: subject-verb agreement, pronouns, verb tense, punctuation, capitalization, or sentence structure. Use Florida B.E.S.T. ELA standard codes like ELA.5.C.3.1.',
-                figurative: 'Ask one figurative language question for a 5th grader: simile, metaphor, personification, hyperbole, or idiom. Use Florida B.E.S.T. ELA standard ELA.5.R.3.1.',
-                science: 'Ask one Florida 5th grade science question covering Physical, Earth & Space, or Life Science. Use codes like SC.5.P.10.1, SC.5.E.5.1, SC.5.L.14.1.',
-                math: 'Ask one Florida 5th grade math question covering NSO (number sense), AR (algebraic reasoning), FR (fractions), M (measurement), GR (geometry), or DP (data). Use codes like MA.5.NSO.1.1, MA.5.AR.1.1, MA.5.FR.1.1.'
+            const sectionGuidesByGrade = {
+                '5': {
+                    reading: 'Write a short 100-150 word age-appropriate passage for a 5th grader, then ask one comprehension question about it. Use Florida B.E.S.T. ELA standard codes like ELA.5.R.1.1, ELA.5.R.2.2, ELA.5.R.3.1.',
+                    grammar: 'Ask one grammar question for a 5th grader: subject-verb agreement, pronouns, verb tense, punctuation, capitalization, or sentence structure. Use Florida B.E.S.T. ELA standard codes like ELA.5.C.3.1.',
+                    figurative: 'Ask one figurative language question for a 5th grader: simile, metaphor, personification, hyperbole, or idiom. Use Florida B.E.S.T. ELA standard ELA.5.R.3.1.',
+                    science: 'Ask one Florida 5th grade science question covering Physical, Earth & Space, or Life Science. Use codes like SC.5.P.10.1, SC.5.E.5.1, SC.5.L.14.1.',
+                    math: 'Ask one Florida 5th grade math question covering NSO (number sense), AR (algebraic reasoning), FR (fractions), M (measurement), GR (geometry), or DP (data). Use codes like MA.5.NSO.1.1, MA.5.AR.1.1, MA.5.FR.1.1.'
+                },
+                '6': {
+                    reading: 'Write a 130-180 word GRADE 6 level passage (literary OR informational, like the FAST), then ask one comprehension question about it. Use Florida B.E.S.T. ELA codes like ELA.6.R.1.1, ELA.6.R.2.1, ELA.6.R.3.1, ELA.6.V.1.3.',
+                    grammar: 'Ask one GRADE 6 grammar/conventions question: dependent/independent clauses, commas, pronoun-antecedent agreement, pronoun case, active/passive voice, verb mood, or sentence structure. Use Florida B.E.S.T. code ELA.6.C.3.1.',
+                    figurative: 'Ask one GRADE 6 figurative-language question (simile, metaphor, personification, hyperbole, idiom, allusion, or imagery) focused on meaning and tone, not just the definition. Use Florida B.E.S.T. code ELA.6.R.3.1.',
+                    science: 'Ask one Florida 6th grade science question (M/J Comprehensive Science 1, Earth/Space emphasis): weather and climate, the water cycle, plate tectonics and Earth structures, the universe/solar system, or the nature of science. Use codes like SC.6.E.7.1, SC.6.E.6.1, SC.6.N.1.2.',
+                    math: 'Ask one Florida 6th grade math question covering ratios & unit rates, percents, integers & rational numbers, absolute value, the four-quadrant coordinate plane, algebraic expressions, one-variable equations & inequalities, area/surface area/volume, or statistics. Use codes like MA.6.NSO.1.1, MA.6.AR.3.2, MA.6.GR.2.1, MA.6.DP.1.2.'
+                }
             };
+            const sectionGuides = sectionGuidesByGrade[GRADE] || sectionGuidesByGrade['6'];
 
             let topicFocus = '';
             if (currentTopic && topicGuides[currentTopic]) {
@@ -480,12 +505,12 @@
                     ? examples.filter(ex => {
                         const std = ex.standard || '';
                         const codes = topicGuides[currentTopic].codes;
-                        return std.startsWith(codes) || (currentTopic === 'geometry' && (std.startsWith('MA.5.G') || std.startsWith('MA.5.GR'))) || (currentTopic === 'algebraic-reasoning' && (std.startsWith('MA.5.AR') || std.startsWith('MA.5.A')));
+                        return std.startsWith(codes);
                     })
                     : examples;
                 const displayExamples = relevantExamples.length > 0 ? relevantExamples : examples;
 
-                examplesBlock = '\n\nHere are REAL Florida FAST 5th grade ' + section + ' example questions for reference (STYLE templates, not for copying):\n\n';
+                examplesBlock = '\n\nHere are REAL Florida FAST ' + GRADE_ORD + ' grade ' + section + ' example questions for reference (STYLE templates, not for copying):\n\n';
                 displayExamples.forEach((ex, i) => {
                     const exJson = {
                         question: (ex._passage ? `[Passage: ${ex._passage}] ` : '') + (ex.question || ex.text || ''),
@@ -510,7 +535,7 @@
             return [
                 {
                     role: 'system',
-                    content: `You are a Florida 5th grade B.E.S.T./FAST test question generator. Output ONLY valid JSON. No markdown, no commentary, no code fences.
+                    content: `You are a Florida ${GRADE_ORD} grade B.E.S.T./FAST test question generator. Output ONLY valid JSON. No markdown, no commentary, no code fences.
 
 CRITICAL RULES:
 1. Every question must be unique — never repeat or paraphrase a previous question.
@@ -561,11 +586,11 @@ The question should be appropriate for a 10-11 year old. Challenging but fair. N
             const messages = [
                 {
                     role: 'system',
-                    content: 'You are a strict 5th grade test question validator. You MUST independently solve the problem before checking the answer. Output ONLY valid JSON.'
+                    content: `You are a strict ${GRADE_ORD} grade test question validator. You MUST independently solve the problem before checking the answer. Output ONLY valid JSON.`
                 },
                 {
                     role: 'user',
-                    content: `Independently solve this 5th grade question, then check if the marked answer is correct.
+                    content: `Independently solve this ${GRADE_ORD} grade question, then check if the marked answer is correct.
 
 Question: ${q.question}
 A) ${q.choices.A}
