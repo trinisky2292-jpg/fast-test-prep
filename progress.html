@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — My Progress</title>
+    <style>
+        :root {
+            --primary:#4CAF50; --secondary:#2196F3; --accent:#FFC107;
+            --background:#F5F5F5; --text:#212121; --light-text:#757575; --white:#fff;
+            --gray:#cfd8dc; --practicing:#FFB300; --proficient:#2196F3; --mastered:#4CAF50;
+        }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:var(--background); color:var(--text); line-height:1.6; padding:1rem; }
+        .container { max-width:900px; margin:0 auto; }
+        header { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1.25rem; padding:1rem; background:var(--white); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,.1); }
+        header h1 { font-size:1.5rem; color:var(--primary); }
+        .header-right { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+        header a { color:var(--secondary); text-decoration:none; font-weight:500; }
+        .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1rem; margin-bottom:1.5rem; }
+        .stat-card { background:var(--white); border-radius:16px; padding:1.25rem; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,.08); }
+        .stat-card .big { font-size:2.2rem; font-weight:800; }
+        .stat-card .lbl { font-size:.85rem; color:var(--light-text); }
+        .ring-wrap { display:flex; justify-content:center; margin-bottom:.5rem; }
+        .next-up { background:linear-gradient(135deg,#e8f5e9,#e3f2fd); border:1px solid #c8e6c9; border-radius:16px; padding:1.25rem; margin-bottom:1.5rem; }
+        .next-up h3 { color:#1b5e20; margin-bottom:.4rem; }
+        .next-up a.cta { display:inline-block; margin-top:.6rem; background:var(--primary); color:#fff; padding:.6rem 1.4rem; border-radius:50px; text-decoration:none; font-weight:700; }
+        .subject { background:var(--white); border-radius:16px; padding:1.25rem; margin-bottom:1.25rem; box-shadow:0 4px 12px rgba(0,0,0,.06); }
+        .subject h2 { font-size:1.2rem; margin-bottom:.25rem; }
+        .subject .meta { font-size:.85rem; color:var(--light-text); margin-bottom:.85rem; }
+        .strand { font-size:.8rem; font-weight:700; color:var(--light-text); margin:.6rem 0 .35rem; text-transform:uppercase; letter-spacing:.03em; }
+        .chips { display:flex; flex-wrap:wrap; gap:.4rem; }
+        .chip { font-size:.72rem; font-weight:700; padding:.28rem .6rem; border-radius:50px; color:#fff; }
+        .chip.notstarted { background:var(--gray); color:#546e7a; }
+        .chip.practicing { background:var(--practicing); }
+        .chip.proficient { background:var(--proficient); }
+        .chip.mastered { background:var(--mastered); }
+        .legend { display:flex; flex-wrap:wrap; gap:.75rem; justify-content:center; margin-bottom:1.5rem; font-size:.8rem; color:var(--light-text); }
+        .legend span { display:inline-flex; align-items:center; gap:.35rem; }
+        .dot { width:12px; height:12px; border-radius:50%; display:inline-block; }
+        .empty { background:var(--white); border-radius:16px; padding:2rem; text-align:center; color:var(--light-text); }
+        @media (max-width:480px){ header{flex-direction:column;align-items:stretch;} }
+    </style>
+    <script src="js/grade.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="page-title">My Progress</h1>
+            <div class="header-right">
+                <div class="grade-switcher" id="grade-switcher"></div>
+                <a href="index.html">&larr; Home</a>
+            </div>
+        </header>
+
+        <div class="stats" id="stats"></div>
+        <div id="next-up"></div>
+
+        <div class="legend">
+            <span><i class="dot" style="background:#cfd8dc"></i> Not started</span>
+            <span><i class="dot" style="background:#FFB300"></i> Practicing</span>
+            <span><i class="dot" style="background:#2196F3"></i> Proficient</span>
+            <span><i class="dot" style="background:#4CAF50"></i> Mastered</span>
+        </div>
+
+        <div id="subjects"></div>
+    </div>
+
+    <script>
+    (function () {
+        const grade = window.FastGrade ? FastGrade.get() : '6';
+        const gLabel = window.FastGrade ? FastGrade.label() : 'Grade 6';
+        document.title = 'FAST Test Prep — My Progress (' + gLabel + ')';
+        document.getElementById('page-title').textContent = 'My Progress — ' + gLabel;
+        if (window.FastGrade) FastGrade.renderSwitcher('grade-switcher');
+
+        const SUBJECTS = [
+            { key: 'Math', icon: '🧮', files: ['math', 'math-classic', 'math-ai-bank'], practice: 'skills.html' },
+            { key: 'Reading', icon: '📖', files: ['reading'], practice: 'quiz.html?section=reading' },
+            { key: 'Grammar', icon: '✏️', files: ['grammar'], practice: 'quiz.html?section=grammar' },
+            { key: 'Figurative Language', icon: '🎭', files: ['figurative'], practice: 'quiz.html?section=figurative' },
+            { key: 'Science', icon: '🔬', files: ['science'], practice: 'quiz.html?section=science' }
+        ];
+
+        // Performance store written by quizzes: { standard: {wrongCount,totalCount,lastSeen} }
+        const wa = (function () { try { return JSON.parse(localStorage.getItem('fast-weak-areas') || '{}'); } catch (e) { return {}; } })();
+        const points = parseInt(localStorage.getItem('fast-points') || '0', 10) || 0;
+        const bestStreak = parseInt(localStorage.getItem('fast-best-streak') || '0', 10) || 0;
+
+        function levelFor(std) {
+            const d = wa[std];
+            if (!d || !d.totalCount) return { level: 'notstarted', rate: null, total: 0 };
+            const correct = d.totalCount - d.wrongCount;
+            const rate = correct / d.totalCount;
+            let level = 'practicing';
+            if (rate >= 0.9 && d.totalCount >= 3) level = 'mastered';
+            else if (rate >= 0.7 && d.totalCount >= 2) level = 'proficient';
+            return { level: level, rate: rate, total: d.totalCount };
+        }
+        function strandOf(std) {
+            // e.g. MA.6.NSO.1.1 -> MA.6.NSO ; ELA.6.R.3.1 -> ELA.6.R ; SC.6.E.7.1 -> SC.6.E
+            const parts = std.split('.');
+            return parts.slice(0, 3).join('.');
+        }
+
+        Promise.all(SUBJECTS.map(function (s) {
+            return Promise.all(s.files.map(function (f) {
+                return fetch(FastGrade.dataPath(f)).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+            })).then(function (datas) {
+                const stds = new Set();
+                datas.forEach(function (d) {
+                    if (!d || !Array.isArray(d.questions)) return;
+                    d.questions.forEach(function (q) { if (q.standard) stds.add(q.standard); });
+                });
+                return { subject: s, standards: Array.from(stds).sort() };
+            });
+        })).then(function (subjectData) {
+            let totalAttempts = 0, totalCorrect = 0, totalStds = 0, attemptedStds = 0, masteredStds = 0;
+            subjectData.forEach(function (sd) {
+                sd.standards.forEach(function (std) {
+                    totalStds++;
+                    const d = wa[std];
+                    if (d && d.totalCount) {
+                        attemptedStds++;
+                        totalAttempts += d.totalCount;
+                        totalCorrect += (d.totalCount - d.wrongCount);
+                        if (levelFor(std).level === 'mastered') masteredStds++;
+                    }
+                });
+            });
+            const accuracy = totalAttempts ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
+            const coverage = totalStds ? attemptedStds / totalStds : 0;
+            const readiness = Math.round(accuracy * coverage);
+
+            // Ring
+            const ringColor = readiness >= 80 ? '#4CAF50' : readiness >= 50 ? '#2196F3' : '#FFB300';
+            const ring = '<div class="ring-wrap"><svg width="120" height="120" viewBox="0 0 120 120">' +
+                '<circle cx="60" cy="60" r="52" fill="none" stroke="#eceff1" stroke-width="14"/>' +
+                '<circle cx="60" cy="60" r="52" fill="none" stroke="' + ringColor + '" stroke-width="14" stroke-linecap="round" ' +
+                'stroke-dasharray="' + (2 * Math.PI * 52) + '" stroke-dashoffset="' + (2 * Math.PI * 52 * (1 - readiness / 100)) + '" ' +
+                'transform="rotate(-90 60 60)"/>' +
+                '<text x="60" y="60" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="800" fill="' + ringColor + '">' + readiness + '%</text>' +
+                '</svg></div>';
+
+            document.getElementById('stats').innerHTML =
+                '<div class="stat-card">' + ring + '<div class="lbl">FAST Readiness</div></div>' +
+                '<div class="stat-card"><div class="big" style="color:#f57f17">⭐ ' + points + '</div><div class="lbl">Points earned</div></div>' +
+                '<div class="stat-card"><div class="big" style="color:#e53935">🔥 ' + bestStreak + '</div><div class="lbl">Best streak</div></div>' +
+                '<div class="stat-card"><div class="big" style="color:#4CAF50">' + masteredStds + '<span style="font-size:1.1rem;color:#90a4ae">/' + totalStds + '</span></div><div class="lbl">Skills mastered</div></div>';
+
+            // Next up: weakest attempted standard, else first subject with 0 attempts
+            let weakest = null;
+            subjectData.forEach(function (sd) {
+                sd.standards.forEach(function (std) {
+                    const lf = levelFor(std);
+                    if (lf.total > 0 && lf.rate < 0.7) {
+                        if (!weakest || lf.rate < weakest.rate) weakest = { std: std, rate: lf.rate, subject: sd.subject };
+                    }
+                });
+            });
+            let nextHtml;
+            if (totalAttempts === 0) {
+                nextHtml = '<div class="next-up"><h3>👋 Let\'s find your starting point!</h3><p>Take a quick practice quiz so we can build your study plan and start tracking what you\'ve mastered.</p>' +
+                    '<a class="cta" href="quiz.html?section=math">Start a Practice Quiz →</a></div>';
+            } else if (weakest) {
+                const isMath = weakest.subject.key === 'Math';
+                const link = isMath ? ('ai-practice.html?section=math&standard=' + encodeURIComponent(weakest.std)) : weakest.subject.practice;
+                nextHtml = '<div class="next-up"><h3>🎯 Next up: ' + weakest.subject.icon + ' ' + weakest.subject.key + '</h3>' +
+                    '<p>Your weakest skill right now is <strong>' + weakest.std + '</strong> (' + Math.round(weakest.rate * 100) + '% correct). Let\'s practice it!</p>' +
+                    '<a class="cta" href="' + link + '">Practice this skill →</a></div>';
+            } else {
+                nextHtml = '<div class="next-up"><h3>🌟 You\'re doing great!</h3><p>No weak skills right now. Keep going to master more benchmarks, or take the Full FAST Practice Test.</p>' +
+                    '<a class="cta" href="quiz.html?section=math-ai-bank">Take the Full Practice Test →</a></div>';
+            }
+            document.getElementById('next-up').innerHTML = nextHtml;
+
+            // Subject mastery maps
+            document.getElementById('subjects').innerHTML = subjectData.map(function (sd) {
+                if (!sd.standards.length) return '';
+                const attempted = sd.standards.filter(function (s) { return wa[s] && wa[s].totalCount; }).length;
+                const mastered = sd.standards.filter(function (s) { return levelFor(s).level === 'mastered'; }).length;
+                // group by strand
+                const byStrand = {}; const order = [];
+                sd.standards.forEach(function (std) { const k = strandOf(std); if (!byStrand[k]) { byStrand[k] = []; order.push(k); } byStrand[k].push(std); });
+                const strandsHtml = order.map(function (k) {
+                    const chips = byStrand[k].map(function (std) {
+                        const lf = levelFor(std);
+                        const title = lf.total ? (Math.round((lf.rate || 0) * 100) + '% over ' + lf.total + ' tries') : 'Not practiced yet';
+                        return '<span class="chip ' + lf.level + '" title="' + title + '">' + std + '</span>';
+                    }).join('');
+                    return '<div class="strand">' + k + '</div><div class="chips">' + chips + '</div>';
+                }).join('');
+                return '<div class="subject"><h2>' + sd.subject.icon + ' ' + sd.subject.key + '</h2>' +
+                    '<div class="meta">' + mastered + ' mastered · ' + attempted + ' practiced · ' + sd.standards.length + ' total skills</div>' +
+                    strandsHtml + '</div>';
+            }).join('') || '<div class="empty">No skills found for this grade yet.</div>';
+        });
+    })();
+    </script>
+</body>
+</html>

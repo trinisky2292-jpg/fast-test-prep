@@ -541,7 +541,13 @@ CRITICAL RULES:
 1. Every question must be unique — never repeat or paraphrase a previous question.
 2. VERIFY YOUR ANSWER: Before outputting, solve the problem yourself step by step. Make sure the correctAnswer letter actually matches the correct choice. Double-check the math/logic.
 3. All distractors (wrong choices) must be plausible but clearly wrong when solved correctly.
-4. The explanation must show the work that proves the answer is correct.`
+4. The explanation must show the work that proves the answer is correct.${GRADE === '6' ? `
+
+REAL FAST STYLE (Grade 6 — match how Florida actually writes its items):
+- Math: ALWAYS state units explicitly; use real fractions, mixed numbers, decimals, and negative numbers; set problems in real-world contexts.
+- Reading: every question must be text-anchored; reference paragraph numbers when relevant; Florida favors evidence-based stems (a claim, then "which sentence/detail supports it").
+- Phrase stems the Florida way: "Which statement best…", "Based on the passage…", "Select all that apply" for multi-answer items.
+- Keep true grade-6 rigor — not 5th grade, not high school.` : ''}`
                 },
                 {
                     role: 'user',

