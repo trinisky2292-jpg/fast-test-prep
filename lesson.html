@@ -75,7 +75,7 @@
             }
 
             html += '<div class="card"><h2>🎯 Now try it</h2><div class="actions">' +
-                '<a class="btn practice" href="quiz.html?subject=' + subject + '&lesson=' + encodeURIComponent(code) + '">' + (hasPractice ? '✏️ Practice (' + p.questions.length + ' questions)' : '✏️ Practice') + '</a>' +
+                '<a class="btn practice" href="quiz.html?subject=' + subject + '&lesson=' + encodeURIComponent(code) + '">' + (hasPractice ? '✏️ Practice (10 random' + (p.questions.length > 10 ? ' of ' + p.questions.length : '') + ')' : '✏️ Practice') + '</a>' +
                 '<a class="btn sheet" href="worksheet.html?subject=' + subject + '&lesson=' + encodeURIComponent(code) + '">🖨️ Worksheet</a>' +
                 '</div>' + (hasPractice ? '' : '<p class="muted" style="margin-top:.6rem;">Practice questions for this lesson are being prepared.</p>') + '</div>';
 

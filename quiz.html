@@ -300,7 +300,14 @@
             .then(data => {
                 if (lessonCode) {
                     const entry = data[lessonCode] || {};
-                    questions = entry.questions || [];
+                    // Practice quiz = 10 questions pulled at RANDOM from the lesson's full DB bank
+                    // (so each replay gives fresh questions when the bank has more than 10).
+                    let bank = (entry.questions || []).slice();
+                    for (let i = bank.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        const t = bank[i]; bank[i] = bank[j]; bank[j] = t;
+                    }
+                    questions = bank.slice(0, 10);
                     lessonTitle = entry.title ? (lessonCode + ' ' + entry.title) : ('Lesson ' + lessonCode);
                 } else if (elaSet) {
                     const set = (data.sets || []).find(s => s.id === elaSet) || {};
