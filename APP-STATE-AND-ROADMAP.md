@@ -20,12 +20,12 @@ Florida FAST / B.E.S.T. test-prep web app for Aleena (Grade 6, Apollo Middle, Ho
 | 📘 Math | 58 | 2,320 | 40/lesson, random 10/replay, worksheets, videos |
 | ✏️ Grammar | 35 | 1,400 | 40/lesson, worksheets, videos |
 | 🔤 Vocabulary | 8 | 320 | 40/lesson, worksheets, videos |
-| 🔬 Science | 32 | 320 | 10/lesson, worksheets, videos |
-| 🌍 Social Studies | 45 | 450 | 10/lesson, worksheets, videos |
+| 🔬 Science | 32 | 1,280 | 40/lesson, random 10/replay, worksheets, videos |
+| 🌍 Social Studies | 45 | 1,800 | 40/lesson, random 10/replay, worksheets, videos |
 | 📖 ELA Reading | 26 sets | 205 | original passages, paired/poems/multiselect, weighted by state category |
 | 📝 Writing | — | — | B.E.S.T. argumentative: 8 lessons + worked example + 6 source-based prompts + 0–12 Writing Coach |
 
-~5,015 DB questions total. Every video oEmbed-verified + lesson-matched; answer keys spot-checked by hand each batch.
+~7,325 DB questions total (Math 2,320 · Social 1,800 · Grammar 1,400 · Science 1,280 · Vocab 320 · Reading 205) + Writing. Every video oEmbed-verified + lesson-matched; answer keys spot-checked by hand each batch. Science + Social deepened to 40 Q/lesson on 2026-06-03 (27 topic agents, all letter-balanced + letter-agnostic; see BUILD-LOG-2026-06-03.md).
 
 ## QA / ops (how we keep it correct)
 - Validator: `python3 ~/.claude/skills/fast-grade-builder/validate.py` (structure + writing/reading/letter-agnostic checks; 0 errors required before push).
@@ -34,8 +34,8 @@ Florida FAST / B.E.S.T. test-prep web app for Aleena (Grade 6, Apollo Middle, Ho
 - curl/oEmbed need `dangerouslyDisableSandbox:true`.
 
 ## What to continue (roadmap / open items)
-1. **(Optional) Deepen Science + Social Studies to 40 Q/lesson** (currently 10) — same per-topic agent pattern as Math/Grammar. Biggest remaining content lift.
-2. **(Optional) More reading + vocab** — reading is the heaviest FAST category; keep adding original passage sets and vocab depth.
+1. ✅ **DONE 2026-06-03 — Science + Social deepened to 40 Q/lesson** (was 10). All 5 question-bank subjects (Math/Grammar/Vocab/Science/Social) now 40/lesson with random-10 replay. validate.py targets updated to 40 for all five.
+2. **(Optional) More reading + vocab** — reading is the heaviest FAST category; keep adding original passage sets and vocab depth (still the biggest remaining content lift).
 3. **Writing:** more prompts; the Coach is rule-based (free). An AI essay scorer was deliberately skipped (needs an OpenRouter key = against the no-bring-your-own-key rule) — revisit only if a shared key is ever configured.
 4. **Payments (DEFERRED by Anthony):** free 1-month trial → $10/mo, gate practice tests. Not now — app stays free + open for Aleena. No backend yet.
 5. **Next grade (e.g. Grade 7):** invoke the **`fast-grade-builder`** skill and follow its 5-step pipeline; add `data/grade7/…`.
