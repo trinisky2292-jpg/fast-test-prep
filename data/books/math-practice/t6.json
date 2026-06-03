@@ -2,91 +2,3631 @@
   "6-1": {
     "learn": "Understand Percent\n\nThe word percent means 'per 100.' A percent tells you how many parts you have out of 100 equal parts. The symbol is %.\n\nWorked Example 1: What does 37% mean?\nStep 1: 'Percent' means out of 100.\nStep 2: So 37% means 37 out of 100.\nStep 3: As a fraction that is 37/100.\nStep 4: As a decimal that is 0.37 (move the decimal point two places left).\nAnswer: 37% = 37/100 = 0.37.\n\nWorked Example 2: A grid has 100 squares. 60 squares are shaded. What percent is shaded?\nStep 1: Percent means out of 100, and the grid already has 100 squares.\nStep 2: 60 out of 100 squares are shaded.\nStep 3: 60 out of 100 = 60%.\nAnswer: 60% is shaded.\nCheck: The 40 unshaded squares are 40%, and 60% + 40% = 100%. Correct.\n\nWorked Example 3: Write 9/100 as a percent.\nStep 1: A fraction with 100 on the bottom is already 'out of 100.'\nStep 2: The top number is 9, so it is 9 out of 100.\nStep 3: 9 out of 100 = 9%.\nAnswer: 9/100 = 9%.\nCheck: 9% as a decimal is 0.09, and 9/100 = 0.09. They match.",
     "questions": [
-      {"id":"6-1-q1","section":"math","question":"What does the word 'percent' mean?","choices":{"A":"Per 10","B":"Per 100","C":"Per 1,000","D":"Per 50"},"correctAnswer":"B","explanation":"Percent means 'per 100' — how many parts out of 100 equal parts.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-1-q2","section":"math","question":"What does 45% mean?","choices":{"A":"45 out of 10","B":"45 out of 1,000","C":"45 out of 100","D":"45 out of 45"},"correctAnswer":"C","explanation":"Percent means out of 100, so 45% means 45 out of 100.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-1-q3","section":"math","question":"A 100-square grid has 30 squares shaded. What percent is shaded?","choices":{"A":"3%","B":"30%","C":"70%","D":"300%"},"correctAnswer":"B","explanation":"30 out of 100 squares are shaded, and 30 out of 100 equals 30%.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-1-q4","section":"math","question":"Which fraction is the same as 17%?","choices":{"A":"17/10","B":"17/100","C":"17/1000","D":"100/17"},"correctAnswer":"B","explanation":"17% means 17 out of 100, which is the fraction 17/100.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-1-q5","section":"math","question":"Write 83/100 as a percent.","choices":{"A":"8.3%","B":"83%","C":"830%","D":"0.83%"},"correctAnswer":"B","explanation":"A fraction over 100 is already 'out of 100,' so 83/100 = 83%.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-1-q6","section":"math","question":"On a 100-square grid, 55 squares are shaded. What percent is NOT shaded?","choices":{"A":"55%","B":"45%","C":"100%","D":"50%"},"correctAnswer":"B","explanation":"100 - 55 = 45 squares are not shaded, so 45 out of 100 = 45%.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-1-q7","section":"math","question":"Which of these represents 100%?","choices":{"A":"1 out of 100","B":"10 out of 100","C":"100 out of 100","D":"50 out of 100"},"correctAnswer":"C","explanation":"100% means the whole amount — all 100 parts out of 100.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-1-q8","section":"math","question":"A class of 100 students is surveyed. 7 students walk to school. What percent walk to school?","choices":{"A":"70%","B":"7%","C":"0.7%","D":"93%"},"correctAnswer":"B","explanation":"7 out of 100 students walk, and 7 out of 100 = 7%.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-1-q9","section":"math","question":"Which statement is TRUE about 25%?","choices":{"A":"It means 25 out of 10","B":"It means 25 out of 100","C":"It is more than the whole","D":"It means 100 out of 25"},"correctAnswer":"B","explanation":"25% means 25 per 100, that is 25 out of 100.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-1-q10","section":"math","question":"A pizza is cut into 100 tiny pieces. If you eat 12 pieces, what percent of the pizza did you eat?","choices":{"A":"1.2%","B":"88%","C":"12%","D":"120%"},"correctAnswer":"C","explanation":"You ate 12 out of 100 pieces, and 12 out of 100 = 12%.","standard":"MA.6.NSO.3.5","difficulty":"medium"}
+      {
+        "id": "6-1-q1",
+        "section": "math",
+        "question": "What does the word 'percent' mean?",
+        "choices": {
+          "A": "Per 10",
+          "B": "Per 100",
+          "C": "Per 1,000",
+          "D": "Per 50"
+        },
+        "correctAnswer": "B",
+        "explanation": "Percent means 'per 100' — how many parts out of 100 equal parts.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q2",
+        "section": "math",
+        "question": "What does 45% mean?",
+        "choices": {
+          "A": "45 out of 10",
+          "B": "45 out of 1,000",
+          "C": "45 out of 100",
+          "D": "45 out of 45"
+        },
+        "correctAnswer": "C",
+        "explanation": "Percent means out of 100, so 45% means 45 out of 100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q3",
+        "section": "math",
+        "question": "A 100-square grid has 30 squares shaded. What percent is shaded?",
+        "choices": {
+          "A": "3%",
+          "B": "30%",
+          "C": "70%",
+          "D": "300%"
+        },
+        "correctAnswer": "B",
+        "explanation": "30 out of 100 squares are shaded, and 30 out of 100 equals 30%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q4",
+        "section": "math",
+        "question": "Which fraction is the same as 17%?",
+        "choices": {
+          "A": "17/10",
+          "B": "17/100",
+          "C": "17/1000",
+          "D": "100/17"
+        },
+        "correctAnswer": "B",
+        "explanation": "17% means 17 out of 100, which is the fraction 17/100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q5",
+        "section": "math",
+        "question": "Write 83/100 as a percent.",
+        "choices": {
+          "A": "8.3%",
+          "B": "83%",
+          "C": "830%",
+          "D": "0.83%"
+        },
+        "correctAnswer": "B",
+        "explanation": "A fraction over 100 is already 'out of 100,' so 83/100 = 83%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q6",
+        "section": "math",
+        "question": "On a 100-square grid, 55 squares are shaded. What percent is NOT shaded?",
+        "choices": {
+          "A": "55%",
+          "B": "45%",
+          "C": "100%",
+          "D": "50%"
+        },
+        "correctAnswer": "B",
+        "explanation": "100 - 55 = 45 squares are not shaded, so 45 out of 100 = 45%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q7",
+        "section": "math",
+        "question": "Which of these represents 100%?",
+        "choices": {
+          "A": "1 out of 100",
+          "B": "10 out of 100",
+          "C": "100 out of 100",
+          "D": "50 out of 100"
+        },
+        "correctAnswer": "C",
+        "explanation": "100% means the whole amount — all 100 parts out of 100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q8",
+        "section": "math",
+        "question": "A class of 100 students is surveyed. 7 students walk to school. What percent walk to school?",
+        "choices": {
+          "A": "70%",
+          "B": "7%",
+          "C": "0.7%",
+          "D": "93%"
+        },
+        "correctAnswer": "B",
+        "explanation": "7 out of 100 students walk, and 7 out of 100 = 7%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q9",
+        "section": "math",
+        "question": "Which statement is TRUE about 25%?",
+        "choices": {
+          "A": "It means 25 out of 10",
+          "B": "It means 25 out of 100",
+          "C": "It is more than the whole",
+          "D": "It means 100 out of 25"
+        },
+        "correctAnswer": "B",
+        "explanation": "25% means 25 per 100, that is 25 out of 100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q10",
+        "section": "math",
+        "question": "A pizza is cut into 100 tiny pieces. If you eat 12 pieces, what percent of the pizza did you eat?",
+        "choices": {
+          "A": "1.2%",
+          "B": "88%",
+          "C": "12%",
+          "D": "120%"
+        },
+        "correctAnswer": "C",
+        "explanation": "You ate 12 out of 100 pieces, and 12 out of 100 = 12%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q11",
+        "section": "math",
+        "question": "What does 8% mean?",
+        "choices": {
+          "A": "8 out of 100",
+          "B": "8 out of 10",
+          "C": "8 out of 1,000",
+          "D": "80 out of 100"
+        },
+        "correctAnswer": "A",
+        "explanation": "Percent means out of 100, so 8% means 8 out of 100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q12",
+        "section": "math",
+        "question": "A 100-square grid has 41 squares shaded. What percent is shaded?",
+        "choices": {
+          "B": "41%",
+          "A": "4.1%",
+          "C": "59%",
+          "D": "410%"
+        },
+        "correctAnswer": "B",
+        "explanation": "41 out of 100 squares shaded equals 41%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q13",
+        "section": "math",
+        "question": "Which fraction is the same as 63%?",
+        "choices": {
+          "D": "63/100",
+          "A": "63/10",
+          "B": "63/1000",
+          "C": "100/63"
+        },
+        "correctAnswer": "D",
+        "explanation": "63% means 63 out of 100, which is 63/100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q14",
+        "section": "math",
+        "question": "Write 29/100 as a percent.",
+        "choices": {
+          "C": "29%",
+          "A": "2.9%",
+          "B": "290%",
+          "D": "0.29%"
+        },
+        "correctAnswer": "C",
+        "explanation": "A fraction over 100 is out of 100, so 29/100 = 29%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q15",
+        "section": "math",
+        "question": "What does 90% mean?",
+        "choices": {
+          "A": "90 out of 100",
+          "B": "90 out of 10",
+          "C": "9 out of 100",
+          "D": "90 out of 1,000"
+        },
+        "correctAnswer": "A",
+        "explanation": "Percent means out of 100, so 90% = 90 out of 100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q16",
+        "section": "math",
+        "question": "A 100-square grid has 5 squares shaded. What percent is shaded?",
+        "choices": {
+          "B": "5%",
+          "A": "50%",
+          "C": "0.5%",
+          "D": "95%"
+        },
+        "correctAnswer": "B",
+        "explanation": "5 out of 100 squares shaded = 5%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q17",
+        "section": "math",
+        "question": "Which fraction equals 50%?",
+        "choices": {
+          "D": "50/100",
+          "A": "50/10",
+          "B": "5/100",
+          "C": "100/50"
+        },
+        "correctAnswer": "D",
+        "explanation": "50% means 50 out of 100, written 50/100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q18",
+        "section": "math",
+        "question": "Write 77/100 as a percent.",
+        "choices": {
+          "A": "77%",
+          "B": "7.7%",
+          "C": "770%",
+          "D": "0.77%"
+        },
+        "correctAnswer": "A",
+        "explanation": "77/100 is 77 out of 100 = 77%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q19",
+        "section": "math",
+        "question": "Which of these represents the whole, 100%?",
+        "choices": {
+          "C": "100 out of 100",
+          "A": "10 out of 100",
+          "B": "1 out of 100",
+          "D": "99 out of 100"
+        },
+        "correctAnswer": "C",
+        "explanation": "100% is the whole — all 100 of 100 parts.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q20",
+        "section": "math",
+        "question": "What does 2% mean?",
+        "choices": {
+          "D": "2 out of 100",
+          "A": "2 out of 10",
+          "B": "20 out of 100",
+          "C": "2 out of 1,000"
+        },
+        "correctAnswer": "D",
+        "explanation": "2% means 2 per 100, that is 2 out of 100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q21",
+        "section": "math",
+        "question": "A 100-square grid has 64 squares shaded. What percent is shaded?",
+        "choices": {
+          "B": "64%",
+          "A": "6.4%",
+          "C": "36%",
+          "D": "640%"
+        },
+        "correctAnswer": "B",
+        "explanation": "64 out of 100 shaded = 64%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q22",
+        "section": "math",
+        "question": "Which fraction is the same as 4%?",
+        "choices": {
+          "A": "4/100",
+          "B": "4/10",
+          "C": "40/100",
+          "D": "100/4"
+        },
+        "correctAnswer": "A",
+        "explanation": "4% means 4 out of 100 = 4/100.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q23",
+        "section": "math",
+        "question": "On a 100-square grid, 38 squares are shaded. What percent is NOT shaded?",
+        "choices": {
+          "C": "62%",
+          "A": "38%",
+          "B": "72%",
+          "D": "48%"
+        },
+        "correctAnswer": "C",
+        "explanation": "100 - 38 = 62 squares not shaded, so 62%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q24",
+        "section": "math",
+        "question": "A survey of 100 people found 23 ride the bus. What percent ride the bus?",
+        "choices": {
+          "B": "23%",
+          "A": "77%",
+          "C": "2.3%",
+          "D": "230%"
+        },
+        "correctAnswer": "B",
+        "explanation": "23 out of 100 ride the bus = 23%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q25",
+        "section": "math",
+        "question": "In a box of 100 marbles, 19 are blue. What percent are NOT blue?",
+        "choices": {
+          "D": "81%",
+          "A": "19%",
+          "B": "91%",
+          "C": "71%"
+        },
+        "correctAnswer": "D",
+        "explanation": "100 - 19 = 81 marbles are not blue, so 81%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q26",
+        "section": "math",
+        "question": "A 100-point test: a student missed 14 points. What percent did the student earn?",
+        "choices": {
+          "A": "86%",
+          "B": "14%",
+          "C": "76%",
+          "D": "96%"
+        },
+        "correctAnswer": "A",
+        "explanation": "100 - 14 = 86 points earned, so 86%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q27",
+        "section": "math",
+        "question": "Out of 100 seats, 67 are filled. What percent of the seats are empty?",
+        "choices": {
+          "B": "33%",
+          "A": "67%",
+          "C": "43%",
+          "D": "37%"
+        },
+        "correctAnswer": "B",
+        "explanation": "100 - 67 = 33 empty seats, so 33%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q28",
+        "section": "math",
+        "question": "A class of 100 students: 48 are boys. What percent are girls?",
+        "choices": {
+          "D": "52%",
+          "A": "48%",
+          "B": "42%",
+          "C": "58%"
+        },
+        "correctAnswer": "D",
+        "explanation": "100 - 48 = 52 girls, so 52%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q29",
+        "section": "math",
+        "question": "A jar holds 100 jelly beans. 9 are green. What percent are green?",
+        "choices": {
+          "A": "9%",
+          "B": "90%",
+          "C": "91%",
+          "D": "0.9%"
+        },
+        "correctAnswer": "A",
+        "explanation": "9 out of 100 are green = 9%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q30",
+        "section": "math",
+        "question": "On a 100-cell chart, 55 cells are colored. What percent are blank?",
+        "choices": {
+          "B": "45%",
+          "A": "55%",
+          "C": "65%",
+          "D": "35%"
+        },
+        "correctAnswer": "B",
+        "explanation": "100 - 55 = 45 blank cells, so 45%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q31",
+        "section": "math",
+        "question": "100 cars passed a corner. 31 were red. What percent were NOT red?",
+        "choices": {
+          "D": "69%",
+          "A": "31%",
+          "B": "79%",
+          "C": "59%"
+        },
+        "correctAnswer": "D",
+        "explanation": "100 - 31 = 69 cars not red, so 69%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q32",
+        "section": "math",
+        "question": "A 100-square grid is fully shaded. What percent is shaded?",
+        "choices": {
+          "A": "100%",
+          "B": "10%",
+          "C": "1%",
+          "D": "99%"
+        },
+        "correctAnswer": "A",
+        "explanation": "All 100 of 100 squares shaded = 100%, the whole.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q33",
+        "section": "math",
+        "question": "Of 100 books, 26 are mysteries. What percent are NOT mysteries?",
+        "choices": {
+          "B": "74%",
+          "A": "26%",
+          "C": "84%",
+          "D": "64%"
+        },
+        "correctAnswer": "B",
+        "explanation": "100 - 26 = 74 books are not mysteries, so 74%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q34",
+        "section": "math",
+        "question": "In 100 free throws, a player made 88. What percent did she miss?",
+        "choices": {
+          "D": "12%",
+          "A": "88%",
+          "B": "22%",
+          "C": "2%"
+        },
+        "correctAnswer": "D",
+        "explanation": "100 - 88 = 12 missed, so 12%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q35",
+        "section": "math",
+        "question": "A grid has 200 squares; 100 are shaded. What percent is shaded?",
+        "choices": {
+          "C": "50%",
+          "A": "100%",
+          "B": "20%",
+          "D": "200%"
+        },
+        "correctAnswer": "C",
+        "explanation": "100 out of 200 = 50 out of 100 = 50%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q36",
+        "section": "math",
+        "question": "Out of 50 students, 50 turned in homework. What percent turned it in?",
+        "choices": {
+          "B": "100%",
+          "A": "50%",
+          "C": "5%",
+          "D": "10%"
+        },
+        "correctAnswer": "B",
+        "explanation": "50 out of 50 is all of them = 100%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q37",
+        "section": "math",
+        "question": "A grid has 200 squares; 50 are shaded. What percent is shaded?",
+        "choices": {
+          "A": "25%",
+          "B": "50%",
+          "C": "2.5%",
+          "D": "75%"
+        },
+        "correctAnswer": "A",
+        "explanation": "50 out of 200 = 25 out of 100 = 25%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q38",
+        "section": "math",
+        "question": "In a set of 25 cards, all 25 are red. What percent are red?",
+        "choices": {
+          "D": "100%",
+          "A": "25%",
+          "B": "2.5%",
+          "C": "50%"
+        },
+        "correctAnswer": "D",
+        "explanation": "25 out of 25 = the whole = 100%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q39",
+        "section": "math",
+        "question": "A wall of 200 tiles has 150 painted. What percent is painted?",
+        "choices": {
+          "B": "75%",
+          "A": "150%",
+          "C": "50%",
+          "D": "25%"
+        },
+        "correctAnswer": "B",
+        "explanation": "150 out of 200 = 75 out of 100 = 75%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q40",
+        "section": "math",
+        "question": "Of 200 votes, 20 were blank. What percent were NOT blank?",
+        "choices": {
+          "C": "90%",
+          "A": "10%",
+          "B": "20%",
+          "D": "80%"
+        },
+        "correctAnswer": "C",
+        "explanation": "200 - 20 = 180 not blank; 180 out of 200 = 90 out of 100 = 90%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      }
     ]
   },
   "6-2": {
     "learn": "Relate Fractions, Decimals, and Percents\n\nThese three forms describe the same amount. You can move between them.\n- Fraction to decimal: divide the top by the bottom.\n- Decimal to percent: multiply by 100 (move the decimal 2 places right).\n- Percent to decimal: divide by 100 (move the decimal 2 places left).\n\nWorked Example 1: Write 1/4 as a decimal and a percent.\nStep 1: Fraction to decimal — divide 1 by 4. 1 ÷ 4 = 0.25.\nStep 2: Decimal to percent — move the decimal 2 places right: 0.25 becomes 25%.\nAnswer: 1/4 = 0.25 = 25%.\nCheck: 25% means 25/100, and 25/100 reduces to 1/4. Correct.\n\nWorked Example 2: Write 0.6 as a percent and a fraction.\nStep 1: Decimal to percent — move decimal 2 places right: 0.6 becomes 60%.\nStep 2: Percent to fraction — 60% = 60/100, which reduces to 3/5.\nAnswer: 0.6 = 60% = 3/5.\nCheck: 3 ÷ 5 = 0.6. Correct.\n\nWorked Example 3: Write 80% as a decimal and a fraction.\nStep 1: Percent to decimal — move decimal 2 places left: 80% becomes 0.80 = 0.8.\nStep 2: Percent to fraction — 80% = 80/100, which reduces to 4/5.\nAnswer: 80% = 0.8 = 4/5.\nCheck: 4 ÷ 5 = 0.8, and 0.8 = 80%. Correct.",
     "questions": [
-      {"id":"6-2-q1","section":"math","question":"Write 1/2 as a percent.","choices":{"A":"5%","B":"50%","C":"2%","D":"12%"},"correctAnswer":"B","explanation":"1 ÷ 2 = 0.5, and 0.5 = 50%.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-2-q2","section":"math","question":"Write 0.35 as a percent.","choices":{"A":"3.5%","B":"350%","C":"35%","D":"0.35%"},"correctAnswer":"C","explanation":"To change a decimal to a percent, move the decimal 2 places right: 0.35 = 35%.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-2-q3","section":"math","question":"Write 70% as a decimal.","choices":{"A":"7.0","B":"0.07","C":"0.7","D":"70.0"},"correctAnswer":"C","explanation":"To change a percent to a decimal, move the decimal 2 places left: 70% = 0.70 = 0.7.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-2-q4","section":"math","question":"Write 3/4 as a percent.","choices":{"A":"34%","B":"75%","C":"43%","D":"7.5%"},"correctAnswer":"B","explanation":"3 ÷ 4 = 0.75, and 0.75 = 75%.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-2-q5","section":"math","question":"Write 0.09 as a percent.","choices":{"A":"90%","B":"0.09%","C":"9%","D":"0.9%"},"correctAnswer":"C","explanation":"Move the decimal 2 places right: 0.09 = 9%.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-2-q6","section":"math","question":"Write 25% as a fraction in simplest form.","choices":{"A":"25/10","B":"1/4","C":"1/25","D":"2/5"},"correctAnswer":"B","explanation":"25% = 25/100, and 25/100 reduces to 1/4.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-2-q7","section":"math","question":"Which list shows 1/5, 0.5, and 5% in order from LEAST to GREATEST?","choices":{"A":"1/5, 0.5, 5%","B":"5%, 1/5, 0.5","C":"0.5, 1/5, 5%","D":"5%, 0.5, 1/5"},"correctAnswer":"B","explanation":"1/5 = 0.20 = 20%, 0.5 = 50%, and 5% = 0.05. Ordered: 5% (0.05), 1/5 (0.20), 0.5 (0.50).","standard":"MA.6.NSO.3.5","difficulty":"hard"},
-      {"id":"6-2-q8","section":"math","question":"Write 0.8 as a fraction in simplest form.","choices":{"A":"8/100","B":"1/8","C":"4/5","D":"8/10"},"correctAnswer":"C","explanation":"0.8 = 8/10, which reduces to 4/5.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-2-q9","section":"math","question":"Which is equal to 1/10?","choices":{"A":"1% and 0.1","B":"10% and 0.1","C":"10% and 0.01","D":"100% and 1.0"},"correctAnswer":"B","explanation":"1 ÷ 10 = 0.1, and 0.1 = 10%.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-2-q10","section":"math","question":"A student got 0.65 of the questions right. What percent is that?","choices":{"A":"6.5%","B":"650%","C":"65%","D":"0.65%"},"correctAnswer":"C","explanation":"Move the decimal 2 places right: 0.65 = 65%.","standard":"MA.6.NSO.3.5","difficulty":"easy"}
+      {
+        "id": "6-2-q1",
+        "section": "math",
+        "question": "Write 1/2 as a percent.",
+        "choices": {
+          "A": "5%",
+          "B": "50%",
+          "C": "2%",
+          "D": "12%"
+        },
+        "correctAnswer": "B",
+        "explanation": "1 ÷ 2 = 0.5, and 0.5 = 50%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q2",
+        "section": "math",
+        "question": "Write 0.35 as a percent.",
+        "choices": {
+          "A": "3.5%",
+          "B": "350%",
+          "C": "35%",
+          "D": "0.35%"
+        },
+        "correctAnswer": "C",
+        "explanation": "To change a decimal to a percent, move the decimal 2 places right: 0.35 = 35%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q3",
+        "section": "math",
+        "question": "Write 70% as a decimal.",
+        "choices": {
+          "A": "7.0",
+          "B": "0.07",
+          "C": "0.7",
+          "D": "70.0"
+        },
+        "correctAnswer": "C",
+        "explanation": "To change a percent to a decimal, move the decimal 2 places left: 70% = 0.70 = 0.7.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q4",
+        "section": "math",
+        "question": "Write 3/4 as a percent.",
+        "choices": {
+          "A": "34%",
+          "B": "75%",
+          "C": "43%",
+          "D": "7.5%"
+        },
+        "correctAnswer": "B",
+        "explanation": "3 ÷ 4 = 0.75, and 0.75 = 75%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q5",
+        "section": "math",
+        "question": "Write 0.09 as a percent.",
+        "choices": {
+          "A": "90%",
+          "B": "0.09%",
+          "C": "9%",
+          "D": "0.9%"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places right: 0.09 = 9%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q6",
+        "section": "math",
+        "question": "Write 25% as a fraction in simplest form.",
+        "choices": {
+          "A": "25/10",
+          "B": "1/4",
+          "C": "1/25",
+          "D": "2/5"
+        },
+        "correctAnswer": "B",
+        "explanation": "25% = 25/100, and 25/100 reduces to 1/4.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q7",
+        "section": "math",
+        "question": "Which list shows 1/5, 0.5, and 5% in order from LEAST to GREATEST?",
+        "choices": {
+          "A": "1/5, 0.5, 5%",
+          "B": "5%, 1/5, 0.5",
+          "C": "0.5, 1/5, 5%",
+          "D": "5%, 0.5, 1/5"
+        },
+        "correctAnswer": "B",
+        "explanation": "1/5 = 0.20 = 20%, 0.5 = 50%, and 5% = 0.05. Ordered: 5% (0.05), 1/5 (0.20), 0.5 (0.50).",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q8",
+        "section": "math",
+        "question": "Write 0.8 as a fraction in simplest form.",
+        "choices": {
+          "A": "8/100",
+          "B": "1/8",
+          "C": "4/5",
+          "D": "8/10"
+        },
+        "correctAnswer": "C",
+        "explanation": "0.8 = 8/10, which reduces to 4/5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q9",
+        "section": "math",
+        "question": "Which is equal to 1/10?",
+        "choices": {
+          "A": "1% and 0.1",
+          "B": "10% and 0.1",
+          "C": "10% and 0.01",
+          "D": "100% and 1.0"
+        },
+        "correctAnswer": "B",
+        "explanation": "1 ÷ 10 = 0.1, and 0.1 = 10%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q10",
+        "section": "math",
+        "question": "A student got 0.65 of the questions right. What percent is that?",
+        "choices": {
+          "A": "6.5%",
+          "B": "650%",
+          "C": "65%",
+          "D": "0.65%"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places right: 0.65 = 65%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q11",
+        "section": "math",
+        "question": "Write 1/4 as a percent.",
+        "choices": {
+          "A": "25%",
+          "B": "14%",
+          "C": "4%",
+          "D": "41%"
+        },
+        "correctAnswer": "A",
+        "explanation": "1 ÷ 4 = 0.25, and 0.25 = 25%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q12",
+        "section": "math",
+        "question": "Write 0.20 as a percent.",
+        "choices": {
+          "B": "20%",
+          "A": "2%",
+          "C": "200%",
+          "D": "0.2%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 0.20 = 20%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q13",
+        "section": "math",
+        "question": "Write 40% as a decimal.",
+        "choices": {
+          "C": "0.4",
+          "A": "4.0",
+          "B": "0.04",
+          "D": "40.0"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places left: 40% = 0.40 = 0.4.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q14",
+        "section": "math",
+        "question": "Write 3/4 as a percent.",
+        "choices": {
+          "A": "75%",
+          "B": "34%",
+          "C": "43%",
+          "D": "7.5%"
+        },
+        "correctAnswer": "A",
+        "explanation": "3 ÷ 4 = 0.75, and 0.75 = 75%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q15",
+        "section": "math",
+        "question": "Write 0.6 as a percent.",
+        "choices": {
+          "B": "60%",
+          "A": "6%",
+          "C": "600%",
+          "D": "0.6%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 0.6 = 60%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q16",
+        "section": "math",
+        "question": "Write 90% as a decimal.",
+        "choices": {
+          "C": "0.9",
+          "A": "9.0",
+          "B": "0.09",
+          "D": "90.0"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places left: 90% = 0.90 = 0.9.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q17",
+        "section": "math",
+        "question": "Write 0.07 as a percent.",
+        "choices": {
+          "D": "7%",
+          "A": "70%",
+          "B": "0.7%",
+          "C": "700%"
+        },
+        "correctAnswer": "D",
+        "explanation": "Move the decimal 2 places right: 0.07 = 7%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q18",
+        "section": "math",
+        "question": "Write 1/5 as a percent.",
+        "choices": {
+          "A": "20%",
+          "B": "15%",
+          "C": "5%",
+          "D": "51%"
+        },
+        "correctAnswer": "A",
+        "explanation": "1 ÷ 5 = 0.2, and 0.2 = 20%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q19",
+        "section": "math",
+        "question": "Write 0.55 as a percent.",
+        "choices": {
+          "B": "55%",
+          "A": "5.5%",
+          "C": "550%",
+          "D": "0.55%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 0.55 = 55%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q20",
+        "section": "math",
+        "question": "Write 30% as a decimal.",
+        "choices": {
+          "C": "0.3",
+          "A": "3.0",
+          "B": "0.03",
+          "D": "30.0"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places left: 30% = 0.30 = 0.3.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q21",
+        "section": "math",
+        "question": "Write 0.01 as a percent.",
+        "choices": {
+          "D": "1%",
+          "A": "10%",
+          "B": "0.1%",
+          "C": "100%"
+        },
+        "correctAnswer": "D",
+        "explanation": "Move the decimal 2 places right: 0.01 = 1%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q22",
+        "section": "math",
+        "question": "Write 1/2 as a decimal.",
+        "choices": {
+          "A": "0.5",
+          "B": "0.12",
+          "C": "0.2",
+          "D": "0.25"
+        },
+        "correctAnswer": "A",
+        "explanation": "1 ÷ 2 = 0.5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q23",
+        "section": "math",
+        "question": "Write 2/5 as a percent.",
+        "choices": {
+          "B": "40%",
+          "A": "25%",
+          "C": "20%",
+          "D": "52%"
+        },
+        "correctAnswer": "B",
+        "explanation": "2 ÷ 5 = 0.4, and 0.4 = 40%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q24",
+        "section": "math",
+        "question": "Write 20% as a fraction in simplest form.",
+        "choices": {
+          "D": "1/5",
+          "A": "20/10",
+          "B": "1/20",
+          "C": "2/5"
+        },
+        "correctAnswer": "D",
+        "explanation": "20% = 20/100, which reduces to 1/5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q25",
+        "section": "math",
+        "question": "Write 0.6 as a fraction in simplest form.",
+        "choices": {
+          "A": "3/5",
+          "B": "6/100",
+          "C": "1/6",
+          "D": "6/10"
+        },
+        "correctAnswer": "A",
+        "explanation": "0.6 = 6/10, which reduces to 3/5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q26",
+        "section": "math",
+        "question": "Write 7/10 as a percent.",
+        "choices": {
+          "B": "70%",
+          "A": "7%",
+          "C": "17%",
+          "D": "0.7%"
+        },
+        "correctAnswer": "B",
+        "explanation": "7 ÷ 10 = 0.7, and 0.7 = 70%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q27",
+        "section": "math",
+        "question": "Write 5% as a fraction in simplest form.",
+        "choices": {
+          "A": "1/20",
+          "B": "5/10",
+          "C": "1/5",
+          "D": "5/1000"
+        },
+        "correctAnswer": "A",
+        "explanation": "5% = 5/100, which reduces to 1/20.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q28",
+        "section": "math",
+        "question": "Write 0.04 as a percent.",
+        "choices": {
+          "B": "4%",
+          "A": "40%",
+          "C": "0.4%",
+          "D": "400%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 0.04 = 4%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q29",
+        "section": "math",
+        "question": "Write 60% as a fraction in simplest form.",
+        "choices": {
+          "D": "3/5",
+          "A": "6/10",
+          "B": "60/10",
+          "C": "1/6"
+        },
+        "correctAnswer": "D",
+        "explanation": "60% = 60/100, which reduces to 3/5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q30",
+        "section": "math",
+        "question": "Write 9/10 as a percent.",
+        "choices": {
+          "A": "90%",
+          "B": "9%",
+          "C": "19%",
+          "D": "0.9%"
+        },
+        "correctAnswer": "A",
+        "explanation": "9 ÷ 10 = 0.9, and 0.9 = 90%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q31",
+        "section": "math",
+        "question": "Write 0.45 as a fraction in simplest form.",
+        "choices": {
+          "B": "9/20",
+          "A": "45/10",
+          "C": "45/1000",
+          "D": "1/45"
+        },
+        "correctAnswer": "B",
+        "explanation": "0.45 = 45/100, which reduces to 9/20.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q32",
+        "section": "math",
+        "question": "A student answered 4/5 of the questions correctly. What percent is that?",
+        "choices": {
+          "A": "80%",
+          "B": "45%",
+          "C": "40%",
+          "D": "58%"
+        },
+        "correctAnswer": "A",
+        "explanation": "4 ÷ 5 = 0.8, and 0.8 = 80%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q33",
+        "section": "math",
+        "question": "Write 90% as a fraction in simplest form.",
+        "choices": {
+          "B": "9/10",
+          "A": "90/10",
+          "C": "1/9",
+          "D": "9/100"
+        },
+        "correctAnswer": "B",
+        "explanation": "90% = 90/100, which reduces to 9/10.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q34",
+        "section": "math",
+        "question": "Write 0.12 as a fraction in simplest form.",
+        "choices": {
+          "A": "3/25",
+          "B": "12/10",
+          "C": "1/12",
+          "D": "12/1000"
+        },
+        "correctAnswer": "A",
+        "explanation": "0.12 = 12/100, which reduces to 3/25.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q35",
+        "section": "math",
+        "question": "Which list shows 1/2, 0.35, and 80% from LEAST to GREATEST?",
+        "choices": {
+          "A": "0.35, 1/2, 80%",
+          "B": "1/2, 0.35, 80%",
+          "C": "80%, 1/2, 0.35",
+          "D": "0.35, 80%, 1/2"
+        },
+        "correctAnswer": "A",
+        "explanation": "1/2 = 50%, 0.35 = 35%, 80% = 80%. Ordered: 0.35 (35%), 1/2 (50%), 80%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q36",
+        "section": "math",
+        "question": "Which is GREATEST: 2/5, 0.5, or 45%?",
+        "choices": {
+          "A": "0.5",
+          "B": "2/5",
+          "C": "45%",
+          "D": "they are equal"
+        },
+        "correctAnswer": "A",
+        "explanation": "2/5 = 40%, 0.5 = 50%, 45% = 45%. The greatest is 0.5 (50%).",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q37",
+        "section": "math",
+        "question": "Which list shows 1/4, 0.2, and 30% from LEAST to GREATEST?",
+        "choices": {
+          "B": "0.2, 1/4, 30%",
+          "A": "1/4, 0.2, 30%",
+          "C": "30%, 1/4, 0.2",
+          "D": "0.2, 30%, 1/4"
+        },
+        "correctAnswer": "B",
+        "explanation": "1/4 = 25%, 0.2 = 20%, 30% = 30%. Ordered: 0.2 (20%), 1/4 (25%), 30%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q38",
+        "section": "math",
+        "question": "Which is LEAST: 3/5, 0.55, or 65%?",
+        "choices": {
+          "D": "0.55",
+          "A": "3/5",
+          "B": "65%",
+          "C": "they are equal"
+        },
+        "correctAnswer": "D",
+        "explanation": "3/5 = 60%, 0.55 = 55%, 65% = 65%. The least is 0.55 (55%).",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q39",
+        "section": "math",
+        "question": "Which two are EQUAL: 1/2, 0.5, 5%?",
+        "choices": {
+          "A": "1/2 and 0.5",
+          "B": "1/2 and 5%",
+          "C": "0.5 and 5%",
+          "D": "none are equal"
+        },
+        "correctAnswer": "A",
+        "explanation": "1/2 = 0.5 = 50%, but 5% = 0.05. So 1/2 and 0.5 are equal.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q40",
+        "section": "math",
+        "question": "Which list shows 3/5, 0.85, and 25% from GREATEST to LEAST?",
+        "choices": {
+          "C": "0.85, 3/5, 25%",
+          "A": "3/5, 0.85, 25%",
+          "B": "25%, 3/5, 0.85",
+          "D": "0.85, 25%, 3/5"
+        },
+        "correctAnswer": "C",
+        "explanation": "3/5 = 60%, 0.85 = 85%, 25% = 25%. Greatest to least: 0.85 (85%), 3/5 (60%), 25%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      }
     ]
   },
   "6-3": {
     "learn": "Percents Greater Than 100% or Less Than 1%\n\nPercents are not limited to 0 to 100.\n- A percent GREATER than 100% means MORE than one whole. 150% = 1.5 (one and a half wholes).\n- A percent LESS than 1% is a very SMALL amount. 0.5% = 0.005 as a decimal.\nThe rule is always the same: percent to decimal means move the decimal 2 places left.\n\nWorked Example 1: Write 250% as a decimal.\nStep 1: Percent to decimal — move the decimal 2 places left.\nStep 2: 250% becomes 2.50.\nAnswer: 250% = 2.5.\nCheck: 2.5 back to percent is 250%. Also 2.5 is more than 1 whole, which makes sense because 250% is more than 100%. Correct.\n\nWorked Example 2: Write 0.4% as a decimal.\nStep 1: Percent to decimal — move the decimal 2 places left.\nStep 2: 0.4% becomes 0.004 (add zeros as placeholders: 0.4 -> 0.004).\nAnswer: 0.4% = 0.004.\nCheck: 0.004 back to percent — move 2 right — is 0.4%. Correct. It is a very tiny amount, less than 1%.\n\nWorked Example 3: Write 3 (the whole number 3) as a percent.\nStep 1: 3 is the same as the decimal 3.0.\nStep 2: Decimal to percent — move the decimal 2 places right: 3.0 becomes 300%.\nAnswer: 3 = 300%.\nCheck: 300% means 3 wholes, which matches the number 3. Correct.",
     "questions": [
-      {"id":"6-3-q1","section":"math","question":"Which percent means MORE than one whole?","choices":{"A":"50%","B":"99%","C":"100%","D":"175%"},"correctAnswer":"D","explanation":"Any percent greater than 100% is more than one whole. 175% is more than 100%.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-3-q2","section":"math","question":"Write 200% as a decimal.","choices":{"A":"0.02","B":"2.0","C":"20.0","D":"0.2"},"correctAnswer":"B","explanation":"Move the decimal 2 places left: 200% = 2.0.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-3-q3","section":"math","question":"Write 150% as a decimal.","choices":{"A":"1.5","B":"0.15","C":"15.0","D":"0.015"},"correctAnswer":"A","explanation":"Move the decimal 2 places left: 150% = 1.50 = 1.5.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-3-q4","section":"math","question":"Write 0.5% as a decimal.","choices":{"A":"0.5","B":"0.05","C":"0.005","D":"5.0"},"correctAnswer":"C","explanation":"Move the decimal 2 places left: 0.5% = 0.005. It is a very small amount.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-3-q5","section":"math","question":"Write 2.4 as a percent.","choices":{"A":"24%","B":"2.4%","C":"0.24%","D":"240%"},"correctAnswer":"D","explanation":"Move the decimal 2 places right: 2.4 = 240%.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-3-q6","section":"math","question":"Which is the SMALLEST amount?","choices":{"A":"1%","B":"0.2%","C":"10%","D":"100%"},"correctAnswer":"B","explanation":"0.2% = 0.002, which is smaller than 1% (0.01), 10% (0.1), and 100% (1).","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-3-q7","section":"math","question":"Write 0.008 as a percent.","choices":{"A":"8%","B":"80%","C":"0.8%","D":"0.08%"},"correctAnswer":"C","explanation":"Move the decimal 2 places right: 0.008 = 0.8%.","standard":"MA.6.NSO.3.5","difficulty":"hard"},
-      {"id":"6-3-q8","section":"math","question":"A recipe was scaled up to 300% of the original. What decimal is 300%?","choices":{"A":"0.3","B":"3.0","C":"30.0","D":"0.03"},"correctAnswer":"B","explanation":"Move the decimal 2 places left: 300% = 3.0. The recipe is 3 times the original.","standard":"MA.6.NSO.3.5","difficulty":"medium"},
-      {"id":"6-3-q9","section":"math","question":"Which percent is equal to the whole number 1?","choices":{"A":"1%","B":"10%","C":"100%","D":"1000%"},"correctAnswer":"C","explanation":"100% = 1.0, which is one whole.","standard":"MA.6.NSO.3.5","difficulty":"easy"},
-      {"id":"6-3-q10","section":"math","question":"A bank pays interest of 0.25% per month. What is 0.25% as a decimal?","choices":{"A":"0.25","B":"0.025","C":"0.0025","D":"2.5"},"correctAnswer":"C","explanation":"Move the decimal 2 places left: 0.25% = 0.0025.","standard":"MA.6.NSO.3.5","difficulty":"hard"}
+      {
+        "id": "6-3-q1",
+        "section": "math",
+        "question": "Which percent means MORE than one whole?",
+        "choices": {
+          "A": "50%",
+          "B": "99%",
+          "C": "100%",
+          "D": "175%"
+        },
+        "correctAnswer": "D",
+        "explanation": "Any percent greater than 100% is more than one whole. 175% is more than 100%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q2",
+        "section": "math",
+        "question": "Write 200% as a decimal.",
+        "choices": {
+          "A": "0.02",
+          "B": "2.0",
+          "C": "20.0",
+          "D": "0.2"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places left: 200% = 2.0.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q3",
+        "section": "math",
+        "question": "Write 150% as a decimal.",
+        "choices": {
+          "A": "1.5",
+          "B": "0.15",
+          "C": "15.0",
+          "D": "0.015"
+        },
+        "correctAnswer": "A",
+        "explanation": "Move the decimal 2 places left: 150% = 1.50 = 1.5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q4",
+        "section": "math",
+        "question": "Write 0.5% as a decimal.",
+        "choices": {
+          "A": "0.5",
+          "B": "0.05",
+          "C": "0.005",
+          "D": "5.0"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places left: 0.5% = 0.005. It is a very small amount.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q5",
+        "section": "math",
+        "question": "Write 2.4 as a percent.",
+        "choices": {
+          "A": "24%",
+          "B": "2.4%",
+          "C": "0.24%",
+          "D": "240%"
+        },
+        "correctAnswer": "D",
+        "explanation": "Move the decimal 2 places right: 2.4 = 240%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q6",
+        "section": "math",
+        "question": "Which is the SMALLEST amount?",
+        "choices": {
+          "A": "1%",
+          "B": "0.2%",
+          "C": "10%",
+          "D": "100%"
+        },
+        "correctAnswer": "B",
+        "explanation": "0.2% = 0.002, which is smaller than 1% (0.01), 10% (0.1), and 100% (1).",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q7",
+        "section": "math",
+        "question": "Write 0.008 as a percent.",
+        "choices": {
+          "A": "8%",
+          "B": "80%",
+          "C": "0.8%",
+          "D": "0.08%"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places right: 0.008 = 0.8%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q8",
+        "section": "math",
+        "question": "A recipe was scaled up to 300% of the original. What decimal is 300%?",
+        "choices": {
+          "A": "0.3",
+          "B": "3.0",
+          "C": "30.0",
+          "D": "0.03"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places left: 300% = 3.0. The recipe is 3 times the original.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q9",
+        "section": "math",
+        "question": "Which percent is equal to the whole number 1?",
+        "choices": {
+          "A": "1%",
+          "B": "10%",
+          "C": "100%",
+          "D": "1000%"
+        },
+        "correctAnswer": "C",
+        "explanation": "100% = 1.0, which is one whole.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q10",
+        "section": "math",
+        "question": "A bank pays interest of 0.25% per month. What is 0.25% as a decimal?",
+        "choices": {
+          "A": "0.25",
+          "B": "0.025",
+          "C": "0.0025",
+          "D": "2.5"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places left: 0.25% = 0.0025.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q11",
+        "section": "math",
+        "question": "Which percent means MORE than one whole?",
+        "choices": {
+          "A": "225%",
+          "B": "75%",
+          "C": "99%",
+          "D": "100%"
+        },
+        "correctAnswer": "A",
+        "explanation": "Any percent greater than 100% is more than one whole; 225% > 100%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q12",
+        "section": "math",
+        "question": "Write 400% as a decimal.",
+        "choices": {
+          "D": "4.0",
+          "A": "0.4",
+          "B": "40.0",
+          "C": "0.04"
+        },
+        "correctAnswer": "D",
+        "explanation": "Move the decimal 2 places left: 400% = 4.0.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q13",
+        "section": "math",
+        "question": "Write 180% as a decimal.",
+        "choices": {
+          "B": "1.8",
+          "A": "0.18",
+          "C": "18.0",
+          "D": "0.018"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places left: 180% = 1.80 = 1.8.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q14",
+        "section": "math",
+        "question": "Which percent is LESS than 1%?",
+        "choices": {
+          "A": "0.5%",
+          "B": "5%",
+          "C": "10%",
+          "D": "50%"
+        },
+        "correctAnswer": "A",
+        "explanation": "0.5% is half of one percent, less than 1%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q15",
+        "section": "math",
+        "question": "Write 120% as a decimal.",
+        "choices": {
+          "C": "1.2",
+          "A": "0.12",
+          "B": "12.0",
+          "D": "0.012"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places left: 120% = 1.20 = 1.2.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q16",
+        "section": "math",
+        "question": "Write 500% as a decimal.",
+        "choices": {
+          "B": "5.0",
+          "A": "0.5",
+          "C": "50.0",
+          "D": "0.05"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places left: 500% = 5.0.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q17",
+        "section": "math",
+        "question": "Which percent is equal to the whole number 2?",
+        "choices": {
+          "D": "200%",
+          "A": "2%",
+          "B": "20%",
+          "C": "2000%"
+        },
+        "correctAnswer": "D",
+        "explanation": "200% = 2.0, which is two wholes.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q18",
+        "section": "math",
+        "question": "Write 250% as a decimal.",
+        "choices": {
+          "A": "2.5",
+          "B": "0.25",
+          "C": "25.0",
+          "D": "0.025"
+        },
+        "correctAnswer": "A",
+        "explanation": "Move the decimal 2 places left: 250% = 2.5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q19",
+        "section": "math",
+        "question": "Write 0.8% as a decimal.",
+        "choices": {
+          "B": "0.008",
+          "A": "0.8",
+          "C": "0.08",
+          "D": "8.0"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places left: 0.8% = 0.008.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q20",
+        "section": "math",
+        "question": "Which is the LARGEST amount?",
+        "choices": {
+          "C": "300%",
+          "A": "3%",
+          "B": "30%",
+          "D": "0.3%"
+        },
+        "correctAnswer": "C",
+        "explanation": "300% = 3.0, larger than 3% (0.03), 30% (0.3), and 0.3% (0.003).",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q21",
+        "section": "math",
+        "question": "Write 0.6% as a decimal.",
+        "choices": {
+          "A": "0.006",
+          "B": "0.6",
+          "C": "0.06",
+          "D": "6.0"
+        },
+        "correctAnswer": "A",
+        "explanation": "Move the decimal 2 places left: 0.6% = 0.006.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q22",
+        "section": "math",
+        "question": "Write 350% as a decimal.",
+        "choices": {
+          "B": "3.5",
+          "A": "0.35",
+          "C": "35.0",
+          "D": "0.035"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places left: 350% = 3.5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q23",
+        "section": "math",
+        "question": "Write 3.2 as a percent.",
+        "choices": {
+          "D": "320%",
+          "A": "32%",
+          "B": "3.2%",
+          "C": "0.32%"
+        },
+        "correctAnswer": "D",
+        "explanation": "Move the decimal 2 places right: 3.2 = 320%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q24",
+        "section": "math",
+        "question": "Write 1.75 as a percent.",
+        "choices": {
+          "A": "175%",
+          "B": "17.5%",
+          "C": "1.75%",
+          "D": "1750%"
+        },
+        "correctAnswer": "A",
+        "explanation": "Move the decimal 2 places right: 1.75 = 175%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q25",
+        "section": "math",
+        "question": "Write 0.003 as a percent.",
+        "choices": {
+          "B": "0.3%",
+          "A": "3%",
+          "C": "30%",
+          "D": "0.03%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 0.003 = 0.3%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q26",
+        "section": "math",
+        "question": "Which is the SMALLEST amount?",
+        "choices": {
+          "D": "0.4%",
+          "A": "4%",
+          "B": "40%",
+          "C": "400%"
+        },
+        "correctAnswer": "D",
+        "explanation": "0.4% = 0.004, smaller than 4% (0.04), 40% (0.4), and 400% (4).",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q27",
+        "section": "math",
+        "question": "Write 2.6 as a percent.",
+        "choices": {
+          "A": "260%",
+          "B": "26%",
+          "C": "2.6%",
+          "D": "2600%"
+        },
+        "correctAnswer": "A",
+        "explanation": "Move the decimal 2 places right: 2.6 = 260%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q28",
+        "section": "math",
+        "question": "Write 0.009 as a percent.",
+        "choices": {
+          "B": "0.9%",
+          "A": "9%",
+          "C": "90%",
+          "D": "0.09%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 0.009 = 0.9%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q29",
+        "section": "math",
+        "question": "Write 0.25% as a decimal.",
+        "choices": {
+          "D": "0.0025",
+          "A": "0.25",
+          "B": "0.025",
+          "C": "2.5"
+        },
+        "correctAnswer": "D",
+        "explanation": "Move the decimal 2 places left: 0.25% = 0.0025.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q30",
+        "section": "math",
+        "question": "A recipe is made at 400% of the original. How many times the original is that?",
+        "choices": {
+          "A": "4 times",
+          "B": "40 times",
+          "C": "0.4 times",
+          "D": "4 hundred times"
+        },
+        "correctAnswer": "A",
+        "explanation": "400% = 4.0, so it is 4 times the original.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q31",
+        "section": "math",
+        "question": "Write 4.0 as a percent.",
+        "choices": {
+          "B": "400%",
+          "A": "40%",
+          "C": "4%",
+          "D": "4000%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 4.0 = 400%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q32",
+        "section": "math",
+        "question": "Which percent equals the whole number 3?",
+        "choices": {
+          "D": "300%",
+          "A": "3%",
+          "B": "30%",
+          "C": "3000%"
+        },
+        "correctAnswer": "D",
+        "explanation": "300% = 3.0, three wholes.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q33",
+        "section": "math",
+        "question": "Write 0.05% as a decimal.",
+        "choices": {
+          "A": "0.0005",
+          "B": "0.05",
+          "C": "0.005",
+          "D": "0.5"
+        },
+        "correctAnswer": "A",
+        "explanation": "Move the decimal 2 places left: 0.05% = 0.0005.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q34",
+        "section": "math",
+        "question": "A population grew to 150% of last year. As a decimal that is...",
+        "choices": {
+          "B": "1.5",
+          "A": "0.15",
+          "C": "15.0",
+          "D": "0.015"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places left: 150% = 1.5.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q35",
+        "section": "math",
+        "question": "Write 0.0045 as a percent.",
+        "choices": {
+          "C": "0.45%",
+          "A": "45%",
+          "B": "4.5%",
+          "D": "0.045%"
+        },
+        "correctAnswer": "C",
+        "explanation": "Move the decimal 2 places right: 0.0045 = 0.45%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q36",
+        "section": "math",
+        "question": "Order from LEAST to GREATEST: 0.5%, 50%, 500%.",
+        "choices": {
+          "A": "0.5%, 50%, 500%",
+          "B": "500%, 50%, 0.5%",
+          "C": "50%, 0.5%, 500%",
+          "D": "0.5%, 500%, 50%"
+        },
+        "correctAnswer": "A",
+        "explanation": "0.5% = 0.005, 50% = 0.5, 500% = 5. Least to greatest as listed.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q37",
+        "section": "math",
+        "question": "Write 0.0012 as a percent.",
+        "choices": {
+          "B": "0.12%",
+          "A": "12%",
+          "C": "1.2%",
+          "D": "0.012%"
+        },
+        "correctAnswer": "B",
+        "explanation": "Move the decimal 2 places right: 0.0012 = 0.12%.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q38",
+        "section": "math",
+        "question": "A bank pays 0.75% interest. What is 0.75% as a decimal?",
+        "choices": {
+          "D": "0.0075",
+          "A": "0.75",
+          "B": "0.075",
+          "C": "7.5"
+        },
+        "correctAnswer": "D",
+        "explanation": "Move the decimal 2 places left: 0.75% = 0.0075.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q39",
+        "section": "math",
+        "question": "Which is GREATER, 0.3% or 0.03?",
+        "choices": {
+          "A": "0.03 is greater",
+          "B": "0.3% is greater",
+          "C": "they are equal",
+          "D": "cannot tell"
+        },
+        "correctAnswer": "A",
+        "explanation": "0.3% = 0.003, and 0.003 is less than 0.03. So 0.03 is greater.",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q40",
+        "section": "math",
+        "question": "Order from GREATEST to LEAST: 3.0, 30%, 0.3%.",
+        "choices": {
+          "A": "3.0, 30%, 0.3%",
+          "B": "0.3%, 30%, 3.0",
+          "C": "30%, 3.0, 0.3%",
+          "D": "3.0, 0.3%, 30%"
+        },
+        "correctAnswer": "A",
+        "explanation": "3.0 = 300%, 30% = 0.3, 0.3% = 0.003. Greatest to least: 3.0 (300%), 30% (0.3), 0.3% (0.003).",
+        "standard": "MA.6.NSO.3.5",
+        "difficulty": "hard"
+      }
     ]
   },
   "6-4": {
     "learn": "Estimate to Find a Percent\n\nUse friendly percents to estimate quickly.\n- 10% of a number: move the decimal one place left (10% of 80 = 8).\n- 5% is half of 10%.\n- 20% is double 10%.\n- 1% of a number: move the decimal two places left.\nYou can combine these. For example, 15% = 10% + 5%.\n\nWorked Example 1: Estimate 10% of 70.\nStep 1: 10% means move the decimal one place left.\nStep 2: 70 becomes 7.0.\nAnswer: 10% of 70 = 7.\nCheck: 0.10 x 70 = 7. Correct.\n\nWorked Example 2: Estimate a 20% tip on a $40 meal.\nStep 1: First find 10% of 40: move the decimal one place left = 4.\nStep 2: 20% is double 10%, so double 4 = 8.\nAnswer: A 20% tip is about $8.\nCheck: 0.20 x 40 = 8. Correct.\n\nWorked Example 3: Estimate 15% of 60.\nStep 1: Find 10% of 60: move the decimal one place left = 6.\nStep 2: Find 5% of 60: 5% is half of 10%, so half of 6 = 3.\nStep 3: 15% = 10% + 5% = 6 + 3 = 9.\nAnswer: 15% of 60 = 9.\nCheck: 0.15 x 60 = 9. Correct.",
     "questions": [
-      {"id":"6-4-q1","section":"math","question":"What is 10% of 50?","choices":{"A":"0.5","B":"5","C":"50","D":"500"},"correctAnswer":"B","explanation":"For 10%, move the decimal one place left: 50 becomes 5.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-4-q2","section":"math","question":"What is 10% of 90?","choices":{"A":"0.9","B":"90","C":"9","D":"19"},"correctAnswer":"C","explanation":"For 10%, move the decimal one place left: 90 becomes 9.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-4-q3","section":"math","question":"If 10% of 80 is 8, what is 20% of 80?","choices":{"A":"4","B":"8","C":"16","D":"80"},"correctAnswer":"C","explanation":"20% is double 10%. Double 8 = 16.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-4-q4","section":"math","question":"If 10% of 60 is 6, what is 5% of 60?","choices":{"A":"3","B":"6","C":"12","D":"30"},"correctAnswer":"A","explanation":"5% is half of 10%. Half of 6 = 3.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-4-q5","section":"math","question":"Estimate a 20% tip on a $30 meal.","choices":{"A":"$3","B":"$6","C":"$9","D":"$15"},"correctAnswer":"B","explanation":"10% of 30 = 3. 20% is double, so 2 x 3 = $6.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-4-q6","section":"math","question":"What is 15% of 40?","choices":{"A":"4","B":"6","C":"8","D":"10"},"correctAnswer":"B","explanation":"10% of 40 = 4 and 5% of 40 = 2. 15% = 4 + 2 = 6.","standard":"MA.6.AR.3.4","difficulty":"hard"},
-      {"id":"6-4-q7","section":"math","question":"What is 1% of 300?","choices":{"A":"30","B":"3","C":"0.3","D":"300"},"correctAnswer":"B","explanation":"For 1%, move the decimal two places left: 300 becomes 3.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-4-q8","section":"math","question":"A shirt costs $20. About how much is a 10% discount?","choices":{"A":"$1","B":"$2","C":"$10","D":"$0.20"},"correctAnswer":"B","explanation":"10% of 20: move the decimal one place left = $2.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-4-q9","section":"math","question":"What is 25% of 80? (Hint: 25% = 10% + 10% + 5%)","choices":{"A":"16","B":"20","C":"24","D":"25"},"correctAnswer":"B","explanation":"10% of 80 = 8, so 10% + 10% = 16, and 5% = 4. 16 + 4 = 20.","standard":"MA.6.AR.3.4","difficulty":"hard"},
-      {"id":"6-4-q10","section":"math","question":"Estimate 30% of 50 using 10% steps.","choices":{"A":"5","B":"10","C":"15","D":"30"},"correctAnswer":"C","explanation":"10% of 50 = 5. 30% is three times that: 3 x 5 = 15.","standard":"MA.6.AR.3.4","difficulty":"medium"}
+      {
+        "id": "6-4-q1",
+        "section": "math",
+        "question": "What is 10% of 50?",
+        "choices": {
+          "A": "0.5",
+          "B": "5",
+          "C": "50",
+          "D": "500"
+        },
+        "correctAnswer": "B",
+        "explanation": "For 10%, move the decimal one place left: 50 becomes 5.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q2",
+        "section": "math",
+        "question": "What is 10% of 90?",
+        "choices": {
+          "A": "0.9",
+          "B": "90",
+          "C": "9",
+          "D": "19"
+        },
+        "correctAnswer": "C",
+        "explanation": "For 10%, move the decimal one place left: 90 becomes 9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q3",
+        "section": "math",
+        "question": "If 10% of 80 is 8, what is 20% of 80?",
+        "choices": {
+          "A": "4",
+          "B": "8",
+          "C": "16",
+          "D": "80"
+        },
+        "correctAnswer": "C",
+        "explanation": "20% is double 10%. Double 8 = 16.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q4",
+        "section": "math",
+        "question": "If 10% of 60 is 6, what is 5% of 60?",
+        "choices": {
+          "A": "3",
+          "B": "6",
+          "C": "12",
+          "D": "30"
+        },
+        "correctAnswer": "A",
+        "explanation": "5% is half of 10%. Half of 6 = 3.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q5",
+        "section": "math",
+        "question": "Estimate a 20% tip on a $30 meal.",
+        "choices": {
+          "A": "$3",
+          "B": "$6",
+          "C": "$9",
+          "D": "$15"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 30 = 3. 20% is double, so 2 x 3 = $6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q6",
+        "section": "math",
+        "question": "What is 15% of 40?",
+        "choices": {
+          "A": "4",
+          "B": "6",
+          "C": "8",
+          "D": "10"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 40 = 4 and 5% of 40 = 2. 15% = 4 + 2 = 6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q7",
+        "section": "math",
+        "question": "What is 1% of 300?",
+        "choices": {
+          "A": "30",
+          "B": "3",
+          "C": "0.3",
+          "D": "300"
+        },
+        "correctAnswer": "B",
+        "explanation": "For 1%, move the decimal two places left: 300 becomes 3.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q8",
+        "section": "math",
+        "question": "A shirt costs $20. About how much is a 10% discount?",
+        "choices": {
+          "A": "$1",
+          "B": "$2",
+          "C": "$10",
+          "D": "$0.20"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 20: move the decimal one place left = $2.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q9",
+        "section": "math",
+        "question": "What is 25% of 80? (Hint: 25% = 10% + 10% + 5%)",
+        "choices": {
+          "A": "16",
+          "B": "20",
+          "C": "24",
+          "D": "25"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 80 = 8, so 10% + 10% = 16, and 5% = 4. 16 + 4 = 20.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q10",
+        "section": "math",
+        "question": "Estimate 30% of 50 using 10% steps.",
+        "choices": {
+          "A": "5",
+          "B": "10",
+          "C": "15",
+          "D": "30"
+        },
+        "correctAnswer": "C",
+        "explanation": "10% of 50 = 5. 30% is three times that: 3 x 5 = 15.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q11",
+        "section": "math",
+        "question": "What is 10% of 70?",
+        "choices": {
+          "A": "7",
+          "B": "0.7",
+          "C": "70",
+          "D": "17"
+        },
+        "correctAnswer": "A",
+        "explanation": "For 10%, move the decimal one place left: 70 becomes 7.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q12",
+        "section": "math",
+        "question": "What is 10% of 120?",
+        "choices": {
+          "B": "12",
+          "A": "1.2",
+          "C": "120",
+          "D": "20"
+        },
+        "correctAnswer": "B",
+        "explanation": "For 10%, move the decimal one place left: 120 becomes 12.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q13",
+        "section": "math",
+        "question": "What is 10% of 40?",
+        "choices": {
+          "C": "4",
+          "A": "0.4",
+          "B": "40",
+          "D": "14"
+        },
+        "correctAnswer": "C",
+        "explanation": "For 10%, move the decimal one place left: 40 becomes 4.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q14",
+        "section": "math",
+        "question": "What is 1% of 400?",
+        "choices": {
+          "A": "4",
+          "B": "40",
+          "C": "0.4",
+          "D": "400"
+        },
+        "correctAnswer": "A",
+        "explanation": "For 1%, move the decimal two places left: 400 becomes 4.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q15",
+        "section": "math",
+        "question": "What is 10% of 200?",
+        "choices": {
+          "B": "20",
+          "A": "2",
+          "C": "200",
+          "D": "120"
+        },
+        "correctAnswer": "B",
+        "explanation": "For 10%, move the decimal one place left: 200 becomes 20.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q16",
+        "section": "math",
+        "question": "What is 1% of 600?",
+        "choices": {
+          "D": "6",
+          "A": "60",
+          "B": "0.6",
+          "C": "600"
+        },
+        "correctAnswer": "D",
+        "explanation": "For 1%, move the decimal two places left: 600 becomes 6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q17",
+        "section": "math",
+        "question": "A $30 shirt has a 10% discount. About how much is off?",
+        "choices": {
+          "A": "$3",
+          "B": "$0.30",
+          "C": "$30",
+          "D": "$13"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% of 30: move the decimal one place left = $3.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q18",
+        "section": "math",
+        "question": "What is 10% of 90?",
+        "choices": {
+          "B": "9",
+          "A": "0.9",
+          "C": "90",
+          "D": "19"
+        },
+        "correctAnswer": "B",
+        "explanation": "For 10%, move the decimal one place left: 90 becomes 9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q19",
+        "section": "math",
+        "question": "What is 10% of 50?",
+        "choices": {
+          "D": "5",
+          "A": "0.5",
+          "B": "50",
+          "C": "15"
+        },
+        "correctAnswer": "D",
+        "explanation": "For 10%, move the decimal one place left: 50 becomes 5.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q20",
+        "section": "math",
+        "question": "What is 1% of 800?",
+        "choices": {
+          "A": "8",
+          "B": "80",
+          "C": "0.8",
+          "D": "800"
+        },
+        "correctAnswer": "A",
+        "explanation": "For 1%, move the decimal two places left: 800 becomes 8.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q21",
+        "section": "math",
+        "question": "What is 10% of 300?",
+        "choices": {
+          "B": "30",
+          "A": "3",
+          "C": "300",
+          "D": "130"
+        },
+        "correctAnswer": "B",
+        "explanation": "For 10%, move the decimal one place left: 300 becomes 30.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q22",
+        "section": "math",
+        "question": "A $60 game has a 10% discount. About how much is off?",
+        "choices": {
+          "D": "$6",
+          "A": "$0.60",
+          "B": "$60",
+          "C": "$16"
+        },
+        "correctAnswer": "D",
+        "explanation": "10% of 60: move the decimal one place left = $6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q23",
+        "section": "math",
+        "question": "If 10% of 90 is 9, what is 20% of 90?",
+        "choices": {
+          "A": "18",
+          "B": "4.5",
+          "C": "9",
+          "D": "36"
+        },
+        "correctAnswer": "A",
+        "explanation": "20% is double 10%. Double 9 = 18.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q24",
+        "section": "math",
+        "question": "If 10% of 80 is 8, what is 5% of 80?",
+        "choices": {
+          "B": "4",
+          "A": "8",
+          "C": "16",
+          "D": "40"
+        },
+        "correctAnswer": "B",
+        "explanation": "5% is half of 10%. Half of 8 = 4.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q25",
+        "section": "math",
+        "question": "Estimate a 20% tip on a $45 meal.",
+        "choices": {
+          "D": "$9",
+          "A": "$4.50",
+          "B": "$18",
+          "C": "$22.50"
+        },
+        "correctAnswer": "D",
+        "explanation": "10% of 45 = 4.50. 20% is double: 2 × 4.50 = $9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q26",
+        "section": "math",
+        "question": "What is 5% of 120?",
+        "choices": {
+          "A": "6",
+          "B": "12",
+          "C": "24",
+          "D": "60"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% of 120 = 12; 5% is half = 6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q27",
+        "section": "math",
+        "question": "What is 30% of 60?",
+        "choices": {
+          "B": "18",
+          "A": "6",
+          "C": "12",
+          "D": "30"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 60 = 6; 30% is three times that: 3 × 6 = 18.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q28",
+        "section": "math",
+        "question": "What is 2% of 300?",
+        "choices": {
+          "C": "6",
+          "A": "3",
+          "B": "30",
+          "D": "60"
+        },
+        "correctAnswer": "C",
+        "explanation": "1% of 300 = 3; 2% is double: 2 × 3 = 6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q29",
+        "section": "math",
+        "question": "Estimate a 20% tip on a $50 meal.",
+        "choices": {
+          "A": "$10",
+          "B": "$5",
+          "C": "$15",
+          "D": "$25"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% of 50 = 5. 20% is double: 2 × 5 = $10.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q30",
+        "section": "math",
+        "question": "What is 30% of 90?",
+        "choices": {
+          "B": "27",
+          "A": "9",
+          "C": "18",
+          "D": "36"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 90 = 9; 30% is three times that: 3 × 9 = 27.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q31",
+        "section": "math",
+        "question": "If 10% of 200 is 20, what is 40% of 200?",
+        "choices": {
+          "D": "80",
+          "A": "40",
+          "B": "60",
+          "C": "100"
+        },
+        "correctAnswer": "D",
+        "explanation": "40% is four times 10%. 4 × 20 = 80.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q32",
+        "section": "math",
+        "question": "What is 5% of 60?",
+        "choices": {
+          "A": "3",
+          "B": "6",
+          "C": "12",
+          "D": "30"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% of 60 = 6; 5% is half = 3.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q33",
+        "section": "math",
+        "question": "What is 20% of 45?",
+        "choices": {
+          "B": "9",
+          "A": "4.5",
+          "C": "18",
+          "D": "22.5"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 45 = 4.5; 20% is double = 9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q34",
+        "section": "math",
+        "question": "A $40 item is 30% off. About how much is taken off?",
+        "choices": {
+          "D": "$12",
+          "A": "$4",
+          "B": "$8",
+          "C": "$16"
+        },
+        "correctAnswer": "D",
+        "explanation": "10% of 40 = 4; 30% is 3 × 4 = $12 off.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q35",
+        "section": "math",
+        "question": "What is 15% of 80? (Hint: 15% = 10% + 5%)",
+        "choices": {
+          "A": "12",
+          "B": "8",
+          "C": "16",
+          "D": "20"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% of 80 = 8 and 5% = 4. 15% = 8 + 4 = 12.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q36",
+        "section": "math",
+        "question": "What is 25% of 120? (Hint: 25% = 10% + 10% + 5%)",
+        "choices": {
+          "B": "30",
+          "A": "24",
+          "C": "36",
+          "D": "48"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 120 = 12, so 10% + 10% = 24, and 5% = 6. 24 + 6 = 30.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q37",
+        "section": "math",
+        "question": "What is 15% of 200? (Hint: 15% = 10% + 5%)",
+        "choices": {
+          "D": "30",
+          "A": "20",
+          "B": "25",
+          "C": "40"
+        },
+        "correctAnswer": "D",
+        "explanation": "10% of 200 = 20 and 5% = 10. 15% = 20 + 10 = 30.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q38",
+        "section": "math",
+        "question": "What is 35% of 60? (Hint: 35% = 30% + 5%)",
+        "choices": {
+          "A": "21",
+          "B": "18",
+          "C": "24",
+          "D": "30"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% of 60 = 6, so 30% = 18 and 5% = 3. 18 + 3 = 21.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q39",
+        "section": "math",
+        "question": "Estimate a 15% tip on a $120 bill.",
+        "choices": {
+          "B": "$18",
+          "A": "$12",
+          "C": "$24",
+          "D": "$30"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% of 120 = 12 and 5% = 6. 15% = 12 + 6 = $18.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q40",
+        "section": "math",
+        "question": "What is 45% of 80? (Hint: 45% = 40% + 5%)",
+        "choices": {
+          "C": "36",
+          "A": "32",
+          "B": "40",
+          "D": "44"
+        },
+        "correctAnswer": "C",
+        "explanation": "10% of 80 = 8, so 40% = 32 and 5% = 4. 32 + 4 = 36.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      }
     ]
   },
   "6-5": {
     "learn": "Find the Percent of a Number\n\nTo find a percent OF a number, change the percent to a decimal and multiply.\nStep 1: Percent to decimal (move the decimal 2 places left).\nStep 2: Multiply by the number.\n\nWorked Example 1: Find 20% of 60.\nStep 1: 20% = 0.20.\nStep 2: 0.20 x 60 = 12.\nAnswer: 20% of 60 = 12.\nCheck: 10% of 60 = 6, so 20% = double = 12. Correct.\n\nWorked Example 2: Find 75% of 40.\nStep 1: 75% = 0.75.\nStep 2: 0.75 x 40 = 30.\nAnswer: 75% of 40 = 30.\nCheck: 75% = 3/4, and 3/4 of 40 = 30. Correct.\n\nWorked Example 3: A jacket costs $80. It is 25% off. How much is taken off?\nStep 1: 25% = 0.25.\nStep 2: 0.25 x 80 = 20.\nAnswer: $20 is taken off.\nCheck: 25% = 1/4, and 1/4 of 80 = 20. Correct. (The sale price would be 80 - 20 = $60.)",
     "questions": [
-      {"id":"6-5-q1","section":"math","question":"What is 50% of 40?","choices":{"A":"4","B":"20","C":"80","D":"2"},"correctAnswer":"B","explanation":"50% = 0.5, and 0.5 x 40 = 20.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-5-q2","section":"math","question":"What is 10% of 90?","choices":{"A":"0.9","B":"9","C":"19","D":"90"},"correctAnswer":"B","explanation":"10% = 0.10, and 0.10 x 90 = 9.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-5-q3","section":"math","question":"What is 25% of 60?","choices":{"A":"12","B":"15","C":"20","D":"25"},"correctAnswer":"B","explanation":"25% = 0.25, and 0.25 x 60 = 15. (Also 1/4 of 60 = 15.)","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-5-q4","section":"math","question":"What is 30% of 200?","choices":{"A":"6","B":"30","C":"60","D":"600"},"correctAnswer":"C","explanation":"30% = 0.30, and 0.30 x 200 = 60.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-5-q5","section":"math","question":"What is 5% of 80?","choices":{"A":"4","B":"8","C":"16","D":"40"},"correctAnswer":"A","explanation":"5% = 0.05, and 0.05 x 80 = 4.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-5-q6","section":"math","question":"A $50 game is 40% off. How many dollars are taken off?","choices":{"A":"$10","B":"$20","C":"$30","D":"$40"},"correctAnswer":"B","explanation":"40% = 0.40, and 0.40 x 50 = $20 off.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-5-q7","section":"math","question":"What is 15% of 200?","choices":{"A":"15","B":"30","C":"45","D":"300"},"correctAnswer":"B","explanation":"15% = 0.15, and 0.15 x 200 = 30.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-5-q8","section":"math","question":"A class has 25 students. 80% turned in homework. How many students turned it in?","choices":{"A":"5","B":"15","C":"20","D":"25"},"correctAnswer":"C","explanation":"80% = 0.80, and 0.80 x 25 = 20 students.","standard":"MA.6.AR.3.4","difficulty":"hard"},
-      {"id":"6-5-q9","section":"math","question":"What is 100% of 35?","choices":{"A":"0","B":"3.5","C":"35","D":"70"},"correctAnswer":"C","explanation":"100% = 1, and 1 x 35 = 35. 100% of a number is the whole number itself.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-5-q10","section":"math","question":"A $120 bill includes a 18% tip. How much is the tip?","choices":{"A":"$18","B":"$21.60","C":"$24","D":"$36"},"correctAnswer":"B","explanation":"18% = 0.18, and 0.18 x 120 = $21.60.","standard":"MA.6.AR.3.4","difficulty":"hard"}
+      {
+        "id": "6-5-q1",
+        "section": "math",
+        "question": "What is 50% of 40?",
+        "choices": {
+          "A": "4",
+          "B": "20",
+          "C": "80",
+          "D": "2"
+        },
+        "correctAnswer": "B",
+        "explanation": "50% = 0.5, and 0.5 x 40 = 20.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q2",
+        "section": "math",
+        "question": "What is 10% of 90?",
+        "choices": {
+          "A": "0.9",
+          "B": "9",
+          "C": "19",
+          "D": "90"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% = 0.10, and 0.10 x 90 = 9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q3",
+        "section": "math",
+        "question": "What is 25% of 60?",
+        "choices": {
+          "A": "12",
+          "B": "15",
+          "C": "20",
+          "D": "25"
+        },
+        "correctAnswer": "B",
+        "explanation": "25% = 0.25, and 0.25 x 60 = 15. (Also 1/4 of 60 = 15.)",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q4",
+        "section": "math",
+        "question": "What is 30% of 200?",
+        "choices": {
+          "A": "6",
+          "B": "30",
+          "C": "60",
+          "D": "600"
+        },
+        "correctAnswer": "C",
+        "explanation": "30% = 0.30, and 0.30 x 200 = 60.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q5",
+        "section": "math",
+        "question": "What is 5% of 80?",
+        "choices": {
+          "A": "4",
+          "B": "8",
+          "C": "16",
+          "D": "40"
+        },
+        "correctAnswer": "A",
+        "explanation": "5% = 0.05, and 0.05 x 80 = 4.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q6",
+        "section": "math",
+        "question": "A $50 game is 40% off. How many dollars are taken off?",
+        "choices": {
+          "A": "$10",
+          "B": "$20",
+          "C": "$30",
+          "D": "$40"
+        },
+        "correctAnswer": "B",
+        "explanation": "40% = 0.40, and 0.40 x 50 = $20 off.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q7",
+        "section": "math",
+        "question": "What is 15% of 200?",
+        "choices": {
+          "A": "15",
+          "B": "30",
+          "C": "45",
+          "D": "300"
+        },
+        "correctAnswer": "B",
+        "explanation": "15% = 0.15, and 0.15 x 200 = 30.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q8",
+        "section": "math",
+        "question": "A class has 25 students. 80% turned in homework. How many students turned it in?",
+        "choices": {
+          "A": "5",
+          "B": "15",
+          "C": "20",
+          "D": "25"
+        },
+        "correctAnswer": "C",
+        "explanation": "80% = 0.80, and 0.80 x 25 = 20 students.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-5-q9",
+        "section": "math",
+        "question": "What is 100% of 35?",
+        "choices": {
+          "A": "0",
+          "B": "3.5",
+          "C": "35",
+          "D": "70"
+        },
+        "correctAnswer": "C",
+        "explanation": "100% = 1, and 1 x 35 = 35. 100% of a number is the whole number itself.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q10",
+        "section": "math",
+        "question": "A $120 bill includes a 18% tip. How much is the tip?",
+        "choices": {
+          "A": "$18",
+          "B": "$21.60",
+          "C": "$24",
+          "D": "$36"
+        },
+        "correctAnswer": "B",
+        "explanation": "18% = 0.18, and 0.18 x 120 = $21.60.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-5-q11",
+        "section": "math",
+        "question": "What is 50% of 60?",
+        "choices": {
+          "B": "30",
+          "A": "6",
+          "C": "12",
+          "D": "120"
+        },
+        "correctAnswer": "B",
+        "explanation": "50% = 0.5, and 0.5 × 60 = 30.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q12",
+        "section": "math",
+        "question": "What is 10% of 140?",
+        "choices": {
+          "A": "14",
+          "B": "1.4",
+          "C": "140",
+          "D": "40"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% = 0.10, and 0.10 × 140 = 14.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q13",
+        "section": "math",
+        "question": "What is 25% of 40?",
+        "choices": {
+          "C": "10",
+          "A": "4",
+          "B": "20",
+          "D": "25"
+        },
+        "correctAnswer": "C",
+        "explanation": "25% = 0.25, and 0.25 × 40 = 10. (Also 1/4 of 40 = 10.)",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q14",
+        "section": "math",
+        "question": "What is 100% of 48?",
+        "choices": {
+          "A": "48",
+          "B": "0",
+          "C": "4.8",
+          "D": "96"
+        },
+        "correctAnswer": "A",
+        "explanation": "100% = 1, and 1 × 48 = 48. 100% of a number is the number itself.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q15",
+        "section": "math",
+        "question": "What is 50% of 90?",
+        "choices": {
+          "B": "45",
+          "A": "9",
+          "C": "18",
+          "D": "180"
+        },
+        "correctAnswer": "B",
+        "explanation": "50% = 0.5, and 0.5 × 90 = 45.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q16",
+        "section": "math",
+        "question": "What is 10% of 250?",
+        "choices": {
+          "D": "25",
+          "A": "2.5",
+          "B": "250",
+          "C": "50"
+        },
+        "correctAnswer": "D",
+        "explanation": "10% = 0.10, and 0.10 × 250 = 25.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q17",
+        "section": "math",
+        "question": "What is 25% of 80?",
+        "choices": {
+          "A": "20",
+          "B": "8",
+          "C": "40",
+          "D": "25"
+        },
+        "correctAnswer": "A",
+        "explanation": "25% = 0.25, and 0.25 × 80 = 20. (Also 1/4 of 80 = 20.)",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q18",
+        "section": "math",
+        "question": "What is 50% of 24?",
+        "choices": {
+          "B": "12",
+          "A": "6",
+          "C": "2.4",
+          "D": "48"
+        },
+        "correctAnswer": "B",
+        "explanation": "50% = 0.5, and 0.5 × 24 = 12.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q19",
+        "section": "math",
+        "question": "What is 100% of 35?",
+        "choices": {
+          "D": "35",
+          "A": "0",
+          "B": "3.5",
+          "C": "70"
+        },
+        "correctAnswer": "D",
+        "explanation": "100% = 1, and 1 × 35 = 35.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q20",
+        "section": "math",
+        "question": "What is 10% of 70?",
+        "choices": {
+          "A": "7",
+          "B": "0.7",
+          "C": "70",
+          "D": "17"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% = 0.10, and 0.10 × 70 = 7.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q21",
+        "section": "math",
+        "question": "What is 50% of 200?",
+        "choices": {
+          "B": "100",
+          "A": "20",
+          "C": "2",
+          "D": "400"
+        },
+        "correctAnswer": "B",
+        "explanation": "50% = 0.5, and 0.5 × 200 = 100.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q22",
+        "section": "math",
+        "question": "What is 25% of 120?",
+        "choices": {
+          "C": "30",
+          "A": "12",
+          "B": "60",
+          "D": "25"
+        },
+        "correctAnswer": "C",
+        "explanation": "25% = 0.25, and 0.25 × 120 = 30. (Also 1/4 of 120 = 30.)",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-5-q23",
+        "section": "math",
+        "question": "What is 30% of 150?",
+        "choices": {
+          "B": "45",
+          "A": "15",
+          "C": "30",
+          "D": "60"
+        },
+        "correctAnswer": "B",
+        "explanation": "30% = 0.30, and 0.30 × 150 = 45.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q24",
+        "section": "math",
+        "question": "What is 40% of 90?",
+        "choices": {
+          "D": "36",
+          "A": "9",
+          "B": "18",
+          "C": "54"
+        },
+        "correctAnswer": "D",
+        "explanation": "40% = 0.40, and 0.40 × 90 = 36.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q25",
+        "section": "math",
+        "question": "What is 5% of 140?",
+        "choices": {
+          "A": "7",
+          "B": "14",
+          "C": "28",
+          "D": "70"
+        },
+        "correctAnswer": "A",
+        "explanation": "5% = 0.05, and 0.05 × 140 = 7.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q26",
+        "section": "math",
+        "question": "What is 60% of 25?",
+        "choices": {
+          "B": "15",
+          "A": "6",
+          "C": "10",
+          "D": "20"
+        },
+        "correctAnswer": "B",
+        "explanation": "60% = 0.60, and 0.60 × 25 = 15.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q27",
+        "section": "math",
+        "question": "What is 15% of 80?",
+        "choices": {
+          "D": "12",
+          "A": "8",
+          "B": "16",
+          "C": "24"
+        },
+        "correctAnswer": "D",
+        "explanation": "15% = 0.15, and 0.15 × 80 = 12.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q28",
+        "section": "math",
+        "question": "A $90 jacket is 40% off. How many dollars are taken off?",
+        "choices": {
+          "A": "$36",
+          "B": "$9",
+          "C": "$18",
+          "D": "$54"
+        },
+        "correctAnswer": "A",
+        "explanation": "40% = 0.40, and 0.40 × 90 = $36 off.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q29",
+        "section": "math",
+        "question": "What is 75% of 40?",
+        "choices": {
+          "B": "30",
+          "A": "10",
+          "C": "20",
+          "D": "34"
+        },
+        "correctAnswer": "B",
+        "explanation": "75% = 0.75, and 0.75 × 40 = 30. (Also 3/4 of 40 = 30.)",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q30",
+        "section": "math",
+        "question": "What is 90% of 30?",
+        "choices": {
+          "D": "27",
+          "A": "3",
+          "B": "9",
+          "C": "33"
+        },
+        "correctAnswer": "D",
+        "explanation": "90% = 0.90, and 0.90 × 30 = 27.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q31",
+        "section": "math",
+        "question": "What is 20% of 85?",
+        "choices": {
+          "A": "17",
+          "B": "8.5",
+          "C": "34",
+          "D": "42.5"
+        },
+        "correctAnswer": "A",
+        "explanation": "20% = 0.20, and 0.20 × 85 = 17.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q32",
+        "section": "math",
+        "question": "What is 2% of 500?",
+        "choices": {
+          "B": "10",
+          "A": "5",
+          "C": "20",
+          "D": "50"
+        },
+        "correctAnswer": "B",
+        "explanation": "2% = 0.02, and 0.02 × 500 = 10.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q33",
+        "section": "math",
+        "question": "What is 6% of 150?",
+        "choices": {
+          "D": "9",
+          "A": "6",
+          "B": "15",
+          "C": "18"
+        },
+        "correctAnswer": "D",
+        "explanation": "6% = 0.06, and 0.06 × 150 = 9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q34",
+        "section": "math",
+        "question": "What is 7% of 200?",
+        "choices": {
+          "A": "14",
+          "B": "7",
+          "C": "21",
+          "D": "70"
+        },
+        "correctAnswer": "A",
+        "explanation": "7% = 0.07, and 0.07 × 200 = 14.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-5-q35",
+        "section": "math",
+        "question": "A class has 45 students. 80% turned in homework. How many turned it in?",
+        "choices": {
+          "A": "36",
+          "B": "9",
+          "C": "18",
+          "D": "40"
+        },
+        "correctAnswer": "A",
+        "explanation": "80% = 0.80, and 0.80 × 45 = 36 students.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-5-q36",
+        "section": "math",
+        "question": "What is 18% of 200?",
+        "choices": {
+          "B": "36",
+          "A": "18",
+          "C": "54",
+          "D": "72"
+        },
+        "correctAnswer": "B",
+        "explanation": "18% = 0.18, and 0.18 × 200 = 36.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-5-q37",
+        "section": "math",
+        "question": "What is 110% of 50?",
+        "choices": {
+          "D": "55",
+          "A": "5.5",
+          "B": "45",
+          "C": "60"
+        },
+        "correctAnswer": "D",
+        "explanation": "110% = 1.10, and 1.10 × 50 = 55. (More than 100%, so more than 50.)",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-5-q38",
+        "section": "math",
+        "question": "What is 150% of 40?",
+        "choices": {
+          "A": "60",
+          "B": "20",
+          "C": "45",
+          "D": "80"
+        },
+        "correctAnswer": "A",
+        "explanation": "150% = 1.50, and 1.50 × 40 = 60.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-5-q39",
+        "section": "math",
+        "question": "A $200 bill includes a 35% service charge. How much is the charge?",
+        "choices": {
+          "B": "$70",
+          "A": "$35",
+          "C": "$50",
+          "D": "$135"
+        },
+        "correctAnswer": "B",
+        "explanation": "35% = 0.35, and 0.35 × 200 = $70.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-5-q40",
+        "section": "math",
+        "question": "What is 125% of 80?",
+        "choices": {
+          "C": "100",
+          "A": "80",
+          "B": "90",
+          "D": "105"
+        },
+        "correctAnswer": "C",
+        "explanation": "125% = 1.25, and 1.25 × 80 = 100. (More than 100%, so more than 80.)",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      }
     ]
   },
   "6-6": {
     "learn": "Find the Whole Given the Part and the Percent\n\nSometimes you know the PART and the PERCENT, and you need the WHOLE.\nTo find the whole: divide the part by the percent (written as a decimal).\nWhole = part divided by decimal percent.\n\nWorked Example 1: 12 is 20% of what number?\nStep 1: Write the percent as a decimal: 20% = 0.20.\nStep 2: Divide the part by the decimal: 12 divided by 0.20 = 60.\nAnswer: The whole is 60.\nCheck: Plug back — 20% of 60 = 0.20 x 60 = 12. Correct.\n\nWorked Example 2: 9 is 25% of what number?\nStep 1: 25% = 0.25.\nStep 2: 9 divided by 0.25 = 36.\nAnswer: The whole is 36.\nCheck: Plug back — 25% of 36 = 0.25 x 36 = 9. Correct.\n\nWorked Example 3: A team won 15 games, which was 75% of all the games. How many games did they play?\nStep 1: 75% = 0.75.\nStep 2: 15 divided by 0.75 = 20.\nAnswer: They played 20 games.\nCheck: Plug back — 75% of 20 = 0.75 x 20 = 15. Correct.",
     "questions": [
-      {"id":"6-6-q1","section":"math","question":"10 is 50% of what number?","choices":{"A":"5","B":"15","C":"20","D":"100"},"correctAnswer":"C","explanation":"50% = 0.5. 10 divided by 0.5 = 20. Check: 0.5 x 20 = 10.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-6-q2","section":"math","question":"6 is 10% of what number?","choices":{"A":"60","B":"16","C":"6","D":"0.6"},"correctAnswer":"A","explanation":"10% = 0.10. 6 divided by 0.10 = 60. Check: 0.10 x 60 = 6.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-6-q3","section":"math","question":"8 is 20% of what number?","choices":{"A":"16","B":"28","C":"40","D":"160"},"correctAnswer":"C","explanation":"20% = 0.20. 8 divided by 0.20 = 40. Check: 0.20 x 40 = 8.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-6-q4","section":"math","question":"15 is 25% of what number?","choices":{"A":"30","B":"45","C":"60","D":"75"},"correctAnswer":"C","explanation":"25% = 0.25. 15 divided by 0.25 = 60. Check: 0.25 x 60 = 15.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-6-q5","section":"math","question":"21 is 75% of what number?","choices":{"A":"24","B":"28","C":"32","D":"63"},"correctAnswer":"B","explanation":"75% = 0.75. 21 divided by 0.75 = 28. Check: 0.75 x 28 = 21.","standard":"MA.6.AR.3.4","difficulty":"hard"},
-      {"id":"6-6-q6","section":"math","question":"30 is 100% of what number?","choices":{"A":"3","B":"30","C":"60","D":"300"},"correctAnswer":"B","explanation":"100% = 1. 30 divided by 1 = 30. If 30 is the whole 100%, the number is 30.","standard":"MA.6.AR.3.4","difficulty":"easy"},
-      {"id":"6-6-q7","section":"math","question":"A store sold 18 hats, which was 30% of its stock. How many hats were in stock?","choices":{"A":"48","B":"54","C":"60","D":"90"},"correctAnswer":"C","explanation":"30% = 0.30. 18 divided by 0.30 = 60. Check: 0.30 x 60 = 18.","standard":"MA.6.AR.3.4","difficulty":"hard"},
-      {"id":"6-6-q8","section":"math","question":"4 is 5% of what number?","choices":{"A":"20","B":"40","C":"80","D":"100"},"correctAnswer":"C","explanation":"5% = 0.05. 4 divided by 0.05 = 80. Check: 0.05 x 80 = 4.","standard":"MA.6.AR.3.4","difficulty":"hard"},
-      {"id":"6-6-q9","section":"math","question":"45 is 90% of what number?","choices":{"A":"40","B":"50","C":"55","D":"90"},"correctAnswer":"B","explanation":"90% = 0.90. 45 divided by 0.90 = 50. Check: 0.90 x 50 = 45.","standard":"MA.6.AR.3.4","difficulty":"medium"},
-      {"id":"6-6-q10","section":"math","question":"A student answered 14 questions correctly, which was 70% of the test. How many questions were on the test?","choices":{"A":"18","B":"20","C":"21","D":"24"},"correctAnswer":"B","explanation":"70% = 0.70. 14 divided by 0.70 = 20. Check: 0.70 x 20 = 14.","standard":"MA.6.AR.3.4","difficulty":"medium"}
+      {
+        "id": "6-6-q1",
+        "section": "math",
+        "question": "10 is 50% of what number?",
+        "choices": {
+          "A": "5",
+          "B": "15",
+          "C": "20",
+          "D": "100"
+        },
+        "correctAnswer": "C",
+        "explanation": "50% = 0.5. 10 divided by 0.5 = 20. Check: 0.5 x 20 = 10.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q2",
+        "section": "math",
+        "question": "6 is 10% of what number?",
+        "choices": {
+          "A": "60",
+          "B": "16",
+          "C": "6",
+          "D": "0.6"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% = 0.10. 6 divided by 0.10 = 60. Check: 0.10 x 60 = 6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q3",
+        "section": "math",
+        "question": "8 is 20% of what number?",
+        "choices": {
+          "A": "16",
+          "B": "28",
+          "C": "40",
+          "D": "160"
+        },
+        "correctAnswer": "C",
+        "explanation": "20% = 0.20. 8 divided by 0.20 = 40. Check: 0.20 x 40 = 8.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q4",
+        "section": "math",
+        "question": "15 is 25% of what number?",
+        "choices": {
+          "A": "30",
+          "B": "45",
+          "C": "60",
+          "D": "75"
+        },
+        "correctAnswer": "C",
+        "explanation": "25% = 0.25. 15 divided by 0.25 = 60. Check: 0.25 x 60 = 15.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q5",
+        "section": "math",
+        "question": "21 is 75% of what number?",
+        "choices": {
+          "A": "24",
+          "B": "28",
+          "C": "32",
+          "D": "63"
+        },
+        "correctAnswer": "B",
+        "explanation": "75% = 0.75. 21 divided by 0.75 = 28. Check: 0.75 x 28 = 21.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q6",
+        "section": "math",
+        "question": "30 is 100% of what number?",
+        "choices": {
+          "A": "3",
+          "B": "30",
+          "C": "60",
+          "D": "300"
+        },
+        "correctAnswer": "B",
+        "explanation": "100% = 1. 30 divided by 1 = 30. If 30 is the whole 100%, the number is 30.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q7",
+        "section": "math",
+        "question": "A store sold 18 hats, which was 30% of its stock. How many hats were in stock?",
+        "choices": {
+          "A": "48",
+          "B": "54",
+          "C": "60",
+          "D": "90"
+        },
+        "correctAnswer": "C",
+        "explanation": "30% = 0.30. 18 divided by 0.30 = 60. Check: 0.30 x 60 = 18.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q8",
+        "section": "math",
+        "question": "4 is 5% of what number?",
+        "choices": {
+          "A": "20",
+          "B": "40",
+          "C": "80",
+          "D": "100"
+        },
+        "correctAnswer": "C",
+        "explanation": "5% = 0.05. 4 divided by 0.05 = 80. Check: 0.05 x 80 = 4.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q9",
+        "section": "math",
+        "question": "45 is 90% of what number?",
+        "choices": {
+          "A": "40",
+          "B": "50",
+          "C": "55",
+          "D": "90"
+        },
+        "correctAnswer": "B",
+        "explanation": "90% = 0.90. 45 divided by 0.90 = 50. Check: 0.90 x 50 = 45.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q10",
+        "section": "math",
+        "question": "A student answered 14 questions correctly, which was 70% of the test. How many questions were on the test?",
+        "choices": {
+          "A": "18",
+          "B": "20",
+          "C": "21",
+          "D": "24"
+        },
+        "correctAnswer": "B",
+        "explanation": "70% = 0.70. 14 divided by 0.70 = 20. Check: 0.70 x 20 = 14.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q11",
+        "section": "math",
+        "question": "5 is 50% of what number?",
+        "choices": {
+          "A": "10",
+          "B": "2.5",
+          "C": "15",
+          "D": "25"
+        },
+        "correctAnswer": "A",
+        "explanation": "50% = 0.5. 5 ÷ 0.5 = 10. Check: 0.5 × 10 = 5.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q12",
+        "section": "math",
+        "question": "9 is 10% of what number?",
+        "choices": {
+          "B": "90",
+          "A": "19",
+          "C": "9",
+          "D": "0.9"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% = 0.10. 9 ÷ 0.10 = 90. Check: 0.10 × 90 = 9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q13",
+        "section": "math",
+        "question": "7 is 10% of what number?",
+        "choices": {
+          "C": "70",
+          "A": "17",
+          "B": "7",
+          "D": "0.7"
+        },
+        "correctAnswer": "C",
+        "explanation": "10% = 0.10. 7 ÷ 0.10 = 70. Check: 0.10 × 70 = 7.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q14",
+        "section": "math",
+        "question": "22 is 50% of what number?",
+        "choices": {
+          "A": "44",
+          "B": "11",
+          "C": "33",
+          "D": "66"
+        },
+        "correctAnswer": "A",
+        "explanation": "50% = 0.5. 22 ÷ 0.5 = 44. Check: 0.5 × 44 = 22.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q15",
+        "section": "math",
+        "question": "4 is 10% of what number?",
+        "choices": {
+          "B": "40",
+          "A": "14",
+          "C": "4",
+          "D": "0.4"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% = 0.10. 4 ÷ 0.10 = 40. Check: 0.10 × 40 = 4.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q16",
+        "section": "math",
+        "question": "8 is 50% of what number?",
+        "choices": {
+          "D": "16",
+          "A": "4",
+          "B": "12",
+          "C": "24"
+        },
+        "correctAnswer": "D",
+        "explanation": "50% = 0.5. 8 ÷ 0.5 = 16. Check: 0.5 × 16 = 8.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q17",
+        "section": "math",
+        "question": "35 is 100% of what number?",
+        "choices": {
+          "A": "35",
+          "B": "3.5",
+          "C": "70",
+          "D": "350"
+        },
+        "correctAnswer": "A",
+        "explanation": "100% = 1. 35 ÷ 1 = 35. If 35 is the whole 100%, the number is 35.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q18",
+        "section": "math",
+        "question": "6 is 10% of what number?",
+        "choices": {
+          "B": "60",
+          "A": "16",
+          "C": "6",
+          "D": "0.6"
+        },
+        "correctAnswer": "B",
+        "explanation": "10% = 0.10. 6 ÷ 0.10 = 60. Check: 0.10 × 60 = 6.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q19",
+        "section": "math",
+        "question": "15 is 50% of what number?",
+        "choices": {
+          "D": "30",
+          "A": "7.5",
+          "B": "22.5",
+          "C": "45"
+        },
+        "correctAnswer": "D",
+        "explanation": "50% = 0.5. 15 ÷ 0.5 = 30. Check: 0.5 × 30 = 15.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q20",
+        "section": "math",
+        "question": "3 is 10% of what number?",
+        "choices": {
+          "A": "30",
+          "B": "13",
+          "C": "3",
+          "D": "0.3"
+        },
+        "correctAnswer": "A",
+        "explanation": "10% = 0.10. 3 ÷ 0.10 = 30. Check: 0.10 × 30 = 3.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q21",
+        "section": "math",
+        "question": "20 is 100% of what number?",
+        "choices": {
+          "B": "20",
+          "A": "2",
+          "C": "40",
+          "D": "200"
+        },
+        "correctAnswer": "B",
+        "explanation": "100% = 1. 20 ÷ 1 = 20. If 20 is the whole 100%, the number is 20.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q22",
+        "section": "math",
+        "question": "11 is 50% of what number?",
+        "choices": {
+          "D": "22",
+          "A": "5.5",
+          "B": "16.5",
+          "C": "33"
+        },
+        "correctAnswer": "D",
+        "explanation": "50% = 0.5. 11 ÷ 0.5 = 22. Check: 0.5 × 22 = 11.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-6-q23",
+        "section": "math",
+        "question": "12 is 20% of what number?",
+        "choices": {
+          "A": "60",
+          "B": "24",
+          "C": "48",
+          "D": "72"
+        },
+        "correctAnswer": "A",
+        "explanation": "20% = 0.20. 12 ÷ 0.20 = 60. Check: 0.20 × 60 = 12.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q24",
+        "section": "math",
+        "question": "16 is 20% of what number?",
+        "choices": {
+          "B": "80",
+          "A": "32",
+          "C": "64",
+          "D": "96"
+        },
+        "correctAnswer": "B",
+        "explanation": "20% = 0.20. 16 ÷ 0.20 = 80. Check: 0.20 × 80 = 16.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q25",
+        "section": "math",
+        "question": "24 is 40% of what number?",
+        "choices": {
+          "D": "60",
+          "A": "48",
+          "B": "72",
+          "C": "96"
+        },
+        "correctAnswer": "D",
+        "explanation": "40% = 0.40. 24 ÷ 0.40 = 60. Check: 0.40 × 60 = 24.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q26",
+        "section": "math",
+        "question": "45 is 90% of what number?",
+        "choices": {
+          "A": "50",
+          "B": "40",
+          "C": "55",
+          "D": "90"
+        },
+        "correctAnswer": "A",
+        "explanation": "90% = 0.90. 45 ÷ 0.90 = 50. Check: 0.90 × 50 = 45.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q27",
+        "section": "math",
+        "question": "14 is 70% of what number?",
+        "choices": {
+          "B": "20",
+          "A": "18",
+          "C": "21",
+          "D": "28"
+        },
+        "correctAnswer": "B",
+        "explanation": "70% = 0.70. 14 ÷ 0.70 = 20. Check: 0.70 × 20 = 14.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q28",
+        "section": "math",
+        "question": "12 is 30% of what number?",
+        "choices": {
+          "C": "40",
+          "A": "30",
+          "B": "36",
+          "D": "48"
+        },
+        "correctAnswer": "C",
+        "explanation": "30% = 0.30. 12 ÷ 0.30 = 40. Check: 0.30 × 40 = 12.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q29",
+        "section": "math",
+        "question": "20 is 40% of what number?",
+        "choices": {
+          "A": "50",
+          "B": "40",
+          "C": "60",
+          "D": "80"
+        },
+        "correctAnswer": "A",
+        "explanation": "40% = 0.40. 20 ÷ 0.40 = 50. Check: 0.40 × 50 = 20.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q30",
+        "section": "math",
+        "question": "42 is 70% of what number?",
+        "choices": {
+          "B": "60",
+          "A": "49",
+          "C": "54",
+          "D": "70"
+        },
+        "correctAnswer": "B",
+        "explanation": "70% = 0.70. 42 ÷ 0.70 = 60. Check: 0.70 × 60 = 42.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q31",
+        "section": "math",
+        "question": "27 is 90% of what number?",
+        "choices": {
+          "D": "30",
+          "A": "24",
+          "B": "33",
+          "C": "36"
+        },
+        "correctAnswer": "D",
+        "explanation": "90% = 0.90. 27 ÷ 0.90 = 30. Check: 0.90 × 30 = 27.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q32",
+        "section": "math",
+        "question": "28 is 40% of what number?",
+        "choices": {
+          "A": "70",
+          "B": "56",
+          "C": "84",
+          "D": "112"
+        },
+        "correctAnswer": "A",
+        "explanation": "40% = 0.40. 28 ÷ 0.40 = 70. Check: 0.40 × 70 = 28.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q33",
+        "section": "math",
+        "question": "36 is 60% of what number?",
+        "choices": {
+          "B": "60",
+          "A": "48",
+          "C": "72",
+          "D": "90"
+        },
+        "correctAnswer": "B",
+        "explanation": "60% = 0.60. 36 ÷ 0.60 = 60. Check: 0.60 × 60 = 36.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q34",
+        "section": "math",
+        "question": "30 is 60% of what number?",
+        "choices": {
+          "D": "50",
+          "A": "40",
+          "B": "55",
+          "C": "48"
+        },
+        "correctAnswer": "D",
+        "explanation": "60% = 0.60. 30 ÷ 0.60 = 50. Check: 0.60 × 50 = 30.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-6-q35",
+        "section": "math",
+        "question": "18 is 25% of what number?",
+        "choices": {
+          "A": "72",
+          "B": "45",
+          "C": "54",
+          "D": "90"
+        },
+        "correctAnswer": "A",
+        "explanation": "25% = 0.25. 18 ÷ 0.25 = 72. Check: 0.25 × 72 = 18.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q36",
+        "section": "math",
+        "question": "27 is 75% of what number?",
+        "choices": {
+          "B": "36",
+          "A": "20",
+          "C": "32",
+          "D": "40"
+        },
+        "correctAnswer": "B",
+        "explanation": "75% = 0.75. 27 ÷ 0.75 = 36. Check: 0.75 × 36 = 27.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q37",
+        "section": "math",
+        "question": "9 is 5% of what number?",
+        "choices": {
+          "D": "180",
+          "A": "45",
+          "B": "90",
+          "C": "450"
+        },
+        "correctAnswer": "D",
+        "explanation": "5% = 0.05. 9 ÷ 0.05 = 180. Check: 0.05 × 180 = 9.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q38",
+        "section": "math",
+        "question": "14 is 25% of what number?",
+        "choices": {
+          "A": "56",
+          "B": "35",
+          "C": "42",
+          "D": "70"
+        },
+        "correctAnswer": "A",
+        "explanation": "25% = 0.25. 14 ÷ 0.25 = 56. Check: 0.25 × 56 = 14.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q39",
+        "section": "math",
+        "question": "A team won 21 games, which was 75% of all games. How many games did they play?",
+        "choices": {
+          "B": "28",
+          "A": "16",
+          "C": "24",
+          "D": "32"
+        },
+        "correctAnswer": "B",
+        "explanation": "75% = 0.75. 21 ÷ 0.75 = 28. Check: 0.75 × 28 = 21.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-6-q40",
+        "section": "math",
+        "question": "16 is 5% of what number?",
+        "choices": {
+          "C": "320",
+          "A": "80",
+          "B": "160",
+          "D": "640"
+        },
+        "correctAnswer": "C",
+        "explanation": "5% = 0.05. 16 ÷ 0.05 = 320. Check: 0.05 × 320 = 16.",
+        "standard": "MA.6.AR.3.4",
+        "difficulty": "hard"
+      }
     ]
   }
 }
