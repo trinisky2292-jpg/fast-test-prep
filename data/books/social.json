@@ -1,12 +1,12 @@
 {
   "subject": "social",
-  "title": "Social Studies Book — M/J World History (Grade 6)",
-  "intro": "Travel back in time to meet the first humans and the amazing ancient civilizations that built the world we live in today!",
+  "title": "Social Studies Book — World History: Ancient Civilizations (Grade 6)",
+  "intro": "Follow along with your class through every chapter of World History: Ancient Civilizations, from the first humans to mighty Rome!",
   "practiceSection": null,
   "topics": [
     {
       "n": 1,
-      "title": "Thinking Like a Historian",
+      "title": "The Tools of History",
       "lessons": [
         {
           "code": "1-1",
@@ -26,96 +26,50 @@
         },
         {
           "code": "1-3",
-          "title": "How Historians Investigate the Past",
-          "teach": "Historical inquiry means asking questions about the past and hunting for evidence to answer them, almost like being a detective. Historians compare different sources, look for who made them and why, and notice that two people can describe the same event differently. History also connects to other subjects like geography, economics, and government.",
-          "videoId": null,
-          "videoTitle": null,
+          "title": "How Historians and Geographers Investigate",
+          "teach": "Historical inquiry means asking questions about the past and hunting for evidence to answer them, almost like being a detective. Historians compare different sources and notice that two people can describe the same event differently. Geographers use the five themes and tools like maps and globes to study where events happened and why place matters.",
+          "videoId": "tuvKtMtEdoE",
+          "videoTitle": "Map skills / latitude & longitude — Miacademy Learning Channel",
           "standard": "SS.6.W.1.4"
         }
       ]
     },
     {
       "n": 2,
-      "title": "Geography and Map Skills",
+      "title": "The Earliest Human Societies",
       "lessons": [
         {
           "code": "2-1",
-          "title": "Latitude, Longitude, and Map Tools",
-          "teach": "Maps use a grid of lines to find any spot on Earth: latitude lines run east-west and measure how far north or south you are, while longitude lines run north-south and measure how far east or west you are. Where two lines cross gives an exact location. Geographers also use scale, a compass rose, and special maps to study the world.",
-          "videoId": "tuvKtMtEdoE",
-          "videoTitle": "Map skills / latitude & longitude — Miacademy Learning Channel",
-          "standard": "SS.6.G.1.1"
-        },
-        {
-          "code": "2-2",
-          "title": "Types of Maps and Map Projections",
-          "teach": "Because Earth is round and maps are flat, every map projection stretches or shrinks parts of the world a little. Political maps show borders and cities, physical maps show landforms like mountains and rivers, and special-purpose maps show things like climate or population. You pick the map that best fits the question you are asking.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.G.1.2"
-        },
-        {
-          "code": "2-3",
-          "title": "Rivers, Seas, and Where People Settle",
-          "teach": "Major bodies of water shaped where early people built their homes. Rivers gave fresh water for drinking and farming, and seas became highways for trade and travel. That is why so many of the world's first civilizations grew right beside rivers and along coastlines.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.G.1.6"
-        },
-        {
-          "code": "2-4",
-          "title": "Cultural Diffusion: How Ideas Spread",
-          "teach": "Cultural diffusion is the spreading of ideas, goods, religions, and inventions from one group of people to another. It happened through trade, travel, migration, and even war. This is how things like the alphabet, new foods, and beliefs moved from one ancient civilization to the next.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.G.2.6"
-        }
-      ]
-    },
-    {
-      "n": 3,
-      "title": "Early Humans and the Agricultural Revolution",
-      "lessons": [
-        {
-          "code": "3-1",
-          "title": "Hunter-Gatherers vs. Early Farmers",
-          "teach": "For most of human history, people were hunter-gatherers who moved around to hunt animals and gather wild plants. About 10,000 years ago, some groups learned to plant crops and raise animals, so they could stay in one place. This new farming life let people store food, build permanent homes, and grow into larger communities.",
+          "title": "Hunter-Gatherers and Human Migration",
+          "teach": "For most of human history, people were hunter-gatherers who moved around to hunt animals and gather wild plants. Archaeologists find the oldest evidence of humans in Africa, then trace how people slowly migrated across the whole planet by following bones, tools, and cave art. These migrations spread people, and their cultures, to nearly every continent.",
           "videoId": "Yocja_N5s1I",
           "videoTitle": "Early humans / agricultural revolution — Crash Course World History #1",
           "standard": "SS.6.W.2.1"
         },
         {
-          "code": "3-2",
-          "title": "Farming, Metal Tools, and the Rise of Civilization",
-          "teach": "When farming produced extra food, not everyone had to grow crops, so people could become builders, priests, traders, or leaders. Learning to work metals like bronze gave stronger tools and weapons. These changes led to bigger populations, towns, and eventually the first civilizations.",
+          "code": "2-2",
+          "title": "The Agricultural Revolution",
+          "teach": "About 10,000 years ago, some groups learned to plant crops and raise animals, so they could stay in one place instead of always moving. This new farming life let people store extra food, build permanent homes, and grow into larger communities. When farming produced extra food, not everyone had to grow crops, so people could become builders, priests, traders, or leaders.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.2.2"
         },
         {
-          "code": "3-3",
+          "code": "2-3",
           "title": "The Characteristics of a Civilization",
-          "teach": "A civilization is more than just a big group of people — it usually has cities, organized government, a writing system, specialized jobs, social classes, and a shared religion or culture. Spotting these features helps us tell a true civilization apart from a small village. Early river valleys had all of these traits.",
+          "teach": "A civilization is more than just a big group of people — it usually has cities, organized government, a writing system, specialized jobs, social classes, and a shared religion or culture. Learning to work metals like bronze gave stronger tools and weapons that helped these societies grow. Spotting these features helps us tell a true civilization apart from a small village.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.2.3"
-        },
-        {
-          "code": "3-4",
-          "title": "Tracing Early Human Migration",
-          "teach": "Archaeologists find the oldest evidence of humans in Africa and Asia, then trace how people slowly migrated across the whole planet. By following bones, tools, and cave art, scientists can map the routes early humans took. These migrations spread people, and their cultures, to nearly every continent.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.G.4.3"
         }
       ]
     },
     {
-      "n": 4,
+      "n": 3,
       "title": "Ancient Mesopotamia",
       "lessons": [
         {
-          "code": "4-1",
+          "code": "3-1",
           "title": "The Land Between Two Rivers",
           "teach": "Mesopotamia means 'land between the rivers,' sitting between the Tigris and Euphrates in the Middle East. The rivers flooded and left rich soil, making it great for farming — people even called this area the Fertile Crescent. This good land helped one of the world's first civilizations grow here.",
           "videoId": "sohXPx_XZ6Y",
@@ -123,23 +77,67 @@
           "standard": "SS.6.W.2.3"
         },
         {
-          "code": "4-2",
-          "title": "Achievements: Writing, Wheel, and Cities",
-          "teach": "The Sumerians of Mesopotamia gave the world some huge 'firsts,' including cuneiform — one of the earliest writing systems made by pressing wedges into clay. They also built the first cities, used the wheel, and created early math based on the number 60 (which is why we still have 60-minute hours). These inventions shaped civilizations for thousands of years.",
+          "code": "3-2",
+          "title": "Sumer: Writing, the Wheel, and Cities",
+          "teach": "The Sumerians of Mesopotamia gave the world some huge 'firsts,' including cuneiform — one of the earliest writing systems, made by pressing wedges into clay. They also built the first cities, used the wheel, and created early math based on the number 60 (which is why we still have 60-minute hours). These inventions shaped civilizations for thousands of years.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.2.7"
         },
         {
-          "code": "4-3",
-          "title": "Hammurabi and His Famous Code",
-          "teach": "Hammurabi was a Babylonian king who wrote down one of the first sets of laws, called the Code of Hammurabi, and carved it on a tall stone for everyone to see. The laws followed the idea of 'an eye for an eye,' so punishments matched the crime. Writing laws down meant rules applied to everyone, not just whatever a ruler felt like that day.",
+          "code": "3-3",
+          "title": "Religion and Daily Life in Sumer",
+          "teach": "The Sumerians believed in many gods and built giant stepped temples called ziggurats to honor them. Most people farmed or worked as crafters, while priests and kings held the most power at the top of society. Their religion explained the world around them and shaped how their cities were run.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.4"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "City-States in Mesopotamia",
+      "lessons": [
+        {
+          "code": "4-1",
+          "title": "City-States and Their Rulers",
+          "teach": "Early Mesopotamia was made up of city-states, which were cities that ruled themselves and the farmland around them. Each city-state had its own king, gods, and army, and they often fought each other over land and water. Powerful leaders like Sargon of Akkad conquered many city-states and built the world's first empire.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.2.8"
         },
         {
-          "code": "4-4",
+          "code": "4-2",
+          "title": "Hammurabi and His Famous Code",
+          "teach": "Hammurabi was a Babylonian king who wrote down one of the first sets of laws, called the Code of Hammurabi, and carved it on a tall stone for everyone to see. The laws followed the idea of 'an eye for an eye,' so punishments matched the crime. Writing laws down meant rules applied to everyone, not just whatever a ruler felt like that day.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.8"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Early Empires",
+      "lessons": [
+        {
+          "code": "5-1",
+          "title": "The Assyrians, Chaldeans, and Persians",
+          "teach": "After Babylon, powerful empires like the Assyrians and Chaldeans rose by building strong armies and conquering their neighbors. Later the huge Persian Empire connected many lands with roads and a fair system of governors. Each empire grew larger by uniting many different peoples under one ruler.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.4"
+        },
+        {
+          "code": "5-2",
+          "title": "The Phoenicians and Their Alphabet",
+          "teach": "The Phoenicians were master sailors and traders who sailed across the Mediterranean Sea, founding colonies like Carthage. They are most famous for creating an easy alphabet of letters that stood for sounds, which later shaped the alphabets we use today. Through trade and travel they spread goods like purple dye and, even more importantly, the idea of writing.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.3.1"
+        },
+        {
+          "code": "5-3",
           "title": "The Israelites and Monotheism",
           "teach": "The ancient Israelites were special because they believed in just one God, an idea called monotheism, while most neighbors worshipped many gods. Their beliefs and stories were written in their sacred texts and stressed following moral laws like the Ten Commandments. This idea of one God later shaped Judaism, Christianity, and Islam.",
           "videoId": null,
@@ -149,11 +147,11 @@
       ]
     },
     {
-      "n": 5,
+      "n": 6,
       "title": "Ancient Egypt",
       "lessons": [
         {
-          "code": "5-1",
+          "code": "6-1",
           "title": "The Gift of the Nile",
           "teach": "Egypt grew along the Nile River, which flooded each year and left behind rich black soil perfect for farming. The desert around Egypt acted like a natural wall, protecting it from invaders. Because the Nile was so important, the Greek historian Herodotus called Egypt 'the gift of the Nile.'",
           "videoId": "Z3Wvw6BivVI",
@@ -161,29 +159,81 @@
           "standard": "SS.6.W.2.3"
         },
         {
-          "code": "5-2",
-          "title": "Pyramids, Hieroglyphics, and Achievements",
-          "teach": "The Egyptians built enormous stone pyramids as tombs for their pharaohs and created a picture-writing system called hieroglyphics. They were skilled in medicine, math, and engineering, and invented papyrus, an early kind of paper. Many of their achievements still amaze scientists today.",
+          "code": "6-2",
+          "title": "Pharaohs and Key Figures of Egypt",
+          "teach": "Egypt was ruled by pharaohs, kings who were seen as god-like leaders who organized building projects, armies, and trade. Famous figures include King Tutankhamun, whose untouched tomb was discovered in 1922, and Hatshepsut, one of the few female pharaohs. The pharaoh sat at the very top of Egyptian society, with priests, scribes, and farmers below.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.6"
+        },
+        {
+          "code": "6-3",
+          "title": "Egyptian Religion and Daily Life",
+          "teach": "Egyptians believed in many gods and in an afterlife, so they carefully preserved bodies as mummies to prepare for the next world. Religion shaped daily life, from festivals to the way pharaohs were buried in grand tombs. Family, farming, and faith were the center of life along the Nile.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.4"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Pyramids on the Nile",
+      "lessons": [
+        {
+          "code": "7-1",
+          "title": "Building the Pyramids",
+          "teach": "The Egyptians built enormous stone pyramids as tombs for their pharaohs, with the Great Pyramid at Giza being the largest of all. Thousands of skilled workers cut, moved, and stacked huge stone blocks with amazing precision. These pyramids show off Egypt's incredible engineering, math, and organization.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.2.5"
         },
         {
-          "code": "5-3",
-          "title": "Pharaohs and Key Figures of Egypt",
-          "teach": "Egypt was ruled by pharaohs, kings who were seen as god-like leaders. Famous figures include King Tutankhamun, whose untouched tomb was discovered in 1922, and Hatshepsut, one of the few female pharaohs. These leaders organized building projects, armies, and trade.",
+          "code": "7-2",
+          "title": "Hieroglyphics and Egyptian Achievements",
+          "teach": "The Egyptians created a picture-writing system called hieroglyphics and wrote it on papyrus, an early kind of paper. They were also skilled in medicine, math, astronomy, and engineering. Many of their achievements, like a 365-day calendar, still amaze scientists today.",
           "videoId": null,
           "videoTitle": null,
-          "standard": "SS.6.W.2.6"
+          "standard": "SS.6.W.2.5"
         }
       ]
     },
     {
-      "n": 6,
+      "n": 8,
+      "title": "Kush and Other African Kingdoms",
+      "lessons": [
+        {
+          "code": "8-1",
+          "title": "The Kingdom of Kush",
+          "teach": "South of Egypt along the Nile rose the kingdom of Kush, also called Nubia, which grew rich by trading gold, ivory, and iron. The Kushites learned from Egypt but built their own culture, and for a time their kings even ruled Egypt itself. Their capital cities became busy centers of trade and metalworking.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.3.18"
+        },
+        {
+          "code": "8-2",
+          "title": "Axum and East African Trade",
+          "teach": "The kingdom of Axum in East Africa became a powerful trading center connecting Africa, the Mediterranean, and the Indian Ocean. Axum was one of the first kingdoms to adopt Christianity, which spread into Ethiopia. These African kingdoms show that great civilizations grew across the whole continent.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.3.18"
+        },
+        {
+          "code": "8-3",
+          "title": "Trade and Money in the Ancient World",
+          "teach": "Long ago people traded by barter, swapping goods directly, like trading grain for cloth. Over time civilizations created money, such as coins, as a medium of exchange that made trading much easier. Trade connected distant regions, spreading not just goods but also ideas and inventions.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.E.3.1"
+        }
+      ]
+    },
+    {
+      "n": 9,
       "title": "Ancient India",
       "lessons": [
         {
-          "code": "6-1",
+          "code": "9-1",
           "title": "The Indus Valley Civilization",
           "teach": "One of the earliest civilizations grew in the Indus River Valley in what is now Pakistan and India. Cities like Harappa and Mohenjo-Daro had advanced features like brick houses, straight streets, and even indoor plumbing and sewer systems. Their planning shows how organized this ancient society was.",
           "videoId": "n7ndRwqJYDM",
@@ -191,7 +241,7 @@
           "standard": "SS.6.W.2.3"
         },
         {
-          "code": "6-2",
+          "code": "9-2",
           "title": "Aryan Migrations and the Caste System",
           "teach": "After the Indus cities declined, groups called the Aryans migrated into India and shaped its language and culture. Society became divided into ranked groups called the caste system, where the family you were born into decided your role in life. People generally could not move from one caste to another.",
           "videoId": null,
@@ -199,29 +249,21 @@
           "standard": "SS.6.W.4.1"
         },
         {
-          "code": "6-3",
-          "title": "Hinduism and Buddhism",
-          "teach": "Hinduism is one of the world's oldest religions, teaching ideas like karma, reincarnation, and many gods who are seen as forms of one spirit. Buddhism began when a prince named Siddhartha Gautama, the Buddha, taught that letting go of selfish desire leads to peace. Both religions started in India and spread across Asia.",
+          "code": "9-3",
+          "title": "Hinduism, Buddhism, and India's Empires",
+          "teach": "Hinduism teaches ideas like karma and reincarnation, while Buddhism began when a prince named Siddhartha Gautama, the Buddha, taught that letting go of selfish desire leads to peace. The Mauryan Empire's ruler Asoka spread Buddhism and ideas of peace, and the later Gupta Empire became India's 'Golden Age,' helping create the number zero. Both religions started in India and spread across Asia.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.4.2"
-        },
-        {
-          "code": "6-4",
-          "title": "The Mauryan and Gupta Empires",
-          "teach": "The Mauryan Empire united much of India, and its greatest ruler, Asoka, spread Buddhism and ideas of peace after a terrible war. Later, the Gupta Empire is often called India's 'Golden Age' because of advances in math, science, and art. Gupta thinkers helped create the number zero and our modern number symbols.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.W.4.3"
         }
       ]
     },
     {
-      "n": 7,
+      "n": 10,
       "title": "Ancient China",
       "lessons": [
         {
-          "code": "7-1",
+          "code": "10-1",
           "title": "Rivers, Dynasties, and the Mandate of Heaven",
           "teach": "Chinese civilization grew along the Yellow and Yangtze Rivers and was ruled by families called dynasties. The Chinese believed in the Mandate of Heaven, the idea that heaven gave a ruler the right to rule only as long as he ruled wisely and fairly. If a dynasty became cruel or weak, people believed it lost the mandate and could be replaced.",
           "videoId": "ylWORyToTo4",
@@ -229,7 +271,7 @@
           "standard": "SS.6.W.4.6"
         },
         {
-          "code": "7-2",
+          "code": "10-2",
           "title": "Confucius, Laozi, and Chinese Thinkers",
           "teach": "Ancient China produced famous teachers whose ideas guided life for centuries. Confucius taught respect, good manners, and that leaders should set a good example, while Laozi (Daoism) taught living simply and in harmony with nature. Han Fei Zi taught Legalism, the belief that strict laws and harsh punishments keep order.",
           "videoId": null,
@@ -237,45 +279,87 @@
           "standard": "SS.6.W.4.7"
         },
         {
-          "code": "7-3",
-          "title": "Inventions and the Silk Roads",
-          "teach": "China invented paper, silk, the compass, and gunpowder, plus they built the Great Wall to defend their land. The Silk Roads were long trade routes that carried Chinese silk west and brought new goods and ideas back east. These routes connected China, India, the Middle East, and the Mediterranean world.",
+          "code": "10-3",
+          "title": "Inventions, the Silk Roads, and the Mongols",
+          "teach": "China invented paper, silk, the compass, and gunpowder, and built the Great Wall to defend their land. The Silk Roads were long trade routes that carried Chinese goods west and brought new ideas back east, connecting China, India, and the Mediterranean. Later the Mongols, led by Genghis Khan, built the largest land empire in history and made the Silk Roads safer for trade.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.4.10"
-        },
-        {
-          "code": "7-4",
-          "title": "The Mongol Empire",
-          "teach": "The Mongols, led by Genghis Khan, built the largest connected land empire in history by conquering across Asia and into Europe. His grandson Kublai Khan ruled China and welcomed traders and travelers like Marco Polo. Mongol control made the Silk Roads safer, which helped trade and ideas spread even farther.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.W.4.11"
         }
       ]
     },
     {
-      "n": 8,
+      "n": 11,
+      "title": "Ancient America",
+      "lessons": [
+        {
+          "code": "11-1",
+          "title": "Early Peoples of the Americas",
+          "teach": "Long ago, early peoples settled across North, Central, and South America, learning to farm crops like maize (corn), beans, and squash. Farming let them build villages and, over time, large cities and civilizations. These cultures grew far away from the river valleys of Africa and Asia but solved many of the same challenges.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.10"
+        },
+        {
+          "code": "11-2",
+          "title": "The Maya and Other Civilizations",
+          "teach": "The Maya of Central America built stone pyramids and cities in the rainforest and were skilled at astronomy, math, and a written language of symbols. They even understood the idea of zero and created an accurate calendar. Comparing them to the river civilizations shows how people everywhere developed cities, writing, and government.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.10"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "The Hebrew Kingdoms",
+      "lessons": [
+        {
+          "code": "12-1",
+          "title": "The Israelites and Their Beliefs",
+          "teach": "The Israelites believed in one God, an idea called monotheism, and recorded their history and laws in sacred texts. Leaders like Abraham, Moses, and King David are important figures in their story. Their belief in moral laws, like the Ten Commandments, made their religion very different from their neighbors.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.9"
+        },
+        {
+          "code": "12-2",
+          "title": "The Legacy of Judaism",
+          "teach": "The kingdoms of Israel and Judah were eventually conquered, and many Hebrews were scattered to new lands in what is called the Diaspora. Even far from home, they kept their faith and traditions alive. Judaism's idea of one God deeply influenced two later world religions, Christianity and Islam.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.2.9"
+        }
+      ]
+    },
+    {
+      "n": 13,
       "title": "Ancient Greece",
       "lessons": [
         {
-          "code": "8-1",
-          "title": "City-States and the Birth of Democracy",
-          "teach": "Greece was made of independent city-states called a polis, each with its own government. Athens created an early form of democracy, where citizens could vote on laws and take part in government — though women, enslaved people, and foreigners could not vote. These Greek ideas about voting and rule of law influence governments around the world today.",
+          "code": "13-1",
+          "title": "Geography and the Rise of City-States",
+          "teach": "Greece is a land of mountains and islands, which split the people into separate, independent city-states called a polis, each with its own government. The sea became a highway for trade, spreading Greek goods and ideas. This geography is a big reason Greece never became one single country in ancient times.",
           "videoId": "Q-mkVSasZIM",
           "videoTitle": "Ancient Greece (Persians & Greeks) — Crash Course World History #5",
           "standard": "SS.6.W.3.2"
         },
         {
-          "code": "8-2",
-          "title": "Athens vs. Sparta",
-          "teach": "Athens and Sparta were the two most famous Greek city-states, and they were very different. Athens valued education, art, and democracy, while Sparta focused almost entirely on training tough soldiers from a young age. Comparing them shows how two neighbors could build very different ways of life.",
+          "code": "13-2",
+          "title": "Athens, Sparta, and Democracy",
+          "teach": "Athens created an early form of democracy where citizens could vote on laws, though women, enslaved people, and foreigners could not vote. Sparta was very different, focusing almost entirely on training tough soldiers from a young age. Comparing them shows how two neighbors could build very different ways of life — and these Greek ideas about voting still shape governments today.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.3.3"
-        },
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Classical Greece",
+      "lessons": [
         {
-          "code": "8-3",
+          "code": "14-1",
           "title": "The Persian and Peloponnesian Wars",
           "teach": "When the huge Persian Empire invaded, the Greek city-states united and won surprising victories at battles like Marathon and Salamis. Later, Athens and Sparta turned on each other in the long Peloponnesian War, which weakened Greece. These wars show both the strength of Greek teamwork and the danger of fighting among themselves.",
           "videoId": null,
@@ -283,21 +367,29 @@
           "standard": "SS.6.W.3.4"
         },
         {
-          "code": "8-4",
-          "title": "Greek Achievements and the Hellenistic Age",
-          "teach": "The Greeks gave the world philosophy (thinkers like Socrates, Plato, and Aristotle), theater, the Olympics, and ideas in math and science. Alexander the Great then conquered a huge empire and spread Greek culture across the Middle East and Asia, beginning the Hellenistic Age. This blending of Greek and Eastern cultures shaped the ancient world for centuries.",
+          "code": "14-2",
+          "title": "Greek Achievements",
+          "teach": "The Greeks gave the world philosophy (thinkers like Socrates, Plato, and Aristotle), theater, the Olympics, and important ideas in math and science. Their art, architecture, and stories still inspire people today. So much of what we study in school traces back to these classical Greek thinkers.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.3.5"
+        },
+        {
+          "code": "14-3",
+          "title": "Alexander the Great and the Hellenistic Age",
+          "teach": "Alexander the Great conquered a huge empire stretching from Greece to India, spreading Greek culture wherever he went. This blending of Greek and Eastern cultures is called the Hellenistic Age. The mixing of ideas, languages, and art shaped the ancient world for centuries.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.3.7"
         }
       ]
     },
     {
-      "n": 9,
-      "title": "Ancient Rome",
+      "n": 15,
+      "title": "The Rise of Rome",
       "lessons": [
         {
-          "code": "9-1",
+          "code": "15-1",
           "title": "The Roman Republic",
           "teach": "Rome began as a republic, a government where citizens elected leaders called senators to make decisions for them. The Romans created a system with separation of powers and the rule of law, ideas that influenced later governments, including the United States. Roman citizens were also expected to take part in their government, a duty called civic duty.",
           "videoId": "oPf27gAup9U",
@@ -305,7 +397,7 @@
           "standard": "SS.6.W.3.10"
         },
         {
-          "code": "9-2",
+          "code": "15-2",
           "title": "The Punic Wars and Roman Expansion",
           "teach": "Rome and the city of Carthage fought three brutal wars called the Punic Wars over control of the Mediterranean. Carthage's general Hannibal famously marched elephants over the mountains, but Rome won in the end and destroyed Carthage. These victories turned Rome into the master of the Mediterranean and set the stage for a mighty empire.",
           "videoId": null,
@@ -313,58 +405,64 @@
           "standard": "SS.6.W.3.9"
         },
         {
-          "code": "9-3",
+          "code": "15-3",
           "title": "From Republic to Empire",
           "teach": "As Rome grew, its republic struggled, and a general named Julius Caesar took control before being assassinated. His heir Augustus became the first emperor, beginning the Roman Empire and a long period of peace called the Pax Romana. Power shifted from elected leaders to one powerful emperor.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.3.11"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "The Birth of Christianity",
+      "lessons": [
+        {
+          "code": "16-1",
+          "title": "The Beginnings of Christianity",
+          "teach": "Christianity began in the Roman lands of Judea, teaching belief in one God and following the life and teachings of Jesus. At first followers were a small group, but the religion spread steadily. Roman roads and trade routes actually helped these new ideas travel quickly across the empire.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.3.13"
         },
         {
-          "code": "9-4",
-          "title": "Roman Achievements and Early Christianity",
-          "teach": "Romans were master builders, creating roads, aqueducts that carried water, concrete buildings, and laws that still shape the world. During the empire, Christianity began in Roman lands, teaching belief in one God and Jesus, and slowly spread until it became the empire's main religion. Roman roads and trade actually helped these new ideas travel quickly.",
+          "code": "16-2",
+          "title": "Christianity Spreads Through the Empire",
+          "teach": "Despite early times of persecution, Christianity kept growing until it became the main religion of the Roman Empire. The Emperor Constantine made Christianity legal, and it spread to millions of people. This change reshaped the culture and beliefs of the ancient world.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SS.6.W.3.13"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Rome's Decline and Legacy",
+      "lessons": [
+        {
+          "code": "17-1",
+          "title": "Roman Achievements and Daily Life",
+          "teach": "Romans were master builders, creating roads, aqueducts that carried water, concrete buildings, and laws that still shape the world. Society included patricians, plebeians, women, children, and enslaved people, each with a very different daily life. Many words, buildings, and legal ideas we use today come straight from Rome.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.3.14"
         },
         {
-          "code": "9-5",
+          "code": "17-2",
           "title": "The Fall of the Western Roman Empire",
           "teach": "After the Pax Romana, the western half of the Roman Empire slowly declined over many years. Causes included weak leaders, money problems, a huge size that was hard to defend, and invasions by outside groups. By 476 AD the Western Roman Empire had fallen, ending the ancient classical world in Europe.",
           "videoId": null,
           "videoTitle": null,
           "standard": "SS.6.W.3.15"
-        }
-      ]
-    },
-    {
-      "n": 10,
-      "title": "African Kingdoms and Ancient Economics",
-      "lessons": [
-        {
-          "code": "10-1",
-          "title": "The Kingdoms of Kush and Axum",
-          "teach": "South of Egypt along the Nile rose the kingdom of Kush, which traded gold, ivory, and iron and even ruled Egypt for a time. Later the kingdom of Axum in East Africa became a powerful trading center and was one of the first kingdoms to adopt Christianity. These African kingdoms show that great civilizations grew across the whole continent.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.W.3.18"
         },
         {
-          "code": "10-2",
-          "title": "Trade, Barter, and Money in the Ancient World",
-          "teach": "Long ago people traded by barter, swapping goods directly, like trading grain for cloth. Over time civilizations created money, such as coins, as a medium of exchange that made trading much easier. Trade connected distant regions, spreading not just goods but also ideas and inventions.",
+          "code": "17-3",
+          "title": "The Lasting Legacy of the Ancient World",
+          "teach": "Even after Rome fell, the ideas of the ancient civilizations lived on. Greek democracy, Roman law, world religions, the alphabet, math, and writing all came from these early peoples. Studying ancient civilizations helps us understand the roots of the modern world we live in today.",
           "videoId": null,
           "videoTitle": null,
-          "standard": "SS.6.E.3.1"
-        },
-        {
-          "code": "10-3",
-          "title": "Scarcity, Supply, and Economic Choices",
-          "teach": "Scarcity means there is never enough of everything people want, so societies must make choices about how to use resources like land, labor, and tools. Choosing one thing means giving up another, which is called opportunity cost. Ancient civilizations used trade and new technology to deal with scarcity and grow their economies.",
-          "videoId": null,
-          "videoTitle": null,
-          "standard": "SS.6.E.1.3"
+          "standard": "SS.6.W.1.6"
         }
       ]
     }
