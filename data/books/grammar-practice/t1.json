@@ -4,16 +4,606 @@
     "standard": "ELA.6.C.3.1",
     "learn": "HOW TO TELL A COMPLETE SENTENCE FROM A FRAGMENT\n\nA complete sentence needs THREE things: a subject (who or what), a verb (the action or state of being), and a complete thought. If even one is missing, it is a fragment.\n\nExample 1 — 'The dog barked loudly.'\nStep 1: Find the subject. WHO or WHAT? 'The dog.'\nStep 2: Find the verb. What did it do? 'barked.'\nStep 3: Is it a full thought? Yes — you know who did what.\nResult: This is a COMPLETE sentence.\n\nExample 2 — 'Barking loudly in the yard.'\nStep 1: Find the verb-like word: 'Barking.'\nStep 2: Find the subject. WHO is barking? It never says!\nResult: No subject = a FRAGMENT. Fix it: 'The dog was barking loudly in the yard.'\n\nExample 3 — 'Because I finished my homework.'\nStep 1: Subject = 'I,' verb = 'finished.'\nStep 2: But it starts with 'Because,' which leaves you waiting. Then what?\nResult: It is not a complete thought, so it is a FRAGMENT. Fix it: 'Because I finished my homework, I watched TV.'",
     "questions": [
-      { "id": "1-1-q1", "section": "grammar", "question": "Which of these is a COMPLETE sentence?", "choices": { "A": "Running down the street.", "B": "The runner crossed the finish line.", "C": "When the bell rang.", "D": "A bright orange sunset." }, "correctAnswer": "B", "explanation": "It has a subject ('The runner'), a verb ('crossed'), and a complete thought. The others are missing a subject, a verb, or a full idea.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-1-q2", "section": "grammar", "question": "Which of these is a FRAGMENT?", "choices": { "A": "The cat slept on the couch.", "B": "Birds sang in the trees.", "C": "Standing quietly by the door.", "D": "We laughed at the joke." }, "correctAnswer": "C", "explanation": "'Standing quietly by the door' has no subject — we never learn WHO is standing — so it is a fragment.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-1-q3", "section": "grammar", "question": "What is MISSING from this fragment: 'Jumped over the puddle.'?", "choices": { "A": "A verb", "B": "A subject", "C": "Punctuation only", "D": "Nothing — it is complete" }, "correctAnswer": "B", "explanation": "It has the verb 'jumped' but no subject — we don't know WHO jumped, so the subject is missing.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-1-q4", "section": "grammar", "question": "What is MISSING from this fragment: 'The tall basketball player in the red jersey.'?", "choices": { "A": "A subject", "B": "A verb", "C": "An adjective", "D": "Nothing — it is complete" }, "correctAnswer": "B", "explanation": "It names a subject (the player) but never says what he did or is, so it is missing a verb.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-1-q5", "section": "grammar", "question": "Which choice correctly turns the fragment 'Skating across the ice.' into a complete sentence?", "choices": { "A": "Skating across the ice quickly.", "B": "While skating across the ice.", "C": "Maria was skating across the ice.", "D": "Across the ice, skating fast." }, "correctAnswer": "C", "explanation": "Adding the subject 'Maria' and the verb 'was' creates a complete thought. The others still lack a subject or a finished idea.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-1-q6", "section": "grammar", "question": "Which of these is a COMPLETE sentence?", "choices": { "A": "After the long, exciting game.", "B": "The crowd cheered.", "C": "Cheering loudly in the stands.", "D": "Such a close score." }, "correctAnswer": "B", "explanation": "'The crowd cheered' has a subject, a verb, and a full thought. The others are introductory or descriptive fragments.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-1-q7", "section": "grammar", "question": "Why is 'Although the movie was funny' a fragment?", "choices": { "A": "It has no verb.", "B": "It has no subject.", "C": "It starts with 'Although' and never finishes the thought.", "D": "It has too many words." }, "correctAnswer": "C", "explanation": "It has a subject ('the movie') and a verb ('was'), but 'Although' leaves the reader waiting for the rest of the idea.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-1-q8", "section": "grammar", "question": "Which group of words is a FRAGMENT?", "choices": { "A": "Rain fell all afternoon.", "B": "The lights flickered twice.", "C": "Into the dark, empty hallway.", "D": "Everyone went home early." }, "correctAnswer": "C", "explanation": "'Into the dark, empty hallway' is just a phrase with no subject and no verb, so it cannot stand alone.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-1-q9", "section": "grammar", "question": "Which sentence is complete and does NOT need anything added?", "choices": { "A": "Because the storm knocked out the power for hours.", "B": "The flashlight in the kitchen drawer near the stove.", "C": "Running through the rain without an umbrella.", "D": "We waited for the lights to come back on." }, "correctAnswer": "D", "explanation": "Choice D has a subject ('We'), a verb ('waited'), and a complete thought. The others are dependent or missing a verb.", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-1-q10", "section": "grammar", "question": "A friend writes: 'The science fair project that took three weeks.' Why is this a fragment, and how do you fix it?", "choices": { "A": "It has no subject; add a noun like 'The project.'", "B": "It never tells what the project DID or WAS; add a verb, such as 'won first place.'", "C": "It has too many adjectives; remove some words.", "D": "It is already a complete sentence." }, "correctAnswer": "B", "explanation": "The subject is named, but there is no main verb telling what happened, so adding a verb like 'won first place' completes the thought.", "standard": "ELA.6.C.3.1", "difficulty": "hard" }
+      {
+        "id": "1-1-q1",
+        "section": "grammar",
+        "question": "Which of these is a COMPLETE sentence?",
+        "choices": {
+          "A": "Running down the street.",
+          "B": "The runner crossed the finish line.",
+          "C": "When the bell rang.",
+          "D": "A bright orange sunset."
+        },
+        "correctAnswer": "B",
+        "explanation": "It has a subject ('The runner'), a verb ('crossed'), and a complete thought. The others are missing a subject, a verb, or a full idea.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q2",
+        "section": "grammar",
+        "question": "Which of these is a FRAGMENT?",
+        "choices": {
+          "A": "The cat slept on the couch.",
+          "B": "Birds sang in the trees.",
+          "C": "Standing quietly by the door.",
+          "D": "We laughed at the joke."
+        },
+        "correctAnswer": "C",
+        "explanation": "'Standing quietly by the door' has no subject — we never learn WHO is standing — so it is a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q3",
+        "section": "grammar",
+        "question": "What is MISSING from this fragment: 'Jumped over the puddle.'?",
+        "choices": {
+          "A": "A verb",
+          "B": "A subject",
+          "C": "Punctuation only",
+          "D": "Nothing — it is complete"
+        },
+        "correctAnswer": "B",
+        "explanation": "It has the verb 'jumped' but no subject — we don't know WHO jumped, so the subject is missing.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q4",
+        "section": "grammar",
+        "question": "What is MISSING from this fragment: 'The tall basketball player in the red jersey.'?",
+        "choices": {
+          "A": "A subject",
+          "B": "A verb",
+          "C": "An adjective",
+          "D": "Nothing — it is complete"
+        },
+        "correctAnswer": "B",
+        "explanation": "It names a subject (the player) but never says what he did or is, so it is missing a verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q5",
+        "section": "grammar",
+        "question": "Which choice correctly turns the fragment 'Skating across the ice.' into a complete sentence?",
+        "choices": {
+          "A": "Skating across the ice quickly.",
+          "B": "While skating across the ice.",
+          "C": "Maria was skating across the ice.",
+          "D": "Across the ice, skating fast."
+        },
+        "correctAnswer": "C",
+        "explanation": "Adding the subject 'Maria' and the verb 'was' creates a complete thought. The others still lack a subject or a finished idea.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q6",
+        "section": "grammar",
+        "question": "Which of these is a COMPLETE sentence?",
+        "choices": {
+          "A": "After the long, exciting game.",
+          "B": "The crowd cheered.",
+          "C": "Cheering loudly in the stands.",
+          "D": "Such a close score."
+        },
+        "correctAnswer": "B",
+        "explanation": "'The crowd cheered' has a subject, a verb, and a full thought. The others are introductory or descriptive fragments.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q7",
+        "section": "grammar",
+        "question": "Why is 'Although the movie was funny' a fragment?",
+        "choices": {
+          "A": "It has no verb.",
+          "B": "It has no subject.",
+          "C": "It starts with 'Although' and never finishes the thought.",
+          "D": "It has too many words."
+        },
+        "correctAnswer": "C",
+        "explanation": "It has a subject ('the movie') and a verb ('was'), but 'Although' leaves the reader waiting for the rest of the idea.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q8",
+        "section": "grammar",
+        "question": "Which group of words is a FRAGMENT?",
+        "choices": {
+          "A": "Rain fell all afternoon.",
+          "B": "The lights flickered twice.",
+          "C": "Into the dark, empty hallway.",
+          "D": "Everyone went home early."
+        },
+        "correctAnswer": "C",
+        "explanation": "'Into the dark, empty hallway' is just a phrase with no subject and no verb, so it cannot stand alone.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q9",
+        "section": "grammar",
+        "question": "Which sentence is complete and does NOT need anything added?",
+        "choices": {
+          "A": "Because the storm knocked out the power for hours.",
+          "B": "The flashlight in the kitchen drawer near the stove.",
+          "C": "Running through the rain without an umbrella.",
+          "D": "We waited for the lights to come back on."
+        },
+        "correctAnswer": "D",
+        "explanation": "Choice D has a subject ('We'), a verb ('waited'), and a complete thought. The others are dependent or missing a verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q10",
+        "section": "grammar",
+        "question": "A friend writes: 'The science fair project that took three weeks.' Why is this a fragment, and how do you fix it?",
+        "choices": {
+          "A": "It has no subject; add a noun like 'The project.'",
+          "B": "It never tells what the project DID or WAS; add a verb, such as 'won first place.'",
+          "C": "It has too many adjectives; remove some words.",
+          "D": "It is already a complete sentence."
+        },
+        "correctAnswer": "B",
+        "explanation": "The subject is named, but there is no main verb telling what happened, so adding a verb like 'won first place' completes the thought.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q11",
+        "section": "grammar",
+        "question": "Which of these is a COMPLETE sentence?",
+        "choices": {
+          "A": "The bright yellow school bus.",
+          "B": "Waiting at the corner for the bus.",
+          "C": "The bus stopped at the corner.",
+          "D": "Because the bus was late."
+        },
+        "correctAnswer": "C",
+        "explanation": "'The bus stopped at the corner' has a subject ('The bus'), a verb ('stopped'), and a complete thought. The others lack a verb, a subject, or a finished idea.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q12",
+        "section": "grammar",
+        "question": "Which of these is a FRAGMENT?",
+        "choices": {
+          "A": "My sister plays the violin.",
+          "B": "The thunder rumbled.",
+          "C": "A huge bowl of buttery popcorn.",
+          "D": "We cleaned the kitchen."
+        },
+        "correctAnswer": "C",
+        "explanation": "'A huge bowl of buttery popcorn' is just a naming phrase with no verb, so it is a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q13",
+        "section": "grammar",
+        "question": "What is MISSING from this fragment: 'Climbed to the top of the hill.'?",
+        "choices": {
+          "A": "A verb",
+          "B": "A subject",
+          "C": "An adjective",
+          "D": "Nothing — it is complete"
+        },
+        "correctAnswer": "B",
+        "explanation": "It has the verb 'climbed' but never tells WHO climbed, so the subject is missing.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q14",
+        "section": "grammar",
+        "question": "Which group of words is a FRAGMENT?",
+        "choices": {
+          "A": "Snow covered the field.",
+          "B": "The kettle whistled loudly.",
+          "C": "Under the old wooden bridge.",
+          "D": "Lily painted a picture."
+        },
+        "correctAnswer": "C",
+        "explanation": "'Under the old wooden bridge' is a phrase with no subject and no verb, so it cannot stand alone.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q15",
+        "section": "grammar",
+        "question": "Which of these is a COMPLETE sentence?",
+        "choices": {
+          "A": "Glowing softly in the dark.",
+          "B": "A row of tall green trees.",
+          "C": "After the long bus ride home.",
+          "D": "The candle flickered."
+        },
+        "correctAnswer": "D",
+        "explanation": "'The candle flickered' has a subject and a verb and states a full thought; the others are phrases or unfinished ideas.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q16",
+        "section": "grammar",
+        "question": "What is MISSING from this fragment: 'My noisy little brother and his best friend.'?",
+        "choices": {
+          "A": "A subject",
+          "B": "A verb",
+          "C": "An adjective",
+          "D": "Nothing — it is complete"
+        },
+        "correctAnswer": "B",
+        "explanation": "It names a subject but never says what they did or are, so it is missing a verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q17",
+        "section": "grammar",
+        "question": "Which of these is a FRAGMENT?",
+        "choices": {
+          "A": "The clock ticked on the wall.",
+          "B": "Hidden behind the tall fence.",
+          "C": "Everyone clapped at the end.",
+          "D": "The teacher smiled warmly."
+        },
+        "correctAnswer": "B",
+        "explanation": "'Hidden behind the tall fence' has no subject doing an action and no main verb, so it is a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q18",
+        "section": "grammar",
+        "question": "Which group of words is a COMPLETE sentence?",
+        "choices": {
+          "A": "Whenever the recess bell rings.",
+          "B": "A tall stack of library books.",
+          "C": "Spinning around in the chair.",
+          "D": "The students lined up quietly."
+        },
+        "correctAnswer": "D",
+        "explanation": "'The students lined up quietly' has a subject, a verb, and a complete thought. The others are dependent or have no verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q19",
+        "section": "grammar",
+        "question": "Which of these is a FRAGMENT?",
+        "choices": {
+          "A": "If you finish your dinner.",
+          "B": "The waves crashed on the shore.",
+          "C": "She found her lost keys.",
+          "D": "The puppy chewed the slipper."
+        },
+        "correctAnswer": "A",
+        "explanation": "'If you finish your dinner' has a subject and verb but starts with 'If,' leaving the thought unfinished — a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q20",
+        "section": "grammar",
+        "question": "Which of these is a COMPLETE sentence?",
+        "choices": {
+          "A": "Roaring down the highway.",
+          "B": "Since the truck broke down.",
+          "C": "The shiny red delivery truck.",
+          "D": "Trucks roared down the highway."
+        },
+        "correctAnswer": "D",
+        "explanation": "'Trucks roared down the highway' has a subject ('Trucks'), a verb ('roared'), and a full thought.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q21",
+        "section": "grammar",
+        "question": "Which choice correctly turns the fragment 'Hiding under the bed.' into a complete sentence?",
+        "choices": {
+          "A": "Quietly hiding under the bed.",
+          "B": "While hiding under the bed.",
+          "C": "The frightened cat was hiding under the bed.",
+          "D": "Under the bed, hiding still."
+        },
+        "correctAnswer": "C",
+        "explanation": "Adding the subject 'The frightened cat' and the verb 'was' creates a complete thought; the others still lack a subject or finished idea.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q22",
+        "section": "grammar",
+        "question": "Why is 'When the power suddenly went out' a fragment?",
+        "choices": {
+          "A": "It has no verb.",
+          "B": "It has no subject.",
+          "C": "It starts with 'When' and never finishes the thought.",
+          "D": "It has too many describing words."
+        },
+        "correctAnswer": "C",
+        "explanation": "It has a subject ('the power') and a verb ('went out'), but 'When' leaves the reader waiting for what happened next.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q23",
+        "section": "grammar",
+        "question": "What is MISSING from this fragment: 'The enormous gray elephant at the zoo.'?",
+        "choices": {
+          "A": "A subject",
+          "B": "A verb",
+          "C": "An adjective",
+          "D": "Nothing — it is complete"
+        },
+        "correctAnswer": "B",
+        "explanation": "It names a subject (the elephant) but never tells what it did or is, so a verb is missing.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q24",
+        "section": "grammar",
+        "question": "Which choice correctly fixes the fragment 'Raced across the finish line.'?",
+        "choices": {
+          "A": "Quickly raced across the finish line.",
+          "B": "The sprinter raced across the finish line.",
+          "C": "Racing across the finish line.",
+          "D": "Across the finish line, raced."
+        },
+        "correctAnswer": "B",
+        "explanation": "Adding the subject 'The sprinter' tells WHO raced, completing the thought. The others still have no subject.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q25",
+        "section": "grammar",
+        "question": "Which group of words is a COMPLETE sentence?",
+        "choices": {
+          "A": "After we ate dinner and washed the dishes.",
+          "B": "The crowded, noisy school cafeteria at lunch.",
+          "C": "We sat down at our usual table.",
+          "D": "Talking and laughing with my friends."
+        },
+        "correctAnswer": "C",
+        "explanation": "'We sat down at our usual table' has a subject, a verb, and a complete thought; the others are dependent or missing a verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q26",
+        "section": "grammar",
+        "question": "Which group of words is a FRAGMENT?",
+        "choices": {
+          "A": "Lightning lit up the sky.",
+          "B": "The window rattled in the wind.",
+          "C": "A loud crash from the basement below.",
+          "D": "Everyone froze in place."
+        },
+        "correctAnswer": "C",
+        "explanation": "'A loud crash from the basement below' is a naming phrase with no verb, so it is a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q27",
+        "section": "grammar",
+        "question": "Why is 'The new student who just moved here' a fragment?",
+        "choices": {
+          "A": "It has no subject.",
+          "B": "It names a subject but never tells what the student did or is, so it has no main verb.",
+          "C": "It has too many adjectives.",
+          "D": "It is already a complete sentence."
+        },
+        "correctAnswer": "B",
+        "explanation": "The subject is named, but there is no main verb to finish the thought, so it is a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q28",
+        "section": "grammar",
+        "question": "Which sentence is complete and does NOT need anything added?",
+        "choices": {
+          "A": "Because the alarm did not go off this morning.",
+          "B": "The crowded subway train during rush hour.",
+          "C": "Hurrying to catch the early train downtown.",
+          "D": "I ran all the way to the station."
+        },
+        "correctAnswer": "D",
+        "explanation": "'I ran all the way to the station' has a subject ('I'), a verb ('ran'), and a complete thought; the others are dependent or have no verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q29",
+        "section": "grammar",
+        "question": "Which choice correctly turns 'After the long, tiring practice.' into a complete sentence?",
+        "choices": {
+          "A": "After the long, tiring practice.",
+          "B": "After the long, tiring practice, the team went home.",
+          "C": "After the long, tiring practice in the gym.",
+          "D": "The long, tiring practice after."
+        },
+        "correctAnswer": "B",
+        "explanation": "Adding the independent clause 'the team went home' completes the thought; the others remain unfinished phrases.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q30",
+        "section": "grammar",
+        "question": "Which group of words is a COMPLETE sentence?",
+        "choices": {
+          "A": "The detective examined the clue carefully.",
+          "B": "Examining the clue under the bright lamp.",
+          "C": "A mysterious clue left on the table.",
+          "D": "Because the clue was so puzzling."
+        },
+        "correctAnswer": "A",
+        "explanation": "'The detective examined the clue carefully' has a subject, a verb, and a complete thought; the rest are phrases or dependent clauses.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q31",
+        "section": "grammar",
+        "question": "Which of these is a FRAGMENT?",
+        "choices": {
+          "A": "The garden bloomed in spring.",
+          "B": "Bees buzzed around the flowers.",
+          "C": "The colorful flowers along the winding garden path.",
+          "D": "We watered the plants daily."
+        },
+        "correctAnswer": "C",
+        "explanation": "'The colorful flowers along the winding garden path' names a subject but has no verb, so it is a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q32",
+        "section": "grammar",
+        "question": "Which group of words is a COMPLETE sentence?",
+        "choices": {
+          "A": "Although the test was difficult and very long.",
+          "B": "The difficult, very long final test.",
+          "C": "Studying hard the night before the test.",
+          "D": "I finished the test before the bell."
+        },
+        "correctAnswer": "D",
+        "explanation": "'I finished the test before the bell' has a subject, a verb, and a full thought; the others are dependent or lack a verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q33",
+        "section": "grammar",
+        "question": "A writer's draft has this group of words: 'Whistling cheerfully as she walked to school.' What is the BEST way to fix it?",
+        "choices": {
+          "A": "It is already a complete sentence.",
+          "B": "Add a comma after 'cheerfully.'",
+          "C": "Remove the word 'cheerfully' to fix it.",
+          "D": "Add a subject, such as 'Maya was,' to make 'Maya was whistling cheerfully as she walked to school.'"
+        },
+        "correctAnswer": "D",
+        "explanation": "The group has no subject and no main verb. Adding 'Maya was' supplies both and completes the thought.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q34",
+        "section": "grammar",
+        "question": "Which group of words is the ONLY complete sentence?",
+        "choices": {
+          "A": "Whenever the rain finally stops falling.",
+          "B": "A bright rainbow stretching across the wide sky.",
+          "C": "The rainbow appeared after the storm.",
+          "D": "Glowing in seven brilliant colors overhead."
+        },
+        "correctAnswer": "C",
+        "explanation": "Only 'The rainbow appeared after the storm' has a subject, a main verb, and a complete thought; the others are dependent or phrases.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q35",
+        "section": "grammar",
+        "question": "A student writes: 'The volcano that erupted last week near the small village.' Why is this a fragment?",
+        "choices": {
+          "A": "It has no subject; add a noun.",
+          "B": "It names a subject but never states what the volcano did or is, so it lacks a main verb.",
+          "C": "It has too much punctuation.",
+          "D": "It is already complete."
+        },
+        "correctAnswer": "B",
+        "explanation": "The subject 'The volcano' is described, but no main verb tells what happened, so the thought is unfinished.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q36",
+        "section": "grammar",
+        "question": "Which choice fixes the fragment 'Since we missed the early bus.' by making it a complete sentence?",
+        "choices": {
+          "A": "Since we missed the early bus this morning.",
+          "B": "Since we missed the early bus, we walked to school.",
+          "C": "Since we missed the early, crowded bus.",
+          "D": "We missed since the early bus."
+        },
+        "correctAnswer": "B",
+        "explanation": "Adding the independent clause 'we walked to school' completes the thought that 'Since' left hanging.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q37",
+        "section": "grammar",
+        "question": "Which of the following is a FRAGMENT even though it is long?",
+        "choices": {
+          "A": "The brave firefighters rushed into the burning building to rescue the family.",
+          "B": "The brave firefighters who rushed into the burning building last night.",
+          "C": "Smoke filled the entire house within minutes.",
+          "D": "Everyone escaped without a single injury."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B names a subject and describes it, but it never states what the firefighters did or are, so it has no main verb.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q38",
+        "section": "grammar",
+        "question": "Read this draft: 'The robot vacuum bumped into the wall. Then turned around and tried again.' Which sentence is the FRAGMENT?",
+        "choices": {
+          "A": "The first sentence is a fragment.",
+          "B": "The second part, 'Then turned around and tried again,' is a fragment because it has no subject.",
+          "C": "Both are fragments.",
+          "D": "Neither is a fragment."
+        },
+        "correctAnswer": "B",
+        "explanation": "'Then turned around and tried again' has verbs but no subject — it never says WHO turned around — so it is a fragment.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q39",
+        "section": "grammar",
+        "question": "Which group of words is the ONLY complete sentence?",
+        "choices": {
+          "A": "To win the regional spelling championship this year.",
+          "B": "Practicing new words for hours every single night.",
+          "C": "Determined and focused on her big goal.",
+          "D": "Dev studied a new word list every night."
+        },
+        "correctAnswer": "D",
+        "explanation": "Only 'Dev studied a new word list every night' has a subject ('Dev'), a verb ('studied'), and a complete thought.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q40",
+        "section": "grammar",
+        "question": "A writer needs to fix this fragment: 'The towering roller coaster at the new amusement park.' Which revision makes it a complete sentence?",
+        "choices": {
+          "A": "The towering roller coaster at the new amusement park, so tall.",
+          "B": "The towering roller coaster at the brand-new amusement park downtown.",
+          "C": "The towering roller coaster at the new amusement park terrified everyone.",
+          "D": "The towering, scary roller coaster at the new amusement park."
+        },
+        "correctAnswer": "C",
+        "explanation": "Only choice C adds a main verb ('terrified'), telling what the roller coaster did and completing the thought. The others just add more describing words.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "1-2": {
@@ -21,16 +611,606 @@
     "standard": "ELA.6.C.3.1",
     "learn": "HOW TO TELL INDEPENDENT FROM DEPENDENT CLAUSES\n\nA clause is a group of words with a subject and a verb. An INDEPENDENT clause expresses a complete thought and can stand alone as a sentence. A DEPENDENT clause has a subject and verb too, but it starts with a word like 'because,' 'when,' 'although,' 'since,' or 'if,' so it CANNOT stand alone.\n\nExample 1 — 'I finished my homework.'\nStep 1: Subject = 'I,' verb = 'finished.'\nStep 2: Does it stand alone and feel complete? Yes.\nResult: INDEPENDENT clause.\n\nExample 2 — 'Because I finished my homework.'\nStep 1: Same subject and verb, but it begins with 'Because.'\nStep 2: It leaves you hanging — then what happened?\nResult: DEPENDENT clause. It needs an independent clause to be complete.\n\nExample 3 — Joining them: 'Because I finished my homework, I watched TV.'\nStep 1: The dependent clause ('Because I finished my homework') sets up the idea.\nStep 2: The independent clause ('I watched TV') completes it.\nResult: A complete sentence. Words like because, when, although, since, if, while signal a DEPENDENT clause.",
     "questions": [
-      { "id": "1-2-q1", "section": "grammar", "question": "Which group of words is an INDEPENDENT clause?", "choices": { "A": "When the bell rang", "B": "Because it was late", "C": "Although she tried hard", "D": "The students left the room" }, "correctAnswer": "D", "explanation": "'The students left the room' has a subject and verb and stands alone as a complete thought. The others begin with words that make them dependent.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-2-q2", "section": "grammar", "question": "Which group of words is a DEPENDENT clause?", "choices": { "A": "The rain stopped", "B": "We ate lunch outside", "C": "Since the sun came out", "D": "Birds flew overhead" }, "correctAnswer": "C", "explanation": "'Since the sun came out' starts with 'Since,' which makes it dependent — it cannot stand alone.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-2-q3", "section": "grammar", "question": "Which word at the start of a clause makes it DEPENDENT?", "choices": { "A": "The", "B": "Although", "C": "Quickly", "D": "Always" }, "correctAnswer": "B", "explanation": "'Although' is a subordinating word that begins a dependent clause and leaves the thought unfinished.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-2-q4", "section": "grammar", "question": "In 'When the movie ended, we walked home,' which part is the DEPENDENT clause?", "choices": { "A": "When the movie ended", "B": "we walked home", "C": "the movie", "D": "we walked" }, "correctAnswer": "A", "explanation": "'When the movie ended' begins with 'When' and cannot stand alone, so it is the dependent clause.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-2-q5", "section": "grammar", "question": "In 'If you study, you will pass,' which part is the INDEPENDENT clause?", "choices": { "A": "If you study", "B": "you will pass", "C": "If you", "D": "study" }, "correctAnswer": "B", "explanation": "'You will pass' stands alone as a complete thought, while 'If you study' is dependent.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-2-q6", "section": "grammar", "question": "Which sentence is made of TWO independent clauses joined together?", "choices": { "A": "Because she was tired, she rested.", "B": "The dog barked, and the cat ran away.", "C": "When the bus arrived, we boarded.", "D": "Although it rained, we stayed." }, "correctAnswer": "B", "explanation": "Both 'The dog barked' and 'the cat ran away' can stand alone, so they are two independent clauses joined by 'and.'", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-2-q7", "section": "grammar", "question": "Which choice is a complete sentence rather than just a dependent clause?", "choices": { "A": "While I waited for the train.", "B": "Since the store was closed.", "C": "The team practiced all morning.", "D": "Because the answer was wrong." }, "correctAnswer": "C", "explanation": "'The team practiced all morning' is independent and complete; the others are dependent clauses left hanging.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-2-q8", "section": "grammar", "question": "Which sentence correctly joins a dependent and an independent clause?", "choices": { "A": "Although I was nervous, I gave the speech.", "B": "Although I was nervous I gave the speech.", "C": "Although I was nervous.", "D": "I was nervous although." }, "correctAnswer": "A", "explanation": "When a dependent clause comes first, a comma separates it from the independent clause: 'Although I was nervous, I gave the speech.'", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-2-q9", "section": "grammar", "question": "Why can't 'Whenever the alarm goes off in the morning' be a sentence by itself?", "choices": { "A": "It has no subject.", "B": "It has no verb.", "C": "It starts with 'Whenever,' which makes it dependent and leaves the thought unfinished.", "D": "It is too short." }, "correctAnswer": "C", "explanation": "It has a subject ('the alarm') and verb ('goes off'), but 'Whenever' makes it dependent, so the thought is incomplete.", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-2-q10", "section": "grammar", "question": "Which sentence contains a dependent clause AFTER the independent clause?", "choices": { "A": "Because the road was icy, we drove slowly.", "B": "We drove slowly because the road was icy.", "C": "The road was icy, and we drove slowly.", "D": "We drove slowly and carefully." }, "correctAnswer": "B", "explanation": "In choice B, the independent clause 'We drove slowly' comes first, followed by the dependent clause 'because the road was icy.'", "standard": "ELA.6.C.3.1", "difficulty": "hard" }
+      {
+        "id": "1-2-q1",
+        "section": "grammar",
+        "question": "Which group of words is an INDEPENDENT clause?",
+        "choices": {
+          "A": "When the bell rang",
+          "B": "Because it was late",
+          "C": "Although she tried hard",
+          "D": "The students left the room"
+        },
+        "correctAnswer": "D",
+        "explanation": "'The students left the room' has a subject and verb and stands alone as a complete thought. The others begin with words that make them dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q2",
+        "section": "grammar",
+        "question": "Which group of words is a DEPENDENT clause?",
+        "choices": {
+          "A": "The rain stopped",
+          "B": "We ate lunch outside",
+          "C": "Since the sun came out",
+          "D": "Birds flew overhead"
+        },
+        "correctAnswer": "C",
+        "explanation": "'Since the sun came out' starts with 'Since,' which makes it dependent — it cannot stand alone.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q3",
+        "section": "grammar",
+        "question": "Which word at the start of a clause makes it DEPENDENT?",
+        "choices": {
+          "A": "The",
+          "B": "Although",
+          "C": "Quickly",
+          "D": "Always"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Although' is a subordinating word that begins a dependent clause and leaves the thought unfinished.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q4",
+        "section": "grammar",
+        "question": "In 'When the movie ended, we walked home,' which part is the DEPENDENT clause?",
+        "choices": {
+          "A": "When the movie ended",
+          "B": "we walked home",
+          "C": "the movie",
+          "D": "we walked"
+        },
+        "correctAnswer": "A",
+        "explanation": "'When the movie ended' begins with 'When' and cannot stand alone, so it is the dependent clause.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q5",
+        "section": "grammar",
+        "question": "In 'If you study, you will pass,' which part is the INDEPENDENT clause?",
+        "choices": {
+          "A": "If you study",
+          "B": "you will pass",
+          "C": "If you",
+          "D": "study"
+        },
+        "correctAnswer": "B",
+        "explanation": "'You will pass' stands alone as a complete thought, while 'If you study' is dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q6",
+        "section": "grammar",
+        "question": "Which sentence is made of TWO independent clauses joined together?",
+        "choices": {
+          "A": "Because she was tired, she rested.",
+          "B": "The dog barked, and the cat ran away.",
+          "C": "When the bus arrived, we boarded.",
+          "D": "Although it rained, we stayed."
+        },
+        "correctAnswer": "B",
+        "explanation": "Both 'The dog barked' and 'the cat ran away' can stand alone, so they are two independent clauses joined by 'and.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q7",
+        "section": "grammar",
+        "question": "Which choice is a complete sentence rather than just a dependent clause?",
+        "choices": {
+          "A": "While I waited for the train.",
+          "B": "Since the store was closed.",
+          "C": "The team practiced all morning.",
+          "D": "Because the answer was wrong."
+        },
+        "correctAnswer": "C",
+        "explanation": "'The team practiced all morning' is independent and complete; the others are dependent clauses left hanging.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q8",
+        "section": "grammar",
+        "question": "Which sentence correctly joins a dependent and an independent clause?",
+        "choices": {
+          "A": "Although I was nervous, I gave the speech.",
+          "B": "Although I was nervous I gave the speech.",
+          "C": "Although I was nervous.",
+          "D": "I was nervous although."
+        },
+        "correctAnswer": "A",
+        "explanation": "When a dependent clause comes first, a comma separates it from the independent clause: 'Although I was nervous, I gave the speech.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q9",
+        "section": "grammar",
+        "question": "Why can't 'Whenever the alarm goes off in the morning' be a sentence by itself?",
+        "choices": {
+          "A": "It has no subject.",
+          "B": "It has no verb.",
+          "C": "It starts with 'Whenever,' which makes it dependent and leaves the thought unfinished.",
+          "D": "It is too short."
+        },
+        "correctAnswer": "C",
+        "explanation": "It has a subject ('the alarm') and verb ('goes off'), but 'Whenever' makes it dependent, so the thought is incomplete.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q10",
+        "section": "grammar",
+        "question": "Which sentence contains a dependent clause AFTER the independent clause?",
+        "choices": {
+          "A": "Because the road was icy, we drove slowly.",
+          "B": "We drove slowly because the road was icy.",
+          "C": "The road was icy, and we drove slowly.",
+          "D": "We drove slowly and carefully."
+        },
+        "correctAnswer": "B",
+        "explanation": "In choice B, the independent clause 'We drove slowly' comes first, followed by the dependent clause 'because the road was icy.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q11",
+        "section": "grammar",
+        "question": "Which group of words is an INDEPENDENT clause?",
+        "choices": {
+          "A": "Although the test was hard",
+          "B": "When the lights dimmed",
+          "C": "The audience cheered",
+          "D": "Because we were early"
+        },
+        "correctAnswer": "C",
+        "explanation": "'The audience cheered' has a subject and a verb and stands alone as a complete thought; the others begin with words that make them dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q12",
+        "section": "grammar",
+        "question": "Which group of words is a DEPENDENT clause?",
+        "choices": {
+          "A": "The phone rang",
+          "B": "She answered quickly",
+          "C": "Before the show started",
+          "D": "We sat down"
+        },
+        "correctAnswer": "C",
+        "explanation": "'Before the show started' begins with 'Before,' which makes it dependent — it cannot stand alone.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q13",
+        "section": "grammar",
+        "question": "Which word at the start of a clause makes it DEPENDENT?",
+        "choices": {
+          "A": "Because",
+          "B": "The",
+          "C": "Slowly",
+          "D": "Never"
+        },
+        "correctAnswer": "A",
+        "explanation": "'Because' is a subordinating word that begins a dependent clause and leaves the thought unfinished.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q14",
+        "section": "grammar",
+        "question": "Which group of words is an INDEPENDENT clause?",
+        "choices": {
+          "A": "Since it was raining",
+          "B": "If you ask politely",
+          "C": "While the kettle boiled",
+          "D": "The garden needed water"
+        },
+        "correctAnswer": "D",
+        "explanation": "'The garden needed water' stands alone as a complete thought; the others start with subordinating words.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q15",
+        "section": "grammar",
+        "question": "Which group of words is a DEPENDENT clause?",
+        "choices": {
+          "A": "The team scored",
+          "B": "Although they were losing",
+          "C": "Fans waved flags",
+          "D": "The game ended"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Although they were losing' begins with 'Although,' making it dependent — it needs more to be complete.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q16",
+        "section": "grammar",
+        "question": "Which word could start a DEPENDENT clause?",
+        "choices": {
+          "A": "When",
+          "B": "Happily",
+          "C": "Quickly",
+          "D": "Loudly"
+        },
+        "correctAnswer": "A",
+        "explanation": "'When' is a subordinating word that begins a dependent clause; the others are adverbs that do not make a clause dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q17",
+        "section": "grammar",
+        "question": "Which choice is a complete sentence rather than just a dependent clause?",
+        "choices": {
+          "A": "Since the library was quiet.",
+          "B": "After the rain finally stopped.",
+          "C": "The volunteers planted new trees.",
+          "D": "Because the bridge was closed."
+        },
+        "correctAnswer": "C",
+        "explanation": "'The volunteers planted new trees' is independent and complete; the others are dependent clauses left hanging.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q18",
+        "section": "grammar",
+        "question": "Which group of words is an INDEPENDENT clause?",
+        "choices": {
+          "A": "Whenever the alarm rings",
+          "B": "If the alarm rings",
+          "C": "Until the alarm rings",
+          "D": "My alarm rings at six"
+        },
+        "correctAnswer": "D",
+        "explanation": "'My alarm rings at six' stands alone as a complete thought; the others begin with subordinating words.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q19",
+        "section": "grammar",
+        "question": "Which group of words is a DEPENDENT clause?",
+        "choices": {
+          "A": "We packed our bags",
+          "B": "The plane took off",
+          "C": "Until the storm passed",
+          "D": "The pilot smiled"
+        },
+        "correctAnswer": "C",
+        "explanation": "'Until the storm passed' starts with 'Until,' which makes it dependent and unable to stand alone.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q20",
+        "section": "grammar",
+        "question": "Which group of words is an INDEPENDENT clause?",
+        "choices": {
+          "A": "As the sun rose slowly",
+          "B": "Though we were tired",
+          "C": "We packed the car early",
+          "D": "Because the road was long"
+        },
+        "correctAnswer": "C",
+        "explanation": "'We packed the car early' is a complete thought that can stand alone; the others are dependent clauses.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q21",
+        "section": "grammar",
+        "question": "In 'After the storm passed, the birds returned,' which part is the DEPENDENT clause?",
+        "choices": {
+          "A": "After the storm passed",
+          "B": "the birds returned",
+          "C": "the storm",
+          "D": "returned"
+        },
+        "correctAnswer": "A",
+        "explanation": "'After the storm passed' begins with 'After' and cannot stand alone, so it is the dependent clause.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q22",
+        "section": "grammar",
+        "question": "In 'Since you are ready, we can leave now,' which part is the INDEPENDENT clause?",
+        "choices": {
+          "A": "Since you are ready",
+          "B": "we can leave now",
+          "C": "Since you",
+          "D": "are ready"
+        },
+        "correctAnswer": "B",
+        "explanation": "'We can leave now' stands alone as a complete thought, while 'Since you are ready' is dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q23",
+        "section": "grammar",
+        "question": "Which sentence is made of TWO independent clauses joined together?",
+        "choices": {
+          "A": "When the bell rang, class began.",
+          "B": "Although it was cold, we swam.",
+          "C": "Because she was kind, everyone liked her.",
+          "D": "The sky cleared, and the sun came out."
+        },
+        "correctAnswer": "D",
+        "explanation": "Both 'The sky cleared' and 'the sun came out' can stand alone, so they are two independent clauses joined by 'and.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q24",
+        "section": "grammar",
+        "question": "Which sentence correctly joins a dependent and an independent clause?",
+        "choices": {
+          "A": "Because I was hungry, I made a sandwich.",
+          "B": "Because I was hungry I made a sandwich.",
+          "C": "Because I was hungry.",
+          "D": "I was hungry because."
+        },
+        "correctAnswer": "A",
+        "explanation": "When a dependent clause comes first, a comma separates it from the independent clause: 'Because I was hungry, I made a sandwich.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q25",
+        "section": "grammar",
+        "question": "In 'While the soup simmered, we set the table,' which part is the DEPENDENT clause?",
+        "choices": {
+          "A": "we set the table",
+          "B": "While the soup simmered",
+          "C": "the soup",
+          "D": "we set"
+        },
+        "correctAnswer": "B",
+        "explanation": "'While the soup simmered' begins with 'While' and cannot stand alone, so it is the dependent clause.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q26",
+        "section": "grammar",
+        "question": "Which choice is a complete sentence rather than just a dependent clause?",
+        "choices": {
+          "A": "After the long flight to Miami.",
+          "B": "Because the meeting ran late.",
+          "C": "The chef prepared a special dessert.",
+          "D": "While the band tuned their instruments."
+        },
+        "correctAnswer": "C",
+        "explanation": "'The chef prepared a special dessert' is independent and complete; the others are dependent clauses left unfinished.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q27",
+        "section": "grammar",
+        "question": "In 'If we leave now, we will beat the traffic,' which part is the INDEPENDENT clause?",
+        "choices": {
+          "A": "If we leave now",
+          "B": "leave now",
+          "C": "If we",
+          "D": "we will beat the traffic"
+        },
+        "correctAnswer": "D",
+        "explanation": "'We will beat the traffic' is a complete thought that stands alone; 'If we leave now' is dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q28",
+        "section": "grammar",
+        "question": "Which sentence joins a dependent clause to an independent clause CORRECTLY?",
+        "choices": {
+          "A": "When the rain stopped we went outside.",
+          "B": "When the rain stopped, we went outside.",
+          "C": "When the rain stopped.",
+          "D": "We went outside when stopped the rain."
+        },
+        "correctAnswer": "B",
+        "explanation": "A dependent clause at the start ('When the rain stopped') is followed by a comma before the independent clause.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q29",
+        "section": "grammar",
+        "question": "Which sentence is made of TWO independent clauses?",
+        "choices": {
+          "A": "The movie ended, and we drove home.",
+          "B": "Although the movie was long, we stayed.",
+          "C": "When the movie ended, we left.",
+          "D": "Because the movie was scary, I hid."
+        },
+        "correctAnswer": "A",
+        "explanation": "Both 'The movie ended' and 'we drove home' can stand alone, so they are two independent clauses joined by 'and.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q30",
+        "section": "grammar",
+        "question": "In 'We canceled the picnic because a storm was coming,' which part is the DEPENDENT clause?",
+        "choices": {
+          "A": "We canceled the picnic",
+          "B": "because a storm was coming",
+          "C": "a storm",
+          "D": "We canceled"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Because a storm was coming' starts with 'because' and cannot stand alone, so it is the dependent clause, even though it comes second.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q31",
+        "section": "grammar",
+        "question": "Why can't 'Although the museum was crowded that afternoon' be a sentence by itself?",
+        "choices": {
+          "A": "It has no subject.",
+          "B": "It has no verb.",
+          "C": "It starts with 'Although,' which makes it dependent and leaves the thought unfinished.",
+          "D": "It is too long."
+        },
+        "correctAnswer": "C",
+        "explanation": "It has a subject ('the museum') and a verb ('was'), but 'Although' makes it dependent, so the thought is incomplete.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q32",
+        "section": "grammar",
+        "question": "Which sentence contains a dependent clause AFTER the independent clause?",
+        "choices": {
+          "A": "Because the field was muddy, the game was delayed.",
+          "B": "The game was delayed because the field was muddy.",
+          "C": "The field was muddy, and the game was delayed.",
+          "D": "The game was delayed and rescheduled."
+        },
+        "correctAnswer": "B",
+        "explanation": "In choice B, the independent clause 'The game was delayed' comes first, followed by the dependent clause 'because the field was muddy.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q33",
+        "section": "grammar",
+        "question": "Which sentence is built from an independent clause PLUS a dependent clause (not two independent clauses)?",
+        "choices": {
+          "A": "I washed the car, and my brother dried it.",
+          "B": "The dog barked, but the cat ignored it.",
+          "C": "We stayed inside until the storm passed.",
+          "D": "The bell rang; the students left."
+        },
+        "correctAnswer": "C",
+        "explanation": "'We stayed inside' is independent and 'until the storm passed' is dependent. The other choices join two independent clauses.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q34",
+        "section": "grammar",
+        "question": "In 'Unless you hurry, you will miss the bus,' which statement is TRUE?",
+        "choices": {
+          "A": "'Unless you hurry' is the independent clause.",
+          "B": "'You will miss the bus' is the independent clause, and 'Unless you hurry' is dependent.",
+          "C": "Both parts are independent clauses.",
+          "D": "Both parts are dependent clauses."
+        },
+        "correctAnswer": "B",
+        "explanation": "'You will miss the bus' stands alone, while 'Unless you hurry' begins with 'Unless' and is dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q35",
+        "section": "grammar",
+        "question": "Which sentence correctly attaches the dependent clause 'before the concert began' to an independent clause?",
+        "choices": {
+          "A": "Before the concert began, the crowd took their seats.",
+          "B": "Before the concert began.",
+          "C": "The crowd took their seats before.",
+          "D": "Before began the concert the crowd."
+        },
+        "correctAnswer": "A",
+        "explanation": "The dependent clause leads, a comma follows, and the independent clause 'the crowd took their seats' completes the sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q36",
+        "section": "grammar",
+        "question": "Which group of words is the ONLY independent clause?",
+        "choices": {
+          "A": "As soon as the timer beeped",
+          "B": "Whenever my cousins visit from Orlando",
+          "C": "The fresh cookies cooled on the rack",
+          "D": "Even though we had eaten lunch"
+        },
+        "correctAnswer": "C",
+        "explanation": "Only 'The fresh cookies cooled on the rack' stands alone as a complete thought; the rest begin with subordinating words.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q37",
+        "section": "grammar",
+        "question": "A student wrote: 'Even though she practiced for weeks.' Why is this NOT a complete sentence?",
+        "choices": {
+          "A": "It has no subject or verb.",
+          "B": "It has a subject and verb but starts with 'Even though,' making it a dependent clause that needs an independent clause.",
+          "C": "It has two independent clauses.",
+          "D": "It is actually a complete sentence."
+        },
+        "correctAnswer": "B",
+        "explanation": "It has the subject 'she' and verb 'practiced,' but 'Even though' makes it dependent, so it needs an independent clause to finish the idea.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q38",
+        "section": "grammar",
+        "question": "In 'The runners stretched while the coach explained the route,' which part is the DEPENDENT clause?",
+        "choices": {
+          "A": "The runners stretched",
+          "B": "while the coach explained the route",
+          "C": "the coach",
+          "D": "explained the route"
+        },
+        "correctAnswer": "B",
+        "explanation": "'While the coach explained the route' begins with 'while' and cannot stand alone, so it is the dependent clause.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q39",
+        "section": "grammar",
+        "question": "Which sentence has the dependent clause FIRST and the independent clause SECOND?",
+        "choices": {
+          "A": "We waited inside since it was pouring.",
+          "B": "We waited inside and stayed dry.",
+          "C": "It was pouring, so we waited inside.",
+          "D": "Since it was pouring, we waited inside."
+        },
+        "correctAnswer": "D",
+        "explanation": "In choice D, the dependent clause 'Since it was pouring' comes first, followed by the independent clause 'we waited inside.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q40",
+        "section": "grammar",
+        "question": "Which group of words is the ONLY dependent clause?",
+        "choices": {
+          "A": "The marching band rehearsed all morning",
+          "B": "The drummer kept a steady beat",
+          "C": "After the long parade through downtown finally ended",
+          "D": "Spectators clapped along the route"
+        },
+        "correctAnswer": "C",
+        "explanation": "Only 'After the long parade through downtown finally ended' begins with a subordinating word ('After') and cannot stand alone, making it dependent.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      }
     ]
   },
   "1-3": {
@@ -38,16 +1218,606 @@
     "standard": "ELA.6.C.3.1",
     "learn": "HOW TO SPOT AND FIX RUN-ONS AND COMMA SPLICES\n\nA RUN-ON jams two complete sentences together with no punctuation: 'I love pizza I eat it daily.' A COMMA SPLICE glues two complete sentences with only a comma: 'I love pizza, I eat it daily.' Both are errors.\n\nThree ways to fix them:\n1) Use a period: 'I love pizza. I eat it daily.'\n2) Use a semicolon: 'I love pizza; I eat it daily.'\n3) Use a comma PLUS a joining word (and, but, so, or): 'I love pizza, and I eat it daily.'\n\nExample 1 — 'The bell rang we left class.'\nThis is a run-on (no punctuation between two sentences). Fix: 'The bell rang, and we left class.'\n\nExample 2 — 'It was cold, we wore coats.'\nThis is a comma splice (only a comma between two sentences). Fix: 'It was cold, so we wore coats.'\n\nExample 3 — Test it: cover everything before the comma. If what's left is a full sentence AND what's before it is too, you need more than a comma.",
     "questions": [
-      { "id": "1-3-q1", "section": "grammar", "question": "Which sentence is a RUN-ON?", "choices": { "A": "I woke up early. I made breakfast.", "B": "I woke up early I made breakfast.", "C": "I woke up early, and I made breakfast.", "D": "After I woke up, I made breakfast." }, "correctAnswer": "B", "explanation": "Two complete sentences are jammed together with no punctuation, making it a run-on.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-3-q2", "section": "grammar", "question": "Which sentence is a COMMA SPLICE?", "choices": { "A": "The rain fell, the streets flooded.", "B": "The rain fell, so the streets flooded.", "C": "The rain fell. The streets flooded.", "D": "When the rain fell, the streets flooded." }, "correctAnswer": "A", "explanation": "Two complete sentences are joined with only a comma, which is a comma splice.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-3-q3", "section": "grammar", "question": "Which sentence is correct (NOT a run-on or splice)?", "choices": { "A": "She studied hard she passed the test.", "B": "She studied hard, she passed the test.", "C": "She studied hard, so she passed the test.", "D": "She studied hard she passed, the test." }, "correctAnswer": "C", "explanation": "A comma plus the joining word 'so' correctly connects the two complete sentences.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-3-q4", "section": "grammar", "question": "What is the BEST fix for the run-on 'The dog ran fast it caught the ball'?", "choices": { "A": "The dog ran fast, it caught the ball.", "B": "The dog ran fast it, caught the ball.", "C": "The dog ran fast, and it caught the ball.", "D": "The dog ran, fast it caught the ball." }, "correctAnswer": "C", "explanation": "Adding a comma and the joining word 'and' correctly links the two complete sentences. A comma alone (choice A) is still a splice.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-3-q5", "section": "grammar", "question": "Which is a correct way to fix 'We were hungry, we ordered a pizza'?", "choices": { "A": "We were hungry we ordered a pizza.", "B": "We were hungry; we ordered a pizza.", "C": "We were hungry, we, ordered a pizza.", "D": "We were, hungry we ordered a pizza." }, "correctAnswer": "B", "explanation": "A semicolon correctly joins two closely related complete sentences, fixing the comma splice.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-3-q6", "section": "grammar", "question": "Which sentence is punctuated CORRECTLY?", "choices": { "A": "The sun set, the sky turned orange.", "B": "The sun set the sky turned orange.", "C": "The sun set, and the sky turned orange.", "D": "The sun, set the sky turned orange." }, "correctAnswer": "C", "explanation": "A comma plus 'and' correctly joins the two complete sentences; choices A and B are a splice and a run-on.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-3-q7", "section": "grammar", "question": "Why is 'I like soccer, my brother likes baseball' incorrect?", "choices": { "A": "It is missing a subject.", "B": "Two complete sentences are joined with only a comma (comma splice).", "C": "It has no verb.", "D": "It is actually correct." }, "correctAnswer": "B", "explanation": "Both halves are complete sentences, so a comma alone cannot join them — it is a comma splice.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-3-q8", "section": "grammar", "question": "Which sentence is a RUN-ON?", "choices": { "A": "Turn off the lights before you leave.", "B": "Turn off the lights before you leave the room is empty.", "C": "Turn off the lights, and lock the door.", "D": "Turn off the lights. Lock the door." }, "correctAnswer": "B", "explanation": "Two complete sentences ('Turn off the lights before you leave' and 'the room is empty') run together with no punctuation.", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-3-q9", "section": "grammar", "question": "Which fix turns 'The movie was long, everyone enjoyed it' into a correct COMPLEX sentence?", "choices": { "A": "The movie was long everyone enjoyed it.", "B": "Although the movie was long, everyone enjoyed it.", "C": "The movie was long, everyone, enjoyed it.", "D": "The movie was long everyone, enjoyed it." }, "correctAnswer": "B", "explanation": "Adding the subordinating word 'Although' turns one part into a dependent clause, fixing the splice with a complex sentence.", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-3-q10", "section": "grammar", "question": "Which sentence is CORRECT and is NOT a run-on or comma splice?", "choices": { "A": "The team won the trophy was huge.", "B": "The team won, the trophy was huge.", "C": "The team won, and the trophy was huge.", "D": "The team won the trophy, was huge." }, "correctAnswer": "C", "explanation": "A comma plus 'and' correctly joins the two complete sentences; the others run together or splice with a comma.", "standard": "ELA.6.C.3.1", "difficulty": "hard" }
+      {
+        "id": "1-3-q1",
+        "section": "grammar",
+        "question": "Which sentence is a RUN-ON?",
+        "choices": {
+          "A": "I woke up early. I made breakfast.",
+          "B": "I woke up early I made breakfast.",
+          "C": "I woke up early, and I made breakfast.",
+          "D": "After I woke up, I made breakfast."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two complete sentences are jammed together with no punctuation, making it a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q2",
+        "section": "grammar",
+        "question": "Which sentence is a COMMA SPLICE?",
+        "choices": {
+          "A": "The rain fell, the streets flooded.",
+          "B": "The rain fell, so the streets flooded.",
+          "C": "The rain fell. The streets flooded.",
+          "D": "When the rain fell, the streets flooded."
+        },
+        "correctAnswer": "A",
+        "explanation": "Two complete sentences are joined with only a comma, which is a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q3",
+        "section": "grammar",
+        "question": "Which sentence is correct (NOT a run-on or splice)?",
+        "choices": {
+          "A": "She studied hard she passed the test.",
+          "B": "She studied hard, she passed the test.",
+          "C": "She studied hard, so she passed the test.",
+          "D": "She studied hard she passed, the test."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus the joining word 'so' correctly connects the two complete sentences.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q4",
+        "section": "grammar",
+        "question": "What is the BEST fix for the run-on 'The dog ran fast it caught the ball'?",
+        "choices": {
+          "A": "The dog ran fast, it caught the ball.",
+          "B": "The dog ran fast it, caught the ball.",
+          "C": "The dog ran fast, and it caught the ball.",
+          "D": "The dog ran, fast it caught the ball."
+        },
+        "correctAnswer": "C",
+        "explanation": "Adding a comma and the joining word 'and' correctly links the two complete sentences. A comma alone (choice A) is still a splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q5",
+        "section": "grammar",
+        "question": "Which is a correct way to fix 'We were hungry, we ordered a pizza'?",
+        "choices": {
+          "A": "We were hungry we ordered a pizza.",
+          "B": "We were hungry; we ordered a pizza.",
+          "C": "We were hungry, we, ordered a pizza.",
+          "D": "We were, hungry we ordered a pizza."
+        },
+        "correctAnswer": "B",
+        "explanation": "A semicolon correctly joins two closely related complete sentences, fixing the comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q6",
+        "section": "grammar",
+        "question": "Which sentence is punctuated CORRECTLY?",
+        "choices": {
+          "A": "The sun set, the sky turned orange.",
+          "B": "The sun set the sky turned orange.",
+          "C": "The sun set, and the sky turned orange.",
+          "D": "The sun, set the sky turned orange."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly joins the two complete sentences; choices A and B are a splice and a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q7",
+        "section": "grammar",
+        "question": "Why is 'I like soccer, my brother likes baseball' incorrect?",
+        "choices": {
+          "A": "It is missing a subject.",
+          "B": "Two complete sentences are joined with only a comma (comma splice).",
+          "C": "It has no verb.",
+          "D": "It is actually correct."
+        },
+        "correctAnswer": "B",
+        "explanation": "Both halves are complete sentences, so a comma alone cannot join them — it is a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q8",
+        "section": "grammar",
+        "question": "Which sentence is a RUN-ON?",
+        "choices": {
+          "A": "Turn off the lights before you leave.",
+          "B": "Turn off the lights before you leave the room is empty.",
+          "C": "Turn off the lights, and lock the door.",
+          "D": "Turn off the lights. Lock the door."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two complete sentences ('Turn off the lights before you leave' and 'the room is empty') run together with no punctuation.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q9",
+        "section": "grammar",
+        "question": "Which fix turns 'The movie was long, everyone enjoyed it' into a correct COMPLEX sentence?",
+        "choices": {
+          "A": "The movie was long everyone enjoyed it.",
+          "B": "Although the movie was long, everyone enjoyed it.",
+          "C": "The movie was long, everyone, enjoyed it.",
+          "D": "The movie was long everyone, enjoyed it."
+        },
+        "correctAnswer": "B",
+        "explanation": "Adding the subordinating word 'Although' turns one part into a dependent clause, fixing the splice with a complex sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q10",
+        "section": "grammar",
+        "question": "Which sentence is CORRECT and is NOT a run-on or comma splice?",
+        "choices": {
+          "A": "The team won the trophy was huge.",
+          "B": "The team won, the trophy was huge.",
+          "C": "The team won, and the trophy was huge.",
+          "D": "The team won the trophy, was huge."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly joins the two complete sentences; the others run together or splice with a comma.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q11",
+        "section": "grammar",
+        "question": "Which sentence is a RUN-ON?",
+        "choices": {
+          "A": "The bell rang. We lined up.",
+          "B": "When the bell rang, we lined up.",
+          "C": "The bell rang, so we lined up.",
+          "D": "The bell rang we lined up."
+        },
+        "correctAnswer": "D",
+        "explanation": "Two complete sentences are jammed together with no punctuation, making it a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q12",
+        "section": "grammar",
+        "question": "Which sentence is a COMMA SPLICE?",
+        "choices": {
+          "A": "As the wind howled, the trees swayed.",
+          "B": "The wind howled, and the trees swayed.",
+          "C": "The wind howled. The trees swayed.",
+          "D": "The wind howled, the trees swayed."
+        },
+        "correctAnswer": "D",
+        "explanation": "Two complete sentences are joined with only a comma, which is a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q13",
+        "section": "grammar",
+        "question": "Which sentence is correct (NOT a run-on or splice)?",
+        "choices": {
+          "A": "He missed the bus he was late.",
+          "B": "He missed the bus, he was late.",
+          "C": "He missed the bus, so he was late.",
+          "D": "He missed the bus he was, late."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus the joining word 'so' correctly connects the two complete sentences.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q14",
+        "section": "grammar",
+        "question": "Which sentence is a RUN-ON?",
+        "choices": {
+          "A": "I love science. It is fun.",
+          "B": "Because I love science, it is fun.",
+          "C": "I love science, and it is fun.",
+          "D": "I love science it is fun."
+        },
+        "correctAnswer": "D",
+        "explanation": "Two complete sentences run together with no punctuation, which makes it a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q15",
+        "section": "grammar",
+        "question": "Which sentence is a COMMA SPLICE?",
+        "choices": {
+          "A": "The cake baked. The kitchen smelled sweet.",
+          "B": "The cake baked, the kitchen smelled sweet.",
+          "C": "The cake baked, and the kitchen smelled sweet.",
+          "D": "While the cake baked, the kitchen smelled sweet."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two complete sentences are joined with only a comma, making it a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q16",
+        "section": "grammar",
+        "question": "Which sentence is punctuated CORRECTLY?",
+        "choices": {
+          "A": "The lights dimmed, the show began.",
+          "B": "The lights dimmed the show began.",
+          "C": "The lights dimmed, and the show began.",
+          "D": "The lights, dimmed the show began."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly joins the two complete sentences; the others are a splice or a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q17",
+        "section": "grammar",
+        "question": "Which sentence is a RUN-ON?",
+        "choices": {
+          "A": "We hiked all day we were exhausted.",
+          "B": "We hiked all day. We were exhausted.",
+          "C": "We hiked all day, so we were exhausted.",
+          "D": "After we hiked all day, we were exhausted."
+        },
+        "correctAnswer": "A",
+        "explanation": "Two complete sentences are joined with no punctuation, making it a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q18",
+        "section": "grammar",
+        "question": "Which sentence is correct (NOT a run-on or splice)?",
+        "choices": {
+          "A": "The phone buzzed, I answered it.",
+          "B": "The phone buzzed I answered it.",
+          "C": "The phone buzzed, and I answered it.",
+          "D": "The phone buzzed I, answered it."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly links the two complete sentences; the others splice or run together.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q19",
+        "section": "grammar",
+        "question": "Which sentence is a COMMA SPLICE?",
+        "choices": {
+          "A": "As snow fell quietly, the town grew still.",
+          "B": "Snow fell quietly. The town grew still.",
+          "C": "Snow fell quietly, and the town grew still.",
+          "D": "Snow fell quietly, the town grew still."
+        },
+        "correctAnswer": "D",
+        "explanation": "Two complete sentences are connected with only a comma, which is a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q20",
+        "section": "grammar",
+        "question": "Which sentence is punctuated CORRECTLY?",
+        "choices": {
+          "A": "Mom cooked dinner, Dad set the table.",
+          "B": "Mom cooked dinner Dad set the table.",
+          "C": "Mom cooked dinner, and Dad set the table.",
+          "D": "Mom cooked, dinner Dad set the table."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly joins the two complete sentences; choices A and B are a splice and a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q21",
+        "section": "grammar",
+        "question": "What is the BEST fix for the run-on 'The alarm blared everyone woke up'?",
+        "choices": {
+          "A": "The alarm blared, everyone woke up.",
+          "B": "The alarm blared everyone, woke up.",
+          "C": "The alarm blared, and everyone woke up.",
+          "D": "The alarm, blared everyone woke up."
+        },
+        "correctAnswer": "C",
+        "explanation": "Adding a comma plus 'and' correctly links the two complete sentences. A comma alone (choice A) is still a splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q22",
+        "section": "grammar",
+        "question": "Which is a correct way to fix 'The pool was cold, we jumped in anyway'?",
+        "choices": {
+          "A": "The pool was cold we jumped in anyway.",
+          "B": "The pool was cold; we jumped in anyway.",
+          "C": "The pool was cold, we, jumped in anyway.",
+          "D": "The pool, was cold we jumped in anyway."
+        },
+        "correctAnswer": "B",
+        "explanation": "A semicolon correctly joins two closely related complete sentences, fixing the comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q23",
+        "section": "grammar",
+        "question": "Why is 'The dog napped, the cat watched the birds' incorrect?",
+        "choices": {
+          "A": "It is missing a subject.",
+          "B": "Two complete sentences are joined with only a comma (comma splice).",
+          "C": "It has no verb.",
+          "D": "It is actually correct."
+        },
+        "correctAnswer": "B",
+        "explanation": "Both halves are complete sentences, so a comma alone cannot join them — it is a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q24",
+        "section": "grammar",
+        "question": "Which sentence is punctuated CORRECTLY?",
+        "choices": {
+          "A": "The clock struck noon, the bells rang.",
+          "B": "The clock struck noon the bells rang.",
+          "C": "The clock struck noon, and the bells rang.",
+          "D": "The clock, struck noon the bells rang."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly joins the two complete sentences; choices A and B are a splice and a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q25",
+        "section": "grammar",
+        "question": "What is the BEST fix for the run-on 'I forgot my umbrella I got soaked'?",
+        "choices": {
+          "A": "I forgot my umbrella, I got soaked.",
+          "B": "I forgot my umbrella; I got soaked.",
+          "C": "I forgot, my umbrella I got soaked.",
+          "D": "I forgot my umbrella I, got soaked."
+        },
+        "correctAnswer": "B",
+        "explanation": "A semicolon correctly joins the two closely related complete sentences. A comma alone (choice A) would still be a splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q26",
+        "section": "grammar",
+        "question": "Which sentence is a COMMA SPLICE that needs fixing?",
+        "choices": {
+          "A": "Because the bus was late, we waited.",
+          "B": "The bus was late, we waited.",
+          "C": "The bus was late, so we waited.",
+          "D": "The bus was late. We waited."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two complete sentences ('The bus was late' and 'we waited') are joined with only a comma — a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q27",
+        "section": "grammar",
+        "question": "Which is a correct way to fix the run-on 'The movie ended the credits rolled'?",
+        "choices": {
+          "A": "The movie ended the credits, rolled.",
+          "B": "The movie ended, the credits rolled.",
+          "C": "The movie ended. The credits rolled.",
+          "D": "The movie, ended the credits rolled."
+        },
+        "correctAnswer": "C",
+        "explanation": "Splitting it into two sentences with a period fixes the run-on. Choice B only adds a comma, which is a splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q28",
+        "section": "grammar",
+        "question": "Which sentence is correct (NOT a run-on or splice)?",
+        "choices": {
+          "A": "The crowd cheered the player waved.",
+          "B": "The crowd cheered, the player waved.",
+          "C": "The crowd cheered, and the player waved.",
+          "D": "The crowd cheered the player, waved."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly joins the two complete sentences; the others run together or splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q29",
+        "section": "grammar",
+        "question": "What is the BEST way to fix 'She loves art she paints every weekend'?",
+        "choices": {
+          "A": "She loves art, she paints every weekend.",
+          "B": "She loves art, so she paints every weekend.",
+          "C": "She loves art she paints, every weekend.",
+          "D": "She, loves art she paints every weekend."
+        },
+        "correctAnswer": "B",
+        "explanation": "A comma plus the joining word 'so' correctly links the two complete sentences. A comma alone (choice A) is still a splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q30",
+        "section": "grammar",
+        "question": "Which sentence is punctuated CORRECTLY?",
+        "choices": {
+          "A": "The river rose, the bridge closed.",
+          "B": "The river rose the bridge closed.",
+          "C": "The river rose, so the bridge closed.",
+          "D": "The river rose the bridge, closed."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'so' correctly joins the two complete sentences; choices A and B are a splice and a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q31",
+        "section": "grammar",
+        "question": "Which sentence is a RUN-ON?",
+        "choices": {
+          "A": "Read the directions before you start the test is timed.",
+          "B": "Read the directions before you start.",
+          "C": "Read the directions, and then begin.",
+          "D": "Read the directions. The test is timed."
+        },
+        "correctAnswer": "A",
+        "explanation": "Two complete sentences ('Read the directions before you start' and 'the test is timed') run together with no punctuation.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q32",
+        "section": "grammar",
+        "question": "Which fix turns 'The trail was steep, we kept climbing' into a correct COMPLEX sentence?",
+        "choices": {
+          "A": "The trail was steep we kept climbing.",
+          "B": "Although the trail was steep, we kept climbing.",
+          "C": "The trail was steep, we, kept climbing.",
+          "D": "The trail was steep we kept, climbing."
+        },
+        "correctAnswer": "B",
+        "explanation": "Adding the subordinating word 'Although' turns one part into a dependent clause, fixing the splice with a complex sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q33",
+        "section": "grammar",
+        "question": "A student wrote: 'The experiment failed, the team tried again, they finally succeeded.' What is the BEST description of this sentence?",
+        "choices": {
+          "A": "It is correct as written.",
+          "B": "It is a comma splice because three complete sentences are joined with only commas.",
+          "C": "It is a fragment.",
+          "D": "It is missing a subject."
+        },
+        "correctAnswer": "B",
+        "explanation": "Three independent clauses are strung together with only commas, so it is a comma splice that needs periods or joining words.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q34",
+        "section": "grammar",
+        "question": "Which sentence is CORRECT and is NOT a run-on or comma splice?",
+        "choices": {
+          "A": "The garden grew the harvest was huge.",
+          "B": "The garden grew, the harvest was huge.",
+          "C": "The garden grew, and the harvest was huge.",
+          "D": "The garden grew the harvest, was huge."
+        },
+        "correctAnswer": "C",
+        "explanation": "A comma plus 'and' correctly joins the two complete sentences; the others run together or splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q35",
+        "section": "grammar",
+        "question": "Which is the BEST fix for 'The power went out, we lit candles, dinner was cozy'?",
+        "choices": {
+          "A": "The power went out we lit candles dinner was cozy.",
+          "B": "When the power went out, we lit candles, and dinner was cozy.",
+          "C": "The power went out, we lit candles, dinner, was cozy.",
+          "D": "The power, went out we lit candles dinner was cozy."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B fixes the splice by making the first part dependent and joining the last two clauses with a comma plus 'and.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q36",
+        "section": "grammar",
+        "question": "Which sentence is the ONLY one that is correctly punctuated?",
+        "choices": {
+          "A": "The whistle blew the runners took off.",
+          "B": "The whistle blew, the runners took off.",
+          "C": "The whistle blew; the runners took off.",
+          "D": "The whistle blew the runners, took off."
+        },
+        "correctAnswer": "C",
+        "explanation": "A semicolon correctly joins two closely related complete sentences. Choice A is a run-on and B is a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q37",
+        "section": "grammar",
+        "question": "Why is 'The store closed early everyone went home' a RUN-ON rather than a comma splice?",
+        "choices": {
+          "A": "It uses a comma between the two sentences.",
+          "B": "It has no punctuation at all between the two complete sentences.",
+          "C": "It is missing a verb.",
+          "D": "It is actually correct."
+        },
+        "correctAnswer": "B",
+        "explanation": "A run-on has NO punctuation between two complete sentences; a comma splice would have a comma. This has neither, so it is a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q38",
+        "section": "grammar",
+        "question": "Which choice fixes the comma splice 'The recipe looked easy, it took two hours' WITHOUT changing it into a complex sentence?",
+        "choices": {
+          "A": "The recipe looked easy, but it took two hours.",
+          "B": "Although the recipe looked easy, it took two hours.",
+          "C": "Since the recipe looked easy, it took two hours.",
+          "D": "Because the recipe looked easy, it took two hours."
+        },
+        "correctAnswer": "A",
+        "explanation": "Choice A keeps both clauses independent and joins them with a comma plus 'but.' The others add subordinating words, making complex sentences.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q39",
+        "section": "grammar",
+        "question": "Which sentence is a RUN-ON that needs fixing?",
+        "choices": {
+          "A": "After the long meeting ended, we grabbed coffee.",
+          "B": "The long meeting finally ended we grabbed coffee right away.",
+          "C": "The long meeting ended, and we grabbed coffee.",
+          "D": "The long meeting ended. We grabbed coffee."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two complete sentences are jammed together with no punctuation between them, making it a run-on.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q40",
+        "section": "grammar",
+        "question": "Which sentence is CORRECT and is NOT a run-on or comma splice?",
+        "choices": {
+          "A": "The thunder boomed the dog hid under the bed.",
+          "B": "The thunder boomed, the dog hid under the bed.",
+          "C": "When the thunder boomed, the dog hid under the bed.",
+          "D": "The thunder boomed the dog, hid under the bed."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C uses a dependent clause ('When the thunder boomed') plus an independent clause, which is correct. A and D are run-ons and B is a comma splice.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "1-4": {
@@ -55,16 +1825,606 @@
     "standard": "ELA.6.C.3.1",
     "learn": "HOW TO IDENTIFY SIMPLE, COMPOUND, AND COMPLEX SENTENCES\n\nSIMPLE = one independent clause (one complete thought): 'Rain fell.'\nCOMPOUND = two independent clauses joined by a comma + FANBOYS (and, but, or, so, etc.) or a semicolon: 'Rain fell, and the game stopped.'\nCOMPLEX = one independent clause + at least one dependent clause (starts with because, when, although, etc.): 'When rain fell, the game stopped.'\n\nExample 1 — 'The bell rang.'\nOne complete thought, no joining words. Type: SIMPLE.\n\nExample 2 — 'The bell rang, and students rushed out.'\nTwo complete thoughts joined by comma + 'and.' Type: COMPOUND.\n\nExample 3 — 'When the bell rang, students rushed out.'\n'When the bell rang' is dependent; 'students rushed out' is independent. Type: COMPLEX.\n\nQuick check: Count the complete-thought parts. One part = simple. Two equal parts joined = compound. One part that needs the other (starts with because/when/if) = complex.",
     "questions": [
-      { "id": "1-4-q1", "section": "grammar", "question": "What type of sentence is 'The birds sang'?", "choices": { "A": "Simple", "B": "Compound", "C": "Complex", "D": "Fragment" }, "correctAnswer": "A", "explanation": "It is one independent clause with a single complete thought, so it is a simple sentence.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-4-q2", "section": "grammar", "question": "What type of sentence is 'I wanted ice cream, but the shop was closed'?", "choices": { "A": "Simple", "B": "Compound", "C": "Complex", "D": "Fragment" }, "correctAnswer": "B", "explanation": "Two independent clauses are joined by a comma plus 'but,' making it a compound sentence.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-4-q3", "section": "grammar", "question": "What type of sentence is 'Because it snowed, school was canceled'?", "choices": { "A": "Simple", "B": "Compound", "C": "Complex", "D": "Fragment" }, "correctAnswer": "C", "explanation": "It joins a dependent clause ('Because it snowed') with an independent clause, making it complex.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-4-q4", "section": "grammar", "question": "Which sentence is COMPOUND?", "choices": { "A": "After lunch, we played outside.", "B": "We played outside, and we had fun.", "C": "We played outside.", "D": "While we played outside." }, "correctAnswer": "B", "explanation": "Two independent clauses joined by comma + 'and' make this compound. Choice A is complex and C is simple.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-4-q5", "section": "grammar", "question": "Which sentence is COMPLEX?", "choices": { "A": "The dog barked, and the baby woke up.", "B": "The dog barked loudly.", "C": "When the dog barked, the baby woke up.", "D": "The dog barked; the baby woke up." }, "correctAnswer": "C", "explanation": "It joins the dependent clause 'When the dog barked' with an independent clause, making it complex.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-4-q6", "section": "grammar", "question": "Which sentence is SIMPLE?", "choices": { "A": "The soccer team practiced for two long hours.", "B": "The team practiced, and then they rested.", "C": "Although they were tired, the team practiced.", "D": "The team practiced; they rested." }, "correctAnswer": "A", "explanation": "It contains just one independent clause (one complete thought), so it is simple, even though it is long.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-4-q7", "section": "grammar", "question": "What makes a COMPOUND sentence different from a COMPLEX one?", "choices": { "A": "Compound joins two equal independent clauses; complex joins an independent clause with a dependent one.", "B": "Compound has only one clause; complex has two.", "C": "Compound always uses 'because'; complex always uses 'and.'", "D": "There is no difference." }, "correctAnswer": "A", "explanation": "Compound = two independent clauses joined as equals; complex = one independent plus a dependent clause.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-4-q8", "section": "grammar", "question": "What type of sentence is 'The lights flickered; the power went out'?", "choices": { "A": "Simple", "B": "Compound", "C": "Complex", "D": "Fragment" }, "correctAnswer": "B", "explanation": "A semicolon joins two independent clauses, which makes it a compound sentence.", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-4-q9", "section": "grammar", "question": "Which sentence combines a simple idea into a COMPLEX sentence correctly?", "choices": { "A": "She smiled and she waved.", "B": "She smiled. She waved.", "C": "Although she was shy, she smiled and waved.", "D": "She smiled, she waved." }, "correctAnswer": "C", "explanation": "Adding the dependent clause 'Although she was shy' to an independent clause creates a complex sentence.", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-4-q10", "section": "grammar", "question": "Identify the sentence type: 'If you arrive early, you can get a good seat.'", "choices": { "A": "Simple, one clause", "B": "Compound, two independent clauses", "C": "Complex, a dependent clause plus an independent clause", "D": "Fragment, missing a verb" }, "correctAnswer": "C", "explanation": "'If you arrive early' is dependent and 'you can get a good seat' is independent, so the sentence is complex.", "standard": "ELA.6.C.3.1", "difficulty": "hard" }
+      {
+        "id": "1-4-q1",
+        "section": "grammar",
+        "question": "What type of sentence is 'The birds sang'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "A",
+        "explanation": "It is one independent clause with a single complete thought, so it is a simple sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q2",
+        "section": "grammar",
+        "question": "What type of sentence is 'I wanted ice cream, but the shop was closed'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "B",
+        "explanation": "Two independent clauses are joined by a comma plus 'but,' making it a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q3",
+        "section": "grammar",
+        "question": "What type of sentence is 'Because it snowed, school was canceled'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins a dependent clause ('Because it snowed') with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q4",
+        "section": "grammar",
+        "question": "Which sentence is COMPOUND?",
+        "choices": {
+          "A": "After lunch, we played outside.",
+          "B": "We played outside, and we had fun.",
+          "C": "We played outside.",
+          "D": "While we played outside."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two independent clauses joined by comma + 'and' make this compound. Choice A is complex and C is simple.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q5",
+        "section": "grammar",
+        "question": "Which sentence is COMPLEX?",
+        "choices": {
+          "A": "The dog barked, and the baby woke up.",
+          "B": "The dog barked loudly.",
+          "C": "When the dog barked, the baby woke up.",
+          "D": "The dog barked; the baby woke up."
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins the dependent clause 'When the dog barked' with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q6",
+        "section": "grammar",
+        "question": "Which sentence is SIMPLE?",
+        "choices": {
+          "A": "The soccer team practiced for two long hours.",
+          "B": "The team practiced, and then they rested.",
+          "C": "Although they were tired, the team practiced.",
+          "D": "The team practiced; they rested."
+        },
+        "correctAnswer": "A",
+        "explanation": "It contains just one independent clause (one complete thought), so it is simple, even though it is long.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q7",
+        "section": "grammar",
+        "question": "What makes a COMPOUND sentence different from a COMPLEX one?",
+        "choices": {
+          "A": "Compound joins two equal independent clauses; complex joins an independent clause with a dependent one.",
+          "B": "Compound has only one clause; complex has two.",
+          "C": "Compound always uses 'because'; complex always uses 'and.'",
+          "D": "There is no difference."
+        },
+        "correctAnswer": "A",
+        "explanation": "Compound = two independent clauses joined as equals; complex = one independent plus a dependent clause.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q8",
+        "section": "grammar",
+        "question": "What type of sentence is 'The lights flickered; the power went out'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "B",
+        "explanation": "A semicolon joins two independent clauses, which makes it a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q9",
+        "section": "grammar",
+        "question": "Which sentence combines a simple idea into a COMPLEX sentence correctly?",
+        "choices": {
+          "A": "She smiled and she waved.",
+          "B": "She smiled. She waved.",
+          "C": "Although she was shy, she smiled and waved.",
+          "D": "She smiled, she waved."
+        },
+        "correctAnswer": "C",
+        "explanation": "Adding the dependent clause 'Although she was shy' to an independent clause creates a complex sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q10",
+        "section": "grammar",
+        "question": "Identify the sentence type: 'If you arrive early, you can get a good seat.'",
+        "choices": {
+          "A": "Simple, one clause",
+          "B": "Compound, two independent clauses",
+          "C": "Complex, a dependent clause plus an independent clause",
+          "D": "Fragment, missing a verb"
+        },
+        "correctAnswer": "C",
+        "explanation": "'If you arrive early' is dependent and 'you can get a good seat' is independent, so the sentence is complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q11",
+        "section": "grammar",
+        "question": "What type of sentence is 'The kitten slept'?",
+        "choices": {
+          "A": "Fragment",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Simple"
+        },
+        "correctAnswer": "D",
+        "explanation": "It is one independent clause with a single complete thought, so it is a simple sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q12",
+        "section": "grammar",
+        "question": "What type of sentence is 'We were tired, so we went to bed early'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Fragment",
+          "C": "Complex",
+          "D": "Compound"
+        },
+        "correctAnswer": "D",
+        "explanation": "Two independent clauses are joined by a comma plus 'so,' making it a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q13",
+        "section": "grammar",
+        "question": "What type of sentence is 'When the bell rang, the students left'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins a dependent clause ('When the bell rang') with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q14",
+        "section": "grammar",
+        "question": "What type of sentence is 'The waves crashed against the rocks'?",
+        "choices": {
+          "A": "Fragment",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Simple"
+        },
+        "correctAnswer": "D",
+        "explanation": "It is one independent clause with a single complete thought, so it is simple.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q15",
+        "section": "grammar",
+        "question": "What type of sentence is 'Maria sang, and the crowd clapped'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Fragment",
+          "C": "Complex",
+          "D": "Compound"
+        },
+        "correctAnswer": "D",
+        "explanation": "Two independent clauses are joined by a comma plus 'and,' making it a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q16",
+        "section": "grammar",
+        "question": "What type of sentence is 'Although it was late, we finished the project'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins a dependent clause ('Although it was late') with an independent clause, so it is complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q17",
+        "section": "grammar",
+        "question": "What type of sentence is 'The hungry, tired campers ate dinner around the fire'?",
+        "choices": {
+          "A": "Fragment",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Simple"
+        },
+        "correctAnswer": "D",
+        "explanation": "It has just one independent clause, so it is simple even though it is long and descriptive.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q18",
+        "section": "grammar",
+        "question": "What type of sentence is 'I packed a lunch, but I forgot my water bottle'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "B",
+        "explanation": "Two independent clauses are joined by a comma plus 'but,' making it a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q19",
+        "section": "grammar",
+        "question": "What type of sentence is 'Since the road was closed, we took the long way'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins a dependent clause ('Since the road was closed') with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q20",
+        "section": "grammar",
+        "question": "What type of sentence is 'The orchestra tuned their instruments before the concert'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "A",
+        "explanation": "It has one independent clause; 'before the concert' is just a phrase, not a clause, so the sentence is simple.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q21",
+        "section": "grammar",
+        "question": "Which sentence is COMPOUND?",
+        "choices": {
+          "A": "Before the rain started, we ran inside.",
+          "B": "The thunder rumbled, and the rain poured down.",
+          "C": "The thunder rumbled loudly.",
+          "D": "While the thunder rumbled."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two independent clauses joined by comma + 'and' make this compound. Choice A is complex and C is simple.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q22",
+        "section": "grammar",
+        "question": "Which sentence is COMPLEX?",
+        "choices": {
+          "A": "The phone rang, and she answered it.",
+          "B": "The phone rang loudly.",
+          "C": "Because the phone rang, she woke up.",
+          "D": "The phone rang; she answered it."
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins the dependent clause 'Because the phone rang' with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q23",
+        "section": "grammar",
+        "question": "Which sentence is SIMPLE?",
+        "choices": {
+          "A": "The chef chopped the fresh vegetables for the soup.",
+          "B": "The chef chopped vegetables, and he stirred the soup.",
+          "C": "When the chef chopped vegetables, the soup simmered.",
+          "D": "The chef chopped vegetables; the soup simmered."
+        },
+        "correctAnswer": "A",
+        "explanation": "It contains just one independent clause (one complete thought), so it is simple, even though it is long.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q24",
+        "section": "grammar",
+        "question": "Which sentence is COMPOUND?",
+        "choices": {
+          "A": "After the show ended, we left.",
+          "B": "We left the show.",
+          "C": "We left the show, and we drove home.",
+          "D": "Because the show ended, we left."
+        },
+        "correctAnswer": "C",
+        "explanation": "Two independent clauses joined by comma + 'and' make this compound; A and D are complex and B is simple.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q25",
+        "section": "grammar",
+        "question": "Which sentence is COMPLEX?",
+        "choices": {
+          "A": "The lights flickered, but the show went on.",
+          "B": "The lights flickered twice.",
+          "C": "When the lights flickered, the crowd gasped.",
+          "D": "The lights flickered; the crowd gasped."
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins the dependent clause 'When the lights flickered' with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q26",
+        "section": "grammar",
+        "question": "What type of sentence is 'The bakery sells bread, and it also sells cookies'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "B",
+        "explanation": "Two independent clauses are joined by a comma plus 'and,' making it a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q27",
+        "section": "grammar",
+        "question": "Which sentence is SIMPLE?",
+        "choices": {
+          "A": "The two friends laughed and talked for hours at the cafe.",
+          "B": "The friends laughed, and they talked for hours.",
+          "C": "While the friends laughed, the waiter brought tea.",
+          "D": "The friends laughed; they talked for hours."
+        },
+        "correctAnswer": "A",
+        "explanation": "It has one subject and a compound verb ('laughed and talked') but only one independent clause, so it is simple.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q28",
+        "section": "grammar",
+        "question": "Which sentence is COMPLEX?",
+        "choices": {
+          "A": "She finished her homework, so she watched TV.",
+          "B": "She finished her homework quickly.",
+          "C": "After she finished her homework, she watched TV.",
+          "D": "She finished her homework; she watched TV."
+        },
+        "correctAnswer": "C",
+        "explanation": "It joins the dependent clause 'After she finished her homework' with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q29",
+        "section": "grammar",
+        "question": "What makes a SIMPLE sentence different from a COMPOUND one?",
+        "choices": {
+          "A": "A simple sentence has one independent clause; a compound sentence joins two independent clauses.",
+          "B": "A simple sentence is always short; a compound sentence is always long.",
+          "C": "A simple sentence uses 'because'; a compound sentence uses 'when.'",
+          "D": "There is no difference between them."
+        },
+        "correctAnswer": "A",
+        "explanation": "A simple sentence has exactly one independent clause, while a compound sentence joins two independent clauses as equals.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q30",
+        "section": "grammar",
+        "question": "Which sentence is COMPOUND?",
+        "choices": {
+          "A": "Although we tried, we lost the match.",
+          "B": "We tried hard, but we lost the match.",
+          "C": "We tried hard during the match.",
+          "D": "While we tried, the match ended."
+        },
+        "correctAnswer": "B",
+        "explanation": "Two independent clauses joined by comma + 'but' make this compound; A and D are complex and C is simple.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q31",
+        "section": "grammar",
+        "question": "What type of sentence is 'The fireworks exploded; the children cheered'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "B",
+        "explanation": "A semicolon joins two independent clauses, which makes it a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q32",
+        "section": "grammar",
+        "question": "Which sentence combines ideas into a COMPLEX sentence correctly?",
+        "choices": {
+          "A": "He laughed and he clapped.",
+          "B": "He laughed. He clapped.",
+          "C": "Because the joke was funny, he laughed and clapped.",
+          "D": "He laughed, he clapped."
+        },
+        "correctAnswer": "C",
+        "explanation": "Adding the dependent clause 'Because the joke was funny' to an independent clause creates a complex sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q33",
+        "section": "grammar",
+        "question": "Identify the sentence type: 'Since the test was tomorrow, I studied all evening.'",
+        "choices": {
+          "A": "Simple, one clause",
+          "B": "Compound, two independent clauses",
+          "C": "Complex, a dependent clause plus an independent clause",
+          "D": "Fragment, missing a verb"
+        },
+        "correctAnswer": "C",
+        "explanation": "'Since the test was tomorrow' is dependent and 'I studied all evening' is independent, so the sentence is complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q34",
+        "section": "grammar",
+        "question": "What type of sentence is 'The dancers practiced for weeks, and their show was a hit'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "B",
+        "explanation": "Two independent clauses are joined by a comma plus 'and,' so it is a compound sentence.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q35",
+        "section": "grammar",
+        "question": "Which sentence is SIMPLE, even though it looks complicated?",
+        "choices": {
+          "A": "After the long winter, the bright flowers bloomed across the entire valley.",
+          "B": "The flowers bloomed, and the bees buzzed.",
+          "C": "When the flowers bloomed, the bees buzzed.",
+          "D": "The flowers bloomed; the bees buzzed."
+        },
+        "correctAnswer": "A",
+        "explanation": "Choice A has one independent clause with introductory phrases, so it is simple. The others contain two clauses.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q36",
+        "section": "grammar",
+        "question": "Which sentence is the ONLY COMPLEX sentence?",
+        "choices": {
+          "A": "The bus arrived, and we boarded.",
+          "B": "The bus arrived on time.",
+          "C": "When the bus arrived, we boarded quickly.",
+          "D": "The bus arrived; we boarded."
+        },
+        "correctAnswer": "C",
+        "explanation": "Only choice C joins a dependent clause ('When the bus arrived') with an independent clause, making it complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q37",
+        "section": "grammar",
+        "question": "Identify the sentence type: 'The storm passed, and the sun returned.'",
+        "choices": {
+          "A": "Simple, one clause",
+          "B": "Compound, two independent clauses joined by a comma and 'and'",
+          "C": "Complex, a dependent clause plus an independent clause",
+          "D": "Fragment, missing a verb"
+        },
+        "correctAnswer": "B",
+        "explanation": "Both 'The storm passed' and 'the sun returned' are independent, joined by a comma plus 'and,' so it is compound.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-4-q38",
+        "section": "grammar",
+        "question": "Which sentence is the ONLY SIMPLE sentence?",
+        "choices": {
+          "A": "The scientist mixed the chemicals carefully in the lab.",
+          "B": "The scientist mixed the chemicals, and the mixture bubbled.",
+          "C": "When the scientist mixed the chemicals, the mixture bubbled.",
+          "D": "The scientist mixed the chemicals; the mixture bubbled."
+        },
+        "correctAnswer": "A",
+        "explanation": "Only choice A has a single independent clause. The others contain two clauses (compound or complex).",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-4-q39",
+        "section": "grammar",
+        "question": "What type of sentence is 'Whenever it rains, the streets near the school flood quickly'?",
+        "choices": {
+          "A": "Simple",
+          "B": "Compound",
+          "C": "Complex",
+          "D": "Fragment"
+        },
+        "correctAnswer": "C",
+        "explanation": "'Whenever it rains' is a dependent clause joined to the independent clause 'the streets near the school flood quickly,' so it is complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-4-q40",
+        "section": "grammar",
+        "question": "Which sentence is COMPOUND, not complex?",
+        "choices": {
+          "A": "Because the alarm sounded, everyone left the building.",
+          "B": "When the alarm sounded, everyone left the building.",
+          "C": "The alarm sounded, so everyone left the building.",
+          "D": "Everyone left the building after the alarm sounded."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C joins two independent clauses with a comma plus 'so,' making it compound. The others use subordinating words and are complex.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "1-5": {
@@ -72,16 +2432,606 @@
     "standard": "ELA.6.C.3.1",
     "learn": "HOW TO VARY SENTENCE STRUCTURE\n\nGood writing mixes short and long sentences and starts them in different ways. When every sentence is the same length and starts with the subject, writing sounds choppy and robotic.\n\nExample 1 — Choppy: 'I ran. I was tired. I stopped.'\nThese are three short, identical sentences. Combine and vary them: 'Exhausted, I finally stopped running.' Now one smooth sentence replaces three choppy ones.\n\nExample 2 — Repetitive starts: 'The dog barked. The dog ran. The dog jumped.'\nEvery sentence starts with 'The dog.' Vary the openings: 'Barking loudly, the dog ran across the yard and jumped the fence.'\n\nExample 3 — Mixing lengths for effect: 'The night was quiet. Then, without warning, a loud crash echoed through the empty house and made everyone freeze.'\nA short sentence followed by a long one builds interest. To vary sentences: change their length, change how they start (with a describing word, a phrase, or a dependent clause), and combine choppy ones.",
     "questions": [
-      { "id": "1-5-q1", "section": "grammar", "question": "Which revision BEST varies these choppy sentences: 'I was scared. I kept walking. I reached the door.'?", "choices": { "A": "Although I was scared, I kept walking until I reached the door.", "B": "I was scared. I kept walking. I reached the door.", "C": "I was scared and I was scared and I reached the door.", "D": "Scared. Walking. Door." }, "correctAnswer": "A", "explanation": "Choice A combines the choppy sentences into one smooth, varied sentence with a dependent-clause opener.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-5-q2", "section": "grammar", "question": "What is the main problem with writing that uses only short sentences of the same length?", "choices": { "A": "It sounds choppy and robotic.", "B": "It has too many commas.", "C": "It always has spelling errors.", "D": "It uses too many big words." }, "correctAnswer": "A", "explanation": "Many short, identical sentences in a row make writing sound choppy and dull instead of smooth.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-5-q3", "section": "grammar", "question": "Which sentence starts with something OTHER than the subject for variety?", "choices": { "A": "The team won the championship.", "B": "After a long season, the team won the championship.", "C": "The team practiced every day.", "D": "The team celebrated together." }, "correctAnswer": "B", "explanation": "Choice B begins with the introductory phrase 'After a long season' instead of the subject, adding variety.", "standard": "ELA.6.C.3.1", "difficulty": "easy" },
-      { "id": "1-5-q4", "section": "grammar", "question": "Which paragraph shows the BEST sentence variety?", "choices": { "A": "I like books. I read often. I have many.", "B": "Books books books. I read read read.", "C": "I love to read. Whenever I have free time, I curl up with a good book and lose track of the hours.", "D": "I like books and I read often and I have many books and I read them." }, "correctAnswer": "C", "explanation": "Choice C mixes a short sentence with a longer, differently structured one, showing strong variety.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-5-q5", "section": "grammar", "question": "Which revision combines 'The wind blew. Leaves fell. The sky darkened.' into one varied sentence?", "choices": { "A": "The wind blew and leaves fell and the sky darkened.", "B": "The wind blew. Leaves fell. The sky darkened.", "C": "Wind, leaves, sky.", "D": "As the wind blew, leaves fell and the sky darkened." }, "correctAnswer": "D", "explanation": "Choice D uses a dependent clause opener and combines the ideas smoothly, varying the structure.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-5-q6", "section": "grammar", "question": "Which sentence opening adds variety by starting with a describing word (an -ed or -ing word)?", "choices": { "A": "The runner crossed the line.", "B": "Exhausted, the runner crossed the line.", "C": "The runner was very tired at the line.", "D": "The runner slowly crossed the line." }, "correctAnswer": "B", "explanation": "Starting with the participle 'Exhausted' varies the opening instead of beginning with the subject.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-5-q7", "section": "grammar", "question": "Why might a writer follow a long sentence with a very short one?", "choices": { "A": "To create emphasis or a dramatic effect.", "B": "Because short sentences are always wrong.", "C": "To use up extra words.", "D": "Because long sentences are not allowed." }, "correctAnswer": "A", "explanation": "Mixing a long sentence with a short, punchy one creates emphasis and keeps readers interested.", "standard": "ELA.6.C.3.1", "difficulty": "medium" },
-      { "id": "1-5-q8", "section": "grammar", "question": "Which choice fixes the repetitive openings in 'She opened the box. She found a note. She smiled.'?", "choices": { "A": "She opened the box. She found a note. She smiled.", "B": "She, she, she opened, found, smiled.", "C": "Opening the box, she found a note and smiled.", "D": "She opened and she found and she smiled the box note." }, "correctAnswer": "C", "explanation": "Choice C combines the three sentences and varies the opening with a participial phrase, removing the repeated 'She.'", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-5-q9", "section": "grammar", "question": "Which revision improves variety the MOST without losing meaning: 'The storm came. The power went out. We lit candles. We waited.'?", "choices": { "A": "The storm came, the power went out, we lit candles, we waited.", "B": "The storm came. The power went out. We lit candles. We waited.", "C": "When the storm came and the power went out, we lit candles and waited.", "D": "Storm, power, candles, waited." }, "correctAnswer": "C", "explanation": "Choice C combines the choppy sentences using a dependent clause and 'and,' creating smooth, varied structure.", "standard": "ELA.6.C.3.1", "difficulty": "hard" },
-      { "id": "1-5-q10", "section": "grammar", "question": "A writer's draft reads: 'The hike was hard. The hike was long. The hike was worth it.' What is the BEST single revision?", "choices": { "A": "The hike was hard. The hike was long. The hike was worth it.", "B": "Hard and long, the hike was worth it.", "C": "The hike was hard and long and worth it and hard.", "D": "Hike hard long worth it." }, "correctAnswer": "B", "explanation": "Choice B combines the repetitive sentences into one varied sentence that opens with describing words and keeps the meaning.", "standard": "ELA.6.C.3.1", "difficulty": "hard" }
+      {
+        "id": "1-5-q1",
+        "section": "grammar",
+        "question": "Which revision BEST varies these choppy sentences: 'I was scared. I kept walking. I reached the door.'?",
+        "choices": {
+          "A": "Although I was scared, I kept walking until I reached the door.",
+          "B": "I was scared. I kept walking. I reached the door.",
+          "C": "I was scared and I was scared and I reached the door.",
+          "D": "Scared. Walking. Door."
+        },
+        "correctAnswer": "A",
+        "explanation": "Choice A combines the choppy sentences into one smooth, varied sentence with a dependent-clause opener.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q2",
+        "section": "grammar",
+        "question": "What is the main problem with writing that uses only short sentences of the same length?",
+        "choices": {
+          "A": "It sounds choppy and robotic.",
+          "B": "It has too many commas.",
+          "C": "It always has spelling errors.",
+          "D": "It uses too many big words."
+        },
+        "correctAnswer": "A",
+        "explanation": "Many short, identical sentences in a row make writing sound choppy and dull instead of smooth.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q3",
+        "section": "grammar",
+        "question": "Which sentence starts with something OTHER than the subject for variety?",
+        "choices": {
+          "A": "The team won the championship.",
+          "B": "After a long season, the team won the championship.",
+          "C": "The team practiced every day.",
+          "D": "The team celebrated together."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B begins with the introductory phrase 'After a long season' instead of the subject, adding variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q4",
+        "section": "grammar",
+        "question": "Which paragraph shows the BEST sentence variety?",
+        "choices": {
+          "A": "I like books. I read often. I have many.",
+          "B": "Books books books. I read read read.",
+          "C": "I love to read. Whenever I have free time, I curl up with a good book and lose track of the hours.",
+          "D": "I like books and I read often and I have many books and I read them."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C mixes a short sentence with a longer, differently structured one, showing strong variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q5",
+        "section": "grammar",
+        "question": "Which revision combines 'The wind blew. Leaves fell. The sky darkened.' into one varied sentence?",
+        "choices": {
+          "A": "The wind blew and leaves fell and the sky darkened.",
+          "B": "The wind blew. Leaves fell. The sky darkened.",
+          "C": "Wind, leaves, sky.",
+          "D": "As the wind blew, leaves fell and the sky darkened."
+        },
+        "correctAnswer": "D",
+        "explanation": "Choice D uses a dependent clause opener and combines the ideas smoothly, varying the structure.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q6",
+        "section": "grammar",
+        "question": "Which sentence opening adds variety by starting with a describing word (an -ed or -ing word)?",
+        "choices": {
+          "A": "The runner crossed the line.",
+          "B": "Exhausted, the runner crossed the line.",
+          "C": "The runner was very tired at the line.",
+          "D": "The runner slowly crossed the line."
+        },
+        "correctAnswer": "B",
+        "explanation": "Starting with the participle 'Exhausted' varies the opening instead of beginning with the subject.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q7",
+        "section": "grammar",
+        "question": "Why might a writer follow a long sentence with a very short one?",
+        "choices": {
+          "A": "To create emphasis or a dramatic effect.",
+          "B": "Because short sentences are always wrong.",
+          "C": "To use up extra words.",
+          "D": "Because long sentences are not allowed."
+        },
+        "correctAnswer": "A",
+        "explanation": "Mixing a long sentence with a short, punchy one creates emphasis and keeps readers interested.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q8",
+        "section": "grammar",
+        "question": "Which choice fixes the repetitive openings in 'She opened the box. She found a note. She smiled.'?",
+        "choices": {
+          "A": "She opened the box. She found a note. She smiled.",
+          "B": "She, she, she opened, found, smiled.",
+          "C": "Opening the box, she found a note and smiled.",
+          "D": "She opened and she found and she smiled the box note."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C combines the three sentences and varies the opening with a participial phrase, removing the repeated 'She.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q9",
+        "section": "grammar",
+        "question": "Which revision improves variety the MOST without losing meaning: 'The storm came. The power went out. We lit candles. We waited.'?",
+        "choices": {
+          "A": "The storm came, the power went out, we lit candles, we waited.",
+          "B": "The storm came. The power went out. We lit candles. We waited.",
+          "C": "When the storm came and the power went out, we lit candles and waited.",
+          "D": "Storm, power, candles, waited."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C combines the choppy sentences using a dependent clause and 'and,' creating smooth, varied structure.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q10",
+        "section": "grammar",
+        "question": "A writer's draft reads: 'The hike was hard. The hike was long. The hike was worth it.' What is the BEST single revision?",
+        "choices": {
+          "A": "The hike was hard. The hike was long. The hike was worth it.",
+          "B": "Hard and long, the hike was worth it.",
+          "C": "The hike was hard and long and worth it and hard.",
+          "D": "Hike hard long worth it."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B combines the repetitive sentences into one varied sentence that opens with describing words and keeps the meaning.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q11",
+        "section": "grammar",
+        "question": "Which revision BEST varies these choppy sentences: 'The dog ran. The dog jumped. The dog barked.'?",
+        "choices": {
+          "A": "The dog ran, jumped, and barked happily in the yard.",
+          "B": "The dog ran. The dog jumped. The dog barked.",
+          "C": "The dog ran and the dog jumped and the dog barked.",
+          "D": "Ran. Jumped. Barked."
+        },
+        "correctAnswer": "A",
+        "explanation": "Choice A combines the three choppy sentences into one smooth sentence and removes the repeated 'The dog.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q12",
+        "section": "grammar",
+        "question": "What is the main problem with starting every sentence with the same subject, like 'I'?",
+        "choices": {
+          "A": "It makes the writing sound repetitive and dull.",
+          "B": "It always creates run-on sentences.",
+          "C": "It removes all the verbs.",
+          "D": "It adds too many commas."
+        },
+        "correctAnswer": "A",
+        "explanation": "Beginning every sentence the same way makes writing sound repetitive and boring instead of smooth and interesting.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q13",
+        "section": "grammar",
+        "question": "Which sentence starts with something OTHER than the subject for variety?",
+        "choices": {
+          "A": "We watched the parade downtown.",
+          "B": "We cheered for the floats.",
+          "C": "We waved our flags.",
+          "D": "Early in the morning, we watched the parade downtown."
+        },
+        "correctAnswer": "D",
+        "explanation": "Choice D begins with the introductory phrase 'Early in the morning' instead of the subject, adding variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q14",
+        "section": "grammar",
+        "question": "Which choice shows the BEST sentence variety?",
+        "choices": {
+          "A": "I have a cat. I have a dog. I have a fish.",
+          "B": "Cat dog fish. I have. I have.",
+          "C": "I love animals. My house is home to a playful cat, a loyal dog, and a quiet goldfish.",
+          "D": "I have a cat and I have a dog and I have a fish and I love them."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C mixes a short sentence with a longer, differently structured one, showing strong variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q15",
+        "section": "grammar",
+        "question": "Which sentence opening adds variety by starting with an -ing word?",
+        "choices": {
+          "A": "The swimmer dove into the pool.",
+          "B": "The swimmer made a big splash today.",
+          "C": "The swimmer was quick in the pool.",
+          "D": "Diving into the pool, the swimmer made a splash."
+        },
+        "correctAnswer": "D",
+        "explanation": "Starting with the -ing word 'Diving' varies the opening instead of beginning with the subject.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q16",
+        "section": "grammar",
+        "question": "Why do good writers mix short and long sentences?",
+        "choices": {
+          "A": "To keep writing interesting and to control the rhythm.",
+          "B": "Because short sentences are always wrong.",
+          "C": "To make the writing harder to read.",
+          "D": "Because long sentences are not allowed."
+        },
+        "correctAnswer": "A",
+        "explanation": "Mixing sentence lengths keeps the rhythm interesting and prevents writing from sounding choppy or dull.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q17",
+        "section": "grammar",
+        "question": "Which sentence opening starts with a dependent clause for variety?",
+        "choices": {
+          "A": "We stayed inside all day.",
+          "B": "Because the rain never stopped, we stayed inside all day.",
+          "C": "We watched movies all day.",
+          "D": "We made popcorn and watched movies."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B opens with the dependent clause 'Because the rain never stopped' instead of the subject, adding variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q18",
+        "section": "grammar",
+        "question": "Which revision varies these choppy sentences: 'The car stopped. The door opened. A man stepped out.'?",
+        "choices": {
+          "A": "When the car stopped, the door opened and a man stepped out.",
+          "B": "The car stopped. The door opened. A man stepped out.",
+          "C": "Car door man. Stopped opened stepped.",
+          "D": "The car stopped and the door opened and a man stepped out and waited."
+        },
+        "correctAnswer": "A",
+        "explanation": "Choice A combines the three short sentences using a dependent clause opener, creating smooth variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q19",
+        "section": "grammar",
+        "question": "Which sentence begins with a describing word instead of the subject?",
+        "choices": {
+          "A": "The hikers reached the summit at noon.",
+          "B": "The hikers were tired at the summit.",
+          "C": "Exhausted but proud, the hikers reached the summit at noon.",
+          "D": "The hikers slowly reached the summit."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C opens with the describing words 'Exhausted but proud' instead of starting with the subject, adding variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q20",
+        "section": "grammar",
+        "question": "Which choice fixes the repetitive openings in 'He grabbed his bag. He ran outside. He caught the bus.'?",
+        "choices": {
+          "A": "He grabbed his bag. He ran outside. He caught the bus.",
+          "B": "Grabbing his bag, he ran outside and caught the bus.",
+          "C": "He, he, he grabbed ran caught.",
+          "D": "He grabbed and he ran and he caught the bag bus outside."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B combines the sentences and varies the opening with an -ing phrase, removing the repeated 'He.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q21",
+        "section": "grammar",
+        "question": "Which revision BEST combines 'The crowd grew quiet. The speaker stepped up. The speech began.' into one varied sentence?",
+        "choices": {
+          "A": "The crowd grew quiet and the speaker stepped up and the speech began.",
+          "B": "The crowd grew quiet. The speaker stepped up. The speech began.",
+          "C": "As the crowd grew quiet, the speaker stepped up and began the speech.",
+          "D": "Quiet crowd, speaker, speech began."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C uses a dependent-clause opener and combines the ideas smoothly, varying the structure.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q22",
+        "section": "grammar",
+        "question": "Which paragraph shows the BEST sentence variety?",
+        "choices": {
+          "A": "Soccer is fun. I play soccer. I like soccer.",
+          "B": "I play soccer every Saturday. After a hard week, nothing feels better than running across the green field with my friends.",
+          "C": "Soccer soccer soccer. Play play play.",
+          "D": "I play soccer and I like soccer and soccer is fun and I play it."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B mixes a short sentence with a longer, differently structured one, creating strong variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q23",
+        "section": "grammar",
+        "question": "Which sentence starts with a prepositional phrase to add variety?",
+        "choices": {
+          "A": "The keys were under the couch cushions.",
+          "B": "The keys were lost for an hour.",
+          "C": "The keys were silver and shiny.",
+          "D": "Under the couch cushions, the keys were finally found."
+        },
+        "correctAnswer": "D",
+        "explanation": "Choice D opens with the prepositional phrase 'Under the couch cushions' instead of the subject, adding variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q24",
+        "section": "grammar",
+        "question": "Which revision improves variety the MOST: 'The alarm rang. I jumped up. I got dressed. I rushed out.'?",
+        "choices": {
+          "A": "The alarm rang, I jumped up, I got dressed, I rushed out.",
+          "B": "When the alarm rang, I jumped up, got dressed, and rushed out.",
+          "C": "The alarm rang. I jumped up. I got dressed. I rushed out.",
+          "D": "Alarm jump dress rush."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B opens with a dependent clause and combines the choppy sentences smoothly without losing meaning.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q25",
+        "section": "grammar",
+        "question": "Which sentence uses a participial (-ing) opener for variety?",
+        "choices": {
+          "A": "The chef tasted the soup and added salt.",
+          "B": "The chef quickly added salt to the soup.",
+          "C": "Tasting the soup, the chef added a pinch of salt.",
+          "D": "The chef added salt because the soup was bland."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C begins with the participial phrase 'Tasting the soup' instead of the subject, varying the opening.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q26",
+        "section": "grammar",
+        "question": "Why might a writer use a very short sentence after several long ones?",
+        "choices": {
+          "A": "To create emphasis and grab the reader's attention.",
+          "B": "Because long sentences are always wrong.",
+          "C": "To confuse the reader on purpose.",
+          "D": "Because short sentences cannot have verbs."
+        },
+        "correctAnswer": "A",
+        "explanation": "A short, punchy sentence after longer ones creates emphasis and draws the reader's attention.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-5-q27",
+        "section": "grammar",
+        "question": "Which revision best combines 'It was getting dark. We packed our gear. We headed home.'?",
+        "choices": {
+          "A": "It was getting dark we packed our gear we headed home.",
+          "B": "Because it was getting dark, we packed our gear and headed home.",
+          "C": "It was getting dark. We packed our gear. We headed home.",
+          "D": "Dark gear home."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B opens with a dependent clause and joins the remaining ideas, creating smooth, varied structure.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q28",
+        "section": "grammar",
+        "question": "Which choice fixes the repetitive structure in 'The movie was exciting. The movie was funny. The movie was long.'?",
+        "choices": {
+          "A": "The movie was exciting. The movie was funny. The movie was long.",
+          "B": "Exciting, funny, and a little long, the movie kept us entertained.",
+          "C": "The movie was exciting funny long.",
+          "D": "Movie exciting movie funny movie long."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B combines the repeated sentences into one varied sentence that opens with describing words and keeps the meaning.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q29",
+        "section": "grammar",
+        "question": "Which sentence adds variety by opening with a transition word?",
+        "choices": {
+          "A": "We lost the first game. We won the next two.",
+          "B": "We won the next two games easily.",
+          "C": "We played hard in every game.",
+          "D": "However, we bounced back and won the next two games."
+        },
+        "correctAnswer": "D",
+        "explanation": "Choice D begins with the transition word 'However,' which varies the opening and links ideas smoothly.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q30",
+        "section": "grammar",
+        "question": "Which revision combines 'The wind picked up. The kite soared. The children laughed.' into one varied sentence?",
+        "choices": {
+          "A": "The wind picked up and the kite soared and the children laughed.",
+          "B": "As the wind picked up, the kite soared and the children laughed.",
+          "C": "The wind picked up. The kite soared. The children laughed.",
+          "D": "Wind kite children."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B uses a dependent-clause opener ('As the wind picked up') and combines the ideas smoothly, varying the structure.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q31",
+        "section": "grammar",
+        "question": "Which revision improves variety the MOST without losing meaning: 'The bell rang. Students grabbed their bags. They poured into the hallway. The school day ended.'?",
+        "choices": {
+          "A": "The bell rang, students grabbed their bags, they poured into the hallway, the school day ended.",
+          "B": "The bell rang. Students grabbed their bags. They poured into the hallway. The school day ended.",
+          "C": "When the bell rang, students grabbed their bags and poured into the hallway, and the school day ended.",
+          "D": "Bell bags hallway ended."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C combines the choppy sentences using a dependent clause and joining words, creating smooth, varied structure.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q32",
+        "section": "grammar",
+        "question": "A writer's draft reads: 'The room was dark. The room was cold. The room was silent.' What is the BEST single revision?",
+        "choices": {
+          "A": "The room was dark. The room was cold. The room was silent.",
+          "B": "The room was dark and cold and silent and dark.",
+          "C": "Room dark cold silent.",
+          "D": "Dark, cold, and silent, the room felt empty."
+        },
+        "correctAnswer": "D",
+        "explanation": "Choice D combines the repetitive sentences into one varied sentence that opens with describing words and keeps the meaning.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q33",
+        "section": "grammar",
+        "question": "Which choice fixes the repetitive openings in 'She picked up the brush. She dipped it in paint. She painted the sky.'?",
+        "choices": {
+          "A": "She picked up the brush. She dipped it in paint. She painted the sky.",
+          "B": "She, she, she picked dipped painted.",
+          "C": "Picking up the brush and dipping it in paint, she painted the sky.",
+          "D": "She picked and she dipped and she painted brush paint sky."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C combines the three sentences and varies the opening with participial phrases, removing the repeated 'She.'",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q34",
+        "section": "grammar",
+        "question": "Which paragraph uses the STRONGEST variety in both length and sentence openings?",
+        "choices": {
+          "A": "The team trained hard. The team won. The team celebrated.",
+          "B": "After months of grueling practice, the team finally won the championship. They celebrated all night. The trophy gleamed.",
+          "C": "The team trained and won and celebrated and trained again.",
+          "D": "Train win celebrate. Team team team."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B mixes a long opener, a medium sentence, and a short sentence, and it varies how sentences begin — the strongest variety.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q35",
+        "section": "grammar",
+        "question": "Which revision improves variety the MOST: 'The volcano rumbled. Smoke rose. People fled. The town emptied.'?",
+        "choices": {
+          "A": "The volcano rumbled, smoke rose, people fled, the town emptied.",
+          "B": "As the volcano rumbled and smoke rose, people fled until the town emptied.",
+          "C": "The volcano rumbled. Smoke rose. People fled. The town emptied.",
+          "D": "Volcano smoke people town."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B combines the choppy sentences with a dependent clause and 'until,' creating smooth, varied structure.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q36",
+        "section": "grammar",
+        "question": "A draft reads: 'I opened the letter. My hands shook. The news was good.' Which revision keeps the meaning but varies the sentences BEST?",
+        "choices": {
+          "A": "I opened the letter my hands shook the news was good.",
+          "B": "With shaking hands, I opened the letter — the news was good.",
+          "C": "I opened the letter and my hands shook and the news was good.",
+          "D": "Letter hands news good."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B opens with a phrase and uses a dash for emphasis, varying both the opening and the rhythm while keeping the meaning.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q37",
+        "section": "grammar",
+        "question": "Which revision shows variety by following a LONG sentence with a SHORT one for effect?",
+        "choices": {
+          "A": "The detective searched every room. The detective checked every drawer. The detective found nothing.",
+          "B": "The detective searched every room and checked every drawer, examining each corner with care. She found nothing.",
+          "C": "Detective searched checked found nothing.",
+          "D": "The detective searched and checked and found and searched again."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B pairs a long, detailed sentence with a short, punchy one ('She found nothing'), creating variety and emphasis.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q38",
+        "section": "grammar",
+        "question": "Which choice best fixes BOTH the repeated openings and the choppy length in 'The storm hit. The lights went out. We grabbed flashlights. We waited it out.'?",
+        "choices": {
+          "A": "The storm hit, the lights went out, we grabbed flashlights, we waited it out.",
+          "B": "When the storm hit and the lights went out, we grabbed flashlights and waited it out.",
+          "C": "The storm hit. The lights went out. We grabbed flashlights. We waited it out.",
+          "D": "Storm lights flashlights waited."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B opens with a dependent clause and combines the four choppy sentences smoothly, fixing both the repetition and the choppiness.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-5-q39",
+        "section": "grammar",
+        "question": "A writer wants to vary this draft: 'The cake looked perfect. The cake smelled amazing. The cake tasted even better.' Which single revision is BEST?",
+        "choices": {
+          "A": "The cake looked perfect. The cake smelled amazing. The cake tasted even better.",
+          "B": "Perfect to look at and amazing to smell, the cake tasted even better.",
+          "C": "The cake looked and smelled and tasted perfect amazing better.",
+          "D": "Cake perfect amazing better."
+        },
+        "correctAnswer": "B",
+        "explanation": "Choice B combines the three repetitive sentences into one varied sentence with a descriptive opener while keeping the meaning.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-5-q40",
+        "section": "grammar",
+        "question": "Which revision improves a choppy paragraph by varying sentence beginnings the MOST: 'The runners lined up. The gun fired. The runners sprinted. The crowd roared.'?",
+        "choices": {
+          "A": "The runners lined up, the gun fired, the runners sprinted, the crowd roared.",
+          "B": "The runners lined up. The gun fired. The runners sprinted. The crowd roared.",
+          "C": "As the runners lined up, the gun fired; instantly, they sprinted while the crowd roared.",
+          "D": "Runners gun sprint crowd."
+        },
+        "correctAnswer": "C",
+        "explanation": "Choice C varies the openings with a dependent clause and a transition word and combines the choppy sentences smoothly.",
+        "standard": "ELA.6.C.3.1",
+        "difficulty": "medium"
+      }
     ]
   }
 }

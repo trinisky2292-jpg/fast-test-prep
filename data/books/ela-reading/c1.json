@@ -550,6 +550,828 @@
           "difficulty": "hard"
         }
       ]
+    },
+    {
+      "id": "c1-s5",
+      "title": "The Last Day of the Lemonade Stand",
+      "genre": "realistic fiction",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Last Day of the Lemonade Stand",
+          "author": "Dominic Reyes",
+          "text": "Paragraph 1: For three summers, Jamal had run the same lemonade stand on the same cracked corner of Maple Street, and for three summers it had been the best part of his day. He liked the way strangers slowed down when they saw the hand-painted sign, the way quarters clinked into the old coffee can, the way his little sister Aisha shouted prices at passing cars as if she were selling diamonds. But this summer the city had announced that Maple Street would be torn up and rebuilt, and the corner would be closed for good in a week.\n\nParagraph 2: \"It's just a stand,\" his father said gently, when Jamal slumped at the dinner table. \"You can set up somewhere else.\" But it wasn't just a stand, and Jamal could not explain why. Somewhere else would not have the maple tree that dropped its shade across the table at exactly four o'clock. Somewhere else would not have Mr. Okonkwo, who bought two cups every Friday and always said the same thing: \"Best in the city, young man. Don't let anybody tell you different.\"\n\nParagraph 3: On the final afternoon, Jamal almost didn't set up at all. What was the point of one last day? But Aisha was already dragging the table outside, her face fierce with purpose, so he carried out the pitcher and the can and the crooked sign. The heat pressed down like a heavy blanket. For an hour, no one came, and Jamal stared at the orange cones the construction crew had left along the curb, like a fence around something already gone.\n\nParagraph 4: Then Mr. Okonkwo arrived—not alone, but with a dozen neighbors trailing behind him, people Jamal half recognized from three summers of quarters and small talk. Word had traveled, it seemed, the way news does on a small street. They lined up at the crooked table and bought cup after cup until the pitcher ran dry, and someone went home to make more. They did not really come for the lemonade. Jamal understood that now. They came to say goodbye to the corner, and to him.\n\nParagraph 5: When the sun finally slid behind the rooftops, Jamal counted the coffee can: more money than he had ever made in a single day. But that was not what he would remember. He would remember Aisha falling asleep against his shoulder on the curb, and Mr. Okonkwo's hand on his head, and the strange, full feeling of an ending that did not feel empty. Some corners, he decided, you carry with you long after the street is gone."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s5-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 3, the phrase \"fierce with purpose\" most nearly describes Aisha as",
+          "choices": {
+            "A": "determined and full of energy",
+            "B": "frightened and unsure",
+            "C": "angry at her brother",
+            "D": "tired and ready to quit"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Aisha is \"already dragging the table outside\" to set up the stand one last time, showing she is determined and energetic, not frightened, angry, or tired.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c1-s5-q2",
+          "passageId": "p1",
+          "question": "In paragraph 3, the author writes that the orange cones stood \"like a fence around something already gone.\" What does this comparison suggest about how Jamal feels?",
+          "choices": {
+            "A": "He is excited about the new street being built.",
+            "B": "He feels the corner he loves is already lost to him.",
+            "C": "He is worried the cones will be stolen.",
+            "D": "He thinks the construction crew works too slowly."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. A fence around \"something already gone\" suggests Jamal feels the corner is lost before it is even torn up, matching his sadness that this is the last day.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s5-q3",
+          "passageId": "p1",
+          "question": "What is the central theme of the passage?",
+          "choices": {
+            "A": "Running a business is the best way to earn money.",
+            "B": "Cities should never tear up old streets.",
+            "C": "Younger siblings are usually braver than older ones.",
+            "D": "The value of a place often comes from the people and memories tied to it."
+          },
+          "correctAnswer": "D",
+          "explanation": "Option D is correct. Jamal cannot explain why the stand matters until the neighbors gather to say goodbye, and he realizes the corner mattered because of the people and memories, not the lemonade or the money.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s5-q4",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"The heat pressed down like a heavy blanket.\"",
+            "B": "\"He liked the way strangers slowed down when they saw the hand-painted sign.\"",
+            "C": "\"They did not really come for the lemonade... They came to say goodbye to the corner, and to him.\"",
+            "D": "\"You can set up somewhere else.\""
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. This sentence directly states that people came for the corner and for Jamal, not the lemonade, supporting the theme that the place's value came from people and memories.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s5-q5",
+          "passageId": "p1",
+          "question": "From whose point of view is the story told?",
+          "choices": {
+            "A": "Aisha's first-person point of view",
+            "B": "Mr. Okonkwo's first-person point of view",
+            "C": "A third-person narrator who reveals Jamal's thoughts and feelings",
+            "D": "A third-person narrator who knows every character's thoughts equally"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The narrator uses \"he\" and \"Jamal\" rather than \"I,\" and reveals only Jamal's inner thoughts (\"Jamal could not explain why,\" \"Jamal understood that now\"), so it is third-person limited to Jamal.",
+          "standard": "ELA.6.R.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s5-q6",
+          "passageId": "p1",
+          "question": "In paragraph 5, the author describes \"the strange, full feeling of an ending that did not feel empty.\" What does this phrase reveal about Jamal's experience of the last day?",
+          "choices": {
+            "A": "He is relieved the stand is finally closing.",
+            "B": "Even though something is ending, he feels grateful rather than sad.",
+            "C": "He is confused about whether the day really happened.",
+            "D": "He wishes more strangers had come to buy lemonade."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Calling the ending \"full\" and \"not empty\" shows Jamal feels gratitude and contentment from the gathering, even though the stand is closing for good.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s5-q7",
+          "passageId": "p1",
+          "question": "As used in paragraph 4, the sentence \"Word had traveled... the way news does on a small street\" suggests that",
+          "choices": {
+            "A": "the neighbors read about the stand in the newspaper",
+            "B": "people on the street quickly told one another that it was the stand's last day",
+            "C": "Jamal mailed letters to invite his customers",
+            "D": "the construction crew announced the closing on the radio"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. \"Word had traveled\" means the news spread informally from person to person, which is why a dozen neighbors suddenly arrive to say goodbye.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s5-q8",
+          "passageId": "p1",
+          "question": "How does the father's comment in paragraph 2 (\"It's just a stand... You can set up somewhere else\") function in the story?",
+          "choices": {
+            "A": "It proves the father does not love Jamal.",
+            "B": "It contrasts with Jamal's deeper feelings, highlighting that the corner means more to him than a place to sell lemonade.",
+            "C": "It convinces Jamal to move the stand the next day.",
+            "D": "It explains why the city is rebuilding the street."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The father sees only a stand, but the text immediately explains that to Jamal it was not \"just a stand,\" so the comment contrasts with and emphasizes Jamal's deeper attachment to the corner.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s6",
+      "title": "The Telegraph Boy of 1861",
+      "genre": "historical fiction",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Telegraph Boy of 1861",
+          "author": "Cordelia Hayes",
+          "text": "Paragraph 1: Eleven-year-old Samuel had the fastest legs in the city, which was why the telegraph office hired him. All day he waited on a hard bench by the door, listening to the clicking of the brass key, until an operator tore a message from the pad and called his name. Then Samuel ran. He carried words across the cobblestones the way a soldier carries orders—folded, sealed, and not to be read. A telegram could mean a birth, a death, a fortune won or lost. Samuel never knew which, and he had learned not to wonder.\n\nParagraph 2: In the autumn of 1861, the messages changed. The country had split itself in two, and the wires now hummed with news of armies and battles. The men who gathered outside the newspaper office no longer joked. They read the posted dispatches in silence, their faces gray, and Samuel, running past, caught only fragments: a river crossed, a town held, a list of names that made women press handkerchiefs to their mouths.\n\nParagraph 3: One cold evening, the operator handed Samuel a telegram and held it a moment longer than usual. \"This one goes to the house with the blue door on Chestnut Street,\" the man said quietly. \"Knock soft.\" Samuel did not understand the warning until he was standing on the step, and a woman opened the door with a baby on her hip and hope in her eyes—hope that crumbled the instant she saw the folded paper in his hand. She knew, before she read a word, what a telegram in wartime so often meant.\n\nParagraph 4: Samuel had delivered a thousand messages, but he had never delivered grief. He wanted to run, to be anywhere but on that step. Instead he did the only thing he could think of: he took off his cap, the way he had seen grown men do, and he stood very still while the woman read. He did not speak. He simply stayed, a small witness, until she nodded that he could go.\n\nParagraph 5: Walking home through the dark streets, Samuel understood something he could not have put into words that morning. The messages he carried were never really paper. They were people's whole lives, passing through his hands for the length of a run. He had thought his job was speed. That night he learned it was something heavier and far more important: to carry what mattered most, and to carry it with care."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s6-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 1, the word \"dispatches\" (and the messages Samuel carries) most nearly means",
+          "choices": {
+            "A": "official messages or news reports",
+            "B": "small packages of food",
+            "C": "fast horses",
+            "D": "city maps"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Samuel carries telegrams—written messages—and in paragraph 2 men read \"posted dispatches\" of war news, so dispatches are official messages or news reports.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c1-s6-q2",
+          "passageId": "p1",
+          "question": "In paragraph 1, the narrator says Samuel \"carried words across the cobblestones the way a soldier carries orders—folded, sealed, and not to be read.\" What does this comparison reveal about Samuel's job?",
+          "choices": {
+            "A": "Samuel was secretly a soldier in the army.",
+            "B": "Samuel treated the messages as important and private, not to be opened.",
+            "C": "Samuel could not read the messages because he was too young.",
+            "D": "Samuel delivered messages only to soldiers."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing Samuel to a soldier carrying sealed orders shows he handled the telegrams as important, private messages he was not to read, which is reinforced by \"he had learned not to wonder.\"",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s6-q3",
+          "passageId": "p1",
+          "question": "How does the setting of autumn 1861, when \"the country had split itself in two,\" affect the events of the story?",
+          "choices": {
+            "A": "It explains why the telegrams now often carry painful news of the war.",
+            "B": "It shows that the telegraph office was about to close.",
+            "C": "It means Samuel had to learn a new language.",
+            "D": "It causes the weather to grow warmer."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The passage ties the split country to wires \"humming with news of armies and battles\" and to the grief Samuel delivers, so the wartime setting is what fills the telegrams with painful news.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s6-q4",
+          "passageId": "p1",
+          "question": "In paragraph 3, the author writes that the woman's \"hope... crumbled the instant she saw the folded paper.\" What does the word \"crumbled\" suggest about her hope?",
+          "choices": {
+            "A": "Her hope grew stronger when she saw Samuel.",
+            "B": "Her hope fell apart suddenly and completely.",
+            "C": "Her hope slowly returned over several days.",
+            "D": "Her hope had never existed at all."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. \"Crumbled\" compares her hope to something breaking apart, and \"the instant she saw the folded paper\" shows it collapsed suddenly and completely when she realized what the telegram meant.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s6-q5",
+          "passageId": "p1",
+          "question": "Why does Samuel take off his cap and stand still in paragraph 4?",
+          "choices": {
+            "A": "He is hot and wants to cool down.",
+            "B": "He is waiting to be paid for the delivery.",
+            "C": "He is showing respect and quiet sympathy for the grieving woman.",
+            "D": "He is trying to read the message himself."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The text says he removed his cap \"the way he had seen grown men do\" and stayed silently as \"a small witness,\" actions that show respect and sympathy rather than wanting payment or to cool off.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s6-q6",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"Eleven-year-old Samuel had the fastest legs in the city.\"",
+            "B": "\"All day he waited on a hard bench by the door.\"",
+            "C": "\"He simply stayed, a small witness, until she nodded that he could go.\"",
+            "D": "\"The wires now hummed with news of armies and battles.\""
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Staying as \"a small witness\" until she nodded directly shows Samuel's quiet respect and sympathy for the grieving woman.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s6-q7",
+          "passageId": "p1",
+          "question": "What is the central theme developed through Samuel's experience?",
+          "choices": {
+            "A": "Being fast is the most important quality in any job.",
+            "B": "True service means caring for the people behind the task, not just completing it quickly.",
+            "C": "War brings new jobs to young people.",
+            "D": "Telegrams are an outdated way to send news."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Samuel thought his job was speed, but after delivering grief he learns it is \"to carry what mattered most, and to carry it with care,\" developing the theme that true service means caring about people, not just finishing the task.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s6-q8",
+          "passageId": "p1",
+          "question": "In paragraph 5, the narrator says the messages \"were never really paper. They were people's whole lives, passing through his hands for the length of a run.\" What does this figurative language mean?",
+          "choices": {
+            "A": "The telegrams were made of a material other than paper.",
+            "B": "Each message held news that deeply affected real people's lives.",
+            "C": "Samuel was paid based on how long each run took.",
+            "D": "The messages took a very long time to deliver."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Saying the messages \"were people's whole lives\" rather than paper means each telegram carried news—births, deaths, fortunes—that deeply shaped the lives of real people.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s7",
+      "title": "Why the Tortoise's Shell Is Cracked",
+      "genre": "folktale",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Why the Tortoise's Shell Is Cracked",
+          "author": "Adaeze Nwosu",
+          "text": "Paragraph 1: Long ago, when the animals still shared their feasts, Tortoise was known throughout the forest as the cleverest creature of all—and the greediest. He could talk his way into any meal and out of any chore, and he was very proud of his quick tongue. \"A clever mouth,\" he liked to say, \"is worth more than strong legs.\" The other animals shook their heads, but they let him be, for who could argue with Tortoise and win?\n\nParagraph 2: One year a terrible famine came to the land. The ground cracked, the fruit withered, and hunger crept into every burrow and nest. Then the birds received wonderful news: the people of the sky had prepared a great feast and invited all the birds to share it. Tortoise, who could not fly, listened from behind a bush and felt his empty stomach twist with longing. \"Friends,\" he called sweetly, stepping out, \"take me with you. Each of you lend me one feather, and I will fly to the feast as one of you.\"\n\nParagraph 3: The birds were kind, and though some grumbled, each gave a single feather until Tortoise wore a patchwork of borrowed wings. As they flew upward together, Tortoise spoke quickly, as he always did. \"It is the custom at such feasts,\" he announced, \"for every guest to take a new name. I have chosen mine. From now on, you must all call me All of You.\" The birds, who did not know the ways of the sky people, agreed.\n\nParagraph 4: At the feast, the sky people spread out bowls of yam and palm wine and called out grandly, \"This food is for all of you!\" At once Tortoise leaped forward. \"Did you hear?\" he cried. \"They said the food is for All of You—and that is my name! It is all mine.\" And so, while the hungry birds watched, Tortoise ate until his shell was tight, leaving them only scraps. The birds said nothing. But one by one, in silence, each took back the feather it had lent, until Tortoise stood at the edge of the sky with no wings at all.\n\nParagraph 5: \"How will I get home?\" Tortoise wailed. Parrot, the last to leave, paused. \"I will carry a message to your wife,\" she said coolly, \"if you wish.\" Desperate, Tortoise begged her to tell his wife to pile every soft thing in the house—blankets, leaves, cloth—beneath his window, so his fall would be gentle. But Parrot, remembering the stolen feast, told his wife the opposite: to lay out all the hard things instead. When Tortoise jumped, he landed not on softness but on stones, and his smooth shell shattered into pieces. He lived, for tortoises are tough, but his shell never healed smooth again. And that, the elders say, is why the tortoise's shell is cracked to this very day—a map of one greedy meal, worn for a lifetime."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s7-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 2, the word \"famine\" most nearly means",
+          "choices": {
+            "A": "a long, severe shortage of food",
+            "B": "a celebration with lots of food",
+            "C": "a sudden heavy rainstorm",
+            "D": "a journey to the sky"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The passage describes the famine with \"the ground cracked, the fruit withered, and hunger crept into every burrow,\" showing it is a severe shortage of food.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c1-s7-q2",
+          "passageId": "p1",
+          "question": "Why does Tortoise tell the birds to call him \"All of You\"?",
+          "choices": {
+            "A": "It is truly the custom at sky feasts to take a new name.",
+            "B": "He plans to trick the birds so he can claim all the food for himself.",
+            "C": "He wants to honor the birds who lent him feathers.",
+            "D": "He has forgotten his real name."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. When the sky people say the food is \"for all of you,\" Tortoise claims that is his name and takes everything, showing he chose the name as a trick to grab all the food.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s7-q3",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"The birds were kind, and though some grumbled, each gave a single feather.\"",
+            "B": "\"'They said the food is for All of You—and that is my name! It is all mine.'\"",
+            "C": "\"As they flew upward together, Tortoise spoke quickly, as he always did.\"",
+            "D": "\"'How will I get home?' Tortoise wailed.\""
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Tortoise's cry that the food is \"all mine\" because of his chosen name directly proves he invented the name to claim the entire feast.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s7-q4",
+          "passageId": "p1",
+          "question": "What is the lesson, or moral, of this folktale?",
+          "choices": {
+            "A": "Birds are not very intelligent.",
+            "B": "It is impossible for slow animals to reach the sky.",
+            "C": "Greed and trickery eventually bring harm to the one who practices them.",
+            "D": "Famines are caused by greedy animals."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Tortoise's greedy trick leaves him stranded and shatters his shell, teaching that greed and trickery eventually bring harm to the trickster.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s7-q5",
+          "passageId": "p1",
+          "question": "In paragraph 5, Parrot tells Tortoise's wife to lay out \"all the hard things\" instead of soft ones. What does this action reveal about how the birds feel?",
+          "choices": {
+            "A": "The birds want to reward Tortoise for sharing.",
+            "B": "The birds are repaying Tortoise's greed by causing his hard fall.",
+            "C": "The birds did not understand Tortoise's message.",
+            "D": "The birds are afraid of Tortoise's wife."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The text says Parrot acted \"remembering the stolen feast,\" so reversing the message to make Tortoise land on stones is the birds' way of repaying his greed.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s7-q6",
+          "passageId": "p1",
+          "question": "The folktale explains \"why the tortoise's shell is cracked.\" Stories that explain how something in nature came to be are called",
+          "choices": {
+            "A": "biographies",
+            "B": "news reports",
+            "C": "instruction manuals",
+            "D": "origin (or \"pourquoi\") tales"
+          },
+          "correctAnswer": "D",
+          "explanation": "Option D is correct. A story that explains how a natural feature—like the tortoise's cracked shell—came to be is an origin tale, sometimes called a \"pourquoi\" (why) tale.",
+          "standard": "ELA.6.R.3.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s7-q7",
+          "passageId": "p1",
+          "question": "At the start of the tale, Tortoise says, \"A clever mouth is worth more than strong legs.\" How do the events of the story respond to this belief?",
+          "choices": {
+            "A": "They prove Tortoise completely right.",
+            "B": "They show that his clever mouth eventually leads to his downfall, challenging his belief.",
+            "C": "They show that Tortoise gives up speaking forever.",
+            "D": "They prove that strong legs are useless."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Tortoise's clever talk wins him a place at the feast but then strands him and breaks his shell, so the story challenges his boast that a clever mouth is always best.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s7-q8",
+          "passageId": "p1",
+          "question": "In the final sentence, the elders call the cracked shell \"a map of one greedy meal, worn for a lifetime.\" What does this figurative phrase mean?",
+          "choices": {
+            "A": "The lasting cracks are a permanent reminder of his single act of greed.",
+            "B": "Tortoise carries an actual paper map on his back.",
+            "C": "Tortoise travels for a lifetime to find the feast again.",
+            "D": "The shell shows directions to the sky people's home."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Calling the cracks \"a map... worn for a lifetime\" means the permanent damage is a lasting reminder of the one greedy meal that caused his fall.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s8",
+      "title": "The Old Oak Speaks",
+      "genre": "poem",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Old Oak Speaks",
+          "author": "Imani Brooks",
+          "text": "Paragraph 1: Stanza 1\nI have stood here longer than the road,\nlonger than the houses, longer than your name.\nI was a green and trembling thing\nwhen this whole hill was just the same.\n\nParagraph 2: Stanza 2\nThe storms have come to teach me bending;\nthe lightning signed its name in black.\nI lost an arm one howling winter\nand never grew the old one back.\n\nParagraph 3: Stanza 3\nYet every spring I try again—\nI push out leaves like small green flags,\nas if the cold had never happened,\nas if I wore no broken tags.\n\nParagraph 4: Stanza 4\nChildren have carved their hopes inside me;\nI hold their letters in my skin.\nThe boy who climbed me forty summers\nnow brings his own small daughter in.\n\nParagraph 5: Stanza 5\nSo when you pass and think me silent,\nremember: patience is my art.\nI keep the seasons, keep the secrets,\nand carry storms inside my heart."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s8-q1",
+          "passageId": "p1",
+          "question": "Who is the speaker of the poem?",
+          "choices": {
+            "A": "A child climbing the tree",
+            "B": "The old oak tree itself",
+            "C": "A storm passing over the hill",
+            "D": "A road builder"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The speaker says \"I have stood here longer than the road\" and \"I push out leaves,\" describing the experiences of a long-living tree, so the speaker is the old oak itself.",
+          "standard": "ELA.6.R.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c1-s8-q2",
+          "passageId": "p1",
+          "question": "In Stanza 2, the line \"the lightning signed its name in black\" is an example of",
+          "choices": {
+            "A": "personification, giving the lightning a human action",
+            "B": "a simile comparing lightning to a pen",
+            "C": "an exaggeration about the weather",
+            "D": "a rhyme between two stanzas"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Lightning cannot really \"sign its name,\" so giving it the human action of signing is personification, describing the black scorch mark it left on the tree.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s8-q3",
+          "passageId": "p1",
+          "question": "In Stanza 3, the oak says it pushes out \"leaves like small green flags.\" What does this simile suggest about the tree each spring?",
+          "choices": {
+            "A": "The tree is surrendering to the weather.",
+            "B": "The tree is decorated for a holiday.",
+            "C": "The tree shows a brave, hopeful new start despite past injuries.",
+            "D": "The tree is warning people to stay away."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Comparing new leaves to flags, raised \"as if the cold had never happened,\" suggests the tree's brave, hopeful renewal each spring despite its old wounds.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s8-q4",
+          "passageId": "p1",
+          "question": "As used in Stanza 3, the phrase \"no broken tags\" most nearly suggests that the tree acts as if it has",
+          "choices": {
+            "A": "no past injuries or damage",
+            "B": "no leaves at all",
+            "C": "no name written on it",
+            "D": "no children nearby"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The tree pushes out leaves \"as if the cold had never happened, as if I wore no broken tags,\" so \"broken tags\" stands for the damage and injuries it has suffered, like the lost arm in Stanza 2.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s8-q5",
+          "passageId": "p1",
+          "question": "What does Stanza 4 mainly add to the poem?",
+          "choices": {
+            "A": "It shows the tree connecting generations of people over time.",
+            "B": "It explains how to plant an oak tree.",
+            "C": "It describes a storm destroying the tree.",
+            "D": "It lists the names of every child in the town."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Stanza 4 shows the boy who climbed the tree \"forty summers\" ago now bringing his own daughter, illustrating how the oak links generations of people across time.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s8-q6",
+          "passageId": "p1",
+          "question": "What is the central theme of the poem?",
+          "choices": {
+            "A": "Trees are dangerous during storms.",
+            "B": "Endurance and patience allow one to survive hardship and keep giving over time.",
+            "C": "Children should not carve letters into trees.",
+            "D": "Roads are older than the things around them."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The oak survives storms and lightning, renews itself each spring, and shelters generations, with the closing line \"patience is my art,\" developing the theme of endurance and patience.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s8-q7",
+          "passageId": "p1",
+          "question": "Which line BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"I was a green and trembling thing\"",
+            "B": "\"longer than the houses, longer than your name.\"",
+            "C": "\"Children have carved their hopes inside me.\"",
+            "D": "\"So when you pass and think me silent, / remember: patience is my art.\""
+          },
+          "correctAnswer": "D",
+          "explanation": "Option D is correct. The line \"patience is my art\" directly names patience and endurance as the tree's defining quality, best supporting the poem's theme.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s8-q8",
+          "passageId": "p1",
+          "question": "In the final line, the oak says it carries \"storms inside my heart.\" What does this phrase most likely mean?",
+          "choices": {
+            "A": "There is bad weather trapped inside the tree.",
+            "B": "The tree holds the memory and marks of everything it has survived.",
+            "C": "The tree is afraid of every storm that comes.",
+            "D": "The tree wishes it could create storms."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Carrying \"storms inside my heart\" is figurative: the oak holds the lasting memories and marks—like its lost arm and lightning scar—of the storms it has lived through.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s9",
+      "title": "Two Who Looked Up: Pioneers of the Sky",
+      "genre": "paired passages",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Passage 1: The Computer Named Katherine",
+          "author": "Renata Coleman",
+          "text": "Paragraph 1: When Katherine Johnson was a girl in West Virginia in the 1920s, she counted everything. She counted the steps to the church, the dishes she washed, the stars she could see from her porch. Numbers were not a chore to her; they were a kind of music, and she could not stop hearing them. She was so far ahead of other students that her town did not have a school willing to teach a Black girl as advanced as she was, so her family moved more than a hundred miles so she could keep learning.\n\nParagraph 2: As a young woman, Katherine became what was then called a \"computer\"—not a machine, but a person hired to perform the long, careful calculations that science required. She joined a group of brilliant Black women at a space research center who worked out, by hand and by mind, the mathematics that flying and space travel demanded. Their work was often unseen, their names left off the reports, but the numbers were exact, and exactness, in this work, was everything.\n\nParagraph 3: In 1962, the astronaut John Glenn was about to become the first American to orbit the Earth. New electronic computers had calculated his flight path, but Glenn did not fully trust the machines. \"Get the girl to check the numbers,\" he said—meaning Katherine. He would not fly, he insisted, until she had confirmed the calculations by hand. She did, and the flight succeeded. For decades few people knew her name. But the truth was always there in the mathematics: a woman who counted the stars had helped send a man up to meet them."
+        },
+        {
+          "id": "p2",
+          "title": "Passage 2: The Boy Who Watched Birds",
+          "author": "Renata Coleman",
+          "text": "Paragraph 1: Hundreds of years before any rocket, a boy in Italy spent his afternoons lying in the grass, watching birds. While other children played, young Leonardo da Vinci studied the way a hawk tilted its wings to ride the wind, the way a swallow folded itself to turn. He filled notebooks with drawings of feathers and flight, asking a question almost no one else dared to ask: if a bird can fly, why not a person?\n\nParagraph 2: Leonardo never built a flying machine that truly worked. The materials of his time were too heavy, and no one yet understood the science that would one day lift an airplane. But he refused to believe that flight was impossible. He sketched machines with flapping wings, a kind of spinning rotor, and even an early parachute. He was guessing, often wrongly, but he was guessing in the right direction, centuries ahead of the tools that could prove him right.\n\nParagraph 3: For a long time, Leonardo's flying designs were dismissed as the daydreams of an artist. Yet his real gift was not in finishing the machine—it was in believing the question was worth asking. He looked at the sky the way few people of his age did: not as a ceiling, but as a place a human being might someday go. The engineers who finally built working aircraft stood, in a sense, on the shoulders of a boy who once lay in the grass and refused to look away from the birds."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s9-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 2 of Passage 1, the word \"computer\" most nearly means",
+          "choices": {
+            "A": "an electronic machine",
+            "B": "a person hired to do difficult calculations",
+            "C": "a type of telescope",
+            "D": "a kind of spacecraft"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage explains the word directly: \"a 'computer'—not a machine, but a person hired to perform the long, careful calculations that science required.\"",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c1-s9-q2",
+          "passageId": "p1",
+          "question": "In paragraph 1 of Passage 1, the author writes that for Katherine, numbers \"were a kind of music, and she could not stop hearing them.\" What does this comparison suggest?",
+          "choices": {
+            "A": "Katherine could only do math while listening to music.",
+            "B": "Katherine found math beautiful and was naturally, deeply drawn to it.",
+            "C": "Katherine was better at music than at math.",
+            "D": "Katherine disliked the sound of numbers."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing numbers to music she \"could not stop hearing\" shows that Katherine found math beautiful and was naturally, deeply drawn to it, not that she needed music or disliked numbers.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s9-q3",
+          "passageId": "p2",
+          "question": "In Passage 2, why does the author say Leonardo \"was guessing in the right direction\"?",
+          "choices": {
+            "A": "Because all of his flying machines worked perfectly.",
+            "B": "Because he copied designs from later airplanes.",
+            "C": "Because his ideas pointed toward flight even though the tools to achieve it did not yet exist.",
+            "D": "Because he gave up on the idea of flight."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The passage says Leonardo never built a machine that truly worked, yet he sketched wings, a rotor, and a parachute \"centuries ahead of the tools that could prove him right,\" so his guesses pointed toward real flight.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s9-q4",
+          "passageId": "p2",
+          "question": "In paragraph 3 of Passage 2, the author says later engineers \"stood, in a sense, on the shoulders of a boy who once lay in the grass.\" What does this figurative phrase mean?",
+          "choices": {
+            "A": "Later inventors built on Leonardo's early ideas and curiosity about flight.",
+            "B": "Engineers literally climbed onto Leonardo's shoulders.",
+            "C": "Leonardo was much taller than the engineers.",
+            "D": "Engineers refused to use any of Leonardo's ideas."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. \"Standing on the shoulders\" of someone is figurative for building on their earlier work, meaning later inventors built on Leonardo's pioneering ideas and curiosity about flight.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s9-q5",
+          "passageId": "p1",
+          "question": "Which idea is shared by BOTH passages?",
+          "choices": {
+            "A": "A person's early curiosity and talent can lead to important contributions to flight or space travel.",
+            "B": "Electronic computers are more reliable than human calculations.",
+            "C": "Both Katherine Johnson and Leonardo da Vinci built working airplanes.",
+            "D": "Italy was the center of the space program."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Both passages show a person whose early curiosity and talent—Katherine's love of numbers, Leonardo's fascination with birds—led to important contributions to flight or space travel. The other options are false or appear in only one passage.",
+          "standard": "ELA.6.R.3.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s9-q6",
+          "passageId": "p1",
+          "question": "How do the contributions of Katherine Johnson and Leonardo da Vinci DIFFER, according to the passages?",
+          "choices": {
+            "A": "Katherine's exact calculations helped a real flight succeed, while Leonardo's designs never actually worked but inspired later inventors.",
+            "B": "Leonardo's machines flew, while Katherine's calculations failed.",
+            "C": "Neither one made any contribution to flight.",
+            "D": "Both worked at the same space research center."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 1 shows Katherine's exact hand calculations helped John Glenn's orbit succeed, while Passage 2 says Leonardo \"never built a flying machine that truly worked\" but inspired later inventors, so their contributions differ in this way.",
+          "standard": "ELA.6.R.3.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s9-q7",
+          "passageId": "p1",
+          "question": "Which detail from Passage 1 BEST shows that Katherine's careful mathematics was trusted and important?",
+          "choices": {
+            "A": "\"She counted the steps to the church, the dishes she washed.\"",
+            "B": "\"'Get the girl to check the numbers,' he said... He would not fly... until she had confirmed the calculations by hand.\"",
+            "C": "\"Her family moved more than a hundred miles so she could keep learning.\"",
+            "D": "\"Numbers were not a chore to her; they were a kind of music.\""
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. John Glenn refusing to fly until Katherine confirmed the numbers by hand directly shows that her careful mathematics was trusted and important to the mission's success.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s9-q8",
+          "passageId": "p2",
+          "question": "Both passages suggest that great achievements often begin with a particular quality. Which quality is emphasized in BOTH texts?",
+          "choices": {
+            "A": "wealth and fame",
+            "B": "luck rather than effort",
+            "C": "a deep curiosity that begins in childhood",
+            "D": "a fear of failure"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Both passages open with childhood curiosity—Katherine counting everything from a young age and Leonardo watching birds as a boy—emphasizing that a deep, early curiosity led to their achievements.",
+          "standard": "ELA.6.R.3.4",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s10",
+      "title": "Should Schools Start Later? Two Voices",
+      "genre": "paired passages",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Passage 1: Let Us Sleep",
+          "author": "Marcus Bell",
+          "text": "Paragraph 1: Every school morning, millions of students drag themselves out of bed before the sun is fully up, splash water on their faces, and stumble toward a bus stop while their brains are still half asleep. We are told to be alert, to be ready, to learn—at an hour when our bodies are begging for rest. As a thirteen-year-old who has fallen asleep in more than one first-period class, I believe it is time to ask a simple question: why do middle and high schools start so early?\n\nParagraph 2: The science is surprisingly clear. During the teenage years, the body's internal clock naturally shifts later. Most teens are not wired to fall asleep until around eleven at night, no matter how early they climb into bed. Yet many schools ring the first bell before eight in the morning, which means students are losing hours of the sleep their growing brains need. Researchers have linked this lost sleep to lower grades, worse moods, and even more car accidents among teen drivers.\n\nParagraph 3: Some adults argue that starting later would just make teens stay up later, but studies in towns that pushed back start times found the opposite: students used the extra time to sleep, not to waste. Attendance improved. Grades rose. Even the number of crashes involving teen drivers went down. A later start is not about being lazy. It is about matching the school day to the way our bodies actually work, so we can arrive ready to think instead of ready to nap.\n\nParagraph 4: No one is asking to sleep until noon. A shift of even thirty or sixty minutes could make a real difference. We trust science when it tells us how to build bridges and cure diseases. I am asking that we trust it here, too, and give students a schedule that helps us learn rather than one that fights against us every single morning."
+        },
+        {
+          "id": "p2",
+          "title": "Passage 2: It Is Not So Simple",
+          "author": "Diane Whitford",
+          "text": "Paragraph 1: I agree that teenagers need more sleep. As a parent and a school board member, I have watched my own children shuffle to the breakfast table like sleepy ghosts. But agreeing on the problem is not the same as agreeing on the solution. Changing school start times sounds simple, yet it sends ripples through an entire community, and those ripples deserve careful thought before we act.\n\nParagraph 2: Consider transportation. Many districts use the same buses for elementary, middle, and high schools, running them in shifts. If high schools start later, the whole schedule must be rebuilt, sometimes meaning the youngest children are the ones picked up in the early dark instead. Consider after-school sports, which may now end after sunset. Consider working parents who rely on older students to watch younger siblings after school. None of these problems is impossible to solve, but none should be waved away.\n\nParagraph 3: I am not arguing that we should do nothing. I am arguing that good intentions are not enough. A change this large requires planning: surveys of families, new bus routes, conversations with coaches and employers. Some districts have made later start times work beautifully. Others rushed the change, created chaos, and reversed it within a year, leaving everyone frustrated.\n\nParagraph 4: So let us take the sleep science seriously—but let us also take seriously the families who will live with the results. The right question is not simply \"Should schools start later?\" It is \"How can we change start times in a way that helps students without quietly harming someone else?\" Answer that question well, and a later start can become not just a nice idea, but a lasting one."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s10-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 2 of Passage 1, the phrase \"internal clock\" most nearly means",
+          "choices": {
+            "A": "a clock students wear on their wrists",
+            "B": "the body's natural sense of when to sleep and wake",
+            "C": "the bell schedule at school",
+            "D": "an alarm on a phone"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage says the \"internal clock naturally shifts later\" so teens are \"not wired to fall asleep until around eleven,\" showing it means the body's natural sense of when to sleep and wake.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c1-s10-q2",
+          "passageId": "p1",
+          "question": "What is the main claim, or central argument, of Passage 1?",
+          "choices": {
+            "A": "Teen drivers cause too many car accidents.",
+            "B": "Students should go to bed earlier each night.",
+            "C": "Science cannot be trusted on questions about sleep.",
+            "D": "Schools should start later to match teenagers' natural sleep needs."
+          },
+          "correctAnswer": "D",
+          "explanation": "Option D is correct. The author repeatedly argues that early start times fight teens' biology and that \"matching the school day to the way our bodies actually work\" through a later start would help students learn.",
+          "standard": "ELA.6.R.2.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s10-q3",
+          "passageId": "p1",
+          "question": "In paragraph 3 of Passage 1, the author answers the argument that \"starting later would just make teens stay up later.\" How does the author respond to this argument?",
+          "choices": {
+            "A": "By agreeing that teens would stay up later.",
+            "B": "By citing studies showing students used the extra time to sleep, with better attendance and grades.",
+            "C": "By ignoring the argument entirely.",
+            "D": "By saying teens should not drive cars."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The author counters the objection by pointing to studies in towns that pushed back start times, where \"students used the extra time to sleep, not to waste,\" and attendance and grades improved.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s10-q4",
+          "passageId": "p2",
+          "question": "In paragraph 1 of Passage 2, the author describes her children shuffling to the table \"like sleepy ghosts.\" What does this simile help show?",
+          "choices": {
+            "A": "That her children are afraid in the morning.",
+            "B": "That her children believe in ghosts.",
+            "C": "That she agrees teenagers are genuinely tired and need more sleep.",
+            "D": "That mornings are her favorite time of day."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Comparing her tired children to \"sleepy ghosts\" supports her opening statement, \"I agree that teenagers need more sleep,\" showing she accepts that teens are genuinely exhausted.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s10-q5",
+          "passageId": "p2",
+          "question": "Which idea do BOTH authors agree on?",
+          "choices": {
+            "A": "Teenagers need more sleep than they currently get.",
+            "B": "School start times should never be changed.",
+            "C": "Bus schedules are more important than student health.",
+            "D": "Science should be ignored when making school decisions."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 1 argues teens are losing needed sleep, and Passage 2 opens with \"I agree that teenagers need more sleep,\" so both authors agree teens need more sleep, even if they differ on the solution.",
+          "standard": "ELA.6.R.3.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s10-q6",
+          "passageId": "p2",
+          "question": "How does Passage 2's position DIFFER from Passage 1's position?",
+          "choices": {
+            "A": "Passage 2 denies that teens need sleep, while Passage 1 says they do.",
+            "B": "Passage 2 stresses the practical challenges of changing start times, while Passage 1 mainly urges that the change be made.",
+            "C": "Passage 2 wants schools to start even earlier.",
+            "D": "Passage 2 ignores science completely, while Passage 1 relies on it."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Passage 1 mainly argues for making the change, while Passage 2 agrees teens need sleep but stresses practical challenges—buses, sports, working parents—that must be planned for first.",
+          "standard": "ELA.6.R.3.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s10-q7",
+          "passageId": "p2",
+          "question": "Which detail from Passage 2 BEST supports the idea that changing start times affects more than just students?",
+          "choices": {
+            "A": "\"I agree that teenagers need more sleep.\"",
+            "B": "\"Some districts have made later start times work beautifully.\"",
+            "C": "\"Consider working parents who rely on older students to watch younger siblings after school.\"",
+            "D": "\"Good intentions are not enough.\""
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The detail about working parents relying on older students shows that a change ripples beyond students to families and the wider community, supporting that idea.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s10-q8",
+          "passageId": "p2",
+          "question": "Based on both passages, which statement BEST describes the relationship between the two authors' views?",
+          "choices": {
+            "A": "They completely disagree about whether teens need more sleep.",
+            "B": "Neither author offers any evidence for his or her view.",
+            "C": "They share the same goal of helping students but emphasize different concerns about how to reach it.",
+            "D": "Both authors argue that schools should start earlier."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Both authors want to help tired students, but Passage 1 emphasizes acting on the sleep science while Passage 2 emphasizes careful planning so a change does not harm others, so they share a goal but stress different concerns.",
+          "standard": "ELA.6.R.3.4",
+          "difficulty": "hard"
+        }
+      ]
     }
   ]
 }
