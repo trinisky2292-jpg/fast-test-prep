@@ -153,6 +153,456 @@
         "explanation": "Persia's fair, organized system with roads and governors held the empire together.",
         "standard": "SS.6.W.2.4",
         "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q11",
+        "section": "social",
+        "question": "Which empire rose first among these three?",
+        "choices": {
+          "A": "The Persians",
+          "B": "The Greeks",
+          "C": "The Chaldeans",
+          "D": "The Assyrians"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Assyrians built one of the first great empires before the Chaldeans and Persians.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q12",
+        "section": "social",
+        "question": "Which weapons and tools helped make the Assyrian army so powerful?",
+        "choices": {
+          "A": "Gunpowder cannons",
+          "B": "Steel battleships",
+          "C": "Bows made of plastic",
+          "D": "Iron weapons, chariots, and siege machines"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Assyrians conquered using iron weapons, war chariots, and siege machines.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q13",
+        "section": "social",
+        "question": "Which king rebuilt the city of Babylon?",
+        "choices": {
+          "A": "Cyrus the Great",
+          "B": "Darius",
+          "C": "Nebuchadnezzar",
+          "D": "Sargon"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Chaldean king Nebuchadnezzar rebuilt Babylon.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q14",
+        "section": "social",
+        "question": "The Chaldeans are also known by what other name?",
+        "choices": {
+          "A": "The New Babylonians",
+          "B": "The Persians",
+          "C": "The Hittites",
+          "D": "The Sumerians"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Chaldeans are also called the New Babylonians.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q15",
+        "section": "social",
+        "question": "Which famous garden is connected to the rebuilt city of Babylon?",
+        "choices": {
+          "A": "The Royal Road Garden",
+          "B": "The Garden of the Satraps",
+          "C": "The Persian Tea Garden",
+          "D": "The Hanging Gardens"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Hanging Gardens were part of Nebuchadnezzar's rebuilt Babylon.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q16",
+        "section": "social",
+        "question": "What was the long Persian road that connected the empire called?",
+        "choices": {
+          "A": "The Royal Road",
+          "B": "The Silk Road",
+          "C": "The Appian Way",
+          "D": "The Iron Road"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Persians built the Royal Road to connect distant parts of the empire.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q17",
+        "section": "social",
+        "question": "Which Persian king divided the empire into provinces and built the road system?",
+        "choices": {
+          "A": "Nebuchadnezzar",
+          "B": "Hammurabi",
+          "C": "Darius",
+          "D": "Abraham"
+        },
+        "correctAnswer": "C",
+        "explanation": "Darius organized the empire into provinces and connected it with roads.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q18",
+        "section": "social",
+        "question": "Put these empires in the correct order, first to last.",
+        "choices": {
+          "A": "Persians, Chaldeans, Assyrians",
+          "B": "Assyrians, Chaldeans, Persians",
+          "C": "Chaldeans, Persians, Assyrians",
+          "D": "Persians, Assyrians, Chaldeans"
+        },
+        "correctAnswer": "B",
+        "explanation": "The order was Assyrians, then Chaldeans, then Persians.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q19",
+        "section": "social",
+        "question": "Which of these is NOT something the Persians were known for?",
+        "choices": {
+          "A": "Building long roads",
+          "B": "Using satraps to govern provinces",
+          "C": "Destroying the religion of every conquered people",
+          "D": "Treating conquered peoples fairly"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Persians let conquered peoples keep their religions, so destroying every faith does not fit them.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q20",
+        "section": "social",
+        "question": "If a satrap governed a Persian province, what was his main job?",
+        "choices": {
+          "A": "To build pyramids",
+          "B": "To run that province for the king",
+          "C": "To sail trading ships",
+          "D": "To write the alphabet"
+        },
+        "correctAnswer": "B",
+        "explanation": "A satrap was a governor who ran a province for the Persian king.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q21",
+        "section": "social",
+        "question": "A new ruler lets every conquered people keep its own religion and customs. Which Persian king does this remind you of?",
+        "choices": {
+          "A": "Cyrus the Great",
+          "B": "Nebuchadnezzar",
+          "C": "Sargon",
+          "D": "Hammurabi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cyrus the Great was famous for treating conquered peoples fairly and letting them keep their customs.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q22",
+        "section": "social",
+        "question": "Which empire did the Chaldeans defeat to gain power?",
+        "choices": {
+          "A": "The Persians",
+          "B": "The Romans",
+          "C": "The Greeks",
+          "D": "The Assyrians"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Chaldeans defeated the Assyrians to rise to power.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q23",
+        "section": "social",
+        "question": "Why did dividing a huge empire into provinces help a king rule?",
+        "choices": {
+          "A": "It made the empire smaller",
+          "B": "It let local governors manage faraway lands for the king",
+          "C": "It ended all taxes",
+          "D": "It forced everyone to move to one city"
+        },
+        "correctAnswer": "B",
+        "explanation": "Provinces with governors let one king manage lands that were far apart.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q24",
+        "section": "social",
+        "question": "Which best describes the Assyrians?",
+        "choices": {
+          "A": "Peaceful traders who never fought",
+          "B": "Fierce warriors with a strong, organized army",
+          "C": "Sailors who founded Carthage",
+          "D": "Farmers who built the Hanging Gardens"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Assyrians were known as fierce warriors with a strong, organized army.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q25",
+        "section": "social",
+        "question": "How was Cyrus the Great's treatment of conquered peoples different from a cruel conqueror?",
+        "choices": {
+          "A": "He destroyed all their cities",
+          "B": "He banned their languages",
+          "C": "He let them keep their religion and customs",
+          "D": "He forced them all to leave their homes"
+        },
+        "correctAnswer": "C",
+        "explanation": "Unlike a cruel conqueror, Cyrus let conquered peoples keep their religion and customs.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q26",
+        "section": "social",
+        "question": "What does the word 'empire' mean in this lesson?",
+        "choices": {
+          "A": "A single small village",
+          "B": "Many different peoples united under one ruler",
+          "C": "A group with no leader",
+          "D": "A type of river"
+        },
+        "correctAnswer": "B",
+        "explanation": "An empire is many different peoples united under one ruler.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q27",
+        "section": "social",
+        "question": "Which empire is remembered for being the most fair and organized in governing many peoples?",
+        "choices": {
+          "A": "The Assyrians",
+          "B": "The Chaldeans",
+          "C": "The Persians",
+          "D": "The city of Ur"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Persians built a fair, organized system to govern many different peoples.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q28",
+        "section": "social",
+        "question": "Which of these did the Assyrians, Chaldeans, and Persians all have in common?",
+        "choices": {
+          "A": "They each ruled many peoples under one ruler",
+          "B": "They each invented the alphabet",
+          "C": "They each believed in only one God",
+          "D": "They each lived on islands"
+        },
+        "correctAnswer": "A",
+        "explanation": "All three empires united many different peoples under a single ruler.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q29",
+        "section": "social",
+        "question": "Roads like the Royal Road most helped the Persian Empire by doing what?",
+        "choices": {
+          "A": "Making travel and communication easier across the empire",
+          "B": "Stopping all trade",
+          "C": "Keeping provinces from talking to the king",
+          "D": "Blocking the army from moving"
+        },
+        "correctAnswer": "A",
+        "explanation": "Roads made travel and communication faster across the large empire.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q30",
+        "section": "social",
+        "question": "Which empire grew to be the LARGEST of the three?",
+        "choices": {
+          "A": "The Assyrian Empire",
+          "B": "The Chaldean Empire",
+          "C": "The Sumerian city-states",
+          "D": "The Persian Empire"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Persian Empire became the largest of the three.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q31",
+        "section": "social",
+        "question": "Which statement about Nebuchadnezzar is true?",
+        "choices": {
+          "A": "He was a Chaldean king who rebuilt Babylon",
+          "B": "He was the father of the Israelites",
+          "C": "He invented the Phoenician alphabet",
+          "D": "He was a Persian satrap"
+        },
+        "correctAnswer": "A",
+        "explanation": "Nebuchadnezzar was the Chaldean king who rebuilt Babylon.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q32",
+        "section": "social",
+        "question": "Why were the Assyrians feared by their neighbors?",
+        "choices": {
+          "A": "They had the gentlest army",
+          "B": "They were fierce and well-organized in war",
+          "C": "They refused to ever fight",
+          "D": "They had no weapons"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Assyrians were feared because they were fierce and well-organized in war.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q33",
+        "section": "social",
+        "question": "Which is the best example of Persian fairness toward conquered peoples?",
+        "choices": {
+          "A": "Forcing everyone to worship the same god",
+          "B": "Tearing down every conquered city",
+          "C": "Allowing a conquered people to keep their own religion",
+          "D": "Banning all local leaders"
+        },
+        "correctAnswer": "C",
+        "explanation": "Letting a conquered people keep their own religion is an example of Persian fairness.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q34",
+        "section": "social",
+        "question": "Which leader is most connected with building roads and provinces in Persia?",
+        "choices": {
+          "A": "Darius",
+          "B": "Abraham",
+          "C": "Sargon",
+          "D": "Moses"
+        },
+        "correctAnswer": "A",
+        "explanation": "Darius is connected with building roads and organizing provinces in Persia.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q35",
+        "section": "social",
+        "question": "Which of these is NOT one of the three empires in this lesson?",
+        "choices": {
+          "A": "The Assyrians",
+          "B": "The Chaldeans",
+          "C": "The Persians",
+          "D": "The Phoenicians"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Phoenicians are a separate people; the three empires here are the Assyrians, Chaldeans, and Persians.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q36",
+        "section": "social",
+        "question": "A king connects his lands with roads, divides them into provinces, and treats people fairly. Which empire does this describe?",
+        "choices": {
+          "A": "The Assyrian Empire",
+          "B": "The Persian Empire",
+          "C": "The Chaldean Empire",
+          "D": "The Egyptian Empire"
+        },
+        "correctAnswer": "B",
+        "explanation": "Roads, provinces, and fair treatment describe the Persian Empire.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q37",
+        "section": "social",
+        "question": "What happened to the Assyrian Empire?",
+        "choices": {
+          "A": "It still rules today",
+          "B": "It was defeated by the Chaldeans",
+          "C": "It was never conquered",
+          "D": "It became the Roman Empire"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Assyrian Empire was defeated by the Chaldeans.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q38",
+        "section": "social",
+        "question": "Why is dividing an empire into provinces a smart way to govern a large area?",
+        "choices": {
+          "A": "It lets one governor handle a smaller region for the king",
+          "B": "It makes the king do all the work alone",
+          "C": "It removes all leaders from the land",
+          "D": "It keeps people from paying taxes"
+        },
+        "correctAnswer": "A",
+        "explanation": "Provinces let each governor handle a smaller region for the king, making a large empire easier to rule.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q39",
+        "section": "social",
+        "question": "Which best shows the trend across these three empires?",
+        "choices": {
+          "A": "Each new empire was smaller than the last",
+          "B": "Each new empire grew larger than the last",
+          "C": "Each empire had no ruler",
+          "D": "Each empire avoided conquering land"
+        },
+        "correctAnswer": "B",
+        "explanation": "Each empire grew larger than the one before it, ending with the huge Persian Empire.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q40",
+        "section": "social",
+        "question": "Which pair correctly matches a people with what they are famous for?",
+        "choices": {
+          "A": "Assyrians — a fair road system",
+          "B": "Chaldeans — the Royal Road",
+          "C": "Persians — treating conquered peoples fairly",
+          "D": "Persians — the Hanging Gardens"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Persians are famous for treating conquered peoples fairly.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "The Phoenicians were Mediterranean sea traders who spread the alphabet.",
         "standard": "SS.6.W.3.1",
         "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q11",
+        "section": "social",
+        "question": "In which modern-day country did the Phoenicians live?",
+        "choices": {
+          "A": "China",
+          "B": "Egypt",
+          "C": "Italy",
+          "D": "Lebanon"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Phoenicians lived in the area of present-day Lebanon on the Mediterranean coast.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q12",
+        "section": "social",
+        "question": "Why did the Phoenicians set up trading colonies far from home?",
+        "choices": {
+          "A": "To grow more grain in the desert",
+          "B": "To trade goods across the Mediterranean",
+          "C": "To build pyramids",
+          "D": "To escape the sea"
+        },
+        "correctAnswer": "B",
+        "explanation": "Colonies like Carthage helped the Phoenicians trade goods across the Mediterranean.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q13",
+        "section": "social",
+        "question": "What is an alphabet?",
+        "choices": {
+          "A": "A small set of letters that each stand for a sound",
+          "B": "Hundreds of picture symbols",
+          "C": "A type of trading ship",
+          "D": "A kind of purple dye"
+        },
+        "correctAnswer": "A",
+        "explanation": "An alphabet is a small set of letters where each letter stands for a sound.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q14",
+        "section": "social",
+        "question": "Which of these did the Phoenicians trade?",
+        "choices": {
+          "A": "Gunpowder",
+          "B": "Cedar wood and glass",
+          "C": "Printed books",
+          "D": "Cars"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Phoenicians traded goods such as cedar wood, glass, and purple dye.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q15",
+        "section": "social",
+        "question": "Which two later peoples borrowed and changed the Phoenician alphabet?",
+        "choices": {
+          "A": "The Assyrians and Chaldeans",
+          "B": "The Maya and Aztec",
+          "C": "The Greeks and Romans",
+          "D": "The Egyptians and Sumerians"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Greeks and Romans borrowed and changed the Phoenician alphabet.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-2-q16",
+        "section": "social",
+        "question": "Carthage, founded by the Phoenicians, was located where?",
+        "choices": {
+          "A": "In China",
+          "B": "On the Nile River",
+          "C": "In the Persian mountains",
+          "D": "In North Africa"
+        },
+        "correctAnswer": "D",
+        "explanation": "Carthage was a Phoenician colony in North Africa.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q17",
+        "section": "social",
+        "question": "How is an alphabet different from writing with hundreds of picture symbols?",
+        "choices": {
+          "A": "An alphabet uses many more symbols",
+          "B": "An alphabet can only be carved in stone",
+          "C": "An alphabet uses a small set of letters for sounds, so it is easier to learn",
+          "D": "An alphabet has no letters"
+        },
+        "correctAnswer": "C",
+        "explanation": "An alphabet uses a small set of sound-letters, making it easier to learn than hundreds of picture symbols.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-2-q18",
+        "section": "social",
+        "question": "Which is the BEST reason the Phoenician alphabet was so important?",
+        "choices": {
+          "A": "It made reading and writing simpler and faster to learn",
+          "B": "It was used only by kings",
+          "C": "It could only count to ten",
+          "D": "It was kept secret forever"
+        },
+        "correctAnswer": "A",
+        "explanation": "The alphabet made reading and writing much simpler and faster to learn.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q19",
+        "section": "social",
+        "question": "The alphabet you are reading right now traces back to which ancient people?",
+        "choices": {
+          "A": "The Persians",
+          "B": "The Israelites",
+          "C": "The Phoenicians",
+          "D": "The Assyrians"
+        },
+        "correctAnswer": "C",
+        "explanation": "The modern alphabet traces back to the Phoenician alphabet.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q20",
+        "section": "social",
+        "question": "Which of these is NOT something the Phoenicians were known for?",
+        "choices": {
+          "A": "Sea trade",
+          "B": "Creating an easy alphabet",
+          "C": "Trading purple dye",
+          "D": "Building the pyramids of Egypt"
+        },
+        "correctAnswer": "D",
+        "explanation": "The pyramids were built by the Egyptians, not the Phoenicians.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q21",
+        "section": "social",
+        "question": "Why was the alphabet called the Phoenicians' most important 'export'?",
+        "choices": {
+          "A": "It was their heaviest cargo",
+          "B": "It was an idea that spread easy writing across the ancient world",
+          "C": "It was made of gold",
+          "D": "It could only be sold in Carthage"
+        },
+        "correctAnswer": "B",
+        "explanation": "The alphabet was an idea that spread the gift of easy writing across the ancient world.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-2-q22",
+        "section": "social",
+        "question": "Which job best matches the Phoenicians?",
+        "choices": {
+          "A": "Pyramid builders",
+          "B": "Sea traders",
+          "C": "Desert nomads",
+          "D": "Mountain miners"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Phoenicians were best known as sea traders.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q23",
+        "section": "social",
+        "question": "Compared with the Egyptians' hieroglyphics, the Phoenician alphabet was mainly:",
+        "choices": {
+          "A": "Harder to learn",
+          "B": "Made of more symbols",
+          "C": "Simpler, with a small set of letters",
+          "D": "Only for drawing pictures"
+        },
+        "correctAnswer": "C",
+        "explanation": "The alphabet was simpler than hieroglyphics because it used a small set of letters.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q24",
+        "section": "social",
+        "question": "Which valuable color of dye were the Phoenicians famous for trading?",
+        "choices": {
+          "A": "Green",
+          "B": "Yellow",
+          "C": "Black",
+          "D": "Purple"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Phoenicians were famous for a rare, expensive purple dye.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q25",
+        "section": "social",
+        "question": "If you wanted to find Phoenician trading ships, where would you look?",
+        "choices": {
+          "A": "Across the Mediterranean Sea",
+          "B": "On the Pacific Ocean",
+          "C": "In the Sahara Desert",
+          "D": "On the Yellow River"
+        },
+        "correctAnswer": "A",
+        "explanation": "Phoenician ships sailed all across the Mediterranean Sea.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q26",
+        "section": "social",
+        "question": "What does it mean that a Phoenician letter 'stood for a sound'?",
+        "choices": {
+          "A": "Each letter was a whole picture of an animal",
+          "B": "Each letter represented a sound you say when speaking",
+          "C": "Each letter was a number",
+          "D": "Each letter was the name of a god"
+        },
+        "correctAnswer": "B",
+        "explanation": "Each letter represented a spoken sound, which is how an alphabet works.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q27",
+        "section": "social",
+        "question": "Which sentence is TRUE about the Phoenicians?",
+        "choices": {
+          "A": "They believed in only one God and wrote the Torah",
+          "B": "They built the Royal Road across Persia",
+          "C": "They were sailors and traders who created an easy alphabet",
+          "D": "They were a fierce army that used siege machines"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Phoenicians were sailors and traders who created an easy alphabet.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q28",
+        "section": "social",
+        "question": "Why did an easy alphabet help more people learn to read and write?",
+        "choices": {
+          "A": "Because there were fewer symbols to memorize",
+          "B": "Because it had thousands of symbols",
+          "C": "Because only priests could use it",
+          "D": "Because it had no sounds"
+        },
+        "correctAnswer": "A",
+        "explanation": "Fewer symbols to memorize made the alphabet easier for more people to learn.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q29",
+        "section": "social",
+        "question": "The Phoenicians lived along the coast of which sea?",
+        "choices": {
+          "A": "The Mediterranean Sea",
+          "B": "The Red Sea",
+          "C": "The Black Sea",
+          "D": "The Dead Sea"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Phoenicians lived on the eastern coast of the Mediterranean Sea.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q30",
+        "section": "social",
+        "question": "Which of these is the best example of a Phoenician trade good?",
+        "choices": {
+          "A": "A clay tablet of laws",
+          "B": "Cedar wood for building",
+          "C": "A Roman coin",
+          "D": "A Persian road"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cedar wood was one of the goods the Phoenicians traded.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q31",
+        "section": "social",
+        "question": "What might have happened if the Phoenicians had NOT spread their alphabet?",
+        "choices": {
+          "A": "Writing might have stayed harder for many people to learn",
+          "B": "The pyramids would never have been built",
+          "C": "The Persians would have had no army",
+          "D": "The Israelites would have had many gods"
+        },
+        "correctAnswer": "A",
+        "explanation": "Without the easy alphabet spreading, writing might have stayed harder for many people to learn.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-2-q32",
+        "section": "social",
+        "question": "Which best describes how the Phoenician alphabet reached us today?",
+        "choices": {
+          "A": "It was lost and never used again",
+          "B": "The Greeks and Romans adapted it into the alphabet we use",
+          "C": "It became Egyptian hieroglyphics",
+          "D": "It turned into cuneiform"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Greeks and Romans adapted the Phoenician alphabet, leading to the one we use today.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q33",
+        "section": "social",
+        "question": "A people skilled at sailing, with colonies far across the sea, best describes the:",
+        "choices": {
+          "A": "Assyrians",
+          "B": "Phoenicians",
+          "C": "Chaldeans",
+          "D": "Israelites"
+        },
+        "correctAnswer": "B",
+        "explanation": "A seafaring people with distant colonies describes the Phoenicians.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q34",
+        "section": "social",
+        "question": "Which of these is NOT a Phoenician trade good?",
+        "choices": {
+          "A": "Glass",
+          "B": "Purple dye",
+          "C": "Cedar wood",
+          "D": "Iron war chariots"
+        },
+        "correctAnswer": "D",
+        "explanation": "Iron war chariots belong to the Assyrian army, not Phoenician trade goods.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q35",
+        "section": "social",
+        "question": "Why are the Phoenicians sometimes called a bridge between civilizations?",
+        "choices": {
+          "A": "They built stone bridges across rivers",
+          "B": "Their trade and alphabet carried goods and ideas between many peoples",
+          "C": "They ruled the largest empire",
+          "D": "They believed in one God"
+        },
+        "correctAnswer": "B",
+        "explanation": "Their trade and alphabet carried goods and ideas between many peoples.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-2-q36",
+        "section": "social",
+        "question": "What is the main idea of this lesson about the Phoenicians?",
+        "choices": {
+          "A": "They were sea traders who spread an easy alphabet",
+          "B": "They built the Hanging Gardens",
+          "C": "They invented monotheism",
+          "D": "They ruled Persia with satraps"
+        },
+        "correctAnswer": "A",
+        "explanation": "The main idea is that the Phoenicians were sea traders who spread an easy alphabet.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q37",
+        "section": "social",
+        "question": "Which group did the Phoenicians most directly pass their alphabet to first?",
+        "choices": {
+          "A": "The Greeks",
+          "B": "The Maya",
+          "C": "The Chinese",
+          "D": "The Aztec"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Greeks borrowed the Phoenician alphabet and later passed a version to the Romans.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q38",
+        "section": "social",
+        "question": "Which phrase best helps you remember the Phoenicians?",
+        "choices": {
+          "A": "One God and moral law",
+          "B": "The alphabet and sea trade",
+          "C": "Roads and satraps",
+          "D": "Pyramids and pharaohs"
+        },
+        "correctAnswer": "B",
+        "explanation": "Phoenicians are best remembered for the alphabet and Mediterranean sea trade.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q39",
+        "section": "social",
+        "question": "A merchant sails the Mediterranean selling glass and purple dye and writes records with simple sound-letters. Who is the merchant most like?",
+        "choices": {
+          "A": "A Persian satrap",
+          "B": "An Egyptian pharaoh",
+          "C": "A Phoenician trader",
+          "D": "An Assyrian soldier"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sailing the Mediterranean with glass, purple dye, and an alphabet describes a Phoenician trader.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q40",
+        "section": "social",
+        "question": "Which sentence about the Phoenician alphabet is FALSE?",
+        "choices": {
+          "A": "Each letter stood for a sound",
+          "B": "It was easier to learn than cuneiform",
+          "C": "It used hundreds of picture symbols",
+          "D": "The Greeks and Romans later borrowed it"
+        },
+        "correctAnswer": "C",
+        "explanation": "The alphabet used a small set of letters, not hundreds of picture symbols, so that statement is false.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
       }
     ]
   },
@@ -467,6 +1367,456 @@
         "explanation": "Monotheism was a new idea that influenced Judaism, Christianity, and Islam.",
         "standard": "SS.6.W.2.9",
         "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q11",
+        "section": "social",
+        "question": "The belief in MANY gods is called what?",
+        "choices": {
+          "A": "Monotheism",
+          "B": "Democracy",
+          "C": "Empire",
+          "D": "Polytheism"
+        },
+        "correctAnswer": "D",
+        "explanation": "Belief in many gods is called polytheism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q12",
+        "section": "social",
+        "question": "Which leader is connected with the Ten Commandments?",
+        "choices": {
+          "A": "Cyrus",
+          "B": "Moses",
+          "C": "Nebuchadnezzar",
+          "D": "Darius"
+        },
+        "correctAnswer": "B",
+        "explanation": "Moses is connected with the Ten Commandments.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q13",
+        "section": "social",
+        "question": "The sacred writings of the Israelites are also called what?",
+        "choices": {
+          "A": "The Twelve Tables",
+          "B": "The Code of Hammurabi",
+          "C": "The Torah",
+          "D": "The Royal Road"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Israelites' sacred writings are the Hebrew Bible, also called the Torah.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q14",
+        "section": "social",
+        "question": "How were the Israelites different from the Sumerians and Egyptians in religion?",
+        "choices": {
+          "A": "The Israelites had no laws",
+          "B": "The Israelites built bigger pyramids",
+          "C": "The Israelites never wrote anything",
+          "D": "The Israelites believed in one God instead of many"
+        },
+        "correctAnswer": "D",
+        "explanation": "Unlike the polytheistic Sumerians and Egyptians, the Israelites believed in one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q15",
+        "section": "social",
+        "question": "The Ten Commandments are best described as what?",
+        "choices": {
+          "A": "A set of moral and religious rules",
+          "B": "A list of trade goods",
+          "C": "A map of Persia",
+          "D": "A type of ship"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Ten Commandments are a set of moral and religious rules.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q16",
+        "section": "social",
+        "question": "Which word means 'belief in one God'?",
+        "choices": {
+          "A": "Polytheism",
+          "B": "Monotheism",
+          "C": "Migration",
+          "D": "Civilization"
+        },
+        "correctAnswer": "B",
+        "explanation": "Monotheism means belief in one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q17",
+        "section": "social",
+        "question": "Abraham is remembered in the Israelite story as what?",
+        "choices": {
+          "A": "A Persian king",
+          "B": "A Phoenician trader",
+          "C": "An Assyrian general",
+          "D": "The father of the Israelite people"
+        },
+        "correctAnswer": "D",
+        "explanation": "Abraham is considered the father of the Israelite people.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q18",
+        "section": "social",
+        "question": "Which set correctly lists two important leaders in the Israelite story?",
+        "choices": {
+          "A": "Abraham and Moses",
+          "B": "Cyrus and Darius",
+          "C": "Hammurabi and Sargon",
+          "D": "Nebuchadnezzar and Cyrus"
+        },
+        "correctAnswer": "A",
+        "explanation": "Abraham and Moses are two important leaders in the Israelite story.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q19",
+        "section": "social",
+        "question": "Why did the Israelites' religion stand out in the ancient world?",
+        "choices": {
+          "A": "Worshipping one God was new when most peoples worshipped many",
+          "B": "They had the largest army",
+          "C": "They built the most pyramids",
+          "D": "They sailed the most ships"
+        },
+        "correctAnswer": "A",
+        "explanation": "Belief in one God was new and different when most peoples worshipped many gods.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q20",
+        "section": "social",
+        "question": "Which of these is NOT one of the religions shaped by the Israelites' idea of one God?",
+        "choices": {
+          "A": "Christianity",
+          "B": "Islam",
+          "C": "Judaism",
+          "D": "Buddhism"
+        },
+        "correctAnswer": "D",
+        "explanation": "Judaism, Christianity, and Islam grew from the idea of one God; Buddhism did not.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q21",
+        "section": "social",
+        "question": "A people worships only one God and follows moral laws written in sacred texts. Which group does this describe?",
+        "choices": {
+          "A": "The Israelites",
+          "B": "The Phoenicians",
+          "C": "The Assyrians",
+          "D": "The Persians"
+        },
+        "correctAnswer": "A",
+        "explanation": "Worshipping one God and following moral laws in sacred texts describes the Israelites.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q22",
+        "section": "social",
+        "question": "What kind of laws did the Israelite religion stress?",
+        "choices": {
+          "A": "Laws for building ziggurats",
+          "B": "Moral laws about living a good, fair life",
+          "C": "Laws for sailing ships",
+          "D": "Laws about making bronze tools"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Israelite religion stressed moral laws about living a good, fair life.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q23",
+        "section": "social",
+        "question": "The Israelites' religion grew into which faith?",
+        "choices": {
+          "A": "Hinduism",
+          "B": "Daoism",
+          "C": "Judaism",
+          "D": "Shinto"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Israelites' religion grew into Judaism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q24",
+        "section": "social",
+        "question": "If a neighbor of the Israelites worshipped many gods, that neighbor practiced what?",
+        "choices": {
+          "A": "Monotheism",
+          "B": "Democracy",
+          "C": "Polytheism",
+          "D": "No religion"
+        },
+        "correctAnswer": "C",
+        "explanation": "Worshipping many gods is polytheism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q25",
+        "section": "social",
+        "question": "Why is it surprising that the Israelites had such a big influence on world history?",
+        "choices": {
+          "A": "They were a fairly small group, yet shaped three major religions",
+          "B": "They had the world's largest empire",
+          "C": "They controlled all the world's trade",
+          "D": "They built the biggest cities"
+        },
+        "correctAnswer": "A",
+        "explanation": "A fairly small group had a huge influence by shaping three major world religions.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q26",
+        "section": "social",
+        "question": "Which best compares monotheism and polytheism?",
+        "choices": {
+          "A": "Both mean worshipping no gods",
+          "B": "Monotheism is one God; polytheism is many gods",
+          "C": "Monotheism is many gods; polytheism is one God",
+          "D": "Both mean worshipping many gods"
+        },
+        "correctAnswer": "B",
+        "explanation": "Monotheism is belief in one God, while polytheism is belief in many gods.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q27",
+        "section": "social",
+        "question": "Where would you look to find the Israelites' beliefs, history, and laws written down?",
+        "choices": {
+          "A": "On Persian roads",
+          "B": "In the Hanging Gardens",
+          "C": "On Phoenician trading ships",
+          "D": "In their sacred writings, the Hebrew Bible or Torah"
+        },
+        "correctAnswer": "D",
+        "explanation": "Their beliefs, history, and laws were recorded in the Hebrew Bible, also called the Torah.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q28",
+        "section": "social",
+        "question": "Which statement about the Israelites is TRUE?",
+        "choices": {
+          "A": "They worshipped hundreds of gods",
+          "B": "They believed in one God and followed moral laws",
+          "C": "They never recorded their beliefs",
+          "D": "They were master sea traders"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Israelites believed in one God and followed moral laws.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q29",
+        "section": "social",
+        "question": "The Ten Commandments are most similar to which idea?",
+        "choices": {
+          "A": "A trade route across the sea",
+          "B": "A set of moral rules for how to live",
+          "C": "A type of war chariot",
+          "D": "A list of Persian provinces"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Ten Commandments are a set of moral rules for how to live.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q30",
+        "section": "social",
+        "question": "Which is the BEST short way to remember this lesson?",
+        "choices": {
+          "A": "Alphabet equals sea trade",
+          "B": "Roads equal satraps",
+          "C": "Monotheism equals one God equals Israelites and Judaism",
+          "D": "Empire equals fierce army"
+        },
+        "correctAnswer": "C",
+        "explanation": "Monotheism equals belief in one God equals the Israelites and Judaism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q31",
+        "section": "social",
+        "question": "Which two world religions, besides Judaism, were shaped by the Israelites' idea of one God?",
+        "choices": {
+          "A": "Hinduism and Daoism",
+          "B": "Christianity and Islam",
+          "C": "Buddhism and Shinto",
+          "D": "Confucianism and Jainism"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Israelites' idea of one God helped shape Christianity and Islam.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q32",
+        "section": "social",
+        "question": "What does it mean to follow 'moral laws'?",
+        "choices": {
+          "A": "To follow rules about how to live a good, fair life",
+          "B": "To follow rules for building ships",
+          "C": "To follow rules for fighting wars",
+          "D": "To follow rules for trading dye"
+        },
+        "correctAnswer": "A",
+        "explanation": "Moral laws are rules about how to live a good, fair life.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q33",
+        "section": "social",
+        "question": "Which person is considered the father of the Israelite people?",
+        "choices": {
+          "A": "Moses",
+          "B": "Abraham",
+          "C": "Cyrus",
+          "D": "Darius"
+        },
+        "correctAnswer": "B",
+        "explanation": "Abraham is considered the father of the Israelite people.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q34",
+        "section": "social",
+        "question": "Which of these is NOT true about the ancient Israelites?",
+        "choices": {
+          "A": "They believed in one God",
+          "B": "They recorded laws in sacred writings",
+          "C": "They worshipped many gods like their neighbors",
+          "D": "Their religion grew into Judaism"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Israelites believed in one God, not many gods like their neighbors, so that statement is false.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q35",
+        "section": "social",
+        "question": "Why can the Israelites be called important even though they were not a giant empire?",
+        "choices": {
+          "A": "Their idea of one God and moral law shaped much of the world's religious history",
+          "B": "They had the strongest army",
+          "C": "They built the most roads",
+          "D": "They controlled the Mediterranean Sea"
+        },
+        "correctAnswer": "A",
+        "explanation": "Their idea of one God and moral law shaped much of the world's religious history.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q36",
+        "section": "social",
+        "question": "A student says, 'The Israelites are known for believing in one God.' Is this correct?",
+        "choices": {
+          "A": "Yes, that belief is called monotheism",
+          "B": "No, they worshipped many gods",
+          "C": "No, they had no religion",
+          "D": "No, they only worshipped kings"
+        },
+        "correctAnswer": "A",
+        "explanation": "Yes, the Israelites believed in one God, a belief called monotheism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q37",
+        "section": "social",
+        "question": "Which pair correctly matches a leader with the Israelite story?",
+        "choices": {
+          "A": "Cyrus — father of the Israelites",
+          "B": "Moses — connected with the Ten Commandments",
+          "C": "Hammurabi — wrote the Torah",
+          "D": "Darius — built the first temple"
+        },
+        "correctAnswer": "B",
+        "explanation": "Moses is connected with the Ten Commandments.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q38",
+        "section": "social",
+        "question": "How did writing down their laws help the Israelites?",
+        "choices": {
+          "A": "It let them keep and pass on their beliefs, history, and rules",
+          "B": "It ended all trade",
+          "C": "It made them worship many gods",
+          "D": "It built the pyramids"
+        },
+        "correctAnswer": "A",
+        "explanation": "Writing their laws let the Israelites keep and pass on their beliefs, history, and rules.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q39",
+        "section": "social",
+        "question": "Which group is correctly matched with monotheism?",
+        "choices": {
+          "A": "The Egyptians",
+          "B": "The Sumerians",
+          "C": "The Israelites",
+          "D": "The Assyrians"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Israelites are the group known for monotheism, the belief in one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q40",
+        "section": "social",
+        "question": "Which sentence best states the main idea of this lesson?",
+        "choices": {
+          "A": "The Israelites built the largest empire in history",
+          "B": "The Israelites were sea traders who spread the alphabet",
+          "C": "The Israelites' belief in one God and moral law deeply shaped world religion",
+          "D": "The Israelites invented the war chariot"
+        },
+        "correctAnswer": "C",
+        "explanation": "The main idea is that the Israelites' belief in one God and moral law deeply shaped world religion.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
       }
     ]
   }
