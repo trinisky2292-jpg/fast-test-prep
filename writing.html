@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — Writing</title>
+    <style>
+        :root { --primary:#4CAF50; --secondary:#2196F3; --accent:#FFC107; --write:#FF7043; --background:#F5F5F5; --text:#212121; --light:#757575; --white:#fff; }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:var(--background); color:var(--text); line-height:1.6; padding:1rem; }
+        .container { max-width:900px; margin:0 auto; }
+        header { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; padding:1rem; background:var(--white); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,.1); }
+        header h1 { font-size:1.4rem; color:var(--write); }
+        header a.home { color:var(--secondary); text-decoration:none; font-weight:500; }
+        .card { background:var(--white); border-radius:14px; padding:1.1rem 1.25rem; box-shadow:0 2px 8px rgba(0,0,0,.08); margin-bottom:1.1rem; }
+        .card h2 { font-size:1.15rem; margin-bottom:.6rem; color:var(--text); }
+        .facts { list-style:none; display:flex; flex-wrap:wrap; gap:.5rem; }
+        .facts li { background:#FFF3E0; color:#E65100; font-weight:600; font-size:.85rem; padding:.3rem .7rem; border-radius:50px; }
+        .rubric { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:.8rem; }
+        .rub { border:1px solid #eee; border-left:6px solid var(--write); border-radius:10px; padding:.8rem; }
+        .rub h3 { font-size:1rem; } .rub .pts { font-size:.78rem; font-weight:700; color:#fff; background:var(--write); padding:.1rem .5rem; border-radius:50px; }
+        .rub .kid { font-size:.9rem; color:var(--light); margin:.35rem 0; }
+        .rub ul { margin-left:1.1rem; font-size:.85rem; }
+        .steps { counter-reset:s; list-style:none; }
+        .steps li { position:relative; padding:.5rem 0 .5rem 2.4rem; border-bottom:1px dashed #eee; }
+        .steps li:before { counter-increment:s; content:counter(s); position:absolute; left:0; top:.5rem; width:1.7rem; height:1.7rem; background:var(--write); color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:.85rem; }
+        .steps li b { display:block; }
+        .steps li span { font-size:.9rem; color:var(--light); }
+        .tbank { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:.7rem; }
+        .tbank .tb { background:#F1F8E9; border-radius:8px; padding:.6rem .7rem; }
+        .tbank .tb h4 { font-size:.85rem; margin-bottom:.3rem; color:#33691E; }
+        .tbank .tb span { display:block; font-size:.85rem; color:#555; }
+        .prompt-card { border-left:6px solid var(--secondary); }
+        .prompt-card h2 { color:var(--secondary); }
+        .pbtn { background:var(--write); color:#fff; border:none; padding:.6rem 1.1rem; border-radius:50px; font-weight:700; cursor:pointer; font-size:.95rem; }
+        .src { background:#FAFAFA; border:1px solid #eee; border-radius:8px; padding:.8rem; margin:.6rem 0; }
+        .src h4 { font-size:.95rem; margin-bottom:.3rem; }
+        .src p { font-size:.92rem; white-space:pre-wrap; }
+        .promptbox { background:#E3F2FD; border-radius:8px; padding:.8rem; font-weight:600; margin:.7rem 0; }
+        .planner { background:#FFF8E1; border-radius:8px; padding:.7rem; font-size:.9rem; margin:.5rem 0; }
+        textarea { width:100%; min-height:220px; border:2px solid #ddd; border-radius:8px; padding:.7rem; font-size:1rem; font-family:inherit; line-height:1.5; resize:vertical; }
+        .wc { font-size:.82rem; color:var(--light); margin:.3rem 0 .7rem; }
+        .model { background:#E8F5E9; border-radius:8px; padding:.8rem; margin:.6rem 0; white-space:pre-wrap; font-size:.92rem; }
+        .checklist { list-style:none; } .checklist li { margin:.25rem 0; font-size:.92rem; } .checklist input { margin-right:.5rem; transform:scale(1.2); }
+        .toggle { background:none; border:1px solid var(--write); color:var(--write); padding:.45rem .9rem; border-radius:50px; font-weight:600; cursor:pointer; margin:.4rem .4rem .4rem 0; font-size:.88rem; }
+        .hidden { display:none; }
+        .empty { background:var(--white); border-radius:12px; padding:2rem; text-align:center; color:var(--light); }
+        @media (max-width:480px){ header{flex-direction:column;align-items:stretch;} }
+    </style>
+    <script src="js/grade.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Writing Builder</h1>
+            <a class="home" href="index.html">&larr; Home</a>
+        </header>
+        <div id="content"><div class="empty">Loading…</div></div>
+    </div>
+
+    <script>
+    (function () {
+        if (window.FastGrade && FastGrade.get() !== '6') FastGrade.set('6');
+        function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+        fetch('data/books/writing.json').then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; })
+        .then(function(d){
+            if (!d) { document.getElementById('content').innerHTML = '<div class="empty">📝 The writing lessons are being prepared — check back in a minute!</div>'; return; }
+            var html = '';
+            // Overview
+            if (d.overview) {
+                html += '<div class="card"><h2>What is the 6th-grade writing test?</h2><p>' + esc(d.overview.what) + '</p>' +
+                    '<ul class="facts" style="margin-top:.7rem;">' + (d.overview.facts||[]).map(function(f){ return '<li>'+esc(f)+'</li>'; }).join('') + '</ul></div>';
+            }
+            // Rubric
+            if (d.rubric) {
+                html += '<div class="card"><h2>How it\'s scored (0–12)</h2><div class="rubric">' + d.rubric.map(function(r){
+                    return '<div class="rub"><h3>'+esc(r.domain)+' <span class="pts">'+esc(r.points)+'</span></h3>' +
+                        '<div class="kid">'+esc(r.kid)+'</div><ul>'+(r.lookFors||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div>';
+                }).join('') + '</div></div>';
+            }
+            // Method
+            if (d.method) {
+                html += '<div class="card"><h2>How to write the essay — step by step</h2><ul class="steps">' + d.method.map(function(m){
+                    return '<li><b>'+esc(m.title)+'</b><span>'+esc(m.do)+'</span></li>';
+                }).join('') + '</ul></div>';
+            }
+            // Transitions
+            if (d.transitions) {
+                var labels = {claim:'Stating your claim', addingEvidence:'Adding evidence', counter:'The other side', conclusion:'Concluding'};
+                html += '<div class="card"><h2>Sentence starters &amp; transitions</h2><div class="tbank">' +
+                    Object.keys(d.transitions).map(function(k){
+                        return '<div class="tb"><h4>'+esc(labels[k]||k)+'</h4>'+(d.transitions[k]||[]).map(function(s){return '<span>"'+esc(s)+'"</span>';}).join('')+'</div>';
+                    }).join('') + '</div></div>';
+            }
+            // Prompts
+            (d.prompts||[]).forEach(function(p){
+                var key = 'fast-writing-' + p.id;
+                html += '<div class="card prompt-card"><h2>✍️ '+esc(p.title)+'</h2>' +
+                    '<button class="pbtn" data-open="'+p.id+'">Open this writing prompt</button>' +
+                    '<div class="hidden" id="body-'+p.id+'">' +
+                        (p.sources||[]).map(function(s){ return '<div class="src"><h4>📄 '+esc(s.title)+'</h4><p>'+esc(s.text)+'</p></div>'; }).join('') +
+                        '<div class="promptbox">'+esc(p.prompt)+'</div>' +
+                        (p.planner ? '<div class="planner"><b>Plan it:</b> '+esc(p.planner.question||'')+'<br>One side: '+esc(p.planner.sideA||'')+' · Other side: '+esc(p.planner.sideB||'')+(p.planner.hint?'<br>'+esc(p.planner.hint):'')+'</div>' : '') +
+                        '<h4 style="margin:.6rem 0 .3rem;">Write your essay here:</h4>' +
+                        '<textarea id="ta-'+p.id+'" placeholder="Start with your hook and your claim..."></textarea>' +
+                        '<div class="wc" id="wc-'+p.id+'">0 words · saved automatically</div>' +
+                        '<button class="toggle" data-model="'+p.id+'">📗 Show / hide model essay</button>' +
+                        '<button class="toggle" data-clear="'+p.id+'">🗑️ Clear my writing</button>' +
+                        '<div class="model hidden" id="model-'+p.id+'">'+esc(p.model)+'</div>' +
+                        '<h4 style="margin:.7rem 0 .3rem;">Check your own essay:</h4>' +
+                        '<ul class="checklist">'+(p.checklist||[]).map(function(c,i){ return '<li><label><input type="checkbox" data-chk="'+p.id+'-'+i+'">'+esc(c)+'</label></li>'; }).join('')+'</ul>' +
+                    '</div></div>';
+            });
+            document.getElementById('content').innerHTML = html;
+
+            // Wire interactions
+            document.querySelectorAll('[data-open]').forEach(function(b){
+                b.addEventListener('click', function(){
+                    var id=b.getAttribute('data-open'); var body=document.getElementById('body-'+id);
+                    body.classList.toggle('hidden');
+                    b.textContent = body.classList.contains('hidden') ? 'Open this writing prompt' : 'Close';
+                });
+            });
+            document.querySelectorAll('[data-model]').forEach(function(b){
+                b.addEventListener('click', function(){ document.getElementById('model-'+b.getAttribute('data-model')).classList.toggle('hidden'); });
+            });
+            // textarea autosave + word count
+            (d.prompts||[]).forEach(function(p){
+                var ta=document.getElementById('ta-'+p.id); var wc=document.getElementById('wc-'+p.id);
+                if (!ta) return;
+                var saved = localStorage.getItem('fast-writing-'+p.id); if (saved) ta.value = saved;
+                function upd(){ var w = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0; wc.textContent = w+' words · saved automatically'; }
+                upd();
+                ta.addEventListener('input', function(){ localStorage.setItem('fast-writing-'+p.id, ta.value); upd(); });
+                // restore checklist
+                (p.checklist||[]).forEach(function(c,i){
+                    var cb=document.querySelector('[data-chk="'+p.id+'-'+i+'"]');
+                    if (cb){ cb.checked = localStorage.getItem('fast-chk-'+p.id+'-'+i)==='1';
+                        cb.addEventListener('change', function(){ localStorage.setItem('fast-chk-'+p.id+'-'+i, cb.checked?'1':'0'); }); }
+                });
+            });
+            document.querySelectorAll('[data-clear]').forEach(function(b){
+                b.addEventListener('click', function(){
+                    var id=b.getAttribute('data-clear');
+                    if (confirm('Clear your writing for this prompt?')) {
+                        localStorage.removeItem('fast-writing-'+id);
+                        var ta=document.getElementById('ta-'+id); if(ta){ ta.value=''; ta.dispatchEvent(new Event('input')); }
+                    }
+                });
+            });
+        });
+    })();
+    </script>
+</body>
+</html>
