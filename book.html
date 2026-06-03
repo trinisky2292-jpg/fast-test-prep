@@ -29,9 +29,10 @@
         .lesson .teach { font-size:.93rem; color:#37474f; margin:.4rem 0 .6rem; }
         .lesson .actions { display:flex; gap:.5rem; flex-wrap:wrap; }
         .btn { display:inline-block; padding:.45rem 1rem; border-radius:50px; text-decoration:none; font-weight:700; font-size:.85rem; border:none; cursor:pointer; }
+        .btn.learn { background:#7E57C2; color:#fff; }
         .btn.watch { background:#F44336; color:#fff; }
-        .btn.sheet { background:var(--primary); color:#fff; }
-        .btn.novideo { background:#eee; color:#999; cursor:default; }
+        .btn.quiz { background:var(--primary); color:#fff; }
+        .btn.sheet { background:var(--secondary); color:#fff; }
         /* player modal */
         .modal-overlay { display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,.85); align-items:center; justify-content:center; padding:1rem; }
         .modal-overlay.open { display:flex; }
@@ -88,13 +89,15 @@
                     practice = '<a class="topic-practice" href="quiz.html?section=' + data.practiceSection + '">✏️ Practice this topic</a><br>';
                 }
                 const lessons = (t.lessons || []).map(function (L) {
+                    const learn = '<a class="btn learn" href="lesson.html?subject=' + subject + '&lesson=' + encodeURIComponent(L.code) + '">📖 Learn</a>';
                     const watch = L.videoId
                         ? '<button class="btn watch" data-vid="' + esc(L.videoId) + '" data-vtitle="' + esc(L.videoTitle || L.title) + '">📺 Watch</button>'
-                        : '<span class="btn novideo">No video</span>';
+                        : '';
+                    const practice = '<a class="btn quiz" href="quiz.html?subject=' + subject + '&lesson=' + encodeURIComponent(L.code) + '">✏️ Practice</a>';
                     const sheet = '<a class="btn sheet" href="worksheet.html?subject=' + subject + '&lesson=' + encodeURIComponent(L.code) + '">🖨️ Worksheet</a>';
                     return '<div class="lesson"><div class="lh"><span class="code">' + esc(L.code) + '</span><span class="lt">' + esc(L.title) + '</span></div>' +
                         '<div class="teach">' + esc(L.teach) + '</div>' +
-                        '<div class="actions">' + watch + sheet + '</div></div>';
+                        '<div class="actions">' + learn + watch + practice + sheet + '</div></div>';
                 }).join('');
                 return '<div class="topic"><div class="topic-head"><div class="topic-num">' + t.n + '</div><h2>Topic ' + t.n + ' — ' + esc(t.title) + '</h2><span class="chev">▶</span></div>' +
                     '<div class="topic-body">' + practice + lessons + '</div></div>';

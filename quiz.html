@@ -285,11 +285,21 @@
             timerInterval = setInterval(tick, 1000);
         }
 
-        // Fetch the JSON data for the section (grade-aware path)
-        fetch(FastGrade.dataPath(section))
+        // Lesson-practice mode loads a per-lesson DB question set; otherwise load the section.
+        const lessonCode = getQueryParam('lesson');
+        const lessonSubject = (getQueryParam('subject') || 'math').replace(/[^a-z]/g, '');
+        let lessonTitle = '';
+        const loadUrl = lessonCode
+            ? `data/books/${lessonSubject}-practice/t${lessonCode.split('-')[0]}.json`
+            : FastGrade.dataPath(section);
+        fetch(loadUrl)
             .then(response => response.json())
             .then(data => {
-                if (section === 'reading') {
+                if (lessonCode) {
+                    const entry = data[lessonCode] || {};
+                    questions = entry.questions || [];
+                    lessonTitle = entry.title ? (lessonCode + ' ' + entry.title) : ('Lesson ' + lessonCode);
+                } else if (section === 'reading') {
                     passages = data.passages || [];
                     questions = data.questions || [];
                 } else {
@@ -299,7 +309,7 @@
             })
             .catch(err => {
                 console.error('Failed to load questions:', err);
-                document.getElementById('main-content').innerHTML = '<p>Error loading questions. Please try again.</p>';
+                document.getElementById('main-content').innerHTML = '<p>Practice questions for this lesson are being prepared. Try the Worksheet or Watch the video for now!</p>';
             });
 
         function initQuiz() {
@@ -322,7 +332,7 @@
         };
 
         function renderHeader() {
-            const label = sectionLabels[section] || section.charAt(0).toUpperCase() + section.slice(1);
+            const label = (lessonCode && lessonTitle) ? lessonTitle : (sectionLabels[section] || section.charAt(0).toUpperCase() + section.slice(1));
             document.getElementById('header-center').textContent =
                 `${label}: Question ${currentQuestionIndex + 1} of ${questions.length}`;
         }

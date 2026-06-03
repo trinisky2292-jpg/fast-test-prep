@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — Lesson</title>
+    <style>
+        :root { --primary:#4CAF50; --secondary:#2196F3; --accent:#FFC107; --background:#F5F5F5; --text:#212121; --light:#757575; --white:#fff; }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:var(--background); color:var(--text); line-height:1.65; padding:1rem; }
+        .container { max-width:760px; margin:0 auto; }
+        header { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; padding:1rem; background:var(--white); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,.1); }
+        header h1 { font-size:1.2rem; color:var(--primary); }
+        header a.back { color:var(--secondary); text-decoration:none; font-weight:600; }
+        .card { background:var(--white); border-radius:16px; padding:1.4rem 1.5rem; box-shadow:0 4px 12px rgba(0,0,0,.07); margin-bottom:1.1rem; }
+        .card h2 { font-size:1.1rem; margin-bottom:.6rem; color:var(--text); }
+        .intro { color:#37474f; }
+        .howto { white-space:pre-wrap; font-size:1rem; color:#263238; background:#f8fbff; border-left:4px solid var(--secondary); padding:1rem 1.1rem; border-radius:8px; }
+        .video-wrap { position:relative; width:100%; aspect-ratio:16/9; border-radius:12px; overflow:hidden; background:#000; }
+        .video-wrap iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+        .actions { display:flex; gap:.6rem; flex-wrap:wrap; }
+        .btn { display:inline-block; padding:.8rem 1.5rem; border-radius:50px; text-decoration:none; font-weight:800; font-size:1rem; border:none; cursor:pointer; }
+        .btn.practice { background:var(--primary); color:#fff; }
+        .btn.sheet { background:var(--secondary); color:#fff; }
+        .muted { color:var(--light); font-size:.95rem; }
+        .standard-tag { display:inline-block; background:#e3f2fd; color:var(--secondary); font-size:.72rem; font-weight:700; padding:.15rem .5rem; border-radius:6px; }
+    </style>
+    <script src="js/grade.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="lesson-title">Lesson</h1>
+            <a class="back" id="back">&larr; Book</a>
+        </header>
+        <div id="content"><div class="card muted">Loading…</div></div>
+    </div>
+
+    <script>
+    (function () {
+        const params = new URLSearchParams(location.search);
+        const subject = (params.get('subject') || 'math').replace(/[^a-z]/g, '');
+        const code = params.get('lesson') || '';
+        const topicNum = code.split('-')[0];
+        document.getElementById('back').href = 'book.html?subject=' + subject;
+        if (window.FastGrade && FastGrade.get() !== '6') FastGrade.set('6');
+        function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+
+        Promise.all([
+            fetch('data/books/' + subject + '.json').then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
+            fetch('data/books/' + subject + '-practice/t' + topicNum + '.json').then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
+        ]).then(function(res){
+            const book = res[0]; const prac = res[1];
+            let L = null;
+            if (book) { (book.topics||[]).forEach(function(t){ (t.lessons||[]).forEach(function(x){ if(x.code===code) L=x; }); }); }
+            const p = (prac && prac[code]) || {};
+            const title = (L && L.title) || (p.title) || ('Lesson ' + code);
+            document.title = 'Lesson ' + code + ' — ' + title;
+            document.getElementById('lesson-title').textContent = 'Lesson ' + code;
+
+            const learn = p.learn || (L && L.teach) || '';
+            const hasPractice = p.questions && p.questions.length;
+            const vid = L && L.videoId;
+
+            let html = '';
+            html += '<div class="card"><h2>📘 ' + esc(code) + ' — ' + esc(title) + '</h2>' +
+                (L && L.standard ? '<span class="standard-tag">' + esc(L.standard) + '</span>' : '') +
+                (L && L.teach ? '<p class="intro" style="margin-top:.6rem;">' + esc(L.teach) + '</p>' : '') + '</div>';
+
+            html += '<div class="card"><h2>✏️ How to do it</h2><div class="howto">' + esc(learn) + '</div></div>';
+
+            if (vid) {
+                html += '<div class="card"><h2>📺 Watch the lesson</h2><div class="video-wrap">' +
+                    '<iframe src="https://www.youtube.com/embed/' + vid + '?rel=0&modestbranding=1" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div></div>';
+            }
+
+            html += '<div class="card"><h2>🎯 Now try it</h2><div class="actions">' +
+                '<a class="btn practice" href="quiz.html?subject=' + subject + '&lesson=' + encodeURIComponent(code) + '">' + (hasPractice ? '✏️ Practice (' + p.questions.length + ' questions)' : '✏️ Practice') + '</a>' +
+                '<a class="btn sheet" href="worksheet.html?subject=' + subject + '&lesson=' + encodeURIComponent(code) + '">🖨️ Worksheet</a>' +
+                '</div>' + (hasPractice ? '' : '<p class="muted" style="margin-top:.6rem;">Practice questions for this lesson are being prepared.</p>') + '</div>';
+
+            document.getElementById('content').innerHTML = html;
+        });
+    })();
+    </script>
+</body>
+</html>
