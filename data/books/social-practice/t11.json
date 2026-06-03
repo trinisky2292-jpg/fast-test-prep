@@ -153,6 +153,456 @@
         "explanation": "Like the Agricultural Revolution elsewhere, farming transformed American life.",
         "standard": "SS.6.W.2.10",
         "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q11",
+        "section": "social",
+        "question": "What is another common name for the crop maize?",
+        "choices": {
+          "A": "Corn",
+          "B": "Wheat",
+          "C": "Oats",
+          "D": "Rye"
+        },
+        "correctAnswer": "A",
+        "explanation": "Maize is another name for corn.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q12",
+        "section": "social",
+        "question": "During which period do many scientists believe people first crossed into the Americas?",
+        "choices": {
+          "A": "The Renaissance",
+          "B": "The Industrial Age",
+          "C": "The Roman Empire",
+          "D": "The Ice Age"
+        },
+        "correctAnswer": "D",
+        "explanation": "The crossing is believed to have happened during the Ice Age.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q13",
+        "section": "social",
+        "question": "From which continent do many scientists think the first peoples of the Americas came?",
+        "choices": {
+          "A": "Africa",
+          "B": "Australia",
+          "C": "Asia",
+          "D": "Europe"
+        },
+        "correctAnswer": "C",
+        "explanation": "Many believe the first peoples crossed a land bridge from Asia.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q14",
+        "section": "social",
+        "question": "Why are corn, beans, and squash nicknamed the 'Three Sisters'?",
+        "choices": {
+          "A": "They were named after three goddesses",
+          "B": "They grew well together",
+          "C": "They tasted exactly the same",
+          "D": "They were each shaped like a person"
+        },
+        "correctAnswer": "B",
+        "explanation": "They earned the nickname because they grew well together.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q15",
+        "section": "social",
+        "question": "What does it mean that food was stored as a 'surplus'?",
+        "choices": {
+          "A": "There was extra food beyond what was needed right away",
+          "B": "All the food was thrown out",
+          "C": "There was never enough food",
+          "D": "Food was traded for gold only"
+        },
+        "correctAnswer": "A",
+        "explanation": "A surplus means extra food beyond immediate needs.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q16",
+        "section": "social",
+        "question": "Which sequence shows how communities grew in the Americas after farming began?",
+        "choices": {
+          "A": "Cities, then farming, then villages",
+          "B": "Empires, then villages, then farming",
+          "C": "Villages, then cities, then civilizations",
+          "D": "Civilizations, then farming, then villages"
+        },
+        "correctAnswer": "C",
+        "explanation": "Farming led to villages, then cities, then civilizations.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q17",
+        "section": "social",
+        "question": "Which of these was NOT one of the Three Sisters crops?",
+        "choices": {
+          "A": "Beans",
+          "B": "Squash",
+          "C": "Corn",
+          "D": "Wheat"
+        },
+        "correctAnswer": "D",
+        "explanation": "Wheat was not one of the Three Sisters; the three were corn, beans, and squash.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q18",
+        "section": "social",
+        "question": "A land bridge is best described as what?",
+        "choices": {
+          "A": "A stretch of dry land connecting two areas usually separated by water",
+          "B": "A wooden bridge built over a river",
+          "C": "A type of boat",
+          "D": "A tunnel under the ocean"
+        },
+        "correctAnswer": "A",
+        "explanation": "A land bridge is dry land connecting areas normally separated by water.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q19",
+        "section": "social",
+        "question": "A family settles in one place and grows enough corn to feed everyone and have extra. This is an example of what change?",
+        "choices": {
+          "A": "Giving up hunting forever and starving",
+          "B": "Moving farther away every single day",
+          "C": "Farming allowing people to settle and store surplus food",
+          "D": "Trading away all their land"
+        },
+        "correctAnswer": "C",
+        "explanation": "This shows farming allowing settlement and stored surplus food.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q20",
+        "section": "social",
+        "question": "Why is it surprising that American peoples developed cities and government on their own?",
+        "choices": {
+          "A": "They had help from Roman teachers",
+          "B": "They had no contact with Africa or Asia, yet solved the same challenges",
+          "C": "They lived in the exact same river valleys",
+          "D": "They never grew any crops"
+        },
+        "correctAnswer": "B",
+        "explanation": "They had no contact with Africa or Asia yet solved the same challenges.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q21",
+        "section": "social",
+        "question": "Which crop was the KEY crop that supported civilization in the Americas?",
+        "choices": {
+          "A": "Rice",
+          "B": "Olives",
+          "C": "Wheat",
+          "D": "Maize (corn)"
+        },
+        "correctAnswer": "D",
+        "explanation": "Maize, or corn, was the key crop of the Americas.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q22",
+        "section": "social",
+        "question": "What direct effect did learning to farm have on early American peoples?",
+        "choices": {
+          "A": "They lost the ability to make tools",
+          "B": "They had to leave the Americas",
+          "C": "They forgot how to gather food",
+          "D": "They could stop moving and form permanent settlements"
+        },
+        "correctAnswer": "D",
+        "explanation": "Farming let them stop moving and form permanent settlements.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q23",
+        "section": "social",
+        "question": "The civilizations of Africa and Asia first grew up near what landform?",
+        "choices": {
+          "A": "Tall mountains",
+          "B": "Frozen glaciers",
+          "C": "River valleys",
+          "D": "Open deserts"
+        },
+        "correctAnswer": "C",
+        "explanation": "Those civilizations grew up in river valleys.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q24",
+        "section": "social",
+        "question": "Which statement BEST describes the early peoples of the Americas?",
+        "choices": {
+          "A": "They never learned to farm or build",
+          "B": "They settled the continents, farmed maize, and built civilizations on their own",
+          "C": "They were taught everything by Egypt",
+          "D": "They only lived in South America"
+        },
+        "correctAnswer": "B",
+        "explanation": "They settled the Americas, farmed maize, and built civilizations on their own.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q25",
+        "section": "social",
+        "question": "Compared with hunting and gathering, farming gave communities what advantage?",
+        "choices": {
+          "A": "Less food than before",
+          "B": "No need to live near water",
+          "C": "A steadier food supply that could feed more people",
+          "D": "The ability to fly"
+        },
+        "correctAnswer": "C",
+        "explanation": "Farming gave a steadier food supply that could feed more people.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q26",
+        "section": "social",
+        "question": "Which group of three crops did early American peoples plant together?",
+        "choices": {
+          "A": "Rice, tea, and bamboo",
+          "B": "Wheat, barley, and flax",
+          "C": "Corn, beans, and squash",
+          "D": "Grapes, olives, and figs"
+        },
+        "correctAnswer": "C",
+        "explanation": "They planted corn, beans, and squash together.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q27",
+        "section": "social",
+        "question": "What does the term 'civilization' refer to?",
+        "choices": {
+          "A": "A single family living alone",
+          "B": "An advanced society with cities, government, and culture",
+          "C": "A group that never settles down",
+          "D": "A type of farm tool"
+        },
+        "correctAnswer": "B",
+        "explanation": "A civilization is an advanced society with cities, government, and culture.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q28",
+        "section": "social",
+        "question": "Because American civilizations grew with no contact with the Old World, historians conclude what?",
+        "choices": {
+          "A": "Civilization can develop independently in different parts of the world",
+          "B": "Only one civilization ever existed",
+          "C": "Farming was useless in the Americas",
+          "D": "All cities must be near the Nile"
+        },
+        "correctAnswer": "A",
+        "explanation": "It shows civilization can develop independently in different parts of the world.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q29",
+        "section": "social",
+        "question": "Which of these is NOT something farming made possible for early American peoples?",
+        "choices": {
+          "A": "Storing surplus food",
+          "B": "Settling in one place",
+          "C": "Growing larger communities",
+          "D": "Traveling instantly between continents"
+        },
+        "correctAnswer": "D",
+        "explanation": "Farming did not let people travel instantly between continents; it allowed settling, surplus, and larger communities.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q30",
+        "section": "social",
+        "question": "After people settled and farmed, surplus food allowed populations to do what?",
+        "choices": {
+          "A": "Shrink quickly",
+          "B": "Stop having children",
+          "C": "Abandon all villages",
+          "D": "Grow larger over time"
+        },
+        "correctAnswer": "D",
+        "explanation": "Surplus food allowed populations to grow larger over time.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q31",
+        "section": "social",
+        "question": "Which best explains why maize is called the 'key crop' of the Americas?",
+        "choices": {
+          "A": "It was used only for decoration",
+          "B": "It was the main food that supported growing communities",
+          "C": "It could not be eaten",
+          "D": "It was brought from Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Maize was the main food that supported growing communities.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q32",
+        "section": "social",
+        "question": "Put these stages in the correct order from earliest to latest.",
+        "choices": {
+          "A": "Large cities, then learning to farm, then settling",
+          "B": "Learning to farm, then building villages, then building cities",
+          "C": "Building cities, then settling, then farming",
+          "D": "Settling, then large empires, then farming"
+        },
+        "correctAnswer": "B",
+        "explanation": "The order was learning to farm, then villages, then cities.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q33",
+        "section": "social",
+        "question": "Which sentence is an EXAMPLE of a turning point caused by farming?",
+        "choices": {
+          "A": "People wandered the same way they always had",
+          "B": "People stopped eating food entirely",
+          "C": "People settled down and built the first villages and cities",
+          "D": "People forgot how to grow crops"
+        },
+        "correctAnswer": "C",
+        "explanation": "Settling down and building villages and cities is the turning point farming caused.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q34",
+        "section": "social",
+        "question": "Which statement about the Three Sisters is TRUE?",
+        "choices": {
+          "A": "They were corn, beans, and squash grown together",
+          "B": "They were three different countries",
+          "C": "They were three rivers in Asia",
+          "D": "They were the only crops grown in Egypt"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Three Sisters were corn, beans, and squash grown together.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q35",
+        "section": "social",
+        "question": "How were the American civilizations and the river civilizations of Africa and Asia ALIKE?",
+        "choices": {
+          "A": "Both were taught by the Romans",
+          "B": "Both grew only in deserts",
+          "C": "Both developed farming, cities, and government",
+          "D": "Neither one ever farmed"
+        },
+        "correctAnswer": "C",
+        "explanation": "Both developed farming, cities, and government on their own.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q36",
+        "section": "social",
+        "question": "What was the first big step that allowed permanent communities in the Americas?",
+        "choices": {
+          "A": "Building stone roads",
+          "B": "Inventing the wheel",
+          "C": "Sailing across the ocean",
+          "D": "Learning to farm crops like maize"
+        },
+        "correctAnswer": "D",
+        "explanation": "Learning to farm crops like maize was the first big step.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q37",
+        "section": "social",
+        "question": "If American peoples had NEVER learned to farm, what would most likely have happened?",
+        "choices": {
+          "A": "They would have built giant cities anyway",
+          "B": "It would have been much harder to settle down and form large communities",
+          "C": "They would have invented writing instantly",
+          "D": "Nothing would have changed at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "Without farming it would have been much harder to settle down and form large communities.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q38",
+        "section": "social",
+        "question": "Which of these is the BEST definition of farming?",
+        "choices": {
+          "A": "Growing crops and raising food on purpose",
+          "B": "Hunting wild animals only",
+          "C": "Moving from place to place searching for food",
+          "D": "Trading gold for jewels"
+        },
+        "correctAnswer": "A",
+        "explanation": "Farming means growing crops and raising food on purpose.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q39",
+        "section": "social",
+        "question": "Which region was NOT settled by the early peoples of the Americas?",
+        "choices": {
+          "A": "North America",
+          "B": "Central America",
+          "C": "South America",
+          "D": "Northern Europe"
+        },
+        "correctAnswer": "D",
+        "explanation": "They settled North, Central, and South America, not Northern Europe.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q40",
+        "section": "social",
+        "question": "Which conclusion is BEST supported by the rise of farming and cities in the Americas?",
+        "choices": {
+          "A": "People in faraway places can solve the same problems on their own",
+          "B": "Only people near rivers can ever build cities",
+          "C": "Farming was invented only once in history",
+          "D": "Maize could not feed large groups"
+        },
+        "correctAnswer": "A",
+        "explanation": "It shows people in faraway places can solve the same problems on their own.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "The Maya were a Central American civilization skilled in astronomy, math, and writing.",
         "standard": "SS.6.W.2.10",
         "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q11",
+        "section": "social",
+        "question": "What is another name for the region of Central America where the Maya lived?",
+        "choices": {
+          "A": "Mesoamerica",
+          "B": "Mesopotamia",
+          "C": "Scandinavia",
+          "D": "Polynesia"
+        },
+        "correctAnswer": "A",
+        "explanation": "Central America where the Maya lived is also called Mesoamerica.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q12",
+        "section": "social",
+        "question": "What did the Maya call the symbols they used for writing?",
+        "choices": {
+          "A": "Letters",
+          "B": "Numerals",
+          "C": "Runes",
+          "D": "Glyphs"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Maya wrote with symbols called glyphs.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q13",
+        "section": "social",
+        "question": "The Maya studied the sun, moon, and stars. This is the science of what?",
+        "choices": {
+          "A": "Geography",
+          "B": "Biology",
+          "C": "Astronomy",
+          "D": "Chemistry"
+        },
+        "correctAnswer": "C",
+        "explanation": "Studying the sun, moon, and stars is astronomy.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q14",
+        "section": "social",
+        "question": "How did the Maya use their knowledge of astronomy and math together?",
+        "choices": {
+          "A": "To build steel ships",
+          "B": "To create a very accurate calendar",
+          "C": "To trade with Rome",
+          "D": "To invent the alphabet"
+        },
+        "correctAnswer": "B",
+        "explanation": "They combined astronomy and math to create a very accurate calendar.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q15",
+        "section": "social",
+        "question": "Why was the Maya understanding of zero remarkable?",
+        "choices": {
+          "A": "It made counting impossible",
+          "B": "It was the same as Roman numerals",
+          "C": "It was a difficult math idea they developed on their own",
+          "D": "It was copied from Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "Zero was a difficult math idea the Maya developed on their own.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q16",
+        "section": "social",
+        "question": "Which of these did the Maya NOT build?",
+        "choices": {
+          "A": "Stone pyramids",
+          "B": "Temples",
+          "C": "Ball courts",
+          "D": "Iron warships"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Maya built pyramids, temples, and ball courts, not iron warships.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q17",
+        "section": "social",
+        "question": "In which two subjects were the Maya especially strong?",
+        "choices": {
+          "A": "Sailing and trading",
+          "B": "Astronomy and mathematics",
+          "C": "Iron-making and mining",
+          "D": "Painting and music"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Maya were especially strong in astronomy and mathematics.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q18",
+        "section": "social",
+        "question": "Where did the Maya carve their glyph writing?",
+        "choices": {
+          "A": "On paper scrolls only",
+          "B": "On stone monuments",
+          "C": "On clay tablets like Sumer",
+          "D": "On silk cloth"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Maya carved glyphs on stone monuments.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q19",
+        "section": "social",
+        "question": "Which idea did the Maya and Gupta India BOTH develop independently?",
+        "choices": {
+          "A": "The number zero",
+          "B": "The wheel",
+          "C": "Gunpowder",
+          "D": "The compass"
+        },
+        "correctAnswer": "A",
+        "explanation": "Both the Maya and Gupta India developed the number zero independently.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q20",
+        "section": "social",
+        "question": "What does the word 'glyph' mean as the Maya used it?",
+        "choices": {
+          "A": "A type of pyramid",
+          "B": "A farming tool",
+          "C": "A star in the sky",
+          "D": "A written symbol"
+        },
+        "correctAnswer": "D",
+        "explanation": "A glyph is a written symbol.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q21",
+        "section": "social",
+        "question": "The Maya building cities in a thick jungle shows what about them?",
+        "choices": {
+          "A": "They could only live in deserts",
+          "B": "They were skilled builders who overcame a hard environment",
+          "C": "They never built anything large",
+          "D": "They needed Egyptian help"
+        },
+        "correctAnswer": "B",
+        "explanation": "It shows they were skilled builders who overcame a hard environment.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q22",
+        "section": "social",
+        "question": "Which list shows key achievements of the Maya?",
+        "choices": {
+          "A": "The alphabet, sea trade, and coins",
+          "B": "Iron tools, the wheel, and gunpowder",
+          "C": "The Great Wall and silk",
+          "D": "Pyramids, astronomy, zero, and an accurate calendar"
+        },
+        "correctAnswer": "D",
+        "explanation": "Maya achievements include pyramids, astronomy, zero, and an accurate calendar.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q23",
+        "section": "social",
+        "question": "What did the Maya carefully study to gain their sky knowledge?",
+        "choices": {
+          "A": "Ocean tides only",
+          "B": "Underground caves",
+          "C": "Volcano eruptions",
+          "D": "The sun, moon, and stars"
+        },
+        "correctAnswer": "D",
+        "explanation": "They studied the sun, moon, and stars.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q24",
+        "section": "social",
+        "question": "Which BEST shows that the Maya developed civilization on their own?",
+        "choices": {
+          "A": "They learned writing from Rome",
+          "B": "They created cities, writing, and math without contact with Africa or Asia",
+          "C": "They borrowed pyramids from Egypt",
+          "D": "They had no government at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "They created cities, writing, and math without contact with Africa or Asia.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q25",
+        "section": "social",
+        "question": "Today the Maya region is part of which modern nations?",
+        "choices": {
+          "A": "Mexico and Central America",
+          "B": "Egypt and Sudan",
+          "C": "India and China",
+          "D": "Greece and Italy"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Maya lived in what are now Mexico and Central America.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q26",
+        "section": "social",
+        "question": "Which feature did the Maya share with the river civilizations of Africa and Asia?",
+        "choices": {
+          "A": "Living only on the coast",
+          "B": "Having no cities",
+          "C": "Avoiding all math",
+          "D": "A system of writing"
+        },
+        "correctAnswer": "D",
+        "explanation": "Like the river civilizations, the Maya had a system of writing.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q27",
+        "section": "social",
+        "question": "What was inside many large Maya cities besides pyramids and temples?",
+        "choices": {
+          "A": "Steel factories",
+          "B": "Glass skyscrapers",
+          "C": "Plazas and ball courts",
+          "D": "Railroad stations"
+        },
+        "correctAnswer": "C",
+        "explanation": "Maya cities had plazas and ball courts.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q28",
+        "section": "social",
+        "question": "Which statement about the Maya is NOT true?",
+        "choices": {
+          "A": "They studied astronomy",
+          "B": "They understood the idea of zero",
+          "C": "They lived in northern Europe",
+          "D": "They built stone pyramids"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Maya did not live in northern Europe; they lived in Central America.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q29",
+        "section": "social",
+        "question": "Why is an accurate calendar useful to a farming civilization like the Maya?",
+        "choices": {
+          "A": "It lets them fly to the moon",
+          "B": "It replaces the need for food",
+          "C": "It is used only for decoration",
+          "D": "It helps them know the seasons and when to plant"
+        },
+        "correctAnswer": "D",
+        "explanation": "An accurate calendar helps farmers know the seasons and when to plant.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q30",
+        "section": "social",
+        "question": "The Maya number system was notable because it included what?",
+        "choices": {
+          "A": "Only the number one",
+          "B": "No numbers at all",
+          "C": "The number zero",
+          "D": "Roman letters"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Maya number system included the number zero.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q31",
+        "section": "social",
+        "question": "How were the Maya and Gupta India ALIKE?",
+        "choices": {
+          "A": "Both were river civilizations in Egypt",
+          "B": "Both understood and used the idea of zero",
+          "C": "Both spoke the same language",
+          "D": "Both built the Great Wall"
+        },
+        "correctAnswer": "B",
+        "explanation": "Both the Maya and Gupta India understood and used the idea of zero.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q32",
+        "section": "social",
+        "question": "Which is the BEST description of Maya glyphs?",
+        "choices": {
+          "A": "Coins used for trade",
+          "B": "Tools used for farming",
+          "C": "Symbols that made up a written language",
+          "D": "Boats used on rivers"
+        },
+        "correctAnswer": "C",
+        "explanation": "Glyphs were symbols that made up a written language.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q33",
+        "section": "social",
+        "question": "What does the Maya civilization prove about the Americas?",
+        "choices": {
+          "A": "No civilization ever existed there",
+          "B": "Everything was copied from Asia",
+          "C": "Only nomads ever lived there",
+          "D": "Complex civilization arose there on its own"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Maya prove complex civilization arose in the Americas on its own.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q34",
+        "section": "social",
+        "question": "Which of these is an EXAMPLE of Maya skill in astronomy?",
+        "choices": {
+          "A": "Sailing across the Atlantic Ocean",
+          "B": "Making iron swords",
+          "C": "Carefully tracking the movements of the sun, moon, and stars",
+          "D": "Building the pyramids of Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "Tracking the movements of the sun, moon, and stars shows their astronomy skill.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q35",
+        "section": "social",
+        "question": "Put these Maya achievements in order from gathering knowledge to using it.",
+        "choices": {
+          "A": "Create a calendar, then study the stars, then learn math",
+          "B": "Study the stars and learn math, then create an accurate calendar",
+          "C": "Build pyramids, then forget astronomy, then study stars",
+          "D": "Invent the wheel, then study the stars, then build temples"
+        },
+        "correctAnswer": "B",
+        "explanation": "They studied the stars and learned math, then used that to create an accurate calendar.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q36",
+        "section": "social",
+        "question": "Which civilization built stone pyramids in the rainforests of Central America?",
+        "choices": {
+          "A": "The Romans",
+          "B": "The Egyptians",
+          "C": "The Maya",
+          "D": "The Greeks"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Maya built stone pyramids in the rainforests of Central America.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q37",
+        "section": "social",
+        "question": "Which feature of civilization did the Maya develop, just as river civilizations did?",
+        "choices": {
+          "A": "Government to organize their cities",
+          "B": "No leaders of any kind",
+          "C": "A complete lack of cities",
+          "D": "An empty written language"
+        },
+        "correctAnswer": "A",
+        "explanation": "Like river civilizations, the Maya developed government to organize their cities.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q38",
+        "section": "social",
+        "question": "What is the BEST meaning of the word 'calendar' as the Maya used it?",
+        "choices": {
+          "A": "A system for tracking days, months, and seasons",
+          "B": "A type of pyramid",
+          "C": "A written symbol",
+          "D": "A kind of food crop"
+        },
+        "correctAnswer": "A",
+        "explanation": "A calendar is a system for tracking days, months, and seasons.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q39",
+        "section": "social",
+        "question": "Which big idea do the Maya help prove about world history?",
+        "choices": {
+          "A": "Separate peoples can independently develop the same features of civilization",
+          "B": "Only one civilization ever existed",
+          "C": "Writing was invented only in Egypt",
+          "D": "Civilization needs no farming"
+        },
+        "correctAnswer": "A",
+        "explanation": "They show separate peoples can independently develop the same features of civilization.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q40",
+        "section": "social",
+        "question": "Which statement BEST summarizes the Maya civilization?",
+        "choices": {
+          "A": "A Central American people known for pyramids, astronomy, zero, and an accurate calendar",
+          "B": "A desert people who only herded animals",
+          "C": "A European empire that conquered Rome",
+          "D": "A group that never built cities or writing"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Maya were a Central American people known for pyramids, astronomy, zero, and an accurate calendar.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
       }
     ]
   }
