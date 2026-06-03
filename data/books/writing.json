@@ -1,0 +1,318 @@
+{
+  "title": "Writing Builder — Grade 6 Argumentative Essay (B.E.S.T. Writing)",
+  "overview": {
+    "what": "On the Florida B.E.S.T. Writing test you read two or more short passages about one topic, then write an essay where you pick a side and prove it. You don't make up facts — you use evidence from the passages to back up your opinion. You type the whole essay on a computer and you get 120 minutes to plan, write, and check it.",
+    "facts": [
+      "Argumentative essay (you pick a side)",
+      "You read passages and use them as evidence",
+      "120 minutes, typed on the computer",
+      "Scored 0–12: Purpose/Structure, Development, Language"
+    ]
+  },
+  "rubric": [
+    {
+      "domain": "Purpose, Focus & Structure",
+      "points": "0–4",
+      "kid": "Did you pick ONE clear side and organize your essay so it's easy to follow from start to finish?",
+      "lookFors": [
+        "clear claim/thesis",
+        "stays on topic",
+        "intro–body–conclusion",
+        "transitions",
+        "addresses the other side"
+      ]
+    },
+    {
+      "domain": "Development & Evidence",
+      "points": "0–4",
+      "kid": "Did you back up your side with real evidence from the sources AND explain why that evidence proves your point?",
+      "lookFors": [
+        "uses evidence FROM the sources",
+        "explains/elaborates each piece",
+        "reasons support the claim",
+        "specific not vague"
+      ]
+    },
+    {
+      "domain": "Language & Conventions",
+      "points": "0–4",
+      "kid": "Is your writing clear and correct — good grammar, good spelling, a serious tone, and sentences that don't all sound the same?",
+      "lookFors": [
+        "correct grammar & spelling",
+        "varied sentences",
+        "strong word choice",
+        "formal tone"
+      ]
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "title": "Read the sources & the prompt",
+      "do": "Read every source carefully and then read the prompt twice so you know EXACTLY what question you are arguing. Underline or jot the strongest facts, quotes, and numbers from each source as you read."
+    },
+    {
+      "step": 2,
+      "title": "Pick your side",
+      "do": "Decide which side you can prove best with the evidence in the sources — not just the side you like more. Whichever side has stronger evidence in the passages is usually the smarter side to argue."
+    },
+    {
+      "step": 3,
+      "title": "Write your thesis (claim)",
+      "do": "Write one clear sentence that says exactly what you believe. A good thesis names the topic and your position, like 'Schools should…' or 'The evidence shows that…' Put it at the end of your intro."
+    },
+    {
+      "step": 4,
+      "title": "Plan 2–3 reasons + evidence from the sources",
+      "do": "List 2 or 3 reasons your side is right. Under each reason, write the fact, quote, or number from a source that backs it up. Make sure you use BOTH sources somewhere in your plan."
+    },
+    {
+      "step": 5,
+      "title": "Write the intro (hook + claim)",
+      "do": "Start with a hook — a question, a surprising fact, or a bold statement that grabs the reader. Then introduce the topic in a sentence or two and end the paragraph with your thesis."
+    },
+    {
+      "step": 6,
+      "title": "Write body paragraphs (reason → evidence → explain)",
+      "do": "Give each body paragraph one reason. State the reason, add evidence from a source ('According to Source 1…'), then EXPLAIN in your own words how that evidence proves your point. Explaining is what earns the most points."
+    },
+    {
+      "step": 7,
+      "title": "Address the other side (counterclaim) & answer it",
+      "do": "In one paragraph, fairly state what the other side believes ('Some people argue…'). Then knock it down with a fact or reason that shows why your side is still stronger. This makes your argument look fair and powerful."
+    },
+    {
+      "step": 8,
+      "title": "Write the conclusion",
+      "do": "Restate your claim in fresh words, quickly remind the reader of your best reasons, and end with one strong sentence — a call to action or a final thought that sticks. Never add brand-new evidence here."
+    },
+    {
+      "step": 9,
+      "title": "Check your work (reread for the rubric)",
+      "do": "Reread your essay slowly. Check that your claim is clear, you used BOTH sources, you explained your evidence, you answered the other side, and your spelling, grammar, and tone are clean. Fix anything you can before time runs out."
+    }
+  ],
+  "transitions": {
+    "claim": [
+      "I believe that...",
+      "The evidence shows that...",
+      "Schools should..."
+    ],
+    "addingEvidence": [
+      "According to the first source...",
+      "The author states...",
+      "For example...",
+      "This shows that..."
+    ],
+    "counter": [
+      "Some people think...",
+      "Others may argue...",
+      "While it is true that..., "
+    ],
+    "conclusion": [
+      "In conclusion...",
+      "For these reasons...",
+      "The evidence makes it clear that..."
+    ]
+  },
+  "prompts": [
+    {
+      "id": "w1",
+      "title": "Should Phones Be Allowed in School?",
+      "mode": "argumentative",
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Phones Can Help Students Learn",
+          "text": "Paragraph 1: Many teachers now use cell phones as learning tools instead of banning them. With a phone, a student can look up a word they do not know, scan a code to open a quiz, or use a calculator during math class. Some classrooms even use apps that let students answer questions on their phones so the teacher can see who needs help. Paragraph 2: Phones also keep students safe. If there is an emergency at school, a student can text a parent or call for help right away. Parents often feel calmer knowing they can reach their child during the day. In a 2023 survey, most parents said they wanted their kids to carry a phone for safety reasons. Paragraph 3: Finally, learning to use phones responsibly is a real skill. Students will use phones and computers for the rest of their lives, so practicing self-control with a phone at school can teach them good habits for jobs and college later on."
+        },
+        {
+          "id": "s2",
+          "title": "Phones Are a Big Distraction",
+          "text": "Paragraph 1: Even when phones are meant for learning, they often pull students off task. A buzz from a text message or a notification from a game can break a student's focus in a second. Studies have found that it can take several minutes to fully refocus after looking at a phone, which adds up to a lot of lost learning time in a single day. Paragraph 2: Phones can also hurt friendships and behavior at school. Some students use phones to record classmates without permission or to send mean messages during the school day. This kind of cyberbullying can make school feel unsafe for the kids being targeted. Paragraph 3: Schools that locked phones away during class have reported real results. In several of these schools, test scores went up and students said they paid more attention and talked to each other more at lunch. Teachers reported fewer fights and less stress in the hallways."
+        }
+      ],
+      "prompt": "Write an argumentative essay in which you argue WHETHER students should be allowed to use phones during the school day. Use evidence from BOTH sources to support your argument.",
+      "planner": {
+        "question": "Should students be allowed to use phones during the school day?",
+        "sideA": "Yes — phones help students learn and stay safe.",
+        "sideB": "No — phones distract students and cause problems.",
+        "hint": "Pick the side with stronger evidence for you. Even if you say YES, you can use facts from Source 2 to show the other side and then answer it. If you say NO, use the safety point from Source 1 as the counterclaim."
+      },
+      "model": "Imagine trying to solve a math problem while your pocket keeps buzzing with new game alerts. That is the reality for many students who carry phones in class. While phones can be useful, schools should not allow students to use them during the school day because they distract students, harm focus, and even hurt the way kids treat each other.\n\nThe biggest problem with phones in school is that they steal attention. According to the second source, studies have found that it can take several minutes to fully refocus after looking at a phone. That means a single text message does not cost a few seconds — it can cost several minutes of learning, and those minutes add up across a whole school day. A student who checks their phone even a few times each class could lose a huge amount of class time. Learning is hard enough without a screen pulling your eyes away from the teacher.\n\nPhones also create problems between students, not just inside their own heads. The second source explains that some students use phones to record classmates without permission or to send mean messages, which is a form of cyberbullying that makes school feel unsafe. School should be a place where kids feel comfortable, but a phone in every pocket gives bullies a powerful tool. When phones were locked away, several schools reported fewer fights and less stress in the hallways, which shows that removing phones can make the whole building calmer.\n\nSome people argue that phones keep students safe in an emergency, and the first source points out that parents feel calmer knowing they can reach their child during the day. That worry is fair, and safety matters. However, schools already have phones in every office and teachers who can call for help instantly, so students do not need their own phones to stay safe. The small safety benefit is not worth the daily cost of lost focus and cyberbullying.\n\nIn conclusion, the evidence makes it clear that students should not be allowed to use phones during the school day. Phones break students' focus, take minutes away from learning, and give bullies a new weapon. Schools that put phones away saw better test scores and calmer hallways. If schools want students to learn and feel safe, the smartest move is to keep the phones put away until the final bell rings.",
+      "checklist": [
+        "My essay has a clear claim (which side I'm on)",
+        "I used evidence from BOTH sources",
+        "I explained how each piece of evidence supports my claim",
+        "I included and answered the other side",
+        "I have an intro and a conclusion",
+        "I checked grammar, spelling, and used formal language"
+      ]
+    },
+    {
+      "id": "w2",
+      "title": "Should Students Have Homework?",
+      "mode": "argumentative",
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Homework Helps Students Grow",
+          "text": "Paragraph 1: Homework gives students a chance to practice what they learned in class. When you only see a lesson once, it is easy to forget. Doing problems or reading at home helps the new information stick in your memory. Many teachers say that students who practice at home understand the material more deeply by the time of a test. Paragraph 2: Homework also builds important habits. To finish an assignment, a student has to manage time, stay organized, and work without a teacher standing over them. These are the same skills people need in high school, college, and jobs. Learning them in middle school gives students a head start. Paragraph 3: Finally, homework lets families see what students are learning. A parent who helps with a worksheet learns what their child is studying and can spot when their child is struggling. That early help can stop a small problem from turning into a big one."
+        },
+        {
+          "id": "s2",
+          "title": "Too Much Homework Causes Stress",
+          "text": "Paragraph 1: Many students already spend six or seven hours at school, and hours of homework on top of that can leave them exhausted. Doctors say that middle schoolers need time to relax, play, and sleep in order to stay healthy. When homework eats up the whole evening, students lose that important free time. Paragraph 2: Homework can also be unfair. Some students go home to a quiet room and a parent who can help, while others care for younger siblings, work, or have no quiet place to study. The same assignment is much harder for the second group, so homework can punish kids for things they cannot control. Paragraph 3: Research on homework is mixed. Some studies have found that piles of homework do not actually raise test scores much in middle school. A few schools that cut back on homework found that students were less stressed and still did fine on their exams, suggesting that more homework is not always better."
+        }
+      ],
+      "prompt": "Write an argumentative essay in which you argue WHETHER middle school students should have homework. Use evidence from BOTH sources to support your argument.",
+      "planner": {
+        "question": "Should middle school students have homework?",
+        "sideA": "Yes — homework builds practice and good habits.",
+        "sideB": "No — too much homework causes stress and is unfair.",
+        "hint": "You can argue 'some homework but not too much' if you want a balanced claim, but pick ONE clear side. Use the fairness and stress points from Source 2 and the practice and habit points from Source 1."
+      },
+      "model": "After sitting in class for almost seven hours, the last thing a tired student wants is another two hours of worksheets at home. Yet many adults believe homework is always good for kids. The truth is more complicated. Middle school students should have a small, reasonable amount of homework, but not the heavy piles that cause stress and unfairness.\n\nA little homework does help students learn, and that is worth keeping. The first source explains that doing problems or reading at home helps new information stick in your memory, and that students who practice at home understand the material more deeply by test time. Seeing a lesson only once in class makes it easy to forget, so a short practice assignment can lock the learning in. Homework also builds habits like managing time and staying organized, which the source says are the same skills people need in high school and jobs. These benefits are real, so homework should not disappear completely.\n\nHowever, too much homework does far more harm than good. The second source points out that middle schoolers already spend six or seven hours at school and that doctors say they need time to relax, play, and sleep to stay healthy. When homework eats up the whole evening, students lose that healthy free time and grow exhausted. Worse, homework can be unfair: the source explains that some students go home to a quiet room and a helpful parent, while others care for siblings or have no quiet place to study. The same assignment punishes the second group for things they cannot control.\n\nSome people argue that lots of homework raises test scores, but the evidence does not fully back that up. The second source notes that research is mixed and that piles of homework do not actually raise middle school test scores much. In fact, schools that cut back found students were less stressed and still did fine on exams. That shows more homework is not the same as more learning.\n\nIn conclusion, middle school students should have homework, but only a small and fair amount. Short practice helps memory and builds good habits, while mountains of homework cause stress and hurt kids who do not have quiet homes. The smartest plan keeps homework light, useful, and fair so that students can learn without losing their health or their evenings.",
+      "checklist": [
+        "My essay has a clear claim (which side I'm on)",
+        "I used evidence from BOTH sources",
+        "I explained how each piece of evidence supports my claim",
+        "I included and answered the other side",
+        "I have an intro and a conclusion",
+        "I checked grammar, spelling, and used formal language"
+      ]
+    },
+    {
+      "id": "w3",
+      "title": "Should Schools Require Uniforms?",
+      "mode": "argumentative",
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Uniforms Make Schools Better",
+          "text": "Paragraph 1: School uniforms help students focus on learning instead of fashion. When everyone wears the same outfit, no one is judged for having cheaper clothes or older shoes. Students who used to feel embarrassed about their wardrobe can show up feeling equal to everyone else. Paragraph 2: Uniforms can also save families money and time. Instead of buying many trendy outfits, parents buy a few uniform pieces that last all year. Mornings get easier too, because students do not waste time deciding what to wear and arguing about it. Paragraph 3: Some schools say uniforms improve safety and behavior. When everyone is dressed alike, it is easy to spot a visitor who does not belong on campus. A few schools have also reported fewer fights over clothing and a stronger sense of school pride after switching to uniforms."
+        },
+        {
+          "id": "s2",
+          "title": "Uniforms Take Away Choice",
+          "text": "Paragraph 1: Clothing is one of the main ways young people express who they are. A uniform forces every student to look the same and takes away that form of self-expression. For many students, choosing what to wear is a small but important way to feel like an individual. Paragraph 2: Uniforms are not always cheaper, either. Special uniform pieces from certain stores can cost more than regular clothes, and students still need normal clothes for weekends and after school. Some families end up paying for two wardrobes instead of one. Paragraph 3: Researchers are not sure uniforms even work. Some studies have found little proof that uniforms raise grades or stop bullying, since bullies can pick on students for many reasons besides clothes. A few schools that required uniforms saw no real change in behavior at all."
+        }
+      ],
+      "prompt": "Write an argumentative essay in which you argue WHETHER schools should require students to wear uniforms. Use evidence from BOTH sources to support your argument.",
+      "planner": {
+        "question": "Should schools require students to wear uniforms?",
+        "sideA": "Yes — uniforms reduce judgment, save money, and help safety.",
+        "sideB": "No — uniforms remove self-expression and may not even work.",
+        "hint": "Whatever side you pick, mention the cost question — both sources talk about money but disagree. Use that disagreement to make your argument stronger."
+      },
+      "model": "Every morning, students stand in front of a closet wondering what to wear and whether other kids will judge their outfit. School uniforms offer a simple fix to that daily stress. Schools should require uniforms because they reduce judgment between students, make mornings easier, and can improve safety on campus.\n\nThe strongest reason for uniforms is that they help students feel equal. The first source explains that when everyone wears the same outfit, no one is judged for having cheaper clothes or older shoes. This matters because middle schoolers can be hard on each other about appearance. A student who once felt embarrassed about their wardrobe can walk in feeling just as good as everyone else. When students stop worrying about fashion, they can put more of their energy into learning.\n\nUniforms also make daily life smoother for families. According to the first source, parents buy a few uniform pieces that last all year instead of many trendy outfits, and mornings get easier because students do not waste time deciding what to wear. Less arguing and less rushing means a calmer start to the school day. On top of that, the source notes that uniforms can improve safety, since it is easy to spot a visitor who does not belong when everyone is dressed alike.\n\nSome people argue that uniforms take away a student's self-expression, and the second source makes a fair point that clothing is one of the main ways young people show who they are. That concern is real, but students have many other ways to express themselves, such as art, music, sports, clubs, and how they wear their hair. Losing one outfit choice for seven hours is a small price for a fairer, calmer school. The second source also questions whether uniforms work, but even if uniforms do not fix everything, the equality and safety benefits are still worth it.\n\nIn conclusion, schools should require uniforms. They cut down on judgment, save families time in the morning, and make campuses easier to keep safe. Although uniforms limit one kind of self-expression, the trade is fair when it helps every student feel equal. A school where kids are judged for their effort, not their outfits, is a better place to learn.",
+      "checklist": [
+        "My essay has a clear claim (which side I'm on)",
+        "I used evidence from BOTH sources",
+        "I explained how each piece of evidence supports my claim",
+        "I included and answered the other side",
+        "I have an intro and a conclusion",
+        "I checked grammar, spelling, and used formal language"
+      ]
+    },
+    {
+      "id": "w4",
+      "title": "Should Middle Schools Start Later in the Morning?",
+      "mode": "argumentative",
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Later Start Times Help Teens",
+          "text": "Paragraph 1: Sleep scientists have learned that during the teen years, the body's clock naturally shifts later. This means most middle and high schoolers cannot easily fall asleep early, even when they try. As a result, an early school start forces many teens to wake up before their bodies are ready, leaving them tired all day. Paragraph 2: Doctors recommend that students this age get at least eight to ten hours of sleep each night. When schools start later, students get closer to that amount. Studies have found that well-rested teens have better focus, stronger memory, and better moods than tired ones. Paragraph 3: Some schools that pushed start times later reported real benefits. Students showed up late less often, fewer fell asleep in class, and some districts even saw fewer teen car accidents in the morning because drivers were more alert."
+        },
+        {
+          "id": "s2",
+          "title": "Later Starts Cause New Problems",
+          "text": "Paragraph 1: Changing school start times is not as simple as it sounds. Many families depend on the current schedule. Parents who drop kids off before work would have to find new plans, and younger brothers and sisters on different schedules could be affected too. Paragraph 2: A later start usually means a later end to the day. That can push after-school sports, clubs, and jobs into the evening. Athletes might finish practice after dark, and students with jobs could lose work hours. Some families worry kids would have less time for homework and dinner. Paragraph 3: School buses are another challenge. Many districts use the same buses for elementary, middle, and high schools at different times to save money. Moving one school's hours can throw off the whole bus schedule and cost the district more money it may not have."
+        }
+      ],
+      "prompt": "Write an argumentative essay in which you argue WHETHER middle schools should start later in the morning. Use evidence from BOTH sources to support your argument.",
+      "planner": {
+        "question": "Should middle schools start later in the morning?",
+        "sideA": "Yes — teens need more sleep and learn better when rested.",
+        "sideB": "No — later starts cause schedule, sports, and bus problems.",
+        "hint": "The science in Source 1 is strong, but Source 2 lists real-world problems. If you say YES, answer the bus/schedule worry. If you say NO, you must explain why those problems outweigh the health benefits."
+      },
+      "model": "Most middle schoolers know the feeling of an alarm going off in the dark while their whole body begs for more sleep. Science says that feeling is not laziness — it is biology. Middle schools should start later in the morning because teens are wired to sleep later, more sleep helps them learn, and the schedule problems can be solved.\n\nThe most powerful reason for a later start is how teen bodies actually work. The first source explains that during the teen years, the body's clock naturally shifts later, so most middle schoolers cannot easily fall asleep early even when they try. This means an early start forces students to wake before their bodies are ready, leaving them tired all day. You cannot simply tell a teen to go to bed earlier; their biology fights it. Starting school later matches the school day to the way teens are built.\n\nMore sleep also leads to better learning and safety. According to the first source, doctors recommend eight to ten hours of sleep, and well-rested teens have better focus, stronger memory, and better moods. Schools that moved their start times later saw students arrive late less often and fewer students fall asleep in class. Some districts even saw fewer teen car accidents in the morning. These are real, measurable improvements that help both grades and health.\n\nSome people argue that later starts cause big problems, and the second source raises fair points about buses, sports, and parents' work schedules. It is true that many districts share buses between schools and that a later end could push sports into the evening. However, these are scheduling problems, and schedules can be adjusted. Districts can rearrange bus routes, shift practice times, or stagger schools differently. A bus timetable is far easier to change than a teenager's biological clock. The benefits to health and learning are worth the planning effort.\n\nIn conclusion, middle schools should start later in the morning. Teens are naturally wired to sleep later, and the extra rest improves their focus, memory, mood, and even their safety on the road. The challenges with buses and after-school activities are real but fixable. When schools work with biology instead of against it, students show up ready to learn instead of struggling to stay awake.",
+      "checklist": [
+        "My essay has a clear claim (which side I'm on)",
+        "I used evidence from BOTH sources",
+        "I explained how each piece of evidence supports my claim",
+        "I included and answered the other side",
+        "I have an intro and a conclusion",
+        "I checked grammar, spelling, and used formal language"
+      ]
+    },
+    {
+      "id": "w5",
+      "title": "Are Zoos Good or Bad for Animals?",
+      "mode": "argumentative",
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Zoos Protect and Teach",
+          "text": "Paragraph 1: Modern zoos do more than put animals on display. Many run programs that help save species in danger of disappearing. By breeding rare animals in safe spaces, zoos have helped bring some species, like certain condors and tortoises, back from the edge of extinction and even returned them to the wild. Paragraph 2: Zoos also teach millions of people about wildlife each year. When a child sees a real elephant or tiger, they often start to care about protecting it. Studies have found that people who visit good zoos leave knowing more about animals and wanting to help nature. Paragraph 3: Good zoos give their animals medical care, healthy food, and protection from hunters. Animals in well-run zoos often live longer than they would in the wild, where they face disease, starvation, and predators. Zoo veterinarians can treat injuries that would be deadly in nature."
+        },
+        {
+          "id": "s2",
+          "title": "Zoos Can Harm Animals",
+          "text": "Paragraph 1: Even the best zoo cannot match the wild. A lion that roams many miles a day in nature may have only a small yard at a zoo. Animals built to run, swim, or fly long distances can become bored and unhealthy when their space is too small. Paragraph 2: Some animals show signs of stress in captivity. Keepers have seen animals pace back and forth, rock, or pull out their own fur — behaviors that experts say can come from boredom or unhappiness. These signs are rarely seen in wild animals living freely. Paragraph 3: Not every zoo is a good one. Some roadside zoos keep animals in tiny cages with little care just to make money from ticket sales. Without strong rules, animals in these places can suffer, which makes critics question whether keeping wild animals on display is fair at all."
+        }
+      ],
+      "prompt": "Write an argumentative essay in which you argue WHETHER zoos are good or bad for animals. Use evidence from BOTH sources to support your argument.",
+      "planner": {
+        "question": "Are zoos good or bad for animals?",
+        "sideA": "Good — zoos save species, teach people, and care for animals.",
+        "sideB": "Bad — zoos give animals small spaces and can cause stress.",
+        "hint": "A smart claim might be 'good zoos help but bad zoos hurt.' Pick one clear position. Use the conservation facts in Source 1 and the stress/space facts in Source 2."
+      },
+      "model": "Picture a lion that should roam many miles each day pacing back and forth in a small yard. Scenes like that make some people believe all zoos are cruel. Yet zoos also rescue species from extinction. When run well, zoos are good for animals because they protect endangered species, teach people to care about wildlife, and provide medical care that nature cannot.\n\nThe strongest reason zoos are valuable is their work saving species. The first source explains that zoos breed rare animals in safe spaces and have helped bring species like certain condors and tortoises back from the edge of extinction, even returning them to the wild. Without these programs, some animals might be gone forever. A zoo that rebuilds a dying species is doing something the wild alone cannot, and that work helps animals far beyond the zoo walls.\n\nZoos also help animals by changing how people think. According to the first source, when a child sees a real elephant or tiger, they often start to care about protecting it, and visitors leave knowing more and wanting to help nature. People protect what they love, and seeing a living animal up close builds that love in a way a book or video cannot. The medical care matters too: the source notes that zoo animals get healthy food, protection from hunters, and veterinarians who can treat injuries that would be deadly in the wild.\n\nSome people argue that zoos harm animals, and the second source makes real points: animals built to run or swim long distances can become bored in small spaces, and some show stress by pacing or pulling out their fur. These concerns are serious. However, they describe what happens in bad or roadside zoos with little care, which the source admits are the worst examples. Good, well-run zoos give animals larger, enriched spaces and expert care. The answer is to demand better zoos, not to close the ones that save species.\n\nIn conclusion, well-run zoos are good for animals. They pull species back from extinction, inspire people to protect wildlife, and provide care that helps animals live longer than they might in the wild. The cruelty seen in roadside zoos is a reason to enforce strong rules, not a reason to give up on zoos. With proper care, zoos can be a lifeline for the animals that need one most.",
+      "checklist": [
+        "My essay has a clear claim (which side I'm on)",
+        "I used evidence from BOTH sources",
+        "I explained how each piece of evidence supports my claim",
+        "I included and answered the other side",
+        "I have an intro and a conclusion",
+        "I checked grammar, spelling, and used formal language"
+      ]
+    },
+    {
+      "id": "w6",
+      "title": "Should Stores Ban Single-Use Plastic Bags?",
+      "mode": "argumentative",
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Banning Plastic Bags Helps the Planet",
+          "text": "Paragraph 1: Single-use plastic bags are used for only a few minutes but can last hundreds of years in the environment. When they are thrown away, many end up in rivers, oceans, and parks instead of being recycled. There they break into tiny pieces that pollute water and harm wildlife. Paragraph 2: Animals are some of the biggest victims. Sea turtles can mistake floating plastic bags for jellyfish and eat them, which can make them sick or kill them. Scientists have found plastic in the stomachs of fish, birds, and whales around the world. Paragraph 3: Bans can really cut down on this waste. Some cities and countries that banned single-use bags saw a sharp drop in plastic litter on streets and beaches. Shoppers in those places quickly got used to bringing reusable bags from home, showing that change is possible."
+        },
+        {
+          "id": "s2",
+          "title": "Bag Bans Have Downsides",
+          "text": "Paragraph 1: Plastic bags are cheap, light, and useful. People reuse them at home as trash can liners, lunch bags, and pet waste bags. When stores ban them, families sometimes just buy other plastic bags for those jobs, which can cancel out part of the benefit. Paragraph 2: The bags that replace them are not perfect either. Making a cotton reusable bag uses a lot of water and energy, so a person must reuse it many times before it is truly better for the planet than a plastic bag. Paper bags also take more energy to produce and tear easily in the rain. Paragraph 3: Bans can be hard on some shoppers. People who forget their reusable bags may have to pay extra for replacements at checkout. For families on a tight budget, even small fees add up, and some shoppers find the rules confusing or annoying when they are in a hurry."
+        }
+      ],
+      "prompt": "Write an argumentative essay in which you argue WHETHER stores should ban single-use plastic bags. Use evidence from BOTH sources to support your argument.",
+      "planner": {
+        "question": "Should stores ban single-use plastic bags?",
+        "sideA": "Yes — bans cut pollution and protect wildlife.",
+        "sideB": "No — bags are useful and replacements have problems too.",
+        "hint": "Source 2 is tricky — it admits reusable bags must be reused many times. Use that honestly. If you say YES, explain why long-term reuse still wins. If you say NO, lean on the reuse and cost points."
+      },
+      "model": "A shopper uses a plastic bag for about ten minutes on the walk from the store to the car. That same bag can then pollute the earth for hundreds of years. Because of this huge mismatch, stores should ban single-use plastic bags. Bans cut down pollution, protect wildlife, and push people toward better habits.\n\nThe clearest reason to ban these bags is the pollution they cause. The first source explains that single-use plastic bags are used for only a few minutes but can last hundreds of years, and many end up in rivers, oceans, and parks where they break into tiny pieces that pollute water. A product that is useful for minutes but harmful for centuries is a bad trade for the planet. Removing these bags from stores stops the problem before it starts.\n\nBanning bags also protects animals. According to the first source, sea turtles can mistake floating plastic bags for jellyfish and eat them, which can make them sick or kill them, and scientists have found plastic inside fish, birds, and whales around the world. These animals did nothing to cause the problem, yet they pay the price. The same source shows that bans work: cities and countries that banned single-use bags saw a sharp drop in plastic litter, and shoppers quickly got used to bringing reusable bags. That proves people can change.\n\nSome people argue that bans have downsides, and the second source raises honest points. It notes that reusable cotton bags use a lot of water and energy to make, so they must be reused many times before they beat plastic. That is true, but it actually supports banning single-use bags: the answer is to reuse the same bag again and again for years, which the source says is exactly when reusable bags become better for the planet. A bag you keep for years easily makes up for the energy used to create it, while a plastic bag tossed after one trip never does.\n\nIn conclusion, stores should ban single-use plastic bags. These bags pollute water and land for centuries, poison wildlife, and pile up as litter, while bans have been proven to cut that waste sharply. The downsides of reusable bags fade away when people simply keep and reuse them, which is the whole point. A short walk to the car is not worth hundreds of years of harm to the earth.",
+      "checklist": [
+        "My essay has a clear claim (which side I'm on)",
+        "I used evidence from BOTH sources",
+        "I explained how each piece of evidence supports my claim",
+        "I included and answered the other side",
+        "I have an intro and a conclusion",
+        "I checked grammar, spelling, and used formal language"
+      ]
+    }
+  ]
+}
