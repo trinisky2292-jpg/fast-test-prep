@@ -230,6 +230,7 @@
         let currentQuestionIndex = 0;
         let answers = []; // stores the selected answer for each question index
         let feedbackShown = false;
+        let readingLayout = (section === 'reading'); // passage+question layout (reading section or ELA reading sets)
 
         // ---- Timer ----
         const timerSeconds = (() => {
@@ -285,13 +286,15 @@
             timerInterval = setInterval(tick, 1000);
         }
 
-        // Lesson-practice mode loads a per-lesson DB question set; otherwise load the section.
+        // Modes: lesson-practice (per-lesson DB set), ELA reading set (passage+questions), or a section.
         const lessonCode = getQueryParam('lesson');
         const lessonSubject = (getQueryParam('subject') || 'math').replace(/[^a-z]/g, '');
+        const elaSet = getQueryParam('elaset');
         let lessonTitle = '';
-        const loadUrl = lessonCode
-            ? `data/books/${lessonSubject}-practice/t${lessonCode.split('-')[0]}.json`
-            : FastGrade.dataPath(section);
+        let loadUrl;
+        if (lessonCode) loadUrl = `data/books/${lessonSubject}-practice/t${lessonCode.split('-')[0]}.json`;
+        else if (elaSet) loadUrl = `data/books/ela-reading/${elaSet.split('-')[0]}.json`;
+        else loadUrl = FastGrade.dataPath(section);
         fetch(loadUrl)
             .then(response => response.json())
             .then(data => {
@@ -299,6 +302,12 @@
                     const entry = data[lessonCode] || {};
                     questions = entry.questions || [];
                     lessonTitle = entry.title ? (lessonCode + ' ' + entry.title) : ('Lesson ' + lessonCode);
+                } else if (elaSet) {
+                    const set = (data.sets || []).find(s => s.id === elaSet) || {};
+                    passages = set.passages || [];
+                    questions = set.questions || [];
+                    lessonTitle = set.title || 'Reading';
+                    readingLayout = true;
                 } else if (section === 'reading') {
                     passages = data.passages || [];
                     questions = data.questions || [];
@@ -309,7 +318,7 @@
             })
             .catch(err => {
                 console.error('Failed to load questions:', err);
-                document.getElementById('main-content').innerHTML = '<p>Practice questions for this lesson are being prepared. Try the Worksheet or Watch the video for now!</p>';
+                document.getElementById('main-content').innerHTML = '<p>This set is being prepared. Please try another one, or check back in a minute!</p>';
             });
 
         function initQuiz() {
@@ -332,7 +341,7 @@
         };
 
         function renderHeader() {
-            const label = (lessonCode && lessonTitle) ? lessonTitle : (sectionLabels[section] || section.charAt(0).toUpperCase() + section.slice(1));
+            const label = lessonTitle ? lessonTitle : (sectionLabels[section] || section.charAt(0).toUpperCase() + section.slice(1));
             document.getElementById('header-center').textContent =
                 `${label}: Question ${currentQuestionIndex + 1} of ${questions.length}`;
         }
@@ -349,7 +358,7 @@
             // Start fresh timer for this question
             startTimer();
 
-            if (section === 'reading') {
+            if (readingLayout) {
                 // Find the passage for this question
                 const passageId = questionObj.passageId;
                 const passage = passages.find(p => p.id === passageId) || {title: 'Unknown Passage', text: 'Passage not found.'};

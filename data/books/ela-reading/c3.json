@@ -1,0 +1,385 @@
+{
+  "category": "informational",
+  "name": "Reading Informational Text",
+  "weight": "25-35%",
+  "sets": [
+    {
+      "id": "c3-s1",
+      "title": "How the Sun Powers a Tiny Battery",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Catching Sunlight: How a Solar Panel Works",
+          "author": null,
+          "text": "Paragraph 1: Every second, the Sun pours an enormous amount of energy onto Earth. In just one hour, our planet receives more solar energy than all the people on Earth use in an entire year. For a long time, that energy mostly went to waste. Then engineers found a way to capture it and turn it into electricity using a device called a solar panel.\n\nParagraph 2: A solar panel is made of many smaller pieces called solar cells. Most cells are built from silicon, the same material found in beach sand. Silicon is special because it is a semiconductor, which means it can conduct electricity under the right conditions but not all the time. This in-between quality is exactly what makes the whole process possible.\n\nParagraph 3: Here is how the steps unfold. First, sunlight strikes the surface of a cell. The light carries tiny packets of energy. When those packets hit the silicon, they knock electrons loose from their atoms. Because of the way the cell is built, the freed electrons cannot drift in random directions. Instead, they are pushed to flow in one direction, and a steady stream of moving electrons is exactly what we call an electric current.\n\nParagraph 4: That current does not stay trapped inside the panel. Thin metal lines printed across each cell collect the electrons and carry them out through wires. The electricity can then power a calculator, charge a phone, or even light up an entire house. When many panels are linked together on a rooftop, they can produce far more power than a single small device needs.\n\nParagraph 5: Solar panels have a clear advantage over fuels like coal and oil. Once a panel is built and installed, it makes electricity without burning anything and without releasing smoke into the air. The Sun provides the fuel for free, and it will keep shining for billions of years. For these reasons, scientists believe solar power will play a growing role in how the world meets its energy needs.\n\nParagraph 6: Solar panels are not perfect, however. They produce little electricity on cloudy days and none at night, so people must store extra power in batteries for later use. Even so, the technology keeps improving. Each new generation of cells captures more sunlight than the last, turning a once-wasted resource into a practical and dependable source of power."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s1-q1",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses the central idea of the passage?",
+          "choices": {
+            "A": "Silicon is the most common material found in ordinary beach sand.",
+            "B": "Solar panels capture energy from the Sun and turn it into usable electricity.",
+            "C": "Burning coal and oil releases smoke that pollutes the air people breathe.",
+            "D": "Electrons are tiny particles that are normally attached to their atoms."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The entire passage explains how a solar panel takes sunlight and converts it into electricity, which is the main point that all the paragraphs support. The other options are supporting details, not the central idea.",
+          "standard": "ELA.6.R.2.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s1-q2",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"Then engineers found a way to capture it and turn it into electricity using a device called a solar panel.\" (paragraph 1)",
+            "B": "\"Silicon is special because it is a semiconductor . . .\" (paragraph 2)",
+            "C": "\"They produce little electricity on cloudy days and none at night . . .\" (paragraph 6)",
+            "D": "\"Thin metal lines printed across each cell collect the electrons . . .\" (paragraph 4)"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. This sentence directly states that engineers capture solar energy and turn it into electricity with a solar panel, which matches the central idea. The other sentences support smaller details about the process.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s1-q3",
+          "passageId": "p1",
+          "question": "Which text structure does the author use MAINLY in paragraph 3 to explain how a solar cell works?",
+          "choices": {
+            "A": "compare and contrast",
+            "B": "problem and solution",
+            "C": "sequence of steps in a process",
+            "D": "description of a single object"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Paragraph 3 walks through the process in order, using signal words such as \"First,\" \"When,\" and \"Instead\" to show the steps by which sunlight becomes an electric current.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s1-q4",
+          "passageId": "p1",
+          "question": "Read this sentence from the passage: \"Silicon is special because it is a semiconductor, which means it can conduct electricity under the right conditions but not all the time.\" (paragraph 2) What does the word conduct mean as it is used in this sentence?",
+          "choices": {
+            "A": "to lead a group of musicians",
+            "B": "to allow electricity to pass through",
+            "C": "to behave in a polite manner",
+            "D": "to store energy for later use"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The sentence explains that a semiconductor \"can conduct electricity under the right conditions,\" so in this context conduct means to let electricity pass through. The other meanings of conduct do not fit this scientific context.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s1-q5",
+          "passageId": "p1",
+          "question": "What is the author's MAIN purpose in writing this passage?",
+          "choices": {
+            "A": "to persuade readers to install solar panels on their own homes",
+            "B": "to entertain readers with a story about a sunny day at the beach",
+            "C": "to explain how a solar panel turns sunlight into electricity",
+            "D": "to compare the cost of solar power with the cost of coal"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The passage is written to inform and explain, walking the reader through what a solar panel is made of and how it converts sunlight into electricity. It does not tell a story or argue that the reader should buy panels.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s1-q6",
+          "passageId": "p1",
+          "question": "Based on paragraph 6, why must people connect solar panels to batteries?",
+          "choices": {
+            "A": "Batteries make the silicon cells last for billions of years.",
+            "B": "Panels make little or no electricity at night and on cloudy days.",
+            "C": "Batteries are needed to knock electrons loose from their atoms.",
+            "D": "Panels would release smoke into the air without a battery."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 6 states that panels \"produce little electricity on cloudy days and none at night, so people must store extra power in batteries for later use.\" The other options are not supported by the text.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s1-q7",
+          "passageId": "p1",
+          "question": "Select TWO advantages of solar power that the author identifies in the passage.",
+          "choices": {
+            "A": "It makes electricity without burning anything.",
+            "B": "It works just as well at night as during the day.",
+            "C": "The Sun provides the fuel for free.",
+            "D": "It requires no panels or wires to operate.",
+            "E": "It stores its own power without using batteries."
+          },
+          "correctAnswer": ["A", "C"],
+          "explanation": "Options A and C are correct. Paragraph 5 states that a panel \"makes electricity without burning anything\" and that \"The Sun provides the fuel for free.\" The other choices contradict the passage, which says panels make no power at night and rely on batteries for storage.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "c3-s2",
+      "title": "The Pony Express Rides Into History",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Riding for the Mail: The Short Life of the Pony Express",
+          "author": null,
+          "text": "Paragraph 1: In 1860, sending a letter from the eastern United States to California could take weeks. Mail traveled by ship around the tip of South America or bounced across rough land in slow stagecoaches. As more people moved west, they wanted faster news from home. Three businessmen believed they had the answer: a relay of fast horses and brave riders that became known as the Pony Express.\n\nParagraph 2: The idea was simple but daring. Riders would carry mail nearly two thousand miles between Missouri and California. To keep the horses fresh, the company built more than one hundred stations spaced about ten to fifteen miles apart. A rider would gallop to a station, leap onto a waiting horse, and race off again within two minutes. After riding seventy-five miles or more, he would hand the mail to the next rider, who continued the journey.\n\nParagraph 3: The riders themselves were mostly young men, some as young as fourteen. The company looked for riders who were small and light so the horses could run faster. These young men faced harsh weather, steep mountains, and the constant risk of danger along lonely trails. In return, they earned good pay for the time, and they earned something harder to measure: a lasting place in American legend.\n\nParagraph 4: The results were remarkable. Before the Pony Express, mail crawled across the country in about three to four weeks. With the relay system, the same letters arrived in about ten days. When Abraham Lincoln gave an important speech, copies reached California in record time, helping westerners feel connected to the rest of the nation.\n\nParagraph 5: Yet the Pony Express lasted only about eighteen months. In October 1861, workers finished stringing telegraph wires all the way to California. Suddenly a message could travel across the country in mere minutes instead of days. The fast horses could not compete with the speed of electricity, and the company shut down two days after the telegraph line was completed.\n\nParagraph 6: Although it ran for such a short time, the Pony Express left a deep mark on history. It proved that people and animals working together could conquer enormous distances. More than a century later, the daring rides of those young messengers are still remembered as a symbol of courage and determination on the American frontier."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s2-q1",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses the central idea of the passage?",
+          "choices": {
+            "A": "The Pony Express was a brief but daring mail system that was soon replaced by faster technology.",
+            "B": "Stagecoaches and ships were the only ways to send mail before 1860.",
+            "C": "Most Pony Express riders were small, light young men under the age of fifteen.",
+            "D": "Abraham Lincoln gave an important speech that was carried to California."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The passage explains how the Pony Express delivered mail quickly, lasted only a short time, and was replaced by the telegraph. The other choices are supporting details rather than the overall central idea.",
+          "standard": "ELA.6.R.2.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s2-q2",
+          "passageId": "p1",
+          "question": "Which text structure does the author use to organize the passage as a whole?",
+          "choices": {
+            "A": "compare and contrast between two different countries",
+            "B": "chronological order, telling events in the order they happened",
+            "C": "spatial order, describing places from one side to the other",
+            "D": "a list of reasons supporting a single opinion"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage moves in time order, beginning in 1860, describing how the system worked, and ending when the telegraph replaced it in October 1861. This is chronological structure.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s2-q3",
+          "passageId": "p1",
+          "question": "According to the passage, what caused the Pony Express to shut down?",
+          "choices": {
+            "A": "The riders were too young to continue the dangerous work.",
+            "B": "The horses became too tired to run between the stations.",
+            "C": "The completion of the telegraph line made the mail service unnecessary.",
+            "D": "People in California stopped wanting news from the eastern states."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Paragraph 5 explains that once the telegraph wires reached California, messages could travel in minutes, so the company shut down two days after the line was completed.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s2-q4",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"The riders themselves were mostly young men, some as young as fourteen.\" (paragraph 3)",
+            "B": "\"The fast horses could not compete with the speed of electricity . . .\" (paragraph 5)",
+            "C": "\"The idea was simple but daring.\" (paragraph 2)",
+            "D": "\"As more people moved west, they wanted faster news from home.\" (paragraph 1)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence directly shows why the service ended: the telegraph's electric speed beat the horses, so the company closed. The other sentences describe the riders or the system, not the cause of the shutdown.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s2-q5",
+          "passageId": "p1",
+          "question": "Read this sentence from the passage: \"With the relay system, the same letters arrived in about ten days.\" (paragraph 4) What does the word relay mean as it is used in this sentence?",
+          "choices": {
+            "A": "a single rider who completes the whole trip alone",
+            "B": "a system in which one rider passes the work to the next",
+            "C": "a kind of horse bred for very long journeys",
+            "D": "a written message sent across a long distance"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 2 explains that a rider would \"hand the mail to the next rider, who continued the journey,\" showing that a relay means passing the task from one rider to the next.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s2-q6",
+          "passageId": "p1",
+          "question": "What is the author's MOST LIKELY purpose for including paragraph 6?",
+          "choices": {
+            "A": "to argue that the telegraph was a mistake for the country",
+            "B": "to explain how riders leaped onto fresh horses at each station",
+            "C": "to show why the Pony Express is still remembered even though it was brief",
+            "D": "to list the exact wages each young rider was paid"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Paragraph 6 states that the Pony Express \"left a deep mark on history\" and is still remembered \"as a symbol of courage and determination,\" explaining its lasting importance despite its short life.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s2-q7",
+          "passageId": "p1",
+          "question": "Select TWO details from the passage that help explain why the Pony Express was able to deliver mail quickly.",
+          "choices": {
+            "A": "Stations were spaced about ten to fifteen miles apart so horses could stay fresh.",
+            "B": "Riders changed horses within about two minutes at each station.",
+            "C": "The riders were mostly young men, some as young as fourteen.",
+            "D": "Mail had once traveled by ship around the tip of South America.",
+            "E": "The telegraph line was finished in October 1861."
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. Paragraph 2 explains that closely spaced stations kept horses fresh and that riders switched horses in about two minutes, both of which kept the mail moving fast. The other choices do not explain the speed of delivery.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "c3-s3",
+      "title": "Should Schools Start Later? (Argument)",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Let Students Sleep: Why School Should Start Later",
+          "author": null,
+          "text": "Paragraph 1: Each morning, millions of middle school students drag themselves out of bed long before the sun is fully up. Many sit through their first class barely awake, fighting to keep their eyes open. The problem is not that these students are lazy. The problem is that school starts too early. Schools should push their start times to at least 8:30 in the morning so that students can get the sleep their growing bodies truly need.\n\nParagraph 2: Scientists who study sleep have discovered something important about young people. During the teenage years, the body's internal clock shifts. Most teenagers cannot easily fall asleep before about eleven at night, no matter how early they climb into bed. Doctors recommend that students this age get between eight and ten hours of sleep. A student who falls asleep at eleven and must wake at six gets only seven hours, which is simply not enough.\n\nParagraph 3: The effects of this lost sleep are serious. Tired students have trouble paying attention, remembering lessons, and finishing their work. One large study found that schools which moved to later start times saw students earn better grades and miss fewer days of class. When the same students were allowed to sleep longer, their performance improved. The evidence shows a clear link between more rest and stronger schoolwork.\n\nParagraph 4: Better grades are not the only benefit. Sleep also protects students' health and safety. Teenagers who do not sleep enough are more likely to feel sad, anxious, or stressed. Among older students who drive, drowsy driving causes thousands of crashes every year. Researchers have found that towns which delayed their school start times saw fewer teen car accidents in the morning. A later bell could literally save lives.\n\nParagraph 5: Some people argue that later start times would cause problems for families and sports teams. They worry that buses, jobs, and after-school games would all have to change. These concerns are real, but they are not impossible to solve. Many districts that switched to later schedules simply adjusted their bus routes and game times, and families adapted within a few weeks. A short period of inconvenience is a small price to pay for healthier, more successful students.\n\nParagraph 6: The science is clear, and so is the choice. Students learn better, feel better, and stay safer when they are well rested. Schools exist to help young people succeed, and a later start time is a simple change that supports that goal. It is time for schools to listen to the research and let students get the sleep they need."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s3-q1",
+          "passageId": "p1",
+          "question": "What is the author's central CLAIM in this passage?",
+          "choices": {
+            "A": "Teenagers are lazy and need to try harder to wake up on time.",
+            "B": "Schools should start later so students can get the sleep they need.",
+            "C": "Sports teams and bus routes should never be changed.",
+            "D": "Doctors disagree about how much sleep teenagers require."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. In paragraph 1 the author states that \"Schools should push their start times to at least 8:30 in the morning,\" and the whole passage argues for this claim. The other options either contradict the author or are not the main claim.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s3-q2",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST states the author's claim?",
+          "choices": {
+            "A": "\"Each morning, millions of middle school students drag themselves out of bed . . .\" (paragraph 1)",
+            "B": "\"Schools should push their start times to at least 8:30 in the morning so that students can get the sleep their growing bodies truly need.\" (paragraph 1)",
+            "C": "\"During the teenage years, the body's internal clock shifts.\" (paragraph 2)",
+            "D": "\"Some people argue that later start times would cause problems for families and sports teams.\" (paragraph 5)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence directly states the position the author wants readers to accept. The other choices provide background, evidence, or an opposing view rather than the claim itself.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s3-q3",
+          "passageId": "p1",
+          "question": "Which piece of EVIDENCE does the author use to support the idea that later start times improve schoolwork?",
+          "choices": {
+            "A": "Teenagers cannot easily fall asleep before about eleven at night.",
+            "B": "A study found that schools with later start times saw better grades and fewer absences.",
+            "C": "Buses, jobs, and games would all have to change their schedules.",
+            "D": "Schools exist to help young people succeed in life."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. In paragraph 3 the author cites a study showing that later start times led to better grades and fewer absences, which is evidence that more sleep improves schoolwork. The other options are background facts, counterargument, or general statements.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s3-q4",
+          "passageId": "p1",
+          "question": "How does the author respond to people who argue that later start times would cause problems for families and sports?",
+          "choices": {
+            "A": "The author ignores the concern and changes the subject entirely.",
+            "B": "The author agrees that the problems make later start times impossible.",
+            "C": "The author admits the concerns are real but says districts have solved them.",
+            "D": "The author claims that families never have any after-school activities."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. In paragraph 5 the author writes that these concerns \"are real, but they are not impossible to solve\" and explains that many districts adjusted bus routes and game times. This is how the author answers the counterargument.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c3-s3-q5",
+          "passageId": "p1",
+          "question": "Read this sentence from the passage: \"Among older students who drive, drowsy driving causes thousands of crashes every year.\" (paragraph 4) What does the word drowsy mean as it is used in this sentence?",
+          "choices": {
+            "A": "sleepy and tired",
+            "B": "angry and upset",
+            "C": "careful and alert",
+            "D": "cheerful and excited"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The paragraph connects the crashes to students who \"do not sleep enough,\" so drowsy means sleepy and tired. The other choices do not fit the context of lost sleep causing crashes.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s3-q6",
+          "passageId": "p1",
+          "question": "What is the author's MAIN purpose in writing this passage?",
+          "choices": {
+            "A": "to entertain readers with a funny story about oversleeping",
+            "B": "to persuade readers that schools should start later in the morning",
+            "C": "to describe the exact schedule of a typical middle school day",
+            "D": "to compare the sleep habits of teenagers in different countries"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage is an argument that uses evidence and reasoning to convince readers that schools should begin later. It is meant to persuade, not to entertain, describe a schedule, or compare countries.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s3-q7",
+          "passageId": "p1",
+          "question": "Select TWO reasons the author gives to support the claim that schools should start later.",
+          "choices": {
+            "A": "Later start times can lead to better grades and fewer absences.",
+            "B": "Later start times can reduce drowsy-driving crashes and protect health.",
+            "C": "Teenagers are naturally lazier than younger children.",
+            "D": "Sports teams should be removed from schools entirely.",
+            "E": "Buses are too expensive for most school districts to operate."
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. Paragraph 3 argues that later start times improve grades and reduce absences, and paragraph 4 argues that more sleep protects health and reduces drowsy-driving crashes. The other choices are not reasons the author gives.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s3-q8",
+          "passageId": "p1",
+          "question": "Based on paragraph 2, why is waking at six in the morning a problem for many teenagers?",
+          "choices": {
+            "A": "Their internal clock makes it hard to fall asleep before about eleven, so they lose sleep.",
+            "B": "They prefer to stay up late watching television instead of resting.",
+            "C": "They need only four hours of sleep to feel fully rested.",
+            "D": "They cannot wake up at six without help from their parents."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Paragraph 2 explains that a teenager's internal clock shifts so they cannot easily sleep before eleven, meaning a six o'clock wake-up gives only about seven hours, less than the recommended eight to ten.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

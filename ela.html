@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — ELA Reading</title>
+    <style>
+        :root { --primary:#4CAF50; --secondary:#2196F3; --accent:#FFC107; --background:#F5F5F5; --text:#212121; --light:#757575; --white:#fff; }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:var(--background); color:var(--text); line-height:1.6; padding:1rem; }
+        .container { max-width:900px; margin:0 auto; }
+        header { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; padding:1rem; background:var(--white); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,.1); }
+        header h1 { font-size:1.4rem; color:var(--primary); }
+        header a.home { color:var(--secondary); text-decoration:none; font-weight:500; }
+        .intro { background:var(--white); border-radius:12px; padding:1rem 1.25rem; box-shadow:0 2px 8px rgba(0,0,0,.08); margin-bottom:1.25rem; color:var(--light); }
+        .cat { margin-bottom:1.5rem; }
+        .cat-head { display:flex; align-items:baseline; gap:.6rem; flex-wrap:wrap; margin:0 0 .7rem .2rem; }
+        .cat-head h2 { font-size:1.18rem; }
+        .cat-head .wt { font-size:.8rem; font-weight:700; color:#fff; background:var(--secondary); padding:.15rem .6rem; border-radius:50px; }
+        .sets { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:1rem; }
+        .set-card { background:var(--white); border-radius:16px; padding:1.2rem; box-shadow:0 4px 12px rgba(0,0,0,.07); border-left:6px solid var(--secondary); display:flex; flex-direction:column; }
+        .set-card .genre { display:inline-block; align-self:flex-start; font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.03em; color:#fff; padding:.15rem .55rem; border-radius:50px; margin-bottom:.5rem; }
+        .genre.literary { background:#7E57C2; } .genre.poetry { background:#EC407A; } .genre.informational { background:#26A69A; } .genre.paired { background:#FF9800; }
+        .set-card h3 { font-size:1.05rem; margin-bottom:.3rem; }
+        .set-card .meta { font-size:.85rem; color:var(--light); margin-bottom:1rem; flex:1; }
+        .set-card a.start { background:var(--primary); color:#fff; text-align:center; padding:.65rem 1rem; border-radius:50px; text-decoration:none; font-weight:700; }
+        .empty { background:var(--white); border-radius:12px; padding:2rem; text-align:center; color:var(--light); }
+        @media (max-width:480px){ header{flex-direction:column;align-items:stretch;} }
+    </style>
+    <script src="js/grade.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📖 ELA Reading</h1>
+            <a class="home" href="index.html">&larr; Home</a>
+        </header>
+        <div class="intro">Read a story or article, then answer questions — just like the FAST test. Organized by the 3 reading skills the state tests (most important first). 📚</div>
+        <div id="cats"><div class="empty">Loading…</div></div>
+    </div>
+
+    <script>
+    (function () {
+        if (window.FastGrade && FastGrade.get() !== '6') FastGrade.set('6');
+        const CATS = ['c1', 'c2', 'c3'];
+        function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+        Promise.all(CATS.map(function (c) {
+            return fetch('data/books/ela-reading/' + c + '.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+        })).then(function (cats) {
+            const have = cats.filter(Boolean);
+            if (!have.length) { document.getElementById('cats').innerHTML = '<div class="empty">📖 Reading sets are being prepared — check back in a minute!</div>'; return; }
+            document.getElementById('cats').innerHTML = have.map(function (cat) {
+                const sets = (cat.sets || []).map(function (s) {
+                    const g = (s.genre || 'literary');
+                    const qn = (s.questions || []).length;
+                    const pn = (s.passages || []).length;
+                    return '<div class="set-card"><span class="genre ' + g + '">' + g + '</span>' +
+                        '<h3>' + esc(s.title) + '</h3>' +
+                        '<div class="meta">' + (pn > 1 ? pn + ' passages · ' : '') + qn + ' questions</div>' +
+                        '<a class="start" href="quiz.html?elaset=' + encodeURIComponent(s.id) + '">Start Reading →</a></div>';
+                }).join('');
+                return '<div class="cat"><div class="cat-head"><h2>' + esc(cat.name) + '</h2>' +
+                    (cat.weight ? '<span class="wt">' + esc(cat.weight) + ' of the test</span>' : '') + '</div>' +
+                    '<div class="sets">' + sets + '</div></div>';
+            }).join('');
+        });
+    })();
+    </script>
+</body>
+</html>

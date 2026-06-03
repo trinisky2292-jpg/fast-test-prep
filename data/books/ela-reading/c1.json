@@ -1,0 +1,555 @@
+{
+  "category": "across-genres-vocab",
+  "name": "Reading Across Genres & Vocabulary",
+  "weight": "35-50%",
+  "sets": [
+    {
+      "id": "c1-s1",
+      "title": "The Lighthouse Keeper's Daughter",
+      "genre": "literary",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Lighthouse Keeper's Daughter",
+          "author": "Marisol Vega",
+          "text": "Paragraph 1: Nora had lived on Sparrow Island her whole life, and she knew its single road, its three families, and its one stubborn lighthouse the way other children knew the streets of a city. Her father kept the light, and so the light, in a way, kept her. Every evening she climbed the spiraling stairs beside him, counting the iron steps until her legs burned, to watch him coax the great lamp awake.\n\nParagraph 2: The storm arrived without an invitation. By late afternoon the sky had turned the color of a bruise, and the wind shouldered against the windows as if it meant to come inside. Her father had rowed to the mainland that morning for supplies and had not returned. Nora told herself he was simply waiting out the weather in some snug harbor. She told herself this many times, the way you press on a sore tooth to see if it still hurts.\n\nParagraph 3: When darkness fell, the lighthouse stayed dark too. Nora stood at the bottom of the stairs and understood, with a cold clarity, that no one was coming to light the lamp. Ships would be out there in the black water, blind and trusting, expecting Sparrow Island to keep its promise. The thought of them was a hand at her back, pushing.\n\nParagraph 4: She climbed. The stairs that had been a game beside her father were now a mountain alone. At the top, her fingers fumbled the matches; the first three sputtered and died. But the fourth caught, and she touched it to the wick the way she had watched a hundred times. The lamp bloomed. Light spilled out across the waves in a steady golden road, and somewhere beyond the rain, Nora hoped, a captain saw it and breathed again.\n\nParagraph 5: She kept the watch all night, feeding the lamp, her eyes raw with smoke and salt. When the gray morning finally came, she saw a small boat fighting toward the dock—her father, soaked and frantic, and then, seeing the lit tower, suddenly still with wonder. He did not say she had been brave. He only looked up at the burning lamp, then at her, and Nora understood that some things are too large for words to carry."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s1-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 2, the word \"shouldered\" most nearly means",
+          "choices": {
+            "A": "rested quietly",
+            "B": "pushed forcefully",
+            "C": "whispered softly",
+            "D": "drifted slowly"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The sentence says the wind \"shouldered against the windows as if it meant to come inside,\" describing a forceful pushing motion, like a person ramming a shoulder against a door.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s1-q2",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 2: \"She told herself this many times, the way you press on a sore tooth to see if it still hurts.\" What does this comparison reveal about Nora?",
+          "choices": {
+            "A": "She is bored and looking for something to do.",
+            "B": "She keeps returning to a worry she cannot soothe.",
+            "C": "She is certain her father is safe on the mainland.",
+            "D": "She is angry that her father left her alone."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Pressing on a sore tooth is something a person does repeatedly even though it hurts, showing that Nora keeps returning to her fear about her father rather than being reassured by it.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s1-q3",
+          "passageId": "p1",
+          "question": "In paragraph 3, the narrator writes, \"The thought of them was a hand at her back, pushing.\" What does this figurative language suggest?",
+          "choices": {
+            "A": "Someone is physically forcing Nora up the stairs.",
+            "B": "Nora feels driven to act by her concern for the ships.",
+            "C": "Nora is afraid to be touched during the storm.",
+            "D": "Nora wishes her father would push her to be braver."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. There is no real hand; the metaphor shows that worrying about the blind, trusting ships motivates and pushes Nora to climb the stairs and light the lamp.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s1-q4",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"Ships would be out there in the black water, blind and trusting, expecting Sparrow Island to keep its promise.\"",
+            "B": "\"Her father had rowed to the mainland that morning for supplies and had not returned.\"",
+            "C": "\"The stairs that had been a game beside her father were now a mountain alone.\"",
+            "D": "\"He did not say she had been brave.\""
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The image of blind, trusting ships expecting the island to keep its promise is exactly what drives Nora to act, supporting the idea that concern for the ships pushes her forward.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s1-q5",
+          "passageId": "p1",
+          "question": "As used in paragraph 4, the word \"bloomed\" most nearly means",
+          "choices": {
+            "A": "burst into bright light",
+            "B": "grew flowers",
+            "C": "slowly faded",
+            "D": "made a loud noise"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Although \"bloom\" usually describes a flower opening, here it describes the lamp suddenly opening into full, spreading light, since the next sentence says \"Light spilled out across the waves.\"",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s1-q6",
+          "passageId": "p1",
+          "question": "Which theme is developed in the passage?",
+          "choices": {
+            "A": "Courage means doing what is needed even when you are afraid.",
+            "B": "Children should never be left alone in a storm.",
+            "C": "Living on an island is more dangerous than living in a city.",
+            "D": "Hard work is more important than family."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Nora is frightened and alone, yet she climbs the tower and lights the lamp to protect the ships, developing the theme that courage means acting despite fear.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s1-q7",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"Nora had lived on Sparrow Island her whole life.\"",
+            "B": "\"The stairs that had been a game beside her father were now a mountain alone.\" (paragraph 4)",
+            "C": "\"But the fourth caught, and she touched it to the wick the way she had watched a hundred times.\" (paragraph 4)",
+            "D": "\"He only looked up at the burning lamp, then at her.\" (paragraph 5)"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Despite the fear shown by the failed matches and the lonely climb, Nora succeeds in lighting the lamp, directly showing courage carried through to action.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s1-q8",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 5: \"He only looked up at the burning lamp, then at her, and Nora understood that some things are too large for words to carry.\" What does the phrase \"too large for words to carry\" suggest about the father's feelings?",
+          "choices": {
+            "A": "He is too tired from rowing to speak.",
+            "B": "His pride and relief are too deep to express in speech.",
+            "C": "He is disappointed that Nora lit the lamp without him.",
+            "D": "He does not notice that the lamp is lit."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The phrase compares feelings to a load too heavy for words to hold, suggesting the father's pride and relief are so strong that ordinary words cannot express them.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s2",
+      "title": "How Honeybees Talk Without Words",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "How Honeybees Talk Without Words",
+          "author": "Dr. Priya Nandakumar",
+          "text": "Paragraph 1: A single honeybee can carry only a tiny drop of nectar, yet a healthy hive may store hundreds of pounds of honey in a season. This astonishing output is possible only because honeybees cooperate, and cooperation requires communication. The trouble is that bees have no spoken language. So how does one bee tell thousands of others where to find a field of flowers a mile away? The answer is a remarkable behavior scientists call the waggle dance.\n\nParagraph 2: When a scout bee discovers a rich source of food, she returns to the dark interior of the hive and begins to move in a precise pattern across the honeycomb. She runs forward in a straight line while shaking, or waggling, her body, then loops back to repeat the run. To human eyes this looks like aimless wiggling. To the bees, it is a detailed map. The direction of the straight run, measured against the position of the sun, tells the other bees which way to fly. The length of the waggle tells them how far.\n\nParagraph 3: This means the dancing bee is doing something extraordinary: she is translating the location of a distant flower patch into the language of movement. Scientists describe the dance as a symbolic communication, because the motions stand for information just as words stand for ideas. For decades, many researchers doubted that an insect could pass along such precise directions. The biologist Karl von Frisch spent years observing marked bees before he convinced the scientific world that the dance truly guides the hive.\n\nParagraph 4: The waggle dance also reveals something about how bees make decisions together. When scouts find several possible food sources, each dances for her own discovery. The richer the source, the longer and more energetically she dances. Bees that watch the most enthusiastic dancers are most likely to fly off and confirm the find, then return to dance themselves. In this way the hive gradually reaches agreement, not because one bee gives orders, but because the best information attracts the most followers.\n\nParagraph 5: Understanding the waggle dance has changed how people think about intelligence in nature. It reminds us that complex problem solving does not always require a large brain or a spoken language. Sometimes it requires only a shared system that every member of the group can read—a quiet conversation, carried out in the dark, one dance at a time."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s2-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 1, the word \"output\" most nearly means",
+          "choices": {
+            "A": "the amount produced",
+            "B": "a place to exit",
+            "C": "a loud sound",
+            "D": "a kind of map"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The paragraph compares one bee's tiny drop of nectar to a hive's hundreds of pounds of honey, so \"output\" refers to the total amount the hive produces.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c1-s2-q2",
+          "passageId": "p1",
+          "question": "In paragraph 3, the author calls the waggle dance a \"symbolic communication.\" The word \"symbolic\" contains the root \"sym-/syn-,\" meaning \"together,\" and relates to symbols that stand for something else. Based on this, what does the author mean by \"symbolic communication\"?",
+          "choices": {
+            "A": "communication that uses sounds",
+            "B": "communication in which motions stand for information",
+            "C": "communication that happens only in sunlight",
+            "D": "communication that bees are born already knowing"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage explains that \"the motions stand for information just as words stand for ideas,\" so symbolic communication means movements that represent, or stand for, information.",
+          "standard": "ELA.6.V.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s2-q3",
+          "passageId": "p1",
+          "question": "How does paragraph 2 mainly contribute to the development of ideas in the passage?",
+          "choices": {
+            "A": "It argues that the waggle dance is impossible to understand.",
+            "B": "It explains how the dance's movements carry specific information.",
+            "C": "It describes the life cycle of a honeybee from egg to adult.",
+            "D": "It compares honeybees to other dancing insects."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 2 explains that the direction of the run tells which way to fly and the length of the waggle tells how far, showing how the dance carries specific information.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s2-q4",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"To human eyes this looks like aimless wiggling.\"",
+            "B": "\"The direction of the straight run, measured against the position of the sun, tells the other bees which way to fly. The length of the waggle tells them how far.\"",
+            "C": "\"She runs forward in a straight line while shaking, or waggling, her body.\"",
+            "D": "\"When a scout bee discovers a rich source of food, she returns to the dark interior of the hive.\""
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence directly states what each part of the dance communicates—direction and distance—supporting the idea that the movements carry specific information.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s2-q5",
+          "passageId": "p1",
+          "question": "As used in paragraph 4, the word \"energetically\" most nearly means",
+          "choices": {
+            "A": "with great force and liveliness",
+            "B": "very quietly and slowly",
+            "C": "in a confused way",
+            "D": "with electricity"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The passage says the richer the source, the longer and more \"energetically\" she dances, and that this attracts the most followers, so it means with great force and liveliness.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s2-q6",
+          "passageId": "p1",
+          "question": "What is the central idea of the passage?",
+          "choices": {
+            "A": "Karl von Frisch was the most important scientist of his time.",
+            "B": "Honeybees produce more honey than any other insect.",
+            "C": "Honeybees use the waggle dance to share precise information and make group decisions.",
+            "D": "Insects cannot solve problems without a spoken language."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The passage explains how the waggle dance communicates direction and distance and helps the hive reach agreement, making this the central idea.",
+          "standard": "ELA.6.R.2.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s2-q7",
+          "passageId": "p1",
+          "question": "In paragraph 5, the author describes the hive's communication as \"a quiet conversation, carried out in the dark.\" Select TWO statements that explain why the author uses this description.",
+          "choices": {
+            "A": "It emphasizes that the dance takes place inside the dark hive.",
+            "B": "It suggests that bees are afraid of bright light.",
+            "C": "It compares the silent dance to a form of talking, even without words.",
+            "D": "It proves that bees can speak a human language.",
+            "E": "It explains that bees only communicate at night."
+          },
+          "correctAnswer": ["A", "C"],
+          "explanation": "Options A and C are correct. The phrase reminds readers that the dance happens inside the dark hive (A) and frames the wordless dance as a kind of conversation, or talking (C). The passage never says bees fear light, speak human language, or communicate only at night.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s2-q8",
+          "passageId": "p1",
+          "question": "Based on paragraph 4, why is it accurate to say the hive reaches decisions without a leader giving orders?",
+          "choices": {
+            "A": "Because the queen bee secretly chooses the food source for everyone.",
+            "B": "Because the best food source attracts the most dancers and therefore the most followers.",
+            "C": "Because all the bees fly to every food source at the same time.",
+            "D": "Because bees ignore the waggle dance when choosing food."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 4 states that the hive agrees \"not because one bee gives orders, but because the best information attracts the most followers,\" so the richest source draws the most dancers and followers.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s3",
+      "title": "Two Views of the Night Sky",
+      "genre": "paired",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Passage 1: The Sky We Are Losing",
+          "author": "Theo Marsh",
+          "text": "Paragraph 1: For most of human history, anyone who looked up on a clear night saw a sky crowded with stars—thousands of them, spilling across the darkness in a band we call the Milky Way. Today, roughly eight out of ten people in North America can no longer see that band at all. The stars have not gone anywhere. What has changed is us.\n\nParagraph 2: The cause is a kind of pollution most people never think about: light pollution. As cities grow, they pour more and more artificial light into the sky. Streetlights, billboards, stadiums, and parking lots send a glow upward that scatters in the atmosphere and washes out the fainter stars. The result is a dome of brightness over our cities that hides the very sky our ancestors took for granted.\n\nParagraph 3: This loss is more than a matter of beauty. Many animals depend on natural darkness. Sea turtle hatchlings, for example, find the ocean by crawling toward the brightest horizon, which for millions of years meant the moonlit sea. Near lit-up beaches, they crawl the wrong way, toward roads and houses, and many never reach the water. Migrating birds, confused by city lights, collide with buildings by the hundreds of millions each year.\n\nParagraph 4: The encouraging news is that light pollution is one of the easiest kinds of pollution to reverse. Unlike chemicals in a river, wasted light disappears the instant we flip a switch. Shielded fixtures that point light downward, dimmer bulbs, and simply turning off unnecessary lights can bring the stars back to a neighborhood almost overnight. We do not have to choose between safety and a sky full of stars. With a little care, we can have both—and give the night back to the creatures, and the wonder, that need it."
+        },
+        {
+          "id": "p2",
+          "title": "Passage 2: A Letter From an Observatory",
+          "author": "Dr. Helena Okafor",
+          "text": "Paragraph 1: I have spent thirty years studying the stars from mountaintop observatories, and I want to tell you what the glow of a distant city looks like to an astronomer. It looks like a curtain slowly being drawn across a window. Each year the curtain creeps a little farther, and a few more faint galaxies vanish behind it.\n\nParagraph 2: People sometimes ask why this matters when we have powerful telescopes and space probes. The honest answer is that even our best instruments struggle against a bright sky. A telescope gathers light; if the background is already glowing, the faint signal of a distant galaxy is drowned out, like trying to hear a whisper in a noisy room. The darker the sky, the deeper into the universe we can see.\n\nParagraph 3: But I do not write only as a scientist. I write as someone who remembers the first time, as a child, I saw the full sweep of the Milky Way from my grandmother's village, where no streetlight burned. It stopped me where I stood. That feeling of smallness and belonging at once is, I believe, part of what makes us human. A child who never sees a truly dark sky has lost something that cannot be measured in data.\n\nParagraph 4: There is reason for hope. Communities near my observatory have adopted simple rules—lights that shine downward, warmer bulbs, lights switched off when no one needs them. Within a few years, the glow on our horizon stopped growing. The remedy is not complicated. It asks only that we decide the night sky is worth keeping, and then act, town by town, switch by switch."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s3-q1",
+          "passageId": "p1",
+          "question": "As used in paragraph 2 of Passage 1, the word \"washes out\" most nearly means",
+          "choices": {
+            "A": "cleans thoroughly",
+            "B": "makes hard to see",
+            "C": "floods with water",
+            "D": "brightens sharply"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The sky glow \"scatters in the atmosphere and washes out the fainter stars,\" meaning it makes the faint stars hard or impossible to see, not clean or flood them.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s3-q2",
+          "passageId": "p2",
+          "question": "In paragraph 1 of Passage 2, Dr. Okafor writes that the city glow \"looks like a curtain slowly being drawn across a window.\" What does this comparison help the reader understand?",
+          "choices": {
+            "A": "Astronomers prefer to work indoors near windows.",
+            "B": "City light gradually blocks the view of the stars.",
+            "C": "The night sky is decorated like a room.",
+            "D": "Curtains can be used to protect telescopes."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. A curtain drawn across a window slowly blocks the view; the comparison shows that growing city light gradually hides the stars from astronomers.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s3-q3",
+          "passageId": "p2",
+          "question": "In paragraph 2 of Passage 2, the author compares a faint galaxy's signal to \"a whisper in a noisy room.\" What point does this comparison support?",
+          "choices": {
+            "A": "Astronomers must stay silent while observing.",
+            "B": "A bright sky drowns out the faint light of distant galaxies.",
+            "C": "Telescopes are too weak to detect any galaxies.",
+            "D": "Distant galaxies make sounds that are hard to hear."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Just as a whisper is lost in a noisy room, the faint light of a distant galaxy is lost against a glowing background sky, so a bright sky drowns out the faint signal.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s3-q4",
+          "passageId": "p2",
+          "question": "Which idea is supported by BOTH passages?",
+          "choices": {
+            "A": "Light pollution is harming sea turtle hatchlings.",
+            "B": "Light pollution can be reduced through simple actions like shielding and turning off lights.",
+            "C": "Powerful telescopes have completely solved the problem of city light.",
+            "D": "Most people in North America can still see the Milky Way."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Passage 1 says shielded fixtures, dimmer bulbs, and turning off lights can bring stars back, and Passage 2 describes communities adopting downward lights, warmer bulbs, and switching lights off. Only B appears in both; the turtle detail is only in Passage 1.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s3-q5",
+          "passageId": "p1",
+          "question": "How does Passage 2 approach the topic of light pollution DIFFERENTLY than Passage 1?",
+          "choices": {
+            "A": "Passage 2 focuses on the personal experience of an astronomer, while Passage 1 gives a broad overview of causes and effects.",
+            "B": "Passage 2 argues that light pollution cannot be fixed, while Passage 1 says it can.",
+            "C": "Passage 2 ignores science, while Passage 1 is entirely scientific.",
+            "D": "Passage 2 is about sea turtles, while Passage 1 is about telescopes."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 2 is written as a personal letter from an astronomer who shares her own memories and work, while Passage 1 broadly explains the causes and effects of light pollution. Both, however, agree it can be fixed.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s3-q6",
+          "passageId": "p1",
+          "question": "Select TWO statements that are supported by information in BOTH Passage 1 and Passage 2.",
+          "choices": {
+            "A": "Many people today cannot see the full Milky Way because of artificial light.",
+            "B": "Light pollution can be reduced by aiming lights downward.",
+            "C": "Migrating birds collide with buildings because of city lights.",
+            "D": "Telescopes in space have ended the need for dark skies.",
+            "E": "Astronomers can no longer study the universe at all."
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. Both passages note that city light hides the Milky Way (Passage 1 paragraph 1; Passage 2 paragraph 3) and both recommend pointing lights downward as a fix (Passage 1 paragraph 4; Passage 2 paragraph 4). The bird detail appears only in Passage 1, and D and E are contradicted by the texts.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s3-q7",
+          "passageId": "p2",
+          "question": "In paragraph 3 of Passage 2, the author says seeing the Milky Way created a feeling of \"smallness and belonging at once.\" What does this phrase suggest about the experience?",
+          "choices": {
+            "A": "It made her feel both tiny in the universe and connected to it.",
+            "B": "It made her feel crowded and uncomfortable.",
+            "C": "It convinced her to stop studying astronomy.",
+            "D": "It frightened her so badly she ran inside."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. \"Smallness and belonging at once\" describes feeling tiny against the vast sky yet part of it, which is why she calls it part of what makes us human.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s3-q8",
+          "passageId": "p1",
+          "question": "Both authors end their passages on a hopeful note. Which reason for hope is shared by BOTH passages?",
+          "choices": {
+            "A": "Wasted light disappears the moment lights are turned off or shielded.",
+            "B": "Scientists have invented a new type of star.",
+            "C": "Sea turtles have learned to ignore artificial light.",
+            "D": "Cities have agreed to remove all streetlights permanently."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 1 says wasted light disappears the instant we flip a switch, and Passage 2 describes the glow stopping once communities shielded and switched off lights, so both point to the quick reversibility of light pollution as the reason for hope.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c1-s4",
+      "title": "The Inventor of Eyeglasses That No One Remembers",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Inventor No One Remembers",
+          "author": "Lena Whitfield",
+          "text": "Paragraph 1: Some inventions are so woven into daily life that we forget they were ever invented at all. Eyeglasses are one of them. Roughly one in four people on Earth wears them, yet almost no one can name the person who first slid two curved pieces of glass before a pair of failing eyes. The strange truth is that history has misplaced the inventor of one of its most important tools.\n\nParagraph 2: We do know roughly when and where it happened. Eyeglasses appeared in northern Italy around the year 1290. A preacher named Giordano da Pisa mentioned them in a sermon in 1306, calling their invention recent and praising it as one of the most useful arts ever discovered. But Giordano did not name the inventor, and no document from the time clearly credits anyone. The breakthrough seems to have emerged quietly from the glassmaking workshops of Venice and Pisa, where craftsmen experimented endlessly with the bending of light.\n\nParagraph 3: This anonymity was not an accident. Medieval craftsmen often kept their methods secret, because a clever technique could feed a family for generations. A glassmaker who discovered how to grind a lens that sharpened blurry print had little reason to publish his name and every reason to guard the recipe. Knowledge that today would earn a patent was then a closely held treasure, whispered from master to apprentice behind workshop doors.\n\nParagraph 4: The consequences of this humble invention were enormous. Before eyeglasses, a scholar's working life often ended when his eyesight failed, usually in middle age. Suddenly, thinkers could read and write for decades longer. Some historians argue that eyeglasses helped fuel the explosion of learning that followed, by keeping experienced minds at work. A small pair of lenses, made by a forgotten hand, may have quietly extended the productive life of an entire civilization.\n\nParagraph 5: There is a lesson in this forgotten inventor. We tend to imagine progress as the work of famous geniuses whose names fill our textbooks. But much of what shapes our lives was built by anonymous people solving practical problems—craftsmen and tinkerers whose names dissolved into time, even as their inventions endured. The next time you clean a pair of glasses, you are holding the work of a stranger who changed the world and asked for no credit at all."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c1-s4-q1",
+          "passageId": "p1",
+          "question": "In paragraph 2, the author describes eyeglasses as one of the most useful \"arts ever discovered.\" As used in this sentence, the word \"arts\" most nearly means",
+          "choices": {
+            "A": "paintings and drawings",
+            "B": "skills or crafts",
+            "C": "schools that teach",
+            "D": "pieces of music"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. In context, \"arts\" refers to useful skills or crafts that are discovered and practiced, like glassmaking, not to paintings, schools, or music.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s4-q2",
+          "passageId": "p1",
+          "question": "In paragraph 3, the author uses the word \"anonymity.\" The Greek root \"onym\" means \"name,\" and the prefix \"an-\" means \"without.\" Based on these word parts, what does \"anonymity\" mean?",
+          "choices": {
+            "A": "the state of being famous",
+            "B": "the state of having no known name",
+            "C": "the act of naming something",
+            "D": "the quality of being ancient"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. With \"an-\" meaning without and \"onym\" meaning name, \"anonymity\" means the state of being without a known name, which fits the passage's point that no one knows who invented eyeglasses.",
+          "standard": "ELA.6.V.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s4-q3",
+          "passageId": "p1",
+          "question": "Why does the author most likely describe the inventor's knowledge in paragraph 3 as \"a closely held treasure\"?",
+          "choices": {
+            "A": "To show that the inventor was very wealthy.",
+            "B": "To emphasize that the technique was valuable and kept secret on purpose.",
+            "C": "To prove that eyeglasses were made of gold and jewels.",
+            "D": "To suggest the knowledge was buried in the ground."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The metaphor of a treasure shows the lens-grinding technique was valuable, and the paragraph explains craftsmen guarded it as a secret, so it was deliberately kept hidden.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s4-q4",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"Eyeglasses appeared in northern Italy around the year 1290.\"",
+            "B": "\"A glassmaker who discovered how to grind a lens that sharpened blurry print had little reason to publish his name and every reason to guard the recipe.\"",
+            "C": "\"Roughly one in four people on Earth wears them.\"",
+            "D": "\"Some historians argue that eyeglasses helped fuel the explosion of learning that followed.\""
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence directly explains that the glassmaker had every reason to guard the recipe, supporting the idea that the valuable technique was deliberately kept secret.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s4-q5",
+          "passageId": "p1",
+          "question": "As used in paragraph 5, the word \"endured\" most nearly means",
+          "choices": {
+            "A": "lasted over time",
+            "B": "suffered pain",
+            "C": "disappeared quickly",
+            "D": "became famous"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The sentence contrasts names that \"dissolved into time\" with inventions that \"endured,\" so \"endured\" means lasted over time.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s4-q6",
+          "passageId": "p1",
+          "question": "What is the central idea of the passage?",
+          "choices": {
+            "A": "Eyeglasses were invented in Venice by Giordano da Pisa.",
+            "B": "Important inventions are sometimes created by anonymous people who receive no credit.",
+            "C": "Medieval craftsmen were dishonest about their work.",
+            "D": "People today wear eyeglasses more than ever before."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage repeatedly stresses that eyeglasses, a world-changing invention, came from a forgotten, unnamed craftsman, developing the idea that important inventions can come from anonymous people.",
+          "standard": "ELA.6.R.2.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c1-s4-q7",
+          "passageId": "p1",
+          "question": "In paragraph 4, the author writes that eyeglasses \"may have quietly extended the productive life of an entire civilization.\" What does the author mean by this statement?",
+          "choices": {
+            "A": "Eyeglasses made people live to be hundreds of years old.",
+            "B": "Eyeglasses allowed scholars to keep working and learning for many more years.",
+            "C": "Eyeglasses were worn by every person in the civilization.",
+            "D": "Eyeglasses replaced the need for books entirely."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The paragraph explains that before glasses a scholar's work often ended when eyesight failed, but glasses let thinkers read and write for decades longer, extending their productive working years.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c1-s4-q8",
+          "passageId": "p1",
+          "question": "How does paragraph 5 contribute to the author's overall purpose?",
+          "choices": {
+            "A": "It introduces a new invention unrelated to eyeglasses.",
+            "B": "It broadens the story of eyeglasses into a larger point about who really drives progress.",
+            "C": "It argues that famous geniuses deserve all the credit for progress.",
+            "D": "It explains exactly how a lens is ground and shaped."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 5 moves from the single example of eyeglasses to the wider claim that much progress comes from anonymous problem-solvers, supporting the author's purpose of honoring unknown inventors.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}

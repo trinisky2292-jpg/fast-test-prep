@@ -1,0 +1,400 @@
+{
+  "category": "prose-poetry",
+  "name": "Reading Prose & Poetry",
+  "weight": "25-35%",
+  "sets": [
+    {
+      "id": "c2-s1",
+      "title": "The Last Row",
+      "genre": "literary",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Last Row",
+          "author": "Maya Okonkwo",
+          "text": "(Paragraph 1) Dario had pulled weeds for two summers before he understood the garden was not really his grandmother's. \"It belongs to the street,\" Abuela said, pressing a tomato into his palm like a small red secret. \"We only hold the door open.\" He didn't understand her then. He understood the heat, the dirt under his nails, and the fact that his friends were at the pool while he knelt between rows of peppers.\n\n(Paragraph 2) This summer Abuela's hands shook too much to plant. The packets of seeds sat on the kitchen windowsill, faded and waiting. Dario kept walking past them. He told himself he would get to it. He told himself the season was already too far gone, that nothing would grow now, that it was not his job anyway.\n\n(Paragraph 3) One evening Mrs. Reyes from the corner unit stopped him at the gate. \"No garden this year?\" she asked. Behind her, three small children pressed their faces to the chain-link fence, looking at the empty beds the way Dario used to look at the pool. He felt something tighten in his chest, a feeling he could not name but could not ignore.\n\n(Paragraph 4) That night Dario carried the seed packets out under the porch light. The soil was dry and stubborn, and his back ached within minutes. But he remembered the weight of that first tomato, warm from the sun, and the way Abuela had smiled as if he had handed her a jewel. He planted the last row in the dark, patting each seed down with two fingers.\n\n(Paragraph 5) In the morning Abuela found him asleep on the porch steps, dirt still on his hands. She did not wake him. She only stood at the window a long while, looking at the freshly turned earth, holding the door open the only way she still could—by trusting that someone else finally would."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s1-q1",
+          "passageId": "p1",
+          "question": "How does Dario change from the beginning of the passage to the end?",
+          "choices": {
+            "A": "He learns to enjoy spending time at the pool with his friends.",
+            "B": "He moves from resenting the garden to choosing to care for it himself.",
+            "C": "He becomes angry at his grandmother for making him do hard work.",
+            "D": "He decides the garden is too difficult and gives up on planting."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Early on Dario resents kneeling in the dirt while his friends swim, but by paragraph 4 he chooses to plant the last row on his own, showing he has come to value caring for the garden.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s1-q2",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"He understood the heat, the dirt under his nails . . .\" (paragraph 1)",
+            "B": "\"He told himself the season was already too far gone . . .\" (paragraph 2)",
+            "C": "\"He planted the last row in the dark, patting each seed down with two fingers.\" (paragraph 4)",
+            "D": "\"In the morning Abuela found him asleep on the porch steps . . .\" (paragraph 5)"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Dario planting the last row himself, in the dark, shows his shift from resentment to taking responsibility for the garden by choice.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s1-q3",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses a theme developed in the passage?",
+          "choices": {
+            "A": "Hard work is only worthwhile when others notice it.",
+            "B": "Caring for something can become a responsibility we pass on to one another.",
+            "C": "Children should always obey the wishes of their grandparents.",
+            "D": "Gardens require more effort than they are worth in the end."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Abuela says the garden belongs to the street and that they only hold the door open, and at the end she trusts Dario to continue the work, developing the theme of passing on a shared responsibility.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s1-q4",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"It belongs to the street,\" Abuela said . . . \"We only hold the door open.\" (paragraph 1)",
+            "B": "\"He told himself he would get to it.\" (paragraph 2)",
+            "C": "\"The soil was dry and stubborn, and his back ached within minutes.\" (paragraph 4)",
+            "D": "\"She did not wake him.\" (paragraph 5)"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Abuela's words frame the garden as something held in trust for others and passed along, which is the central idea of the passage's theme.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s1-q5",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 1: \". . . pressing a tomato into his palm like a small red secret.\" How does the simile add to the meaning of the passage?",
+          "choices": {
+            "A": "It suggests the tomato is dangerous and should be hidden.",
+            "B": "It shows that the garden's gifts feel precious and meaningful.",
+            "C": "It explains that Abuela does not want neighbors to see the garden.",
+            "D": "It proves that tomatoes are the most valuable crop in the garden."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the tomato to \"a small red secret\" treats it as something precious and meaningful, reinforcing the value of what the garden gives.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s1-q6",
+          "passageId": "p1",
+          "question": "From whose point of view is the story told, and how does this affect the reader's understanding?",
+          "choices": {
+            "A": "First-person; the reader experiences events only through Abuela's memories.",
+            "B": "Third-person limited; the reader follows Dario's thoughts and feelings about the garden.",
+            "C": "Second-person; the reader is directly addressed as a character in the garden.",
+            "D": "Third-person omniscient; the reader knows the private thoughts of every character equally."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The narrator stays close to Dario, revealing his thoughts (\"He told himself he would get to it\") and feelings, but not the inner thoughts of others, which is third-person limited.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s1-q7",
+          "passageId": "p1",
+          "question": "What is the central conflict Dario faces in the passage?",
+          "choices": {
+            "A": "A disagreement with Mrs. Reyes about who owns the garden.",
+            "B": "An argument with his friends about going to the pool.",
+            "C": "An inner struggle between avoiding the garden and taking responsibility for it.",
+            "D": "A fight against bad weather that keeps the seeds from growing."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The conflict is internal: Dario keeps walking past the seeds and making excuses (paragraph 2) until he finally chooses to plant them, showing a struggle between avoidance and responsibility.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s1-q8",
+          "passageId": "p1",
+          "question": "Select TWO details that contribute to the hopeful mood at the end of the passage.",
+          "choices": {
+            "A": "\"the packets of seeds sat on the kitchen windowsill, faded and waiting\" (paragraph 2)",
+            "B": "\"He planted the last row in the dark . . .\" (paragraph 4)",
+            "C": "\"looking at the freshly turned earth\" (paragraph 5)",
+            "D": "\"his back ached within minutes\" (paragraph 4)",
+            "E": "\"holding the door open the only way she still could—by trusting that someone else finally would\" (paragraph 5)"
+          },
+          "correctAnswer": ["C", "E"],
+          "explanation": "Options C and E are correct. The \"freshly turned earth\" signals new growth and beginnings, and Abuela's trust that \"someone else finally would\" carry on the work creates a hopeful, reassuring mood at the close.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c2-s2",
+      "title": "Signal Lost",
+      "genre": "literary",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Signal Lost",
+          "author": "Theo Brandt",
+          "text": "(Paragraph 1) The cabin had no Wi-Fi, no cell signal, and—according to Priya's furious thumb, which kept tapping a dark screen—no point in existing. Her family had come to the mountains for a week. To Priya it felt like a sentence with no parole. She slumped on the porch and watched a chipmunk dart across the railing, unimpressed.\n\n(Paragraph 2) \"Bored already?\" her brother Sanjay asked. He was eleven, three years younger, and somehow delighted by everything: the splintery porch, the smell of pine, the way the screen door slapped shut. Priya did not answer. Answering only encouraged him.\n\n(Paragraph 3) On the second day, out of pure desperation, she followed him down a trail that wound toward a creek. The water moved fast and loud, swallowing the silence she had been dreading. Sanjay crouched and began turning over flat stones. \"Crayfish,\" he announced, holding up something small and armored. \"They walk backward when they're scared.\" Priya almost laughed. Almost.\n\n(Paragraph 4) By the fourth day she had stopped reaching for her phone every few minutes. She noticed her hand still did it sometimes, an old habit, like a clock that keeps ticking after the battery dies. But the reaching meant less now. She had learned the names of three birds, lost a race up a hill to Sanjay, and discovered that creek water is shockingly, wonderfully cold.\n\n(Paragraph 5) On the last morning, Priya found one bar of signal at the top of the ridge. Messages flooded in—dozens of them, a week of noise demanding her attention all at once. She stood there, thumb hovering. Below her, Sanjay called up from the trail, \"Come look! The crayfish are back!\" Priya looked at the bright screen, then at her brother waving among the trees. She slid the phone into her pocket and started back down."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s2-q1",
+          "passageId": "p1",
+          "question": "How does Priya's attitude toward the trip change over the course of the passage?",
+          "choices": {
+            "A": "She grows more determined to leave the cabin and return home early.",
+            "B": "She shifts from feeling trapped and bored to appreciating the time outdoors.",
+            "C": "She becomes increasingly annoyed with her younger brother Sanjay.",
+            "D": "She decides that the mountains are exactly as terrible as she expected."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Priya begins by treating the trip \"like a sentence with no parole\" (paragraph 1) but by the end chooses her brother and the outdoors over her phone, showing she has come to appreciate the experience.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s2-q2",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"She slumped on the porch and watched a chipmunk dart across the railing, unimpressed.\" (paragraph 1)",
+            "B": "\"Answering only encouraged him.\" (paragraph 2)",
+            "C": "\"She slid the phone into her pocket and started back down.\" (paragraph 5)",
+            "D": "\"The water moved fast and loud . . .\" (paragraph 3)"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Putting the phone away and heading back down to her brother shows Priya now values the outdoors and time with Sanjay over the messages she once craved.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s2-q3",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 4: \"She noticed her hand still did it sometimes, an old habit, like a clock that keeps ticking after the battery dies.\" What does this simile suggest about Priya?",
+          "choices": {
+            "A": "Her phone has stopped working completely and cannot be fixed.",
+            "B": "Her habit of reaching for the phone continues even though it no longer matters to her.",
+            "C": "She is worried that she is running out of time on the trip.",
+            "D": "She has become as bored and lifeless as a dead battery."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The simile compares her reflexive reaching to a clock ticking after its battery dies, meaning the habit continues automatically even though the phone has lost its hold on her (\"the reaching meant less now\").",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s2-q4",
+          "passageId": "p1",
+          "question": "Which theme is BEST developed in the passage?",
+          "choices": {
+            "A": "Stepping away from distractions can open us to what is around us.",
+            "B": "Younger siblings are usually wiser than older siblings.",
+            "C": "Technology should never be used while on vacation.",
+            "D": "Nature is dangerous and should be approached with caution."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. As Priya stops reaching for her phone, she notices birds, the cold creek, and her brother's discoveries, developing the theme that letting go of distractions opens us to what surrounds us.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s2-q5",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"Her family had come to the mountains for a week.\" (paragraph 1)",
+            "B": "\"By the fourth day she had stopped reaching for her phone every few minutes.\" (paragraph 4)",
+            "C": "\"He was eleven, three years younger . . .\" (paragraph 2)",
+            "D": "\"Messages flooded in—dozens of them . . .\" (paragraph 5)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Once Priya stops reaching for her phone, she begins noticing and enjoying the world around her, directly supporting the theme about letting go of distractions.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s2-q6",
+          "passageId": "p1",
+          "question": "In paragraph 1, the narrator describes the week as \"a sentence with no parole.\" What mood does this language create?",
+          "choices": {
+            "A": "a peaceful, relaxed mood",
+            "B": "a curious, hopeful mood",
+            "C": "a trapped, frustrated mood",
+            "D": "a frightened, suspenseful mood"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Comparing the week to a prison \"sentence with no parole\" creates a mood of being trapped and frustrated, matching Priya's resentment at the start.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s2-q7",
+          "passageId": "p1",
+          "question": "How does the narrator's use of third-person point of view affect the passage?",
+          "choices": {
+            "A": "It allows the reader to know the private thoughts of every family member.",
+            "B": "It keeps the focus on Priya's inner thoughts and feelings as she changes.",
+            "C": "It addresses the reader directly as if the reader were on the trip.",
+            "D": "It hides Priya's feelings so the reader must guess how she reacts."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The narrator follows Priya closely, revealing her thoughts and feelings (\"To Priya it felt like a sentence with no parole\") without entering the minds of others, keeping the focus on her transformation.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s2-q8",
+          "passageId": "p1",
+          "question": "Select TWO details that show Sanjay's enthusiasm contrasts with Priya's mood early in the passage.",
+          "choices": {
+            "A": "\"somehow delighted by everything: the splintery porch, the smell of pine\" (paragraph 2)",
+            "B": "\"Priya did not answer.\" (paragraph 2)",
+            "C": "\"'Crayfish,' he announced, holding up something small and armored.\" (paragraph 3)",
+            "D": "\"The water moved fast and loud . . .\" (paragraph 3)",
+            "E": "\"She stood there, thumb hovering.\" (paragraph 5)"
+          },
+          "correctAnswer": ["A", "C"],
+          "explanation": "Options A and C are correct. Sanjay being \"delighted by everything\" and eagerly announcing the crayfish shows his enthusiasm, which contrasts with Priya's bored, withdrawn mood early in the story.",
+          "standard": "ELA.6.R.1.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c2-s3",
+      "title": "What the River Keeps",
+      "genre": "poetry",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "What the River Keeps",
+          "author": "Lena Castillo",
+          "text": "(Stanza 1)\nThe river does not hurry,\nthough it never stops to rest;\nit carries what we hand it\nlike a pocket in its chest.\n\n(Stanza 2)\nA paper boat. A penny.\nThe echo of a name.\nIt takes them all so gently\nyet leaves us not the same.\n\n(Stanza 3)\nMy grandfather once told me,\nhis voice as low as stone,\n\"The river is a teacher\nwho never works alone.\"\n\n(Stanza 4)\nFor everything it gathers,\nit gives a thing away—\na smoother rock, a wider bank,\na bird that's come to stay.\n\n(Stanza 5)\nSo when I lose a summer,\nor watch a season end,\nI walk down to the water\nand call the river friend."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s3-q1",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses a theme developed in the poem?",
+          "choices": {
+            "A": "Rivers are dangerous and should be respected from a distance.",
+            "B": "Change involves both losing things and gaining new ones.",
+            "C": "It is impossible to understand the lessons of nature.",
+            "D": "Time spent near water is always wasted time."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The poem repeatedly pairs giving and taking—\"For everything it gathers, / it gives a thing away\" (stanza 4)—developing the theme that change brings both loss and gain.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s3-q2",
+          "passageId": "p1",
+          "question": "Which line from the poem BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"The river does not hurry,\" (stanza 1)",
+            "B": "\"It takes them all so gently / yet leaves us not the same.\" (stanza 2)",
+            "C": "\"his voice as low as stone,\" (stanza 3)",
+            "D": "\"and call the river friend.\" (stanza 5)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The lines show the river taking things yet changing the speaker (\"leaves us not the same\"), capturing the idea that change involves both loss and transformation.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s3-q3",
+          "passageId": "p1",
+          "question": "In stanza 1, the river \"carries what we hand it / like a pocket in its chest.\" What does this figurative language suggest?",
+          "choices": {
+            "A": "The river holds and keeps the things people give it.",
+            "B": "The river is shaped exactly like a piece of clothing.",
+            "C": "People hide valuables inside the river on purpose.",
+            "D": "The river is too small to carry anything heavy."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Comparing the river to a \"pocket in its chest\" suggests it holds and keeps the things people hand to it, like objects carried in a pocket.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s3-q4",
+          "passageId": "p1",
+          "question": "Read this line from stanza 3: \"his voice as low as stone.\" What does this simile help the reader understand?",
+          "choices": {
+            "A": "The grandfather is angry and speaking harshly.",
+            "B": "The grandfather speaks in a deep, calm, and steady way.",
+            "C": "The grandfather is too quiet to be heard at all.",
+            "D": "The grandfather is repeating words he does not understand."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the voice to stone—low, solid, and steady—helps the reader picture a deep, calm, grounded way of speaking that suits the grandfather's wisdom.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s3-q5",
+          "passageId": "p1",
+          "question": "How does the structure of the poem, with the river giving in stanza 4 after taking in stanza 2, contribute to its meaning?",
+          "choices": {
+            "A": "It creates suspense about whether the river will flood.",
+            "B": "It balances the idea of loss with the idea of gain to reinforce the theme.",
+            "C": "It shows that the stanzas are arranged in a random order.",
+            "D": "It proves the speaker has forgotten the grandfather's lesson."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Placing what the river takes (stanza 2) before what it gives (stanza 4) balances loss and gain, reinforcing the poem's theme that change includes both.",
+          "standard": "ELA.6.R.3.3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s3-q6",
+          "passageId": "p1",
+          "question": "What is the speaker's tone in the final stanza?",
+          "choices": {
+            "A": "fearful and uneasy",
+            "B": "bitter and resentful",
+            "C": "accepting and comforted",
+            "D": "confused and uncertain"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. When the speaker loses a summer or watches a season end and responds by walking to the water to \"call the river friend\" (stanza 5), the tone is one of acceptance and comfort.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s3-q7",
+          "passageId": "p1",
+          "question": "Select TWO details from the poem that show the river both takes things and gives things in return.",
+          "choices": {
+            "A": "\"it carries what we hand it\" (stanza 1)",
+            "B": "\"A paper boat. A penny. / The echo of a name.\" (stanza 2)",
+            "C": "\"My grandfather once told me,\" (stanza 3)",
+            "D": "\"it gives a thing away— / a smoother rock, a wider bank\" (stanza 4)",
+            "E": "\"I walk down to the water\" (stanza 5)"
+          },
+          "correctAnswer": ["B", "D"],
+          "explanation": "Options B and D are correct. Stanza 2 lists what the river takes (a paper boat, a penny, the echo of a name), and stanza 4 lists what it gives back (a smoother rock, a wider bank), together showing the balance of taking and giving.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}
