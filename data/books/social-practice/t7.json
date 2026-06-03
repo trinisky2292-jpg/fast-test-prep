@@ -153,6 +153,456 @@
         "explanation": "Belief in the afterlife caused Egyptians to build pyramid tombs.",
         "standard": "SS.6.W.2.5",
         "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q11",
+        "section": "social",
+        "question": "Which pharaoh was the Great Pyramid at Giza built for?",
+        "choices": {
+          "A": "Khufu",
+          "B": "Hammurabi",
+          "C": "Julius Caesar",
+          "D": "Cyrus"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Great Pyramid at Giza was built for the pharaoh Khufu.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q12",
+        "section": "social",
+        "question": "Which tools did the Egyptians use to help move and lift the heavy stone blocks?",
+        "choices": {
+          "A": "Cranes and trucks",
+          "B": "Electric motors",
+          "C": "Boats only",
+          "D": "Ramps and levers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Workers used ramps and levers to move and stack the huge stones.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q13",
+        "section": "social",
+        "question": "Roughly how heavy were many of the stone blocks used in the pyramids?",
+        "choices": {
+          "A": "A few ounces each",
+          "B": "Lighter than a person",
+          "C": "Many tons each",
+          "D": "About one pound each"
+        },
+        "correctAnswer": "C",
+        "explanation": "Many of the stone blocks weighed many tons each.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q14",
+        "section": "social",
+        "question": "The pyramids were lined up almost perfectly with what?",
+        "choices": {
+          "A": "The nearest river",
+          "B": "The largest city",
+          "C": "Other pyramids in Greece",
+          "D": "The directions of the compass"
+        },
+        "correctAnswer": "D",
+        "explanation": "The pyramids were aligned almost perfectly with the directions of the compass.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q15",
+        "section": "social",
+        "question": "A 'tomb' is best described as what?",
+        "choices": {
+          "A": "A burial place for a dead body",
+          "B": "A place to grow food",
+          "C": "A type of boat",
+          "D": "A school for scribes"
+        },
+        "correctAnswer": "A",
+        "explanation": "A tomb is a burial place for a dead body, which is what the pyramids were.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q16",
+        "section": "social",
+        "question": "Which of these was NOT a reason pyramids were built?",
+        "choices": {
+          "A": "To protect the pharaoh's body",
+          "B": "To protect the pharaoh's treasures",
+          "C": "To help the pharaoh reach the afterlife",
+          "D": "To serve as a busy trading market"
+        },
+        "correctAnswer": "D",
+        "explanation": "Pyramids were tombs, not trading markets; they protected the pharaoh's body and treasures for the afterlife.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q17",
+        "section": "social",
+        "question": "Why does the Great Pyramid still amaze people today?",
+        "choices": {
+          "A": "It was built last year",
+          "B": "It is made of wood",
+          "C": "It floats on the Nile",
+          "D": "It is one of the Seven Wonders of the Ancient World and still stands"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Great Pyramid is one of the Seven Wonders of the Ancient World and still stands today.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q18",
+        "section": "social",
+        "question": "Building pyramids required architects skilled in which area of math?",
+        "choices": {
+          "A": "Geometry",
+          "B": "Spelling",
+          "C": "Music",
+          "D": "Painting"
+        },
+        "correctAnswer": "A",
+        "explanation": "Egyptians needed advanced geometry to build the pyramids so exactly.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q19",
+        "section": "social",
+        "question": "If a society can organize thousands of workers and supplies to build a pyramid, what does that tell us about its government?",
+        "choices": {
+          "A": "It had no leaders",
+          "B": "It was weak and confused",
+          "C": "It was strong and well-organized",
+          "D": "It did not exist"
+        },
+        "correctAnswer": "C",
+        "explanation": "Only a strong, well-organized government could organize thousands of workers and supplies.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-1-q20",
+        "section": "social",
+        "question": "Which best completes the pattern: Pyramids = Egyptian ____?",
+        "choices": {
+          "A": "Schools",
+          "B": "Tombs",
+          "C": "Bridges",
+          "D": "Boats"
+        },
+        "correctAnswer": "B",
+        "explanation": "Pyramids were Egyptian tombs.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q21",
+        "section": "social",
+        "question": "The Great Pyramid was built near which place in Egypt?",
+        "choices": {
+          "A": "Rome",
+          "B": "Athens",
+          "C": "Babylon",
+          "D": "Giza"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Great Pyramid was built at Giza.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q22",
+        "section": "social",
+        "question": "How did Egyptians get the giant stone blocks to stack so precisely without modern machines?",
+        "choices": {
+          "A": "Careful planning and skilled workers using ramps and levers",
+          "B": "They used electric cranes",
+          "C": "They poured liquid metal",
+          "D": "They waited for the stones to grow"
+        },
+        "correctAnswer": "A",
+        "explanation": "Egyptians relied on careful planning and skilled workers using ramps and levers, not machines.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q23",
+        "section": "social",
+        "question": "Which statement about the Great Pyramid is TRUE?",
+        "choices": {
+          "A": "It was the smallest pyramid",
+          "B": "It is the largest pyramid of all",
+          "C": "It was built in Greece",
+          "D": "It has completely fallen down"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Great Pyramid at Giza is the largest pyramid of all.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q24",
+        "section": "social",
+        "question": "A pharaoh wanted his treasures kept safe with him after death. How did the pyramid help with this?",
+        "choices": {
+          "A": "It served as a giant protected tomb",
+          "B": "It sent the treasures to other countries",
+          "C": "It sold the treasures at market",
+          "D": "It melted the treasures down"
+        },
+        "correctAnswer": "A",
+        "explanation": "The pyramid was a giant protected tomb that kept the pharaoh's body and treasures safe.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q25",
+        "section": "social",
+        "question": "Which of these is the BEST evidence that ancient Egypt was an advanced civilization?",
+        "choices": {
+          "A": "They built simple mud huts",
+          "B": "They could not write",
+          "C": "They engineered enormous, exact pyramids",
+          "D": "They never used math"
+        },
+        "correctAnswer": "C",
+        "explanation": "Engineering enormous, exact pyramids is strong evidence of an advanced civilization.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-1-q26",
+        "section": "social",
+        "question": "Which job would have been MOST needed to design a pyramid?",
+        "choices": {
+          "A": "A skilled architect",
+          "B": "A sailor",
+          "C": "A market trader",
+          "D": "A musician"
+        },
+        "correctAnswer": "A",
+        "explanation": "Skilled architects were needed to design the pyramids.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q27",
+        "section": "social",
+        "question": "Place these steps of pyramid building in the correct order: cut the stone, move the stone, stack the stone.",
+        "choices": {
+          "A": "Stack, move, cut",
+          "B": "Move, stack, cut",
+          "C": "Cut, move, stack",
+          "D": "Stack, cut, move"
+        },
+        "correctAnswer": "C",
+        "explanation": "Workers first cut the stone, then moved it, then stacked it.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q28",
+        "section": "social",
+        "question": "Which sentence shows the pyramids were connected to Egyptian religion?",
+        "choices": {
+          "A": "They were built to win wars",
+          "B": "They were used as farms",
+          "C": "They were tombs meant to help the pharaoh reach the afterlife",
+          "D": "They had no purpose"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pyramids were tombs meant to help the pharaoh reach the afterlife, showing a religious purpose.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q29",
+        "section": "social",
+        "question": "Which of these would Egyptians NOT have used to build a pyramid?",
+        "choices": {
+          "A": "Ramps",
+          "B": "Levers",
+          "C": "Careful planning",
+          "D": "Gas-powered bulldozers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gas-powered bulldozers did not exist; Egyptians used ramps, levers, and careful planning.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q30",
+        "section": "social",
+        "question": "The huge size and exactness of the pyramids tell historians that Egypt had what?",
+        "choices": {
+          "A": "No workers at all",
+          "B": "Advanced knowledge and a powerful, organized society",
+          "C": "Only a few families",
+          "D": "No way to plan ahead"
+        },
+        "correctAnswer": "B",
+        "explanation": "The pyramids' size and exactness show Egypt had advanced knowledge and a powerful, organized society.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-1-q31",
+        "section": "social",
+        "question": "What is the main idea of this lesson?",
+        "choices": {
+          "A": "The pyramids prove how advanced and organized ancient Egypt was",
+          "B": "Egyptians never built anything large",
+          "C": "Pyramids were small and easy to build",
+          "D": "The pyramids were homes for ordinary people"
+        },
+        "correctAnswer": "A",
+        "explanation": "The lesson's main idea is that the pyramids prove how advanced and organized ancient Egypt was.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q32",
+        "section": "social",
+        "question": "Why was lining the pyramid up with the compass directions impressive?",
+        "choices": {
+          "A": "Because it was easy",
+          "B": "Because it shows their advanced math and careful measurement",
+          "C": "Because compasses are modern",
+          "D": "Because it had no purpose"
+        },
+        "correctAnswer": "B",
+        "explanation": "Aligning the pyramid with compass directions shows advanced math and careful measurement.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-1-q33",
+        "section": "social",
+        "question": "Which group of people did the hard physical work of cutting and stacking the stones?",
+        "choices": {
+          "A": "Foreign kings",
+          "B": "Skilled workers",
+          "C": "Only the pharaoh",
+          "D": "Traveling merchants"
+        },
+        "correctAnswer": "B",
+        "explanation": "Thousands of skilled workers cut, moved, and stacked the stone blocks.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q34",
+        "section": "social",
+        "question": "Compared to a small grave, a pyramid shows that a pharaoh was viewed as what?",
+        "choices": {
+          "A": "An unimportant person",
+          "B": "An ordinary farmer",
+          "C": "A very powerful and important ruler",
+          "D": "A foreign visitor"
+        },
+        "correctAnswer": "C",
+        "explanation": "Building such an enormous tomb shows the pharaoh was seen as a very powerful and important ruler.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q35",
+        "section": "social",
+        "question": "Which subject would help you most if you wanted to measure and design a pyramid like the Egyptians?",
+        "choices": {
+          "A": "Spelling",
+          "B": "Singing",
+          "C": "Cooking",
+          "D": "Geometry and math"
+        },
+        "correctAnswer": "D",
+        "explanation": "Geometry and math were the key subjects Egyptians used to design the pyramids.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q36",
+        "section": "social",
+        "question": "How does the Great Pyramid being a 'Wonder of the Ancient World' help us understand it?",
+        "choices": {
+          "A": "It tells us the pyramid was unimportant",
+          "B": "It tells us people have long admired it as an amazing achievement",
+          "C": "It means it was never finished",
+          "D": "It means it was made of mud"
+        },
+        "correctAnswer": "B",
+        "explanation": "Being a Wonder of the Ancient World means people have long admired the pyramid as an amazing achievement.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q37",
+        "section": "social",
+        "question": "Which is the BEST example of Egyptian organization?",
+        "choices": {
+          "A": "Letting stones fall randomly",
+          "B": "Building with no plan",
+          "C": "Coordinating thousands of workers and supplies for one huge project",
+          "D": "Working alone"
+        },
+        "correctAnswer": "C",
+        "explanation": "Coordinating thousands of workers and supplies for one huge project is the best example of Egyptian organization.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q38",
+        "section": "social",
+        "question": "Which of these is NOT something the pyramids reveal about Egypt?",
+        "choices": {
+          "A": "Strong engineering",
+          "B": "Advanced math",
+          "C": "Good organization",
+          "D": "That Egypt had no government"
+        },
+        "correctAnswer": "D",
+        "explanation": "The pyramids reveal strong engineering, math, and organization, not the absence of a government.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q39",
+        "section": "social",
+        "question": "What does it mean that the Great Pyramid 'still stands today'?",
+        "choices": {
+          "A": "It was just built recently",
+          "B": "It was built so well it has lasted thousands of years",
+          "C": "It is rebuilt every year",
+          "D": "It is only a model"
+        },
+        "correctAnswer": "B",
+        "explanation": "Still standing today means the pyramid was built so well that it has lasted thousands of years.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q40",
+        "section": "social",
+        "question": "Put these in order from first to last: a pharaoh dies, a pyramid tomb is built, the pharaoh's body is protected inside.",
+        "choices": {
+          "A": "Body protected, pharaoh dies, tomb built",
+          "B": "Tomb built, body protected, pharaoh dies",
+          "C": "Pyramid tomb is planned and built, the pharaoh's body is placed and protected inside",
+          "D": "Pharaoh dies, body protected, then tomb built"
+        },
+        "correctAnswer": "C",
+        "explanation": "A pyramid tomb was planned and built, then the pharaoh's body was placed and protected inside.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "Egyptian achievements like the calendar and medicine still amaze us today.",
         "standard": "SS.6.W.2.5",
         "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q11",
+        "section": "social",
+        "question": "Papyrus was made from what kind of plant?",
+        "choices": {
+          "A": "A desert cactus",
+          "B": "A fruit tree",
+          "C": "A type of grass from Greece",
+          "D": "A reed plant that grew along the Nile"
+        },
+        "correctAnswer": "D",
+        "explanation": "Papyrus was made from a reed plant that grew along the Nile.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q12",
+        "section": "social",
+        "question": "On which surfaces did Egyptians often write their hieroglyphics?",
+        "choices": {
+          "A": "Only on water",
+          "B": "Only on metal coins",
+          "C": "Temple walls and papyrus",
+          "D": "Only on glass"
+        },
+        "correctAnswer": "C",
+        "explanation": "Egyptians wrote hieroglyphics on temple walls and on papyrus.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q13",
+        "section": "social",
+        "question": "What made the Rosetta Stone so useful to scholars?",
+        "choices": {
+          "A": "It was made of gold",
+          "B": "It was the largest stone ever found",
+          "C": "It glowed in the dark",
+          "D": "It had the same message in hieroglyphics and Greek"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Rosetta Stone had the same message in hieroglyphics and Greek, which let scholars translate the symbols.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q14",
+        "section": "social",
+        "question": "Egyptians based their accurate calendar on what?",
+        "choices": {
+          "A": "The number of pyramids",
+          "B": "The price of papyrus",
+          "C": "The size of the pharaoh's tomb",
+          "D": "The Nile's flooding and the stars"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Egyptian 365-day calendar was based on the Nile's flooding and the stars.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q15",
+        "section": "social",
+        "question": "Studying the stars is part of which field the Egyptians were skilled in?",
+        "choices": {
+          "A": "Medicine",
+          "B": "Farming",
+          "C": "Cooking",
+          "D": "Astronomy"
+        },
+        "correctAnswer": "D",
+        "explanation": "Studying the stars is astronomy, one of Egypt's skilled fields.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q16",
+        "section": "social",
+        "question": "Which writing system belonged to Sumer, NOT Egypt?",
+        "choices": {
+          "A": "Hieroglyphics",
+          "B": "Papyrus letters",
+          "C": "Cuneiform",
+          "D": "The Rosetta script"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cuneiform was Sumer's writing system; hieroglyphics belonged to Egypt.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q17",
+        "section": "social",
+        "question": "Why did it take special trained people to write hieroglyphics?",
+        "choices": {
+          "A": "There were thousands of symbols to learn",
+          "B": "Writing was against the law",
+          "C": "There was no paper",
+          "D": "Only the pharaoh was allowed to read"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hieroglyphics had thousands of symbols, so trained scribes were needed to learn them.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q18",
+        "section": "social",
+        "question": "Setting bones and treating wounds are examples of Egyptian skill in what field?",
+        "choices": {
+          "A": "Astronomy",
+          "B": "Medicine",
+          "C": "Writing",
+          "D": "Engineering"
+        },
+        "correctAnswer": "B",
+        "explanation": "Setting bones and treating wounds are examples of Egyptian medicine.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q19",
+        "section": "social",
+        "question": "Which of these was NOT a field the Egyptians were skilled in?",
+        "choices": {
+          "A": "Medicine",
+          "B": "Mathematics",
+          "C": "Astronomy",
+          "D": "Building cars"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptians were skilled in medicine, mathematics, astronomy, and engineering, but cars did not exist.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q20",
+        "section": "social",
+        "question": "Before the Rosetta Stone was understood, what was true about hieroglyphics?",
+        "choices": {
+          "A": "Everyone could read them easily",
+          "B": "They were written in English",
+          "C": "For a long time no one could read them",
+          "D": "They were used to count money"
+        },
+        "correctAnswer": "C",
+        "explanation": "For a long time no one could read hieroglyphics until the Rosetta Stone helped.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q21",
+        "section": "social",
+        "question": "Which best describes a scribe?",
+        "choices": {
+          "A": "A soldier who guarded the pharaoh",
+          "B": "A farmer along the Nile",
+          "C": "A builder of pyramids",
+          "D": "A trained writer who knew hieroglyphics"
+        },
+        "correctAnswer": "D",
+        "explanation": "A scribe was a trained writer who learned the hieroglyphic symbols.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q22",
+        "section": "social",
+        "question": "How was a 365-day calendar helpful to Egyptian farmers?",
+        "choices": {
+          "A": "It told them when to expect the Nile's flooding",
+          "B": "It made the pyramids taller",
+          "C": "It taught them to write",
+          "D": "It replaced the need for water"
+        },
+        "correctAnswer": "A",
+        "explanation": "The calendar helped farmers know when to expect the Nile's flooding so they could plan crops.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q23",
+        "section": "social",
+        "question": "Hieroglyphics and cuneiform were alike because both were what?",
+        "choices": {
+          "A": "Spoken languages only",
+          "B": "Made of metal",
+          "C": "Early writing systems of ancient civilizations",
+          "D": "Used only for music"
+        },
+        "correctAnswer": "C",
+        "explanation": "Both hieroglyphics and cuneiform were early writing systems of ancient civilizations.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q24",
+        "section": "social",
+        "question": "Why is the invention of writing considered an important achievement?",
+        "choices": {
+          "A": "It let people record and share ideas and information",
+          "B": "It made the Nile flood",
+          "C": "It built the pyramids by itself",
+          "D": "It had no real use"
+        },
+        "correctAnswer": "A",
+        "explanation": "Writing let people record and share ideas and information, making it an important achievement.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q25",
+        "section": "social",
+        "question": "Which is the BEST summary of this lesson?",
+        "choices": {
+          "A": "Egypt had no achievements",
+          "B": "Egypt created picture writing and made advances in science and math",
+          "C": "Egypt only built boats",
+          "D": "Egypt copied all its ideas from Rome"
+        },
+        "correctAnswer": "B",
+        "explanation": "The lesson shows Egypt created picture writing and made advances in science and math.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q26",
+        "section": "social",
+        "question": "Which tool of the Egyptians shows skill in mathematics?",
+        "choices": {
+          "A": "Their use of geometry",
+          "B": "Their reed boats",
+          "C": "Their mud bricks",
+          "D": "Their fishing nets"
+        },
+        "correctAnswer": "A",
+        "explanation": "Egyptian use of geometry shows their skill in mathematics.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q27",
+        "section": "social",
+        "question": "If a scientist today is impressed by the Egyptian calendar, what does that suggest?",
+        "choices": {
+          "A": "The calendar was wrong",
+          "B": "Egyptians were not very smart",
+          "C": "The Egyptians' achievement was advanced for its time",
+          "D": "The calendar was never used"
+        },
+        "correctAnswer": "C",
+        "explanation": "A modern scientist being impressed suggests the Egyptian calendar was advanced for its time.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q28",
+        "section": "social",
+        "question": "Which statement about papyrus is TRUE?",
+        "choices": {
+          "A": "It was made of stone",
+          "B": "It was an early kind of paper",
+          "C": "It was a type of pyramid",
+          "D": "It was a writing system"
+        },
+        "correctAnswer": "B",
+        "explanation": "Papyrus was an early kind of paper made from a reed plant.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q29",
+        "section": "social",
+        "question": "Which pairing is correct?",
+        "choices": {
+          "A": "Egypt = cuneiform",
+          "B": "Sumer = hieroglyphics",
+          "C": "Egypt = the Rosetta Stone's only language",
+          "D": "Egypt = hieroglyphics"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egypt is correctly paired with hieroglyphics.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q30",
+        "section": "social",
+        "question": "What did Egyptian scribes mainly do?",
+        "choices": {
+          "A": "Read and write the hieroglyphic symbols",
+          "B": "Lead armies into battle",
+          "C": "Build all the pyramids",
+          "D": "Rule the whole country"
+        },
+        "correctAnswer": "A",
+        "explanation": "Scribes mainly read and wrote the hieroglyphic symbols.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q31",
+        "section": "social",
+        "question": "Why might temple walls covered in hieroglyphics be useful to historians today?",
+        "choices": {
+          "A": "They tell us nothing",
+          "B": "They record Egyptian beliefs and history in writing",
+          "C": "They are made of gold",
+          "D": "They show modern technology"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hieroglyphics on temple walls record Egyptian beliefs and history, helping historians learn about Egypt.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q32",
+        "section": "social",
+        "question": "Which field would an Egyptian use to study the movement of the stars?",
+        "choices": {
+          "A": "Medicine",
+          "B": "Astronomy",
+          "C": "Writing",
+          "D": "Cooking"
+        },
+        "correctAnswer": "B",
+        "explanation": "Studying the movement of the stars is astronomy.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q33",
+        "section": "social",
+        "question": "Compared to carving on heavy stone, why was papyrus an improvement for writing?",
+        "choices": {
+          "A": "It was heavier and harder",
+          "B": "It could not hold ink",
+          "C": "It was lighter and easier to store records on",
+          "D": "It was made of metal"
+        },
+        "correctAnswer": "C",
+        "explanation": "Papyrus was lighter and easier to write and store records on than heavy stone.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q34",
+        "section": "social",
+        "question": "Which is the correct order of events about reading hieroglyphics?",
+        "choices": {
+          "A": "Hieroglyphics are invented, then for a long time no one can read them, then the Rosetta Stone helps translate them",
+          "B": "The Rosetta Stone is found, then hieroglyphics are invented",
+          "C": "Everyone reads them, then they are forgotten, then invented",
+          "D": "They are translated, then invented, then lost"
+        },
+        "correctAnswer": "A",
+        "explanation": "First hieroglyphics were invented, then for a long time no one could read them, then the Rosetta Stone helped translate them.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q35",
+        "section": "social",
+        "question": "Which of these is an example of Egyptian engineering?",
+        "choices": {
+          "A": "Singing songs",
+          "B": "Designing and building large structures",
+          "C": "Eating papyrus",
+          "D": "Painting the sky"
+        },
+        "correctAnswer": "B",
+        "explanation": "Designing and building large structures is an example of Egyptian engineering.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q36",
+        "section": "social",
+        "question": "What does the word 'achievement' mean in this lesson?",
+        "choices": {
+          "A": "A mistake",
+          "B": "A failure",
+          "C": "A great accomplishment",
+          "D": "A river"
+        },
+        "correctAnswer": "C",
+        "explanation": "An achievement is a great accomplishment, like Egypt's calendar and medicine.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q37",
+        "section": "social",
+        "question": "Which statement is NOT true about hieroglyphics?",
+        "choices": {
+          "A": "They were Egypt's picture writing",
+          "B": "Symbols stood for sounds, words, and ideas",
+          "C": "Scribes learned them",
+          "D": "They were the same thing as Sumer's cuneiform"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hieroglyphics were Egypt's own writing and were not the same as Sumer's cuneiform.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q38",
+        "section": "social",
+        "question": "How do Egyptian achievements like medicine and the calendar affect us when we say they 'still amaze scientists today'?",
+        "choices": {
+          "A": "They show the Egyptians made lasting, advanced discoveries",
+          "B": "They mean the discoveries were useless",
+          "C": "They prove Egyptians had no skills",
+          "D": "They show nothing about Egypt"
+        },
+        "correctAnswer": "A",
+        "explanation": "Still amazing scientists today shows the Egyptians made lasting, advanced discoveries.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q39",
+        "section": "social",
+        "question": "A student finds picture symbols carved on an Egyptian temple wall. What are they MOST likely looking at?",
+        "choices": {
+          "A": "Cuneiform",
+          "B": "Hieroglyphics",
+          "C": "Modern English",
+          "D": "Roman numerals"
+        },
+        "correctAnswer": "B",
+        "explanation": "Picture symbols on an Egyptian temple wall are most likely hieroglyphics.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q40",
+        "section": "social",
+        "question": "Which of the following is the BEST evidence that Egypt was a learned, advanced civilization?",
+        "choices": {
+          "A": "They had no writing",
+          "B": "They never studied the stars",
+          "C": "They created writing, an accurate calendar, and advances in medicine and math",
+          "D": "They could not count"
+        },
+        "correctAnswer": "C",
+        "explanation": "Creating writing, an accurate calendar, and advances in medicine and math is strong evidence Egypt was a learned, advanced civilization.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
       }
     ]
   }
