@@ -30,8 +30,10 @@ Structure each subject as **Book → Topics (the textbook chapters) → Sub-topi
 Every lesson gets all four:
 - 📖 **Learn** — worked examples that show HOW to do it (in the DB).
 - 📺 **Watch** — a REAL, **oEmbed-verified** video that **matches the exact lesson skill** (NO misguiding — verify the video's actual title/topic fits the lesson). Prefer Math with Mr. J / Khan Academy.
-- ✏️ **Practice** — **10 verified multiple-choice questions in the DB** (NO AI, $0 tokens). Reuses the quiz engine (sounds/points/streaks/feedback).
+- ✏️ **Practice** — **verified multiple-choice questions in the DB** (NO AI, $0 tokens). Reuses the quiz engine (sounds/points/streaks/feedback). **Build a DEEP bank (40 Q/lesson is the target — Math is built this way) and have the quiz pull a RANDOM 10 each replay** (Fisher-Yates shuffle + slice(0,10) in quiz.html lesson mode) so the kid gets fresh questions every time. A 10-only bank is the minimum; deepen to 40 when you can.
 - 🖨️ **Worksheet** — printable, 5 problems + answer key, keyed to the lesson.
+
+**Build it with a subagent PER TOPIC** (keep existing questions verbatim, ADD new ones to reach the target). **HARD ops rule:** push each file only AFTER the agent's completion notification — agents run a post-write QA/reshuffle pass, and pushing on "disk looks done" can ship a pre-QA file with a WRONG answer key (this bit Math t8 — a wrong IQR key went live for minutes). After the notification, `git status` the file; if Modified after your push, RE-VALIDATE (re-solve the items the agent says it fixed) and RE-PUSH. See memory `PITFALLS.md`.
 
 **ELA is special:** organize by the **state READING categories (weighted)** as passage SETS — NOT the textbook's themes — because FAST tests reading skills. Include the two-part evidence format (answer Q, then "which detail proves it" Q). Grammar/conventions = a separate small book.
 
