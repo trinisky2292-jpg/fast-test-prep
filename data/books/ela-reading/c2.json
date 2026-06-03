@@ -395,6 +395,683 @@
           "difficulty": "hard"
         }
       ]
+    },
+    {
+      "id": "c2-s4",
+      "title": "The Tryout",
+      "genre": "literary",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Tryout",
+          "author": "Renata Cole",
+          "text": "(Paragraph 1) Jamal had practiced the same three measures of music for a month, until his fingers knew them better than his own name. Tonight was the audition for first chair trumpet, and the band room smelled like old metal and nervous sweat. He sat in the hallway with the other students, his case balanced on his knees, listening to the muffled notes leaking through the door.\n\n(Paragraph 2) Across from him sat Devon, who had been first chair every year since fourth grade. Devon's foot tapped a steady rhythm, calm as a metronome. He caught Jamal staring and gave a small nod. \"You've gotten good,\" Devon said. \"I heard you in the practice room last week.\" Jamal blinked. He had not expected kindness from the person he most wanted to beat.\n\n(Paragraph 3) When his name was called, Jamal's legs felt like they belonged to someone else. He walked into the room, lifted the trumpet, and for one terrible second his mind went blank, white and empty as a fresh page. Then the first note found him, and the rest followed like water finding the bottom of a hill. He played the three measures he knew by heart, and a fourth he had not planned, a small flourish at the end that surprised even him.\n\n(Paragraph 4) Afterward, in the hallway, Devon was waiting. \"That ending,\" he said, shaking his head with a grin. \"Where did that come from?\" Jamal shrugged, but inside he felt a quiet warmth spreading. The results would not be posted until Monday. For now, it did not matter who got first chair. He had walked in afraid and walked out having played something true.\n\n(Paragraph 5) On the bus ride home, Jamal watched the streetlights slide past the window like notes on a staff. He hummed the flourish under his breath, learning it again so he would never lose it. Whatever Monday brought, he had found a piece of himself in that empty room, and no list on a wall could take it away."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s4-q1",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses a theme developed in the passage?",
+          "choices": {
+            "A": "Winning a competition is the only way to prove your worth.",
+            "B": "Doing your personal best can matter more than the final result.",
+            "C": "It is impossible to be friends with someone you compete against.",
+            "D": "Hard work always guarantees that you will come in first place."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Jamal decides that for now it does not matter who gets first chair because he \"walked out having played something true\" (paragraph 4), developing the theme that doing your personal best can matter more than the outcome.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s4-q2",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"Tonight was the audition for first chair trumpet . . .\" (paragraph 1)",
+            "B": "\"Devon's foot tapped a steady rhythm, calm as a metronome.\" (paragraph 2)",
+            "C": "\"Whatever Monday brought, he had found a piece of himself in that empty room . . .\" (paragraph 5)",
+            "D": "\"The band room smelled like old metal and nervous sweat.\" (paragraph 1)"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The sentence states that no matter the results, Jamal found something in himself that the list could not take away, directly supporting the theme that personal effort matters more than winning.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s4-q3",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 3: \"Then the first note found him, and the rest followed like water finding the bottom of a hill.\" What does this simile suggest about Jamal's playing?",
+          "choices": {
+            "A": "His playing was forced and difficult from start to finish.",
+            "B": "Once he began, the music flowed naturally and easily.",
+            "C": "He was unsure of every note he played.",
+            "D": "The music was as cold and unpleasant as water."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the notes to \"water finding the bottom of a hill\" suggests that once Jamal started, the music flowed naturally and effortlessly, just as water flows downhill on its own.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s4-q4",
+          "passageId": "p1",
+          "question": "How does Devon's behavior in paragraph 2 affect Jamal?",
+          "choices": {
+            "A": "It makes Jamal angry that his rival is so confident.",
+            "B": "It surprises Jamal because he did not expect kindness from a competitor.",
+            "C": "It convinces Jamal that he should quit the audition.",
+            "D": "It causes Jamal to forget the music he practiced."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. After Devon compliments his playing, the text states Jamal \"had not expected kindness from the person he most wanted to beat\" (paragraph 2), showing he is surprised by the kindness.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s4-q5",
+          "passageId": "p1",
+          "question": "Read this phrase from paragraph 3: \"his mind went blank, white and empty as a fresh page.\" What does this figurative language help the reader understand?",
+          "choices": {
+            "A": "Jamal was thinking clearly and calmly.",
+            "B": "Jamal momentarily could not remember anything because of nerves.",
+            "C": "Jamal was reading sheet music for the first time.",
+            "D": "Jamal had decided not to play at all."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing his blank mind to a \"fresh page\" that is white and empty shows that, for a terrible second, nerves made Jamal unable to remember anything before the first note found him.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s4-q6",
+          "passageId": "p1",
+          "question": "From whose point of view is the story told, and how does it shape the reader's understanding?",
+          "choices": {
+            "A": "First-person; the reader hears the story directly in Devon's voice.",
+            "B": "Second-person; the reader is addressed as a character in the band room.",
+            "C": "Third-person limited; the reader follows Jamal's thoughts and feelings only.",
+            "D": "Third-person omniscient; the reader knows every character's inner thoughts equally."
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The narrator reveals only Jamal's inner experience (\"inside he felt a quiet warmth spreading\") and not the private thoughts of Devon or others, which is third-person limited.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s4-q7",
+          "passageId": "p1",
+          "question": "What is the central conflict in the passage?",
+          "choices": {
+            "A": "Jamal argues with Devon about who deserves first chair.",
+            "B": "Jamal struggles with his own nervousness as he tries to perform his best.",
+            "C": "Jamal cannot find the band room before the audition begins.",
+            "D": "Jamal disagrees with the band director about the music."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The conflict centers on Jamal's nerves—his legs feel like someone else's and his mind goes blank—as he struggles to perform his best, making it largely an internal conflict.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s4-q8",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 5: \"Jamal watched the streetlights slide past the window like notes on a staff.\" Why does the author MOST likely use this comparison?",
+          "choices": {
+            "A": "To show that Jamal is bored and ready to go to sleep.",
+            "B": "To connect Jamal's surroundings to music and his lasting joy in playing.",
+            "C": "To explain that the bus is moving very slowly.",
+            "D": "To suggest that Jamal regrets auditioning."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the streetlights to \"notes on a staff\" links Jamal's everyday surroundings to music, reflecting how the audition and his joy in playing now shape the way he sees the world.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c2-s5",
+      "title": "Morning at the Window",
+      "genre": "poetry",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Morning at the Window",
+          "author": "Imani Walsh",
+          "text": "(Stanza 1)\nThe morning taps the windowpane\nwith fingers made of light,\nand pulls the blanket off the dark\nthe way you'd end a night.\n\n(Stanza 2)\nThe kettle starts to whisper,\nthe floorboards softly groan,\nthe house begins to wake itself\nbefore I am alone.\n\n(Stanza 3)\nThe sparrows trade their secrets\nin chatter, quick and bright;\nthe sun climbs up the garden wall\nand sets the dew alight.\n\n(Stanza 4)\nI used to sleep through mornings,\nI used to miss them all—\nbut now I rise to hear the day\nbegin its gentle call.\n\n(Stanza 5)\nSo let the morning tap again,\nwith fingers made of light;\nI'll meet it at the window\nand thank it for the sight."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s5-q1",
+          "passageId": "p1",
+          "question": "In stanza 1, the morning \"taps the windowpane / with fingers made of light.\" What type of figurative language is this?",
+          "choices": {
+            "A": "Personification, because the morning is given human actions.",
+            "B": "Hyperbole, because the morning is wildly exaggerated.",
+            "C": "Alliteration, because the words begin with the same sound.",
+            "D": "Onomatopoeia, because the words imitate real sounds."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Giving the morning \"fingers\" that \"tap\" the window is personification, because a human action and body part are given to something that is not human.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s5-q2",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses a theme developed in the poem?",
+          "choices": {
+            "A": "Mornings are noisy and should be avoided.",
+            "B": "Paying attention to small moments brings a quiet kind of joy.",
+            "C": "Sleeping late is the best way to start the day.",
+            "D": "Nature is unpredictable and frightening at dawn."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The speaker once slept through mornings but now rises to notice the kettle, the sparrows, and the dew, developing the theme that noticing small moments brings quiet joy.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s5-q3",
+          "passageId": "p1",
+          "question": "Which line from the poem BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"The kettle starts to whisper,\" (stanza 2)",
+            "B": "\"the floorboards softly groan,\" (stanza 2)",
+            "C": "\"but now I rise to hear the day / begin its gentle call.\" (stanza 4)",
+            "D": "\"the house begins to wake itself\" (stanza 2)"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The lines contrast the speaker's old habit of missing mornings with now rising to experience the day, directly supporting the theme that noticing small moments brings joy.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s5-q4",
+          "passageId": "p1",
+          "question": "Read this line from stanza 1: \"and pulls the blanket off the dark.\" What does this image suggest?",
+          "choices": {
+            "A": "Someone is cold and looking for a blanket.",
+            "B": "The light of morning removes the darkness, like uncovering something.",
+            "C": "The night refuses to leave the room.",
+            "D": "A storm is covering the sky in clouds."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Picturing the morning pulling a blanket off the dark creates an image of light uncovering and removing the darkness, the way pulling off a blanket reveals what is beneath.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s5-q5",
+          "passageId": "p1",
+          "question": "How does the repetition of \"with fingers made of light\" in stanzas 1 and 5 contribute to the poem?",
+          "choices": {
+            "A": "It shows that the speaker is confused about the time of day.",
+            "B": "It frames the poem by opening and closing with the same image, giving it a sense of completion.",
+            "C": "It proves that the morning never actually arrives.",
+            "D": "It signals that the poem has lost its rhythm."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Repeating \"with fingers made of light\" at the beginning and the end frames the poem with the same image, giving it a satisfying sense of completion and return.",
+          "standard": "ELA.6.R.3.3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s5-q6",
+          "passageId": "p1",
+          "question": "What is the overall mood of the poem?",
+          "choices": {
+            "A": "tense and fearful",
+            "B": "peaceful and grateful",
+            "C": "angry and impatient",
+            "D": "gloomy and hopeless"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Gentle images like the whispering kettle, the bright sparrows, and the speaker thanking the morning \"for the sight\" create a peaceful and grateful mood.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s5-q7",
+          "passageId": "p1",
+          "question": "In stanza 3, the sparrows \"trade their secrets / in chatter, quick and bright.\" What does this language MOST help the reader picture?",
+          "choices": {
+            "A": "Birds sitting silently in the garden.",
+            "B": "Lively, fast bird sounds that fill the morning.",
+            "C": "Birds that are too tired to sing.",
+            "D": "A single bird far away in the distance."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Describing the sparrows trading secrets in \"chatter, quick and bright\" helps the reader picture lively, fast bird sounds that fill the morning with life.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s5-q8",
+          "passageId": "p1",
+          "question": "Select TWO examples of personification from the poem.",
+          "choices": {
+            "A": "\"The kettle starts to whisper,\" (stanza 2)",
+            "B": "\"the sun climbs up the garden wall\" (stanza 3)",
+            "C": "\"I used to sleep through mornings,\" (stanza 4)",
+            "D": "\"I'll meet it at the window\" (stanza 5)",
+            "E": "\"and thank it for the sight.\" (stanza 5)"
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. A kettle cannot literally \"whisper\" and the sun cannot literally \"climb,\" so both lines give human actions to nonhuman things, which is personification.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c2-s6",
+      "title": "The Lamplighter's Apprentice",
+      "genre": "literary",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Lamplighter's Apprentice",
+          "author": "Cormac Ellison",
+          "text": "(Paragraph 1) In the year before electric lights came to the city, Nell carried the long brass pole every evening at dusk, walking three steps behind old Mr. Pruitt. He was the lamplighter for Harrow Street, and she was the first girl ever to learn the trade. The neighbors had murmured about it for weeks. A girl, climbing ladders, handling flame. But Mr. Pruitt had only said, \"The lamps don't care whose hands light them,\" and that had settled the matter for him, if not for the street.\n\n(Paragraph 2) The work was harder than it looked. Each iron lamppost had to be reached, the small door opened, the gas turned just so, the flame touched to the wick before the wind could steal it. Nell's arms burned from holding the pole steady. Her fingers were stained gray with soot. But there was a magic in it she could not explain: the way each lamp bloomed gold against the deepening blue, the way the street seemed to wake one light at a time, as if she were stitching the evening together.\n\n(Paragraph 3) One night a sharp wind came off the river. The flame at the corner of Harrow and Vine kept guttering out. Mr. Pruitt's hands had grown unsteady that winter, and he stepped back, breathing hard. \"It won't catch,\" he muttered, and Nell heard something in his voice she had never heard before—the sound of a man doubting himself. She did not say a word. She simply stepped forward, cupped her free hand against the wind, and tried again.\n\n(Paragraph 4) The flame caught. It steadied, then swelled, and the lamp glowed warm above them. Mr. Pruitt looked at the light, then at Nell, and something in his weathered face softened. \"You've got the touch,\" he said quietly. \"More than I had at your age.\" Nell felt her cheeks grow hot, but she lifted her chin. For the first time, the long pole felt light in her hands.\n\n(Paragraph 5) They walked the rest of Harrow Street in silence, lighting the lamps one by one. Somewhere across the city, the first electric bulbs were already burning, and both of them knew the day would come when no one would need a pole and a flame. But that night the gas lamps glowed like a row of small moons, and Nell walked taller, knowing the street was hers to keep, at least a little while longer."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s6-q1",
+          "passageId": "p1",
+          "question": "How does Nell change from the beginning of the passage to the end?",
+          "choices": {
+            "A": "She decides that lamplighting is not the right trade for her.",
+            "B": "She grows from a doubted apprentice into someone confident in her skill.",
+            "C": "She becomes angry at the neighbors who murmured about her.",
+            "D": "She loses interest in the work once electric lights arrive."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Nell begins as the doubted first girl in the trade, but after lighting the difficult lamp she lifts her chin and \"walked taller\" (paragraphs 4-5), showing she has grown confident in her skill.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s6-q2",
+          "passageId": "p1",
+          "question": "Which detail from the passage BEST supports the answer to the previous question?",
+          "choices": {
+            "A": "\"The neighbors had murmured about it for weeks.\" (paragraph 1)",
+            "B": "\"Her fingers were stained gray with soot.\" (paragraph 2)",
+            "C": "\"For the first time, the long pole felt light in her hands.\" (paragraph 4)",
+            "D": "\"A sharp wind came off the river.\" (paragraph 3)"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The pole feeling \"light in her hands\" for the first time shows Nell's new confidence after she succeeds where Mr. Pruitt could not, marking her growth.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s6-q3",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 2: \"the way the street seemed to wake one light at a time, as if she were stitching the evening together.\" What does this figurative language suggest about Nell's work?",
+          "choices": {
+            "A": "Her work is dull and repetitive with no meaning.",
+            "B": "Her work feels creative and connected, like making something whole.",
+            "C": "Her work is dangerous and likely to fail.",
+            "D": "Her work involves sewing actual fabric in the street."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the lighting of each lamp to \"stitching the evening together\" suggests Nell's work feels creative and connected, as if she is bringing the whole evening together piece by piece.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s6-q4",
+          "passageId": "p1",
+          "question": "What can the reader infer about Mr. Pruitt from paragraph 3?",
+          "choices": {
+            "A": "He is eager to give up the trade and let Nell take over completely.",
+            "B": "He is beginning to doubt himself as his hands grow unsteady with age.",
+            "C": "He is angry that Nell stepped forward without asking.",
+            "D": "He does not believe the lamp can ever be lit."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The text says his hands had \"grown unsteady that winter\" and Nell heard \"the sound of a man doubting himself,\" which lets the reader infer that age is causing him to doubt his own abilities.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s6-q5",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 5: \"the gas lamps glowed like a row of small moons.\" What does this simile help the reader picture?",
+          "choices": {
+            "A": "Lamps that are cold, distant, and unwelcoming.",
+            "B": "A line of soft, round, glowing lights along the street.",
+            "C": "Lamps that have burned out and gone dark.",
+            "D": "The actual moon reflected in the river water."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the lamps to \"a row of small moons\" helps the reader picture a line of soft, round, glowing lights running along the street.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s6-q6",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses a theme developed in the passage?",
+          "choices": {
+            "A": "New technology always ruins the lives of those it replaces.",
+            "B": "Skill and belonging can be earned through effort, even against doubt.",
+            "C": "It is wrong to learn a trade that may soon disappear.",
+            "D": "Older workers can never accept help from younger ones."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Despite the neighbors' doubt and the challenge of the wind, Nell earns Mr. Pruitt's respect and feels the street is \"hers to keep,\" developing the theme that skill and belonging can be earned through effort.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s6-q7",
+          "passageId": "p1",
+          "question": "How does the detail about electric lights in paragraph 5 affect the mood of the ending?",
+          "choices": {
+            "A": "It makes the ending purely joyful with no sadness at all.",
+            "B": "It adds a touch of bittersweetness, since Nell's triumph may not last.",
+            "C": "It makes the ending frightening and full of danger.",
+            "D": "It shows that Nell has decided to become an electrician instead."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Knowing that electric bulbs are already burning and the day will come when no one needs the pole adds bittersweetness to Nell's triumph, since her success may not last.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s6-q8",
+          "passageId": "p1",
+          "question": "In paragraph 1, Mr. Pruitt says, \"The lamps don't care whose hands light them.\" What does this line reveal about his character?",
+          "choices": {
+            "A": "He judges people based on what others in the neighborhood think.",
+            "B": "He believes a person's ability matters more than their being a girl or boy.",
+            "C": "He does not care whether the lamps are lit at all.",
+            "D": "He wishes he had never taken on an apprentice."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. By saying the lamps do not care whose hands light them, Mr. Pruitt shows he believes ability matters more than whether the apprentice is a girl, setting aside the neighbors' prejudice.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "c2-s7",
+      "title": "The Science Fair Partners",
+      "genre": "drama",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Science Fair Partners",
+          "author": "Priscilla Hahn",
+          "text": "(Stage directions) A school library, after hours. A long table is covered with poster board, markers, and a half-built model volcano. MARISOL sits with her arms crossed. THEO paces, holding a crumpled rubric.\n\n(Paragraph 1) THEO: We have two days. Two days, Marisol, and the volcano still doesn't erupt. Mr. Dale said the eruption is forty percent of the grade.\n\n(Paragraph 2) MARISOL: (not looking up) I told you we should have done the solar oven. Nobody trusts a baking-soda volcano. It's been done a thousand times.\n\n(Paragraph 3) THEO: (stopping) So that's it? You're just going to sit there and say I told you so?\n\n(Paragraph 4) MARISOL: (finally meeting his eyes) I'm saying I had a better idea and nobody listened. (a pause) But I'm still here, aren't I? It's eight o'clock and I'm still in this library with you.\n\n(Paragraph 5) (THEO sets down the rubric. He pulls out the chair across from her and sits.)\n\n(Paragraph 6) THEO: You're right. I should have listened. (quietly) I just panicked. I always pick the safe thing because I'm scared of looking stupid.\n\n(Paragraph 7) MARISOL: (her voice softening) The volcano isn't stupid. It's just... tired. (She reaches across the table and picks up a marker.) But what if we made it honest? We show why everyone uses baking soda, the actual chemistry, the gas, the pressure. We make the boring volcano interesting on purpose.\n\n(Paragraph 8) THEO: (a slow smile) \"The Most Honest Volcano in the Sixth Grade.\"\n\n(Paragraph 9) MARISOL: (almost laughing) Now you're getting it. (She uncaps the marker.) Hand me the red. We've got a volcano to save."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s7-q1",
+          "passageId": "p1",
+          "question": "What is the central conflict at the start of the scene?",
+          "choices": {
+            "A": "Theo and Marisol disagree about a school rule.",
+            "B": "Theo and Marisol are in tension over a project that is not going well.",
+            "C": "Theo and Marisol are competing against each other for a prize.",
+            "D": "Theo and Marisol cannot find their way out of the library."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Theo is anxious that the volcano \"still doesn't erupt\" with two days left, and Marisol is frustrated that her idea was ignored, creating tension between the partners over a failing project.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s7-q2",
+          "passageId": "p1",
+          "question": "What do the stage directions \"MARISOL sits with her arms crossed\" and \"THEO paces\" reveal at the opening of the scene?",
+          "choices": {
+            "A": "Both characters are relaxed and confident.",
+            "B": "Marisol is closed off and Theo is anxious.",
+            "C": "Both characters are excited about the project.",
+            "D": "Neither character cares about the science fair."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Crossed arms suggest Marisol is closed off or defensive, while pacing shows Theo is nervous and anxious, establishing the tension between them before they speak.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s7-q3",
+          "passageId": "p1",
+          "question": "What motivates Theo's choice to \"always pick the safe thing\" in paragraph 6?",
+          "choices": {
+            "A": "He wants to win at any cost.",
+            "B": "He is afraid of looking foolish in front of others.",
+            "C": "He does not trust Marisol's abilities.",
+            "D": "He dislikes science projects in general."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Theo admits, \"I always pick the safe thing because I'm scared of looking stupid,\" revealing that fear of looking foolish motivates his cautious choices.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s7-q4",
+          "passageId": "p1",
+          "question": "How does the relationship between Theo and Marisol change over the course of the scene?",
+          "choices": {
+            "A": "They move from conflict toward cooperation.",
+            "B": "They become angrier and decide to work separately.",
+            "C": "They remain exactly as distant as they were at the start.",
+            "D": "They give up on the project entirely."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The scene begins with arms crossed and accusations but ends with Theo apologizing, Marisol offering a plan, and the two laughing as they agree to \"save\" the volcano together, showing a shift from conflict to cooperation.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s7-q5",
+          "passageId": "p1",
+          "question": "In paragraph 7, Marisol says the volcano \"isn't stupid. It's just... tired.\" What does she mean by calling the volcano \"tired\"?",
+          "choices": {
+            "A": "The volcano model is broken and cannot be fixed.",
+            "B": "The volcano idea is overused, so it needs a fresh approach.",
+            "C": "The volcano needs to rest before it can erupt.",
+            "D": "Marisol is too sleepy to keep working."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Earlier Marisol notes the baking-soda volcano \"has been done a thousand times,\" so calling it \"tired\" means the idea is overused and needs a fresh, honest approach.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s7-q6",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses a theme developed in the scene?",
+          "choices": {
+            "A": "It is best to work alone to avoid arguments.",
+            "B": "Listening to each other can turn a problem into a fresh idea.",
+            "C": "Safe choices are always the smartest ones to make.",
+            "D": "Science fairs are not worth the stress they cause."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Once Theo admits he should have listened and Marisol shares her plan to make the volcano \"honest,\" the partners turn their problem into a fresh idea, developing the theme that listening to one another leads to better solutions.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s7-q7",
+          "passageId": "p1",
+          "question": "The stage direction in paragraph 5 reads, \"THEO sets down the rubric... and sits.\" How does this action support the scene?",
+          "choices": {
+            "A": "It shows Theo is giving up and leaving the library.",
+            "B": "It signals Theo is calming down and becoming ready to listen.",
+            "C": "It reveals Theo is too tired to continue the project.",
+            "D": "It proves Theo is angrier than before."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Setting down the rubric (a symbol of his panic over the grade) and sitting across from Marisol signals that Theo is calming down and becoming ready to listen, right before he apologizes.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s7-q8",
+          "passageId": "p1",
+          "question": "Select TWO details that show the partners begin working together by the end of the scene.",
+          "choices": {
+            "A": "\"I told you we should have done the solar oven.\" (paragraph 2)",
+            "B": "\"But what if we made it honest?\" (paragraph 7)",
+            "C": "\"I just panicked.\" (paragraph 6)",
+            "D": "\"Hand me the red. We've got a volcano to save.\" (paragraph 9)",
+            "E": "\"You're just going to sit there and say I told you so?\" (paragraph 3)"
+          },
+          "correctAnswer": ["B", "D"],
+          "explanation": "Options B and D are correct. Marisol's \"what if WE made it honest\" and \"Hand me the red. WE'VE got a volcano to save\" both use \"we,\" showing the partners are now cooperating by the end of the scene.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c2-s8",
+      "title": "The Note in the Locker",
+      "genre": "literary",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Note in the Locker",
+          "author": "Dahlia Reyes",
+          "text": "(Paragraph 1) The note was folded into a tight little square, tucked through the vent of Wren's locker like a moth that had crawled in to die. She almost didn't see it. When she unfolded it, the message was only four words long, written in careful block letters: YOU DON'T BELONG HERE. There was no name. Wren read it three times, as if the words might rearrange themselves into something kinder. They did not.\n\n(Paragraph 2) She was new this year, the kind of new that follows you down every hallway. She had moved in October, which everyone knew was the worst time to move, after the friendships had already hardened like cooling glass. She had spent six weeks being polite and invisible, eating lunch at the end of a table where no one quite looked at her. The note, at least, meant someone had noticed her. The thought was so bleak it almost made her laugh.\n\n(Paragraph 3) For three days Wren carried the note in her pocket. It sat there like a stone. She studied the people around her, wondering which of them had written it, until every face seemed to hide a small cruelty. She stopped raising her hand. She stopped looking up. The note had done exactly what it was meant to do: it had made the whole school feel like a door closing in her face.\n\n(Paragraph 4) On the fourth day, a girl named Priya slid into the seat beside her in the library. \"You're the one who knew the answer about the rainforest,\" Priya said. \"In Ms. Okafor's class. Nobody else knew it.\" Wren waited for the cruelty she had learned to expect. It did not come. Priya just opened her notebook and asked, almost shyly, if Wren wanted to study together.\n\n(Paragraph 5) That night Wren took the note out one last time. She had imagined burning it, or tearing it into confetti. Instead she smoothed it flat and looked at the four small words. They were still unkind. But they were also, she realized, just four words written by one frightened person, and they were not the truth. She dropped the note in the trash and, for the first time in weeks, did not lie awake wondering who she was supposed to be."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c2-s8-q1",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 1: \"The note was folded into a tight little square, tucked through the vent of Wren's locker like a moth that had crawled in to die.\" What mood does this simile help create?",
+          "choices": {
+            "A": "a cheerful, playful mood",
+            "B": "a bleak, unsettling mood",
+            "C": "a calm, peaceful mood",
+            "D": "an exciting, adventurous mood"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the note to \"a moth that had crawled in to die\" creates a bleak, unsettling mood that matches the cruel message Wren is about to read.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s8-q2",
+          "passageId": "p1",
+          "question": "Read this phrase from paragraph 2: \"after the friendships had already hardened like cooling glass.\" What does this simile suggest about Wren's situation?",
+          "choices": {
+            "A": "The other students were fragile and easily hurt.",
+            "B": "The existing friendships had become fixed and hard to enter.",
+            "C": "The school building was made of glass.",
+            "D": "Wren preferred to be alone rather than make friends."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the friendships to \"cooling glass\" that has \"hardened\" suggests they had become set and difficult for a newcomer like Wren to break into.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s8-q3",
+          "passageId": "p1",
+          "question": "How does the note affect Wren's behavior in paragraph 3?",
+          "choices": {
+            "A": "It makes her more confident and outgoing.",
+            "B": "It causes her to withdraw and stop participating.",
+            "C": "It pushes her to confront everyone in the school.",
+            "D": "It convinces her to move to a new school."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. After carrying the note for three days, Wren \"stopped raising her hand\" and \"stopped looking up,\" showing she withdrew and stopped participating because of it.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s8-q4",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses a theme developed in the passage?",
+          "choices": {
+            "A": "Cruel words always have the final say over how we feel.",
+            "B": "One unkind message does not have to define who you are.",
+            "C": "Moving to a new school is always a mistake.",
+            "D": "It is best to keep painful memories forever."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Wren realizes the note's four words are \"not the truth\" and throws it away, developing the theme that one unkind message does not have to define a person.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s8-q5",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the theme identified in the previous question?",
+          "choices": {
+            "A": "\"She was new this year, the kind of new that follows you down every hallway.\" (paragraph 2)",
+            "B": "\"For three days Wren carried the note in her pocket.\" (paragraph 3)",
+            "C": "\"But they were also, she realized, just four words written by one frightened person, and they were not the truth.\" (paragraph 5)",
+            "D": "\"Wren waited for the cruelty she had learned to expect.\" (paragraph 4)"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. Wren's realization that the words were written by \"one frightened person\" and \"were not the truth\" captures the theme that an unkind message does not have to define her.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c2-s8-q6",
+          "passageId": "p1",
+          "question": "How does Priya's action in paragraph 4 serve as a turning point in the passage?",
+          "choices": {
+            "A": "It confirms Wren's fear that everyone is cruel.",
+            "B": "It offers Wren unexpected kindness that begins to change how she feels.",
+            "C": "It reveals that Priya wrote the note in the locker.",
+            "D": "It causes Wren to leave the library immediately."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Priya compliments Wren and asks to study together, offering kindness when Wren expected cruelty, which begins to shift her outlook and leads to her throwing away the note.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s8-q7",
+          "passageId": "p1",
+          "question": "From whose point of view is the story told, and how does this shape the reader's understanding?",
+          "choices": {
+            "A": "First-person; the reader hears the story in Priya's own voice.",
+            "B": "Third-person limited; the reader closely follows Wren's thoughts and feelings.",
+            "C": "Second-person; the reader is addressed directly as Wren.",
+            "D": "Third-person omniscient; the reader knows what every student is thinking."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The narrator stays close to Wren's inner experience (\"Wren waited for the cruelty she had learned to expect\") without revealing others' private thoughts, which is third-person limited.",
+          "standard": "ELA.6.R.1.2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c2-s8-q8",
+          "passageId": "p1",
+          "question": "Read this sentence from paragraph 3: \"It had made the whole school feel like a door closing in her face.\" What does this figurative language suggest?",
+          "choices": {
+            "A": "The school was literally locking its doors against Wren.",
+            "B": "The note made Wren feel shut out and unwelcome everywhere.",
+            "C": "Wren was eager to explore every room in the school.",
+            "D": "The hallways at the school were too narrow to walk through."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Comparing the school to \"a door closing in her face\" suggests the note made Wren feel shut out and unwelcome throughout the whole school.",
+          "standard": "ELA.6.R.3.1",
+          "difficulty": "medium"
+        }
+      ]
     }
   ]
 }

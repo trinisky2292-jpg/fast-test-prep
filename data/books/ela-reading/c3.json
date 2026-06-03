@@ -380,6 +380,691 @@
           "difficulty": "medium"
         }
       ]
+    },
+    {
+      "id": "c3-s4",
+      "title": "Why the Sky Turns Blue",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "The Science Behind a Blue Sky",
+          "author": null,
+          "text": "Paragraph 1: Look up on a clear afternoon and the sky stretches out in a brilliant shade of blue. People once thought the color came from the ocean reflecting upward, or from blue gases floating high above. Neither idea is correct. The true reason the sky looks blue has to do with sunlight and the tiny molecules of air that surround our planet.\n\nParagraph 2: Sunlight may appear white, but it is actually a mixture of every color of the rainbow. Each color travels as a wave, and the waves are not all the same size. Red and orange light move in long, lazy waves. Blue and violet light move in short, tight waves. This difference in wave size is the key to the whole mystery.\n\nParagraph 3: When sunlight enters Earth's atmosphere, it crashes into countless gas molecules, mostly nitrogen and oxygen. These molecules are very small. Short waves of light bounce off small molecules much more easily than long waves do. As a result, blue light scatters in every direction across the sky, while red and orange light mostly pass straight through. Scientists call this scattering of short waves the Rayleigh effect, named after the British scientist who first explained it.\n\nParagraph 4: Because blue light bounces all around the sky, your eyes catch it no matter which direction you look. That is why the whole dome above you glows blue rather than just the spot where the Sun sits. You might wonder why the sky does not look violet, since violet waves are even shorter than blue ones. The answer is twofold: the Sun sends out less violet light to begin with, and human eyes are simply more sensitive to blue.\n\nParagraph 5: The same science explains the fiery colors of sunset. When the Sun sinks toward the horizon, its light must travel through much more air to reach your eyes. Along that longer path, nearly all the blue light scatters away before it arrives. What remains are the long red and orange waves, which paint the evening sky in warm, glowing colors. The blue has not disappeared; it has simply been scattered out of your line of sight.\n\nParagraph 6: So the next time you admire a blue afternoon or a red sunset, remember that you are watching physics in action. The colors are not painted on the sky. They are the result of sunlight, air molecules, and the simple fact that short waves scatter more than long ones."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s4-q1",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses the central idea of the passage?",
+          "choices": {
+            "A": "The ocean reflects its blue color up onto the sky above it.",
+            "B": "The sky appears blue because air molecules scatter short blue waves of sunlight.",
+            "C": "Sunlight is made of only two colors, red and blue, mixed together.",
+            "D": "Human eyes cannot see violet light at any time of day."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The whole passage explains that the sky looks blue because tiny air molecules scatter the short blue waves of sunlight in every direction. The other choices are either ideas the passage rejects or distortions of details in the text.",
+          "standard": "ELA.6.R.2.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s4-q2",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the central idea?",
+          "choices": {
+            "A": "\"People once thought the color came from the ocean reflecting upward . . .\" (paragraph 1)",
+            "B": "\"Short waves of light bounce off small molecules much more easily than long waves do.\" (paragraph 3)",
+            "C": "\"Each color travels as a wave, and the waves are not all the same size.\" (paragraph 2)",
+            "D": "\"The colors are not painted on the sky.\" (paragraph 6)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence states the heart of the explanation: short blue waves scatter off small air molecules far more than long waves, which is why the sky looks blue. The other sentences set up background or restate the idea more generally.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s4-q3",
+          "passageId": "p1",
+          "question": "Which text structure does the author MAINLY use in paragraph 3?",
+          "choices": {
+            "A": "cause and effect",
+            "B": "compare and contrast between two countries",
+            "C": "a problem followed by several solutions",
+            "D": "a step-by-step recipe for making a color"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Paragraph 3 shows a cause and its effect: because short waves bounce off small molecules easily, blue light scatters across the sky while red light passes through. The text explains why something happens, which is cause and effect.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s4-q4",
+          "passageId": "p1",
+          "question": "Read this sentence from the passage: \"As a result, blue light scatters in every direction across the sky . . .\" (paragraph 3) What does the word scatters mean as it is used in this sentence?",
+          "choices": {
+            "A": "spreads out and bounces in many directions",
+            "B": "gathers tightly into one bright spot",
+            "C": "disappears completely from the sky",
+            "D": "changes from blue into red"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The sentence says the blue light goes \"in every direction across the sky,\" so scatters means it spreads out and bounces in many directions. The other meanings contradict the context.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s4-q5",
+          "passageId": "p1",
+          "question": "Based on paragraph 4, why does the sky NOT appear violet even though violet waves are shorter than blue ones?",
+          "choices": {
+            "A": "Violet light scatters less than red light does.",
+            "B": "The Sun sends out less violet light and human eyes are more sensitive to blue.",
+            "C": "Violet light cannot enter Earth's atmosphere at all.",
+            "D": "Air molecules absorb every bit of violet light before sunset."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 4 states the answer is twofold: \"the Sun sends out less violet light to begin with, and human eyes are simply more sensitive to blue.\" The other choices are not supported by the text.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s4-q6",
+          "passageId": "p1",
+          "question": "What is the author's MAIN purpose in writing this passage?",
+          "choices": {
+            "A": "to persuade readers to watch the sunset every evening",
+            "B": "to tell an exciting story about a scientist's life",
+            "C": "to explain why the sky appears blue during the day and red at sunset",
+            "D": "to compare the sky on Earth with the sky on other planets"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The passage informs and explains, walking the reader through how sunlight and air molecules produce a blue sky and a red sunset. It does not tell a story, argue a position, or compare planets.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s4-q7",
+          "passageId": "p1",
+          "question": "According to the passage, why does the sky turn red and orange at sunset?",
+          "choices": {
+            "A": "The Sun stops giving off blue light in the evening.",
+            "B": "Sunlight travels through much more air, so the blue scatters away and red remains.",
+            "C": "The ocean reflects red light upward as the Sun goes down.",
+            "D": "Air molecules grow larger at night and bounce red light around."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 5 explains that at sunset light \"must travel through much more air,\" so nearly all the blue scatters away and the long red and orange waves remain. The other choices contradict the passage.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s4-q8",
+          "passageId": "p1",
+          "question": "Select TWO facts the author uses to explain why blue light, not red light, fills the daytime sky.",
+          "choices": {
+            "A": "Blue light travels in short waves while red light travels in long waves.",
+            "B": "Short waves bounce off small air molecules more easily than long waves do.",
+            "C": "The ocean reflects blue color upward into the sky.",
+            "D": "Sunlight is made of only red and orange colors.",
+            "E": "Violet light is brighter than every other color of sunlight."
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. Paragraph 2 explains that blue light moves in short waves and red in long waves, and paragraph 3 explains that short waves scatter off small molecules more easily. Together these facts explain the blue daytime sky. The other choices contradict the passage.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "c3-s5",
+      "title": "The Building of the Transcontinental Railroad",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Joining a Nation by Rail",
+          "author": null,
+          "text": "Paragraph 1: In the middle of the 1800s, the United States stretched from the Atlantic Ocean to the Pacific, but the two coasts felt like separate worlds. A traveler heading from New York to California faced a journey of several months, either bouncing across the plains in a wagon or sailing all the way around South America. Leaders dreamed of a railroad that would link East and West, and in 1862 Congress finally approved the enormous project.\n\nParagraph 2: Two companies took on the work from opposite directions. The Union Pacific built westward from Nebraska, while the Central Pacific built eastward from California. The plan was for the two lines to meet somewhere in the middle. Each company raced to lay as much track as possible, because the government rewarded them with money and land for every mile completed.\n\nParagraph 3: The labor was brutally hard. Workers swung picks and shovels by hand, blasted tunnels through solid granite mountains, and built bridges across deep canyons. The Central Pacific faced the towering Sierra Nevada mountains, where crews had to carve a path through rock in bitter snow. Thousands of these workers were immigrants from China, who proved skilled and tireless even under dangerous conditions. The Union Pacific, meanwhile, hired many Irish immigrants and Civil War veterans to push its line across the open plains.\n\nParagraph 4: Progress was slow and the dangers were real. Explosions, falling rock, harsh winters, and exhaustion claimed many lives. Yet mile by mile the two lines crept toward each other. In the deserts of the West, some crews managed to lay an astonishing ten miles of track in a single day, a record that amazed the nation.\n\nParagraph 5: On May 10, 1869, the two railroads finally met at Promontory Summit in Utah. Leaders drove a golden spike into the ground to mark the moment the lines were joined. News of the event flashed across the country by telegraph, and people in distant cities celebrated in the streets. A trip that had once taken months could now be made in about a week.\n\nParagraph 6: The transcontinental railroad changed the country forever. Goods, mail, and travelers moved faster and more cheaply than ever before. New towns sprang up along the tracks, and the distant coasts no longer felt like separate worlds. The railroad was built by the muscle and sacrifice of thousands of ordinary workers, and it knit a vast nation together with bands of iron."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s5-q1",
+          "passageId": "p1",
+          "question": "Which statement BEST expresses the central idea of the passage?",
+          "choices": {
+            "A": "The transcontinental railroad connected the country and was built by the hard labor of thousands of workers.",
+            "B": "The Union Pacific built its line westward from the state of Nebraska.",
+            "C": "A golden spike was driven into the ground at Promontory Summit in Utah.",
+            "D": "Traveling around South America by ship was the fastest route in the 1850s."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The passage explains how the railroad joined the East and West and how thousands of workers built it through difficult conditions. The other choices are supporting details, not the overall central idea.",
+          "standard": "ELA.6.R.2.2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s5-q2",
+          "passageId": "p1",
+          "question": "Which text structure does the author use to organize the passage as a whole?",
+          "choices": {
+            "A": "compare and contrast between two railroads only",
+            "B": "chronological order, from the project's start to its completion and effects",
+            "C": "a list of opinions about whether the railroad was worth building",
+            "D": "spatial order, describing the railroad from top to bottom"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage moves through time, beginning with the 1862 approval, describing the construction, reaching the 1869 meeting at Promontory Summit, and ending with the railroad's effects. This is chronological structure.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s5-q3",
+          "passageId": "p1",
+          "question": "According to paragraph 2, why did each company race to lay as much track as possible?",
+          "choices": {
+            "A": "The workers wanted to finish before winter arrived.",
+            "B": "The government rewarded them with money and land for every mile completed.",
+            "C": "They were afraid the telegraph would replace railroads.",
+            "D": "They needed to reach the Sierra Nevada before the snow melted."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 2 states that \"the government rewarded them with money and land for every mile completed,\" which is why each company rushed to build. The other choices are not given as the reason for the race.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s5-q4",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST supports the idea that building the railroad was extremely difficult and dangerous?",
+          "choices": {
+            "A": "\"Two companies took on the work from opposite directions.\" (paragraph 2)",
+            "B": "\"Explosions, falling rock, harsh winters, and exhaustion claimed many lives.\" (paragraph 4)",
+            "C": "\"News of the event flashed across the country by telegraph . . .\" (paragraph 5)",
+            "D": "\"New towns sprang up along the tracks . . .\" (paragraph 6)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence lists the deadly dangers the workers faced, directly supporting the idea that the work was difficult and dangerous. The other sentences describe the companies, the celebration, or the results.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s5-q5",
+          "passageId": "p1",
+          "question": "Read this sentence from the passage: \"The labor was brutally hard.\" (paragraph 3) What does the word labor mean as it is used in this sentence?",
+          "choices": {
+            "A": "physical work and effort",
+            "B": "a peaceful rest break",
+            "C": "a written agreement",
+            "D": "a kind of railroad car"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Paragraph 3 goes on to describe workers swinging picks, blasting tunnels, and building bridges, showing that labor means physical work and effort. The other meanings do not fit the context.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s5-q6",
+          "passageId": "p1",
+          "question": "What is the author's MOST LIKELY purpose for including paragraph 3?",
+          "choices": {
+            "A": "to argue that the railroad should never have been built",
+            "B": "to show the hard, dangerous work and the immigrants who performed it",
+            "C": "to compare the cost of trains with the cost of wagons",
+            "D": "to describe the celebration that took place at Promontory Summit"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 3 describes the backbreaking work of carving through mountains and identifies the Chinese and Irish immigrants and veterans who did it. The author's purpose is to show the difficult labor and the people behind it.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s5-q7",
+          "passageId": "p1",
+          "question": "Based on the passage, how did the completed railroad change travel across the country?",
+          "choices": {
+            "A": "A trip that had taken months could now be made in about a week.",
+            "B": "Travel became slower but much safer than before.",
+            "C": "People could no longer travel by ship around South America.",
+            "D": "The railroad made it impossible to send mail by telegraph."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Paragraph 5 states that \"A trip that had once taken months could now be made in about a week.\" The other choices contradict or are not supported by the passage.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s5-q8",
+          "passageId": "p1",
+          "question": "Select TWO effects of the transcontinental railroad that the author describes in paragraph 6.",
+          "choices": {
+            "A": "Goods, mail, and travelers moved faster and more cheaply.",
+            "B": "New towns sprang up along the tracks.",
+            "C": "The Sierra Nevada mountains were flattened completely.",
+            "D": "The Union Pacific and Central Pacific stopped existing.",
+            "E": "Travel around South America became the most popular route."
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. Paragraph 6 states that goods, mail, and travelers moved faster and cheaper, and that new towns sprang up along the tracks. The other choices are not stated in the passage.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "c3-s6",
+      "title": "How to Build a Backyard Rain Gauge",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Measure the Rain: Build Your Own Rain Gauge",
+          "author": null,
+          "text": "Paragraph 1: Have you ever wondered exactly how much rain falls during a storm? Weather scientists answer that question with a tool called a rain gauge, which collects rainfall and measures its depth. You can build a simple version at home using items you probably already have. This guide will walk you through the project step by step.\n\nParagraph 2: Before you begin, gather your materials. You will need a clear plastic bottle, a pair of scissors, a ruler, a permanent marker, and a handful of small pebbles or marbles. The bottle should have straight sides in the middle so your measurements stay accurate. An adult should help with the cutting, since the scissors can be sharp. Once everything is on the table, you are ready to start.\n\nParagraph 3: First, carefully cut the top third of the bottle off, just below where the bottle begins to narrow toward the cap. Set this top piece aside, because you will use it again in a moment. You should now have two pieces: a tall bottom section and a funnel-shaped top section.\n\nParagraph 4: Next, drop the pebbles or marbles into the bottom of the tall section. This step is important. The weight keeps your rain gauge from tipping over in the wind. After adding the pebbles, pour in a little water until it just covers them, and mark this level on the bottle. This mark becomes your zero line, the starting point for measuring rainfall.\n\nParagraph 5: Then, take the top section you set aside, turn it upside down, and place it into the tall section like a funnel. The narrow neck should point downward into the bottle. This funnel guides rain into the gauge and slows down evaporation on hot days. Using your ruler and marker, draw a scale of evenly spaced lines, marking the centimeters or inches above your zero line.\n\nParagraph 6: Finally, set your finished gauge outside in an open spot, away from trees and buildings that might block the rain. After a storm, read the water level against your scale to see how much rain fell. Be sure to empty the gauge back to the zero line before the next storm. With this simple tool, you can track the weather in your own backyard and keep a record just like a real scientist."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s6-q1",
+          "passageId": "p1",
+          "question": "What is the author's MAIN purpose in writing this passage?",
+          "choices": {
+            "A": "to persuade readers that rain gauges are better than other weather tools",
+            "B": "to explain step by step how to build a rain gauge at home",
+            "C": "to tell an exciting story about a powerful rainstorm",
+            "D": "to compare the weather in two different cities"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage gives clear, ordered steps for building a rain gauge, which makes it a how-to, or procedural, text meant to explain a process. It does not argue, tell a story, or compare cities.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s6-q2",
+          "passageId": "p1",
+          "question": "Which text structure does the author use to organize the passage?",
+          "choices": {
+            "A": "compare and contrast",
+            "B": "cause and effect",
+            "C": "sequence, or order of steps",
+            "D": "problem and solution"
+          },
+          "correctAnswer": "C",
+          "explanation": "Option C is correct. The passage uses order words such as \"First,\" \"Next,\" \"Then,\" and \"Finally\" to present the steps in the order they should be done. This is a sequence, or step-by-step, structure.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s6-q3",
+          "passageId": "p1",
+          "question": "According to paragraph 4, why does the author tell readers to add pebbles to the bottom of the bottle?",
+          "choices": {
+            "A": "The pebbles measure the depth of the rain.",
+            "B": "The weight keeps the rain gauge from tipping over in the wind.",
+            "C": "The pebbles turn the rainwater a darker color.",
+            "D": "The pebbles speed up evaporation on hot days."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 4 states that \"The weight keeps your rain gauge from tipping over in the wind.\" The other choices are not the reason given for adding the pebbles.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s6-q4",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST explains the job of the funnel-shaped top piece?",
+          "choices": {
+            "A": "\"Set this top piece aside, because you will use it again in a moment.\" (paragraph 3)",
+            "B": "\"This funnel guides rain into the gauge and slows down evaporation on hot days.\" (paragraph 5)",
+            "C": "\"The bottle should have straight sides in the middle so your measurements stay accurate.\" (paragraph 2)",
+            "D": "\"After a storm, read the water level against your scale to see how much rain fell.\" (paragraph 6)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence directly explains the funnel's two jobs: guiding rain into the gauge and slowing evaporation. The other sentences are about other steps or parts of the project.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s6-q5",
+          "passageId": "p1",
+          "question": "Read this sentence from the passage: \"The narrow neck should point downward into the bottle.\" (paragraph 5) What does the word narrow mean as it is used in this sentence?",
+          "choices": {
+            "A": "thin or not wide",
+            "B": "broken into pieces",
+            "C": "filled with water",
+            "D": "very heavy"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The neck of a bottle is the thin part near the cap, so narrow means thin or not wide. The other meanings do not fit the description of a bottle neck.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "c3-s6-q6",
+          "passageId": "p1",
+          "question": "Why does the author advise placing the finished gauge away from trees and buildings?",
+          "choices": {
+            "A": "Trees and buildings might block the rain from reaching the gauge.",
+            "B": "Trees and buildings would make the pebbles float away.",
+            "C": "The gauge must stay in the shade to work correctly.",
+            "D": "The gauge needs to be close to a water faucet."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Paragraph 6 says to set the gauge \"in an open spot, away from trees and buildings that might block the rain,\" so the gauge can catch all the rain that falls. The other choices are not supported by the text.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s6-q7",
+          "passageId": "p1",
+          "question": "Based on the passage, what is the purpose of the zero line?",
+          "choices": {
+            "A": "It marks the level of the water after a storm has ended.",
+            "B": "It is the starting point from which rainfall is measured.",
+            "C": "It shows where to cut the top off the bottle.",
+            "D": "It marks how many pebbles to drop into the gauge."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 4 explains that the mark covering the pebbles \"becomes your zero line, the starting point for measuring rainfall.\" The other choices misstate what the zero line is for.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s6-q8",
+          "passageId": "p1",
+          "question": "Select TWO materials the author lists as necessary for building the rain gauge.",
+          "choices": {
+            "A": "a clear plastic bottle",
+            "B": "a permanent marker",
+            "C": "a garden hose",
+            "D": "a metal thermometer",
+            "E": "a roll of tape"
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. Paragraph 2 lists \"a clear plastic bottle\" and \"a permanent marker\" among the needed materials. A garden hose, thermometer, and tape are not on the author's list.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "c3-s7",
+      "title": "Should Students Have Homework Every Night? (Argument)",
+      "genre": "informational",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Less Homework, More Learning",
+          "author": null,
+          "text": "Paragraph 1: Picture a sixth grader who finishes a full day of school, rides the bus home, and then sits down to two or three more hours of homework. By the time the work is done, the evening is gone. Many people assume that piling on nightly homework makes students smarter. The truth is more surprising. Schools should sharply reduce the amount of nightly homework, because for middle school students, hours of daily homework do little to help learning and may even cause harm.\n\nParagraph 2: Consider what the research actually shows. Studies of homework have found that for younger and middle school students, large amounts of nightly homework have almost no effect on test scores or grades. A small amount of focused practice can help students review a lesson, but beyond about an hour, the benefits flatten out. In other words, the tenth math problem rarely teaches more than the second one did.\n\nParagraph 3: Meanwhile, heavy homework loads come with real costs. Students who spend their evenings buried in worksheets have less time for sleep, exercise, family meals, and play. Doctors point out that growing children need physical activity and rest to stay healthy. When homework crowds out these things, students can become stressed, tired, and even discouraged about school itself. A practice meant to help learning can end up working against it.\n\nParagraph 4: Reducing homework would also make learning fairer. Not every student goes home to a quiet room, a desk, and an adult who can help. Some students care for younger siblings, share crowded spaces, or lack a computer and internet. For these students, mountains of homework do not measure how smart they are; they measure who has the most support at home. Lighter, more thoughtful assignments give every student a fairer chance to succeed.\n\nParagraph 5: Of course, some people argue that homework teaches responsibility and prepares students for the heavier workload of high school. This is a fair point. Learning to manage time and finish tasks is valuable. But students can build these habits with shorter, meaningful assignments rather than hours of busywork. A single thoughtful project teaches responsibility far better than a stack of repetitive worksheets ever could.\n\nParagraph 6: The goal of school is learning, not simply staying busy. The evidence shows that for middle school students, less homework can mean healthier, happier kids who still learn just as much. Schools should trade quantity for quality, assigning homework that is short, purposeful, and worth a student's time. When we respect students' evenings, we help them love learning instead of dreading it."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s7-q1",
+          "passageId": "p1",
+          "question": "What is the author's central CLAIM in this passage?",
+          "choices": {
+            "A": "Homework should be banned from every school completely.",
+            "B": "Schools should sharply reduce nightly homework for middle school students.",
+            "C": "Middle school students never need to study at home.",
+            "D": "High school is much harder than middle school."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. In paragraph 1 the author states that \"Schools should sharply reduce the amount of nightly homework,\" and the whole passage argues for this position. The author does not call for banning homework entirely or claim students never need to study.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s7-q2",
+          "passageId": "p1",
+          "question": "Which piece of EVIDENCE does the author use to support the claim?",
+          "choices": {
+            "A": "Studies show that large amounts of nightly homework have almost no effect on middle schoolers' grades.",
+            "B": "A sixth grader rides the bus home after a full day of school.",
+            "C": "Homework teaches students to manage their time responsibly.",
+            "D": "High school students have a heavier workload than younger students."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Paragraph 2 cites studies finding that large amounts of homework have almost no effect on grades or test scores, which is evidence for the claim. The other choices are an example image, a counterargument point, or background.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s7-q3",
+          "passageId": "p1",
+          "question": "Which sentence from the passage BEST states the author's claim?",
+          "choices": {
+            "A": "\"Picture a sixth grader who finishes a full day of school . . .\" (paragraph 1)",
+            "B": "\"Schools should sharply reduce the amount of nightly homework, because for middle school students, hours of daily homework do little to help learning and may even cause harm.\" (paragraph 1)",
+            "C": "\"Doctors point out that growing children need physical activity and rest to stay healthy.\" (paragraph 3)",
+            "D": "\"This is a fair point.\" (paragraph 5)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence directly states the position the author wants readers to accept and gives the reason for it. The other choices are an opening image, a supporting fact, or a response to the counterargument.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s7-q4",
+          "passageId": "p1",
+          "question": "How does the author respond to the argument that homework teaches responsibility and prepares students for high school?",
+          "choices": {
+            "A": "The author ignores the argument and changes the subject.",
+            "B": "The author agrees it is a fair point but says short, meaningful assignments build those habits better.",
+            "C": "The author claims that responsibility cannot be taught at all.",
+            "D": "The author says high school does not require any homework."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. In paragraph 5 the author calls the point \"a fair point\" but argues that students can build responsibility \"with shorter, meaningful assignments rather than hours of busywork.\" This is how the author answers the counterargument.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c3-s7-q5",
+          "passageId": "p1",
+          "question": "Read this sentence from the passage: \"A single thoughtful project teaches responsibility far better than a stack of repetitive worksheets ever could.\" (paragraph 5) What does the word repetitive mean as it is used in this sentence?",
+          "choices": {
+            "A": "doing the same kind of thing over and over",
+            "B": "very difficult and confusing",
+            "C": "brand new and exciting",
+            "D": "short and quick to finish"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. The author contrasts a single thoughtful project with a stack of repetitive worksheets, and earlier calls long homework \"busywork,\" showing that repetitive means doing the same kind of thing over and over. The other meanings do not fit the contrast.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s7-q6",
+          "passageId": "p1",
+          "question": "According to paragraph 4, how would reducing homework make learning fairer?",
+          "choices": {
+            "A": "It would give every student the same expensive computer.",
+            "B": "It would help students who lack a quiet room, a helper, or internet at home.",
+            "C": "It would force every family to hire a tutor.",
+            "D": "It would make all students finish at exactly the same time."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 4 explains that heavy homework favors students with quiet rooms, adult help, and computers, so lighter assignments give students who lack that support \"a fairer chance to succeed.\" The other choices are not what the author says.",
+          "standard": "ELA.6.R.2.1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s7-q7",
+          "passageId": "p1",
+          "question": "What is the author's MAIN purpose in writing this passage?",
+          "choices": {
+            "A": "to entertain readers with a funny story about a forgotten assignment",
+            "B": "to persuade readers that schools should reduce nightly homework",
+            "C": "to explain the exact steps for completing a math worksheet",
+            "D": "to compare homework rules in several different countries"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. The passage is an argument that uses evidence and reasoning to convince readers that schools should cut back on nightly homework. Its purpose is to persuade, not to entertain, give steps, or compare countries.",
+          "standard": "ELA.6.R.2.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s7-q8",
+          "passageId": "p1",
+          "question": "Select TWO reasons the author gives to support the claim that schools should reduce homework.",
+          "choices": {
+            "A": "Heavy homework crowds out sleep, exercise, and family time, which can stress students.",
+            "B": "Reducing homework makes learning fairer for students with less support at home.",
+            "C": "Teachers do not want to grade so many assignments.",
+            "D": "Students should never have to attend high school.",
+            "E": "Computers are too expensive for schools to buy."
+          },
+          "correctAnswer": ["A", "B"],
+          "explanation": "Options A and B are correct. Paragraph 3 argues that heavy homework harms students' health and well-being, and paragraph 4 argues that less homework makes learning fairer. The other choices are not reasons the author gives.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "c3-s8",
+      "title": "Zoos: Two Points of View (Paired Passages)",
+      "genre": "paired passages",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "Passage 1: Zoos Help Protect Wild Animals",
+          "author": null,
+          "text": "Paragraph 1: Around the world, many kinds of animals are disappearing as their wild homes are cleared for farms and cities. Modern zoos have become important partners in the effort to save these species. A good zoo is far more than a place to look at animals; it is a center for conservation, education, and scientific research.\n\nParagraph 2: One of the most important jobs a zoo does is protect endangered species. When too few of an animal remains in the wild, zoos can raise young animals safely and even return some of them to nature. The California condor, a huge bird that nearly vanished, was saved when zoos bred the last survivors and released their offspring back into the wild. Without zoos, that bird might be gone forever.\n\nParagraph 3: Zoos also teach millions of visitors each year. Seeing a real elephant or tiger up close helps children care about animals in a way that pictures cannot. People who feel connected to animals are more likely to support efforts to protect them. In this way, a single visit can plant the seed of a lifelong concern for wildlife.\n\nParagraph 4: Of course, zoos must treat their animals well, with spacious habitats, healthy food, and expert care. The best zoos work hard to meet these high standards. When they do, zoos become a powerful force for good, helping to protect the very animals that share our planet."
+        },
+        {
+          "id": "p2",
+          "title": "Passage 2: Wild Animals Belong in the Wild",
+          "author": null,
+          "text": "Paragraph 1: A tiger in the wild may roam across many miles of forest each day. In a zoo, that same tiger paces back and forth in an enclosure a tiny fraction of that size. No matter how careful the keepers are, a cage can never truly replace the wild. For this reason, many people believe that keeping wild animals in zoos does more harm than good.\n\nParagraph 2: Animals in zoos often suffer from boredom and stress. Large, far-ranging creatures such as elephants, big cats, and dolphins are especially difficult to keep healthy in captivity. Some pace endlessly or repeat the same motions for hours, signs that scientists link to distress. An animal may be safe behind glass, yet still be deeply unhappy.\n\nParagraph 3: Supporters say zoos protect endangered species, but only a small number of zoo animals belong to threatened kinds, and few are ever returned to the wild. Most animals in zoos exist mainly for people to look at. Critics argue that the money spent on enclosures could instead protect animals in their natural homes, where whole habitats are saved at once.\n\nParagraph 4: There are better ways to learn about and protect wildlife. Films, online cameras, and protected reserves let people observe animals without caging them. If we truly respect wild creatures, the kindest choice is to help them thrive where they belong, in the wild."
+        }
+      ],
+      "questions": [
+        {
+          "id": "c3-s8-q1",
+          "passageId": "p1",
+          "question": "What is the central claim of Passage 1?",
+          "choices": {
+            "A": "Zoos are mainly places for people to be entertained.",
+            "B": "Modern zoos help protect wild animals through conservation, education, and research.",
+            "C": "The California condor has completely disappeared from the wild.",
+            "D": "Children learn more from pictures than from real animals."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Passage 1 argues that a good zoo is \"a center for conservation, education, and scientific research\" and that zoos help protect wild animals. The other choices contradict the passage or distort its details.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s8-q2",
+          "passageId": "p2",
+          "question": "What is the central claim of Passage 2?",
+          "choices": {
+            "A": "Keeping wild animals in zoos does more harm than good.",
+            "B": "Zoos are the only way to save endangered animals.",
+            "C": "Tigers do not need much space to stay healthy.",
+            "D": "Films and reserves are worse than zoos for learning."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 2 states that \"keeping wild animals in zoos does more harm than good\" and supports this throughout. The other choices contradict the author's argument.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s8-q3",
+          "passageId": "p1",
+          "question": "How do the two passages differ in their points of view about zoos?",
+          "choices": {
+            "A": "Passage 1 supports zoos, while Passage 2 argues against keeping animals in zoos.",
+            "B": "Both passages argue that zoos should be closed immediately.",
+            "C": "Passage 1 argues against zoos, while Passage 2 supports them.",
+            "D": "Both passages claim that zoos have no effect on wild animals."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 1 argues that zoos help protect animals, while Passage 2 argues that zoos do more harm than good. The two authors hold opposite points of view on the topic.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s8-q4",
+          "passageId": "p1",
+          "question": "Both passages mention endangered species, but they use this idea differently. Which statement BEST describes the difference?",
+          "choices": {
+            "A": "Passage 1 says zoos save endangered species; Passage 2 says only a few zoo animals are endangered and few are returned to the wild.",
+            "B": "Both passages agree that zoos return most of their animals to the wild.",
+            "C": "Passage 1 ignores endangered species, while Passage 2 focuses only on them.",
+            "D": "Both passages say endangered species cannot be helped at all."
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 1 uses the California condor to argue that zoos save endangered species, while Passage 2 counters that only a small number of zoo animals are endangered and few are ever released. This is the key difference in how they treat the idea.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c3-s8-q5",
+          "passageId": "p2",
+          "question": "Which sentence from Passage 2 BEST supports its claim that zoos can harm animals?",
+          "choices": {
+            "A": "\"A tiger in the wild may roam across many miles of forest each day.\" (paragraph 1)",
+            "B": "\"Some pace endlessly or repeat the same motions for hours, signs that scientists link to distress.\" (paragraph 2)",
+            "C": "\"There are better ways to learn about and protect wildlife.\" (paragraph 4)",
+            "D": "\"Supporters say zoos protect endangered species . . .\" (paragraph 3)"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. This sentence gives direct evidence of harm, describing distressed behaviors that scientists link to stress in captive animals. The other sentences set up the topic, propose alternatives, or state the opposing view.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s8-q6",
+          "passageId": "p1",
+          "question": "Read this sentence from Passage 1: \"It is a center for conservation, education, and scientific research.\" (paragraph 1) What does the word conservation mean as it is used in this sentence?",
+          "choices": {
+            "A": "the protection of animals and nature",
+            "B": "a friendly talk between two people",
+            "C": "the building of large cities",
+            "D": "the sale of animals to the public"
+          },
+          "correctAnswer": "A",
+          "explanation": "Option A is correct. Passage 1 is about saving wild animals, and it lists conservation alongside education and research, so conservation means the protection of animals and nature. The other meanings do not fit the context.",
+          "standard": "ELA.6.V.1.3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "c3-s8-q7",
+          "passageId": "p2",
+          "question": "Both passages agree on which ONE of the following ideas?",
+          "choices": {
+            "A": "Zoos should never spend money on animal habitats.",
+            "B": "Animals in zoos need spacious habitats and good care to be healthy.",
+            "C": "Most zoo animals are returned to the wild each year.",
+            "D": "Pictures teach children more than real animals do."
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Passage 1 says zoos \"must treat their animals well, with spacious habitats, healthy food, and expert care,\" and Passage 2 stresses that small enclosures harm animals, implying they need more space and care. Both authors agree animals need good space and care, even though they disagree about zoos overall.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "c3-s8-q8",
+          "passageId": "p2",
+          "question": "What alternative to zoos does the author of Passage 2 suggest for learning about wildlife?",
+          "choices": {
+            "A": "breeding endangered animals in cages",
+            "B": "films, online cameras, and protected reserves",
+            "C": "moving all animals into larger zoos",
+            "D": "keeping wild animals as household pets"
+          },
+          "correctAnswer": "B",
+          "explanation": "Option B is correct. Paragraph 4 of Passage 2 states that \"Films, online cameras, and protected reserves let people observe animals without caging them.\" The other choices are not suggested by the author.",
+          "standard": "ELA.6.R.2.4",
+          "difficulty": "medium"
+        }
+      ]
     }
   ]
 }
