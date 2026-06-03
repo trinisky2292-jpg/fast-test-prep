@@ -1,0 +1,354 @@
+{
+  "1-1": {
+    "title": "Describing and Classifying Matter",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "Define matter in your own words.", "answer": "Anything that has mass and takes up space" },
+      { "q": "Is color a physical property or a chemical property?", "answer": "Physical property" },
+      { "q": "Is the ability to burn (flammability) a physical or chemical property?", "answer": "Chemical property" },
+      { "q": "Is salt water a pure substance or a mixture?", "answer": "A mixture" },
+      { "q": "Name one example of a pure substance.", "answer": "Pure water (or pure copper, pure gold)" }
+    ]
+  },
+  "1-2": {
+    "title": "Measuring Matter",
+    "standard": "SC.6.N.1.1",
+    "problems": [
+      { "q": "What does mass measure, and in what unit?", "answer": "How much matter an object contains; grams" },
+      { "q": "Write the formula for density.", "answer": "Density = mass ÷ volume" },
+      { "q": "A rock has a mass of 60 g and a volume of 20 mL. Find its density.", "answer": "3 g/mL" },
+      { "q": "Water has a density of 1 g/mL. Will an object with a density of 0.7 g/mL float or sink?", "answer": "Float" },
+      { "q": "What tool is used to measure the mass of an object?", "answer": "A balance" }
+    ]
+  },
+  "1-3": {
+    "title": "Changes in Matter",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "Is ice melting a physical change or a chemical change?", "answer": "Physical change" },
+      { "q": "Is wood burning a physical change or a chemical change?", "answer": "Chemical change" },
+      { "q": "Name one sign that a chemical change has happened.", "answer": "A color change, bubbles/gas, or heat/light (any one)" },
+      { "q": "In a physical change, does the substance stay the same or become new?", "answer": "It stays the same" },
+      { "q": "Is dissolving sugar in water a physical or chemical change?", "answer": "Physical change" }
+    ]
+  },
+  "2-1": {
+    "title": "States of Matter",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "In which state are particles packed tightly and only vibrate in place?", "answer": "Solid" },
+      { "q": "Which state takes the shape of its container but keeps its own volume?", "answer": "Liquid" },
+      { "q": "Which state spreads out to fill its whole container?", "answer": "Gas" },
+      { "q": "Name the three common states of matter.", "answer": "Solid, liquid, and gas" },
+      { "q": "Are ice, liquid water, and water vapor different substances or the same substance?", "answer": "The same substance (water)" }
+    ]
+  },
+  "2-2": {
+    "title": "Changes of State",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "What is the change from a solid to a liquid called?", "answer": "Melting" },
+      { "q": "What is the change from a liquid to a gas called?", "answer": "Evaporation (or boiling)" },
+      { "q": "What is the change from a gas to a liquid called?", "answer": "Condensation" },
+      { "q": "What is the change from a liquid to a solid called?", "answer": "Freezing" },
+      { "q": "During a change of state, does the substance become a new substance?", "answer": "No; it stays the same substance" }
+    ]
+  },
+  "2-3": {
+    "title": "Gas Behavior",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "If you squeeze a gas into a smaller space, what happens to its pressure?", "answer": "It goes up" },
+      { "q": "What happens to gas particles when the gas is heated?", "answer": "They move faster and spread out" },
+      { "q": "Why does a balloon shrink in cold air?", "answer": "The gas cools, so the particles slow down and move closer together" },
+      { "q": "What causes the pressure of a gas?", "answer": "Particles hitting the walls of the container" },
+      { "q": "Why does a balloon get bigger in a hot car?", "answer": "The gas warms up and its particles spread out" }
+    ]
+  },
+  "3-1": {
+    "title": "What Is Energy?",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "Define energy in your own words.", "answer": "The ability to do work or cause change" },
+      { "q": "What is the energy of motion called?", "answer": "Kinetic energy" },
+      { "q": "What is the stored energy of position called?", "answer": "Potential energy" },
+      { "q": "Does a ball at the top of a hill have mostly kinetic or potential energy?", "answer": "Potential energy" },
+      { "q": "Of two cars with the same mass, which has more kinetic energy: the faster one or the slower one?", "answer": "The faster one" }
+    ]
+  },
+  "3-2": {
+    "title": "Forms of Energy",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "What form of energy is stored in food, fuel, and batteries?", "answer": "Chemical energy" },
+      { "q": "What form of energy comes from moving particles and gives us heat?", "answer": "Thermal energy" },
+      { "q": "What form of energy does a moving bicycle have?", "answer": "Mechanical energy" },
+      { "q": "What form of energy does a ringing bell produce?", "answer": "Sound energy" },
+      { "q": "Can energy change from one form to another?", "answer": "Yes" }
+    ]
+  },
+  "3-3": {
+    "title": "Energy Transformations and Conservation",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "What is it called when energy changes from one form into another?", "answer": "An energy transformation" },
+      { "q": "State the Law of Conservation of Energy.", "answer": "Energy is never created or destroyed; it only changes form" },
+      { "q": "A flashlight changes chemical energy into mainly what form?", "answer": "Light energy" },
+      { "q": "As a roller coaster speeds downhill, potential energy changes into what?", "answer": "Kinetic energy" },
+      { "q": "If a toy starts with 100 units of energy, how much total energy is there after it runs?", "answer": "100 units (just in different forms)" }
+    ]
+  },
+  "4-1": {
+    "title": "Temperature, Thermal Energy, and Heat",
+    "standard": "SC.6.E.7.1",
+    "problems": [
+      { "q": "What does temperature measure?", "answer": "How fast the particles in matter are moving" },
+      { "q": "In which direction does heat always flow?", "answer": "From a warmer object to a cooler object" },
+      { "q": "What is thermal energy?", "answer": "The total energy of all the moving particles in an object" },
+      { "q": "When does heat stop flowing between two objects?", "answer": "When they reach the same temperature" },
+      { "q": "When you put ice in a warm drink, does heat flow into the ice or out of the ice?", "answer": "Into the ice (from the drink)" }
+    ]
+  },
+  "4-2": {
+    "title": "Heat Transfer: Radiation, Conduction, Convection",
+    "standard": "SC.6.E.7.1",
+    "problems": [
+      { "q": "Which type of heat transfer carries heat as rays through empty space?", "answer": "Radiation" },
+      { "q": "Which type of heat transfer happens by direct touch?", "answer": "Conduction" },
+      { "q": "Which type of heat transfer happens in flowing liquids and gases?", "answer": "Convection" },
+      { "q": "How does the Sun's heat reach Earth?", "answer": "By radiation" },
+      { "q": "Hot water rising and cool water sinking in a pot is an example of what?", "answer": "Convection" }
+    ]
+  },
+  "4-3": {
+    "title": "Thermal Energy and Materials",
+    "standard": "SC.6.E.7.1",
+    "problems": [
+      { "q": "What is a material that lets heat flow through it quickly called?", "answer": "A conductor" },
+      { "q": "What is a material that slows the flow of heat called?", "answer": "An insulator" },
+      { "q": "Are metals usually conductors or insulators?", "answer": "Conductors" },
+      { "q": "Name one good insulator.", "answer": "Wood (or plastic, foam, air)" },
+      { "q": "To keep a cold drink cold longer, should you use a conductor cup or an insulator cup?", "answer": "An insulator cup" }
+    ]
+  },
+  "5-1": {
+    "title": "Earth's Interior",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "Name Earth's layers in order from the surface to the center.", "answer": "Crust, mantle, core" },
+      { "q": "Which layer do we live on?", "answer": "The crust" },
+      { "q": "What is Earth's core made mostly of?", "answer": "Metal" },
+      { "q": "As you go deeper into Earth, does it get hotter or colder?", "answer": "Hotter" },
+      { "q": "Which part of the core is liquid: the inner core or the outer core?", "answer": "The outer core" }
+    ]
+  },
+  "5-2": {
+    "title": "Earth's Spheres Interacting",
+    "standard": "SC.6.E.7.4",
+    "problems": [
+      { "q": "Which sphere includes all of Earth's liquid water?", "answer": "The hydrosphere" },
+      { "q": "Which sphere includes all the solid rock and land?", "answer": "The geosphere" },
+      { "q": "Which sphere includes all living things?", "answer": "The biosphere" },
+      { "q": "Which sphere is the layer of air around Earth?", "answer": "The atmosphere" },
+      { "q": "Rain wearing down a rocky hill is an interaction between which two spheres?", "answer": "The hydrosphere and the geosphere" }
+    ]
+  },
+  "5-3": {
+    "title": "Energy from the Sun",
+    "standard": "SC.6.E.7.5",
+    "problems": [
+      { "q": "What is the main source of energy for almost everything on Earth?", "answer": "The Sun" },
+      { "q": "Which part of Earth gets the most direct sunlight?", "answer": "The equator" },
+      { "q": "Why are the poles colder than the equator?", "answer": "Sunlight hits them at a slanted angle and spreads out" },
+      { "q": "Name one thing the Sun's uneven heating creates.", "answer": "Wind (or ocean currents, or weather)" },
+      { "q": "On a sunny day, which heats up faster: land or water?", "answer": "Land" }
+    ]
+  },
+  "6-1": {
+    "title": "The Atmosphere and Water in the Air",
+    "standard": "SC.6.E.7.9",
+    "problems": [
+      { "q": "What is the atmosphere?", "answer": "The blanket of gases surrounding Earth" },
+      { "q": "What gas in the upper atmosphere blocks harmful ultraviolet rays?", "answer": "Ozone" },
+      { "q": "What is humidity?", "answer": "The amount of water vapor in the air" },
+      { "q": "How do clouds form?", "answer": "Water vapor cools and condenses into tiny droplets" },
+      { "q": "What is the process of liquid water turning into water vapor called?", "answer": "Evaporation" }
+    ]
+  },
+  "6-2": {
+    "title": "The Water Cycle and Weather Patterns",
+    "standard": "SC.6.E.7.2",
+    "problems": [
+      { "q": "What energy source drives the water cycle?", "answer": "The Sun" },
+      { "q": "List the main steps of the water cycle in order.", "answer": "Evaporation, condensation, precipitation, collection" },
+      { "q": "Name two forms of precipitation.", "answer": "Rain and snow (also sleet or hail)" },
+      { "q": "What is the step where water vapor forms clouds called?", "answer": "Condensation" },
+      { "q": "Why is the water cycle called a 'cycle'?", "answer": "Because the same water is recycled and the steps repeat" }
+    ]
+  },
+  "6-3": {
+    "title": "Air Masses, Fronts, and Predicting Weather",
+    "standard": "SC.6.E.7.3",
+    "problems": [
+      { "q": "What is a large body of air with similar temperature and moisture called?", "answer": "An air mass" },
+      { "q": "What is the boundary where two air masses meet called?", "answer": "A front" },
+      { "q": "What is the fast, high-altitude wind that steers weather called?", "answer": "The jet stream" },
+      { "q": "What do we call scientists who study and predict the weather?", "answer": "Meteorologists" },
+      { "q": "Name two things meteorologists measure to predict weather.", "answer": "Temperature and air pressure (also wind and humidity)" }
+    ]
+  },
+  "6-4": {
+    "title": "Severe Weather and Staying Safe in Florida",
+    "standard": "SC.6.E.7.7",
+    "problems": [
+      { "q": "Name one type of severe weather common in Florida.", "answer": "Hurricanes (also lightning, flooding)" },
+      { "q": "Name one way to prepare for a hurricane.", "answer": "Keep emergency supplies / board up windows / evacuate when told" },
+      { "q": "Name two things that protect your skin from harmful UV rays.", "answer": "Sunscreen and a hat (also shade)" },
+      { "q": "During a lightning storm, where is the safest place to be?", "answer": "Indoors, away from windows and water" },
+      { "q": "Why do Floridians track storms closely?", "answer": "To know when to prepare, evacuate, or take shelter" }
+    ]
+  },
+  "7-1": {
+    "title": "Minerals",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "What is a mineral?", "answer": "A naturally formed solid with a specific chemical makeup and an orderly crystal pattern" },
+      { "q": "What is the color of a mineral's powder called?", "answer": "Streak" },
+      { "q": "What property describes how shiny or dull a mineral is?", "answer": "Luster" },
+      { "q": "Minerals are the building blocks of what?", "answer": "Rocks" },
+      { "q": "If Mineral A can scratch Mineral B, which one is harder?", "answer": "Mineral A" }
+    ]
+  },
+  "7-2": {
+    "title": "Rocks and How They Form",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "Name the three main types of rock.", "answer": "Igneous, sedimentary, and metamorphic" },
+      { "q": "Which rock type forms when melted rock cools and hardens?", "answer": "Igneous" },
+      { "q": "Which rock type forms from pressed and cemented layers of sediment?", "answer": "Sedimentary" },
+      { "q": "Which rock type forms when heat and pressure change a rock without melting it?", "answer": "Metamorphic" },
+      { "q": "Marble forms from limestone changed by heat and pressure. What type of rock is marble?", "answer": "Metamorphic" }
+    ]
+  },
+  "7-3": {
+    "title": "The Rock Cycle",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "What does the rock cycle describe?", "answer": "How rocks slowly change from one type to another over time" },
+      { "q": "What process turns a rock into igneous rock?", "answer": "Melting and then cooling" },
+      { "q": "What two forces turn a rock into metamorphic rock (without melting)?", "answer": "Heat and pressure" },
+      { "q": "What are the small pieces called that weathering breaks rock into?", "answer": "Sediment" },
+      { "q": "About how long does the rock cycle usually take?", "answer": "Millions of years" }
+    ]
+  },
+  "8-1": {
+    "title": "Drifting Continents",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "Which scientist proposed the idea of continental drift?", "answer": "Alfred Wegener" },
+      { "q": "What was the single supercontinent that joined all continents called?", "answer": "Pangaea" },
+      { "q": "What is the idea that continents have slowly moved apart called?", "answer": "Continental drift" },
+      { "q": "Name one type of evidence for continental drift.", "answer": "Matching fossils (also matching coastlines or rocks)" },
+      { "q": "Why do the coastlines of South America and Africa support continental drift?", "answer": "They fit together like puzzle pieces" }
+    ]
+  },
+  "8-2": {
+    "title": "Sea-Floor Spreading",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "What are the long underwater cracks where sea-floor spreading happens called?", "answer": "Mid-ocean ridges" },
+      { "q": "What happens to hot melted rock at a mid-ocean ridge?", "answer": "It rises, cools, and adds new rock to the sea floor" },
+      { "q": "Where is the youngest sea-floor rock found?", "answer": "At the mid-ocean ridge" },
+      { "q": "Is sea-floor rock far from the ridge younger or older than rock at the ridge?", "answer": "Older" },
+      { "q": "What did sea-floor spreading help scientists explain?", "answer": "How the continents drift apart" }
+    ]
+  },
+  "8-3": {
+    "title": "The Theory of Plate Tectonics",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "What are the giant moving pieces of Earth's crust called?", "answer": "Tectonic plates" },
+      { "q": "What layer do tectonic plates float on?", "answer": "The (soft) mantle" },
+      { "q": "About how fast do tectonic plates move?", "answer": "A few centimeters per year" },
+      { "q": "What can form when two plates push together?", "answer": "Mountains" },
+      { "q": "What often happens when plates slide past each other?", "answer": "Earthquakes" }
+    ]
+  },
+  "9-1": {
+    "title": "Weathering and Soil",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "What is weathering?", "answer": "The breaking of rock into smaller pieces" },
+      { "q": "What type of weathering breaks rock apart physically (like ice in a crack)?", "answer": "Mechanical weathering" },
+      { "q": "What type of weathering dissolves or changes rock with water and acids?", "answer": "Chemical weathering" },
+      { "q": "Soil forms when weathered rock mixes with what?", "answer": "Dead plant and animal matter" },
+      { "q": "Is water freezing in a crack and splitting a rock mechanical or chemical weathering?", "answer": "Mechanical weathering" }
+    ]
+  },
+  "9-2": {
+    "title": "Erosion and Deposition",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "What is erosion?", "answer": "When broken pieces of rock and soil are carried away" },
+      { "q": "What is deposition?", "answer": "When carried pieces are dropped in a new place" },
+      { "q": "Name two things that can cause erosion.", "answer": "Wind and water (also ice or gravity)" },
+      { "q": "A river dropping sediment to build a delta is an example of what?", "answer": "Deposition" },
+      { "q": "List weathering, erosion, and deposition in the correct order.", "answer": "Weathering, erosion, deposition" }
+    ]
+  },
+  "9-3": {
+    "title": "Landforms (and Florida's Landforms)",
+    "standard": "SC.6.E.6.2",
+    "problems": [
+      { "q": "What is a landform?", "answer": "A natural feature of Earth's surface" },
+      { "q": "Is Florida's land mostly flat and low or tall and mountainous?", "answer": "Flat and low" },
+      { "q": "Name one landform Florida does NOT have.", "answer": "Tall mountains (or glaciers)" },
+      { "q": "What force mainly carves out a river valley?", "answer": "Flowing water" },
+      { "q": "What type of landform is the Everglades?", "answer": "A wetland" }
+    ]
+  },
+  "10-1": {
+    "title": "What Are Living Things?",
+    "standard": "SC.6.L.14.1",
+    "problems": [
+      { "q": "What is the basic building block of all living things?", "answer": "The cell" },
+      { "q": "Name two features shared by all living things.", "answer": "They use energy and are made of cells (also grow, respond, reproduce)" },
+      { "q": "What is another word for a living thing?", "answer": "An organism" },
+      { "q": "Is a rock a living thing?", "answer": "No" },
+      { "q": "About how many cells make up a human body?", "answer": "Trillions" }
+    ]
+  },
+  "10-2": {
+    "title": "Classifying Living Things",
+    "standard": "SC.6.L.15.1",
+    "problems": [
+      { "q": "What does it mean to classify living things?", "answer": "To group them by shared characteristics" },
+      { "q": "Why do scientists classify living things?", "answer": "To make them easier to study and compare" },
+      { "q": "How many parts does an organism's scientific name have?", "answer": "Two" },
+      { "q": "What are the broadest groups used to sort all life called?", "answer": "Domains" },
+      { "q": "Why is a two-part scientific name useful?", "answer": "It means the same thing to scientists everywhere" }
+    ]
+  },
+  "10-3": {
+    "title": "Energy and Matter in Ecosystems",
+    "standard": "SC.6.E.7.4",
+    "problems": [
+      { "q": "What is an ecosystem?", "answer": "All the living and nonliving things in an area working together" },
+      { "q": "Where does the energy in most ecosystems come from?", "answer": "The Sun" },
+      { "q": "What are organisms that make their own food using sunlight called?", "answer": "Producers" },
+      { "q": "What does a food chain show?", "answer": "How energy flows from one living thing to the next" },
+      { "q": "Is matter (like water and nutrients) recycled or destroyed in an ecosystem?", "answer": "Recycled" }
+    ]
+  },
+  "10-4": {
+    "title": "Microorganisms: Viruses, Bacteria, Protists, and Fungi",
+    "standard": "SC.6.L.14.6",
+    "problems": [
+      { "q": "What are living things too small to see without a microscope called?", "answer": "Microorganisms" },
+      { "q": "Are bacteria single-celled or many-celled?", "answer": "Single-celled" },
+      { "q": "Which microorganism is not quite alive and must invade a cell to reproduce?", "answer": "A virus" },
+      { "q": "Name one group of microorganisms that includes mushrooms and mold.", "answer": "Fungi" },
+      { "q": "Are all bacteria harmful?", "answer": "No; some are helpful and some are harmful" }
+    ]
+  }
+}
