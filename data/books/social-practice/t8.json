@@ -153,6 +153,456 @@
         "explanation": "Kush shows that powerful civilizations rose across Africa, not just in Egypt.",
         "standard": "SS.6.W.3.18",
         "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q11",
+        "section": "social",
+        "question": "Along which river did the kingdom of Kush rise?",
+        "choices": {
+          "A": "The Nile",
+          "B": "The Tigris",
+          "C": "The Yellow River",
+          "D": "The Amazon"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush rose along the upper Nile River.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q12",
+        "section": "social",
+        "question": "Which of these was NOT a good that Kush traded?",
+        "choices": {
+          "A": "Gold",
+          "B": "Ivory",
+          "C": "Computers",
+          "D": "Ebony wood"
+        },
+        "correctAnswer": "C",
+        "explanation": "Kush traded gold, ivory, and ebony wood; computers did not exist in the ancient world.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q13",
+        "section": "social",
+        "question": "Kushite kings who ruled Egypt are sometimes called by what nickname?",
+        "choices": {
+          "A": "The Sea Peoples",
+          "B": "The Black Pharaohs",
+          "C": "The Caesars",
+          "D": "The Mandarins"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Kushite kings who ruled Egypt are sometimes called the 'Black Pharaohs.'",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q14",
+        "section": "social",
+        "question": "What useful items could Kush make because it was skilled at ironworking?",
+        "choices": {
+          "A": "Glass windows",
+          "B": "Paper scrolls",
+          "C": "Strong tools and weapons",
+          "D": "Silk robes"
+        },
+        "correctAnswer": "C",
+        "explanation": "Working iron let Kush make strong tools and weapons.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q15",
+        "section": "social",
+        "question": "Which statement BEST compares Kush and Egypt?",
+        "choices": {
+          "A": "They never had any contact",
+          "B": "They were on opposite sides of the world",
+          "C": "Egypt copied everything from Kush and nothing the other way",
+          "D": "They were neighbors on the Nile who traded and influenced each other"
+        },
+        "correctAnswer": "D",
+        "explanation": "Kush and Egypt were Nile neighbors who traded and influenced each other.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q16",
+        "section": "social",
+        "question": "The capital city of Meroe was especially known for trade and what other activity?",
+        "choices": {
+          "A": "Ironworking",
+          "B": "Glassblowing",
+          "C": "Snow farming",
+          "D": "Shipbuilding for the ocean"
+        },
+        "correctAnswer": "A",
+        "explanation": "Meroe was a busy center of both trade and ironworking.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q17",
+        "section": "social",
+        "question": "Besides pyramids and gods, what else did Kush borrow and then adapt from Egypt?",
+        "choices": {
+          "A": "The use of writing",
+          "B": "The wheel of fortune",
+          "C": "Gunpowder",
+          "D": "The compass"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush learned to use writing from Egypt and later developed its own writing too.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q18",
+        "section": "social",
+        "question": "Which sentence is TRUE about Kush's culture?",
+        "choices": {
+          "A": "Kush only copied Egypt and never created anything",
+          "B": "Kush had no writing of any kind",
+          "C": "Kush borrowed from Egypt but also developed its own culture and writing",
+          "D": "Kush refused to trade with anyone"
+        },
+        "correctAnswer": "C",
+        "explanation": "Kush borrowed from Egypt yet developed its own culture and writing.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q19",
+        "section": "social",
+        "question": "Imagine a Kushite merchant grows wealthy. Based on the lesson, what was MOST likely the source of his riches?",
+        "choices": {
+          "A": "Selling snow to Egypt",
+          "B": "Charging tolls on Roman roads",
+          "C": "Mining coal for factories",
+          "D": "Trading gold, ivory, and iron goods"
+        },
+        "correctAnswer": "D",
+        "explanation": "Kush's wealth came from trading goods like gold, ivory, and iron.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q20",
+        "section": "social",
+        "question": "Why is the kingdom of Kush important to remember when studying Africa?",
+        "choices": {
+          "A": "It proves only Egypt mattered",
+          "B": "It shows Africa had no resources",
+          "C": "It shows a rich, powerful civilization grew in Africa beyond Egypt",
+          "D": "It shows trade was unknown in Africa"
+        },
+        "correctAnswer": "C",
+        "explanation": "Kush shows that a rich, powerful civilization grew in Africa beyond Egypt.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q21",
+        "section": "social",
+        "question": "In what direction would you travel FROM Egypt to reach the heart of Kush?",
+        "choices": {
+          "A": "North",
+          "B": "West across the ocean",
+          "C": "East into Asia",
+          "D": "South up the Nile"
+        },
+        "correctAnswer": "D",
+        "explanation": "Kush lay to the south of Egypt, up the Nile.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q22",
+        "section": "social",
+        "question": "What does the word 'conquer' mean in the sentence 'Kushite kings conquered Egypt'?",
+        "choices": {
+          "A": "Took control of it by force",
+          "B": "Traded peacefully with it",
+          "C": "Drew a map of it",
+          "D": "Built a pyramid in it"
+        },
+        "correctAnswer": "A",
+        "explanation": "To conquer means to take control of a place by force.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q23",
+        "section": "social",
+        "question": "Which of the following is an example of a natural resource that helped make Kush rich?",
+        "choices": {
+          "A": "Plastic",
+          "B": "Gold",
+          "C": "Electricity",
+          "D": "Concrete"
+        },
+        "correctAnswer": "B",
+        "explanation": "Gold was a natural resource that helped make Kush wealthy.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q24",
+        "section": "social",
+        "question": "Because Kush controlled valuable resources and trade routes, what most likely happened to its power over time?",
+        "choices": {
+          "A": "It grew strong enough to rule Egypt for a time",
+          "B": "It became too weak to trade",
+          "C": "It disappeared instantly",
+          "D": "It moved to Europe"
+        },
+        "correctAnswer": "A",
+        "explanation": "Controlling resources and trade made Kush strong enough to rule Egypt for a time.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q25",
+        "section": "social",
+        "question": "Which pair correctly matches a kingdom with its other name?",
+        "choices": {
+          "A": "Kush = Babylon",
+          "B": "Kush = Sparta",
+          "C": "Kush = Nubia",
+          "D": "Kush = Athens"
+        },
+        "correctAnswer": "C",
+        "explanation": "Kush is also called Nubia.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q26",
+        "section": "social",
+        "question": "Which is NOT something Kush learned from Egypt?",
+        "choices": {
+          "A": "Building pyramids",
+          "B": "Worshipping similar gods",
+          "C": "Using writing",
+          "D": "Inventing democracy"
+        },
+        "correctAnswer": "D",
+        "explanation": "Kush learned pyramid building, similar gods, and writing from Egypt; democracy came from Greece.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q27",
+        "section": "social",
+        "question": "A teacher says, 'Trade was the engine of Kush's wealth.' What does this mean?",
+        "choices": {
+          "A": "Kush built engines for cars",
+          "B": "Trading goods is what made Kush rich",
+          "C": "Kush had no money",
+          "D": "Kush only grew food"
+        },
+        "correctAnswer": "B",
+        "explanation": "Saying trade was the 'engine' of wealth means trading goods is what made Kush rich.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q28",
+        "section": "social",
+        "question": "How did living right next to Egypt affect Kush over a long time?",
+        "choices": {
+          "A": "The two had no influence on each other",
+          "B": "Kush was completely cut off",
+          "C": "Egypt destroyed Kush immediately",
+          "D": "They traded and influenced each other's culture"
+        },
+        "correctAnswer": "D",
+        "explanation": "Being neighbors led Kush and Egypt to trade and influence each other for a long time.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q29",
+        "section": "social",
+        "question": "Which best describes ebony, one of Kush's trade goods?",
+        "choices": {
+          "A": "A precious metal",
+          "B": "A type of valuable wood",
+          "C": "A spice from India",
+          "D": "A kind of cloth"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ebony is a type of valuable wood that Kush traded.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q30",
+        "section": "social",
+        "question": "Put these in the correct order: (1) Kush trades and learns from Egypt, (2) Kush grows powerful, (3) Kushite kings rule Egypt.",
+        "choices": {
+          "A": "3, 2, 1",
+          "B": "2, 1, 3",
+          "C": "1, 2, 3",
+          "D": "3, 1, 2"
+        },
+        "correctAnswer": "C",
+        "explanation": "First Kush traded with and learned from Egypt, then it grew powerful, then its kings ruled Egypt.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q31",
+        "section": "social",
+        "question": "Which of these would a visitor MOST likely see in the Kushite capital of Meroe?",
+        "choices": {
+          "A": "Workshops making iron tools",
+          "B": "Roman gladiator arenas",
+          "C": "Chinese silk factories",
+          "D": "Greek voting assemblies"
+        },
+        "correctAnswer": "A",
+        "explanation": "Meroe was a center of ironworking, so iron-tool workshops would be a common sight.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q32",
+        "section": "social",
+        "question": "Which sentence shows the difference between Kush and Egypt MOST clearly?",
+        "choices": {
+          "A": "Kush was north of Egypt and never traded",
+          "B": "Kush lay south of Egypt and became its own iron-trading kingdom",
+          "C": "Kush and Egypt were the same country",
+          "D": "Kush was in Asia, Egypt in Europe"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kush lay south of Egypt and grew into its own iron-trading kingdom.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q33",
+        "section": "social",
+        "question": "Why might a Kushite king want to build pyramids like the Egyptians?",
+        "choices": {
+          "A": "To copy a powerful neighbor's customs and honor rulers",
+          "B": "To block the Nile River",
+          "C": "To trade them to Rome",
+          "D": "To use them as farms"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush adopted Egyptian customs like pyramid building to honor its rulers.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q34",
+        "section": "social",
+        "question": "What is the BEST one-sentence summary of the Kingdom of Kush?",
+        "choices": {
+          "A": "A poor desert with no people",
+          "B": "A Nubian kingdom south of Egypt, rich from gold and iron trade",
+          "C": "A Greek city famous for democracy",
+          "D": "A Chinese dynasty along the Yellow River"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kush was a Nubian kingdom south of Egypt, rich from gold and iron trade.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q35",
+        "section": "social",
+        "question": "The lesson says Kush sat 'right next to Egypt.' This location is an example of what advantage?",
+        "choices": {
+          "A": "Being cut off from all neighbors",
+          "B": "Being deep in a frozen land",
+          "C": "Being on another continent",
+          "D": "Being near a powerful trading partner"
+        },
+        "correctAnswer": "D",
+        "explanation": "Being right next to Egypt put Kush near a powerful trading partner.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q36",
+        "section": "social",
+        "question": "Which of these is an OPINION rather than a fact about Kush?",
+        "choices": {
+          "A": "Kush lay south of Egypt",
+          "B": "Kush traded iron and gold",
+          "C": "Kush was the greatest kingdom that ever existed",
+          "D": "Meroe was a Kushite capital"
+        },
+        "correctAnswer": "C",
+        "explanation": "Calling Kush the 'greatest kingdom that ever existed' is an opinion, not a provable fact.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q37",
+        "section": "social",
+        "question": "If a museum displays Kushite iron weapons, what does this BEST show about Kush?",
+        "choices": {
+          "A": "Kush could not make metal",
+          "B": "Kush was skilled at working iron",
+          "C": "Kush had no army",
+          "D": "Kush only farmed"
+        },
+        "correctAnswer": "B",
+        "explanation": "Iron weapons show that Kush was skilled at working iron.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q38",
+        "section": "social",
+        "question": "Which two things does the lesson tell you to remember about Kush?",
+        "choices": {
+          "A": "It was in Europe and used paper money",
+          "B": "It equals Nubia, south of Egypt, rich from gold and iron trade",
+          "C": "It conquered China and invented the wheel",
+          "D": "It had no contact with Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Remember: Kush equals Nubia, south of Egypt, rich from gold and iron trade.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q39",
+        "section": "social",
+        "question": "A student claims, 'Egypt was the ONLY advanced civilization in ancient Africa.' Using the lesson, the BEST response is:",
+        "choices": {
+          "A": "True, no other kingdoms existed",
+          "B": "True, Kush was in Asia",
+          "C": "False, but only because of Rome",
+          "D": "False, Kush was also a rich, advanced African kingdom"
+        },
+        "correctAnswer": "D",
+        "explanation": "Kush was also a rich, advanced African kingdom, so the claim is false.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q40",
+        "section": "social",
+        "question": "Which cause-and-effect statement about Kush is correct?",
+        "choices": {
+          "A": "Because Kush controlled gold and iron trade, it became wealthy and powerful",
+          "B": "Because Kush had no resources, it ruled Egypt",
+          "C": "Because Kush was poor, it built pyramids",
+          "D": "Because Kush ignored the Nile, it grew rich"
+        },
+        "correctAnswer": "A",
+        "explanation": "Controlling gold and iron trade caused Kush to become wealthy and powerful.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "Kush and Axum show powerful trading civilizations existed across Africa.",
         "standard": "SS.6.W.3.18",
         "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q11",
+        "section": "social",
+        "question": "Axum was located in the area of which two modern countries?",
+        "choices": {
+          "A": "Ethiopia and Eritrea",
+          "B": "Spain and France",
+          "C": "China and Japan",
+          "D": "Mexico and Peru"
+        },
+        "correctAnswer": "A",
+        "explanation": "Axum was in the area of present-day Ethiopia and Eritrea.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q12",
+        "section": "social",
+        "question": "Which body of water gave Axum its great trading location?",
+        "choices": {
+          "A": "The Pacific Ocean",
+          "B": "The Red Sea",
+          "C": "The Caspian Sea",
+          "D": "The Great Lakes"
+        },
+        "correctAnswer": "B",
+        "explanation": "Axum sat near the Red Sea, which helped it trade.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q13",
+        "section": "social",
+        "question": "About when did Axum officially adopt Christianity?",
+        "choices": {
+          "A": "Around 1500 AD",
+          "B": "Around 2000 AD",
+          "C": "Around the 300s AD",
+          "D": "Around 1000 BC"
+        },
+        "correctAnswer": "C",
+        "explanation": "Axum adopted Christianity around the 300s AD.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q14",
+        "section": "social",
+        "question": "The tall carved stone pillars Axum built are called what?",
+        "choices": {
+          "A": "Ziggurats",
+          "B": "Aqueducts",
+          "C": "Pagodas",
+          "D": "Stelae"
+        },
+        "correctAnswer": "D",
+        "explanation": "Axum's giant carved stone pillars are called stelae.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q15",
+        "section": "social",
+        "question": "What does it mean that Axum was a 'crossroads of trade'?",
+        "choices": {
+          "A": "Many different trade routes met and passed through it",
+          "B": "It banned all trade",
+          "C": "It was a single dead-end road",
+          "D": "It had no roads at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "A crossroads of trade is a place where many trade routes meet and pass through.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q16",
+        "section": "social",
+        "question": "Which of these is another accepted spelling of Axum?",
+        "choices": {
+          "A": "Athens",
+          "B": "Aksum",
+          "C": "Assyria",
+          "D": "Angkor"
+        },
+        "correctAnswer": "B",
+        "explanation": "Axum is also spelled Aksum.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q17",
+        "section": "social",
+        "question": "Which of these did Axum NOT trade through its ports?",
+        "choices": {
+          "A": "Ivory",
+          "B": "Gold",
+          "C": "Farm products",
+          "D": "Automobiles"
+        },
+        "correctAnswer": "D",
+        "explanation": "Axum traded ivory, gold, and farm products; automobiles did not exist in the ancient world.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q18",
+        "section": "social",
+        "question": "From Axum, the Christian religion spread and remained important in Ethiopia for how long?",
+        "choices": {
+          "A": "Only a single day",
+          "B": "For centuries",
+          "C": "Never at all",
+          "D": "Only one year"
+        },
+        "correctAnswer": "B",
+        "explanation": "Christianity from Axum remained important in Ethiopia for centuries.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q19",
+        "section": "social",
+        "question": "Why did minting its own coins matter for Axum?",
+        "choices": {
+          "A": "It showed Axum was a weak, simple village",
+          "B": "It proved Axum did not trade",
+          "C": "It was a sign of a strong, advanced kingdom",
+          "D": "It meant Axum used only barter"
+        },
+        "correctAnswer": "C",
+        "explanation": "Minting its own coins was a sign that Axum was a strong, advanced kingdom.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q20",
+        "section": "social",
+        "question": "Which statement BEST compares Kush and Axum?",
+        "choices": {
+          "A": "Both were European kingdoms with no trade",
+          "B": "Kush was in Asia and Axum in Europe",
+          "C": "Neither one ever traded with anyone",
+          "D": "Both were powerful African trading kingdoms"
+        },
+        "correctAnswer": "D",
+        "explanation": "Both Kush and Axum were powerful African trading kingdoms.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q21",
+        "section": "social",
+        "question": "Which religion is Axum especially famous for adopting early?",
+        "choices": {
+          "A": "Christianity",
+          "B": "Islam",
+          "C": "Judaism",
+          "D": "Shinto"
+        },
+        "correctAnswer": "A",
+        "explanation": "Axum is famous as one of the first kingdoms to officially adopt Christianity.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q22",
+        "section": "social",
+        "question": "Axum's location let it link trade between Africa, the Mediterranean, and which ocean?",
+        "choices": {
+          "A": "The Arctic Ocean",
+          "B": "The Indian Ocean",
+          "C": "The Southern Ocean",
+          "D": "The Pacific Ocean"
+        },
+        "correctAnswer": "B",
+        "explanation": "Axum connected Africa and the Mediterranean to the Indian Ocean.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q23",
+        "section": "social",
+        "question": "On which continent was the kingdom of Axum found?",
+        "choices": {
+          "A": "Asia",
+          "B": "Europe",
+          "C": "Africa",
+          "D": "Australia"
+        },
+        "correctAnswer": "C",
+        "explanation": "Axum was located in East Africa.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q24",
+        "section": "social",
+        "question": "Because Axum sat at a busy trading crossroads, what most likely happened to it?",
+        "choices": {
+          "A": "It stayed poor and unknown",
+          "B": "It lost all contact with other lands",
+          "C": "It grew wealthy and powerful",
+          "D": "It was never able to make coins"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sitting at a busy trading crossroads helped Axum grow wealthy and powerful.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q25",
+        "section": "social",
+        "question": "Which pair correctly matches a kingdom with one of its key features?",
+        "choices": {
+          "A": "Axum = the Great Wall",
+          "B": "Axum = Roman Colosseum",
+          "C": "Axum = the pyramids of Giza",
+          "D": "Axum = giant stone stelae"
+        },
+        "correctAnswer": "D",
+        "explanation": "Axum is known for its giant carved stone stelae.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q26",
+        "section": "social",
+        "question": "If you found an ancient Axumite coin, what would it BEST prove about the kingdom?",
+        "choices": {
+          "A": "Axum had no government",
+          "B": "Axum was a strong, advanced kingdom with its own money",
+          "C": "Axum used only barter",
+          "D": "Axum did not trade"
+        },
+        "correctAnswer": "B",
+        "explanation": "Minting coins shows Axum was a strong, advanced kingdom with its own money.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q27",
+        "section": "social",
+        "question": "Which is NOT true about Axum?",
+        "choices": {
+          "A": "It was located in East Africa",
+          "B": "It was a major trading kingdom",
+          "C": "It was located in South America",
+          "D": "It adopted Christianity early"
+        },
+        "correctAnswer": "C",
+        "explanation": "Axum was in East Africa, not South America.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q28",
+        "section": "social",
+        "question": "What is the BEST one-line summary of Axum?",
+        "choices": {
+          "A": "A frozen land with no people",
+          "B": "An East African trade kingdom that adopted Christianity early",
+          "C": "A Greek city that invented democracy",
+          "D": "A Chinese dynasty on the Yellow River"
+        },
+        "correctAnswer": "B",
+        "explanation": "Axum was an East African trade kingdom that adopted Christianity early.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q29",
+        "section": "social",
+        "question": "Put these Axum events in order: (1) Axum becomes a busy trade center, (2) Axum adopts Christianity, (3) Christianity spreads into Ethiopia.",
+        "choices": {
+          "A": "3, 2, 1",
+          "B": "2, 3, 1",
+          "C": "1, 2, 3",
+          "D": "3, 1, 2"
+        },
+        "correctAnswer": "C",
+        "explanation": "Axum first became a trade center, then adopted Christianity, then Christianity spread into Ethiopia.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q30",
+        "section": "social",
+        "question": "Why was access to the Red Sea so valuable for Axum's economy?",
+        "choices": {
+          "A": "It blocked Axum from all trade",
+          "B": "It let ships carry goods to and from distant lands",
+          "C": "It was used only for swimming",
+          "D": "It had no effect on Axum's wealth"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Red Sea let ships carry goods to and from distant lands, boosting Axum's economy.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q31",
+        "section": "social",
+        "question": "A traveler visiting ancient Axum would MOST likely see which of these?",
+        "choices": {
+          "A": "Towering carved stone pillars and busy trading ports",
+          "B": "Greek voting halls",
+          "C": "Roman gladiator games",
+          "D": "Chinese rice paddies"
+        },
+        "correctAnswer": "A",
+        "explanation": "Axum was known for its towering stone stelae and busy trading ports.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q32",
+        "section": "social",
+        "question": "How does Axum's early adoption of Christianity make it different from many kingdoms of its time?",
+        "choices": {
+          "A": "It was the last kingdom on Earth to hear of it",
+          "B": "It never had any religion",
+          "C": "It banned all religion",
+          "D": "It was one of the FIRST kingdoms to officially adopt the religion"
+        },
+        "correctAnswer": "D",
+        "explanation": "Axum was one of the first kingdoms to officially adopt Christianity.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q33",
+        "section": "social",
+        "question": "Which sentence is an OPINION rather than a fact about Axum?",
+        "choices": {
+          "A": "Axum sat near the Red Sea",
+          "B": "Axum traded ivory and gold",
+          "C": "Axum was the most beautiful kingdom ever built",
+          "D": "Axum minted its own coins"
+        },
+        "correctAnswer": "C",
+        "explanation": "Calling Axum 'the most beautiful kingdom ever built' is an opinion, not a fact.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q34",
+        "section": "social",
+        "question": "Trade ports were important to Axum because they were places where what happened?",
+        "choices": {
+          "A": "Ships loaded and unloaded goods for trade",
+          "B": "Farming was forbidden",
+          "C": "Travel was banned",
+          "D": "Coins were destroyed"
+        },
+        "correctAnswer": "A",
+        "explanation": "Ports were places where ships loaded and unloaded goods for trade.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q35",
+        "section": "social",
+        "question": "Which two things does the lesson tell you to remember about Axum?",
+        "choices": {
+          "A": "European location and paper money",
+          "B": "East African trade kingdom and early Christianity",
+          "C": "Asian dynasty and the Great Wall",
+          "D": "American empire and gold mining only"
+        },
+        "correctAnswer": "B",
+        "explanation": "Remember: Axum was an East African trade kingdom known for early Christianity.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q36",
+        "section": "social",
+        "question": "Which of these is the BEST example of 'wealth from trade' in Axum?",
+        "choices": {
+          "A": "A farmer with no neighbors",
+          "B": "A village that refused all visitors",
+          "C": "A city with no ports",
+          "D": "A king growing rich from taxing and selling traded ivory and gold"
+        },
+        "correctAnswer": "D",
+        "explanation": "A king growing rich from traded ivory and gold shows wealth from trade.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q37",
+        "section": "social",
+        "question": "What can we conclude about East Africa from the story of Axum?",
+        "choices": {
+          "A": "It had no contact with the rest of the world",
+          "B": "It was home to a wealthy, advanced trading kingdom",
+          "C": "It never used any kind of money",
+          "D": "It had no religions"
+        },
+        "correctAnswer": "B",
+        "explanation": "Axum shows East Africa was home to a wealthy, advanced trading kingdom.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q38",
+        "section": "social",
+        "question": "Christianity entered the region and then spread FROM Axum into which neighboring area?",
+        "choices": {
+          "A": "Ethiopia",
+          "B": "Greece",
+          "C": "India",
+          "D": "Japan"
+        },
+        "correctAnswer": "A",
+        "explanation": "From Axum, Christianity spread into Ethiopia.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q39",
+        "section": "social",
+        "question": "Which cause-and-effect statement about Axum is correct?",
+        "choices": {
+          "A": "Because it ignored the sea, Axum became rich",
+          "B": "Because it had no coins, Axum ruled the Mediterranean",
+          "C": "Because it sat at a trade crossroads near the Red Sea, Axum grew wealthy",
+          "D": "Because it banned trade, Axum became powerful"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sitting at a trade crossroads near the Red Sea caused Axum to grow wealthy.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q40",
+        "section": "social",
+        "question": "Together, Kush and Axum BEST show which big idea about African history?",
+        "choices": {
+          "A": "Important trading kingdoms and religious changes happened across the African continent",
+          "B": "Africa had only deserts and no people",
+          "C": "Trade never reached Africa",
+          "D": "Only one small kingdom ever existed in Africa"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush and Axum show important trading kingdoms and religious changes happened across Africa.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
       }
     ]
   },
@@ -467,6 +1367,456 @@
         "explanation": "Trade linked far regions and spread both goods and ideas.",
         "standard": "SS.6.E.3.1",
         "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q11",
+        "section": "social",
+        "question": "Which of these is an example of barter?",
+        "choices": {
+          "A": "Buying bread with a dollar bill",
+          "B": "Trading a basket of grain for a piece of cloth",
+          "C": "Paying with a credit card",
+          "D": "Saving coins in a bank"
+        },
+        "correctAnswer": "B",
+        "explanation": "Trading grain directly for cloth is an example of barter.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q12",
+        "section": "social",
+        "question": "What is the spread of culture, ideas, and inventions from one place to another called?",
+        "choices": {
+          "A": "Cultural diffusion",
+          "B": "Bartering",
+          "C": "Irrigation",
+          "D": "Minting"
+        },
+        "correctAnswer": "A",
+        "explanation": "The spread of culture and ideas from place to place is called cultural diffusion.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q13",
+        "section": "social",
+        "question": "Which best completes the sentence? Money works as a medium of exchange because ___.",
+        "choices": {
+          "A": "no one wants it",
+          "B": "it can only be eaten",
+          "C": "people widely accept it in trade for goods and services",
+          "D": "it must be traded for the exact same item"
+        },
+        "correctAnswer": "C",
+        "explanation": "Money works because people widely accept it in trade for goods and services.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q14",
+        "section": "social",
+        "question": "Imagine you grow apples but want shoes, and the shoemaker does NOT want apples. Which system makes this trade hard?",
+        "choices": {
+          "A": "Using coins",
+          "B": "Using paper money",
+          "C": "Using a bank",
+          "D": "Barter"
+        },
+        "correctAnswer": "D",
+        "explanation": "Barter is hard here because both people must want exactly what the other has.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q15",
+        "section": "social",
+        "question": "Which of these is NOT a way that trade helped the ancient world?",
+        "choices": {
+          "A": "It spread ideas between regions",
+          "B": "It carried religions to new places",
+          "C": "It kept every region totally separate",
+          "D": "It moved inventions from one land to another"
+        },
+        "correctAnswer": "C",
+        "explanation": "Trade connected regions rather than keeping them separate.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q16",
+        "section": "social",
+        "question": "Why was metal made into coins a useful early form of money?",
+        "choices": {
+          "A": "Coins were widely accepted and easy to carry and trade",
+          "B": "Coins could be eaten for food",
+          "C": "Coins could not be traded",
+          "D": "Coins forced people back into barter"
+        },
+        "correctAnswer": "A",
+        "explanation": "Coins were widely accepted and easy to carry, making trade simpler.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q17",
+        "section": "social",
+        "question": "Which sentence shows the difference between barter and money?",
+        "choices": {
+          "A": "Both require swapping the exact same goods",
+          "B": "Barter is a direct goods swap, while money is accepted by everyone in trade",
+          "C": "Money came before barter in history",
+          "D": "Barter and money are exactly the same thing"
+        },
+        "correctAnswer": "B",
+        "explanation": "Barter is a direct goods swap, while money is accepted by everyone in trade.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q18",
+        "section": "social",
+        "question": "Long-distance traders traveling along routes carried more than goods. What else did they carry?",
+        "choices": {
+          "A": "Only empty wagons",
+          "B": "Nothing of value",
+          "C": "Ideas, inventions, religions, and writing",
+          "D": "Only water"
+        },
+        "correctAnswer": "C",
+        "explanation": "Traders carried ideas, inventions, religions, and writing along with goods.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q19",
+        "section": "social",
+        "question": "Which event came FIRST in the history of trade?",
+        "choices": {
+          "A": "People used barter to swap goods directly",
+          "B": "Banks gave out loans",
+          "C": "People used plastic credit cards",
+          "D": "Computers handled online payments"
+        },
+        "correctAnswer": "A",
+        "explanation": "Barter came first, before coins, banks, or modern payments.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q20",
+        "section": "social",
+        "question": "A monk's religion spreads to a faraway land because traders carried it along a trade route. This is an example of what?",
+        "choices": {
+          "A": "Barter",
+          "B": "Minting coins",
+          "C": "Cultural diffusion",
+          "D": "Irrigation"
+        },
+        "correctAnswer": "C",
+        "explanation": "Religion spreading along trade routes is an example of cultural diffusion.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q21",
+        "section": "social",
+        "question": "What does 'medium of exchange' mean in your own words?",
+        "choices": {
+          "A": "A river used for boats",
+          "B": "Something people accept to trade for goods and services",
+          "C": "A type of farm tool",
+          "D": "A ruler of a city"
+        },
+        "correctAnswer": "B",
+        "explanation": "A medium of exchange is something people accept to trade for goods and services.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q22",
+        "section": "social",
+        "question": "Which is the BEST reason money replaced much of barter over time?",
+        "choices": {
+          "A": "Money made trade slower and harder",
+          "B": "Money could not be used to buy anything",
+          "C": "People preferred to give things away free",
+          "D": "Money removed the need to find a perfect direct swap"
+        },
+        "correctAnswer": "D",
+        "explanation": "Money removed the need to find someone who wanted an exact direct swap.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q23",
+        "section": "social",
+        "question": "Which of these is an example of using money rather than barter?",
+        "choices": {
+          "A": "Swapping a cow for a wagon",
+          "B": "Trading fish for vegetables",
+          "C": "Exchanging grain for cloth",
+          "D": "Buying a tool with coins"
+        },
+        "correctAnswer": "D",
+        "explanation": "Buying a tool with coins uses money, not direct barter.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q24",
+        "section": "social",
+        "question": "Before money was invented, how did people most often trade?",
+        "choices": {
+          "A": "With paper checks",
+          "B": "By bartering goods directly",
+          "C": "With credit cards",
+          "D": "With online banking"
+        },
+        "correctAnswer": "B",
+        "explanation": "Before money, people traded by bartering goods directly.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q25",
+        "section": "social",
+        "question": "Which statement about trade routes is TRUE?",
+        "choices": {
+          "A": "They carried both goods and ideas between distant lands",
+          "B": "They only moved water",
+          "C": "They kept civilizations from ever meeting",
+          "D": "They were useless to ancient people"
+        },
+        "correctAnswer": "A",
+        "explanation": "Trade routes carried both goods and ideas between distant lands.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q26",
+        "section": "social",
+        "question": "Which is an OPINION rather than a fact about money?",
+        "choices": {
+          "A": "Coins were an early form of money",
+          "B": "Money is a medium of exchange",
+          "C": "Saving money is more fun than spending it",
+          "D": "Money is widely accepted in trade"
+        },
+        "correctAnswer": "C",
+        "explanation": "Saying saving money is 'more fun' is an opinion, not a fact.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q27",
+        "section": "social",
+        "question": "What is the BEST one-line summary of this lesson?",
+        "choices": {
+          "A": "Money came first, and barter replaced it later",
+          "B": "Trade never spread any ideas",
+          "C": "People always used credit cards",
+          "D": "Barter came first; money like coins made trade easier"
+        },
+        "correctAnswer": "D",
+        "explanation": "Barter came first, and money like coins made trade easier.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q28",
+        "section": "social",
+        "question": "Put these in the correct order of history: (1) barter, (2) metal coins, (3) modern credit cards.",
+        "choices": {
+          "A": "2, 1, 3",
+          "B": "1, 2, 3",
+          "C": "3, 2, 1",
+          "D": "2, 3, 1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Barter came first, then metal coins, and modern credit cards came much later.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q29",
+        "section": "social",
+        "question": "Two traders both want exactly what the other has. In a barter system, what can they do?",
+        "choices": {
+          "A": "Nothing can ever be traded",
+          "B": "They must wait for coins",
+          "C": "They can swap their goods directly",
+          "D": "They must use a bank"
+        },
+        "correctAnswer": "C",
+        "explanation": "When both want what the other has, they can swap their goods directly through barter.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q30",
+        "section": "social",
+        "question": "Cultural diffusion happened MOSTLY because of what activity in the ancient world?",
+        "choices": {
+          "A": "Trade and travel along trade routes",
+          "B": "People never leaving home",
+          "C": "Closing all borders",
+          "D": "Banning all merchants"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cultural diffusion spread mostly through trade and travel along trade routes.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q31",
+        "section": "social",
+        "question": "Which of these would a historian call 'money'?",
+        "choices": {
+          "A": "Anything widely accepted as a medium of exchange",
+          "B": "Only paper printed today",
+          "C": "Only things you cannot trade",
+          "D": "Only items given away for free"
+        },
+        "correctAnswer": "A",
+        "explanation": "Money is anything widely accepted as a medium of exchange.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q32",
+        "section": "social",
+        "question": "Which is a cause-and-effect statement that fits the lesson?",
+        "choices": {
+          "A": "Because barter had a matching problem, civilizations created money",
+          "B": "Because money was easy, people went back to barter",
+          "C": "Because trade routes were closed, ideas spread quickly",
+          "D": "Because coins were useless, trade grew"
+        },
+        "correctAnswer": "A",
+        "explanation": "Because barter required a perfect match, civilizations created money to make trade easier.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q33",
+        "section": "social",
+        "question": "Which of the following is NOT a form of money mentioned or implied as making trade easier?",
+        "choices": {
+          "A": "Valuable items",
+          "B": "Metal coins",
+          "C": "A medium of exchange",
+          "D": "A direct grain-for-cloth swap"
+        },
+        "correctAnswer": "D",
+        "explanation": "A direct grain-for-cloth swap is barter, not money.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q34",
+        "section": "social",
+        "question": "A new invention spreads from one civilization to another because of trade contact. What is this an example of?",
+        "choices": {
+          "A": "Barter",
+          "B": "Cultural diffusion",
+          "C": "Minting",
+          "D": "Irrigation"
+        },
+        "correctAnswer": "B",
+        "explanation": "An invention spreading through trade contact is cultural diffusion.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q35",
+        "section": "social",
+        "question": "Which best explains why trade did 'more than move goods'?",
+        "choices": {
+          "A": "It also spread ideas, inventions, religions, and writing",
+          "B": "It only moved heavy rocks",
+          "C": "It stopped all learning",
+          "D": "It kept knowledge locked in one place"
+        },
+        "correctAnswer": "A",
+        "explanation": "Trade did more than move goods because it also spread ideas, inventions, religions, and writing.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q36",
+        "section": "social",
+        "question": "Which is the BEST definition of barter?",
+        "choices": {
+          "A": "Paying taxes to a king",
+          "B": "Saving coins in a jar",
+          "C": "Swapping goods or services directly for other goods or services",
+          "D": "Printing paper money"
+        },
+        "correctAnswer": "C",
+        "explanation": "Barter is swapping goods or services directly for other goods or services.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q37",
+        "section": "social",
+        "question": "Which sentence shows the MAIN advantage of money over barter?",
+        "choices": {
+          "A": "Money makes you find a perfect direct swap",
+          "B": "Money is accepted by everyone, so a perfect direct swap is not needed",
+          "C": "Money can only be used once",
+          "D": "Money stops all trade"
+        },
+        "correctAnswer": "B",
+        "explanation": "Money is accepted by everyone, so traders no longer need a perfect direct swap.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q38",
+        "section": "social",
+        "question": "How did trade help 'the whole ancient world grow and change'?",
+        "choices": {
+          "A": "By cutting off all sharing of goods and ideas",
+          "B": "By keeping each civilization alone forever",
+          "C": "By destroying inventions",
+          "D": "By connecting distant lands so they shared goods and knowledge"
+        },
+        "correctAnswer": "D",
+        "explanation": "Trade connected distant lands so civilizations shared goods and knowledge, helping the world grow and change.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q39",
+        "section": "social",
+        "question": "Which everyday school example is MOST like barter?",
+        "choices": {
+          "A": "Buying lunch with a debit card",
+          "B": "Trading your sandwich for a friend's apple",
+          "C": "Paying for a book with coins",
+          "D": "Putting money in a vending machine"
+        },
+        "correctAnswer": "B",
+        "explanation": "Trading a sandwich for an apple is a direct goods swap, just like barter.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q40",
+        "section": "social",
+        "question": "Which two key points does the lesson tell you to remember?",
+        "choices": {
+          "A": "Money came first; barter made trade harder",
+          "B": "Trade only moved goods and nothing else",
+          "C": "Cultural diffusion never happened",
+          "D": "Barter came first; money (coins) made trade easier"
+        },
+        "correctAnswer": "D",
+        "explanation": "Remember: barter came first, and money like coins made trade easier.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
       }
     ]
   }
