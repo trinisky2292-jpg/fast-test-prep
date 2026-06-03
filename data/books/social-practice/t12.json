@@ -153,6 +153,456 @@
         "explanation": "Belief in one God is monotheism.",
         "standard": "SS.6.W.2.9",
         "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q11",
+        "section": "social",
+        "question": "The belief in many gods, which the Israelites' neighbors practiced, is called what?",
+        "choices": {
+          "A": "Polytheism",
+          "B": "Monotheism",
+          "C": "Atheism",
+          "D": "Legalism"
+        },
+        "correctAnswer": "A",
+        "explanation": "Belief in many gods is polytheism, which set the Israelites' neighbors apart from them.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q12",
+        "section": "social",
+        "question": "In what region did the ancient Israelites live?",
+        "choices": {
+          "A": "The Andes Mountains of South America",
+          "B": "The Yellow River valley of China",
+          "C": "The island of Britain",
+          "D": "The eastern Mediterranean, the land called Canaan"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Israelites lived in the eastern Mediterranean region, the land sometimes called Canaan.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q13",
+        "section": "social",
+        "question": "The Torah is part of which collection of Israelite sacred writings?",
+        "choices": {
+          "A": "The Roman law codes",
+          "B": "The Hebrew Bible",
+          "C": "The Egyptian Book of the Dead",
+          "D": "The Analects"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Torah is part of the Hebrew Bible, the sacred texts of the Israelites.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q14",
+        "section": "social",
+        "question": "The escape of the Israelites out of slavery in Egypt is known as the what?",
+        "choices": {
+          "A": "The Diaspora",
+          "B": "The Crusade",
+          "C": "The Exodus",
+          "D": "The Reformation"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Israelites' departure out of slavery in Egypt is called the Exodus, led by Moses.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q15",
+        "section": "social",
+        "question": "Which city did King David make the capital of the united Israelites?",
+        "choices": {
+          "A": "Babylon",
+          "B": "Memphis",
+          "C": "Athens",
+          "D": "Jerusalem"
+        },
+        "correctAnswer": "D",
+        "explanation": "King David made Jerusalem the capital of the united Israelite people.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q16",
+        "section": "social",
+        "question": "Solomon, who built the great temple in Jerusalem, was whose son?",
+        "choices": {
+          "A": "Abraham's son",
+          "B": "Moses's son",
+          "C": "King David's son",
+          "D": "Hammurabi's son"
+        },
+        "correctAnswer": "C",
+        "explanation": "Solomon was King David's son, and he built a great temple in Jerusalem.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q17",
+        "section": "social",
+        "question": "Which of these was NOT an important Israelite leader?",
+        "choices": {
+          "A": "Abraham",
+          "B": "Moses",
+          "C": "Confucius",
+          "D": "King David"
+        },
+        "correctAnswer": "C",
+        "explanation": "Confucius was a Chinese teacher, not an Israelite leader. Abraham, Moses, and David were Israelite leaders.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q18",
+        "section": "social",
+        "question": "A neighbor of the Israelites worships a sun god, a sky god, and a river god. How is this belief different from the Israelites' belief?",
+        "choices": {
+          "A": "The neighbor worships one god, while the Israelites worshipped many",
+          "B": "Both worship exactly the same gods",
+          "C": "Neither group believes in any gods",
+          "D": "The neighbor worships many gods, while the Israelites worshipped only one"
+        },
+        "correctAnswer": "D",
+        "explanation": "The neighbor practices polytheism, worshipping many gods, while the Israelites practiced monotheism, worshipping only one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q19",
+        "section": "social",
+        "question": "Put these Israelite leaders in the correct time order, from earliest to latest.",
+        "choices": {
+          "A": "King David, Moses, Abraham",
+          "B": "Abraham, Moses, King David",
+          "C": "Moses, Abraham, King David",
+          "D": "King David, Abraham, Moses"
+        },
+        "correctAnswer": "B",
+        "explanation": "Abraham came first as the father of the people, then Moses led the Exodus, and later King David ruled as king.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q20",
+        "section": "social",
+        "question": "Which is the BEST example of a moral law like those in the Ten Commandments?",
+        "choices": {
+          "A": "A rule about how to sail a ship",
+          "B": "A rule for trading goods at a market",
+          "C": "A rule about planting crops in spring",
+          "D": "A rule telling people not to steal"
+        },
+        "correctAnswer": "D",
+        "explanation": "A rule telling people not to steal is a moral law about living a good and fair life, like the Ten Commandments.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q21",
+        "section": "social",
+        "question": "Because the Israelites worshipped only one God, their religion is best described as which of the following?",
+        "choices": {
+          "A": "Polytheistic",
+          "B": "Monotheistic",
+          "C": "A nature religion with many spirits",
+          "D": "A religion that worshipped kings as gods"
+        },
+        "correctAnswer": "B",
+        "explanation": "Worshipping only one God makes the Israelite religion monotheistic.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q22",
+        "section": "social",
+        "question": "What is a covenant?",
+        "choices": {
+          "A": "A type of temple",
+          "B": "A special agreement or promise",
+          "C": "A kind of tax",
+          "D": "A war between two kingdoms"
+        },
+        "correctAnswer": "B",
+        "explanation": "A covenant is a special agreement or promise, like the one the Israelites believed God made with Abraham.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q23",
+        "section": "social",
+        "question": "Why was the Israelite focus on moral laws unusual compared to many neighboring religions?",
+        "choices": {
+          "A": "Many neighbors focused on rituals to please many gods instead of moral laws for daily life",
+          "B": "Neighbors had far stricter moral laws than the Israelites",
+          "C": "Neighbors did not believe in any gods at all",
+          "D": "Neighbors also worshipped just one God"
+        },
+        "correctAnswer": "A",
+        "explanation": "Many neighboring religions focused on rituals to please many gods, while the Israelites emphasized moral laws about living a good and fair life.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q24",
+        "section": "social",
+        "question": "Which leader is most closely connected with receiving the Ten Commandments?",
+        "choices": {
+          "A": "Abraham",
+          "B": "Solomon",
+          "C": "Moses",
+          "D": "King David"
+        },
+        "correctAnswer": "C",
+        "explanation": "Moses is connected with receiving the Ten Commandments after leading the Israelites out of Egypt.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q25",
+        "section": "social",
+        "question": "The Hebrew Bible was important to the Israelites mainly because it did what?",
+        "choices": {
+          "A": "Listed every king of Egypt",
+          "B": "Recorded their history, beliefs, and laws",
+          "C": "Explained how to build pyramids",
+          "D": "Mapped trade routes to China"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Hebrew Bible recorded the Israelites' history, beliefs, and laws.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q26",
+        "section": "social",
+        "question": "A student says, 'The Israelites believed in many gods.' What is the correct way to fix this statement?",
+        "choices": {
+          "A": "The Israelites believed in one God",
+          "B": "The Israelites believed in no gods",
+          "C": "The Israelites worshipped the pharaoh as a god",
+          "D": "The statement is already correct"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Israelites practiced monotheism, so the correct statement is that they believed in one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q27",
+        "section": "social",
+        "question": "Which pair correctly matches a leader with what he is remembered for?",
+        "choices": {
+          "A": "Abraham — leading the Exodus from Egypt",
+          "B": "Moses — building the temple in Jerusalem",
+          "C": "King David — being the father of the Israelite people",
+          "D": "Solomon — building a great temple in Jerusalem"
+        },
+        "correctAnswer": "D",
+        "explanation": "Solomon is correctly matched with building a great temple in Jerusalem.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q28",
+        "section": "social",
+        "question": "If a covenant is a special agreement, then the Israelites believed God's covenant with Abraham was a what?",
+        "choices": {
+          "A": "A promise between God and Abraham's people",
+          "B": "A battle plan against Egypt",
+          "C": "A list of trade goods",
+          "D": "A tax owed to a king"
+        },
+        "correctAnswer": "A",
+        "explanation": "The covenant was understood as a special promise or agreement between God and Abraham's people.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q29",
+        "section": "social",
+        "question": "Which of the following is NOT something the Israelites are known for?",
+        "choices": {
+          "A": "Belief in one God",
+          "B": "Following moral laws like the Ten Commandments",
+          "C": "Worshipping many nature gods",
+          "D": "Recording their beliefs in sacred texts"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Israelites did not worship many nature gods; they believed in one God, followed moral laws, and recorded beliefs in sacred texts.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q30",
+        "section": "social",
+        "question": "Moses is remembered for leading the Israelites out of slavery in which land?",
+        "choices": {
+          "A": "Persia",
+          "B": "Egypt",
+          "C": "Greece",
+          "D": "India"
+        },
+        "correctAnswer": "B",
+        "explanation": "Moses led the Israelites out of slavery in Egypt during the Exodus.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q31",
+        "section": "social",
+        "question": "What does monotheism mean?",
+        "choices": {
+          "A": "Belief in one God",
+          "B": "Belief in many gods",
+          "C": "Belief that kings are gods",
+          "D": "Belief in no gods"
+        },
+        "correctAnswer": "A",
+        "explanation": "Monotheism means belief in one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q32",
+        "section": "social",
+        "question": "The Ten Commandments are an example of what kind of rules?",
+        "choices": {
+          "A": "Rules for trading with Egypt",
+          "B": "Rules for building temples",
+          "C": "Rules for sailing ships",
+          "D": "Moral and religious laws"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Ten Commandments are moral and religious laws about living a good and fair life.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q33",
+        "section": "social",
+        "question": "Cause and effect: The Israelites believed God made a covenant with Abraham. What did this belief help give the Israelites?",
+        "choices": {
+          "A": "Control over all of Egypt",
+          "B": "The largest army in the world",
+          "C": "Belief in many different gods",
+          "D": "A sense of being a special people with a special agreement with God"
+        },
+        "correctAnswer": "D",
+        "explanation": "The covenant gave the Israelites a sense of being a special people who had a special agreement with God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q34",
+        "section": "social",
+        "question": "Which statement about the Israelites is TRUE?",
+        "choices": {
+          "A": "They worshipped many gods like their neighbors",
+          "B": "They had no written records of their beliefs",
+          "C": "They believed in one God and followed moral laws",
+          "D": "They built the Great Pyramid of Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "It is true that the Israelites believed in one God and followed moral laws.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q35",
+        "section": "social",
+        "question": "An ancient people records their laws in a sacred book, worships only one God, and honors Abraham as their father. Who are they?",
+        "choices": {
+          "A": "The Romans",
+          "B": "The Israelites",
+          "C": "The Aztecs",
+          "D": "The Mongols"
+        },
+        "correctAnswer": "B",
+        "explanation": "These clues — one God, sacred texts, and Abraham as their father — describe the Israelites.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q36",
+        "section": "social",
+        "question": "Which leader is honored as the father of the Israelite people and is tied to the covenant with God?",
+        "choices": {
+          "A": "Solomon",
+          "B": "Moses",
+          "C": "Abraham",
+          "D": "King David"
+        },
+        "correctAnswer": "C",
+        "explanation": "Abraham is honored as the father of the Israelites and is tied to the covenant with God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q37",
+        "section": "social",
+        "question": "Compared with a neighbor who worshipped many gods, the Israelites were unusual mainly because they did what?",
+        "choices": {
+          "A": "Worshipped one God and stressed moral law",
+          "B": "Built the most temples",
+          "C": "Had the most powerful army",
+          "D": "Refused to write anything down"
+        },
+        "correctAnswer": "A",
+        "explanation": "Unlike polytheistic neighbors, the Israelites worshipped one God and stressed moral law.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q38",
+        "section": "social",
+        "question": "Which event came FIRST in Israelite history?",
+        "choices": {
+          "A": "Solomon building the temple in Jerusalem",
+          "B": "Abraham being honored as the father of the people",
+          "C": "King David making Jerusalem the capital",
+          "D": "Moses leading the Exodus"
+        },
+        "correctAnswer": "B",
+        "explanation": "Abraham, the father of the people, comes first, before Moses, David, or Solomon.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q39",
+        "section": "social",
+        "question": "Where was the great temple built by Solomon located?",
+        "choices": {
+          "A": "Babylon",
+          "B": "Egypt",
+          "C": "Rome",
+          "D": "Jerusalem"
+        },
+        "correctAnswer": "D",
+        "explanation": "Solomon built the great temple in Jerusalem, the Israelite capital.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q40",
+        "section": "social",
+        "question": "Why might historians say the Israelites' religion was very influential even though they were a small people?",
+        "choices": {
+          "A": "Because their idea of one God and moral law would later shape other major religions",
+          "B": "Because they built the largest empire in the ancient world",
+          "C": "Because they invented writing",
+          "D": "Because they had the most gods of any people"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Israelites' ideas of one God and moral law would later shape other major religions, making a small people very influential.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "Monotheism and moral law were Judaism's key influences.",
         "standard": "SS.6.W.2.9",
         "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q11",
+        "section": "social",
+        "question": "What does the word 'Diaspora' mean?",
+        "choices": {
+          "A": "A new kingdom",
+          "B": "The scattering of a people to new lands",
+          "C": "A religious holiday",
+          "D": "A type of temple"
+        },
+        "correctAnswer": "B",
+        "explanation": "Diaspora means the scattering of a people to new lands, as happened to the Jews.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q12",
+        "section": "social",
+        "question": "Judaism, Christianity, and Islam are all called Abrahamic religions because they all trace back to whom?",
+        "choices": {
+          "A": "Moses",
+          "B": "Solomon",
+          "C": "Abraham",
+          "D": "King David"
+        },
+        "correctAnswer": "C",
+        "explanation": "All three faiths trace back to Abraham, which is why they are called Abrahamic religions.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q13",
+        "section": "social",
+        "question": "Cause and effect: Powerful empires conquered Israel and Judah. What was one result of this?",
+        "choices": {
+          "A": "The Jews built the pyramids of Egypt",
+          "B": "The Jews conquered the Roman Empire",
+          "C": "The Jews stopped believing in God right away",
+          "D": "Many Hebrews were forced to leave their homeland and scatter to new lands"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because of the conquests, many Hebrews were forced to leave their homeland and scatter, an event called the Diaspora.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q14",
+        "section": "social",
+        "question": "Which of these is NOT one of the three Abrahamic religions?",
+        "choices": {
+          "A": "Judaism",
+          "B": "Christianity",
+          "C": "Hinduism",
+          "D": "Islam"
+        },
+        "correctAnswer": "C",
+        "explanation": "Hinduism is not an Abrahamic religion. Judaism, Christianity, and Islam are the three Abrahamic faiths.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q15",
+        "section": "social",
+        "question": "How did the Jewish people keep their identity even while scattered far from home?",
+        "choices": {
+          "A": "By giving up their old beliefs",
+          "B": "By starting to worship many gods",
+          "C": "By forgetting their traditions",
+          "D": "By holding onto their belief in one God, sacred texts, and customs"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Jews held onto their belief in one God, their sacred texts, and their customs wherever they went.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q16",
+        "section": "social",
+        "question": "From which kingdom does the word 'Jewish' come?",
+        "choices": {
+          "A": "Israel",
+          "B": "Babylon",
+          "C": "Judah",
+          "D": "Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "The word 'Jewish' comes from the kingdom of Judah.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q17",
+        "section": "social",
+        "question": "The central idea Judaism passed on to Christianity and Islam was the belief in what?",
+        "choices": {
+          "A": "Many gods",
+          "B": "The Mandate of Heaven",
+          "C": "The caste system",
+          "D": "One God"
+        },
+        "correctAnswer": "D",
+        "explanation": "Judaism passed on the belief in one God, or monotheism, to Christianity and Islam.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q18",
+        "section": "social",
+        "question": "Put these events in the correct order: (1) Israel and Judah are conquered, (2) Jews scatter in the Diaspora, (3) Jews keep their faith alive in new lands.",
+        "choices": {
+          "A": "3, 2, 1",
+          "B": "2, 1, 3",
+          "C": "1, 2, 3",
+          "D": "1, 3, 2"
+        },
+        "correctAnswer": "C",
+        "explanation": "First the kingdoms were conquered, then the Jews scattered in the Diaspora, and then they kept their faith alive in new lands.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q19",
+        "section": "social",
+        "question": "Why is the survival of Jewish identity after the Diaspora considered remarkable by historians?",
+        "choices": {
+          "A": "Because the Jews had the largest empire",
+          "B": "Because no one had ever been conquered before",
+          "C": "Because the Jews were never actually scattered",
+          "D": "Because most other conquered and scattered peoples lost their identity"
+        },
+        "correctAnswer": "D",
+        "explanation": "It is remarkable because most other conquered and scattered peoples lost their identity, but the Jews kept theirs.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q20",
+        "section": "social",
+        "question": "Which is the BEST description of Judaism's legacy?",
+        "choices": {
+          "A": "A small ancient people's beliefs ended up shaping the faith of billions",
+          "B": "It quickly disappeared and left no mark",
+          "C": "It taught the world to worship many gods",
+          "D": "It built the largest army in history"
+        },
+        "correctAnswer": "A",
+        "explanation": "Judaism's legacy is that a small ancient people's beliefs ended up shaping the faith of billions across the world.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q21",
+        "section": "social",
+        "question": "The two kingdoms built by the Israelites were Israel and which other kingdom?",
+        "choices": {
+          "A": "Judah",
+          "B": "Persia",
+          "C": "Greece",
+          "D": "Rome"
+        },
+        "correctAnswer": "A",
+        "explanation": "The two Israelite kingdoms were Israel and Judah.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q22",
+        "section": "social",
+        "question": "Which statement best compares monotheism and polytheism?",
+        "choices": {
+          "A": "Monotheism is belief in many gods, while polytheism is belief in one God",
+          "B": "Both mean belief in no gods",
+          "C": "Monotheism is belief in one God, while polytheism is belief in many gods",
+          "D": "Both mean worshipping kings as gods"
+        },
+        "correctAnswer": "C",
+        "explanation": "Monotheism is belief in one God, and polytheism is belief in many gods.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q23",
+        "section": "social",
+        "question": "Which of these is NOT a reason the Jewish people were able to keep their identity?",
+        "choices": {
+          "A": "They held onto their belief in one God",
+          "B": "They kept their sacred texts",
+          "C": "They held onto their customs",
+          "D": "They gave up all their traditions"
+        },
+        "correctAnswer": "D",
+        "explanation": "Giving up their traditions would not help them keep their identity. They kept their belief in one God, their sacred texts, and their customs.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q24",
+        "section": "social",
+        "question": "A history book says, 'A faith born from Judaism's ideas grew to be followed by billions.' This is an example of Judaism's what?",
+        "choices": {
+          "A": "Army",
+          "B": "Lasting legacy and influence",
+          "C": "Trade network",
+          "D": "Pyramid building"
+        },
+        "correctAnswer": "B",
+        "explanation": "Faiths growing from Judaism's ideas is an example of its lasting legacy and influence.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q25",
+        "section": "social",
+        "question": "Which religion is one of the major faiths that Judaism's ideas helped to shape?",
+        "choices": {
+          "A": "Buddhism",
+          "B": "Shinto",
+          "C": "Christianity",
+          "D": "Daoism"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christianity is one of the major faiths shaped by Judaism's idea of one God and moral law.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q26",
+        "section": "social",
+        "question": "What is the main reason Judaism, Christianity, and Islam are grouped together as 'Abrahamic'?",
+        "choices": {
+          "A": "They all worship many gods",
+          "B": "They all began in China",
+          "C": "They all trace their roots back to Abraham",
+          "D": "They all reject the idea of one God"
+        },
+        "correctAnswer": "C",
+        "explanation": "They are grouped as Abrahamic because they all trace their roots back to Abraham.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q27",
+        "section": "social",
+        "question": "If a people is conquered, scattered, but still keeps its religion and customs, what are they doing?",
+        "choices": {
+          "A": "Preserving their identity",
+          "B": "Losing their identity",
+          "C": "Building an empire",
+          "D": "Starting a new religion of many gods"
+        },
+        "correctAnswer": "A",
+        "explanation": "Keeping their religion and customs after being scattered means they are preserving their identity, as the Jews did.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q28",
+        "section": "social",
+        "question": "Which event is most directly connected to the Diaspora?",
+        "choices": {
+          "A": "The building of the temple in Jerusalem",
+          "B": "The conquest of Israel and Judah by powerful empires",
+          "C": "Abraham becoming the father of the people",
+          "D": "Moses receiving the Ten Commandments"
+        },
+        "correctAnswer": "B",
+        "explanation": "The conquest of Israel and Judah by powerful empires forced the Jews to scatter, causing the Diaspora.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q29",
+        "section": "social",
+        "question": "Which statement about Judaism's influence is TRUE?",
+        "choices": {
+          "A": "Judaism's ideas had no effect on later religions",
+          "B": "Judaism's belief in one God influenced both Christianity and Islam",
+          "C": "Judaism taught later religions to worship many gods",
+          "D": "Judaism only affected China"
+        },
+        "correctAnswer": "B",
+        "explanation": "It is true that Judaism's belief in one God influenced both Christianity and Islam.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q30",
+        "section": "social",
+        "question": "The Diaspora happened because the Israelite kingdoms were what?",
+        "choices": {
+          "A": "Conquered by powerful empires",
+          "B": "Joined peacefully with Egypt",
+          "C": "Made the strongest empire on earth",
+          "D": "Never bothered by anyone"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Diaspora happened because the Israelite kingdoms were conquered by powerful empires.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q31",
+        "section": "social",
+        "question": "Besides one God, what other key idea from Judaism influenced later religions?",
+        "choices": {
+          "A": "The caste system",
+          "B": "A focus on moral law",
+          "C": "The worship of nature spirits",
+          "D": "The Mandate of Heaven"
+        },
+        "correctAnswer": "B",
+        "explanation": "Along with belief in one God, Judaism's focus on moral law influenced later religions.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q32",
+        "section": "social",
+        "question": "Which is the BEST example of the Diaspora?",
+        "choices": {
+          "A": "Jewish families being forced to move and settle in many different lands",
+          "B": "A king building a new temple in his capital",
+          "C": "An army winning a great battle",
+          "D": "A people inventing a new alphabet"
+        },
+        "correctAnswer": "A",
+        "explanation": "Jewish families being forced to move and settle in many different lands is the best example of the Diaspora, the scattering of a people.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q33",
+        "section": "social",
+        "question": "Which of these religions did NOT grow out of or get shaped by Judaism's ideas?",
+        "choices": {
+          "A": "Christianity",
+          "B": "Islam",
+          "C": "Buddhism",
+          "D": "All three were shaped by Judaism"
+        },
+        "correctAnswer": "C",
+        "explanation": "Buddhism did not grow out of Judaism's ideas. Christianity and Islam were shaped by Judaism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q34",
+        "section": "social",
+        "question": "Why can we say a small ancient people had a huge effect on the world?",
+        "choices": {
+          "A": "Because the Israelites' beliefs helped shape religions followed by billions",
+          "B": "Because they built the largest empire ever",
+          "C": "Because they conquered all their neighbors",
+          "D": "Because they invented the wheel"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Israelites' beliefs helped shape religions now followed by billions, so a small people had a huge effect on the world.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q35",
+        "section": "social",
+        "question": "The kingdoms of Israel and Judah were home to which people?",
+        "choices": {
+          "A": "The Romans",
+          "B": "The Israelites, or Hebrews",
+          "C": "The Egyptians",
+          "D": "The Mongols"
+        },
+        "correctAnswer": "B",
+        "explanation": "Israel and Judah were the two kingdoms of the Israelites, also called Hebrews.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q36",
+        "section": "social",
+        "question": "Which pair is correctly matched?",
+        "choices": {
+          "A": "Diaspora — the scattering of the Jewish people",
+          "B": "Diaspora — the building of a temple",
+          "C": "Judah — a kingdom in China",
+          "D": "Abrahamic religions — faiths that worship many gods"
+        },
+        "correctAnswer": "A",
+        "explanation": "Diaspora is correctly matched with the scattering of the Jewish people.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q37",
+        "section": "social",
+        "question": "What is the term for the scattering of the Jewish people away from their homeland?",
+        "choices": {
+          "A": "The Exodus",
+          "B": "The Diaspora",
+          "C": "The Reformation",
+          "D": "The Crusade"
+        },
+        "correctAnswer": "B",
+        "explanation": "The scattering of the Jewish people away from their homeland is called the Diaspora.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q38",
+        "section": "social",
+        "question": "Which best explains why Judaism is important to world history?",
+        "choices": {
+          "A": "It built the most pyramids",
+          "B": "It had the largest population in the ancient world",
+          "C": "It worshipped the most gods",
+          "D": "Its ideas of one God and moral law shaped later major religions"
+        },
+        "correctAnswer": "D",
+        "explanation": "Judaism is important to world history because its ideas of one God and moral law shaped later major religions.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q39",
+        "section": "social",
+        "question": "Even after empires conquered them and scattered them, what did the Jewish people refuse to give up?",
+        "choices": {
+          "A": "Their belief in one God only after a few years",
+          "B": "Their armies",
+          "C": "Their pyramids",
+          "D": "Their faith and traditions"
+        },
+        "correctAnswer": "D",
+        "explanation": "Even after being conquered and scattered, the Jewish people refused to give up their faith and traditions.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q40",
+        "section": "social",
+        "question": "A teacher asks why Judaism, Christianity, and Islam are connected. What is the best answer?",
+        "choices": {
+          "A": "They all reject belief in God",
+          "B": "They all trace back to Abraham and share the idea of one God",
+          "C": "They all began in ancient China",
+          "D": "They all worship many gods"
+        },
+        "correctAnswer": "B",
+        "explanation": "The three faiths are connected because they all trace back to Abraham and share the idea of one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
       }
     ]
   }
