@@ -1,0 +1,336 @@
+{
+  "subject": "grammar",
+  "title": "Grammar Book — Grade 6 Conventions (ELA.6.C)",
+  "intro": "Your friendly guide to Grade 6 grammar — the rules that make your writing clear, correct, and confident.",
+  "practiceSection": "grammar",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Sentence Structure & Clauses",
+      "lessons": [
+        {
+          "code": "1-1",
+          "title": "Complete Sentences vs. Fragments",
+          "teach": "A complete sentence needs a subject (who or what) AND a verb (the action), and it must express a full thought. A fragment is missing one of those, so it feels unfinished. Correct: 'The dog barked loudly.' Fragment: 'Barking loudly in the yard.' (Who is barking? It never tells you.)",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "1-2",
+          "title": "Independent & Dependent Clauses",
+          "teach": "An independent clause can stand alone as a sentence: 'I finished my homework.' A dependent clause cannot stand alone because it starts with a word like 'because,' 'when,' or 'although': 'Because I finished my homework.' Join them to make a complete sentence: 'Because I finished my homework, I watched TV.'",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "1-3",
+          "title": "Run-On Sentences & Comma Splices",
+          "teach": "A run-on jams two complete sentences together with no punctuation: 'I love pizza I eat it daily.' A comma splice tries to glue them with only a comma: 'I love pizza, I eat it daily.' Fix it with a period, a semicolon, or a comma plus a joining word: 'I love pizza, and I eat it daily.'",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "1-4",
+          "title": "Simple, Compound & Complex Sentences",
+          "teach": "A simple sentence has one independent clause: 'Rain fell.' A compound sentence joins two independent clauses: 'Rain fell, and the game stopped.' A complex sentence joins an independent clause with a dependent one: 'When rain fell, the game stopped.' Mixing these up keeps your writing from sounding choppy.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "1-5",
+          "title": "Varying Sentence Structure",
+          "teach": "Good writers mix short and long sentences and start them different ways so writing flows instead of sounding robotic. Instead of 'I ran. I was tired. I stopped,' try: 'Exhausted, I finally stopped running.' Varying your sentences keeps a reader interested.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Commas & Punctuation",
+      "lessons": [
+        {
+          "code": "2-1",
+          "title": "Commas in a Series",
+          "teach": "When you list three or more items, separate them with commas: 'I packed apples, sandwiches, and water.' The comma before 'and' (the Oxford comma) keeps the last two items from blurring together.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "2-2",
+          "title": "Commas with Introductory Phrases",
+          "teach": "When a sentence opens with an introductory word, phrase, or clause, put a comma right after it: 'After the storm, we cleaned the yard.' The comma tells the reader where the warm-up ends and the main idea begins.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "2-3",
+          "title": "Commas with Joining Words (FANBOYS)",
+          "teach": "When you join two complete sentences with a coordinating conjunction (for, and, nor, but, or, yet, so), put a comma before it: 'I wanted to swim, but the pool was closed.' No comma is needed if what follows isn't a full sentence.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "2-4",
+          "title": "Colons & Semicolons",
+          "teach": "Use a semicolon to link two closely related complete sentences: 'It was late; we went home.' Use a colon to introduce a list or explanation after a complete sentence: 'Bring three things: a pen, paper, and a calculator.' These are introduced in Grade 6, so it's okay to practice.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "2-5",
+          "title": "Apostrophes: Contractions & Possessives",
+          "teach": "An apostrophe shows ownership ('Maria's book') or marks where letters are dropped in a contraction ('do not' becomes 'don't'). Watch the tricky pair: 'its' shows ownership, but 'it's' always means 'it is.'",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "2-6",
+          "title": "Quotation Marks & Dialogue",
+          "teach": "Put quotation marks around a speaker's exact words, and keep the end punctuation inside them: She said, 'Let's go.' Start a new paragraph each time the speaker changes so readers can follow the conversation.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "2-7",
+          "title": "Hyphens, Dashes & Ellipses",
+          "teach": "A hyphen joins words into one idea ('well-known author'), a dash adds a dramatic pause ('I knew the answer — finally'), and an ellipsis (...) shows a pause or that words were left out. These are introduced in Grade 6 to add style and clarity.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Pronouns",
+      "lessons": [
+        {
+          "code": "3-1",
+          "title": "Pronoun Case (Subject vs. Object)",
+          "teach": "Subject pronouns (I, he, she, we, they) do the action; object pronouns (me, him, her, us, them) receive it. Correct: 'She gave the ball to me.' Incorrect: 'Her gave the ball to I.' A quick trick: remove the other person and see which sounds right.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "3-2",
+          "title": "Pronoun-Antecedent Agreement",
+          "teach": "A pronoun must match the noun it replaces (its antecedent) in number and gender. Correct: 'Each student raised his or her hand.' Incorrect: 'Each student raised their hand' (singular noun, plural pronoun). Make sure singular matches singular and plural matches plural.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "3-3",
+          "title": "Fixing Vague Pronoun References",
+          "teach": "Every pronoun should clearly point to one noun. Vague: 'Maya told Lily that she won' — who won? Clear: 'Maya told Lily, \"You won!\"' Rewrite or name the person so the reader is never confused about who 'she,' 'it,' or 'they' means.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "3-4",
+          "title": "Pronoun Person (Staying Consistent)",
+          "teach": "Don't switch points of view in the middle of writing. Inconsistent: 'When a player practices, you improve.' Consistent: 'When players practice, they improve.' Pick first person (I), second person (you), or third person (he/she/they) and stick with it.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Verbs: Tense, Voice & Mood",
+      "lessons": [
+        {
+          "code": "4-1",
+          "title": "Consistent Verb Tense",
+          "teach": "Keep your verbs in the same time frame unless the timing really changes. Inconsistent: 'She walks into the room and grabbed her coat.' Consistent: 'She walked into the room and grabbed her coat.' Don't bounce between past and present by accident.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "4-2",
+          "title": "Subject-Verb Agreement",
+          "teach": "A singular subject needs a singular verb, and a plural subject needs a plural verb. Correct: 'The dog runs.' / 'The dogs run.' Watch out when words come between them: 'The box of crayons IS on the desk' (the subject is 'box,' not 'crayons').",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "4-3",
+          "title": "Active vs. Passive Voice",
+          "teach": "In active voice, the subject does the action: 'The chef cooked the meal.' In passive voice, the subject receives it: 'The meal was cooked by the chef.' Active voice is usually clearer and stronger, so prefer it in most writing.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "4-4",
+          "title": "Verb Mood",
+          "teach": "Mood shows the purpose of a verb. Indicative states a fact ('It is raining'), imperative gives a command ('Close the window'), and subjunctive shows a wish or something unreal ('If I were taller, I'd dunk'). Notice 'were,' not 'was,' in that wish.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "4-5",
+          "title": "Verbals: Gerunds, Infinitives & Participles",
+          "teach": "Verbals are verb forms acting as other parts of speech. A gerund ends in -ing and acts as a noun ('Swimming is fun'), an infinitive is 'to + verb' ('I want to swim'), and a participle describes a noun ('the swimming pool,' 'the broken cup'). Grade 6 expects you to recognize these.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Modifiers: Adjectives & Adverbs",
+      "lessons": [
+        {
+          "code": "5-1",
+          "title": "Adjectives vs. Adverbs",
+          "teach": "Adjectives describe nouns ('a quick fox'), while adverbs describe verbs, adjectives, or other adverbs and often end in -ly ('runs quickly'). Correct: 'She sings beautifully.' Incorrect: 'She sings beautiful.'",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "5-2",
+          "title": "Comparative & Superlative Forms",
+          "teach": "Use the comparative to compare two things ('faster,' 'more careful') and the superlative for three or more ('fastest,' 'most careful'). Correct: 'She is the taller of the two sisters' but 'the tallest in the class.' Don't double up: never say 'more taller.'",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "5-3",
+          "title": "Misplaced & Dangling Modifiers",
+          "teach": "Put describing words next to what they describe, or the sentence gets silly. Misplaced: 'I saw a dog walking to school' (the dog walked to school?). Fixed: 'Walking to school, I saw a dog.' Make sure the modifier clearly matches the right word.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Conjunctions & Transitions",
+      "lessons": [
+        {
+          "code": "6-1",
+          "title": "Coordinating Conjunctions (FANBOYS)",
+          "teach": "Coordinating conjunctions — for, and, nor, but, or, yet, so — connect equal ideas. 'I studied hard, so I passed the test.' They join words, phrases, or whole sentences of the same type.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "6-2",
+          "title": "Subordinating Conjunctions",
+          "teach": "Subordinating conjunctions — because, although, since, when, if, while — start a dependent clause and link it to a main idea. 'Although it rained, we still played.' They show the relationship (time, cause, contrast) between two ideas.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "6-3",
+          "title": "Transition Words",
+          "teach": "Transitions guide readers between ideas — 'however,' 'for example,' 'in addition,' 'finally.' Instead of 'I was tired. I kept going,' write: 'I was tired; however, I kept going.' Varied transitions make writing flow smoothly.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.1.3"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Capitalization & Spelling",
+      "lessons": [
+        {
+          "code": "7-1",
+          "title": "Capitalization Rules",
+          "teach": "Capitalize the first word of a sentence, the pronoun 'I,' and all proper nouns — specific names of people, places, days, months, and titles: 'On Monday, Maria visited Miami.' Don't capitalize common nouns like 'city' or 'girl' unless they begin a sentence.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "7-2",
+          "title": "Capitalizing Titles",
+          "teach": "In titles of books, movies, and songs, capitalize the first and last words and all important words, but leave little words (a, an, the, of, and) lowercase unless they start the title: 'The Lord of the Rings.'",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "7-3",
+          "title": "Commonly Confused Words",
+          "teach": "Some words sound alike but mean different things: 'their' (ownership), 'there' (place), and 'they're' (they are); 'your' (ownership) vs. 'you're' (you are). Correct: 'You're going to love their new house over there.' Choosing the right one keeps your spelling sharp.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        },
+        {
+          "code": "7-4",
+          "title": "Spelling Patterns & Plurals",
+          "teach": "Most plurals just add -s, but words ending in -s, -x, -ch, or -sh add -es ('boxes,' 'wishes'), and words ending in a consonant + y change y to i and add -es ('candy' becomes 'candies'). Knowing these patterns helps you spell tricky words correctly.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.C.3.1"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Word Knowledge & Vocabulary in Writing",
+      "lessons": [
+        {
+          "code": "8-1",
+          "title": "Greek & Latin Roots and Affixes",
+          "teach": "Many English words are built from Greek and Latin roots plus prefixes and suffixes. If you know 'tele-' means 'far' and '-phone' means 'sound,' you can figure out 'telephone.' Spotting roots helps you spell and understand new words.",
+          "videoId": "fiaPqgwJFo4",
+          "videoTitle": "Greek & Latin roots / affixes — Khan Academy",
+          "standard": "ELA.6.V.1.2"
+        },
+        {
+          "code": "8-2",
+          "title": "Using Context Clues",
+          "teach": "When you meet an unfamiliar word, look at the nearby words for hints — definitions, examples, or contrasts. In 'The arid desert had no water for miles,' the words 'desert' and 'no water' tell you 'arid' means dry. Context clues let you read smarter.",
+          "videoId": "k_vfm81eYD0",
+          "videoTitle": "Context clues — Khan Academy",
+          "standard": "ELA.6.V.1.3"
+        },
+        {
+          "code": "8-3",
+          "title": "Figurative Language in Your Writing",
+          "teach": "Figurative language paints pictures with words. A simile compares using 'like' or 'as' ('brave as a lion'), a metaphor says one thing IS another ('the classroom was a zoo'), and personification gives human traits to objects ('the wind whispered'). Use it to make writing vivid.",
+          "videoId": "lzKj-bLvrYQ",
+          "videoTitle": "Figurative language — Khan Academy",
+          "standard": "ELA.6.R.3.1"
+        },
+        {
+          "code": "8-4",
+          "title": "Connotation vs. Denotation",
+          "teach": "A word's denotation is its dictionary meaning; its connotation is the feeling it carries. 'Thrifty' and 'cheap' both mean spending little, but 'thrifty' sounds positive and 'cheap' sounds negative. Choosing words with the right connotation gives your writing the right tone.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "ELA.6.V.1.3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "subject": "science",
+  "title": "Science Book — M/J Comprehensive Science 1 (Grade 6)",
+  "intro": "Let's explore how Earth, space, and energy work — with short videos to help every idea click!",
+  "practiceSection": "science",
+  "topics": [
+    {
+      "n": 1,
+      "title": "Nature of Science — How Scientists Think",
+      "lessons": [
+        {
+          "code": "1-1",
+          "title": "The Scientific Method & Investigations",
+          "teach": "Scientists answer questions by following careful steps: they ask a question, form a hypothesis (a smart guess they can test), plan an investigation, collect and organize data, and then draw a conclusion from the evidence. Some investigations are experiments where you change one variable on purpose, but others are systematic observations where you watch and record without changing anything. Good scientists pick the right kind of investigation for the question they are asking.",
+          "videoId": "xOLcZMw0hd4",
+          "videoTitle": "Scientific method — CrashCourse (Biology #2)",
+          "standard": "SC.6.N.1.1"
+        },
+        {
+          "code": "1-2",
+          "title": "Why Experiments Must Be Repeatable",
+          "teach": "A scientific result only counts if other people can do the same investigation and get the same answer. This is called being replicable. If an experiment can be repeated and keeps giving the same result, scientists trust it more. If nobody else can reproduce it, the result might have been a mistake or a one-time accident.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.N.1.2"
+        },
+        {
+          "code": "1-3",
+          "title": "Theories, Laws, and Models",
+          "teach": "In science, a theory is a well-tested, widely accepted explanation backed by tons of evidence — it does NOT mean a wild guess like in everyday talk. A scientific law describes a relationship that always happens under certain conditions, like the law of gravity, but it doesn't explain why. Scientists also use models — like a globe or a diagram — to represent things that are too big, too small, or too far away to study directly.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.N.3.1"
+        },
+        {
+          "code": "1-4",
+          "title": "Scientific Knowledge Can Change",
+          "teach": "Scientific knowledge is durable, meaning it lasts and is reliable, but it is never 'finished.' When scientists find new evidence or think of better explanations, they update what we know. This openness to change is a strength, not a weakness — it is exactly how science gets more accurate over time. Science also takes creativity, both to design clever experiments and to imagine explanations that fit the evidence.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.N.2.2"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Earth's Structure & Plate Tectonics",
+      "lessons": [
+        {
+          "code": "2-1",
+          "title": "Earth's Layers: Crust, Mantle, Core",
+          "teach": "Earth is made of layers, like a giant ball with a hard shell and a hot center. The thin outer layer we live on is the crust. Below it is the thick, hot mantle, which is solid rock that can slowly flow over time. At the center is the core — a super-hot outer core of liquid metal and an inner core of solid metal. The deeper you go, the hotter and denser it gets.",
+          "videoId": "yzIW4qRgjNo",
+          "videoTitle": "Earth's layers / structure — School Subjects Online (Grade 6)",
+          "standard": "SC.6.E.6.1"
+        },
+        {
+          "code": "2-2",
+          "title": "Plate Tectonics & Moving Plates",
+          "teach": "Earth's crust is broken into giant pieces called tectonic plates that slowly float on the soft mantle below. These plates move just a few centimeters a year, but over millions of years they push together, pull apart, or slide past each other. Where plates meet, they build mountains, open oceans, and cause earthquakes and volcanoes. This constant movement is why Earth's surface is always slowly changing.",
+          "videoId": "7CPv0NSIG2M",
+          "videoTitle": "Plate tectonics — CrashCourse (Geography #19)",
+          "standard": "SC.6.E.6.1"
+        },
+        {
+          "code": "2-3",
+          "title": "Weathering, Erosion & Deposition",
+          "teach": "Earth's surface is built up and torn down in a never-ending cycle. Weathering is when rock is broken into smaller pieces by water, ice, wind, or chemicals. Erosion is when those broken pieces get carried away by wind, water, or ice. Deposition is when the pieces finally get dropped in a new place, building up land like sandbars and deltas. Together these processes constantly reshape the land.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.6.1"
+        },
+        {
+          "code": "2-4",
+          "title": "Landforms (and Florida's Landforms)",
+          "teach": "A landform is a natural feature of Earth's surface, such as mountains, rivers, coastlines, dunes, glaciers, deltas, and lakes. Different forces create different landforms — rivers carve valleys, while waves and wind shape sandy coastlines and dunes. Florida is mostly flat and low, with long sandy coastlines, beaches, dunes, wetlands like the Everglades, and many lakes, but no real mountains or glaciers.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.6.2"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Rocks, Minerals & the Rock Cycle",
+      "lessons": [
+        {
+          "code": "3-1",
+          "title": "The Rock Cycle",
+          "teach": "Rocks are always slowly changing from one type to another in a loop called the rock cycle. There are three main types: igneous rock forms when melted rock cools and hardens, sedimentary rock forms when bits of rock and sand get pressed and cemented together in layers, and metamorphic rock forms when heat and pressure change an existing rock. Over millions of years, any rock can become any other type as it melts, breaks down, or gets squeezed.",
+          "videoId": "Vp_S3BDiR-I",
+          "videoTitle": "Rock cycle — Learning Made Fun",
+          "standard": "SC.6.E.6.1"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Heat, Energy & the Sun",
+      "lessons": [
+        {
+          "code": "4-1",
+          "title": "How Heat Moves: Radiation, Conduction, Convection",
+          "teach": "Heat moves through Earth's systems in three ways. Radiation is heat traveling as rays through empty space — that's how the Sun's heat reaches Earth. Conduction is heat passing directly from one touching object to another, like a hot pan warming your hand. Convection is heat moving in flowing liquids or gases, where warm material rises and cool material sinks, creating circular currents in the air, oceans, and even the mantle.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.7.1"
+        },
+        {
+          "code": "4-2",
+          "title": "Energy from the Sun Drives Earth's Patterns",
+          "teach": "The Sun is the main source of energy for almost everything on Earth. Because Earth is round, the Sun heats different places by different amounts — the equator gets the most direct sunlight, while the poles get less. This uneven heating makes air and water move, creating wind, ocean currents, and weather. Land, water, and air also heat up and cool down at different speeds, which adds to these patterns.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.7.5"
+        },
+        {
+          "code": "4-3",
+          "title": "Potential & Kinetic Energy",
+          "teach": "Energy comes in different forms, and two important ones are kinetic and potential. Kinetic energy is the energy of motion — anything moving, like a rolling ball or running water, has it. Potential energy is stored energy because of an object's position, like a ball at the top of a hill ready to roll down. Thanks to the Law of Conservation of Energy, energy is never created or destroyed; it just transforms back and forth, like potential energy turning into kinetic energy as the ball rolls down.",
+          "videoId": "IqV5L66EP2E",
+          "videoTitle": "Energy (potential & kinetic) — It's AumSum Time",
+          "standard": "SC.6.P.11.1"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Earth's Systems & the Water Cycle",
+      "lessons": [
+        {
+          "code": "5-1",
+          "title": "Earth's Spheres Interacting",
+          "teach": "Earth is made of connected systems called spheres. The geosphere is the solid rock and land, the hydrosphere is all the liquid water, the cryosphere is the frozen ice and snow, the atmosphere is the air around us, and the biosphere is all living things. These spheres constantly interact — for example, rain (hydrosphere) wears down mountains (geosphere) and gives water to plants (biosphere). Earth works as one big connected system.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.7.4"
+        },
+        {
+          "code": "5-2",
+          "title": "The Water Cycle",
+          "teach": "Water is constantly recycled between the ground, oceans, and sky in the water cycle. The Sun's heat causes evaporation, turning liquid water into invisible water vapor that rises into the air. Up high, the vapor cools and turns back into tiny droplets through condensation, forming clouds. When the droplets get heavy enough, they fall as precipitation — rain, snow, or hail — and the water collects again to start the cycle over.",
+          "videoId": "z5G4NCwWUxY",
+          "videoTitle": "Water cycle — Crash Course Kids #24.1",
+          "standard": "SC.6.E.7.2"
+        },
+        {
+          "code": "5-3",
+          "title": "The Atmosphere Protects Earth",
+          "teach": "Earth's atmosphere is the blanket of gases surrounding the planet, and it does much more than give us air to breathe. It is layered, and each layer plays a role — the ozone in the upper atmosphere blocks harmful ultraviolet rays from the Sun. The atmosphere also traps just enough heat to keep Earth warm enough for life and burns up most meteors before they hit the ground. Without it, Earth would be far too cold and dangerous to live on.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.7.9"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Weather & Climate",
+      "lessons": [
+        {
+          "code": "6-1",
+          "title": "Weather vs. Climate",
+          "teach": "Weather and climate are related but not the same. Weather is what the atmosphere is doing right now or over a few days — like today's temperature, rain, or wind. Climate is the average weather pattern of a place measured over many years. A simple way to remember it: weather tells you whether to grab an umbrella today, but climate tells you what kind of clothes a region usually needs all year. Miami has a hot, humid climate even if one day happens to be cool.",
+          "videoId": "YbAWny7FV3w",
+          "videoTitle": "Weather vs. climate — Crash Course Kids #28.1",
+          "standard": "SC.6.E.7.6"
+        },
+        {
+          "code": "6-2",
+          "title": "Global Patterns: Jet Stream & Ocean Currents",
+          "teach": "Giant global patterns in the air and oceans steer the weather we feel locally. The jet stream is a fast river of high-altitude wind that pushes weather systems across the planet. Ocean currents are huge flows of warm and cold water that move heat around the globe, affecting the temperature and humidity of nearby land. These patterns help explain measurable things like temperature, air pressure, wind speed, and precipitation in a region.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.7.3"
+        },
+        {
+          "code": "6-3",
+          "title": "Natural Disasters & Staying Safe in Florida",
+          "teach": "Florida faces hazardous weather like hurricanes, lightning, flooding, and intense sun. These natural disasters can damage homes and threaten lives, so people prepare and protect themselves. To stay safe, Floridians track storms, evacuate when told, board up windows, and keep emergency supplies. For everyday sun safety, people use sunscreen, hats, and shade to protect their skin from harmful ultraviolet rays. Knowing the risks helps communities stay ready.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.E.7.7"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "The Universe & Solar System",
+      "lessons": [
+        {
+          "code": "7-1",
+          "title": "The Solar System & Planets",
+          "teach": "Our solar system is the Sun and everything that orbits it, including eight planets, moons, asteroids, and comets. The four inner planets — Mercury, Venus, Earth, and Mars — are small and rocky. The four outer planets — Jupiter, Saturn, Uranus, and Neptune — are huge balls of gas and ice. Each planet travels around the Sun in its own path called an orbit, held in place by the Sun's powerful gravity.",
+          "videoId": "ASQkz4XaphU",
+          "videoTitle": "Solar system / planets — Happy Learning English",
+          "standard": "SC.6.E.7.5"
+        },
+        {
+          "code": "7-2",
+          "title": "Gravity & Forces",
+          "teach": "A force is a push or a pull, and some forces act even without objects touching, like gravity, magnetism, and electricity. Gravity is the pull that every object with mass has on every other object — the more mass an object has and the closer it is, the stronger the pull. This is why the massive Sun holds the planets in orbit and why Earth's gravity keeps us on the ground. An unbalanced force can change an object's speed, direction, or both.",
+          "videoId": null,
+          "videoTitle": null,
+          "standard": "SC.6.P.13.2"
+        }
+      ]
+    }
+  ]
+}

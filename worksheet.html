@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST Test Prep — Worksheet</title>
+    <style>
+        :root { --primary:#4CAF50; --secondary:#2196F3; --text:#212121; --light:#757575; }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; color:var(--text); line-height:1.6; padding:1.25rem; background:#f5f5f5; }
+        .sheet { max-width:760px; margin:0 auto; background:#fff; padding:2rem 2.25rem; box-shadow:0 4px 16px rgba(0,0,0,.08); border-radius:8px; }
+        .bar { max-width:760px; margin:0 auto 1rem; display:flex; gap:.6rem; flex-wrap:wrap; }
+        .bar a, .bar button { padding:.55rem 1.1rem; border-radius:50px; border:none; font-weight:700; cursor:pointer; text-decoration:none; font-size:.9rem; }
+        .bar .back { background:#fff; color:var(--secondary); border:2px solid var(--secondary); }
+        .bar .print { background:var(--primary); color:#fff; }
+        .bar .ans { background:#FFC107; color:#212121; }
+        .ws-head { border-bottom:3px solid var(--primary); padding-bottom:.8rem; margin-bottom:1.2rem; }
+        .ws-head h1 { font-size:1.35rem; color:var(--primary); }
+        .ws-head .sub { color:var(--light); font-size:.95rem; }
+        .ws-meta { display:flex; justify-content:space-between; gap:1rem; font-size:.9rem; color:var(--light); margin-bottom:1.2rem; flex-wrap:wrap; }
+        .ws-meta .line { border-bottom:1px solid #999; min-width:160px; display:inline-block; }
+        ol.problems { list-style:none; counter-reset:p; }
+        ol.problems li { counter-increment:p; padding:.7rem 0; border-bottom:1px dashed #ddd; }
+        ol.problems li::before { content:counter(p) ". "; font-weight:800; color:var(--secondary); }
+        .work { height:46px; }
+        .answers { margin-top:1.5rem; padding-top:1rem; border-top:2px dashed var(--primary); }
+        .answers h2 { font-size:1.05rem; color:var(--primary); margin-bottom:.5rem; }
+        .answers ol { padding-left:1.3rem; font-size:.92rem; color:#333; }
+        .hidden { display:none; }
+        .missing { text-align:center; color:var(--light); padding:2rem; }
+        @media print {
+            body { background:#fff; padding:0; }
+            .bar { display:none; }
+            .sheet { box-shadow:none; max-width:100%; padding:0; }
+            .answers { page-break-before:always; }
+        }
+    </style>
+    <script src="js/grade.js"></script>
+</head>
+<body>
+    <div class="bar">
+        <a class="back" id="back">&larr; Back to Book</a>
+        <button class="print" onclick="window.print()">🖨️ Print</button>
+        <button class="ans" id="toggle-ans">Show answer key</button>
+    </div>
+    <div class="sheet" id="sheet"><div class="missing">Loading…</div></div>
+
+    <script>
+    (function () {
+        const params = new URLSearchParams(location.search);
+        const subject = (params.get('subject') || 'math').replace(/[^a-z]/g, '');
+        const lesson = params.get('lesson') || '';
+        document.getElementById('back').href = 'book.html?subject=' + subject;
+
+        const SUBJ = { math: 'Math', science: 'Science', social: 'Social Studies', grammar: 'Grammar' };
+
+        Promise.all([
+            fetch('data/books/' + subject + '-worksheets.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+            fetch('data/books/' + subject + '.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+        ]).then(function (res) {
+            const ws = res[0]; const book = res[1];
+            let lessonTitle = lesson;
+            if (book) { (book.topics || []).forEach(function (t) { (t.lessons || []).forEach(function (L) { if (L.code === lesson) lessonTitle = L.title; }); }); }
+            const sheet = document.getElementById('sheet');
+            const item = ws && ws[lesson];
+            if (!item || !Array.isArray(item.problems) || !item.problems.length) {
+                document.getElementById('toggle-ans').classList.add('hidden');
+                sheet.innerHTML = '<div class="ws-head"><h1>' + (SUBJ[subject] || '') + ' — Lesson ' + lesson + '</h1>' +
+                    '<div class="sub">' + esc(lessonTitle) + '</div></div>' +
+                    '<div class="missing">📝 This worksheet is being prepared. For now, tap <b>Practice</b> or <b>Watch</b> on this lesson in the book — they\'re ready to go!</div>';
+                return;
+            }
+            const probs = item.problems.map(function (p) { return '<li>' + esc(p.q) + '<div class="work"></div></li>'; }).join('');
+            const answers = item.problems.map(function (p) { return '<li>' + esc(p.answer) + '</li>'; }).join('');
+            sheet.innerHTML =
+                '<div class="ws-head"><h1>' + (SUBJ[subject] || '') + ' Worksheet — Lesson ' + lesson + '</h1>' +
+                '<div class="sub">' + esc(lessonTitle) + (item.standard ? '  ·  ' + esc(item.standard) : '') + '</div></div>' +
+                '<div class="ws-meta"><span>Name: <span class="line"></span></span><span>Date: <span class="line"></span></span></div>' +
+                '<ol class="problems">' + probs + '</ol>' +
+                '<div class="answers hidden" id="answers"><h2>✅ Answer Key (for grown-ups)</h2><ol>' + answers + '</ol></div>';
+            const toggle = document.getElementById('toggle-ans');
+            toggle.addEventListener('click', function () {
+                const a = document.getElementById('answers');
+                const show = a.classList.toggle('hidden') === false;
+                toggle.textContent = show ? 'Hide answer key' : 'Show answer key';
+            });
+        });
+
+        function esc(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+    })();
+    </script>
+</body>
+</html>
