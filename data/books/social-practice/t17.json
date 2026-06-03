@@ -153,6 +153,456 @@
         "explanation": "Roads, aqueducts, concrete, and law are Roman achievements.",
         "standard": "SS.6.W.3.14",
         "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q11",
+        "section": "social",
+        "question": "What force did Roman aqueducts use to move water over long distances?",
+        "choices": {
+          "A": "Gravity",
+          "B": "Electricity",
+          "C": "Steam engines",
+          "D": "Wind power"
+        },
+        "correctAnswer": "A",
+        "explanation": "Aqueducts used gravity to carry water gently downhill into cities.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q12",
+        "section": "social",
+        "question": "Which group in Roman society had the hardest daily lives?",
+        "choices": {
+          "A": "Wealthy patricians",
+          "B": "Enslaved people",
+          "C": "Powerful senators",
+          "D": "Rich landowners"
+        },
+        "correctAnswer": "B",
+        "explanation": "Enslaved people had very different and much harder daily lives than other groups.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q13",
+        "section": "social",
+        "question": "A famous Roman building made possible by concrete and a huge dome was a model for later architecture. Which Roman achievement does this show?",
+        "choices": {
+          "A": "Their skill in building and engineering",
+          "B": "Their use of hieroglyphics",
+          "C": "Their silk weaving",
+          "D": "Their pyramid construction"
+        },
+        "correctAnswer": "A",
+        "explanation": "Huge domed and concrete buildings show Roman skill in building and engineering.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q14",
+        "section": "social",
+        "question": "Which of these was NOT a Roman achievement described in the lesson?",
+        "choices": {
+          "A": "Building long-lasting roads",
+          "B": "Building aqueducts",
+          "C": "Using concrete",
+          "D": "Inventing the wheel"
+        },
+        "correctAnswer": "D",
+        "explanation": "Roads, aqueducts, and concrete were Roman achievements; inventing the wheel was not described as one.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q15",
+        "section": "social",
+        "question": "A farmer who plowed fields and a craftsperson who made pottery would both belong to which class?",
+        "choices": {
+          "A": "Patricians",
+          "B": "Emperors",
+          "C": "Plebeians",
+          "D": "Enslaved people"
+        },
+        "correctAnswer": "C",
+        "explanation": "Common people like farmers and craftspeople were plebeians.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q16",
+        "section": "social",
+        "question": "Why were good roads important to the Roman Empire?",
+        "choices": {
+          "A": "They blocked all travel",
+          "B": "They carried fresh water",
+          "C": "They connected the whole empire together",
+          "D": "They were only for decoration"
+        },
+        "correctAnswer": "C",
+        "explanation": "Roman roads connected the whole empire, helping movement and communication.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q17",
+        "section": "social",
+        "question": "Which modern thing did NOT come from Rome, according to the lesson?",
+        "choices": {
+          "A": "Our calendar",
+          "B": "Many English words from Latin",
+          "C": "Styles of buildings",
+          "D": "The Chinese compass"
+        },
+        "correctAnswer": "D",
+        "explanation": "The calendar, Latin-based words, and building styles came from Rome; the compass was not a Roman gift.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q18",
+        "section": "social",
+        "question": "Compared to patricians, the plebeians were generally _____.",
+        "choices": {
+          "A": "Richer and more powerful",
+          "B": "Common people with less wealth and power",
+          "C": "Foreign rulers",
+          "D": "All emperors"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plebeians were common people with less wealth and power than the upper-class patricians.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q19",
+        "section": "social",
+        "question": "If a city needed fresh water brought in from mountains far away, which Roman structure would do the job?",
+        "choices": {
+          "A": "A road",
+          "B": "A coliseum",
+          "C": "An aqueduct",
+          "D": "A statue"
+        },
+        "correctAnswer": "C",
+        "explanation": "Aqueducts carried fresh water over long distances into cities.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q20",
+        "section": "social",
+        "question": "What is one reason Roman concrete was so important?",
+        "choices": {
+          "A": "It was used as money",
+          "B": "It was eaten as food",
+          "C": "It was used to write laws",
+          "D": "It let them build huge, strong structures"
+        },
+        "correctAnswer": "D",
+        "explanation": "Concrete let the Romans build huge, lasting structures like the Colosseum.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q21",
+        "section": "social",
+        "question": "Roman ideas about justice and rules are best remembered today through their _____.",
+        "choices": {
+          "A": "Cooking recipes",
+          "B": "Sports games",
+          "C": "Systems of law",
+          "D": "Clothing styles"
+        },
+        "correctAnswer": "C",
+        "explanation": "Roman systems of law still shape legal ideas today.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q22",
+        "section": "social",
+        "question": "Which sentence BEST compares the daily life of a patrician and an enslaved person in Rome?",
+        "choices": {
+          "A": "Both lived exactly the same comfortable life",
+          "B": "The patrician lived in wealth while the enslaved person had a much harder life",
+          "C": "The enslaved person was richer than the patrician",
+          "D": "Neither group existed in Rome"
+        },
+        "correctAnswer": "B",
+        "explanation": "Patricians were wealthy while enslaved people had much harder daily lives.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-1-q23",
+        "section": "social",
+        "question": "The Romans were among the FIRST people to widely use which building material?",
+        "choices": {
+          "A": "Papyrus",
+          "B": "Silk",
+          "C": "Concrete",
+          "D": "Bronze coins"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Romans were among the first to use concrete on a large scale.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q24",
+        "section": "social",
+        "question": "Which pairing of group and description is CORRECT?",
+        "choices": {
+          "A": "Patricians — the common workers",
+          "B": "Plebeians — the richest nobles",
+          "C": "Patricians — rich, upper-class families",
+          "D": "Plebeians — foreign kings"
+        },
+        "correctAnswer": "C",
+        "explanation": "Patricians were the rich, upper-class families of Rome.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q25",
+        "section": "social",
+        "question": "What does the saying 'all roads lead to Rome' tell us about the empire?",
+        "choices": {
+          "A": "Rome had no roads",
+          "B": "Rome's roads connected far places back to the capital",
+          "C": "Rome banned travel",
+          "D": "Only one road existed"
+        },
+        "correctAnswer": "B",
+        "explanation": "The saying reflects how Roman roads connected distant places back to Rome.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q26",
+        "section": "social",
+        "question": "A 'legacy' of Rome means something Rome left behind that we still use. Which is a Roman legacy?",
+        "choices": {
+          "A": "Hieroglyphic writing",
+          "B": "Important legal ideas",
+          "C": "The caste system",
+          "D": "The Great Wall"
+        },
+        "correctAnswer": "B",
+        "explanation": "Important legal ideas are part of Rome's lasting legacy.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q27",
+        "section": "social",
+        "question": "Put these Roman building steps in order: gather materials, mix concrete, raise the structure. Which is the FINAL step?",
+        "choices": {
+          "A": "Gather materials",
+          "B": "Mix the concrete",
+          "C": "Raise the finished structure",
+          "D": "Tear it down"
+        },
+        "correctAnswer": "C",
+        "explanation": "After gathering materials and mixing concrete, the final step is raising the finished structure.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-1-q28",
+        "section": "social",
+        "question": "Why might a wealthy patrician family have an easier daily life than a plebeian family?",
+        "choices": {
+          "A": "Patricians had more wealth and higher social standing",
+          "B": "Plebeians owned all the land",
+          "C": "Patricians had to do all the farming",
+          "D": "There was no difference in wealth"
+        },
+        "correctAnswer": "A",
+        "explanation": "Patricians had more wealth and higher social standing, making daily life easier.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-1-q29",
+        "section": "social",
+        "question": "Which best describes the Romans as a people?",
+        "choices": {
+          "A": "Master builders and engineers",
+          "B": "Mainly sailors who avoided land",
+          "C": "People who never built anything",
+          "D": "A society with no classes"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Romans were known as master builders and engineers.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q30",
+        "section": "social",
+        "question": "How did the use of concrete CHANGE what the Romans could build?",
+        "choices": {
+          "A": "It forced them to build only tiny huts",
+          "B": "It stopped them from building roads",
+          "C": "It had no effect on their buildings",
+          "D": "It let them build much larger and stronger structures"
+        },
+        "correctAnswer": "D",
+        "explanation": "Concrete allowed the Romans to build much larger and stronger structures.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q31",
+        "section": "social",
+        "question": "Which everyday thing today traces back to Rome's Latin language?",
+        "choices": {
+          "A": "Many English words",
+          "B": "The Chinese alphabet",
+          "C": "Egyptian pyramids",
+          "D": "Indian numerals"
+        },
+        "correctAnswer": "A",
+        "explanation": "Latin is the root of many English words we use today.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q32",
+        "section": "social",
+        "question": "Which list shows ONLY social groups in ancient Rome?",
+        "choices": {
+          "A": "Pharaohs, samurai, knights",
+          "B": "Patricians, plebeians, enslaved people",
+          "C": "Aqueducts, roads, concrete",
+          "D": "Goths, Vandals, Huns"
+        },
+        "correctAnswer": "B",
+        "explanation": "Patricians, plebeians, and enslaved people were social groups in Rome.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q33",
+        "section": "social",
+        "question": "What CAUSED Roman cities to have a steady supply of fresh water?",
+        "choices": {
+          "A": "They used pyramids to store it",
+          "B": "They had no need for water",
+          "C": "They imported it by silk roads",
+          "D": "They built aqueducts to carry it in"
+        },
+        "correctAnswer": "D",
+        "explanation": "Aqueducts brought a steady supply of fresh water into Roman cities.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q34",
+        "section": "social",
+        "question": "Which is the BEST example of Roman engineering?",
+        "choices": {
+          "A": "A simple grass hut",
+          "B": "A painted cave wall",
+          "C": "A long aqueduct carrying water across valleys",
+          "D": "A single clay pot"
+        },
+        "correctAnswer": "C",
+        "explanation": "A long aqueduct carrying water across valleys is a strong example of Roman engineering.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q35",
+        "section": "social",
+        "question": "Which of these did the Romans NOT pass down to us?",
+        "choices": {
+          "A": "Our calendar",
+          "B": "Styles of government",
+          "C": "Legal ideas",
+          "D": "Hieroglyphic picture writing"
+        },
+        "correctAnswer": "D",
+        "explanation": "The calendar, government styles, and legal ideas came from Rome; hieroglyphic writing came from Egypt.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q36",
+        "section": "social",
+        "question": "The word 'aqueduct' is most closely connected to which Roman achievement?",
+        "choices": {
+          "A": "Writing laws",
+          "B": "Sailing ships",
+          "C": "Making coins",
+          "D": "Carrying water into cities"
+        },
+        "correctAnswer": "D",
+        "explanation": "An aqueduct was used to carry water into cities.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q37",
+        "section": "social",
+        "question": "Why is Roman law considered an important legacy?",
+        "choices": {
+          "A": "It was forgotten right after Rome fell",
+          "B": "It only applied to roads",
+          "C": "It was never written down",
+          "D": "It still shapes legal ideas used today"
+        },
+        "correctAnswer": "D",
+        "explanation": "Roman law is an important legacy because it still shapes legal ideas today.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q38",
+        "section": "social",
+        "question": "Which group would a wealthy senator from an old, important family most likely belong to?",
+        "choices": {
+          "A": "The patricians",
+          "B": "The plebeians",
+          "C": "The enslaved people",
+          "D": "The foreign traders"
+        },
+        "correctAnswer": "A",
+        "explanation": "A wealthy senator from an old, important family would be a patrician.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-1-q39",
+        "section": "social",
+        "question": "Which statement about daily life in Rome is TRUE?",
+        "choices": {
+          "A": "Everyone, rich or poor, lived the same way",
+          "B": "Daily life depended a lot on a person's social class",
+          "C": "Only patricians lived in Rome",
+          "D": "Rome had no social classes"
+        },
+        "correctAnswer": "B",
+        "explanation": "Daily life in Rome depended greatly on a person's social class.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q40",
+        "section": "social",
+        "question": "Taken together, Rome's roads, aqueducts, concrete, and law BEST show that the Romans were _____.",
+        "choices": {
+          "A": "Skilled builders, engineers, and lawmakers",
+          "B": "Mainly farmers with no inventions",
+          "C": "A people who left no legacy",
+          "D": "Famous only for their art"
+        },
+        "correctAnswer": "A",
+        "explanation": "Roads, aqueducts, concrete, and law show the Romans were skilled builders, engineers, and lawmakers.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "The eastern half survived much longer as the Byzantine Empire.",
         "standard": "SS.6.W.3.15",
         "difficulty": "easy"
+      },
+      {
+        "id": "17-2-q11",
+        "section": "social",
+        "question": "What is the BEST meaning of the word 'decline' as used for the Roman Empire?",
+        "choices": {
+          "A": "To grow weaker over time",
+          "B": "To become suddenly richer",
+          "C": "To build new roads",
+          "D": "To win every war"
+        },
+        "correctAnswer": "A",
+        "explanation": "Decline means the empire slowly grew weaker over time.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q12",
+        "section": "social",
+        "question": "The Goths and Vandals are examples of which cause of Rome's fall?",
+        "choices": {
+          "A": "Wise leadership",
+          "B": "Invasions by outside groups",
+          "C": "Too much peace",
+          "D": "A growing economy"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Goths and Vandals were outside groups whose invasions helped cause Rome's fall.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q13",
+        "section": "social",
+        "question": "The long period of peace that ended before Rome's troubles began was called the _____.",
+        "choices": {
+          "A": "Dark Ages",
+          "B": "Renaissance",
+          "C": "Pax Romana",
+          "D": "Iron Age"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Pax Romana was the long peace that ended before Rome's serious troubles began.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q14",
+        "section": "social",
+        "question": "What happened in 476 AD?",
+        "choices": {
+          "A": "Rome was founded",
+          "B": "The Pax Romana began",
+          "C": "Concrete was invented",
+          "D": "The last Western Roman emperor was removed from power"
+        },
+        "correctAnswer": "D",
+        "explanation": "In 476 AD the last emperor of the Western Roman Empire was removed from power.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q15",
+        "section": "social",
+        "question": "Which of these was NOT one of the causes of Rome's fall?",
+        "choices": {
+          "A": "Weak and corrupt leaders",
+          "B": "Money problems",
+          "C": "Invasions by outside groups",
+          "D": "Strong, well-paid armies that never shrank"
+        },
+        "correctAnswer": "D",
+        "explanation": "A shrinking army hurt Rome; strong armies that never shrank was not a cause of the fall.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q16",
+        "section": "social",
+        "question": "How did corrupt emperors weaken the empire?",
+        "choices": {
+          "A": "They ruled badly, which hurt the government",
+          "B": "They made the empire richer",
+          "C": "They built more aqueducts",
+          "D": "They ended all invasions"
+        },
+        "correctAnswer": "A",
+        "explanation": "Weak, corrupt emperors ruled badly, which weakened Rome's government.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q17",
+        "section": "social",
+        "question": "Which sentence BEST describes HOW the Western Roman Empire fell?",
+        "choices": {
+          "A": "All at once in a single battle",
+          "B": "Slowly, as many problems built up over many years",
+          "C": "Because of one bad harvest",
+          "D": "It did not really fall"
+        },
+        "correctAnswer": "B",
+        "explanation": "The fall happened slowly as many problems built up over many years.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q18",
+        "section": "social",
+        "question": "The fall of Rome is often used to mark the beginning of which period in Europe?",
+        "choices": {
+          "A": "The Stone Age",
+          "B": "The Pax Romana",
+          "C": "The Middle Ages",
+          "D": "The Bronze Age"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rome's fall is often used to mark the beginning of the Middle Ages.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q19",
+        "section": "social",
+        "question": "Why was being TOO BIG a problem for the Roman Empire?",
+        "choices": {
+          "A": "A small empire is always weaker",
+          "B": "A huge empire was hard to defend and govern",
+          "C": "A big empire has no borders",
+          "D": "Size made Rome impossible to attack"
+        },
+        "correctAnswer": "B",
+        "explanation": "The empire's huge size made it hard to defend and govern well.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q20",
+        "section": "social",
+        "question": "Which empire survived for many centuries AFTER the Western Roman Empire fell?",
+        "choices": {
+          "A": "The Western Roman Empire",
+          "B": "The Egyptian Empire",
+          "C": "The Sumerian Empire",
+          "D": "The Byzantine (Eastern Roman) Empire"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Eastern, or Byzantine, Empire lasted much longer than the Western Roman Empire.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q21",
+        "section": "social",
+        "question": "If an empire's government runs out of money and its economy struggles, this is an example of which cause of Rome's fall?",
+        "choices": {
+          "A": "Money problems",
+          "B": "Invasions",
+          "C": "Good leadership",
+          "D": "Too much peace"
+        },
+        "correctAnswer": "A",
+        "explanation": "An economy that struggles and a government short on money are money problems.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-2-q22",
+        "section": "social",
+        "question": "Besides invasions and money problems, what else weakened Rome?",
+        "choices": {
+          "A": "Too many strong leaders",
+          "B": "Disease and a shrinking army",
+          "C": "Endless peace and safety",
+          "D": "Having no borders to defend"
+        },
+        "correctAnswer": "B",
+        "explanation": "Disease and a shrinking army also played a part in Rome's decline.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q23",
+        "section": "social",
+        "question": "Which statement about the fall of Rome is TRUE?",
+        "choices": {
+          "A": "It was caused by only one single problem",
+          "B": "It happened overnight",
+          "C": "Many problems combined to bring it down",
+          "D": "Rome never actually weakened"
+        },
+        "correctAnswer": "C",
+        "explanation": "Many problems combined, rather than one single cause, brought Rome down.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q24",
+        "section": "social",
+        "question": "Put these events in the correct ORDER: the Pax Romana ends, the empire declines, the last emperor is removed in 476 AD. Which comes FIRST?",
+        "choices": {
+          "A": "The empire declines",
+          "B": "The last emperor is removed",
+          "C": "The Pax Romana ends",
+          "D": "The Middle Ages begin"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Pax Romana ended first, then the empire declined, and finally the last emperor was removed in 476 AD.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q25",
+        "section": "social",
+        "question": "What does it mean that 'no single cause' brought Rome down?",
+        "choices": {
+          "A": "Only invasions mattered",
+          "B": "Many different problems worked together",
+          "C": "Rome fell for no reason",
+          "D": "Only money problems mattered"
+        },
+        "correctAnswer": "B",
+        "explanation": "It means many different problems worked together to cause the fall.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q26",
+        "section": "social",
+        "question": "A general worried that the empire's borders are too long to guard with his army is facing which problem?",
+        "choices": {
+          "A": "The empire being too big to defend",
+          "B": "Too much wealth",
+          "C": "Too many wise leaders",
+          "D": "A lasting peace"
+        },
+        "correctAnswer": "A",
+        "explanation": "Borders too long to guard show the empire was too big to defend well.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q27",
+        "section": "social",
+        "question": "Which pair correctly matches a cause with its effect on Rome?",
+        "choices": {
+          "A": "Wise leaders — a weaker government",
+          "B": "More money — a struggling economy",
+          "C": "Corrupt leaders — a weaker government",
+          "D": "Smaller size — harder to defend"
+        },
+        "correctAnswer": "C",
+        "explanation": "Corrupt leaders led to a weaker government in Rome.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q28",
+        "section": "social",
+        "question": "The term 'barbarian tribes' in the lesson refers to which groups?",
+        "choices": {
+          "A": "Roman senators",
+          "B": "Greek philosophers",
+          "C": "Egyptian pharaohs",
+          "D": "Outside groups like the Goths and Vandals"
+        },
+        "correctAnswer": "D",
+        "explanation": "Barbarian tribes were outside groups, such as the Goths and Vandals, who invaded Rome.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-2-q29",
+        "section": "social",
+        "question": "Why do historians say Rome's fall marks the END of the ancient classical world in Europe?",
+        "choices": {
+          "A": "Because it began a new period, the Middle Ages",
+          "B": "Because farming stopped everywhere",
+          "C": "Because all writing was lost forever",
+          "D": "Because the whole world ended"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rome's fall ended the ancient classical world and began the Middle Ages in Europe.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q30",
+        "section": "social",
+        "question": "Which is the BEST example of an 'invasion' that hurt Rome?",
+        "choices": {
+          "A": "An outside tribe crossing the border and attacking",
+          "B": "An emperor passing a new law",
+          "C": "A merchant selling goods in the market",
+          "D": "A farmer planting crops"
+        },
+        "correctAnswer": "A",
+        "explanation": "An outside tribe crossing the border to attack is an example of an invasion.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-2-q31",
+        "section": "social",
+        "question": "Which of these did NOT happen as part of Rome's fall?",
+        "choices": {
+          "A": "Outside groups invaded the borders",
+          "B": "The economy struggled",
+          "C": "The last Western emperor lost power",
+          "D": "The Western Roman Empire grew much stronger"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Western Roman Empire grew weaker, not stronger, during its fall.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q32",
+        "section": "social",
+        "question": "How were money problems and a shrinking army CONNECTED in Rome?",
+        "choices": {
+          "A": "A struggling economy made it harder to pay and keep soldiers",
+          "B": "More money always means fewer soldiers",
+          "C": "Soldiers caused all the money problems alone",
+          "D": "They had no connection at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "A struggling economy made it harder to pay for soldiers, helping the army shrink.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q33",
+        "section": "social",
+        "question": "Which century included the fall of the Western Roman Empire?",
+        "choices": {
+          "A": "The 1400s AD",
+          "B": "The 100s BC",
+          "C": "The 1000s AD",
+          "D": "The 400s AD"
+        },
+        "correctAnswer": "D",
+        "explanation": "The empire fell in 476 AD, which is in the 400s AD.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q34",
+        "section": "social",
+        "question": "Which list shows ONLY causes of Rome's fall?",
+        "choices": {
+          "A": "Roads, aqueducts, concrete",
+          "B": "Democracy, philosophy, the Olympics",
+          "C": "Paper, the compass, silk",
+          "D": "Weak leaders, money problems, invasions"
+        },
+        "correctAnswer": "D",
+        "explanation": "Weak leaders, money problems, and invasions were causes of Rome's fall.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q35",
+        "section": "social",
+        "question": "Why is it WRONG to say Rome fell because of one emperor alone?",
+        "choices": {
+          "A": "Because emperors had no power",
+          "B": "Because Rome never had emperors",
+          "C": "Because many combined problems caused the fall, not just one person",
+          "D": "Because only invasions mattered"
+        },
+        "correctAnswer": "C",
+        "explanation": "Many combined problems caused the fall, so blaming one emperor alone is wrong.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q36",
+        "section": "social",
+        "question": "After the Pax Romana ended, what began to happen to the Roman Empire?",
+        "choices": {
+          "A": "It entered its strongest period ever",
+          "B": "It was founded for the first time",
+          "C": "It started to face serious trouble and decline",
+          "D": "It conquered all of Asia"
+        },
+        "correctAnswer": "C",
+        "explanation": "After the Pax Romana ended, the empire faced serious trouble and began to decline.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-2-q37",
+        "section": "social",
+        "question": "Which best explains why the fall is called a 'gradual' decline?",
+        "choices": {
+          "A": "It happened in a single afternoon",
+          "B": "It happened before Rome existed",
+          "C": "It never truly happened",
+          "D": "It took place over many years, not all at once"
+        },
+        "correctAnswer": "D",
+        "explanation": "The decline was gradual because it took place over many years rather than all at once.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q38",
+        "section": "social",
+        "question": "Which group of people attacked Rome's borders?",
+        "choices": {
+          "A": "Roman patricians",
+          "B": "Outside tribes such as the Goths",
+          "C": "Greek philosophers",
+          "D": "Byzantine emperors"
+        },
+        "correctAnswer": "B",
+        "explanation": "Outside tribes, such as the Goths, attacked the borders of Rome.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-2-q39",
+        "section": "social",
+        "question": "Which statement correctly compares the two halves of the Roman Empire?",
+        "choices": {
+          "A": "Both halves fell in 476 AD",
+          "B": "The Eastern half fell first",
+          "C": "The Western half fell in 476 AD, but the Eastern half lasted much longer",
+          "D": "Neither half ever fell"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Western half fell in 476 AD while the Eastern half lasted much longer.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q40",
+        "section": "social",
+        "question": "What is the MAIN lesson about why the Western Roman Empire fell?",
+        "choices": {
+          "A": "It fell quickly for one simple reason",
+          "B": "It fell gradually from many combined problems",
+          "C": "It never weakened at all",
+          "D": "It fell only because of good weather"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Western Roman Empire fell gradually because of many combined problems.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
       }
     ]
   },
@@ -465,6 +1365,456 @@
         },
         "correctAnswer": "C",
         "explanation": "Modern governments, writing, math, and religions all trace to the ancient world.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q11",
+        "section": "social",
+        "question": "Which gift came from ancient Greece?",
+        "choices": {
+          "A": "Philosophy and the Olympics",
+          "B": "The alphabet",
+          "C": "Paper and the compass",
+          "D": "Monotheism"
+        },
+        "correctAnswer": "A",
+        "explanation": "Philosophy and the Olympics were part of the Greek legacy.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q12",
+        "section": "social",
+        "question": "The concept of ZERO came from which two civilizations?",
+        "choices": {
+          "A": "Greece and Rome",
+          "B": "India and the Maya",
+          "C": "Egypt and Sumer",
+          "D": "China and Phoenicia"
+        },
+        "correctAnswer": "B",
+        "explanation": "Both India and the Maya developed the concept of zero.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q13",
+        "section": "social",
+        "question": "Which civilization gave us cuneiform writing?",
+        "choices": {
+          "A": "Rome",
+          "B": "Greece",
+          "C": "Sumer",
+          "D": "Phoenicia"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sumer gave us cuneiform, one of the earliest forms of writing.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q14",
+        "section": "social",
+        "question": "Which of these is NOT a legacy of the ancient world described in the lesson?",
+        "choices": {
+          "A": "Democracy from Greece",
+          "B": "Law from Rome",
+          "C": "The alphabet from Phoenicia",
+          "D": "Television from Egypt"
+        },
+        "correctAnswer": "D",
+        "explanation": "Democracy, law, and the alphabet were ancient legacies; television was not.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q15",
+        "section": "social",
+        "question": "Christianity and Islam were both shaped by which idea handed down from the Israelites?",
+        "choices": {
+          "A": "Democracy",
+          "B": "The alphabet",
+          "C": "Monotheism",
+          "D": "The compass"
+        },
+        "correctAnswer": "C",
+        "explanation": "Monotheism, from the Israelites, helped shape Christianity and Islam.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q16",
+        "section": "social",
+        "question": "Which civilization is correctly matched with its legacy?",
+        "choices": {
+          "A": "Greece — democracy",
+          "B": "Rome — the alphabet",
+          "C": "Phoenicia — monotheism",
+          "D": "China — zero"
+        },
+        "correctAnswer": "A",
+        "explanation": "Democracy is correctly matched with ancient Greece.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q17",
+        "section": "social",
+        "question": "If you trace the letters of the English alphabet back to the ancient world, which people should you thank?",
+        "choices": {
+          "A": "The Greeks",
+          "B": "The Romans",
+          "C": "The Maya",
+          "D": "The Phoenicians"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Phoenicians created the alphabet that influenced later writing.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q18",
+        "section": "social",
+        "question": "Hieroglyphics, an early writing system, came from which civilization?",
+        "choices": {
+          "A": "Greece",
+          "B": "Egypt",
+          "C": "Rome",
+          "D": "China"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hieroglyphics were an early form of writing from Egypt.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q19",
+        "section": "social",
+        "question": "Why does the lesson say studying ancient civilizations is useful?",
+        "choices": {
+          "A": "It only helps with spelling",
+          "B": "It helps us understand the roots of the modern world",
+          "C": "It has nothing to do with today",
+          "D": "It only teaches about war"
+        },
+        "correctAnswer": "B",
+        "explanation": "Studying ancient civilizations helps us understand the roots of the modern world.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q20",
+        "section": "social",
+        "question": "The word 'democracy' means rule by the _____.",
+        "choices": {
+          "A": "Kings",
+          "B": "Priests",
+          "C": "People",
+          "D": "Soldiers"
+        },
+        "correctAnswer": "C",
+        "explanation": "Democracy, a Greek legacy, means rule by the people.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q21",
+        "section": "social",
+        "question": "Roads and engineering are part of the legacy of which civilization?",
+        "choices": {
+          "A": "Phoenicia",
+          "B": "The Maya",
+          "C": "Sumer",
+          "D": "Rome"
+        },
+        "correctAnswer": "D",
+        "explanation": "Roads and engineering were Roman legacies.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q22",
+        "section": "social",
+        "question": "Which BEST explains why ancient legacies still matter today?",
+        "choices": {
+          "A": "Our governments, writing, math, and religions grew from them",
+          "B": "They were completely forgotten",
+          "C": "They only matter to historians",
+          "D": "They have no effect on modern life"
+        },
+        "correctAnswer": "A",
+        "explanation": "Modern governments, writing, math, and religions grew from ancient legacies.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q23",
+        "section": "social",
+        "question": "Paper, a useful invention we still use, was part of the legacy of which civilization?",
+        "choices": {
+          "A": "Greece",
+          "B": "Rome",
+          "C": "Phoenicia",
+          "D": "China"
+        },
+        "correctAnswer": "D",
+        "explanation": "Paper was a Chinese invention handed down to the world.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q24",
+        "section": "social",
+        "question": "Which statement compares the legacies of Greece and Rome correctly?",
+        "choices": {
+          "A": "Greece gave law; Rome gave democracy",
+          "B": "Greece gave the alphabet; Rome gave zero",
+          "C": "Greece gave democracy; Rome gave law and engineering",
+          "D": "Both gave only the compass"
+        },
+        "correctAnswer": "C",
+        "explanation": "Greece gave democracy, while Rome gave law and engineering.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q25",
+        "section": "social",
+        "question": "A country today that lets its citizens vote for leaders is using an idea rooted in which civilization?",
+        "choices": {
+          "A": "Phoenicia",
+          "B": "China",
+          "C": "Egypt",
+          "D": "Greece"
+        },
+        "correctAnswer": "D",
+        "explanation": "Voting for leaders comes from the Greek idea of democracy.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q26",
+        "section": "social",
+        "question": "Which group of inventions all came from CHINA?",
+        "choices": {
+          "A": "Democracy and the Olympics",
+          "B": "Paper and the compass",
+          "C": "Law and roads",
+          "D": "The alphabet and monotheism"
+        },
+        "correctAnswer": "B",
+        "explanation": "Paper and the compass both came from China.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q27",
+        "section": "social",
+        "question": "Which of these is the BEST definition of 'monotheism'?",
+        "choices": {
+          "A": "Belief in many gods",
+          "B": "Belief in no gods",
+          "C": "Belief in nature spirits only",
+          "D": "Belief in one God"
+        },
+        "correctAnswer": "D",
+        "explanation": "Monotheism, from the Israelites, is the belief in one God.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q28",
+        "section": "social",
+        "question": "Early math and science were part of the legacy of which civilizations?",
+        "choices": {
+          "A": "Greece and Phoenicia",
+          "B": "Rome and China",
+          "C": "Sumer and Egypt",
+          "D": "The Maya and Greece"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sumer and Egypt contributed early math and science.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q29",
+        "section": "social",
+        "question": "Which is the BEST example of using an ancient legacy in daily life today?",
+        "choices": {
+          "A": "Writing a note using letters from the alphabet",
+          "B": "Inventing something with no past at all",
+          "C": "Ignoring all old ideas",
+          "D": "Forgetting how to read"
+        },
+        "correctAnswer": "A",
+        "explanation": "Writing with the alphabet, a Phoenician legacy, is using an ancient legacy daily.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q30",
+        "section": "social",
+        "question": "Which civilization is INCORRECTLY matched with its legacy?",
+        "choices": {
+          "A": "Greece — democracy",
+          "B": "Rome — law",
+          "C": "China — the alphabet",
+          "D": "Israelites — monotheism"
+        },
+        "correctAnswer": "C",
+        "explanation": "The alphabet came from Phoenicia, not China, so that match is incorrect.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q31",
+        "section": "social",
+        "question": "Why did the great IDEAS of ancient civilizations 'live on' even after Rome fell?",
+        "choices": {
+          "A": "They were passed down and still affect us today",
+          "B": "They were destroyed completely",
+          "C": "They were never written anywhere",
+          "D": "They only existed for one year"
+        },
+        "correctAnswer": "A",
+        "explanation": "The ideas lived on because they were passed down and still affect us today.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q32",
+        "section": "social",
+        "question": "Judaism, the religion of the Israelites, is best known for introducing which idea?",
+        "choices": {
+          "A": "Democracy",
+          "B": "Monotheism",
+          "C": "The compass",
+          "D": "The Olympics"
+        },
+        "correctAnswer": "B",
+        "explanation": "Judaism introduced monotheism, the belief in one God.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q33",
+        "section": "social",
+        "question": "Which list correctly matches gifts to the civilizations that gave them?",
+        "choices": {
+          "A": "Democracy–Greece, law–Rome, alphabet–Phoenicia",
+          "B": "Democracy–Rome, law–Greece, alphabet–China",
+          "C": "Democracy–Egypt, law–Sumer, alphabet–India",
+          "D": "Democracy–China, law–Maya, alphabet–Greece"
+        },
+        "correctAnswer": "A",
+        "explanation": "Democracy came from Greece, law from Rome, and the alphabet from Phoenicia.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q34",
+        "section": "social",
+        "question": "The Olympics that countries hold today grew from a tradition of which civilization?",
+        "choices": {
+          "A": "Rome",
+          "B": "Egypt",
+          "C": "China",
+          "D": "Greece"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Olympics came from ancient Greece.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q35",
+        "section": "social",
+        "question": "Republican government, where representatives are chosen, is most connected to which civilization's legacy?",
+        "choices": {
+          "A": "Phoenicia",
+          "B": "China",
+          "C": "Rome",
+          "D": "The Maya"
+        },
+        "correctAnswer": "C",
+        "explanation": "Republican government is part of the Roman legacy.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q36",
+        "section": "social",
+        "question": "Which sentence about the legacy of the ancient world is TRUE?",
+        "choices": {
+          "A": "Only Greece left a legacy",
+          "B": "Nothing from the ancient world is used today",
+          "C": "Many different civilizations each gave lasting gifts",
+          "D": "All legacies came from a single people"
+        },
+        "correctAnswer": "C",
+        "explanation": "Many different civilizations each contributed lasting gifts to the modern world.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q37",
+        "section": "social",
+        "question": "A 'legacy' is BEST described as something that is _____.",
+        "choices": {
+          "A": "Handed down from the past and still affects us",
+          "B": "Made brand new with no history",
+          "C": "Forgotten and lost",
+          "D": "Only found in nature"
+        },
+        "correctAnswer": "A",
+        "explanation": "A legacy is something handed down from the past that still affects us today.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q38",
+        "section": "social",
+        "question": "Which civilization gave us writing in the form of hieroglyphics?",
+        "choices": {
+          "A": "Greece",
+          "B": "Egypt",
+          "C": "Rome",
+          "D": "Phoenicia"
+        },
+        "correctAnswer": "B",
+        "explanation": "Egypt gave us hieroglyphic writing.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q39",
+        "section": "social",
+        "question": "Which pair shows a civilization and a gift it did NOT give?",
+        "choices": {
+          "A": "Greece — democracy",
+          "B": "Phoenicia — the alphabet",
+          "C": "China — paper",
+          "D": "Rome — monotheism"
+        },
+        "correctAnswer": "D",
+        "explanation": "Monotheism came from the Israelites, not Rome, so that pairing is wrong.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q40",
+        "section": "social",
+        "question": "What is the MAIN idea of the lesson on the ancient world's legacy?",
+        "choices": {
+          "A": "The ancient world has no link to modern life",
+          "B": "Ideas from ancient civilizations still shape our world today",
+          "C": "Only Rome's ideas survived",
+          "D": "All ancient ideas were lost when Rome fell"
+        },
+        "correctAnswer": "B",
+        "explanation": "The main idea is that ideas from ancient civilizations still shape our world today.",
         "standard": "SS.6.W.1.6",
         "difficulty": "medium"
       }
