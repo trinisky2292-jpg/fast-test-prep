@@ -1,0 +1,90 @@
+{
+  "1-1": {
+    "title": "Using Context Clues",
+    "standard": "ELA.6.V.1.3",
+    "problems": [
+      { "q": "As used in the sentence, what does \"abundant\" most nearly mean? \"The garden had an abundant supply of tomatoes, so many that we gave bags away.\"", "answer": "more than enough" },
+      { "q": "As used in the sentence, what does \"vacant\" most nearly mean? \"Unlike the crowded front room, the back office was vacant.\"", "answer": "empty" },
+      { "q": "As used in the sentence, what does \"feeble\" most nearly mean? \"After being sick for a week, the puppy was feeble and could barely stand.\"", "answer": "weak" },
+      { "q": "As used in the sentence, what does \"reluctant\" most nearly mean? \"She was reluctant to dive in; she stood at the edge for ten minutes before jumping.\"", "answer": "unwilling or hesitant" },
+      { "q": "Which context clue type is used here, and what does \"hazardous\" mean? \"The icy road was hazardous, or dangerous, for drivers.\"", "answer": "synonym clue; dangerous" }
+    ]
+  },
+  "1-2": {
+    "title": "Prefixes",
+    "standard": "ELA.6.V.1.2",
+    "problems": [
+      { "q": "The prefix \"un-\" means \"not.\" What does \"unhappy\" mean?", "answer": "not happy" },
+      { "q": "What does the prefix \"re-\" mean, as in \"rebuild\"?", "answer": "again" },
+      { "q": "What does \"preview\" mean, using its prefix \"pre-\"?", "answer": "a look before" },
+      { "q": "Which prefix means \"wrongly,\" as in \"misread\"?", "answer": "mis-" },
+      { "q": "What does \"submarine\" describe, using the prefix \"sub-\" (under)?", "answer": "a craft that goes under water" }
+    ]
+  },
+  "1-3": {
+    "title": "Suffixes",
+    "standard": "ELA.6.V.1.2",
+    "problems": [
+      { "q": "The suffix \"-less\" means \"without.\" What does \"fearless\" mean?", "answer": "without fear" },
+      { "q": "The suffix \"-ful\" means \"full of.\" What does \"joyful\" mean?", "answer": "full of joy" },
+      { "q": "What does the suffix \"-er\" mean in the word \"teacher\"?", "answer": "a person who" },
+      { "q": "What does \"readable\" mean, using the suffix \"-able\"?", "answer": "able to be read" },
+      { "q": "The suffix \"-ly\" turns a word into an adverb. What does \"quickly\" mean?", "answer": "in a quick way" }
+    ]
+  },
+  "1-4": {
+    "title": "Greek & Latin Roots",
+    "standard": "ELA.6.V.1.2",
+    "problems": [
+      { "q": "The root \"bio\" means \"life.\" What is \"biology\"?", "answer": "the study of life" },
+      { "q": "What does the root \"tele\" mean, as in \"telephone\" and \"telescope\"?", "answer": "far" },
+      { "q": "What does \"transport\" mean, using the root \"port\" (carry)?", "answer": "to carry from place to place" },
+      { "q": "The root \"spect\" means \"look.\" What does \"inspect\" mean?", "answer": "to look closely at" },
+      { "q": "What does \"audible\" mean, using the root \"aud\" (hear)?", "answer": "able to be heard" }
+    ]
+  },
+  "1-5": {
+    "title": "Synonyms & Antonyms",
+    "standard": "ELA.6.V.1.3",
+    "problems": [
+      { "q": "Which word means MOST NEARLY the same as \"brave\": glad, courageous, or tired?", "answer": "courageous" },
+      { "q": "Which word is the OPPOSITE of \"ancient\": old, modern, or huge?", "answer": "modern" },
+      { "q": "Which word means MOST NEARLY the same as \"enormous\": tiny, huge, or quick?", "answer": "huge" },
+      { "q": "Which word is the OPPOSITE of \"increase\": raise, decrease, or grow?", "answer": "decrease" },
+      { "q": "Which word is the OPPOSITE of \"abundant\": plentiful, scarce, or rich?", "answer": "scarce" }
+    ]
+  },
+  "1-6": {
+    "title": "Multiple-Meaning Words",
+    "standard": "ELA.6.V.1.3",
+    "problems": [
+      { "q": "What does \"bark\" mean here? \"The rough bark of the oak tree scratched my hand.\"", "answer": "the outer covering of a tree" },
+      { "q": "What does \"light\" mean here? \"The box was so light that a child could lift it.\"", "answer": "not heavy" },
+      { "q": "What does \"trunk\" mean here? \"We loaded the suitcases into the trunk of the car.\"", "answer": "the storage space of a car" },
+      { "q": "What does \"current\" mean here? \"The strong current pulled the swimmers downstream.\"", "answer": "the flow of water" },
+      { "q": "What does \"fair\" mean here? \"The referee made a fair call that both teams accepted.\"", "answer": "treating people equally" }
+    ]
+  },
+  "1-7": {
+    "title": "Connotation & Shades of Meaning",
+    "standard": "ELA.6.V.1.3",
+    "problems": [
+      { "q": "Which word has a POSITIVE connotation for a thin person: slender or scrawny?", "answer": "slender" },
+      { "q": "Which word has a NEGATIVE connotation: confident or arrogant?", "answer": "arrogant" },
+      { "q": "Order from WEAKEST to STRONGEST: hot, warm, scorching.", "answer": "warm, hot, scorching" },
+      { "q": "Which word makes a group sound WILD and THREATENING: crowd or mob?", "answer": "mob" },
+      { "q": "Which word would a writer choose to make a smell sound PLEASANT: fragrance or stench?", "answer": "fragrance" }
+    ]
+  },
+  "1-8": {
+    "title": "Academic Words",
+    "standard": "ELA.6.V.1.1",
+    "problems": [
+      { "q": "What does \"analyze\" mean?", "answer": "to study the parts of something closely" },
+      { "q": "What does \"infer\" mean?", "answer": "to figure out something not stated directly, using clues" },
+      { "q": "What does \"evidence\" mean?", "answer": "facts or details that support an idea" },
+      { "q": "What does \"objective\" mean?", "answer": "based on facts, not feelings" },
+      { "q": "A question says, \"Which detail BEST supports the idea...\" What academic skill is it testing?", "answer": "finding evidence" }
+    ]
+  }
+}

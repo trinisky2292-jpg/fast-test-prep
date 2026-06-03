@@ -44,6 +44,14 @@
         .checklist { list-style:none; } .checklist li { margin:.25rem 0; font-size:.92rem; } .checklist input { margin-right:.5rem; transform:scale(1.2); }
         .toggle { background:none; border:1px solid var(--write); color:var(--write); padding:.45rem .9rem; border-radius:50px; font-weight:600; cursor:pointer; margin:.4rem .4rem .4rem 0; font-size:.88rem; }
         .hidden { display:none; }
+        .coach { margin-top:.6rem; background:#FFFDE7; border:1px solid #FFE082; border-radius:10px; padding:.9rem; }
+        .coach .total { font-size:1.3rem; font-weight:800; }
+        .coach .dom { margin:.6rem 0; }
+        .coach .dom .bar { background:#eee; border-radius:50px; height:12px; overflow:hidden; margin:.2rem 0; }
+        .coach .dom .fill { height:100%; background:var(--write); border-radius:50px; }
+        .coach .dom h4 { font-size:.92rem; }
+        .coach .tips { margin:.3rem 0 .2rem 1.1rem; font-size:.88rem; color:#5D4037; }
+        .coach .good { color:#2E7D32; font-weight:700; }
         .empty { background:var(--white); border-radius:12px; padding:2rem; text-align:center; color:var(--light); }
         @media (max-width:480px){ header{flex-direction:column;align-items:stretch;} }
     </style>
@@ -92,6 +100,28 @@
                         return '<div class="tb"><h4>'+esc(labels[k]||k)+'</h4>'+(d.transitions[k]||[]).map(function(s){return '<span>"'+esc(s)+'"</span>';}).join('')+'</div>';
                     }).join('') + '</div></div>';
             }
+            // Writing Lessons
+            if (d.lessons && d.lessons.length) {
+                html += '<div class="card"><h2>✍️ Writing Lessons — learn how to write the essay</h2>' +
+                    d.lessons.map(function(L){
+                        return '<button class="toggle" data-lesson="'+L.n+'" style="display:block;width:100%;text-align:left;margin:.3rem 0;">📖 Lesson '+L.n+': '+esc(L.title)+'</button>' +
+                            '<div class="model hidden" id="lesson-'+L.n+'" style="background:#FFF3E0;">'+esc(L.teach)+'</div>';
+                    }).join('') + '</div>';
+            }
+            // Worked Example (walkthrough)
+            if (d.walkthrough) {
+                var w = d.walkthrough;
+                var wh = '<div class="card"><h2>📘 Worked Example — a prompt from blank page to finished essay</h2>' +
+                    '<div class="promptbox">'+esc(w.prompt||w.promptTitle||'')+'</div>';
+                (w.sources||[]).forEach(function(s){ wh += '<div class="src"><h4>📄 '+esc(s.title)+'</h4><p>'+esc(s.text)+'</p></div>'; });
+                wh += '<ul class="steps">' + (w.steps||[]).map(function(st){
+                    return '<li><b>'+esc(st.title)+'</b><span>'+esc(st.think||'')+'</span>' + (st.example ? '<div class="model" style="margin-top:.4rem;background:#E8F5E9;">'+esc(st.example)+'</div>' : '') + '</li>';
+                }).join('') + '</ul>';
+                if (w.finalEssay) { wh += '<h4 style="margin:.6rem 0 .3rem;">✅ The finished essay all together:</h4><div class="model">'+esc(w.finalEssay)+'</div>'; }
+                wh += '</div>';
+                html += wh;
+            }
+
             // Prompts
             (d.prompts||[]).forEach(function(p){
                 var key = 'fast-writing-' + p.id;
@@ -107,7 +137,10 @@
                         '<button class="toggle" data-model="'+p.id+'">📗 Show / hide model essay</button>' +
                         '<button class="toggle" data-clear="'+p.id+'">🗑️ Clear my writing</button>' +
                         '<div class="model hidden" id="model-'+p.id+'">'+esc(p.model)+'</div>' +
-                        '<h4 style="margin:.7rem 0 .3rem;">Check your own essay:</h4>' +
+                        '<h4 style="margin:.8rem 0 .3rem;">📊 Writing Coach — score my essay &amp; how to improve</h4>' +
+                        '<button class="pbtn" data-coach="'+p.id+'">Check my essay</button>' +
+                        '<div class="coach hidden" id="coach-'+p.id+'"></div>' +
+                        '<h4 style="margin:.8rem 0 .3rem;">Check your own essay:</h4>' +
                         '<ul class="checklist">'+(p.checklist||[]).map(function(c,i){ return '<li><label><input type="checkbox" data-chk="'+p.id+'-'+i+'">'+esc(c)+'</label></li>'; }).join('')+'</ul>' +
                     '</div></div>';
             });
@@ -123,6 +156,91 @@
             });
             document.querySelectorAll('[data-model]').forEach(function(b){
                 b.addEventListener('click', function(){ document.getElementById('model-'+b.getAttribute('data-model')).classList.toggle('hidden'); });
+            });
+            document.querySelectorAll('[data-lesson]').forEach(function(b){
+                b.addEventListener('click', function(){ document.getElementById('lesson-'+b.getAttribute('data-lesson')).classList.toggle('hidden'); });
+            });
+
+            // ---- Built-in Writing Coach (rule-based, instant, free) ----
+            var RUBRIC = d.rubric || [];
+            var TIPS = d.improveTips || {};
+            function analyzeEssay(text){
+                var t = (text||'').trim();
+                var lower = t.toLowerCase();
+                var words = t ? t.split(/\s+/).length : 0;
+                var paras = t.split(/\n\s*\n/).map(function(s){return s.trim();}).filter(Boolean);
+                var sentences = t.split(/[.!?]+/).map(function(s){return s.trim();}).filter(Boolean);
+                var has = function(arr){ return arr.some(function(k){ return lower.indexOf(k)>=0; }); };
+                var claim = has(['i believe','i think','should ','should not','must ','i argue','in my opinion','it is clear that','the best']);
+                var evidenceCues = ['according to','the source','source 1','source 2','the author','the article','states that','for example','research shows','the passage','the text','studies show','"'];
+                var evidenceCount = evidenceCues.reduce(function(n,k){ return n + (lower.split(k).length-1); }, 0);
+                var counter = has(['some people','others argue','others may','however','on the other hand','while it is true','critics','opponents','some may say','even though','although some']);
+                var conclusion = has(['in conclusion','for these reasons','to sum up','overall','in the end','that is why','this is why']) || paras.length>=4;
+                var transitions = ['first','second','next','also','for example','in addition','furthermore','therefore','because','as a result','finally','moreover'].reduce(function(n,k){return n+(lower.indexOf(k)>=0?1:0);},0);
+                var casual = ['gonna','wanna','kinda','lol','a lot of stuff','stuff','gotta','kids these days','u ','ur ',' cuz'];
+                var casualHits = casual.filter(function(k){ return lower.indexOf(k)>=0; });
+                // varied sentence starts
+                var starts = {}; sentences.forEach(function(s){ var w=(s.split(/\s+/)[0]||'').toLowerCase(); starts[w]=(starts[w]||0)+1; });
+                var maxStart = Math.max.apply(null, [1].concat(Object.keys(starts).map(function(k){return starts[k];})));
+
+                // Domain 1: Purpose/Structure (0-4)
+                var d1=0, d1n=[];
+                if (paras.length>=4) d1++; else d1n.push('Organize into at least 4 paragraphs: intro, 2 body paragraphs, and a conclusion.');
+                if (claim) d1++; else d1n.push('Add a clear THESIS in your intro that names the side you are arguing.');
+                if (conclusion) d1++; else d1n.push('End with a conclusion that restates your claim and your reasons.');
+                if (counter && transitions>=2) d1++; else d1n.push('Add a paragraph that answers the OTHER side, and use transition words (First, In addition, Therefore).');
+
+                // Domain 2: Development/Evidence (0-4)
+                var d2=0, d2n=[];
+                if (evidenceCount>=1) d2++; else d2n.push('Use evidence FROM the sources — quote or paraphrase and write "According to Source 1...".');
+                if (evidenceCount>=2) d2++; else d2n.push('Use evidence from BOTH sources (at least 2 pieces total).');
+                if (words>=250) d2++; else d2n.push('Develop your ideas more — aim for at least 300–400 words.');
+                if (evidenceCount>=2 && words>=320) d2++; else d2n.push('After each piece of evidence, EXPLAIN how it proves your claim (don’t just drop a quote).');
+
+                // Domain 3: Language/Conventions (0-4)
+                var d3=0, d3n=[];
+                if (words>=120) d3++; else d3n.push('Write more so your sentences and word choice can be judged (too short right now).');
+                if (casualHits.length===0) d3++; else d3n.push('Use FORMAL language — remove casual words like: '+casualHits.join(', ')+'.');
+                if (maxStart<=Math.max(2, Math.ceil(sentences.length*0.4))) d3++; else d3n.push('Vary how your sentences begin — don’t start most of them the same way.');
+                if (words>=300 && casualHits.length===0) d3++; else d3n.push('Reread for grammar, spelling, capital letters, and punctuation.');
+
+                var domains = [
+                    {name: RUBRIC[0] ? RUBRIC[0].domain : 'Purpose, Focus & Structure', score:d1, tips:d1n},
+                    {name: RUBRIC[1] ? RUBRIC[1].domain : 'Development & Evidence', score:d2, tips:d2n},
+                    {name: RUBRIC[2] ? RUBRIC[2].domain : 'Language & Conventions', score:d3, tips:d3n}
+                ];
+                return {words:words, total:d1+d2+d3, domains:domains};
+            }
+            function renderCoach(pid){
+                var ta = document.getElementById('ta-'+pid);
+                var box = document.getElementById('coach-'+pid);
+                if (!ta || !box) return;
+                var text = ta.value || '';
+                if (text.trim().split(/\s+/).filter(Boolean).length < 25) {
+                    box.classList.remove('hidden');
+                    box.innerHTML = '<b>Write a bit more first</b> — type at least a few sentences in the box above, then press “Check my essay” and I’ll score it and show you how to improve.';
+                    return;
+                }
+                var r = analyzeEssay(text);
+                var msg = r.total>=10 ? '🌟 Great essay!' : r.total>=7 ? '👍 Good start — here’s how to score higher:' : '💪 Let’s make this stronger — here’s exactly how:';
+                var hh = '<div class="total">Score: '+r.total+' / 12</div><div style="font-size:.85rem;color:#777;">'+r.words+' words · '+msg+'</div>';
+                r.domains.forEach(function(dom){
+                    var pct = (dom.score/4)*100;
+                    hh += '<div class="dom"><h4>'+esc(dom.name)+': '+dom.score+'/4</h4><div class="bar"><div class="fill" style="width:'+pct+'%"></div></div>';
+                    if (dom.score>=4) { hh += '<div class="good">✅ Strong here!</div>'; }
+                    else {
+                        var extra = (TIPS[dom.name]||[]);
+                        var allTips = dom.tips.concat(extra).slice(0,4);
+                        hh += '<ul class="tips">'+allTips.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul>';
+                    }
+                    hh += '</div>';
+                });
+                hh += '<div style="font-size:.82rem;color:#777;margin-top:.4rem;">Fix the tips above, then press “Check my essay” again to watch your score go up. 📈</div>';
+                box.classList.remove('hidden');
+                box.innerHTML = hh;
+            }
+            document.querySelectorAll('[data-coach]').forEach(function(b){
+                b.addEventListener('click', function(){ renderCoach(b.getAttribute('data-coach')); });
             });
             // textarea autosave + word count
             (d.prompts||[]).forEach(function(p){
