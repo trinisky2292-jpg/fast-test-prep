@@ -2,55 +2,1822 @@
   "2-1": {
     "title": "States of Matter",
     "standard": "SC.6.P.11.1",
-    "learn": "KEY IDEAS\n\nMatter usually exists in three states, and the difference is all about how the tiny particles are arranged and how they move:\n- Solid: particles are packed tightly and only vibrate in place. A solid keeps its OWN shape and volume.\n- Liquid: particles are close but can slide past each other. A liquid keeps its volume but takes the SHAPE of its container and can flow.\n- Gas: particles are far apart and zoom around freely. A gas spreads out to FILL any container, taking its shape and volume.\n\nExample 1 — Shape and container\nA rock (solid) keeps its shape on a table. Juice (liquid) takes the shape of the cup. Air (gas) fills the whole room.\n\nExample 2 — Particle motion\nIn a solid, particles only vibrate. In a liquid, they slide. In a gas, they fly far apart and fast. More particle movement and spacing means a less rigid state.\n\nExample 3 — Same substance, three states\nWater can be ice (solid), liquid water (liquid), or water vapor (gas). It is the same substance — only the arrangement and motion of the particles differ."
-,
+    "learn": "KEY IDEAS\n\nMatter usually exists in three states, and the difference is all about how the tiny particles are arranged and how they move:\n- Solid: particles are packed tightly and only vibrate in place. A solid keeps its OWN shape and volume.\n- Liquid: particles are close but can slide past each other. A liquid keeps its volume but takes the SHAPE of its container and can flow.\n- Gas: particles are far apart and zoom around freely. A gas spreads out to FILL any container, taking its shape and volume.\n\nExample 1 — Shape and container\nA rock (solid) keeps its shape on a table. Juice (liquid) takes the shape of the cup. Air (gas) fills the whole room.\n\nExample 2 — Particle motion\nIn a solid, particles only vibrate. In a liquid, they slide. In a gas, they fly far apart and fast. More particle movement and spacing means a less rigid state.\n\nExample 3 — Same substance, three states\nWater can be ice (solid), liquid water (liquid), or water vapor (gas). It is the same substance — only the arrangement and motion of the particles differ.",
     "questions": [
-      { "id": "2-1-q1", "section": "science", "question": "In which state of matter are particles packed tightly and only vibrate in place?", "choices": { "A": "Solid", "B": "Liquid", "C": "Gas", "D": "Plasma" }, "correctAnswer": "A", "explanation": "In a solid, particles are tightly packed and only vibrate in place, so a solid keeps its shape.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-1-q2", "section": "science", "question": "A substance that takes the shape of its container but keeps its own volume is a", "choices": { "A": "solid", "B": "liquid", "C": "gas", "D": "crystal" }, "correctAnswer": "B", "explanation": "A liquid keeps its volume but flows to take the shape of its container.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-1-q3", "section": "science", "question": "Which state of matter spreads out to fill any container it is in?", "choices": { "A": "Solid", "B": "Liquid", "C": "Gas", "D": "None of them" }, "correctAnswer": "C", "explanation": "Gas particles spread far apart and zoom around, so a gas fills the entire container.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-1-q4", "section": "science", "question": "Which best describes the particles in a gas?", "choices": { "A": "Packed tightly and vibrating in place", "B": "Close together but sliding past each other", "C": "Far apart and moving around freely", "D": "Locked together and unable to move" }, "correctAnswer": "C", "explanation": "Gas particles are far apart and move around freely and fast.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-1-q5", "section": "science", "question": "Why does a solid keep its shape?", "choices": { "A": "Its particles are far apart", "B": "Its particles are packed tightly and only vibrate in place", "C": "Its particles fill any container", "D": "It has no particles" }, "correctAnswer": "B", "explanation": "Because the particles in a solid are tightly packed and only vibrate in place, the solid holds its shape.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-1-q6", "section": "science", "question": "Juice poured into a glass takes the shape of the glass. This shows that juice is a", "choices": { "A": "solid", "B": "liquid", "C": "gas", "D": "mixture of solids" }, "correctAnswer": "B", "explanation": "A liquid flows and takes the shape of its container while keeping its volume.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-1-q7", "section": "science", "question": "Which list correctly orders the states from most tightly packed particles to most spread out?", "choices": { "A": "Gas, liquid, solid", "B": "Solid, liquid, gas", "C": "Liquid, solid, gas", "D": "Gas, solid, liquid" }, "correctAnswer": "B", "explanation": "Solids have the tightest packing, liquids are in between, and gases are the most spread out.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-1-q8", "section": "science", "question": "Ice, liquid water, and water vapor are all water. What is different among them?", "choices": { "A": "They are different substances", "B": "The arrangement and motion of their particles", "C": "Their chemical makeup", "D": "Nothing is different" }, "correctAnswer": "B", "explanation": "All three are the same substance (water); only the arrangement and motion of the particles differ.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-1-q9", "section": "science", "question": "A balloon filled with helium shows that a gas", "choices": { "A": "keeps a fixed shape on its own", "B": "fills and takes the shape of its container", "C": "cannot move", "D": "is always a solid" }, "correctAnswer": "B", "explanation": "The helium gas spreads out to fill the balloon and takes its shape, showing gas fills its container.", "standard": "SC.6.P.11.1", "difficulty": "hard" },
-      { "id": "2-1-q10", "section": "science", "question": "Which statement about liquids and gases is TRUE?", "choices": { "A": "Both keep a fixed shape", "B": "Both have particles that can move past each other, but gas particles are much farther apart", "C": "Both have tightly packed, vibrating particles", "D": "Neither can flow" }, "correctAnswer": "B", "explanation": "In both liquids and gases the particles can move past each other, but gas particles are much farther apart than liquid particles.", "standard": "SC.6.P.11.1", "difficulty": "hard" }
+      {
+        "id": "2-1-q1",
+        "section": "science",
+        "question": "In which state of matter are particles packed tightly and only vibrate in place?",
+        "choices": {
+          "A": "Solid",
+          "B": "Liquid",
+          "C": "Gas",
+          "D": "Plasma"
+        },
+        "correctAnswer": "A",
+        "explanation": "In a solid, particles are tightly packed and only vibrate in place, so a solid keeps its shape.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q2",
+        "section": "science",
+        "question": "A substance that takes the shape of its container but keeps its own volume is a",
+        "choices": {
+          "A": "solid",
+          "B": "liquid",
+          "C": "gas",
+          "D": "crystal"
+        },
+        "correctAnswer": "B",
+        "explanation": "A liquid keeps its volume but flows to take the shape of its container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q3",
+        "section": "science",
+        "question": "Which state of matter spreads out to fill any container it is in?",
+        "choices": {
+          "A": "Solid",
+          "B": "Liquid",
+          "C": "Gas",
+          "D": "None of them"
+        },
+        "correctAnswer": "C",
+        "explanation": "Gas particles spread far apart and zoom around, so a gas fills the entire container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q4",
+        "section": "science",
+        "question": "Which best describes the particles in a gas?",
+        "choices": {
+          "A": "Packed tightly and vibrating in place",
+          "B": "Close together but sliding past each other",
+          "C": "Far apart and moving around freely",
+          "D": "Locked together and unable to move"
+        },
+        "correctAnswer": "C",
+        "explanation": "Gas particles are far apart and move around freely and fast.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q5",
+        "section": "science",
+        "question": "Why does a solid keep its shape?",
+        "choices": {
+          "A": "Its particles are far apart",
+          "B": "Its particles are packed tightly and only vibrate in place",
+          "C": "Its particles fill any container",
+          "D": "It has no particles"
+        },
+        "correctAnswer": "B",
+        "explanation": "Because the particles in a solid are tightly packed and only vibrate in place, the solid holds its shape.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q6",
+        "section": "science",
+        "question": "Juice poured into a glass takes the shape of the glass. This shows that juice is a",
+        "choices": {
+          "A": "solid",
+          "B": "liquid",
+          "C": "gas",
+          "D": "mixture of solids"
+        },
+        "correctAnswer": "B",
+        "explanation": "A liquid flows and takes the shape of its container while keeping its volume.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q7",
+        "section": "science",
+        "question": "Which list correctly orders the states from most tightly packed particles to most spread out?",
+        "choices": {
+          "A": "Gas, liquid, solid",
+          "B": "Solid, liquid, gas",
+          "C": "Liquid, solid, gas",
+          "D": "Gas, solid, liquid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Solids have the tightest packing, liquids are in between, and gases are the most spread out.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q8",
+        "section": "science",
+        "question": "Ice, liquid water, and water vapor are all water. What is different among them?",
+        "choices": {
+          "A": "They are different substances",
+          "B": "The arrangement and motion of their particles",
+          "C": "Their chemical makeup",
+          "D": "Nothing is different"
+        },
+        "correctAnswer": "B",
+        "explanation": "All three are the same substance (water); only the arrangement and motion of the particles differ.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q9",
+        "section": "science",
+        "question": "A balloon filled with helium shows that a gas",
+        "choices": {
+          "A": "keeps a fixed shape on its own",
+          "B": "fills and takes the shape of its container",
+          "C": "cannot move",
+          "D": "is always a solid"
+        },
+        "correctAnswer": "B",
+        "explanation": "The helium gas spreads out to fill the balloon and takes its shape, showing gas fills its container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q10",
+        "section": "science",
+        "question": "Which statement about liquids and gases is TRUE?",
+        "choices": {
+          "A": "Both keep a fixed shape",
+          "B": "Both have particles that can move past each other, but gas particles are much farther apart",
+          "C": "Both have tightly packed, vibrating particles",
+          "D": "Neither can flow"
+        },
+        "correctAnswer": "B",
+        "explanation": "In both liquids and gases the particles can move past each other, but gas particles are much farther apart than liquid particles.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q11",
+        "section": "science",
+        "question": "Which state of matter keeps both its own shape AND its own volume?",
+        "choices": {
+          "A": "Solid",
+          "B": "Liquid",
+          "C": "Gas",
+          "D": "Vapor"
+        },
+        "correctAnswer": "A",
+        "explanation": "A solid keeps both its own shape and its own volume because its particles are locked tightly in place.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q12",
+        "section": "science",
+        "question": "In which state can particles slide past each other but still stay close together?",
+        "choices": {
+          "A": "Solid",
+          "B": "Liquid",
+          "C": "Gas",
+          "D": "None"
+        },
+        "correctAnswer": "B",
+        "explanation": "In a liquid the particles stay close together but can slide past one another, which lets a liquid flow.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q13",
+        "section": "science",
+        "question": "A wooden block sits on a desk and keeps its exact shape. The block is a",
+        "choices": {
+          "A": "gas",
+          "B": "liquid",
+          "C": "solid",
+          "D": "plasma"
+        },
+        "correctAnswer": "C",
+        "explanation": "Because the block keeps its own shape, it is a solid; its particles are packed tightly and only vibrate in place.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q14",
+        "section": "science",
+        "question": "Air spreading out to fill an entire empty room is an example of a",
+        "choices": {
+          "A": "solid",
+          "B": "liquid",
+          "C": "crystal",
+          "D": "gas"
+        },
+        "correctAnswer": "D",
+        "explanation": "Air is a gas, and a gas spreads out to fill any container, taking its shape and volume.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q15",
+        "section": "science",
+        "question": "What two things change among the three states of matter?",
+        "choices": {
+          "A": "The arrangement of the particles and how they move",
+          "B": "The color and the smell of the particles",
+          "C": "The type of substance",
+          "D": "The number of particles"
+        },
+        "correctAnswer": "A",
+        "explanation": "The states of matter differ in how the particles are arranged and how they move, not in the substance itself.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q16",
+        "section": "science",
+        "question": "Milk poured from a jug into a bowl takes the shape of the bowl but its amount stays the same. This shows milk is a",
+        "choices": {
+          "A": "solid",
+          "B": "gas",
+          "C": "liquid",
+          "D": "vapor"
+        },
+        "correctAnswer": "C",
+        "explanation": "Milk keeps its volume but takes the shape of its container, which is the behavior of a liquid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q17",
+        "section": "science",
+        "question": "Which of these is NOT a property of a solid?",
+        "choices": {
+          "A": "It keeps its own shape",
+          "B": "It keeps its own volume",
+          "C": "Its particles are packed tightly",
+          "D": "It spreads out to fill any container"
+        },
+        "correctAnswer": "D",
+        "explanation": "Spreading out to fill any container is a property of a gas, not a solid. A solid keeps its own shape and volume.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q18",
+        "section": "science",
+        "question": "Compared to a solid, the particles in a liquid are",
+        "choices": {
+          "A": "much farther apart and motionless",
+          "B": "able to slide past each other",
+          "C": "locked in place and vibrating only",
+          "D": "completely separated and zooming far apart"
+        },
+        "correctAnswer": "B",
+        "explanation": "Liquid particles are close together like a solid's but, unlike a solid's, they can slide past each other so the liquid can flow.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q19",
+        "section": "science",
+        "question": "Which correctly matches a state to its particle motion?",
+        "choices": {
+          "A": "Gas — particles zoom around freely",
+          "B": "Liquid — particles only vibrate in place",
+          "C": "Solid — particles fly far apart",
+          "D": "Gas — particles are locked in place"
+        },
+        "correctAnswer": "A",
+        "explanation": "In a gas the particles zoom around freely and are far apart, which matches the gas state.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q20",
+        "section": "science",
+        "question": "Why can a liquid flow but a solid cannot?",
+        "choices": {
+          "A": "A liquid has no particles",
+          "B": "A liquid's particles can slide past each other while a solid's only vibrate in place",
+          "C": "A solid's particles are farther apart",
+          "D": "A liquid is always hotter"
+        },
+        "correctAnswer": "B",
+        "explanation": "A liquid flows because its particles can slide past each other, while a solid's particles only vibrate in fixed positions.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q21",
+        "section": "science",
+        "question": "Which state has particles that are the FARTHEST apart?",
+        "choices": {
+          "A": "Solid",
+          "B": "Liquid",
+          "C": "Gas",
+          "D": "They are all the same distance apart"
+        },
+        "correctAnswer": "C",
+        "explanation": "Gas particles are the farthest apart of the three states, which is why a gas can spread out to fill any space.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q22",
+        "section": "science",
+        "question": "A steel nail and a glass of water are compared. Which statement is correct?",
+        "choices": {
+          "A": "Both take the shape of their container",
+          "B": "The nail flows and the water does not",
+          "C": "Both spread out to fill a room",
+          "D": "The nail keeps its shape; the water takes the shape of the glass"
+        },
+        "correctAnswer": "D",
+        "explanation": "The nail is a solid and keeps its shape, while the water is a liquid and takes the shape of the glass.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q23",
+        "section": "science",
+        "question": "Water vapor is which state of water?",
+        "choices": {
+          "A": "Gas",
+          "B": "Liquid",
+          "C": "Solid",
+          "D": "It is not water at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "Water vapor is the gas state of water; it is the same substance as ice and liquid water, only the particles are spread far apart.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q24",
+        "section": "science",
+        "question": "Which of the following is an example of a liquid?",
+        "choices": {
+          "A": "A brick",
+          "B": "The air in a balloon",
+          "C": "Orange juice in a cup",
+          "D": "An ice cube"
+        },
+        "correctAnswer": "C",
+        "explanation": "Orange juice flows and takes the shape of its cup while keeping its volume, so it is a liquid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q25",
+        "section": "science",
+        "question": "More particle movement and more spacing between particles generally means the state is",
+        "choices": {
+          "A": "more rigid",
+          "B": "unable to change",
+          "C": "always a solid",
+          "D": "less rigid"
+        },
+        "correctAnswer": "D",
+        "explanation": "More particle movement and spacing means a less rigid state, moving from solid toward liquid toward gas.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q26",
+        "section": "science",
+        "question": "Which is NOT one of the three common states of matter described?",
+        "choices": {
+          "A": "Solid",
+          "B": "Powder",
+          "C": "Gas",
+          "D": "Liquid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Powder is not a separate state of matter; the three common states are solid, liquid, and gas.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q27",
+        "section": "science",
+        "question": "If a sample of matter has a fixed volume but takes the shape of any container, it must be a",
+        "choices": {
+          "A": "liquid",
+          "B": "solid",
+          "C": "gas",
+          "D": "rock"
+        },
+        "correctAnswer": "A",
+        "explanation": "Fixed volume plus taking the container's shape is the unique combination that describes a liquid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q28",
+        "section": "science",
+        "question": "A scientist says a sample 'fills its container completely and has no fixed shape or volume.' This sample is a",
+        "choices": {
+          "A": "solid",
+          "B": "gas",
+          "C": "liquid",
+          "D": "crystal"
+        },
+        "correctAnswer": "B",
+        "explanation": "Having no fixed shape or volume and filling the whole container describes a gas.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q29",
+        "section": "science",
+        "question": "Which statement about solids and liquids is TRUE?",
+        "choices": {
+          "A": "Both take the shape of their container",
+          "B": "Both have particles that zoom far apart",
+          "C": "Both keep a definite volume, but only the liquid takes the shape of its container",
+          "D": "Neither has a definite volume"
+        },
+        "correctAnswer": "C",
+        "explanation": "Solids and liquids both have a definite volume, but only the liquid changes shape to match its container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q30",
+        "section": "science",
+        "question": "Why does a gas spread out to fill its whole container?",
+        "choices": {
+          "A": "Its particles are tightly packed",
+          "B": "It has more particles than a solid",
+          "C": "Its particles only vibrate in place",
+          "D": "Its particles are far apart and zoom around freely"
+        },
+        "correctAnswer": "D",
+        "explanation": "Gas particles are far apart and move around freely, so they spread out to fill the entire container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q31",
+        "section": "science",
+        "question": "Which everyday object is the best example of a solid?",
+        "choices": {
+          "A": "A metal key",
+          "B": "Lemonade in a pitcher",
+          "C": "Steam from a kettle",
+          "D": "The helium in a balloon"
+        },
+        "correctAnswer": "A",
+        "explanation": "A metal key keeps its own shape and volume, making it a solid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q32",
+        "section": "science",
+        "question": "As the same substance changes from solid to liquid to gas, what stays the same?",
+        "choices": {
+          "A": "The arrangement of the particles",
+          "B": "How fast the particles move",
+          "C": "The substance it is made of",
+          "D": "How spread out the particles are"
+        },
+        "correctAnswer": "C",
+        "explanation": "The substance stays the same through all three states; only the arrangement and motion of its particles change.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q33",
+        "section": "science",
+        "question": "A liquid is poured from a tall glass into a wide bowl. What happens to its volume?",
+        "choices": {
+          "A": "The volume increases",
+          "B": "The volume decreases",
+          "C": "The volume becomes zero",
+          "D": "The volume stays the same, but the shape changes"
+        },
+        "correctAnswer": "D",
+        "explanation": "A liquid keeps its volume when moved to a new container; only its shape changes to match the bowl.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q34",
+        "section": "science",
+        "question": "Which list shows the states in order of INCREASING particle movement?",
+        "choices": {
+          "A": "Gas, liquid, solid",
+          "B": "Solid, liquid, gas",
+          "C": "Liquid, gas, solid",
+          "D": "Solid, gas, liquid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Particles move least in a solid, more in a liquid, and most in a gas, so the order is solid, liquid, gas.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q35",
+        "section": "science",
+        "question": "Which observation BEST shows that air is a gas?",
+        "choices": {
+          "A": "It spreads out to completely fill a sealed jar",
+          "B": "It pours like water into a cup",
+          "C": "It keeps a fixed shape on a table",
+          "D": "It can be held in your hand as a block"
+        },
+        "correctAnswer": "A",
+        "explanation": "Air spreads out to completely fill a sealed jar, which shows it is a gas.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q36",
+        "section": "science",
+        "question": "Which of these is NOT true about the particles in a gas?",
+        "choices": {
+          "A": "They are far apart",
+          "B": "They are packed tightly and only vibrate",
+          "C": "They move fast and freely",
+          "D": "They spread out to fill a container"
+        },
+        "correctAnswer": "B",
+        "explanation": "Being packed tightly and only vibrating describes a solid's particles, not a gas's. Gas particles are far apart and move freely.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q37",
+        "section": "science",
+        "question": "A balloon and a brick of the same size are compared. The brick keeps its shape if you remove its container, but the gas in the balloon would spread out. This is because",
+        "choices": {
+          "A": "the brick is a gas and the balloon holds a solid",
+          "B": "both are liquids",
+          "C": "the brick is a solid with tightly packed particles, while the gas has particles that spread freely",
+          "D": "gases always keep a fixed shape"
+        },
+        "correctAnswer": "C",
+        "explanation": "The brick is a solid with tightly packed particles that hold its shape, while the gas has free-moving particles that spread out.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q38",
+        "section": "science",
+        "question": "Which best describes the particles in a solid?",
+        "choices": {
+          "A": "Far apart and moving fast",
+          "B": "Close together and sliding past each other",
+          "C": "Spread out to fill the container",
+          "D": "Packed tightly and vibrating in place"
+        },
+        "correctAnswer": "D",
+        "explanation": "Solid particles are packed tightly and vibrate in place, which is why a solid holds its shape.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q39",
+        "section": "science",
+        "question": "A puddle, a stone, and steam are observed. Which correctly identifies their states?",
+        "choices": {
+          "A": "Puddle = liquid, stone = solid, steam = gas",
+          "B": "Puddle = solid, stone = gas, steam = liquid",
+          "C": "Puddle = gas, stone = liquid, steam = solid",
+          "D": "All three are solids"
+        },
+        "correctAnswer": "A",
+        "explanation": "A puddle is liquid water, a stone is a solid, and steam is water in the gas state.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q40",
+        "section": "science",
+        "question": "Which statement correctly compares all three states of matter?",
+        "choices": {
+          "A": "Solids and gases keep their shape, but liquids do not",
+          "B": "Gases keep their shape, while solids and liquids do not",
+          "C": "Solids keep shape and volume, liquids keep only volume, and gases keep neither",
+          "D": "All three states keep both shape and volume"
+        },
+        "correctAnswer": "C",
+        "explanation": "Solids keep both shape and volume, liquids keep volume but take the container's shape, and gases keep neither.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "2-2": {
     "title": "Changes of State",
     "standard": "SC.6.P.11.1",
-    "learn": "KEY IDEAS\n\nMatter changes state when it gains or loses thermal energy (heat). The substance stays the SAME — only its state changes as particles speed up or slow down.\n\nAdding heat (particles speed up):\n- Melting: solid → liquid\n- Evaporation/boiling: liquid → gas\n\nRemoving heat (particles slow down):\n- Condensation: gas → liquid\n- Freezing: liquid → solid\n\nExample 1 — Ice cube on a warm day\nAdding heat to ice makes its particles move faster until it melts into liquid water. More heat evaporates it into water vapor.\n\nExample 2 — Cold glass 'sweating'\nWater drops form on the outside of a cold glass when water vapor in the air loses heat and condenses (gas → liquid).\n\nExample 3 — Freezing\nPutting liquid water in a freezer removes heat. The particles slow down until the water freezes into solid ice."
-,
+    "learn": "KEY IDEAS\n\nMatter changes state when it gains or loses thermal energy (heat). The substance stays the SAME — only its state changes as particles speed up or slow down.\n\nAdding heat (particles speed up):\n- Melting: solid → liquid\n- Evaporation/boiling: liquid → gas\n\nRemoving heat (particles slow down):\n- Condensation: gas → liquid\n- Freezing: liquid → solid\n\nExample 1 — Ice cube on a warm day\nAdding heat to ice makes its particles move faster until it melts into liquid water. More heat evaporates it into water vapor.\n\nExample 2 — Cold glass 'sweating'\nWater drops form on the outside of a cold glass when water vapor in the air loses heat and condenses (gas → liquid).\n\nExample 3 — Freezing\nPutting liquid water in a freezer removes heat. The particles slow down until the water freezes into solid ice.",
     "questions": [
-      { "id": "2-2-q1", "section": "science", "question": "Changing a solid into a liquid by adding heat is called", "choices": { "A": "freezing", "B": "melting", "C": "condensation", "D": "evaporation" }, "correctAnswer": "B", "explanation": "Melting is the change from solid to liquid when heat is added.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-2-q2", "section": "science", "question": "Which change of state happens when a liquid turns into a gas?", "choices": { "A": "Freezing", "B": "Melting", "C": "Evaporation", "D": "Condensation" }, "correctAnswer": "C", "explanation": "Evaporation (or boiling) is the change from liquid to gas as heat is added.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-2-q3", "section": "science", "question": "When a gas loses heat and turns into a liquid, the process is called", "choices": { "A": "condensation", "B": "evaporation", "C": "melting", "D": "freezing" }, "correctAnswer": "A", "explanation": "Condensation is the change from gas to liquid when heat is removed.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-2-q4", "section": "science", "question": "Freezing is the change of state from", "choices": { "A": "liquid to gas", "B": "liquid to solid", "C": "solid to liquid", "D": "gas to liquid" }, "correctAnswer": "B", "explanation": "Freezing is the change from liquid to solid as heat is removed.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-2-q5", "section": "science", "question": "During a change of state, the substance itself", "choices": { "A": "becomes a brand-new substance", "B": "stays the same substance", "C": "is destroyed", "D": "always burns" }, "correctAnswer": "B", "explanation": "A change of state is a physical change; the substance stays the same while only its state changes.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-2-q6", "section": "science", "question": "Water drops appear on the outside of a cold soda can on a hot day. This is an example of", "choices": { "A": "freezing", "B": "melting", "C": "condensation", "D": "evaporation" }, "correctAnswer": "C", "explanation": "Water vapor in the warm air loses heat to the cold can and condenses into liquid drops.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-2-q7", "section": "science", "question": "Adding heat to a substance causes its particles to", "choices": { "A": "move faster and spread apart", "B": "stop moving", "C": "move slower and pack together", "D": "disappear" }, "correctAnswer": "A", "explanation": "Adding heat (thermal energy) makes particles move faster and spread apart, which can change the state.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-2-q8", "section": "science", "question": "Which two processes both require REMOVING heat?", "choices": { "A": "Melting and evaporation", "B": "Condensation and freezing", "C": "Melting and freezing", "D": "Evaporation and condensation" }, "correctAnswer": "B", "explanation": "Condensation (gas to liquid) and freezing (liquid to solid) both happen when heat is removed.", "standard": "SC.6.P.11.1", "difficulty": "hard" },
-      { "id": "2-2-q9", "section": "science", "question": "A puddle of water slowly disappears on a sunny day. What happened?", "choices": { "A": "It froze into ice", "B": "It evaporated into water vapor", "C": "It condensed", "D": "It melted" }, "correctAnswer": "B", "explanation": "The Sun's heat caused the liquid water to evaporate into invisible water vapor.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-2-q10", "section": "science", "question": "A student heats ice until it melts, then keeps heating until it boils away. In order, the states are", "choices": { "A": "solid → gas → liquid", "B": "gas → liquid → solid", "C": "solid → liquid → gas", "D": "liquid → solid → gas" }, "correctAnswer": "C", "explanation": "Heating ice melts the solid to liquid, then boils the liquid into gas: solid → liquid → gas.", "standard": "SC.6.P.11.1", "difficulty": "hard" }
+      {
+        "id": "2-2-q1",
+        "section": "science",
+        "question": "Changing a solid into a liquid by adding heat is called",
+        "choices": {
+          "A": "freezing",
+          "B": "melting",
+          "C": "condensation",
+          "D": "evaporation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Melting is the change from solid to liquid when heat is added.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q2",
+        "section": "science",
+        "question": "Which change of state happens when a liquid turns into a gas?",
+        "choices": {
+          "A": "Freezing",
+          "B": "Melting",
+          "C": "Evaporation",
+          "D": "Condensation"
+        },
+        "correctAnswer": "C",
+        "explanation": "Evaporation (or boiling) is the change from liquid to gas as heat is added.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q3",
+        "section": "science",
+        "question": "When a gas loses heat and turns into a liquid, the process is called",
+        "choices": {
+          "A": "condensation",
+          "B": "evaporation",
+          "C": "melting",
+          "D": "freezing"
+        },
+        "correctAnswer": "A",
+        "explanation": "Condensation is the change from gas to liquid when heat is removed.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q4",
+        "section": "science",
+        "question": "Freezing is the change of state from",
+        "choices": {
+          "A": "liquid to gas",
+          "B": "liquid to solid",
+          "C": "solid to liquid",
+          "D": "gas to liquid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Freezing is the change from liquid to solid as heat is removed.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q5",
+        "section": "science",
+        "question": "During a change of state, the substance itself",
+        "choices": {
+          "A": "becomes a brand-new substance",
+          "B": "stays the same substance",
+          "C": "is destroyed",
+          "D": "always burns"
+        },
+        "correctAnswer": "B",
+        "explanation": "A change of state is a physical change; the substance stays the same while only its state changes.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q6",
+        "section": "science",
+        "question": "Water drops appear on the outside of a cold soda can on a hot day. This is an example of",
+        "choices": {
+          "A": "freezing",
+          "B": "melting",
+          "C": "condensation",
+          "D": "evaporation"
+        },
+        "correctAnswer": "C",
+        "explanation": "Water vapor in the warm air loses heat to the cold can and condenses into liquid drops.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q7",
+        "section": "science",
+        "question": "Adding heat to a substance causes its particles to",
+        "choices": {
+          "A": "move faster and spread apart",
+          "B": "stop moving",
+          "C": "move slower and pack together",
+          "D": "disappear"
+        },
+        "correctAnswer": "A",
+        "explanation": "Adding heat (thermal energy) makes particles move faster and spread apart, which can change the state.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q8",
+        "section": "science",
+        "question": "Which two processes both require REMOVING heat?",
+        "choices": {
+          "A": "Melting and evaporation",
+          "B": "Condensation and freezing",
+          "C": "Melting and freezing",
+          "D": "Evaporation and condensation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Condensation (gas to liquid) and freezing (liquid to solid) both happen when heat is removed.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q9",
+        "section": "science",
+        "question": "A puddle of water slowly disappears on a sunny day. What happened?",
+        "choices": {
+          "A": "It froze into ice",
+          "B": "It evaporated into water vapor",
+          "C": "It condensed",
+          "D": "It melted"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Sun's heat caused the liquid water to evaporate into invisible water vapor.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q10",
+        "section": "science",
+        "question": "A student heats ice until it melts, then keeps heating until it boils away. In order, the states are",
+        "choices": {
+          "A": "solid → gas → liquid",
+          "B": "gas → liquid → solid",
+          "C": "solid → liquid → gas",
+          "D": "liquid → solid → gas"
+        },
+        "correctAnswer": "C",
+        "explanation": "Heating ice melts the solid to liquid, then boils the liquid into gas: solid → liquid → gas.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q11",
+        "section": "science",
+        "question": "What must a substance gain or lose for its state to change?",
+        "choices": {
+          "A": "Thermal energy (heat)",
+          "B": "Color",
+          "C": "Particles",
+          "D": "Weight only"
+        },
+        "correctAnswer": "A",
+        "explanation": "A substance changes state when it gains or loses thermal energy (heat), which speeds up or slows down its particles.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q12",
+        "section": "science",
+        "question": "Condensation is the change of state from",
+        "choices": {
+          "A": "liquid to gas",
+          "B": "gas to liquid",
+          "C": "solid to liquid",
+          "D": "liquid to solid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Condensation is the change from gas to liquid, which happens when heat is removed.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q13",
+        "section": "science",
+        "question": "Removing heat from a substance causes its particles to",
+        "choices": {
+          "A": "move faster and spread apart",
+          "B": "disappear",
+          "C": "move slower and come closer together",
+          "D": "stay exactly the same speed"
+        },
+        "correctAnswer": "C",
+        "explanation": "Removing heat makes particles slow down and move closer together, which can change the state.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q14",
+        "section": "science",
+        "question": "Putting liquid water in a freezer turns it into ice. This change is called",
+        "choices": {
+          "A": "melting",
+          "B": "condensation",
+          "C": "evaporation",
+          "D": "freezing"
+        },
+        "correctAnswer": "D",
+        "explanation": "Freezing is the change from liquid to solid as heat is removed, so the water becomes ice.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q15",
+        "section": "science",
+        "question": "Which two processes both happen when heat is ADDED?",
+        "choices": {
+          "A": "Melting and evaporation",
+          "B": "Freezing and condensation",
+          "C": "Freezing and melting",
+          "D": "Condensation and evaporation"
+        },
+        "correctAnswer": "A",
+        "explanation": "Melting (solid to liquid) and evaporation (liquid to gas) both happen when heat is added.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q16",
+        "section": "science",
+        "question": "An ice cube left on a warm table turns into a small pool of water. This is",
+        "choices": {
+          "A": "freezing",
+          "B": "condensation",
+          "C": "melting",
+          "D": "evaporation"
+        },
+        "correctAnswer": "C",
+        "explanation": "Adding heat makes the ice particles move faster until the solid melts into liquid water.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q17",
+        "section": "science",
+        "question": "Which change of state is the OPPOSITE of melting?",
+        "choices": {
+          "A": "Evaporation",
+          "B": "Condensation",
+          "C": "Boiling",
+          "D": "Freezing"
+        },
+        "correctAnswer": "D",
+        "explanation": "Melting goes solid to liquid by adding heat; freezing goes liquid to solid by removing heat, so freezing is the opposite.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q18",
+        "section": "science",
+        "question": "Which change of state is the OPPOSITE of evaporation?",
+        "choices": {
+          "A": "Melting",
+          "B": "Condensation",
+          "C": "Freezing",
+          "D": "Boiling"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation goes liquid to gas by adding heat; condensation goes gas to liquid by removing heat, so condensation is the opposite.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q19",
+        "section": "science",
+        "question": "Dew forms on grass overnight as the air cools. This is an example of",
+        "choices": {
+          "A": "condensation",
+          "B": "melting",
+          "C": "evaporation",
+          "D": "freezing"
+        },
+        "correctAnswer": "A",
+        "explanation": "As the air cools, water vapor loses heat and condenses into liquid water droplets, forming dew.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q20",
+        "section": "science",
+        "question": "A change of state, such as ice melting, is best described as",
+        "choices": {
+          "A": "a chemical change that makes a new substance",
+          "B": "a physical change where the substance stays the same",
+          "C": "burning",
+          "D": "the substance being destroyed"
+        },
+        "correctAnswer": "B",
+        "explanation": "A change of state is a physical change; the substance stays the same while only its state changes.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q21",
+        "section": "science",
+        "question": "Wet clothes dry on a clothesline in the sun. Which change of state happened?",
+        "choices": {
+          "A": "Freezing",
+          "B": "Melting",
+          "C": "Evaporation",
+          "D": "Condensation"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Sun's heat causes the liquid water in the clothes to evaporate into water vapor, drying the clothes.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q22",
+        "section": "science",
+        "question": "Which of these does NOT require adding heat?",
+        "choices": {
+          "A": "Melting",
+          "B": "Evaporation",
+          "C": "Boiling",
+          "D": "Freezing"
+        },
+        "correctAnswer": "D",
+        "explanation": "Freezing happens when heat is removed, not added. Melting, evaporation, and boiling all require adding heat.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q23",
+        "section": "science",
+        "question": "When water vapor turns into liquid drops on a cold mirror after a hot shower, the process is",
+        "choices": {
+          "A": "condensation",
+          "B": "evaporation",
+          "C": "freezing",
+          "D": "melting"
+        },
+        "correctAnswer": "A",
+        "explanation": "The water vapor loses heat to the cold mirror and condenses into liquid drops.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q24",
+        "section": "science",
+        "question": "During melting, the particles of the substance",
+        "choices": {
+          "A": "slow down and lock into place",
+          "B": "spread far apart and zoom freely",
+          "C": "gain energy and begin to slide past each other",
+          "D": "stop moving completely"
+        },
+        "correctAnswer": "C",
+        "explanation": "When a solid melts, its particles gain energy and begin to slide past each other, forming a liquid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q25",
+        "section": "science",
+        "question": "Which sequence shows water LOSING heat the whole time?",
+        "choices": {
+          "A": "ice → liquid water → water vapor",
+          "B": "ice → water vapor → liquid water",
+          "C": "liquid water → water vapor → ice",
+          "D": "water vapor → liquid water → ice"
+        },
+        "correctAnswer": "D",
+        "explanation": "Going water vapor to liquid water to ice means heat is removed at each step (condensation then freezing).",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q26",
+        "section": "science",
+        "question": "Frost forms on a cold window when water vapor turns directly into ice. This shows that a state change happens when the vapor",
+        "choices": {
+          "A": "gains heat",
+          "B": "loses heat",
+          "C": "gains particles",
+          "D": "changes into a new substance"
+        },
+        "correctAnswer": "B",
+        "explanation": "Frost forms when water vapor loses heat, so removing thermal energy caused the change of state.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q27",
+        "section": "science",
+        "question": "A pot of water on a hot stove begins to boil, sending steam into the air. This change is",
+        "choices": {
+          "A": "evaporation (boiling)",
+          "B": "condensation",
+          "C": "freezing",
+          "D": "melting"
+        },
+        "correctAnswer": "A",
+        "explanation": "Boiling is rapid evaporation; the heat turns the liquid water into water vapor (steam).",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q28",
+        "section": "science",
+        "question": "Which statement about changes of state is TRUE?",
+        "choices": {
+          "A": "They create brand-new substances",
+          "B": "They happen as particles speed up or slow down with heat",
+          "C": "They only happen to water",
+          "D": "They make the substance disappear"
+        },
+        "correctAnswer": "B",
+        "explanation": "Changes of state happen as a substance's particles speed up or slow down when heat is added or removed.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q29",
+        "section": "science",
+        "question": "To change ice directly back and forth, melting turns ice to water and freezing turns water to ice. The difference between them is",
+        "choices": {
+          "A": "melting removes heat and freezing adds heat",
+          "B": "both add heat",
+          "C": "melting adds heat and freezing removes heat",
+          "D": "both remove heat"
+        },
+        "correctAnswer": "C",
+        "explanation": "Melting adds heat to turn solid into liquid, while freezing removes heat to turn liquid into solid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q30",
+        "section": "science",
+        "question": "A glass of ice water has drops forming on its OUTSIDE. Where did that water come from?",
+        "choices": {
+          "A": "It leaked through the glass",
+          "B": "The glass made new water",
+          "C": "The ice melted through the glass",
+          "D": "Water vapor in the air condensed on the cold glass"
+        },
+        "correctAnswer": "D",
+        "explanation": "The outside water is water vapor from the air that lost heat to the cold glass and condensed into liquid drops.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q31",
+        "section": "science",
+        "question": "Which change of state turns a gas into a liquid?",
+        "choices": {
+          "A": "Condensation",
+          "B": "Freezing",
+          "C": "Melting",
+          "D": "Evaporation"
+        },
+        "correctAnswer": "A",
+        "explanation": "Condensation is the change from gas to liquid when heat is removed.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q32",
+        "section": "science",
+        "question": "Which change of state turns a solid into a liquid?",
+        "choices": {
+          "A": "Condensation",
+          "B": "Freezing",
+          "C": "Melting",
+          "D": "Evaporation"
+        },
+        "correctAnswer": "C",
+        "explanation": "Melting is the change from solid to liquid when heat is added.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q33",
+        "section": "science",
+        "question": "A chocolate bar left in a hot car becomes soft and runny. The chocolate has",
+        "choices": {
+          "A": "frozen",
+          "B": "evaporated",
+          "C": "condensed",
+          "D": "melted"
+        },
+        "correctAnswer": "D",
+        "explanation": "Heat made the solid chocolate's particles move faster until it melted into a liquid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q34",
+        "section": "science",
+        "question": "Which of these is NOT a change of state caused by removing heat?",
+        "choices": {
+          "A": "Freezing",
+          "B": "Melting",
+          "C": "Frost forming",
+          "D": "Condensation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Melting happens when heat is added. Freezing, condensation, and frost forming all happen when heat is removed.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q35",
+        "section": "science",
+        "question": "As a substance freezes, its particles",
+        "choices": {
+          "A": "slow down and lock into fixed positions",
+          "B": "speed up and spread apart",
+          "C": "turn into a gas",
+          "D": "vanish"
+        },
+        "correctAnswer": "A",
+        "explanation": "When a liquid freezes, its particles slow down and lock into fixed positions, forming a solid.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q36",
+        "section": "science",
+        "question": "Which pair of changes are opposites of each other?",
+        "choices": {
+          "A": "Melting and evaporation",
+          "B": "Melting and freezing",
+          "C": "Freezing and condensation",
+          "D": "Boiling and evaporation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Melting (solid to liquid, heat added) and freezing (liquid to solid, heat removed) are opposite changes of state.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q37",
+        "section": "science",
+        "question": "When water vapor in clouds cools and turns into rain drops, the change of state is",
+        "choices": {
+          "A": "evaporation",
+          "B": "melting",
+          "C": "condensation",
+          "D": "freezing"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cooling water vapor causes it to condense from a gas into liquid water drops, which can fall as rain.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q38",
+        "section": "science",
+        "question": "If you add heat to a block of ice for a long time, which order of states will you most likely see?",
+        "choices": {
+          "A": "Gas, then liquid, then solid",
+          "B": "Solid, then gas, then liquid",
+          "C": "Liquid, then solid, then gas",
+          "D": "Solid, then liquid, then gas"
+        },
+        "correctAnswer": "D",
+        "explanation": "Heating ice melts the solid to a liquid, then evaporates the liquid to a gas: solid, liquid, gas.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q39",
+        "section": "science",
+        "question": "During any change of state, the mass of the substance",
+        "choices": {
+          "A": "stays the same because it is the same substance",
+          "B": "is created from nothing",
+          "C": "always doubles",
+          "D": "is destroyed"
+        },
+        "correctAnswer": "A",
+        "explanation": "Because a change of state is a physical change of the same substance, the matter is conserved and the mass stays the same.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q40",
+        "section": "science",
+        "question": "Which statement correctly pairs a process with its energy change?",
+        "choices": {
+          "A": "Evaporation removes heat",
+          "B": "Condensation adds heat",
+          "C": "Freezing removes heat",
+          "D": "Melting removes heat"
+        },
+        "correctAnswer": "C",
+        "explanation": "Freezing removes heat to change a liquid into a solid. Evaporation and melting add heat, and condensation also removes heat, so the correct pairing here is freezing removes heat.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "2-3": {
     "title": "Gas Behavior",
     "standard": "SC.6.P.11.1",
-    "learn": "KEY IDEAS\n\nGases act in special ways because their particles are far apart and move fast. Three properties are connected: volume (space), temperature (how fast particles move), and pressure (how hard particles push on the container).\n\nKey relationships:\n- Squeeze a gas into a SMALLER space → particles hit the walls more often → pressure goes UP.\n- HEAT a gas → particles move faster and spread out → the gas expands or pushes harder (higher pressure if the space can't grow).\n- COOL a gas → particles slow and move closer → the gas takes less space.\n\nExample 1 — Balloon in heat and cold\nA balloon EXPANDS in heat because the gas particles move faster and push outward. The same balloon SHRINKS in the cold because the particles slow and move closer.\n\nExample 2 — Squeezing gas\nPushing a plunger to make a smaller space raises the gas pressure because the same particles crowd into less room and hit the walls more often.\n\nExample 3 — Bike tire\nA bike tire feels firmer on a hot day because the warm gas inside expands and pushes harder on the tire walls."
-,
+    "learn": "KEY IDEAS\n\nGases act in special ways because their particles are far apart and move fast. Three properties are connected: volume (space), temperature (how fast particles move), and pressure (how hard particles push on the container).\n\nKey relationships:\n- Squeeze a gas into a SMALLER space → particles hit the walls more often → pressure goes UP.\n- HEAT a gas → particles move faster and spread out → the gas expands or pushes harder (higher pressure if the space can't grow).\n- COOL a gas → particles slow and move closer → the gas takes less space.\n\nExample 1 — Balloon in heat and cold\nA balloon EXPANDS in heat because the gas particles move faster and push outward. The same balloon SHRINKS in the cold because the particles slow and move closer.\n\nExample 2 — Squeezing gas\nPushing a plunger to make a smaller space raises the gas pressure because the same particles crowd into less room and hit the walls more often.\n\nExample 3 — Bike tire\nA bike tire feels firmer on a hot day because the warm gas inside expands and pushes harder on the tire walls.",
     "questions": [
-      { "id": "2-3-q1", "section": "science", "question": "Gas particles, compared to solid and liquid particles, are", "choices": { "A": "packed tightly and barely moving", "B": "far apart and moving fast", "C": "frozen in place", "D": "joined in a crystal" }, "correctAnswer": "B", "explanation": "Gas particles are far apart and move fast, which gives gases their special behavior.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-3-q2", "section": "science", "question": "If you squeeze a gas into a smaller space, its pressure usually", "choices": { "A": "goes up", "B": "goes down", "C": "stays exactly the same", "D": "becomes zero" }, "correctAnswer": "A", "explanation": "Crowding the same particles into a smaller space makes them hit the walls more often, raising the pressure.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-3-q3", "section": "science", "question": "What happens to gas particles when the gas is heated?", "choices": { "A": "They stop moving", "B": "They move faster and spread out", "C": "They freeze", "D": "They turn into a solid" }, "correctAnswer": "B", "explanation": "Heating a gas gives its particles more energy, so they move faster and spread out.", "standard": "SC.6.P.11.1", "difficulty": "easy" },
-      { "id": "2-3-q4", "section": "science", "question": "A balloon left in a hot car gets bigger. This is because the gas inside", "choices": { "A": "lost particles", "B": "got colder", "C": "warmed up and its particles spread out", "D": "turned into a liquid" }, "correctAnswer": "C", "explanation": "Heat makes the gas particles move faster and spread out, so the balloon expands.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-3-q5", "section": "science", "question": "A balloon placed in a freezer shrinks because the gas inside", "choices": { "A": "got hotter", "B": "cooled down, so its particles slowed and moved closer", "C": "gained particles", "D": "caught fire" }, "correctAnswer": "B", "explanation": "Cooling slows the particles and lets them move closer together, so the balloon shrinks.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-3-q6", "section": "science", "question": "Pressure in a gas is caused by", "choices": { "A": "particles sitting still", "B": "particles hitting the walls of the container", "C": "the color of the gas", "D": "the gas turning solid" }, "correctAnswer": "B", "explanation": "Gas pressure comes from the particles striking the walls of their container.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-3-q7", "section": "science", "question": "A sealed, rigid container of gas is heated but cannot change size. The pressure inside will", "choices": { "A": "increase", "B": "decrease", "C": "stay the same", "D": "drop to zero" }, "correctAnswer": "A", "explanation": "Heating makes the particles move faster and hit the walls harder and more often, so in a rigid container the pressure increases.", "standard": "SC.6.P.11.1", "difficulty": "hard" },
-      { "id": "2-3-q8", "section": "science", "question": "Which change would make gas particles hit the container walls MORE often?", "choices": { "A": "Cooling the gas", "B": "Squeezing the gas into a smaller space", "C": "Removing some gas", "D": "Letting the gas expand into a bigger space" }, "correctAnswer": "B", "explanation": "Squeezing the gas into a smaller space crowds the particles so they hit the walls more often, raising the pressure.", "standard": "SC.6.P.11.1", "difficulty": "hard" },
-      { "id": "2-3-q9", "section": "science", "question": "A bike tire feels firmer on a hot afternoon than on a cold morning. This is because the warm gas inside", "choices": { "A": "leaked out", "B": "expanded and pushed harder on the tire", "C": "froze", "D": "turned into liquid" }, "correctAnswer": "B", "explanation": "Warm gas particles move faster and push harder on the tire walls, so the tire feels firmer.", "standard": "SC.6.P.11.1", "difficulty": "medium" },
-      { "id": "2-3-q10", "section": "science", "question": "Which best summarizes how temperature affects a gas?", "choices": { "A": "Higher temperature makes particles slower", "B": "Higher temperature makes particles faster, so the gas expands or pushes harder", "C": "Temperature has no effect on gases", "D": "Higher temperature turns gas into solid" }, "correctAnswer": "B", "explanation": "Raising the temperature speeds up the particles, causing the gas to expand or push harder on its container.", "standard": "SC.6.P.11.1", "difficulty": "medium" }
+      {
+        "id": "2-3-q1",
+        "section": "science",
+        "question": "Gas particles, compared to solid and liquid particles, are",
+        "choices": {
+          "A": "packed tightly and barely moving",
+          "B": "far apart and moving fast",
+          "C": "frozen in place",
+          "D": "joined in a crystal"
+        },
+        "correctAnswer": "B",
+        "explanation": "Gas particles are far apart and move fast, which gives gases their special behavior.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q2",
+        "section": "science",
+        "question": "If you squeeze a gas into a smaller space, its pressure usually",
+        "choices": {
+          "A": "goes up",
+          "B": "goes down",
+          "C": "stays exactly the same",
+          "D": "becomes zero"
+        },
+        "correctAnswer": "A",
+        "explanation": "Crowding the same particles into a smaller space makes them hit the walls more often, raising the pressure.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q3",
+        "section": "science",
+        "question": "What happens to gas particles when the gas is heated?",
+        "choices": {
+          "A": "They stop moving",
+          "B": "They move faster and spread out",
+          "C": "They freeze",
+          "D": "They turn into a solid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Heating a gas gives its particles more energy, so they move faster and spread out.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q4",
+        "section": "science",
+        "question": "A balloon left in a hot car gets bigger. This is because the gas inside",
+        "choices": {
+          "A": "lost particles",
+          "B": "got colder",
+          "C": "warmed up and its particles spread out",
+          "D": "turned into a liquid"
+        },
+        "correctAnswer": "C",
+        "explanation": "Heat makes the gas particles move faster and spread out, so the balloon expands.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q5",
+        "section": "science",
+        "question": "A balloon placed in a freezer shrinks because the gas inside",
+        "choices": {
+          "A": "got hotter",
+          "B": "cooled down, so its particles slowed and moved closer",
+          "C": "gained particles",
+          "D": "caught fire"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cooling slows the particles and lets them move closer together, so the balloon shrinks.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q6",
+        "section": "science",
+        "question": "Pressure in a gas is caused by",
+        "choices": {
+          "A": "particles sitting still",
+          "B": "particles hitting the walls of the container",
+          "C": "the color of the gas",
+          "D": "the gas turning solid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Gas pressure comes from the particles striking the walls of their container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q7",
+        "section": "science",
+        "question": "A sealed, rigid container of gas is heated but cannot change size. The pressure inside will",
+        "choices": {
+          "A": "increase",
+          "B": "decrease",
+          "C": "stay the same",
+          "D": "drop to zero"
+        },
+        "correctAnswer": "A",
+        "explanation": "Heating makes the particles move faster and hit the walls harder and more often, so in a rigid container the pressure increases.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q8",
+        "section": "science",
+        "question": "Which change would make gas particles hit the container walls MORE often?",
+        "choices": {
+          "A": "Cooling the gas",
+          "B": "Squeezing the gas into a smaller space",
+          "C": "Removing some gas",
+          "D": "Letting the gas expand into a bigger space"
+        },
+        "correctAnswer": "B",
+        "explanation": "Squeezing the gas into a smaller space crowds the particles so they hit the walls more often, raising the pressure.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q9",
+        "section": "science",
+        "question": "A bike tire feels firmer on a hot afternoon than on a cold morning. This is because the warm gas inside",
+        "choices": {
+          "A": "leaked out",
+          "B": "expanded and pushed harder on the tire",
+          "C": "froze",
+          "D": "turned into liquid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Warm gas particles move faster and push harder on the tire walls, so the tire feels firmer.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q10",
+        "section": "science",
+        "question": "Which best summarizes how temperature affects a gas?",
+        "choices": {
+          "A": "Higher temperature makes particles slower",
+          "B": "Higher temperature makes particles faster, so the gas expands or pushes harder",
+          "C": "Temperature has no effect on gases",
+          "D": "Higher temperature turns gas into solid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Raising the temperature speeds up the particles, causing the gas to expand or push harder on its container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q11",
+        "section": "science",
+        "question": "Which three properties of a gas are connected to one another?",
+        "choices": {
+          "A": "Volume, temperature, and pressure",
+          "B": "Color, smell, and taste",
+          "C": "Mass, color, and shape",
+          "D": "Weight, height, and width"
+        },
+        "correctAnswer": "A",
+        "explanation": "A gas's volume, temperature, and pressure are connected properties that affect one another.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q12",
+        "section": "science",
+        "question": "In a gas, temperature is a measure of",
+        "choices": {
+          "A": "how heavy the particles are",
+          "B": "how fast the particles move",
+          "C": "the color of the gas",
+          "D": "how many walls the container has"
+        },
+        "correctAnswer": "B",
+        "explanation": "Temperature is a measure of how fast the gas particles move; higher temperature means faster particles.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q13",
+        "section": "science",
+        "question": "Pressure in a gas describes",
+        "choices": {
+          "A": "how cold the gas feels",
+          "B": "the color of the container",
+          "C": "how hard the particles push on the container",
+          "D": "how heavy the container is"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pressure is how hard the gas particles push on the walls of the container by hitting them.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q14",
+        "section": "science",
+        "question": "Cooling a gas causes its particles to",
+        "choices": {
+          "A": "speed up and spread out",
+          "B": "turn into a solid instantly",
+          "C": "stop existing",
+          "D": "slow down and move closer together"
+        },
+        "correctAnswer": "D",
+        "explanation": "Cooling a gas makes its particles slow down and move closer together, so the gas takes up less space.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q15",
+        "section": "science",
+        "question": "A balloon is moved from a warm room into a cold refrigerator. What most likely happens?",
+        "choices": {
+          "A": "It shrinks",
+          "B": "It expands",
+          "C": "It pops",
+          "D": "Nothing changes"
+        },
+        "correctAnswer": "A",
+        "explanation": "In the cold the gas particles slow down and move closer together, so the balloon shrinks.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q16",
+        "section": "science",
+        "question": "Pushing a plunger to make the space inside a sealed syringe smaller will",
+        "choices": {
+          "A": "lower the gas pressure",
+          "B": "not change the pressure",
+          "C": "raise the gas pressure",
+          "D": "freeze the gas"
+        },
+        "correctAnswer": "C",
+        "explanation": "Squeezing the gas into a smaller space crowds the particles so they hit the walls more often, raising the pressure.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q17",
+        "section": "science",
+        "question": "Why does a gas expand when it is heated and free to grow?",
+        "choices": {
+          "A": "The particles get heavier",
+          "B": "The particles freeze",
+          "C": "New particles are added",
+          "D": "The particles move faster and push outward"
+        },
+        "correctAnswer": "D",
+        "explanation": "Heating makes the gas particles move faster and push outward, so the gas expands.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q18",
+        "section": "science",
+        "question": "Which change would make a gas take up LESS space?",
+        "choices": {
+          "A": "Heating it in a flexible balloon",
+          "B": "Cooling it in a flexible balloon",
+          "C": "Adding more gas",
+          "D": "Shaking the container"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cooling a gas slows its particles and lets them move closer, so the gas takes up less space.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q19",
+        "section": "science",
+        "question": "A bike tire feels firmer on a hot day. This happens because the warm gas inside",
+        "choices": {
+          "A": "expanded and pushed harder on the tire walls",
+          "B": "leaked out of the tire",
+          "C": "turned into a liquid",
+          "D": "lost all its particles"
+        },
+        "correctAnswer": "A",
+        "explanation": "Warm gas particles move faster and push harder on the tire walls, so the tire feels firmer.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q20",
+        "section": "science",
+        "question": "Which is NOT a property used to describe how a gas behaves?",
+        "choices": {
+          "A": "Volume",
+          "B": "Color",
+          "C": "Pressure",
+          "D": "Temperature"
+        },
+        "correctAnswer": "B",
+        "explanation": "Volume, temperature, and pressure describe how a gas behaves; color is not one of these connected properties.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q21",
+        "section": "science",
+        "question": "If the space holding a gas gets bigger and nothing else changes, the particles will hit the walls",
+        "choices": {
+          "A": "more often, raising pressure",
+          "B": "the same amount",
+          "C": "less often, lowering pressure",
+          "D": "never again"
+        },
+        "correctAnswer": "C",
+        "explanation": "In a larger space the same particles are more spread out, so they hit the walls less often and the pressure drops.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q22",
+        "section": "science",
+        "question": "A sealed metal can of gas is thrown into a fire. Because the can cannot grow, heating the gas will",
+        "choices": {
+          "A": "lower the pressure inside",
+          "B": "turn the gas into a solid",
+          "C": "keep the pressure exactly the same",
+          "D": "raise the pressure inside, possibly making it burst"
+        },
+        "correctAnswer": "D",
+        "explanation": "Heating speeds up the particles so they hit the rigid walls harder and more often, raising the pressure until the can may burst.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q23",
+        "section": "science",
+        "question": "What causes the particles of a gas to push on the walls of its container?",
+        "choices": {
+          "A": "The particles striking the walls as they move",
+          "B": "The particles sitting still",
+          "C": "The color of the particles",
+          "D": "The walls pulling the particles"
+        },
+        "correctAnswer": "A",
+        "explanation": "Gas pressure comes from the moving particles striking the walls of their container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q24",
+        "section": "science",
+        "question": "Two identical balloons are filled with the same amount of gas. One sits in the sun and one sits in the shade. Which is larger?",
+        "choices": {
+          "A": "The shade balloon",
+          "B": "They are exactly equal",
+          "C": "The sun balloon",
+          "D": "Neither has any gas"
+        },
+        "correctAnswer": "C",
+        "explanation": "The warmer gas in the sun balloon has faster particles that spread out and push harder, so that balloon is larger.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q25",
+        "section": "science",
+        "question": "Which best explains why gas pressure goes UP when the gas is squeezed into a smaller space?",
+        "choices": {
+          "A": "The particles disappear",
+          "B": "The gas turns into a liquid",
+          "C": "The particles slow down",
+          "D": "The same number of particles hit the walls more often"
+        },
+        "correctAnswer": "D",
+        "explanation": "Squeezing crowds the same number of particles into less room, so they hit the walls more often and pressure rises.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q26",
+        "section": "science",
+        "question": "A gas is cooled inside a flexible container that can shrink. The volume of the gas will most likely",
+        "choices": {
+          "A": "increase",
+          "B": "decrease",
+          "C": "stay the same",
+          "D": "double"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cooling slows the particles and lets them move closer, so a flexible container shrinks and the volume decreases.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q27",
+        "section": "science",
+        "question": "Which statement about gas particles is TRUE compared to liquid particles?",
+        "choices": {
+          "A": "Gas particles are far apart and move faster",
+          "B": "Gas particles are closer together",
+          "C": "Gas particles cannot move",
+          "D": "Gas particles are locked in a crystal"
+        },
+        "correctAnswer": "A",
+        "explanation": "Gas particles are far apart and move faster than liquid particles, which gives gases their special behavior.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q28",
+        "section": "science",
+        "question": "A scuba tank holds a lot of air squeezed into a small metal tank. The pressure inside is high because",
+        "choices": {
+          "A": "the air is cold",
+          "B": "many particles are crowded into a small space and hit the walls often",
+          "C": "the tank has no air",
+          "D": "the air turned solid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Crowding many particles into the small tank makes them hit the walls very often, creating high pressure.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q29",
+        "section": "science",
+        "question": "Which of these would lower the pressure of a gas in a flexible container?",
+        "choices": {
+          "A": "Heating it",
+          "B": "Squeezing it smaller",
+          "C": "Cooling it",
+          "D": "Shaking it hard"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cooling the gas slows the particles so they hit the walls less hard and less often, lowering the pressure.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q30",
+        "section": "science",
+        "question": "When a gas is heated, the speed of its particles",
+        "choices": {
+          "A": "decreases",
+          "B": "drops to zero",
+          "C": "stays the same",
+          "D": "increases"
+        },
+        "correctAnswer": "D",
+        "explanation": "Heating a gas adds energy, so the speed of its particles increases.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q31",
+        "section": "science",
+        "question": "A partly flat football is left in the hot sun and becomes firmer. The best explanation is that the gas inside",
+        "choices": {
+          "A": "warmed up, so its particles moved faster and pushed harder",
+          "B": "leaked out",
+          "C": "froze solid",
+          "D": "lost its particles"
+        },
+        "correctAnswer": "A",
+        "explanation": "The warm gas particles move faster and push harder on the football walls, making it feel firmer.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q32",
+        "section": "science",
+        "question": "Which is NOT a way to increase the pressure of a gas?",
+        "choices": {
+          "A": "Squeezing it into a smaller space",
+          "B": "Heating it in a rigid container",
+          "C": "Cooling it down",
+          "D": "Adding more gas to the same container"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cooling a gas slows its particles and lowers pressure. Squeezing, heating in a rigid container, or adding gas all raise pressure.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q33",
+        "section": "science",
+        "question": "Which everyday example best shows a gas expanding when heated?",
+        "choices": {
+          "A": "Water freezing in a tray",
+          "B": "An ice cube melting on a plate",
+          "C": "A rock staying the same on a table",
+          "D": "A balloon swelling larger after being left in a hot car"
+        },
+        "correctAnswer": "D",
+        "explanation": "A balloon swelling larger in the heat shows the gas expanding as its particles move faster and spread out.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q34",
+        "section": "science",
+        "question": "How does squeezing a gas into a smaller space affect how often particles hit the walls?",
+        "choices": {
+          "A": "They hit the walls less often",
+          "B": "They hit the walls more often",
+          "C": "They stop hitting the walls",
+          "D": "It has no effect"
+        },
+        "correctAnswer": "B",
+        "explanation": "In a smaller space the particles are crowded closer to the walls, so they hit the walls more often.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q35",
+        "section": "science",
+        "question": "A balloon expands in summer heat and shrinks in winter cold. This shows that gas volume",
+        "choices": {
+          "A": "increases when the gas is heated and decreases when it is cooled",
+          "B": "does not depend on temperature",
+          "C": "decreases when the gas is heated",
+          "D": "only depends on color"
+        },
+        "correctAnswer": "A",
+        "explanation": "Heating makes the gas expand and cooling makes it shrink, so the volume increases with heat and decreases with cold.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q36",
+        "section": "science",
+        "question": "Which best describes what happens to gas pressure in a rigid, sealed container as the gas cools?",
+        "choices": {
+          "A": "Pressure rises",
+          "B": "Pressure falls",
+          "C": "Pressure stays exactly the same",
+          "D": "The gas becomes a solid immediately"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cooling slows the particles so they hit the rigid walls less hard and less often, so the pressure falls.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q37",
+        "section": "science",
+        "question": "Why can a gas be squeezed into a much smaller space, while a solid cannot?",
+        "choices": {
+          "A": "A gas has heavier particles",
+          "B": "A solid has more particles",
+          "C": "A gas has lots of empty space between its far-apart particles",
+          "D": "A gas has no particles"
+        },
+        "correctAnswer": "C",
+        "explanation": "Because gas particles are far apart with lots of empty space between them, a gas can be squeezed into a smaller space.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q38",
+        "section": "science",
+        "question": "Which action increases the speed of gas particles AND can make the gas push harder?",
+        "choices": {
+          "A": "Cooling the gas",
+          "B": "Painting the container",
+          "C": "Removing the gas",
+          "D": "Heating the gas"
+        },
+        "correctAnswer": "D",
+        "explanation": "Heating the gas speeds up the particles, which makes them push harder on the container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q39",
+        "section": "science",
+        "question": "A sealed syringe of air is pushed in halfway, then released. The plunger springs back out. This shows that the squeezed gas had",
+        "choices": {
+          "A": "higher pressure pushing the plunger back out",
+          "B": "lower pressure than before",
+          "C": "no pressure at all",
+          "D": "turned into a liquid"
+        },
+        "correctAnswer": "A",
+        "explanation": "Squeezing raised the gas pressure, and that higher pressure pushes the plunger back out when released.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q40",
+        "section": "science",
+        "question": "Which statement correctly connects temperature, particle speed, and a gas's behavior?",
+        "choices": {
+          "A": "Lower temperature means faster particles and more pushing",
+          "B": "Temperature does not change particle speed",
+          "C": "Higher temperature means faster particles, which makes the gas expand or push harder",
+          "D": "Higher temperature stops the particles"
+        },
+        "correctAnswer": "C",
+        "explanation": "Higher temperature means faster particles, which causes the gas to expand or push harder on its container.",
+        "standard": "SC.6.P.11.1",
+        "difficulty": "medium"
+      }
     ]
   }
 }
