@@ -153,6 +153,456 @@
         "explanation": "A city-state governs one city and its land, while an empire unites many lands under one ruler.",
         "standard": "SS.6.W.2.8",
         "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q11",
+        "section": "social",
+        "question": "In which region did the first city-states like Ur and Uruk develop?",
+        "choices": {
+          "A": "Greece",
+          "B": "China",
+          "C": "Mesopotamia",
+          "D": "Italy"
+        },
+        "correctAnswer": "C",
+        "explanation": "The early city-states such as Ur and Uruk developed in Mesopotamia.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q12",
+        "section": "social",
+        "question": "About what year did Sargon conquer the Sumerian city-states?",
+        "choices": {
+          "A": "Around 2300 BC",
+          "B": "Around 100 AD",
+          "C": "Around 1492 AD",
+          "D": "Around 500 BC"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sargon united the city-states around 2300 BC.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q13",
+        "section": "social",
+        "question": "The empire that Sargon created is called the what?",
+        "choices": {
+          "A": "Roman Empire",
+          "B": "Mongol Empire",
+          "C": "Akkadian Empire",
+          "D": "British Empire"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sargon built the Akkadian Empire.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q14",
+        "section": "social",
+        "question": "Which word means 'able to rule itself without answering to another ruler'?",
+        "choices": {
+          "A": "Conquered",
+          "B": "Empty",
+          "C": "United",
+          "D": "Independent"
+        },
+        "correctAnswer": "D",
+        "explanation": "An independent city-state ruled itself without answering to another ruler.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q15",
+        "section": "social",
+        "question": "Which of these did city-states compete to control the MOST?",
+        "choices": {
+          "A": "Snowy mountains",
+          "B": "Rivers and the best farmland",
+          "C": "Ocean ships",
+          "D": "Paper factories"
+        },
+        "correctAnswer": "B",
+        "explanation": "City-states competed for control of the rivers and the best farmland.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q16",
+        "section": "social",
+        "question": "A neighborhood city that governs itself and its nearby fields is the BEST example of what?",
+        "choices": {
+          "A": "An empire",
+          "B": "A continent",
+          "C": "A desert",
+          "D": "A city-state"
+        },
+        "correctAnswer": "D",
+        "explanation": "A self-governing city with its nearby fields is a city-state.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q17",
+        "section": "social",
+        "question": "Which of these is NOT something each Sumerian city-state had of its own?",
+        "choices": {
+          "A": "Its own king",
+          "B": "One leader shared by all city-states",
+          "C": "Its own army",
+          "D": "Its own gods"
+        },
+        "correctAnswer": "B",
+        "explanation": "City-states did NOT share one leader; each had its own king, gods, and army.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q18",
+        "section": "social",
+        "question": "Put these in the correct order: which came FIRST?",
+        "choices": {
+          "A": "Separate city-states existed, then Sargon united them into an empire",
+          "B": "Sargon's empire formed, then separate city-states appeared",
+          "C": "The empire and the city-states began at the exact same moment",
+          "D": "There were never any city-states"
+        },
+        "correctAnswer": "A",
+        "explanation": "Separate city-states existed first, and then Sargon united them into an empire.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q19",
+        "section": "social",
+        "question": "What does it mean that early Mesopotamia was 'not one country'?",
+        "choices": {
+          "A": "It had no land at all",
+          "B": "It was made of many separate, self-ruling city-states",
+          "C": "It was ruled by one king from the start",
+          "D": "Nobody lived there"
+        },
+        "correctAnswer": "B",
+        "explanation": "Early Mesopotamia was made up of many separate, self-ruling city-states.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q20",
+        "section": "social",
+        "question": "An empire and a single village are different because an empire rules what?",
+        "choices": {
+          "A": "Only one street",
+          "B": "Many different lands and peoples",
+          "C": "Only animals",
+          "D": "Nothing at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "An empire rules many different lands and peoples, unlike a single village.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q21",
+        "section": "social",
+        "question": "Why could a strong leader rise up and conquer his neighbors?",
+        "choices": {
+          "A": "Because all cities were already peaceful and united",
+          "B": "Because there were no armies anywhere",
+          "C": "Because no one wanted more land",
+          "D": "Because city-states were independent and fought one another"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because city-states were independent and often fought, a strong leader could conquer his neighbors.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q22",
+        "section": "social",
+        "question": "Which title best fits Sargon after his conquests?",
+        "choices": {
+          "A": "Ruler of a single city only",
+          "B": "A farmer with no power",
+          "C": "A king who ruled nothing",
+          "D": "Ruler of the world's first empire"
+        },
+        "correctAnswer": "D",
+        "explanation": "After his conquests, Sargon was ruler of the world's first empire.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q23",
+        "section": "social",
+        "question": "Later empires copied an idea from Sargon. What idea was that?",
+        "choices": {
+          "A": "That cities should never have kings",
+          "B": "That farming was unimportant",
+          "C": "That empires always fail quickly",
+          "D": "That one ruler could control a large region"
+        },
+        "correctAnswer": "D",
+        "explanation": "Later empires copied the idea that one ruler could control a large region.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q24",
+        "section": "social",
+        "question": "If a city controls only itself and its own farmland but no other cities, it is a what?",
+        "choices": {
+          "A": "An empire",
+          "B": "A ruler",
+          "C": "A city-state",
+          "D": "A river"
+        },
+        "correctAnswer": "C",
+        "explanation": "A city that controls only itself and its own farmland is a city-state.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q25",
+        "section": "social",
+        "question": "Which statement about Sumerian city-states is TRUE?",
+        "choices": {
+          "A": "They all shared one army and one king",
+          "B": "They were peaceful and never competed",
+          "C": "They had no rulers of any kind",
+          "D": "Each was independent and could fight its neighbors"
+        },
+        "correctAnswer": "D",
+        "explanation": "Each Sumerian city-state was independent and could fight its neighbors.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q26",
+        "section": "social",
+        "question": "Sargon is best remembered as a what?",
+        "choices": {
+          "A": "Greek philosopher",
+          "B": "Egyptian pharaoh",
+          "C": "Roman senator",
+          "D": "Conqueror who built the first empire"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sargon is remembered as a conqueror who built the first empire.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q27",
+        "section": "social",
+        "question": "Which is the BEST example of an empire?",
+        "choices": {
+          "A": "One city ruling only its own fields",
+          "B": "A single family living in a house",
+          "C": "One ruler controlling many lands and many different peoples",
+          "D": "A river flowing through a desert"
+        },
+        "correctAnswer": "C",
+        "explanation": "An empire is best shown by one ruler controlling many lands and peoples.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q28",
+        "section": "social",
+        "question": "What happened to the separate city-states after Sargon's conquest?",
+        "choices": {
+          "A": "They were united under one ruler",
+          "B": "They each gained a new king",
+          "C": "They disappeared into the sea",
+          "D": "They became larger empires of their own"
+        },
+        "correctAnswer": "A",
+        "explanation": "After Sargon's conquest, the separate city-states were united under one ruler.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q29",
+        "section": "social",
+        "question": "Which pair is correctly matched?",
+        "choices": {
+          "A": "Empire = one self-ruling city",
+          "B": "City-state = many lands under one ruler",
+          "C": "Sargon = builder of the first empire",
+          "D": "Ur = a Roman emperor"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sargon was the builder of the first empire.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q30",
+        "section": "social",
+        "question": "Why might people in different city-states worship different gods?",
+        "choices": {
+          "A": "Because they all shared one god",
+          "B": "Because no one had any religion",
+          "C": "Because one king forced the same gods on all cities",
+          "D": "Because each city-state had its own gods"
+        },
+        "correctAnswer": "D",
+        "explanation": "People worshipped different gods because each city-state had its own gods.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q31",
+        "section": "social",
+        "question": "Which of these would a city-state most likely go to war over?",
+        "choices": {
+          "A": "Which color to paint the sky",
+          "B": "Who could run the fastest",
+          "C": "Control of water and good farmland",
+          "D": "The name of a far-off ocean"
+        },
+        "correctAnswer": "C",
+        "explanation": "City-states most often went to war over control of water and good farmland.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q32",
+        "section": "social",
+        "question": "Which is NOT a true statement about empires?",
+        "choices": {
+          "A": "An empire is ruled by one leader",
+          "B": "An empire rules only one tiny village and nothing else",
+          "C": "An empire includes many different lands",
+          "D": "An empire can include many different peoples"
+        },
+        "correctAnswer": "B",
+        "explanation": "It is NOT true that an empire rules only one tiny village; empires include many lands and peoples.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q33",
+        "section": "social",
+        "question": "A modern country with one government ruling many regions is most like which ancient idea?",
+        "choices": {
+          "A": "An empire ruled by one leader",
+          "B": "A single independent city-state",
+          "C": "A river with no people",
+          "D": "A field with no ruler"
+        },
+        "correctAnswer": "A",
+        "explanation": "A government ruling many regions is most like an empire ruled by one leader.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q34",
+        "section": "social",
+        "question": "Which leader is connected to the city-state of Akkad?",
+        "choices": {
+          "A": "Hammurabi",
+          "B": "Julius Caesar",
+          "C": "Sargon",
+          "D": "King Tut"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sargon of Akkad is connected to the city of Akkad.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q35",
+        "section": "social",
+        "question": "What is the main reason city-states were almost like their own little countries?",
+        "choices": {
+          "A": "They each ruled themselves and their own land",
+          "B": "They had no people living in them",
+          "C": "They were all controlled by one king",
+          "D": "They were located on the moon"
+        },
+        "correctAnswer": "A",
+        "explanation": "City-states were like little countries because each ruled itself and its own land.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q36",
+        "section": "social",
+        "question": "What was one effect of Sargon uniting the city-states?",
+        "choices": {
+          "A": "A large region came under the control of a single ruler",
+          "B": "Every city kept its own separate king",
+          "C": "Farming stopped completely",
+          "D": "The rivers dried up"
+        },
+        "correctAnswer": "A",
+        "explanation": "One effect was that a large region came under the control of a single ruler.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q37",
+        "section": "social",
+        "question": "Which group of words best completes this idea: 'An empire is bigger than a city-state because it...'",
+        "choices": {
+          "A": "has fewer people than a single village",
+          "B": "rules no land at all",
+          "C": "rules many lands and peoples instead of just one city",
+          "D": "is always ruled by no one"
+        },
+        "correctAnswer": "C",
+        "explanation": "An empire is bigger because it rules many lands and peoples instead of just one city.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q38",
+        "section": "social",
+        "question": "If two city-states both wanted the same river for their crops, what would likely happen?",
+        "choices": {
+          "A": "They would peacefully ignore the river",
+          "B": "They might fight each other over it",
+          "C": "They would join into an empire instantly",
+          "D": "They would give the river away"
+        },
+        "correctAnswer": "B",
+        "explanation": "Two city-states wanting the same river would likely fight over it.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q39",
+        "section": "social",
+        "question": "Which sentence correctly uses the word 'empire'?",
+        "choices": {
+          "A": "Sargon built an empire that ruled many lands and peoples",
+          "B": "An empire is a city that rules only itself",
+          "C": "An empire has no ruler and no land",
+          "D": "An empire is the same as one farm"
+        },
+        "correctAnswer": "A",
+        "explanation": "The correct use is that Sargon built an empire ruling many lands and peoples.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q40",
+        "section": "social",
+        "question": "Why is Sargon's empire important to world history?",
+        "choices": {
+          "A": "It proved that cities should never unite",
+          "B": "It was the first empire and showed one ruler could control a large region",
+          "C": "It ended all kingship forever",
+          "D": "It was the smallest government ever made"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sargon's empire was the first empire and showed one ruler could control a large region.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
       }
     ]
   },
@@ -308,6 +758,456 @@
         },
         "correctAnswer": "D",
         "explanation": "Hammurabi's Code came from Babylon.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q11",
+        "section": "social",
+        "question": "About how many laws were in Hammurabi's Code?",
+        "choices": {
+          "A": "Exactly 10 laws",
+          "B": "About 5,000 laws",
+          "C": "Only 1 law",
+          "D": "About 282 laws"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Code had about 282 laws.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q12",
+        "section": "social",
+        "question": "What is the name of the tall stone pillar that Hammurabi's laws were carved onto?",
+        "choices": {
+          "A": "A stele",
+          "B": "A pyramid",
+          "C": "An obelisk made of gold",
+          "D": "A scroll"
+        },
+        "correctAnswer": "A",
+        "explanation": "The laws were carved onto a tall stone pillar called a stele.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q13",
+        "section": "social",
+        "question": "In which larger region was Babylon located?",
+        "choices": {
+          "A": "Greece",
+          "B": "Mesopotamia",
+          "C": "India",
+          "D": "Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Babylon was a powerful city in Mesopotamia.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q14",
+        "section": "social",
+        "question": "What does 'an eye for an eye' mean?",
+        "choices": {
+          "A": "There should be no punishment at all",
+          "B": "Only kings can be punished",
+          "C": "Everyone should be set free",
+          "D": "The punishment should match the crime"
+        },
+        "correctAnswer": "D",
+        "explanation": "'An eye for an eye' means the punishment should match the crime.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q15",
+        "section": "social",
+        "question": "Why did Hammurabi set the laws up in PUBLIC?",
+        "choices": {
+          "A": "So everyone could see and know them",
+          "B": "So only the king could read them",
+          "C": "To hide them from the people",
+          "D": "Because there was no other place for them"
+        },
+        "correctAnswer": "A",
+        "explanation": "The laws were set up in public so everyone could see and know them.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q16",
+        "section": "social",
+        "question": "Which of these is NOT something Hammurabi's Code covered?",
+        "choices": {
+          "A": "Rules for flying airplanes",
+          "B": "Trade",
+          "C": "Family",
+          "D": "Property"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Code did NOT cover airplanes; it covered trade, family, crime, and property.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q17",
+        "section": "social",
+        "question": "How could a noble and a commoner be treated under Hammurabi's Code?",
+        "choices": {
+          "A": "Always exactly the same",
+          "B": "Nobles were never punished and commoners never were either",
+          "C": "Sometimes differently, depending on social class",
+          "D": "Only commoners had any laws"
+        },
+        "correctAnswer": "C",
+        "explanation": "A noble and a commoner were sometimes treated differently depending on social class.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q18",
+        "section": "social",
+        "question": "What is the BEST description of Hammurabi's Code?",
+        "choices": {
+          "A": "A short list of religious prayers",
+          "B": "One of the world's first complete sets of written laws",
+          "C": "A map of Babylon's streets",
+          "D": "A list of kings' names"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Code was one of the world's first complete sets of written laws.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q19",
+        "section": "social",
+        "question": "Which idea did Hammurabi's written laws help start that influenced governments for thousands of years?",
+        "choices": {
+          "A": "The use of pyramids",
+          "B": "The invention of writing",
+          "C": "The rule of law",
+          "D": "The end of all kings"
+        },
+        "correctAnswer": "C",
+        "explanation": "His written laws helped start the rule of law, which influenced governments for thousands of years.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q20",
+        "section": "social",
+        "question": "If a person could know the punishment for a crime BEFORE doing it, what made that possible under Hammurabi?",
+        "choices": {
+          "A": "The king kept the laws secret",
+          "B": "There were no laws at all",
+          "C": "The laws were written down and public",
+          "D": "Only nobles knew the laws"
+        },
+        "correctAnswer": "C",
+        "explanation": "People could know punishments ahead of time because the laws were written down and public.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q21",
+        "section": "social",
+        "question": "Which pair is correctly matched?",
+        "choices": {
+          "A": "Hammurabi = Rome",
+          "B": "Hammurabi = Athens",
+          "C": "Hammurabi = Egypt",
+          "D": "Hammurabi = Babylon"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hammurabi is correctly matched with Babylon.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q22",
+        "section": "social",
+        "question": "How were punishments in Hammurabi's Code often described?",
+        "choices": {
+          "A": "Always gentle and forgiving",
+          "B": "Often harsh",
+          "C": "Never used at all",
+          "D": "Decided by a vote of the people"
+        },
+        "correctAnswer": "B",
+        "explanation": "Punishments in the Code were often harsh.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q23",
+        "section": "social",
+        "question": "Which is the BEST example of 'an eye for an eye' thinking?",
+        "choices": {
+          "A": "Everyone is set free no matter what they do",
+          "B": "The king decides a brand-new punishment each day",
+          "C": "If someone breaks another person's bone, his bone is broken too",
+          "D": "No one is ever held responsible"
+        },
+        "correctAnswer": "C",
+        "explanation": "Breaking the bone of someone who broke another's bone shows the punishment matching the crime.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q24",
+        "section": "social",
+        "question": "What is a stele?",
+        "choices": {
+          "A": "A type of boat",
+          "B": "A kind of crown",
+          "C": "A tall stone pillar with writing carved on it",
+          "D": "A river in Babylon"
+        },
+        "correctAnswer": "C",
+        "explanation": "A stele is a tall stone pillar with writing carved on it.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q25",
+        "section": "social",
+        "question": "Which statement about Hammurabi's Code is TRUE?",
+        "choices": {
+          "A": "It was kept secret from the public",
+          "B": "It had only one law",
+          "C": "It came from ancient Rome",
+          "D": "It applied to everyone and could not be changed on a whim"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Code applied to everyone and could not be changed on a whim.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q26",
+        "section": "social",
+        "question": "Before laws were written, why was it hard for people to know the rules?",
+        "choices": {
+          "A": "The rules depended on the ruler's mood that day",
+          "B": "Everyone already had a written constitution",
+          "C": "There were too many books to read",
+          "D": "The rules were posted in public everywhere"
+        },
+        "correctAnswer": "A",
+        "explanation": "Before written laws, the rules depended on whatever the ruler felt like that day.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q27",
+        "section": "social",
+        "question": "Which word means a society is run by clear, written, public laws rather than a ruler's mood?",
+        "choices": {
+          "A": "Polytheism",
+          "B": "Monarchy",
+          "C": "The rule of law",
+          "D": "City-state"
+        },
+        "correctAnswer": "C",
+        "explanation": "Being run by clear, written, public laws is called the rule of law.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q28",
+        "section": "social",
+        "question": "What is one effect of carving the laws in public for all to see?",
+        "choices": {
+          "A": "People could not pretend they did not know the law",
+          "B": "Only the king ever learned the law",
+          "C": "The laws were forgotten quickly",
+          "D": "No one was ever punished again"
+        },
+        "correctAnswer": "A",
+        "explanation": "Because laws were public, people could not pretend they did not know the law.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q29",
+        "section": "social",
+        "question": "Which leader is connected to one of the world's first written law codes?",
+        "choices": {
+          "A": "Alexander the Great",
+          "B": "King Tut",
+          "C": "Sargon",
+          "D": "Hammurabi"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hammurabi is connected to one of the world's first written law codes.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q30",
+        "section": "social",
+        "question": "Which of these is NOT true about Hammurabi's Code?",
+        "choices": {
+          "A": "It was written down",
+          "B": "It was displayed in public",
+          "C": "It covered trade, family, crime, and property",
+          "D": "It treated every social class exactly the same in every case"
+        },
+        "correctAnswer": "D",
+        "explanation": "It is NOT true that every social class was treated the same; punishments could differ by class.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q31",
+        "section": "social",
+        "question": "Why do historians say Hammurabi's Code influenced later governments?",
+        "choices": {
+          "A": "It taught people how to build pyramids",
+          "B": "It introduced the idea of governing by written, public laws",
+          "C": "It ended the use of laws forever",
+          "D": "It proved kings should never write anything down"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Code influenced later governments by introducing the idea of governing by written, public laws.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q32",
+        "section": "social",
+        "question": "A judge today who follows clear written laws instead of personal feelings is showing which ancient idea?",
+        "choices": {
+          "A": "An empire",
+          "B": "The rule of law",
+          "C": "A city-state",
+          "D": "Polytheism"
+        },
+        "correctAnswer": "B",
+        "explanation": "Following clear written laws instead of personal feelings shows the rule of law.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q33",
+        "section": "social",
+        "question": "What does the word 'code' mean in 'Code of Hammurabi'?",
+        "choices": {
+          "A": "An organized set of laws",
+          "B": "A secret password",
+          "C": "A type of stone",
+          "D": "A kind of money"
+        },
+        "correctAnswer": "A",
+        "explanation": "In 'Code of Hammurabi,' a code means an organized set of laws.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q34",
+        "section": "social",
+        "question": "Which sentence correctly describes where and when Hammurabi ruled?",
+        "choices": {
+          "A": "He ruled the city of Rome in ancient Italy",
+          "B": "He ruled the city of Athens in ancient Greece",
+          "C": "He ruled the city of Babylon in ancient Mesopotamia",
+          "D": "He ruled the United States"
+        },
+        "correctAnswer": "C",
+        "explanation": "Hammurabi ruled the city of Babylon in ancient Mesopotamia.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q35",
+        "section": "social",
+        "question": "If two merchants disagreed about a trade in Babylon, where could they look for a rule?",
+        "choices": {
+          "A": "A book of Egyptian pyramids",
+          "B": "The Roman senate",
+          "C": "Nowhere, since no laws existed",
+          "D": "The written laws of Hammurabi's Code"
+        },
+        "correctAnswer": "D",
+        "explanation": "They could look to the written laws of Hammurabi's Code, which covered trade.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q36",
+        "section": "social",
+        "question": "Which best compares Hammurabi's Code to unwritten rules of earlier times?",
+        "choices": {
+          "A": "Both were exactly the same in every way",
+          "B": "Written laws were public and steady; unwritten rules changed at a ruler's whim",
+          "C": "Unwritten rules were fairer and clearer",
+          "D": "Written laws were hidden and unknown"
+        },
+        "correctAnswer": "B",
+        "explanation": "Written laws were public and steady, while unwritten rules could change at a ruler's whim.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q37",
+        "section": "social",
+        "question": "What is one reason Hammurabi's Code is remembered as so important?",
+        "choices": {
+          "A": "It was one of the first complete written law codes in history",
+          "B": "It was never used by anyone",
+          "C": "It only had rules for kings",
+          "D": "It was written after the United States began"
+        },
+        "correctAnswer": "A",
+        "explanation": "It is remembered because it was one of the first complete written law codes in history.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q38",
+        "section": "social",
+        "question": "A law that says everyone, rich or poor, must follow the same written rules best shows what?",
+        "choices": {
+          "A": "That only the king had to obey",
+          "B": "That rules applied to everyone",
+          "C": "That there were no rules",
+          "D": "That laws were kept secret"
+        },
+        "correctAnswer": "B",
+        "explanation": "Everyone following the same written rules shows that the rules applied to everyone.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q39",
+        "section": "social",
+        "question": "Which sentence correctly uses the term 'rule of law'?",
+        "choices": {
+          "A": "The rule of law means one king does whatever he wants",
+          "B": "The rule of law means there are no laws",
+          "C": "The rule of law means laws are kept secret from the people",
+          "D": "The rule of law means society is governed by clear, written, public laws"
+        },
+        "correctAnswer": "D",
+        "explanation": "The rule of law means society is governed by clear, written, public laws.",
+        "standard": "SS.6.W.2.8",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q40",
+        "section": "social",
+        "question": "What is the easiest way to remember where Hammurabi's Code came from?",
+        "choices": {
+          "A": "Hammurabi's Code = Rome",
+          "B": "Hammurabi's Code = Egypt",
+          "C": "Hammurabi's Code = Babylon",
+          "D": "Hammurabi's Code = Athens"
+        },
+        "correctAnswer": "C",
+        "explanation": "An easy way to remember is Hammurabi's Code = Babylon.",
         "standard": "SS.6.W.2.8",
         "difficulty": "easy"
       }
