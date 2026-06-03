@@ -2,73 +2,2429 @@
   "6-1": {
     "title": "The Atmosphere and Water in the Air",
     "standard": "SC.6.E.7.9",
-    "learn": "KEY IDEAS\n\nThe atmosphere is the blanket of gases surrounding Earth. It gives us air to breathe and does much more:\n- It is LAYERED.\n- The OZONE in the upper atmosphere blocks harmful ultraviolet (UV) rays from the Sun.\n\nWater moves into the air and back:\n- Evaporation: liquid water turns into invisible water vapor and rises.\n- Condensation: water vapor cools and turns into tiny droplets, forming clouds, fog, and dew.\n- Humidity is the amount of water vapor in the air.\n\nExample 1 — Ozone's job\nThe ozone layer high in the atmosphere protects living things by blocking harmful UV rays from the Sun.\n\nExample 2 — Dew on grass\nIn the cool morning, water vapor in the air condenses on the cool grass, forming dew.\n\nExample 3 — Humid day\nOn a 'humid' day there is a lot of water vapor in the air, which is why it feels sticky."
-,
+    "learn": "KEY IDEAS\n\nThe atmosphere is the blanket of gases surrounding Earth. It gives us air to breathe and does much more:\n- It is LAYERED.\n- The OZONE in the upper atmosphere blocks harmful ultraviolet (UV) rays from the Sun.\n\nWater moves into the air and back:\n- Evaporation: liquid water turns into invisible water vapor and rises.\n- Condensation: water vapor cools and turns into tiny droplets, forming clouds, fog, and dew.\n- Humidity is the amount of water vapor in the air.\n\nExample 1 — Ozone's job\nThe ozone layer high in the atmosphere protects living things by blocking harmful UV rays from the Sun.\n\nExample 2 — Dew on grass\nIn the cool morning, water vapor in the air condenses on the cool grass, forming dew.\n\nExample 3 — Humid day\nOn a 'humid' day there is a lot of water vapor in the air, which is why it feels sticky.",
     "questions": [
-      { "id": "6-1-q1", "section": "science", "question": "The atmosphere is best described as", "choices": { "A": "the solid rock of Earth", "B": "all the liquid water on Earth", "C": "the blanket of gases surrounding Earth", "D": "the layer of soil" }, "correctAnswer": "C", "explanation": "The atmosphere is the layer of gases (air) that surrounds Earth.", "standard": "SC.6.E.7.9", "difficulty": "easy" },
-      { "id": "6-1-q2", "section": "science", "question": "What gas in the upper atmosphere blocks harmful ultraviolet rays?", "choices": { "A": "Oxygen", "B": "Ozone", "C": "Nitrogen", "D": "Carbon" }, "correctAnswer": "B", "explanation": "Ozone in the upper atmosphere blocks harmful UV rays from the Sun.", "standard": "SC.6.E.7.9", "difficulty": "easy" },
-      { "id": "6-1-q3", "section": "science", "question": "Humidity is the amount of", "choices": { "A": "dust in the air", "B": "water vapor in the air", "C": "ozone in the air", "D": "wind in the air" }, "correctAnswer": "B", "explanation": "Humidity measures the amount of water vapor in the air.", "standard": "SC.6.E.7.9", "difficulty": "easy" },
-      { "id": "6-1-q4", "section": "science", "question": "Liquid water turning into water vapor that rises into the air is called", "choices": { "A": "condensation", "B": "evaporation", "C": "precipitation", "D": "freezing" }, "correctAnswer": "B", "explanation": "Evaporation is liquid water turning into water vapor that rises into the air.", "standard": "SC.6.E.7.9", "difficulty": "easy" },
-      { "id": "6-1-q5", "section": "science", "question": "Clouds form when water vapor in the air", "choices": { "A": "evaporates", "B": "cools and condenses into tiny droplets", "C": "freezes into rock", "D": "turns into oxygen" }, "correctAnswer": "B", "explanation": "Clouds form when water vapor cools and condenses into tiny droplets.", "standard": "SC.6.E.7.9", "difficulty": "medium" },
-      { "id": "6-1-q6", "section": "science", "question": "Why is the ozone layer important to living things?", "choices": { "A": "It provides drinking water", "B": "It blocks harmful ultraviolet rays from the Sun", "C": "It creates earthquakes", "D": "It makes the soil" }, "correctAnswer": "B", "explanation": "Ozone protects living things by blocking harmful UV rays from the Sun.", "standard": "SC.6.E.7.9", "difficulty": "medium" },
-      { "id": "6-1-q7", "section": "science", "question": "Dew forms on grass in the early morning when water vapor", "choices": { "A": "evaporates from the grass", "B": "condenses on the cool grass", "C": "freezes into ice rock", "D": "turns into ozone" }, "correctAnswer": "B", "explanation": "In the cool morning, water vapor condenses into liquid droplets on the cool grass, forming dew.", "standard": "SC.6.E.7.9", "difficulty": "medium" },
-      { "id": "6-1-q8", "section": "science", "question": "A day with very high humidity feels sticky because", "choices": { "A": "there is little water vapor in the air", "B": "there is a lot of water vapor in the air", "C": "the air has no oxygen", "D": "the ozone layer is gone" }, "correctAnswer": "B", "explanation": "High humidity means a lot of water vapor in the air, which makes the air feel sticky.", "standard": "SC.6.E.7.9", "difficulty": "medium" },
-      { "id": "6-1-q9", "section": "science", "question": "Which statement about the atmosphere is TRUE?", "choices": { "A": "It is a single, unlayered sheet of gas", "B": "It is layered, and its ozone blocks harmful UV rays", "C": "It is made entirely of water", "D": "It has no effect on living things" }, "correctAnswer": "B", "explanation": "The atmosphere is layered, and the ozone in it blocks harmful ultraviolet rays.", "standard": "SC.6.E.7.9", "difficulty": "hard" },
-      { "id": "6-1-q10", "section": "science", "question": "Fog is most like which of these?", "choices": { "A": "Dry dust blowing in the wind", "B": "Liquid water freezing into rock", "C": "Ozone forming in the upper atmosphere", "D": "A cloud that forms near the ground when water vapor condenses" }, "correctAnswer": "D", "explanation": "Fog is essentially a cloud at ground level, formed when water vapor condenses into tiny droplets near the surface.", "standard": "SC.6.E.7.9", "difficulty": "hard" }
+      {
+        "id": "6-1-q1",
+        "section": "science",
+        "question": "The atmosphere is best described as",
+        "choices": {
+          "A": "the solid rock of Earth",
+          "B": "all the liquid water on Earth",
+          "C": "the blanket of gases surrounding Earth",
+          "D": "the layer of soil"
+        },
+        "correctAnswer": "C",
+        "explanation": "The atmosphere is the layer of gases (air) that surrounds Earth.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q2",
+        "section": "science",
+        "question": "What gas in the upper atmosphere blocks harmful ultraviolet rays?",
+        "choices": {
+          "A": "Oxygen",
+          "B": "Ozone",
+          "C": "Nitrogen",
+          "D": "Carbon"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ozone in the upper atmosphere blocks harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q3",
+        "section": "science",
+        "question": "Humidity is the amount of",
+        "choices": {
+          "A": "dust in the air",
+          "B": "water vapor in the air",
+          "C": "ozone in the air",
+          "D": "wind in the air"
+        },
+        "correctAnswer": "B",
+        "explanation": "Humidity measures the amount of water vapor in the air.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q4",
+        "section": "science",
+        "question": "Liquid water turning into water vapor that rises into the air is called",
+        "choices": {
+          "A": "condensation",
+          "B": "evaporation",
+          "C": "precipitation",
+          "D": "freezing"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evaporation is liquid water turning into water vapor that rises into the air.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q5",
+        "section": "science",
+        "question": "Clouds form when water vapor in the air",
+        "choices": {
+          "A": "evaporates",
+          "B": "cools and condenses into tiny droplets",
+          "C": "freezes into rock",
+          "D": "turns into oxygen"
+        },
+        "correctAnswer": "B",
+        "explanation": "Clouds form when water vapor cools and condenses into tiny droplets.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q6",
+        "section": "science",
+        "question": "Why is the ozone layer important to living things?",
+        "choices": {
+          "A": "It provides drinking water",
+          "B": "It blocks harmful ultraviolet rays from the Sun",
+          "C": "It creates earthquakes",
+          "D": "It makes the soil"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ozone protects living things by blocking harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q7",
+        "section": "science",
+        "question": "Dew forms on grass in the early morning when water vapor",
+        "choices": {
+          "A": "evaporates from the grass",
+          "B": "condenses on the cool grass",
+          "C": "freezes into ice rock",
+          "D": "turns into ozone"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the cool morning, water vapor condenses into liquid droplets on the cool grass, forming dew.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q8",
+        "section": "science",
+        "question": "A day with very high humidity feels sticky because",
+        "choices": {
+          "A": "there is little water vapor in the air",
+          "B": "there is a lot of water vapor in the air",
+          "C": "the air has no oxygen",
+          "D": "the ozone layer is gone"
+        },
+        "correctAnswer": "B",
+        "explanation": "High humidity means a lot of water vapor in the air, which makes the air feel sticky.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q9",
+        "section": "science",
+        "question": "Which statement about the atmosphere is TRUE?",
+        "choices": {
+          "A": "It is a single, unlayered sheet of gas",
+          "B": "It is layered, and its ozone blocks harmful UV rays",
+          "C": "It is made entirely of water",
+          "D": "It has no effect on living things"
+        },
+        "correctAnswer": "B",
+        "explanation": "The atmosphere is layered, and the ozone in it blocks harmful ultraviolet rays.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q10",
+        "section": "science",
+        "question": "Fog is most like which of these?",
+        "choices": {
+          "A": "Dry dust blowing in the wind",
+          "B": "Liquid water freezing into rock",
+          "C": "Ozone forming in the upper atmosphere",
+          "D": "A cloud that forms near the ground when water vapor condenses"
+        },
+        "correctAnswer": "D",
+        "explanation": "Fog is essentially a cloud at ground level, formed when water vapor condenses into tiny droplets near the surface.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q11",
+        "section": "science",
+        "question": "The atmosphere gives living things which gas they need to breathe?",
+        "choices": {
+          "A": "Air, including oxygen",
+          "B": "Liquid rock",
+          "C": "Solid soil",
+          "D": "Ocean salt"
+        },
+        "correctAnswer": "A",
+        "explanation": "The atmosphere gives us air to breathe, which contains the oxygen living things need.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q12",
+        "section": "science",
+        "question": "Which word means tiny droplets of water vapor that have cooled and gathered together?",
+        "choices": {
+          "A": "Erosion",
+          "B": "Condensation",
+          "C": "Evaporation",
+          "D": "Friction"
+        },
+        "correctAnswer": "B",
+        "explanation": "Condensation is when water vapor cools and turns into tiny droplets.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q13",
+        "section": "science",
+        "question": "The ozone that protects us from UV rays is found in the",
+        "choices": {
+          "A": "deep ocean",
+          "B": "soil underground",
+          "C": "upper atmosphere",
+          "D": "center of the Earth"
+        },
+        "correctAnswer": "C",
+        "explanation": "Ozone in the upper atmosphere blocks harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q14",
+        "section": "science",
+        "question": "A puddle slowly disappears on a sunny day. This is an example of",
+        "choices": {
+          "A": "condensation",
+          "B": "humidity",
+          "C": "ozone",
+          "D": "evaporation"
+        },
+        "correctAnswer": "D",
+        "explanation": "The puddle disappears because liquid water turns into water vapor and rises, which is evaporation.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q15",
+        "section": "science",
+        "question": "Which describes the atmosphere correctly?",
+        "choices": {
+          "A": "It is made of layers",
+          "B": "It is one flat layer with no structure",
+          "C": "It is only found over the oceans",
+          "D": "It is made of solid rock"
+        },
+        "correctAnswer": "A",
+        "explanation": "The atmosphere is layered.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q16",
+        "section": "science",
+        "question": "Water vapor is best described as",
+        "choices": {
+          "A": "frozen ice on the ground",
+          "B": "invisible water in the form of a gas",
+          "C": "liquid rain in a cloud",
+          "D": "salty ocean water"
+        },
+        "correctAnswer": "B",
+        "explanation": "Water vapor is water in an invisible gas form in the air.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q17",
+        "section": "science",
+        "question": "Cool water droplets forming on the outside of a cold glass of lemonade are most like",
+        "choices": {
+          "A": "evaporation of the lemonade",
+          "B": "ozone forming",
+          "C": "condensation of water vapor from the air",
+          "D": "soil eroding"
+        },
+        "correctAnswer": "C",
+        "explanation": "Water vapor in the air condenses on the cold glass, forming droplets, just like dew on grass.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q18",
+        "section": "science",
+        "question": "Which is NOT a result of water vapor condensing in the air?",
+        "choices": {
+          "A": "Clouds",
+          "B": "Fog",
+          "C": "Dew",
+          "D": "Earthquakes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Clouds, fog, and dew all form from condensation, but earthquakes are not caused by water vapor condensing.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q19",
+        "section": "science",
+        "question": "Compared with a desert, a tropical rainforest usually has",
+        "choices": {
+          "A": "higher humidity",
+          "B": "lower humidity",
+          "C": "no water vapor at all",
+          "D": "more ozone in its soil"
+        },
+        "correctAnswer": "A",
+        "explanation": "A rainforest has more water vapor in the air, so it has higher humidity than a dry desert.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q20",
+        "section": "science",
+        "question": "Without the ozone layer, what would most likely happen to living things on Earth?",
+        "choices": {
+          "A": "They would be safer from the Sun",
+          "B": "Nothing would change",
+          "C": "They would get more harmful UV rays from the Sun",
+          "D": "The oceans would freeze"
+        },
+        "correctAnswer": "C",
+        "explanation": "Ozone blocks UV rays, so without it more harmful ultraviolet rays would reach living things.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q21",
+        "section": "science",
+        "question": "A weather report says humidity is very low today. This means the air has",
+        "choices": {
+          "A": "a lot of water vapor",
+          "B": "extra ozone",
+          "C": "no oxygen",
+          "D": "little water vapor"
+        },
+        "correctAnswer": "D",
+        "explanation": "Low humidity means there is little water vapor in the air.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q22",
+        "section": "science",
+        "question": "Which pair correctly matches a process with what it does to water?",
+        "choices": {
+          "A": "Evaporation turns liquid water into water vapor",
+          "B": "Condensation turns liquid into invisible gas",
+          "C": "Evaporation turns water vapor into liquid",
+          "D": "Condensation makes water disappear into the air"
+        },
+        "correctAnswer": "A",
+        "explanation": "Evaporation turns liquid water into water vapor.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q23",
+        "section": "science",
+        "question": "On a cold morning, why does dew form on grass but not on a warm sidewalk in full sun?",
+        "choices": {
+          "A": "The sidewalk blocks ozone",
+          "B": "The grass makes its own water",
+          "C": "The grass is cool enough for water vapor to condense on it",
+          "D": "The grass evaporates faster"
+        },
+        "correctAnswer": "C",
+        "explanation": "Water vapor condenses on cool surfaces; the cool grass lets dew form while the warm sidewalk does not.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q24",
+        "section": "science",
+        "question": "Which best explains why we can breathe?",
+        "choices": {
+          "A": "The soil releases water",
+          "B": "The ozone falls to the ground",
+          "C": "The ocean makes oxygen rock",
+          "D": "The atmosphere provides air to breathe"
+        },
+        "correctAnswer": "D",
+        "explanation": "The atmosphere gives us the air we breathe.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q25",
+        "section": "science",
+        "question": "Which is the BEST example of condensation?",
+        "choices": {
+          "A": "Water vapor cooling to form a cloud",
+          "B": "A puddle drying up in the Sun",
+          "C": "Wind blowing dust around",
+          "D": "Soil washing down a hill"
+        },
+        "correctAnswer": "A",
+        "explanation": "Condensation is water vapor cooling and forming droplets, such as when a cloud forms.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q26",
+        "section": "science",
+        "question": "How are evaporation and condensation different?",
+        "choices": {
+          "A": "Both turn liquid into rock",
+          "B": "They are exactly the same process",
+          "C": "Evaporation turns liquid to vapor; condensation turns vapor to liquid",
+          "D": "Evaporation only happens at night"
+        },
+        "correctAnswer": "C",
+        "explanation": "Evaporation changes liquid water into vapor, while condensation changes vapor back into liquid droplets.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q27",
+        "section": "science",
+        "question": "Which statement about UV rays is correct?",
+        "choices": {
+          "A": "UV rays are helpful and the ozone increases them",
+          "B": "Humidity blocks all UV rays",
+          "C": "UV rays come from the soil",
+          "D": "Ozone in the upper atmosphere blocks harmful UV rays"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ozone in the upper atmosphere blocks harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q28",
+        "section": "science",
+        "question": "Two glasses of water sit out. One is in a warm sunny window, one is in a cool dark closet. Which loses water to evaporation faster?",
+        "choices": {
+          "A": "The one in the warm sunny window",
+          "B": "The one in the cool dark closet",
+          "C": "Both lose water at the same speed",
+          "D": "Neither loses any water"
+        },
+        "correctAnswer": "A",
+        "explanation": "Heat speeds up evaporation, so the warm sunny glass loses water to the air faster.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q29",
+        "section": "science",
+        "question": "A student says, 'Clouds, fog, and dew are all caused by the same basic process.' Is the student correct, and why?",
+        "choices": {
+          "A": "Yes, but only because of earthquakes",
+          "B": "No, they have nothing in common",
+          "C": "Yes, all three form when water vapor condenses into droplets",
+          "D": "No, dew is made of ozone"
+        },
+        "correctAnswer": "C",
+        "explanation": "Clouds, fog, and dew all form from condensation, when water vapor cools into tiny liquid droplets.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q30",
+        "section": "science",
+        "question": "Which is NOT a true statement about the atmosphere?",
+        "choices": {
+          "A": "It surrounds Earth as a blanket of gases",
+          "B": "It is layered",
+          "C": "Its ozone blocks harmful UV rays",
+          "D": "It is made of solid rock with no gases"
+        },
+        "correctAnswer": "D",
+        "explanation": "The atmosphere is a layered blanket of gases, not solid rock.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q31",
+        "section": "science",
+        "question": "Which everyday choice helps protect skin from harmful UV rays the atmosphere does not fully block?",
+        "choices": {
+          "A": "Wearing sunscreen and a hat",
+          "B": "Staring at the Sun",
+          "C": "Drinking more water vapor",
+          "D": "Removing the ozone layer"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sunscreen and a hat help block harmful UV rays that reach the ground.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q32",
+        "section": "science",
+        "question": "A scientist measures the air and finds a high amount of water vapor. This measurement describes the air's",
+        "choices": {
+          "A": "ozone level",
+          "B": "temperature only",
+          "C": "humidity",
+          "D": "soil content"
+        },
+        "correctAnswer": "C",
+        "explanation": "The amount of water vapor in the air is its humidity.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q33",
+        "section": "science",
+        "question": "Which sequence shows water moving from a lake into a cloud?",
+        "choices": {
+          "A": "Condensation, then evaporation",
+          "B": "Erosion, then deposition",
+          "C": "Freezing, then melting",
+          "D": "Evaporation, then condensation"
+        },
+        "correctAnswer": "D",
+        "explanation": "Lake water evaporates into vapor, then the vapor condenses to form a cloud.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q34",
+        "section": "science",
+        "question": "Which of these is an invisible part of the air?",
+        "choices": {
+          "A": "Water vapor",
+          "B": "A patch of fog",
+          "C": "A rain cloud",
+          "D": "A drop of dew"
+        },
+        "correctAnswer": "A",
+        "explanation": "Water vapor is the invisible gas form of water in the air; clouds, fog, and dew are visible droplets.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q35",
+        "section": "science",
+        "question": "Why does a cold soda can 'sweat' on a hot, humid day?",
+        "choices": {
+          "A": "The can leaks soda through the metal",
+          "B": "The can creates new water",
+          "C": "Water vapor in the humid air condenses on the cold can",
+          "D": "The ozone layer drips onto it"
+        },
+        "correctAnswer": "C",
+        "explanation": "Water vapor in the humid air condenses into droplets on the cold can.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q36",
+        "section": "science",
+        "question": "Which best compares humidity in two places?",
+        "choices": {
+          "A": "Only deserts have water vapor",
+          "B": "A dry desert usually has higher humidity than a swamp",
+          "C": "Humidity is the same everywhere on Earth",
+          "D": "A swamp usually has higher humidity than a dry desert"
+        },
+        "correctAnswer": "D",
+        "explanation": "A swamp has more water vapor in the air, so its humidity is higher than a dry desert's.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q37",
+        "section": "science",
+        "question": "What is the main job of the ozone layer?",
+        "choices": {
+          "A": "To block harmful ultraviolet rays from the Sun",
+          "B": "To make rain",
+          "C": "To cool the oceans",
+          "D": "To create soil"
+        },
+        "correctAnswer": "A",
+        "explanation": "The ozone layer blocks harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q38",
+        "section": "science",
+        "question": "Water vapor rising from the ocean and later forming droplets in the sky shows that water can",
+        "choices": {
+          "A": "only stay as a solid",
+          "B": "never move into the air",
+          "C": "change between liquid and gas forms",
+          "D": "turn into ozone"
+        },
+        "correctAnswer": "C",
+        "explanation": "Water moves into the air as vapor (gas) by evaporation and returns to liquid by condensation, showing it changes form.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q39",
+        "section": "science",
+        "question": "Which of the following is the correct cause and effect?",
+        "choices": {
+          "A": "Humidity causes earthquakes",
+          "B": "Air cooling causes droplets to turn into ozone",
+          "C": "Air warming causes condensation",
+          "D": "Air cooling causes water vapor to condense into droplets"
+        },
+        "correctAnswer": "D",
+        "explanation": "When air cools, water vapor condenses into tiny droplets.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q40",
+        "section": "science",
+        "question": "Which list correctly names parts of how water and gases behave in the atmosphere?",
+        "choices": {
+          "A": "Evaporation, condensation, humidity, ozone",
+          "B": "Earthquakes, volcanoes, lava, magma",
+          "C": "Friction, gravity, magnetism, mass",
+          "D": "Photosynthesis, digestion, respiration, growth"
+        },
+        "correctAnswer": "A",
+        "explanation": "Evaporation, condensation, humidity, and ozone all describe water and gases in the atmosphere.",
+        "standard": "SC.6.E.7.9",
+        "difficulty": "medium"
+      }
     ]
   },
   "6-2": {
     "title": "The Water Cycle and Weather Patterns",
     "standard": "SC.6.E.7.2",
-    "learn": "KEY IDEAS\n\nThe water cycle is how water is constantly recycled between the ground, oceans, and sky. Driven by the Sun's heat, it has these main steps:\n- Evaporation: the Sun's heat turns liquid water into invisible water vapor that rises.\n- Condensation: high in the sky the vapor cools and condenses into tiny droplets, forming clouds.\n- Precipitation: when the droplets get heavy enough, they fall as rain, snow, sleet, or hail.\n- Collection (runoff): the water collects in oceans, lakes, and rivers, and the cycle starts again.\n\nExample 1 — Order of the cycle\nEvaporation → condensation → precipitation → collection, then it repeats.\n\nExample 2 — The Sun's role\nThe Sun's heat powers the water cycle by causing evaporation.\n\nExample 3 — Forms of precipitation\nRain, snow, sleet, and hail are all forms of precipitation — water falling from clouds."
-,
+    "learn": "KEY IDEAS\n\nThe water cycle is how water is constantly recycled between the ground, oceans, and sky. Driven by the Sun's heat, it has these main steps:\n- Evaporation: the Sun's heat turns liquid water into invisible water vapor that rises.\n- Condensation: high in the sky the vapor cools and condenses into tiny droplets, forming clouds.\n- Precipitation: when the droplets get heavy enough, they fall as rain, snow, sleet, or hail.\n- Collection (runoff): the water collects in oceans, lakes, and rivers, and the cycle starts again.\n\nExample 1 — Order of the cycle\nEvaporation → condensation → precipitation → collection, then it repeats.\n\nExample 2 — The Sun's role\nThe Sun's heat powers the water cycle by causing evaporation.\n\nExample 3 — Forms of precipitation\nRain, snow, sleet, and hail are all forms of precipitation — water falling from clouds.",
     "questions": [
-      { "id": "6-2-q1", "section": "science", "question": "What is the main source of energy that drives the water cycle?", "choices": { "A": "The Sun", "B": "The Moon", "C": "Earthquakes", "D": "Ocean tides" }, "correctAnswer": "A", "explanation": "The Sun's heat powers the water cycle, mainly by causing evaporation.", "standard": "SC.6.E.7.2", "difficulty": "easy" },
-      { "id": "6-2-q2", "section": "science", "question": "In the water cycle, water vapor cooling and forming clouds is called", "choices": { "A": "evaporation", "B": "condensation", "C": "precipitation", "D": "collection" }, "correctAnswer": "B", "explanation": "Condensation is when water vapor cools and turns into droplets that form clouds.", "standard": "SC.6.E.7.2", "difficulty": "easy" },
-      { "id": "6-2-q3", "section": "science", "question": "Rain, snow, and hail are all forms of", "choices": { "A": "evaporation", "B": "condensation", "C": "precipitation", "D": "humidity" }, "correctAnswer": "C", "explanation": "Precipitation is water falling from clouds as rain, snow, sleet, or hail.", "standard": "SC.6.E.7.2", "difficulty": "easy" },
-      { "id": "6-2-q4", "section": "science", "question": "What is the correct order of the main water cycle steps?", "choices": { "A": "Precipitation, condensation, evaporation", "B": "Evaporation, condensation, precipitation", "C": "Condensation, precipitation, evaporation", "D": "Precipitation, evaporation, condensation" }, "correctAnswer": "B", "explanation": "Water evaporates, then condenses into clouds, then falls as precipitation, then collects and repeats.", "standard": "SC.6.E.7.2", "difficulty": "medium" },
-      { "id": "6-2-q5", "section": "science", "question": "When liquid water from a lake turns into water vapor and rises, this step is", "choices": { "A": "condensation", "B": "evaporation", "C": "precipitation", "D": "freezing" }, "correctAnswer": "B", "explanation": "Liquid water turning into water vapor and rising is evaporation.", "standard": "SC.6.E.7.2", "difficulty": "easy" },
-      { "id": "6-2-q6", "section": "science", "question": "Precipitation happens when cloud droplets", "choices": { "A": "evaporate into vapor", "B": "become heavy enough to fall", "C": "turn into ozone", "D": "rise higher into the sky" }, "correctAnswer": "B", "explanation": "When cloud droplets grow heavy enough, gravity pulls them down as precipitation.", "standard": "SC.6.E.7.2", "difficulty": "medium" },
-      { "id": "6-2-q7", "section": "science", "question": "After rain falls, the water collects in oceans, lakes, and rivers. What happens next in the cycle?", "choices": { "A": "The cycle stops permanently", "B": "The water can evaporate again, repeating the cycle", "C": "The water turns into rock", "D": "The water disappears forever" }, "correctAnswer": "B", "explanation": "The collected water can evaporate again, so the water cycle repeats continuously.", "standard": "SC.6.E.7.2", "difficulty": "medium" },
-      { "id": "6-2-q8", "section": "science", "question": "Why is the water cycle described as a cycle rather than a one-way path?", "choices": { "A": "Because water is destroyed each time", "B": "Because the same water is recycled and the steps repeat over and over", "C": "Because new water is made from rock", "D": "Because it only happens once a year" }, "correctAnswer": "B", "explanation": "The water cycle is a cycle because the same water is recycled and the steps repeat continuously.", "standard": "SC.6.E.7.2", "difficulty": "hard" },
-      { "id": "6-2-q9", "section": "science", "question": "Which best explains how the Sun connects to clouds forming?", "choices": { "A": "The Sun freezes water into clouds", "B": "The Sun blocks evaporation", "C": "The Sun has nothing to do with clouds", "D": "The Sun causes evaporation, and the rising vapor later condenses into clouds" }, "correctAnswer": "D", "explanation": "The Sun causes evaporation; the rising water vapor cools and condenses to form clouds.", "standard": "SC.6.E.7.2", "difficulty": "hard" },
-      { "id": "6-2-q10", "section": "science", "question": "Snow on a mountain melts and flows into a river. This is part of the water cycle step called", "choices": { "A": "evaporation", "B": "condensation", "C": "collection (runoff)", "D": "the ozone layer" }, "correctAnswer": "C", "explanation": "Melted snow flowing into a river is part of collection (runoff), where water gathers and returns to bodies of water.", "standard": "SC.6.E.7.2", "difficulty": "medium" }
+      {
+        "id": "6-2-q1",
+        "section": "science",
+        "question": "What is the main source of energy that drives the water cycle?",
+        "choices": {
+          "A": "The Sun",
+          "B": "The Moon",
+          "C": "Earthquakes",
+          "D": "Ocean tides"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Sun's heat powers the water cycle, mainly by causing evaporation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q2",
+        "section": "science",
+        "question": "In the water cycle, water vapor cooling and forming clouds is called",
+        "choices": {
+          "A": "evaporation",
+          "B": "condensation",
+          "C": "precipitation",
+          "D": "collection"
+        },
+        "correctAnswer": "B",
+        "explanation": "Condensation is when water vapor cools and turns into droplets that form clouds.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q3",
+        "section": "science",
+        "question": "Rain, snow, and hail are all forms of",
+        "choices": {
+          "A": "evaporation",
+          "B": "condensation",
+          "C": "precipitation",
+          "D": "humidity"
+        },
+        "correctAnswer": "C",
+        "explanation": "Precipitation is water falling from clouds as rain, snow, sleet, or hail.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q4",
+        "section": "science",
+        "question": "What is the correct order of the main water cycle steps?",
+        "choices": {
+          "A": "Precipitation, condensation, evaporation",
+          "B": "Evaporation, condensation, precipitation",
+          "C": "Condensation, precipitation, evaporation",
+          "D": "Precipitation, evaporation, condensation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Water evaporates, then condenses into clouds, then falls as precipitation, then collects and repeats.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q5",
+        "section": "science",
+        "question": "When liquid water from a lake turns into water vapor and rises, this step is",
+        "choices": {
+          "A": "condensation",
+          "B": "evaporation",
+          "C": "precipitation",
+          "D": "freezing"
+        },
+        "correctAnswer": "B",
+        "explanation": "Liquid water turning into water vapor and rising is evaporation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q6",
+        "section": "science",
+        "question": "Precipitation happens when cloud droplets",
+        "choices": {
+          "A": "evaporate into vapor",
+          "B": "become heavy enough to fall",
+          "C": "turn into ozone",
+          "D": "rise higher into the sky"
+        },
+        "correctAnswer": "B",
+        "explanation": "When cloud droplets grow heavy enough, gravity pulls them down as precipitation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q7",
+        "section": "science",
+        "question": "After rain falls, the water collects in oceans, lakes, and rivers. What happens next in the cycle?",
+        "choices": {
+          "A": "The cycle stops permanently",
+          "B": "The water can evaporate again, repeating the cycle",
+          "C": "The water turns into rock",
+          "D": "The water disappears forever"
+        },
+        "correctAnswer": "B",
+        "explanation": "The collected water can evaporate again, so the water cycle repeats continuously.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q8",
+        "section": "science",
+        "question": "Why is the water cycle described as a cycle rather than a one-way path?",
+        "choices": {
+          "A": "Because water is destroyed each time",
+          "B": "Because the same water is recycled and the steps repeat over and over",
+          "C": "Because new water is made from rock",
+          "D": "Because it only happens once a year"
+        },
+        "correctAnswer": "B",
+        "explanation": "The water cycle is a cycle because the same water is recycled and the steps repeat continuously.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q9",
+        "section": "science",
+        "question": "Which best explains how the Sun connects to clouds forming?",
+        "choices": {
+          "A": "The Sun freezes water into clouds",
+          "B": "The Sun blocks evaporation",
+          "C": "The Sun has nothing to do with clouds",
+          "D": "The Sun causes evaporation, and the rising vapor later condenses into clouds"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Sun causes evaporation; the rising water vapor cools and condenses to form clouds.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q10",
+        "section": "science",
+        "question": "Snow on a mountain melts and flows into a river. This is part of the water cycle step called",
+        "choices": {
+          "A": "evaporation",
+          "B": "condensation",
+          "C": "collection (runoff)",
+          "D": "the ozone layer"
+        },
+        "correctAnswer": "C",
+        "explanation": "Melted snow flowing into a river is part of collection (runoff), where water gathers and returns to bodies of water.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q11",
+        "section": "science",
+        "question": "The water cycle moves water between the ground, oceans, and the",
+        "choices": {
+          "A": "sky",
+          "B": "center of the Earth",
+          "C": "Moon",
+          "D": "Sun"
+        },
+        "correctAnswer": "A",
+        "explanation": "The water cycle recycles water between the ground, oceans, and the sky.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q12",
+        "section": "science",
+        "question": "Which step comes right after condensation in the water cycle?",
+        "choices": {
+          "A": "Evaporation",
+          "B": "Precipitation",
+          "C": "Nothing, condensation is last",
+          "D": "The Sun stops shining"
+        },
+        "correctAnswer": "B",
+        "explanation": "After water vapor condenses into clouds, the droplets fall as precipitation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q13",
+        "section": "science",
+        "question": "Which is NOT a form of precipitation?",
+        "choices": {
+          "A": "Rain",
+          "B": "Snow",
+          "C": "Water vapor",
+          "D": "Hail"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rain, snow, and hail fall from clouds as precipitation, but water vapor is an invisible gas, not precipitation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q14",
+        "section": "science",
+        "question": "What happens during the collection (runoff) step?",
+        "choices": {
+          "A": "Water evaporates into vapor",
+          "B": "Vapor condenses",
+          "C": "Clouds form in the sky",
+          "D": "Water gathers in oceans, lakes, and rivers"
+        },
+        "correctAnswer": "D",
+        "explanation": "During collection, water gathers in oceans, lakes, and rivers before the cycle repeats.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q15",
+        "section": "science",
+        "question": "Without the Sun's heat, the water cycle would mostly",
+        "choices": {
+          "A": "slow down or stop because evaporation needs heat",
+          "B": "speed up",
+          "C": "stay exactly the same",
+          "D": "make more clouds"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Sun's heat drives evaporation, so without it the water cycle would slow down or stop.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q16",
+        "section": "science",
+        "question": "Steam rising from a hot pot of water is most like which water cycle step?",
+        "choices": {
+          "A": "Precipitation",
+          "B": "Evaporation",
+          "C": "Collection",
+          "D": "Runoff"
+        },
+        "correctAnswer": "B",
+        "explanation": "Liquid water turning into rising vapor, like steam, is evaporation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q17",
+        "section": "science",
+        "question": "Which pair correctly matches a step with its description?",
+        "choices": {
+          "A": "Precipitation: vapor rising from the ocean",
+          "B": "Evaporation: rain falling to the ground",
+          "C": "Condensation: water vapor cooling into cloud droplets",
+          "D": "Collection: clouds forming in the sky"
+        },
+        "correctAnswer": "C",
+        "explanation": "Condensation is when water vapor cools and forms cloud droplets.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q18",
+        "section": "science",
+        "question": "Rain falls, soaks into a river, and later evaporates again. This shows that water in the cycle is",
+        "choices": {
+          "A": "used up and gone",
+          "B": "turned into rock",
+          "C": "made new each time",
+          "D": "recycled and reused over and over"
+        },
+        "correctAnswer": "D",
+        "explanation": "The same water is recycled and reused as the cycle repeats.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q19",
+        "section": "science",
+        "question": "Which event happens FIRST when sunlight warms a lake on a summer day?",
+        "choices": {
+          "A": "Lake water evaporates into vapor",
+          "B": "Rain falls into the lake",
+          "C": "Clouds drop hail",
+          "D": "A river floods"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Sun's heat first causes the lake water to evaporate into water vapor.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q20",
+        "section": "science",
+        "question": "On a freezing winter day, precipitation is most likely to fall as",
+        "choices": {
+          "A": "warm rain only",
+          "B": "snow",
+          "C": "water vapor",
+          "D": "evaporation"
+        },
+        "correctAnswer": "B",
+        "explanation": "When the air is freezing, precipitation often falls as snow.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q21",
+        "section": "science",
+        "question": "How are evaporation and condensation opposite steps?",
+        "choices": {
+          "A": "Both only happen at night",
+          "B": "Both turn vapor into rock",
+          "C": "Evaporation turns liquid to vapor; condensation turns vapor to liquid",
+          "D": "Evaporation makes rain; condensation dries puddles"
+        },
+        "correctAnswer": "C",
+        "explanation": "Evaporation changes liquid water to vapor, while condensation changes vapor back into liquid droplets.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q22",
+        "section": "science",
+        "question": "Which best shows the water cycle repeating?",
+        "choices": {
+          "A": "Condensation, then water vanishes",
+          "B": "Evaporation, then the cycle ends",
+          "C": "Precipitation only, forever",
+          "D": "Evaporation, condensation, precipitation, collection, then evaporation again"
+        },
+        "correctAnswer": "D",
+        "explanation": "The cycle repeats: water evaporates, condenses, falls as precipitation, collects, then evaporates again.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q23",
+        "section": "science",
+        "question": "A puddle dries up after a storm. Which step of the water cycle does this show?",
+        "choices": {
+          "A": "Evaporation",
+          "B": "Precipitation",
+          "C": "Condensation",
+          "D": "Collection"
+        },
+        "correctAnswer": "A",
+        "explanation": "The puddle's liquid water turns into vapor and rises, which is evaporation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q24",
+        "section": "science",
+        "question": "Which statement about the water cycle is TRUE?",
+        "choices": {
+          "A": "It happens only one time",
+          "B": "It is powered by the Sun and repeats continuously",
+          "C": "It destroys water each time",
+          "D": "It needs no energy at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "The water cycle is powered by the Sun and repeats continuously.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q25",
+        "section": "science",
+        "question": "Sleet and hail are grouped with rain and snow because they are all",
+        "choices": {
+          "A": "types of evaporation",
+          "B": "kinds of water vapor",
+          "C": "forms of precipitation falling from clouds",
+          "D": "ways water collects in rivers"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rain, snow, sleet, and hail are all forms of precipitation that fall from clouds.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q26",
+        "section": "science",
+        "question": "Clouds form high in the sky because that is where water vapor",
+        "choices": {
+          "A": "turns into rock",
+          "B": "evaporates the fastest",
+          "C": "collects in rivers",
+          "D": "cools enough to condense into droplets"
+        },
+        "correctAnswer": "D",
+        "explanation": "High in the sky, water vapor cools and condenses into tiny droplets, forming clouds.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q27",
+        "section": "science",
+        "question": "Which choice lists the water cycle steps in the WRONG order?",
+        "choices": {
+          "A": "Precipitation, condensation, evaporation, collection",
+          "B": "Evaporation, condensation, precipitation, collection",
+          "C": "Evaporation, condensation, precipitation, collection, then repeat",
+          "D": "Water rises, cools into clouds, then falls as rain"
+        },
+        "correctAnswer": "A",
+        "explanation": "The correct order is evaporation, condensation, precipitation, then collection; starting with precipitation before evaporation is out of order.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q28",
+        "section": "science",
+        "question": "Why can the same drop of water fall as rain many different times over the years?",
+        "choices": {
+          "A": "Because new water is made each storm",
+          "B": "Because rain is made of rock",
+          "C": "Because water is recycled through the never-ending water cycle",
+          "D": "Because the Moon refills the oceans"
+        },
+        "correctAnswer": "C",
+        "explanation": "Water is recycled through the continuous water cycle, so the same water can fall as rain again and again.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q29",
+        "section": "science",
+        "question": "Which is the BEST example of collection (runoff)?",
+        "choices": {
+          "A": "Steam rising off a road",
+          "B": "A puddle drying up",
+          "C": "A cloud forming",
+          "D": "Rainwater flowing downhill into a stream"
+        },
+        "correctAnswer": "D",
+        "explanation": "Rainwater flowing downhill into a stream is collection (runoff), where water gathers in bodies of water.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q30",
+        "section": "science",
+        "question": "A meteorologist says heavy clouds are forming. Which step came just before this?",
+        "choices": {
+          "A": "Condensation of water vapor",
+          "B": "Collection",
+          "C": "Precipitation",
+          "D": "Runoff into a river"
+        },
+        "correctAnswer": "A",
+        "explanation": "Clouds form when water vapor condenses, so condensation comes just before the clouds appear.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q31",
+        "section": "science",
+        "question": "Which describes the Sun's role in the water cycle?",
+        "choices": {
+          "A": "It cools the oceans",
+          "B": "It blocks rain",
+          "C": "It provides the heat energy that drives evaporation",
+          "D": "It freezes clouds"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Sun provides the heat energy that drives evaporation and powers the cycle.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q32",
+        "section": "science",
+        "question": "Which two steps both involve water changing form between liquid and gas?",
+        "choices": {
+          "A": "Precipitation and runoff",
+          "B": "Precipitation and collection",
+          "C": "Collection and runoff",
+          "D": "Evaporation and condensation"
+        },
+        "correctAnswer": "D",
+        "explanation": "Evaporation changes liquid to gas and condensation changes gas back to liquid, so both involve changing form between liquid and gas.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q33",
+        "section": "science",
+        "question": "Ocean water becomes water vapor in the air. The salt is left behind because",
+        "choices": {
+          "A": "only the water evaporates, leaving the salt behind",
+          "B": "salt also evaporates easily",
+          "C": "the Sun destroys the salt",
+          "D": "salt turns into clouds"
+        },
+        "correctAnswer": "A",
+        "explanation": "During evaporation, only the water turns to vapor and rises, leaving the salt behind.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q34",
+        "section": "science",
+        "question": "Which everyday event is an example of condensation?",
+        "choices": {
+          "A": "A puddle disappearing",
+          "B": "Wind blowing leaves",
+          "C": "Fog forming on a cool window",
+          "D": "A river flowing downhill"
+        },
+        "correctAnswer": "C",
+        "explanation": "Fog forming on a cool window is condensation, when water vapor cools into liquid droplets.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q35",
+        "section": "science",
+        "question": "The water cycle helps explain why rivers keep flowing even between rainstorms. This is because",
+        "choices": {
+          "A": "rivers make their own new water",
+          "B": "evaporation stops the flow",
+          "C": "the Moon adds water nightly",
+          "D": "collected water keeps moving and is refilled as the cycle repeats"
+        },
+        "correctAnswer": "D",
+        "explanation": "Collected water keeps moving through rivers and is refilled as the water cycle repeats.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q36",
+        "section": "science",
+        "question": "Which is the FIRST step that puts water into the air?",
+        "choices": {
+          "A": "Evaporation",
+          "B": "Collection",
+          "C": "Precipitation",
+          "D": "Runoff"
+        },
+        "correctAnswer": "A",
+        "explanation": "Evaporation puts water into the air by turning liquid water into vapor that rises.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q37",
+        "section": "science",
+        "question": "A weather map shows rain moving across a state. The rain reaching the ground is the cycle step called",
+        "choices": {
+          "A": "evaporation",
+          "B": "condensation",
+          "C": "precipitation",
+          "D": "collection"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rain reaching the ground is precipitation, water falling from clouds.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q38",
+        "section": "science",
+        "question": "Which statement correctly compares the steps of the water cycle?",
+        "choices": {
+          "A": "Collection turns liquid water into gas",
+          "B": "Both evaporation and precipitation remove water from the air",
+          "C": "Precipitation makes vapor rise into the sky",
+          "D": "Evaporation adds water to the air, while precipitation returns water to the ground"
+        },
+        "correctAnswer": "D",
+        "explanation": "Evaporation moves water up into the air as vapor, while precipitation returns water to the ground.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q39",
+        "section": "science",
+        "question": "Which is the BEST description of the water cycle as a whole?",
+        "choices": {
+          "A": "A continuous, Sun-powered recycling of Earth's water",
+          "B": "A one-time event that ends after rain",
+          "C": "A process that destroys old water and makes new water",
+          "D": "A way the Moon moves the tides"
+        },
+        "correctAnswer": "A",
+        "explanation": "The water cycle is a continuous, Sun-powered process that recycles Earth's water.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q40",
+        "section": "science",
+        "question": "Cloud droplets keep joining together and growing larger. What will most likely happen next?",
+        "choices": {
+          "A": "They will evaporate instantly",
+          "B": "They will sink into the ground as vapor",
+          "C": "They will turn into ozone",
+          "D": "They will become heavy enough to fall as precipitation"
+        },
+        "correctAnswer": "D",
+        "explanation": "When droplets grow heavy enough, they fall from the cloud as precipitation.",
+        "standard": "SC.6.E.7.2",
+        "difficulty": "medium"
+      }
     ]
   },
   "6-3": {
     "title": "Air Masses, Fronts, and Predicting Weather",
     "standard": "SC.6.E.7.3",
-    "learn": "KEY IDEAS\n\nAn air mass is a giant body of air with similar temperature and moisture. Air masses can be warm or cold, wet or dry.\n\nA front is the boundary where two different air masses meet. Fronts often bring clouds, storms, and changing weather.\n\nGlobal patterns steer weather:\n- The jet stream is a fast river of high-altitude wind that pushes weather systems along.\n- Ocean currents also help move heat and steer weather.\n\nMeteorologists (weather scientists) measure temperature, air pressure, wind, and humidity to PREDICT the weather.\n\nExample 1 — Front brings storms\nWhen a cold air mass meets a warm air mass, a front forms, often producing clouds and storms.\n\nExample 2 — Tools of prediction\nTo forecast weather, meteorologists track temperature, air pressure, wind speed and direction, and humidity.\n\nExample 3 — The jet stream\nThe jet stream is a fast, high-altitude wind that steers storm systems across regions, helping forecasters predict where weather will go."
-,
+    "learn": "KEY IDEAS\n\nAn air mass is a giant body of air with similar temperature and moisture. Air masses can be warm or cold, wet or dry.\n\nA front is the boundary where two different air masses meet. Fronts often bring clouds, storms, and changing weather.\n\nGlobal patterns steer weather:\n- The jet stream is a fast river of high-altitude wind that pushes weather systems along.\n- Ocean currents also help move heat and steer weather.\n\nMeteorologists (weather scientists) measure temperature, air pressure, wind, and humidity to PREDICT the weather.\n\nExample 1 — Front brings storms\nWhen a cold air mass meets a warm air mass, a front forms, often producing clouds and storms.\n\nExample 2 — Tools of prediction\nTo forecast weather, meteorologists track temperature, air pressure, wind speed and direction, and humidity.\n\nExample 3 — The jet stream\nThe jet stream is a fast, high-altitude wind that steers storm systems across regions, helping forecasters predict where weather will go.",
     "questions": [
-      { "id": "6-3-q1", "section": "science", "question": "A giant body of air with similar temperature and moisture is called a", "choices": { "A": "front", "B": "air mass", "C": "jet stream", "D": "cloud" }, "correctAnswer": "B", "explanation": "An air mass is a large body of air with similar temperature and moisture throughout.", "standard": "SC.6.E.7.3", "difficulty": "easy" },
-      { "id": "6-3-q2", "section": "science", "question": "The boundary where two different air masses meet is a", "choices": { "A": "front", "B": "current", "C": "core", "D": "crust" }, "correctAnswer": "A", "explanation": "A front is the boundary where two air masses meet, often bringing changing weather.", "standard": "SC.6.E.7.3", "difficulty": "easy" },
-      { "id": "6-3-q3", "section": "science", "question": "A fast river of high-altitude wind that steers weather systems is the", "choices": { "A": "ozone layer", "B": "jet stream", "C": "water cycle", "D": "humidity" }, "correctAnswer": "B", "explanation": "The jet stream is a fast, high-altitude wind that pushes weather systems along.", "standard": "SC.6.E.7.3", "difficulty": "easy" },
-      { "id": "6-3-q4", "section": "science", "question": "Scientists who study and predict the weather are called", "choices": { "A": "geologists", "B": "meteorologists", "C": "biologists", "D": "astronomers" }, "correctAnswer": "B", "explanation": "Meteorologists study weather and make forecasts.", "standard": "SC.6.E.7.3", "difficulty": "easy" },
-      { "id": "6-3-q5", "section": "science", "question": "Which is NOT a weather factor meteorologists track to predict weather?", "choices": { "A": "Temperature", "B": "Air pressure", "C": "Humidity", "D": "The number of rocks in the soil" }, "correctAnswer": "D", "explanation": "Meteorologists track temperature, air pressure, wind, and humidity, not the number of rocks in the soil.", "standard": "SC.6.E.7.3", "difficulty": "medium" },
-      { "id": "6-3-q6", "section": "science", "question": "Fronts are important for weather because they often", "choices": { "A": "stop all weather changes", "B": "bring clouds, storms, and changing weather", "C": "create earthquakes", "D": "block the Sun permanently" }, "correctAnswer": "B", "explanation": "Where air masses meet at a front, clouds, storms, and changing weather often form.", "standard": "SC.6.E.7.3", "difficulty": "medium" },
-      { "id": "6-3-q7", "section": "science", "question": "A cold, dry air mass and a warm, wet air mass collide. What is MOST likely to happen at their boundary?", "choices": { "A": "Calm, clear skies", "B": "A front forms and storms or clouds develop", "C": "An earthquake", "D": "The air masses combine instantly with no change" }, "correctAnswer": "B", "explanation": "When two different air masses meet, a front forms and often brings clouds and storms.", "standard": "SC.6.E.7.3", "difficulty": "medium" },
-      { "id": "6-3-q8", "section": "science", "question": "How does the jet stream help meteorologists predict the weather?", "choices": { "A": "It shows where minerals are", "B": "It steers storm systems, so forecasters can tell where weather is heading", "C": "It measures the temperature of the core", "D": "It creates ocean tides" }, "correctAnswer": "B", "explanation": "Because the jet stream steers storm systems, tracking it helps forecasters predict where weather will move.", "standard": "SC.6.E.7.3", "difficulty": "hard" },
-      { "id": "6-3-q9", "section": "science", "question": "Besides the jet stream, what else helps move heat and steer weather around the planet?", "choices": { "A": "Ocean currents", "B": "The inner core", "C": "Soil layers", "D": "Mountains only" }, "correctAnswer": "A", "explanation": "Ocean currents help move heat around the planet and steer weather systems.", "standard": "SC.6.E.7.3", "difficulty": "hard" },
-      { "id": "6-3-q10", "section": "science", "question": "A meteorologist notices air pressure dropping quickly. This often signals", "choices": { "A": "clear, calm weather for weeks", "B": "an approaching storm or change in weather", "C": "a coming earthquake", "D": "the ozone layer disappearing" }, "correctAnswer": "B", "explanation": "A rapid drop in air pressure often signals an approaching storm or weather change.", "standard": "SC.6.E.7.3", "difficulty": "medium" }
+      {
+        "id": "6-3-q1",
+        "section": "science",
+        "question": "A giant body of air with similar temperature and moisture is called a",
+        "choices": {
+          "A": "front",
+          "B": "air mass",
+          "C": "jet stream",
+          "D": "cloud"
+        },
+        "correctAnswer": "B",
+        "explanation": "An air mass is a large body of air with similar temperature and moisture throughout.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q2",
+        "section": "science",
+        "question": "The boundary where two different air masses meet is a",
+        "choices": {
+          "A": "front",
+          "B": "current",
+          "C": "core",
+          "D": "crust"
+        },
+        "correctAnswer": "A",
+        "explanation": "A front is the boundary where two air masses meet, often bringing changing weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q3",
+        "section": "science",
+        "question": "A fast river of high-altitude wind that steers weather systems is the",
+        "choices": {
+          "A": "ozone layer",
+          "B": "jet stream",
+          "C": "water cycle",
+          "D": "humidity"
+        },
+        "correctAnswer": "B",
+        "explanation": "The jet stream is a fast, high-altitude wind that pushes weather systems along.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q4",
+        "section": "science",
+        "question": "Scientists who study and predict the weather are called",
+        "choices": {
+          "A": "geologists",
+          "B": "meteorologists",
+          "C": "biologists",
+          "D": "astronomers"
+        },
+        "correctAnswer": "B",
+        "explanation": "Meteorologists study weather and make forecasts.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q5",
+        "section": "science",
+        "question": "Which is NOT a weather factor meteorologists track to predict weather?",
+        "choices": {
+          "A": "Temperature",
+          "B": "Air pressure",
+          "C": "Humidity",
+          "D": "The number of rocks in the soil"
+        },
+        "correctAnswer": "D",
+        "explanation": "Meteorologists track temperature, air pressure, wind, and humidity, not the number of rocks in the soil.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q6",
+        "section": "science",
+        "question": "Fronts are important for weather because they often",
+        "choices": {
+          "A": "stop all weather changes",
+          "B": "bring clouds, storms, and changing weather",
+          "C": "create earthquakes",
+          "D": "block the Sun permanently"
+        },
+        "correctAnswer": "B",
+        "explanation": "Where air masses meet at a front, clouds, storms, and changing weather often form.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q7",
+        "section": "science",
+        "question": "A cold, dry air mass and a warm, wet air mass collide. What is MOST likely to happen at their boundary?",
+        "choices": {
+          "A": "Calm, clear skies",
+          "B": "A front forms and storms or clouds develop",
+          "C": "An earthquake",
+          "D": "The air masses combine instantly with no change"
+        },
+        "correctAnswer": "B",
+        "explanation": "When two different air masses meet, a front forms and often brings clouds and storms.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q8",
+        "section": "science",
+        "question": "How does the jet stream help meteorologists predict the weather?",
+        "choices": {
+          "A": "It shows where minerals are",
+          "B": "It steers storm systems, so forecasters can tell where weather is heading",
+          "C": "It measures the temperature of the core",
+          "D": "It creates ocean tides"
+        },
+        "correctAnswer": "B",
+        "explanation": "Because the jet stream steers storm systems, tracking it helps forecasters predict where weather will move.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q9",
+        "section": "science",
+        "question": "Besides the jet stream, what else helps move heat and steer weather around the planet?",
+        "choices": {
+          "A": "Ocean currents",
+          "B": "The inner core",
+          "C": "Soil layers",
+          "D": "Mountains only"
+        },
+        "correctAnswer": "A",
+        "explanation": "Ocean currents help move heat around the planet and steer weather systems.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q10",
+        "section": "science",
+        "question": "A meteorologist notices air pressure dropping quickly. This often signals",
+        "choices": {
+          "A": "clear, calm weather for weeks",
+          "B": "an approaching storm or change in weather",
+          "C": "a coming earthquake",
+          "D": "the ozone layer disappearing"
+        },
+        "correctAnswer": "B",
+        "explanation": "A rapid drop in air pressure often signals an approaching storm or weather change.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q11",
+        "section": "science",
+        "question": "Air masses can be described by their temperature and their",
+        "choices": {
+          "A": "moisture",
+          "B": "color",
+          "C": "weight in rocks",
+          "D": "loudness"
+        },
+        "correctAnswer": "A",
+        "explanation": "An air mass has similar temperature and moisture throughout.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q12",
+        "section": "science",
+        "question": "Which is a tool or measurement a meteorologist uses to forecast weather?",
+        "choices": {
+          "A": "The number of cars on a road",
+          "B": "Wind speed and direction",
+          "C": "The color of the soil",
+          "D": "The age of nearby trees"
+        },
+        "correctAnswer": "B",
+        "explanation": "Meteorologists measure wind speed and direction, along with temperature, pressure, and humidity.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q13",
+        "section": "science",
+        "question": "Where is the jet stream found?",
+        "choices": {
+          "A": "Deep underground",
+          "B": "At the bottom of the ocean",
+          "C": "High in the atmosphere",
+          "D": "Inside Earth's core"
+        },
+        "correctAnswer": "C",
+        "explanation": "The jet stream is a fast wind found high in the atmosphere.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q14",
+        "section": "science",
+        "question": "Two air masses with very different temperatures meet. The boundary between them is called a",
+        "choices": {
+          "A": "current",
+          "B": "tide",
+          "C": "layer",
+          "D": "front"
+        },
+        "correctAnswer": "D",
+        "explanation": "A front is the boundary where two different air masses meet.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q15",
+        "section": "science",
+        "question": "How is an air mass different from a front?",
+        "choices": {
+          "A": "An air mass is a body of air; a front is the boundary where two air masses meet",
+          "B": "They are exactly the same thing",
+          "C": "An air mass is a boundary; a front is a body of air",
+          "D": "Both are types of ocean currents"
+        },
+        "correctAnswer": "A",
+        "explanation": "An air mass is a large body of air, while a front is the boundary where two air masses meet.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q16",
+        "section": "science",
+        "question": "A forecaster tracks the jet stream moving a storm eastward. This helps the forecaster",
+        "choices": {
+          "A": "stop the storm",
+          "B": "predict which areas the storm will reach next",
+          "C": "measure the soil",
+          "D": "create rain on purpose"
+        },
+        "correctAnswer": "B",
+        "explanation": "Tracking the jet stream lets forecasters predict where a storm will move next.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q17",
+        "section": "science",
+        "question": "Which best explains why fronts often bring changing weather?",
+        "choices": {
+          "A": "Fronts are made of solid rock",
+          "B": "The Sun stops shining at a front",
+          "C": "Two different air masses meet, causing clouds and storms to form",
+          "D": "Fronts block all wind"
+        },
+        "correctAnswer": "C",
+        "explanation": "At a front, two different air masses meet, which often causes clouds, storms, and changing weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q18",
+        "section": "science",
+        "question": "Which set of measurements would a meteorologist MOST likely use to predict tomorrow's weather?",
+        "choices": {
+          "A": "Street names and house numbers",
+          "B": "Soil color, rock count, tree height",
+          "C": "Number of stars, Moon size",
+          "D": "Temperature, air pressure, wind, and humidity"
+        },
+        "correctAnswer": "D",
+        "explanation": "Meteorologists track temperature, air pressure, wind, and humidity to forecast weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q19",
+        "section": "science",
+        "question": "An air mass that forms over a warm, tropical ocean would most likely be",
+        "choices": {
+          "A": "warm and moist",
+          "B": "cold and dry",
+          "C": "made of ice",
+          "D": "the same as desert air"
+        },
+        "correctAnswer": "A",
+        "explanation": "An air mass takes on the conditions where it forms, so over a warm ocean it would be warm and moist.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q20",
+        "section": "science",
+        "question": "Why do both the jet stream and ocean currents matter to weather?",
+        "choices": {
+          "A": "They both create earthquakes",
+          "B": "They both help move heat and steer weather systems",
+          "C": "They both block sunlight",
+          "D": "Neither one affects weather"
+        },
+        "correctAnswer": "B",
+        "explanation": "The jet stream and ocean currents both help move heat and steer weather around the planet.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q21",
+        "section": "science",
+        "question": "A weather scientist who measures humidity and air pressure each day is working as a",
+        "choices": {
+          "A": "chemist",
+          "B": "geologist",
+          "C": "meteorologist",
+          "D": "astronomer"
+        },
+        "correctAnswer": "C",
+        "explanation": "A meteorologist measures weather factors like humidity and air pressure to predict the weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q22",
+        "section": "science",
+        "question": "Which statement about the jet stream is TRUE?",
+        "choices": {
+          "A": "It is a slow, low ocean current",
+          "B": "It is a kind of cloud",
+          "C": "It is a layer of soil",
+          "D": "It is a fast, high-altitude wind that steers weather systems"
+        },
+        "correctAnswer": "D",
+        "explanation": "The jet stream is a fast, high-altitude wind that pushes weather systems along.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q23",
+        "section": "science",
+        "question": "A forecaster predicts rain because a front is moving into the area. What does the front being there suggest?",
+        "choices": {
+          "A": "Two air masses are meeting, which often brings storms",
+          "B": "The Sun is about to disappear",
+          "C": "An earthquake is starting",
+          "D": "The ground is sinking"
+        },
+        "correctAnswer": "A",
+        "explanation": "A front means two air masses are meeting, which often brings clouds and storms.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q24",
+        "section": "science",
+        "question": "Which is NOT something the jet stream does?",
+        "choices": {
+          "A": "Steers storm systems",
+          "B": "Moves weather along quickly",
+          "C": "Causes earthquakes deep in the crust",
+          "D": "Helps forecasters predict where weather is heading"
+        },
+        "correctAnswer": "C",
+        "explanation": "The jet stream steers and moves weather and helps forecasting, but it does not cause earthquakes.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q25",
+        "section": "science",
+        "question": "A cold air mass pushes into a region where a warm air mass sits. What kind of weather should people expect at the boundary?",
+        "choices": {
+          "A": "Long-lasting calm and clear skies",
+          "B": "No change at all",
+          "C": "A sudden volcanic eruption",
+          "D": "Clouds, storms, or changing weather as a front forms"
+        },
+        "correctAnswer": "D",
+        "explanation": "Where the air masses meet, a front forms and often brings clouds, storms, and changing weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q26",
+        "section": "science",
+        "question": "Why can meteorologists predict weather a few days ahead instead of guessing?",
+        "choices": {
+          "A": "They use measurements and patterns like fronts and the jet stream",
+          "B": "They control the weather",
+          "C": "They only look at the calendar",
+          "D": "Weather never changes"
+        },
+        "correctAnswer": "A",
+        "explanation": "Meteorologists use measurements and patterns such as fronts and the jet stream to predict weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q27",
+        "section": "science",
+        "question": "Which is the BEST example of an air mass?",
+        "choices": {
+          "A": "A river of water on the ground",
+          "B": "A single small cloud",
+          "C": "A large region of air that is cold and dry over Canada",
+          "D": "One gust of wind"
+        },
+        "correctAnswer": "C",
+        "explanation": "An air mass is a large body of air with similar temperature and moisture, like a cold, dry region of air.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q28",
+        "section": "science",
+        "question": "Two students describe weather tools. Who is correct?",
+        "choices": {
+          "A": "Dana: 'Meteorologists study only the Moon.'",
+          "B": "Leo: 'Meteorologists only count rocks in the soil.'",
+          "C": "Sam: 'Meteorologists measure how tall buildings are.'",
+          "D": "Maria: 'Meteorologists track temperature, pressure, wind, and humidity.'"
+        },
+        "correctAnswer": "D",
+        "explanation": "Meteorologists track temperature, air pressure, wind, and humidity to predict weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q29",
+        "section": "science",
+        "question": "How do ocean currents affect weather?",
+        "choices": {
+          "A": "They help move heat around the planet and steer weather",
+          "B": "They block the jet stream completely",
+          "C": "They have no effect on weather",
+          "D": "They only matter underground"
+        },
+        "correctAnswer": "A",
+        "explanation": "Ocean currents help move heat around the planet and steer weather systems.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q30",
+        "section": "science",
+        "question": "Rising air pressure and clearing skies most likely mean",
+        "choices": {
+          "A": "a strong storm is about to hit",
+          "B": "an earthquake is near",
+          "C": "fair, calmer weather may be coming",
+          "D": "the ozone layer is gone"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rising air pressure and clearing skies often signal fairer, calmer weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q31",
+        "section": "science",
+        "question": "A 'wet' air mass and a 'dry' air mass differ mainly in their",
+        "choices": {
+          "A": "loudness",
+          "B": "color",
+          "C": "weight in pounds of rock",
+          "D": "amount of moisture"
+        },
+        "correctAnswer": "D",
+        "explanation": "Air masses can be wet or dry depending on the amount of moisture they carry.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q32",
+        "section": "science",
+        "question": "Which job description best fits a meteorologist?",
+        "choices": {
+          "A": "Measures weather factors and predicts the weather",
+          "B": "Studies rocks and minerals underground",
+          "C": "Studies stars far in space",
+          "D": "Builds bridges and roads"
+        },
+        "correctAnswer": "A",
+        "explanation": "A meteorologist measures weather factors and predicts the weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q33",
+        "section": "science",
+        "question": "Which correctly pairs a weather term with its meaning?",
+        "choices": {
+          "A": "Jet stream: a slow ocean wave",
+          "B": "Front: a deep layer of soil",
+          "C": "Air mass: a large body of air with similar temperature and moisture",
+          "D": "Humidity: the number of rocks in the air"
+        },
+        "correctAnswer": "C",
+        "explanation": "An air mass is a large body of air with similar temperature and moisture.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q34",
+        "section": "science",
+        "question": "The jet stream shifts and now flows over a city that was warm. What might the forecaster predict?",
+        "choices": {
+          "A": "Nothing will ever change",
+          "B": "The city will have an earthquake",
+          "C": "The Sun will stop rising",
+          "D": "A change in the weather as new air and storms are steered in"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because the jet stream steers weather, a shift can bring new air and storms, changing the weather.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q35",
+        "section": "science",
+        "question": "Why is it useful to know that a front is approaching?",
+        "choices": {
+          "A": "It warns that clouds, storms, or changing weather may come",
+          "B": "It tells you the soil is dry",
+          "C": "It predicts the next earthquake",
+          "D": "It shows where minerals are"
+        },
+        "correctAnswer": "A",
+        "explanation": "An approaching front warns that clouds, storms, or changing weather may be coming.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q36",
+        "section": "science",
+        "question": "Which list contains ONLY things that steer or describe weather patterns?",
+        "choices": {
+          "A": "Stars, planets, comets, the Moon",
+          "B": "Rocks, soil, minerals, lava",
+          "C": "Air masses, fronts, the jet stream, ocean currents",
+          "D": "Cars, roads, buildings, bridges"
+        },
+        "correctAnswer": "C",
+        "explanation": "Air masses, fronts, the jet stream, and ocean currents all describe or steer weather patterns.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q37",
+        "section": "science",
+        "question": "A meteorologist measures rising humidity, falling pressure, and an incoming front. The BEST forecast is",
+        "choices": {
+          "A": "weeks of dry, sunny weather",
+          "B": "no change in weather",
+          "C": "a coming earthquake",
+          "D": "a likely storm or rain coming soon"
+        },
+        "correctAnswer": "D",
+        "explanation": "Rising humidity, falling pressure, and an incoming front together point to a likely storm or rain.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q38",
+        "section": "science",
+        "question": "Which statement about predicting weather is TRUE?",
+        "choices": {
+          "A": "Weather cannot be predicted at all",
+          "B": "Forecasters always know the weather a year ahead exactly",
+          "C": "Forecasters use many measurements and patterns, but weather can still change",
+          "D": "Forecasters only guess randomly"
+        },
+        "correctAnswer": "C",
+        "explanation": "Forecasters use many measurements and patterns to predict weather, though it can still change.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q39",
+        "section": "science",
+        "question": "Which is the boundary, and which is the body of air?",
+        "choices": {
+          "A": "Both are boundaries",
+          "B": "The air mass is the boundary; the front is the body of air",
+          "C": "Both are bodies of air",
+          "D": "The front is the boundary; the air mass is the body of air"
+        },
+        "correctAnswer": "D",
+        "explanation": "The front is the boundary where two air masses meet, and the air mass is the body of air.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q40",
+        "section": "science",
+        "question": "A storm in one state moves toward another state along the jet stream. This shows that weather",
+        "choices": {
+          "A": "stays in one place forever",
+          "B": "is caused by earthquakes",
+          "C": "can be steered and moved by patterns like the jet stream",
+          "D": "never affects nearby states"
+        },
+        "correctAnswer": "C",
+        "explanation": "The storm moving along the jet stream shows weather can be steered and moved by such patterns.",
+        "standard": "SC.6.E.7.3",
+        "difficulty": "easy"
+      }
     ]
   },
   "6-4": {
     "title": "Severe Weather and Staying Safe in Florida",
     "standard": "SC.6.E.7.7",
-    "learn": "KEY IDEAS\n\nFlorida faces hazardous weather, including hurricanes, lightning, flooding, and intense sun. These natural disasters can damage homes and threaten lives, so people prepare.\n\nStaying safe in severe weather:\n- Track storms and listen to warnings.\n- Evacuate when told to leave.\n- Board up windows and secure loose objects.\n- Keep emergency supplies (water, food, flashlight, batteries).\n\nEveryday sun safety: use sunscreen, hats, and shade to block harmful ultraviolet (UV) rays.\n\nExample 1 — Hurricane prep\nBefore a hurricane, Floridians board up windows, gather emergency supplies, and evacuate if officials say to.\n\nExample 2 — Lightning safety\nDuring a thunderstorm, the safest place is indoors, away from windows and water.\n\nExample 3 — Sun safety\nTo protect skin from harmful UV rays, wear sunscreen, a hat, and stay in the shade during the strongest midday sun."
-,
+    "learn": "KEY IDEAS\n\nFlorida faces hazardous weather, including hurricanes, lightning, flooding, and intense sun. These natural disasters can damage homes and threaten lives, so people prepare.\n\nStaying safe in severe weather:\n- Track storms and listen to warnings.\n- Evacuate when told to leave.\n- Board up windows and secure loose objects.\n- Keep emergency supplies (water, food, flashlight, batteries).\n\nEveryday sun safety: use sunscreen, hats, and shade to block harmful ultraviolet (UV) rays.\n\nExample 1 — Hurricane prep\nBefore a hurricane, Floridians board up windows, gather emergency supplies, and evacuate if officials say to.\n\nExample 2 — Lightning safety\nDuring a thunderstorm, the safest place is indoors, away from windows and water.\n\nExample 3 — Sun safety\nTo protect skin from harmful UV rays, wear sunscreen, a hat, and stay in the shade during the strongest midday sun.",
     "questions": [
-      { "id": "6-4-q1", "section": "science", "question": "Which is a type of severe weather common in Florida?", "choices": { "A": "Blizzards every winter", "B": "Sandstorms in the desert", "C": "Hurricanes", "D": "Volcanic ash storms" }, "correctAnswer": "C", "explanation": "Hurricanes are a common and dangerous type of severe weather in Florida.", "standard": "SC.6.E.7.7", "difficulty": "easy" },
-      { "id": "6-4-q2", "section": "science", "question": "Which is a good way to prepare for a hurricane?", "choices": { "A": "Open all the windows", "B": "Keep emergency supplies like water and a flashlight", "C": "Stand outside to watch the storm", "D": "Ignore official warnings" }, "correctAnswer": "B", "explanation": "Keeping emergency supplies, such as water, food, and a flashlight, is a key way to prepare for a hurricane.", "standard": "SC.6.E.7.7", "difficulty": "easy" },
-      { "id": "6-4-q3", "section": "science", "question": "To protect your skin from harmful ultraviolet rays, you should", "choices": { "A": "wear sunscreen and a hat", "B": "stand in the sun longer", "C": "skip the shade", "D": "go out only at midday" }, "correctAnswer": "A", "explanation": "Sunscreen, hats, and shade help block harmful UV rays from the Sun.", "standard": "SC.6.E.7.7", "difficulty": "easy" },
-      { "id": "6-4-q4", "section": "science", "question": "When officials tell people to evacuate before a hurricane, the safest action is to", "choices": { "A": "stay home and ignore them", "B": "leave the area as instructed", "C": "go to the beach", "D": "wait until the storm hits" }, "correctAnswer": "B", "explanation": "Evacuating when told keeps people safe from the worst of the storm.", "standard": "SC.6.E.7.7", "difficulty": "medium" },
-      { "id": "6-4-q5", "section": "science", "question": "Boarding up windows before a hurricane helps protect a home from", "choices": { "A": "the Sun's UV rays", "B": "earthquakes", "C": "soil erosion", "D": "flying debris and strong winds" }, "correctAnswer": "D", "explanation": "Boarding up windows protects against flying debris and strong winds during a hurricane.", "standard": "SC.6.E.7.7", "difficulty": "medium" },
-      { "id": "6-4-q6", "section": "science", "question": "During a thunderstorm with lightning, the safest place to be is", "choices": { "A": "under a tall tree", "B": "indoors, away from windows and water", "C": "in an open field", "D": "in a swimming pool" }, "correctAnswer": "B", "explanation": "During lightning, the safest place is indoors, away from windows and water.", "standard": "SC.6.E.7.7", "difficulty": "medium" },
-      { "id": "6-4-q7", "section": "science", "question": "Why do Floridians track storms closely?", "choices": { "A": "To know when to prepare, evacuate, or take shelter", "B": "Because storms never reach Florida", "C": "To make the storms stronger", "D": "To change the weather" }, "correctAnswer": "A", "explanation": "Tracking storms lets people know when to prepare, evacuate, or take shelter to stay safe.", "standard": "SC.6.E.7.7", "difficulty": "medium" },
-      { "id": "6-4-q8", "section": "science", "question": "Heavy rain from a tropical storm can cause which hazard in low-lying areas of Florida?", "choices": { "A": "Flooding", "B": "Snowstorms", "C": "Volcanic eruptions", "D": "Earthquakes" }, "correctAnswer": "A", "explanation": "Heavy rain can cause flooding, a common hazard in low-lying parts of Florida.", "standard": "SC.6.E.7.7", "difficulty": "hard" },
-      { "id": "6-4-q9", "section": "science", "question": "Which choice BEST shows good preparation for hurricane season?", "choices": { "A": "Waiting until the storm arrives to buy supplies", "B": "Making an emergency kit and a family safety plan ahead of time", "C": "Leaving outdoor furniture loose in the yard", "D": "Ignoring weather forecasts" }, "correctAnswer": "B", "explanation": "Preparing an emergency kit and family plan ahead of time is the best way to be ready for hurricane season.", "standard": "SC.6.E.7.7", "difficulty": "hard" },
-      { "id": "6-4-q10", "section": "science", "question": "The strongest, most harmful UV rays from the Sun usually occur", "choices": { "A": "at night", "B": "around the middle of the day", "C": "only in winter", "D": "only during rain" }, "correctAnswer": "B", "explanation": "UV rays are strongest around midday, so that is when sun safety is most important.", "standard": "SC.6.E.7.7", "difficulty": "medium" }
+      {
+        "id": "6-4-q1",
+        "section": "science",
+        "question": "Which is a type of severe weather common in Florida?",
+        "choices": {
+          "A": "Blizzards every winter",
+          "B": "Sandstorms in the desert",
+          "C": "Hurricanes",
+          "D": "Volcanic ash storms"
+        },
+        "correctAnswer": "C",
+        "explanation": "Hurricanes are a common and dangerous type of severe weather in Florida.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q2",
+        "section": "science",
+        "question": "Which is a good way to prepare for a hurricane?",
+        "choices": {
+          "A": "Open all the windows",
+          "B": "Keep emergency supplies like water and a flashlight",
+          "C": "Stand outside to watch the storm",
+          "D": "Ignore official warnings"
+        },
+        "correctAnswer": "B",
+        "explanation": "Keeping emergency supplies, such as water, food, and a flashlight, is a key way to prepare for a hurricane.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q3",
+        "section": "science",
+        "question": "To protect your skin from harmful ultraviolet rays, you should",
+        "choices": {
+          "A": "wear sunscreen and a hat",
+          "B": "stand in the sun longer",
+          "C": "skip the shade",
+          "D": "go out only at midday"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sunscreen, hats, and shade help block harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q4",
+        "section": "science",
+        "question": "When officials tell people to evacuate before a hurricane, the safest action is to",
+        "choices": {
+          "A": "stay home and ignore them",
+          "B": "leave the area as instructed",
+          "C": "go to the beach",
+          "D": "wait until the storm hits"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evacuating when told keeps people safe from the worst of the storm.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q5",
+        "section": "science",
+        "question": "Boarding up windows before a hurricane helps protect a home from",
+        "choices": {
+          "A": "the Sun's UV rays",
+          "B": "earthquakes",
+          "C": "soil erosion",
+          "D": "flying debris and strong winds"
+        },
+        "correctAnswer": "D",
+        "explanation": "Boarding up windows protects against flying debris and strong winds during a hurricane.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q6",
+        "section": "science",
+        "question": "During a thunderstorm with lightning, the safest place to be is",
+        "choices": {
+          "A": "under a tall tree",
+          "B": "indoors, away from windows and water",
+          "C": "in an open field",
+          "D": "in a swimming pool"
+        },
+        "correctAnswer": "B",
+        "explanation": "During lightning, the safest place is indoors, away from windows and water.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q7",
+        "section": "science",
+        "question": "Why do Floridians track storms closely?",
+        "choices": {
+          "A": "To know when to prepare, evacuate, or take shelter",
+          "B": "Because storms never reach Florida",
+          "C": "To make the storms stronger",
+          "D": "To change the weather"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tracking storms lets people know when to prepare, evacuate, or take shelter to stay safe.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q8",
+        "section": "science",
+        "question": "Heavy rain from a tropical storm can cause which hazard in low-lying areas of Florida?",
+        "choices": {
+          "A": "Flooding",
+          "B": "Snowstorms",
+          "C": "Volcanic eruptions",
+          "D": "Earthquakes"
+        },
+        "correctAnswer": "A",
+        "explanation": "Heavy rain can cause flooding, a common hazard in low-lying parts of Florida.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q9",
+        "section": "science",
+        "question": "Which choice BEST shows good preparation for hurricane season?",
+        "choices": {
+          "A": "Waiting until the storm arrives to buy supplies",
+          "B": "Making an emergency kit and a family safety plan ahead of time",
+          "C": "Leaving outdoor furniture loose in the yard",
+          "D": "Ignoring weather forecasts"
+        },
+        "correctAnswer": "B",
+        "explanation": "Preparing an emergency kit and family plan ahead of time is the best way to be ready for hurricane season.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q10",
+        "section": "science",
+        "question": "The strongest, most harmful UV rays from the Sun usually occur",
+        "choices": {
+          "A": "at night",
+          "B": "around the middle of the day",
+          "C": "only in winter",
+          "D": "only during rain"
+        },
+        "correctAnswer": "B",
+        "explanation": "UV rays are strongest around midday, so that is when sun safety is most important.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q11",
+        "section": "science",
+        "question": "Which item belongs in a hurricane emergency supply kit?",
+        "choices": {
+          "A": "A flashlight and batteries",
+          "B": "A bag of ice cream",
+          "C": "A pet rock",
+          "D": "A balloon"
+        },
+        "correctAnswer": "A",
+        "explanation": "Emergency supplies include water, food, a flashlight, and batteries.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q12",
+        "section": "science",
+        "question": "Which weather hazard is caused by too much rain collecting in low areas?",
+        "choices": {
+          "A": "Sunburn",
+          "B": "Flooding",
+          "C": "Drought",
+          "D": "An earthquake"
+        },
+        "correctAnswer": "B",
+        "explanation": "Too much rain collecting in low areas causes flooding.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q13",
+        "section": "science",
+        "question": "Listening to official warnings before a storm helps people",
+        "choices": {
+          "A": "make the storm bigger",
+          "B": "ignore the danger",
+          "C": "know when to prepare or evacuate",
+          "D": "change the weather"
+        },
+        "correctAnswer": "C",
+        "explanation": "Listening to warnings helps people know when to prepare or evacuate to stay safe.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q14",
+        "section": "science",
+        "question": "Wearing a hat outdoors on a sunny Florida day mainly helps protect against",
+        "choices": {
+          "A": "lightning indoors",
+          "B": "earthquakes",
+          "C": "flooding",
+          "D": "harmful UV rays from the Sun"
+        },
+        "correctAnswer": "D",
+        "explanation": "A hat helps block harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q15",
+        "section": "science",
+        "question": "Which action is UNSAFE during a lightning storm?",
+        "choices": {
+          "A": "Standing under a tall tree in an open field",
+          "B": "Staying indoors away from windows",
+          "C": "Waiting for the storm to pass",
+          "D": "Staying away from water"
+        },
+        "correctAnswer": "A",
+        "explanation": "Standing under a tall tree in the open is unsafe; the safest place is indoors away from windows and water.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q16",
+        "section": "science",
+        "question": "Why should people secure loose objects in the yard before a hurricane?",
+        "choices": {
+          "A": "So they get more sunlight",
+          "B": "So strong winds cannot turn them into dangerous flying debris",
+          "C": "So they float away on purpose",
+          "D": "So the soil stays warm"
+        },
+        "correctAnswer": "B",
+        "explanation": "Securing loose objects keeps strong winds from turning them into dangerous flying debris.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q17",
+        "section": "science",
+        "question": "Which is the BEST reason to evacuate when officials say to leave?",
+        "choices": {
+          "A": "To make the storm weaker",
+          "B": "To watch the storm up close",
+          "C": "To avoid the most dangerous parts of the storm",
+          "D": "To go swimming in the rain"
+        },
+        "correctAnswer": "C",
+        "explanation": "Evacuating when told helps people avoid the most dangerous parts of the storm.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q18",
+        "section": "science",
+        "question": "A family keeps water, food, a flashlight, and batteries ready before storm season. This is an example of",
+        "choices": {
+          "A": "ignoring the weather",
+          "B": "sun safety only",
+          "C": "making the storm stronger",
+          "D": "preparing emergency supplies"
+        },
+        "correctAnswer": "D",
+        "explanation": "Keeping water, food, a flashlight, and batteries ready is preparing emergency supplies.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q19",
+        "section": "science",
+        "question": "Which is NOT a way to stay safe in severe weather?",
+        "choices": {
+          "A": "Go outside to drive through deep floodwater",
+          "B": "Evacuate when told to leave",
+          "C": "Keep emergency supplies",
+          "D": "Track storms and listen to warnings"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tracking storms, evacuating, and keeping supplies are safe; driving through deep floodwater is dangerous, not safe.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q20",
+        "section": "science",
+        "question": "Standing in a swimming pool during a lightning storm is dangerous because",
+        "choices": {
+          "A": "the water makes you taller",
+          "B": "lightning can travel through water",
+          "C": "pools attract hurricanes",
+          "D": "the pool blocks UV rays"
+        },
+        "correctAnswer": "B",
+        "explanation": "Water can conduct electricity, so being in a pool during lightning is dangerous; the safest place is indoors away from water.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q21",
+        "section": "science",
+        "question": "Which everyday habit best protects against harmful UV rays?",
+        "choices": {
+          "A": "Wearing a heavy coat in summer",
+          "B": "Staring at the Sun",
+          "C": "Using sunscreen and staying in the shade at midday",
+          "D": "Standing in floodwater"
+        },
+        "correctAnswer": "C",
+        "explanation": "Using sunscreen and shade, especially at midday, protects skin from harmful UV rays.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q22",
+        "section": "science",
+        "question": "Why do hurricanes count as natural disasters?",
+        "choices": {
+          "A": "They are gentle and harmless",
+          "B": "They are made by people",
+          "C": "They only happen indoors",
+          "D": "They can damage homes and threaten lives"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hurricanes count as natural disasters because they can damage homes and threaten lives.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q23",
+        "section": "science",
+        "question": "Which list shows ways to stay safe before and during a hurricane?",
+        "choices": {
+          "A": "Track storms, board up windows, keep supplies, evacuate if told",
+          "B": "Open windows, ignore warnings, stand outside",
+          "C": "Go to the beach, watch the storm, leave objects loose",
+          "D": "Swim in floodwater, climb tall trees"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tracking storms, boarding up windows, keeping supplies, and evacuating when told are all ways to stay safe.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q24",
+        "section": "science",
+        "question": "A weather alert warns of an approaching hurricane. What is the BEST first step for a family?",
+        "choices": {
+          "A": "Ignore it and continue as normal",
+          "B": "Listen to the warning and follow safety instructions",
+          "C": "Throw a beach party",
+          "D": "Take down the storm shutters"
+        },
+        "correctAnswer": "B",
+        "explanation": "Listening to warnings and following safety instructions is the best first step.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q25",
+        "section": "science",
+        "question": "Why is intense sun considered a Florida weather hazard?",
+        "choices": {
+          "A": "It freezes the ground",
+          "B": "It causes earthquakes",
+          "C": "It produces harmful UV rays that can damage skin",
+          "D": "It has no effect on people"
+        },
+        "correctAnswer": "C",
+        "explanation": "Intense sun produces harmful UV rays that can damage skin, so it is a hazard.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q26",
+        "section": "science",
+        "question": "Which choice correctly matches a hazard with a safe response?",
+        "choices": {
+          "A": "Strong sun: stare directly at it",
+          "B": "Hurricane: open all windows wide",
+          "C": "Flooding: drive into the deepest water",
+          "D": "Lightning: go indoors, away from windows and water"
+        },
+        "correctAnswer": "D",
+        "explanation": "During lightning, the safe response is to go indoors, away from windows and water.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q27",
+        "section": "science",
+        "question": "A student says, 'Boarding up windows and securing loose objects do the same basic job.' Is the student correct?",
+        "choices": {
+          "A": "Yes, both reduce damage from strong hurricane winds",
+          "B": "No, they have nothing to do with storms",
+          "C": "Yes, but only on sunny days",
+          "D": "No, both are about UV rays"
+        },
+        "correctAnswer": "A",
+        "explanation": "Both boarding up windows and securing loose objects reduce damage from strong hurricane winds.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q28",
+        "section": "science",
+        "question": "After a hurricane warning, a family checks their kit and finds the flashlight has no working batteries. What should they do?",
+        "choices": {
+          "A": "Throw away the flashlight",
+          "B": "Replace the batteries so the flashlight works during a power outage",
+          "C": "Ignore it; light is not needed",
+          "D": "Use the flashlight as a hammer"
+        },
+        "correctAnswer": "B",
+        "explanation": "A working flashlight and batteries are key emergency supplies for a power outage, so they should be replaced.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q29",
+        "section": "science",
+        "question": "Which statement about staying safe in severe weather is TRUE?",
+        "choices": {
+          "A": "It is safest to ignore official warnings",
+          "B": "Going outside during lightning is safest",
+          "C": "Tracking storms and following warnings helps keep people safe",
+          "D": "Emergency supplies are never needed"
+        },
+        "correctAnswer": "C",
+        "explanation": "Tracking storms and following official warnings helps keep people safe.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q30",
+        "section": "science",
+        "question": "How are sun safety and storm safety alike?",
+        "choices": {
+          "A": "Neither helps keep people safe",
+          "B": "Both require swimming in floodwater",
+          "C": "Both happen only at night",
+          "D": "Both involve taking steps ahead of time to protect against a weather hazard"
+        },
+        "correctAnswer": "D",
+        "explanation": "Both sun safety and storm safety involve taking protective steps ahead of time against a weather hazard.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q31",
+        "section": "science",
+        "question": "Which is the BEST example of sun safety?",
+        "choices": {
+          "A": "Wearing sunscreen, a hat, and staying in the shade at midday",
+          "B": "Standing in the open sun all afternoon with no protection",
+          "C": "Looking straight at the Sun",
+          "D": "Skipping shade on the hottest days"
+        },
+        "correctAnswer": "A",
+        "explanation": "Wearing sunscreen and a hat and using shade at midday is the best example of sun safety.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q32",
+        "section": "science",
+        "question": "Which hazard is most directly linked to heavy rainfall?",
+        "choices": {
+          "A": "Sunburn",
+          "B": "Drought",
+          "C": "Flooding",
+          "D": "Dust storms"
+        },
+        "correctAnswer": "C",
+        "explanation": "Heavy rainfall most directly leads to flooding.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q33",
+        "section": "science",
+        "question": "Why is it important to evacuate early instead of waiting until the storm hits?",
+        "choices": {
+          "A": "There is no reason to leave early",
+          "B": "Storms are more fun to watch from the road",
+          "C": "Early evacuation makes the storm weaker",
+          "D": "Roads may flood or become blocked, making it unsafe to leave later"
+        },
+        "correctAnswer": "D",
+        "explanation": "Leaving early avoids flooded or blocked roads, which can make later evacuation unsafe.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q34",
+        "section": "science",
+        "question": "Which is NOT an example of severe weather in Florida?",
+        "choices": {
+          "A": "Gentle, harmless breezes",
+          "B": "Lightning storms",
+          "C": "Flooding",
+          "D": "Hurricanes"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hurricanes, lightning, and flooding are severe weather, but a gentle breeze is not.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-4-q35",
+        "section": "science",
+        "question": "A family makes a plan for where to meet and what to bring if a hurricane comes. This kind of plan helps them",
+        "choices": {
+          "A": "ignore the warnings",
+          "B": "make the storm last longer",
+          "C": "stay organized and safe during an emergency",
+          "D": "stop the rain"
+        },
+        "correctAnswer": "C",
+        "explanation": "A family safety plan helps people stay organized and safe during an emergency.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q36",
+        "section": "science",
+        "question": "During a lightning storm, which is the SAFEST choice?",
+        "choices": {
+          "A": "Hold a tall metal pole in an open field",
+          "B": "Take a bath",
+          "C": "Stand near a metal fence outside",
+          "D": "Stay indoors and avoid windows and water"
+        },
+        "correctAnswer": "D",
+        "explanation": "Staying indoors away from windows and water is the safest choice during lightning.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q37",
+        "section": "science",
+        "question": "Why might officials close roads and order people to leave before a hurricane?",
+        "choices": {
+          "A": "To stop people from getting sunburned",
+          "B": "To make the hurricane stronger",
+          "C": "To keep people away from dangerous winds, flooding, and debris",
+          "D": "To save electricity only"
+        },
+        "correctAnswer": "C",
+        "explanation": "Officials order evacuations to keep people away from dangerous winds, flooding, and debris.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-4-q38",
+        "section": "science",
+        "question": "Which pair correctly matches a safety action with the hazard it helps with?",
+        "choices": {
+          "A": "Evacuating: drought",
+          "B": "Sunscreen: lightning",
+          "C": "Boarding windows: sunburn",
+          "D": "Sunscreen: harmful UV rays"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sunscreen helps protect against harmful UV rays from the Sun.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q39",
+        "section": "science",
+        "question": "A weather report shows a hurricane approaching the coast. The MOST responsible response is to",
+        "choices": {
+          "A": "go surfing in the big waves",
+          "B": "ignore the report",
+          "C": "follow official guidance, prepare supplies, and evacuate if told",
+          "D": "leave outdoor furniture loose"
+        },
+        "correctAnswer": "C",
+        "explanation": "Following official guidance, preparing supplies, and evacuating if told is the most responsible response.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-4-q40",
+        "section": "science",
+        "question": "Which best explains why Floridians prepare for severe weather?",
+        "choices": {
+          "A": "There is no real danger from storms",
+          "B": "Severe weather never happens in Florida",
+          "C": "Preparing makes storms stronger",
+          "D": "Severe weather like hurricanes and flooding can damage homes and threaten lives"
+        },
+        "correctAnswer": "D",
+        "explanation": "Floridians prepare because severe weather like hurricanes and flooding can damage homes and threaten lives.",
+        "standard": "SC.6.E.7.7",
+        "difficulty": "easy"
+      }
     ]
   }
 }
