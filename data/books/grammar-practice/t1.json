@@ -135,7 +135,7 @@
           "D": "We waited for the lights to come back on."
         },
         "correctAnswer": "D",
-        "explanation": "Choice D has a subject ('We'), a verb ('waited'), and a complete thought. The others are dependent or missing a verb.",
+        "explanation": "'We waited for the lights to come back on.' has a subject ('We'), a verb ('waited'), and a complete thought. The others are dependent or missing a verb.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -555,7 +555,7 @@
           "D": "Everyone escaped without a single injury."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B names a subject and describes it, but it never states what the firefighters did or are, so it has no main verb.",
+        "explanation": "'The brave firefighters who rushed into the burning building last night.' names a subject and describes it, but it never states what the firefighters did or are, so it has no main verb.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -600,7 +600,7 @@
           "D": "The towering, scary roller coaster at the new amusement park."
         },
         "correctAnswer": "C",
-        "explanation": "Only choice C adds a main verb ('terrified'), telling what the roller coaster did and completing the thought. The others just add more describing words.",
+        "explanation": "Only 'The towering roller coaster at the new amusement park terrified everyone.' adds a main verb ('terrified'), telling what the roller coaster did and completing the thought. The others just add more describing words.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       }
@@ -757,7 +757,7 @@
           "D": "We drove slowly and carefully."
         },
         "correctAnswer": "B",
-        "explanation": "In choice B, the independent clause 'We drove slowly' comes first, followed by the dependent clause 'because the road was icy.'",
+        "explanation": "In 'We drove slowly because the road was icy,' the independent clause 'We drove slowly' comes first, followed by the dependent clause 'because the road was icy.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1087,7 +1087,7 @@
           "D": "The game was delayed and rescheduled."
         },
         "correctAnswer": "B",
-        "explanation": "In choice B, the independent clause 'The game was delayed' comes first, followed by the dependent clause 'because the field was muddy.'",
+        "explanation": "In 'The game was delayed because the field was muddy,' the independent clause 'The game was delayed' comes first, followed by the dependent clause 'because the field was muddy.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1192,7 +1192,7 @@
           "D": "Since it was pouring, we waited inside."
         },
         "correctAnswer": "D",
-        "explanation": "In choice D, the dependent clause 'Since it was pouring' comes first, followed by the independent clause 'we waited inside.'",
+        "explanation": "In 'Since it was pouring, we waited inside,' the dependent clause 'Since it was pouring' comes first, followed by the independent clause 'we waited inside.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -1274,7 +1274,7 @@
           "D": "The dog ran, fast it caught the ball."
         },
         "correctAnswer": "C",
-        "explanation": "Adding a comma and the joining word 'and' correctly links the two complete sentences. A comma alone (choice A) is still a splice.",
+        "explanation": "Adding a comma and the joining word 'and' in 'The dog ran fast, and it caught the ball' correctly links the two complete sentences. A comma alone ('The dog ran fast, it caught the ball') is still a splice.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1529,7 +1529,7 @@
           "D": "The alarm, blared everyone woke up."
         },
         "correctAnswer": "C",
-        "explanation": "Adding a comma plus 'and' correctly links the two complete sentences. A comma alone (choice A) is still a splice.",
+        "explanation": "Adding a comma plus 'and' in 'The alarm blared, and everyone woke up' correctly links the two complete sentences. A comma alone ('The alarm blared, everyone woke up') is still a splice.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1589,7 +1589,7 @@
           "D": "I forgot my umbrella I, got soaked."
         },
         "correctAnswer": "B",
-        "explanation": "A semicolon correctly joins the two closely related complete sentences. A comma alone (choice A) would still be a splice.",
+        "explanation": "A semicolon in 'I forgot my umbrella; I got soaked' correctly joins the two closely related complete sentences. A comma alone ('I forgot my umbrella, I got soaked') would still be a splice.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1619,7 +1619,7 @@
           "D": "The movie, ended the credits rolled."
         },
         "correctAnswer": "C",
-        "explanation": "Splitting it into two sentences with a period fixes the run-on. Choice B only adds a comma, which is a splice.",
+        "explanation": "Splitting it into two sentences with a period — 'The movie ended. The credits rolled.' — fixes the run-on. Adding only a comma ('The movie ended, the credits rolled') makes a splice.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1649,7 +1649,7 @@
           "D": "She, loves art she paints every weekend."
         },
         "correctAnswer": "B",
-        "explanation": "A comma plus the joining word 'so' correctly links the two complete sentences. A comma alone (choice A) is still a splice.",
+        "explanation": "A comma plus the joining word 'so' in 'She loves art, so she paints every weekend' correctly links the two complete sentences. A comma alone ('She loves art, she paints every weekend') is still a splice.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1739,7 +1739,7 @@
           "D": "The power, went out we lit candles dinner was cozy."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B fixes the splice by making the first part dependent and joining the last two clauses with a comma plus 'and.'",
+        "explanation": "'When the power went out, we lit candles, and dinner was cozy' fixes the splice by making the first part dependent and joining the last two clauses with a comma plus 'and.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1754,7 +1754,7 @@
           "D": "The whistle blew the runners, took off."
         },
         "correctAnswer": "C",
-        "explanation": "A semicolon correctly joins two closely related complete sentences. Choice A is a run-on and B is a comma splice.",
+        "explanation": "A semicolon in 'The whistle blew; the runners took off' correctly joins two closely related complete sentences. 'The whistle blew the runners took off.' is a run-on and 'The whistle blew, the runners took off.' is a comma splice.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1784,7 +1784,7 @@
           "D": "Because the recipe looked easy, it took two hours."
         },
         "correctAnswer": "A",
-        "explanation": "Choice A keeps both clauses independent and joins them with a comma plus 'but.' The others add subordinating words, making complex sentences.",
+        "explanation": "'The recipe looked easy, but it took two hours' keeps both clauses independent and joins them with a comma plus 'but.' The others add subordinating words ('Although,' 'Since,' 'Because'), making complex sentences.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1814,7 +1814,7 @@
           "D": "The thunder boomed the dog, hid under the bed."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C uses a dependent clause ('When the thunder boomed') plus an independent clause, which is correct. A and D are run-ons and B is a comma splice.",
+        "explanation": "'When the thunder boomed, the dog hid under the bed' uses a dependent clause ('When the thunder boomed') plus an independent clause, which is correct. The versions with no punctuation are run-ons and 'The thunder boomed, the dog hid under the bed.' is a comma splice.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       }
@@ -1881,7 +1881,7 @@
           "D": "While we played outside."
         },
         "correctAnswer": "B",
-        "explanation": "Two independent clauses joined by comma + 'and' make this compound. Choice A is complex and C is simple.",
+        "explanation": "'We played outside, and we had fun.' joins two independent clauses with comma + 'and,' making it compound. 'After lunch, we played outside.' is complex and 'We played outside.' is simple.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2136,7 +2136,7 @@
           "D": "While the thunder rumbled."
         },
         "correctAnswer": "B",
-        "explanation": "Two independent clauses joined by comma + 'and' make this compound. Choice A is complex and C is simple.",
+        "explanation": "'The thunder rumbled, and the rain poured down.' joins two independent clauses with comma + 'and,' making it compound. 'Before the rain started, we ran inside.' is complex and 'The thunder rumbled loudly.' is simple.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2346,7 +2346,7 @@
           "D": "The flowers bloomed; the bees buzzed."
         },
         "correctAnswer": "A",
-        "explanation": "Choice A has one independent clause with introductory phrases, so it is simple. The others contain two clauses.",
+        "explanation": "'After the long winter, the bright flowers bloomed across the entire valley.' has one independent clause with introductory phrases, so it is simple. The others contain two clauses.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2361,7 +2361,7 @@
           "D": "The bus arrived; we boarded."
         },
         "correctAnswer": "C",
-        "explanation": "Only choice C joins a dependent clause ('When the bus arrived') with an independent clause, making it complex.",
+        "explanation": "Only 'When the bus arrived, we boarded quickly.' joins a dependent clause ('When the bus arrived') with an independent clause, making it complex.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2391,7 +2391,7 @@
           "D": "The scientist mixed the chemicals; the mixture bubbled."
         },
         "correctAnswer": "A",
-        "explanation": "Only choice A has a single independent clause. The others contain two clauses (compound or complex).",
+        "explanation": "Only 'The scientist mixed the chemicals carefully in the lab.' has a single independent clause. The others contain two clauses (compound or complex).",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2421,7 +2421,7 @@
           "D": "Everyone left the building after the alarm sounded."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C joins two independent clauses with a comma plus 'so,' making it compound. The others use subordinating words and are complex.",
+        "explanation": "'The alarm sounded, so everyone left the building.' joins two independent clauses with a comma plus 'so,' making it compound. The others use subordinating words ('Because,' 'When,' 'after') and are complex.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       }
@@ -2443,7 +2443,7 @@
           "D": "Scared. Walking. Door."
         },
         "correctAnswer": "A",
-        "explanation": "Choice A combines the choppy sentences into one smooth, varied sentence with a dependent-clause opener.",
+        "explanation": "'Although I was scared, I kept walking until I reached the door.' combines the choppy sentences into one smooth, varied sentence with a dependent-clause opener.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2473,7 +2473,7 @@
           "D": "The team celebrated together."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B begins with the introductory phrase 'After a long season' instead of the subject, adding variety.",
+        "explanation": "'After a long season, the team won the championship.' begins with the introductory phrase 'After a long season' instead of the subject, adding variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2488,7 +2488,7 @@
           "D": "I like books and I read often and I have many books and I read them."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C mixes a short sentence with a longer, differently structured one, showing strong variety.",
+        "explanation": "'I love to read. Whenever I have free time, I curl up with a good book and lose track of the hours.' mixes a short sentence with a longer, differently structured one, showing strong variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2503,7 +2503,7 @@
           "D": "As the wind blew, leaves fell and the sky darkened."
         },
         "correctAnswer": "D",
-        "explanation": "Choice D uses a dependent clause opener and combines the ideas smoothly, varying the structure.",
+        "explanation": "'As the wind blew, leaves fell and the sky darkened.' uses a dependent clause opener and combines the ideas smoothly, varying the structure.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2548,7 +2548,7 @@
           "D": "She opened and she found and she smiled the box note."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C combines the three sentences and varies the opening with a participial phrase, removing the repeated 'She.'",
+        "explanation": "'Opening the box, she found a note and smiled.' combines the three sentences and varies the opening with a participial phrase, removing the repeated 'She.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2563,7 +2563,7 @@
           "D": "Storm, power, candles, waited."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C combines the choppy sentences using a dependent clause and 'and,' creating smooth, varied structure.",
+        "explanation": "'When the storm came and the power went out, we lit candles and waited.' combines the choppy sentences using a dependent clause and 'and,' creating smooth, varied structure.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2578,7 +2578,7 @@
           "D": "Hike hard long worth it."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B combines the repetitive sentences into one varied sentence that opens with describing words and keeps the meaning.",
+        "explanation": "'Hard and long, the hike was worth it.' combines the repetitive sentences into one varied sentence that opens with describing words and keeps the meaning.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2593,7 +2593,7 @@
           "D": "Ran. Jumped. Barked."
         },
         "correctAnswer": "A",
-        "explanation": "Choice A combines the three choppy sentences into one smooth sentence and removes the repeated 'The dog.'",
+        "explanation": "'The dog ran, jumped, and barked happily in the yard.' combines the three choppy sentences into one smooth sentence and removes the repeated 'The dog.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2623,7 +2623,7 @@
           "D": "Early in the morning, we watched the parade downtown."
         },
         "correctAnswer": "D",
-        "explanation": "Choice D begins with the introductory phrase 'Early in the morning' instead of the subject, adding variety.",
+        "explanation": "'Early in the morning, we watched the parade downtown.' begins with the introductory phrase 'Early in the morning' instead of the subject, adding variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2638,7 +2638,7 @@
           "D": "I have a cat and I have a dog and I have a fish and I love them."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C mixes a short sentence with a longer, differently structured one, showing strong variety.",
+        "explanation": "'I love animals. My house is home to a playful cat, a loyal dog, and a quiet goldfish.' mixes a short sentence with a longer, differently structured one, showing strong variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2683,7 +2683,7 @@
           "D": "We made popcorn and watched movies."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B opens with the dependent clause 'Because the rain never stopped' instead of the subject, adding variety.",
+        "explanation": "'Because the rain never stopped, we stayed inside all day.' opens with the dependent clause 'Because the rain never stopped' instead of the subject, adding variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2698,7 +2698,7 @@
           "D": "The car stopped and the door opened and a man stepped out and waited."
         },
         "correctAnswer": "A",
-        "explanation": "Choice A combines the three short sentences using a dependent clause opener, creating smooth variety.",
+        "explanation": "'When the car stopped, the door opened and a man stepped out.' combines the three short sentences using a dependent clause opener, creating smooth variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2713,7 +2713,7 @@
           "D": "The hikers slowly reached the summit."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C opens with the describing words 'Exhausted but proud' instead of starting with the subject, adding variety.",
+        "explanation": "'Exhausted but proud, the hikers reached the summit at noon.' opens with the describing words 'Exhausted but proud' instead of starting with the subject, adding variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2728,7 +2728,7 @@
           "D": "He grabbed and he ran and he caught the bag bus outside."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B combines the sentences and varies the opening with an -ing phrase, removing the repeated 'He.'",
+        "explanation": "'Grabbing his bag, he ran outside and caught the bus.' combines the sentences and varies the opening with an -ing phrase, removing the repeated 'He.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2743,7 +2743,7 @@
           "D": "Quiet crowd, speaker, speech began."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C uses a dependent-clause opener and combines the ideas smoothly, varying the structure.",
+        "explanation": "'As the crowd grew quiet, the speaker stepped up and began the speech.' uses a dependent-clause opener and combines the ideas smoothly, varying the structure.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2758,7 +2758,7 @@
           "D": "I play soccer and I like soccer and soccer is fun and I play it."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B mixes a short sentence with a longer, differently structured one, creating strong variety.",
+        "explanation": "'I play soccer every Saturday. After a hard week, nothing feels better than running across the green field with my friends.' mixes a short sentence with a longer, differently structured one, creating strong variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "easy"
       },
@@ -2773,7 +2773,7 @@
           "D": "Under the couch cushions, the keys were finally found."
         },
         "correctAnswer": "D",
-        "explanation": "Choice D opens with the prepositional phrase 'Under the couch cushions' instead of the subject, adding variety.",
+        "explanation": "'Under the couch cushions, the keys were finally found.' opens with the prepositional phrase 'Under the couch cushions' instead of the subject, adding variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2788,7 +2788,7 @@
           "D": "Alarm jump dress rush."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B opens with a dependent clause and combines the choppy sentences smoothly without losing meaning.",
+        "explanation": "'When the alarm rang, I jumped up, got dressed, and rushed out.' opens with a dependent clause and combines the choppy sentences smoothly without losing meaning.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2803,7 +2803,7 @@
           "D": "The chef added salt because the soup was bland."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C begins with the participial phrase 'Tasting the soup' instead of the subject, varying the opening.",
+        "explanation": "'Tasting the soup, the chef added a pinch of salt.' begins with the participial phrase 'Tasting the soup' instead of the subject, varying the opening.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2833,7 +2833,7 @@
           "D": "Dark gear home."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B opens with a dependent clause and joins the remaining ideas, creating smooth, varied structure.",
+        "explanation": "'Because it was getting dark, we packed our gear and headed home.' opens with a dependent clause and joins the remaining ideas, creating smooth, varied structure.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2848,7 +2848,7 @@
           "D": "Movie exciting movie funny movie long."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B combines the repeated sentences into one varied sentence that opens with describing words and keeps the meaning.",
+        "explanation": "'Exciting, funny, and a little long, the movie kept us entertained.' combines the repeated sentences into one varied sentence that opens with describing words and keeps the meaning.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2863,7 +2863,7 @@
           "D": "However, we bounced back and won the next two games."
         },
         "correctAnswer": "D",
-        "explanation": "Choice D begins with the transition word 'However,' which varies the opening and links ideas smoothly.",
+        "explanation": "'However, we bounced back and won the next two games.' begins with the transition word 'However,' which varies the opening and links ideas smoothly.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2878,7 +2878,7 @@
           "D": "Wind kite children."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B uses a dependent-clause opener ('As the wind picked up') and combines the ideas smoothly, varying the structure.",
+        "explanation": "'As the wind picked up, the kite soared and the children laughed.' uses a dependent-clause opener ('As the wind picked up') and combines the ideas smoothly, varying the structure.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2893,7 +2893,7 @@
           "D": "Bell bags hallway ended."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C combines the choppy sentences using a dependent clause and joining words, creating smooth, varied structure.",
+        "explanation": "'When the bell rang, students grabbed their bags and poured into the hallway, and the school day ended.' combines the choppy sentences using a dependent clause and joining words, creating smooth, varied structure.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2908,7 +2908,7 @@
           "D": "Dark, cold, and silent, the room felt empty."
         },
         "correctAnswer": "D",
-        "explanation": "Choice D combines the repetitive sentences into one varied sentence that opens with describing words and keeps the meaning.",
+        "explanation": "'Dark, cold, and silent, the room felt empty.' combines the repetitive sentences into one varied sentence that opens with describing words and keeps the meaning.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2923,7 +2923,7 @@
           "D": "She picked and she dipped and she painted brush paint sky."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C combines the three sentences and varies the opening with participial phrases, removing the repeated 'She.'",
+        "explanation": "'Picking up the brush and dipping it in paint, she painted the sky.' combines the three sentences and varies the opening with participial phrases, removing the repeated 'She.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2938,7 +2938,7 @@
           "D": "Train win celebrate. Team team team."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B mixes a long opener, a medium sentence, and a short sentence, and it varies how sentences begin — the strongest variety.",
+        "explanation": "'After months of grueling practice, the team finally won the championship. They celebrated all night. The trophy gleamed.' mixes a long opener, a medium sentence, and a short sentence, and it varies how sentences begin — the strongest variety.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2953,7 +2953,7 @@
           "D": "Volcano smoke people town."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B combines the choppy sentences with a dependent clause and 'until,' creating smooth, varied structure.",
+        "explanation": "'As the volcano rumbled and smoke rose, people fled until the town emptied.' combines the choppy sentences with a dependent clause and 'until,' creating smooth, varied structure.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2968,7 +2968,7 @@
           "D": "Letter hands news good."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B opens with a phrase and uses a dash for emphasis, varying both the opening and the rhythm while keeping the meaning.",
+        "explanation": "'With shaking hands, I opened the letter — the news was good.' opens with a phrase and uses a dash for emphasis, varying both the opening and the rhythm while keeping the meaning.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2983,7 +2983,7 @@
           "D": "The detective searched and checked and found and searched again."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B pairs a long, detailed sentence with a short, punchy one ('She found nothing'), creating variety and emphasis.",
+        "explanation": "'The detective searched every room and checked every drawer, examining each corner with care. She found nothing.' pairs a long, detailed sentence with a short, punchy one ('She found nothing'), creating variety and emphasis.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2998,7 +2998,7 @@
           "D": "Storm lights flashlights waited."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B opens with a dependent clause and combines the four choppy sentences smoothly, fixing both the repetition and the choppiness.",
+        "explanation": "'When the storm hit and the lights went out, we grabbed flashlights and waited it out.' opens with a dependent clause and combines the four choppy sentences smoothly, fixing both the repetition and the choppiness.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -3013,7 +3013,7 @@
           "D": "Cake perfect amazing better."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B combines the three repetitive sentences into one varied sentence with a descriptive opener while keeping the meaning.",
+        "explanation": "'Perfect to look at and amazing to smell, the cake tasted even better.' combines the three repetitive sentences into one varied sentence with a descriptive opener while keeping the meaning.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -3028,7 +3028,7 @@
           "D": "Runners gun sprint crowd."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C varies the openings with a dependent clause and a transition word and combines the choppy sentences smoothly.",
+        "explanation": "'As the runners lined up, the gun fired; instantly, they sprinted while the crowd roared.' varies the openings with a dependent clause and a transition word and combines the choppy sentences smoothly.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       }

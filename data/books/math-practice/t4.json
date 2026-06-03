@@ -2673,7 +2673,7 @@
           "D": "both B and C are equal and correct"
         },
         "correctAnswer": "D",
-        "explanation": "Add 3/8 to both sides: x = 1/8 + 3/8 = 4/8 = 1/2. Since 4/8 and 1/2 are the same value, choice D is correct.",
+        "explanation": "Add 3/8 to both sides: x = 1/8 + 3/8 = 4/8, which simplifies to 1/2. Because 4/8 and 1/2 are the same value, both answers are correct.",
         "standard": "MA.6.AR.2.4",
         "difficulty": "medium"
       },

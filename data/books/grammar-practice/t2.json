@@ -135,7 +135,7 @@
           "D": "We need rulers, scissors, and markers."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B is missing the comma after 'pens'; a series needs a comma between every item.",
+        "explanation": "'We need pens paper, and folders.' is missing the comma after 'pens'; a series needs a comma between every item.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -450,7 +450,7 @@
           "D": "We need bowls, spoons, and trays."
         },
         "correctAnswer": "A",
-        "explanation": "Choice B is missing the series comma before 'and'; it should read 'cups, plates, and napkins.'",
+        "explanation": "'We need cups, plates and napkins.' is missing the series comma before 'and'; it should read 'cups, plates, and napkins.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -465,7 +465,7 @@
           "D": "He grabbed his keys wallet, and phone."
         },
         "correctAnswer": "D",
-        "explanation": "Choice B is missing the comma after 'keys'; every item in a series needs a comma between it and the next.",
+        "explanation": "'He grabbed his keys wallet, and phone.' is missing the comma after 'keys'; every item in a series needs a comma between it and the next.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -667,7 +667,7 @@
           "D": "When it rained we stayed in."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B starts with the subject 'We,' so no introductory comma is needed; the others begin with introductory elements.",
+        "explanation": "'We stretched before the game.' starts with the subject 'We,' so no introductory comma is needed; the others begin with introductory elements.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -922,7 +922,7 @@
           "D": "Before bed, we relaxed."
         },
         "correctAnswer": "B",
-        "explanation": "Choice A starts with the subject 'We,' so no introductory comma is needed; the others open with introductory elements.",
+        "explanation": "'We relaxed after the long day.' starts with the subject 'We,' so no introductory comma is needed; the others open with introductory elements.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1042,7 +1042,7 @@
           "D": "When the bell rang, the students lined up."
         },
         "correctAnswer": "C",
-        "explanation": "Choice A begins with the subject 'The students,' so no introductory comma is needed.",
+        "explanation": "'The students lined up after the bell rang.' begins with the subject 'The students,' so no introductory comma is needed.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1147,7 +1147,7 @@
           "D": "When she got home, she finished her homework."
         },
         "correctAnswer": "C",
-        "explanation": "Choice A begins with the subject 'She,' so no introductory comma is needed.",
+        "explanation": "'She finished her homework before dinner.' begins with the subject 'She,' so no introductory comma is needed.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1274,7 +1274,7 @@
           "D": "We sang, and we danced."
         },
         "correctAnswer": "B",
-        "explanation": "In choice B, 'bought milk' is not a complete sentence, so no comma is needed before 'and.'",
+        "explanation": "In 'I ran to the store and bought milk,' 'bought milk' is not a complete sentence, so no comma is needed before 'and.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1334,7 +1334,7 @@
           "D": "We read and we wrote together quietly."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C joins two complete sentences with 'for,' so it needs a comma: 'I wanted to go, for I was bored.'",
+        "explanation": "'I wanted to go for I was bored.' joins two complete sentences with 'for,' so it needs a comma: 'I wanted to go, for I was bored.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1529,7 +1529,7 @@
           "D": "She ran fast, but she lost."
         },
         "correctAnswer": "B",
-        "explanation": "In choice B, 'shy' is not a complete sentence, so no comma is needed before 'but.'",
+        "explanation": "In 'She is kind but shy,' 'shy' is not a complete sentence, so no comma is needed before 'but.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1544,7 +1544,7 @@
           "D": "He read, and he wrote."
         },
         "correctAnswer": "A",
-        "explanation": "In choice B, 'clapped' is not a complete sentence, so no comma is needed before 'and.'",
+        "explanation": "In 'He laughed and clapped,' 'clapped' is not a complete sentence, so no comma is needed before 'and.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1634,7 +1634,7 @@
           "D": "Do you want juice or milk?"
         },
         "correctAnswer": "D",
-        "explanation": "In choice A, 'milk' is not a complete sentence, so no comma is needed before 'or.'",
+        "explanation": "In 'Do you want juice or milk?', 'milk' is not a complete sentence, so no comma is needed before 'or.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -1679,7 +1679,7 @@
           "D": "We swim and we surf."
         },
         "correctAnswer": "D",
-        "explanation": "Choice A joins two complete sentences ('We swim' and 'we surf') with 'and,' so it needs a comma before 'and.'",
+        "explanation": "'We swim and we surf.' joins two complete sentences ('We swim' and 'we surf') with 'and,' so it needs a comma before 'and.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1724,7 +1724,7 @@
           "D": "He jumped, so he was happy."
         },
         "correctAnswer": "A",
-        "explanation": "In choice A, 'cheered loudly' is not a complete sentence, so the comma before 'and' is wrong.",
+        "explanation": "In 'He jumped, and cheered loudly,' 'cheered loudly' is not a complete sentence, so the comma before 'and' is wrong.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1754,7 +1754,7 @@
           "D": "She painted the fence, so it looked new."
         },
         "correctAnswer": "C",
-        "explanation": "In choice A, 'the gate' is not a complete sentence, so no comma is needed before 'and.'",
+        "explanation": "In 'She painted the fence and the gate,' 'the gate' is not a complete sentence, so no comma is needed before 'and.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1799,7 +1799,7 @@
           "D": "He ran so quickly."
         },
         "correctAnswer": "C",
-        "explanation": "In choice A, 'so' joins two complete sentences, so a comma is needed before it: 'He trained hard, so he could win.'",
+        "explanation": "In 'He trained hard so he could win,' 'so' joins two complete sentences, so a comma is needed before it: 'He trained hard, so he could win.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -1956,7 +1956,7 @@
           "D": "Pack the basics ___ food and water."
         },
         "correctAnswer": "B",
-        "explanation": "Choice B joins two complete sentences, which calls for a semicolon; the others introduce lists or explanations and use a colon.",
+        "explanation": "'I finished my chores ___ now I can relax.' joins two complete sentences, which calls for a semicolon; the others introduce lists or explanations and use a colon.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2136,7 +2136,7 @@
           "D": "The power went out; so."
         },
         "correctAnswer": "B",
-        "explanation": "A semicolon joins two complete sentences with no joining word; choice B wrongly adds 'and.'",
+        "explanation": "A semicolon joins two complete sentences with no joining word, so 'The power went out; we lit candles' is correct; 'The power went out; and we lit candles.' wrongly adds 'and.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2211,7 +2211,7 @@
           "D": "The bell rang ___ class ended."
         },
         "correctAnswer": "A",
-        "explanation": "Choice A introduces a list after a complete sentence, which calls for a colon; the others join two complete sentences and use a semicolon.",
+        "explanation": "'Bring the essentials ___ water, food, and a map.' introduces a list after a complete sentence, which calls for a colon; the others join two complete sentences and use a semicolon.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2256,7 +2256,7 @@
           "D": "Bring the basics: food and water."
         },
         "correctAnswer": "C",
-        "explanation": "In choice A, 'We saw' is not a complete sentence before the colon, so the colon is wrong.",
+        "explanation": "In 'We saw: lions, tigers, and bears,' 'We saw' is not a complete sentence before the colon, so the colon is wrong.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "medium"
       },
@@ -2301,7 +2301,7 @@
           "D": "Pack the basics ___ food and water."
         },
         "correctAnswer": "B",
-        "explanation": "Choice A joins two complete sentences, which calls for a semicolon; the others introduce lists or explanations and use a colon.",
+        "explanation": "'I forgot my umbrella ___ I got soaked.' joins two complete sentences, which calls for a semicolon; the others introduce lists or explanations and use a colon.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -2406,7 +2406,7 @@
           "D": "He was late ___ the bus had left."
         },
         "correctAnswer": "C",
-        "explanation": "Choice A introduces an explanation after a complete sentence, which calls for a colon.",
+        "explanation": "'She had only one wish ___ to see the ocean.' introduces an explanation after a complete sentence, which calls for a colon.",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -3155,7 +3155,7 @@
           "D": "\"Are you ready?\" asked Dad."
         },
         "correctAnswer": "C",
-        "explanation": "Choice C is missing the comma inside the quotes; it should read '\"It's late,\" she said.'",
+        "explanation": "'\"It's late\" she said.' is missing the comma inside the quotes; it should read '\"It's late,\" she said.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -3500,7 +3500,7 @@
           "D": "\"I'm hungry\" she said."
         },
         "correctAnswer": "D",
-        "explanation": "Choice A is missing the comma inside the quotes; it should read '\"I'm hungry,\" she said.'",
+        "explanation": "'\"I'm hungry\" she said.' is missing the comma inside the quotes; it should read '\"I'm hungry,\" she said.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
@@ -3545,7 +3545,7 @@
           "D": "\"Watch your step,\" he warned."
         },
         "correctAnswer": "A",
-        "explanation": "Choice D should use a comma, not a period, inside the quotes before the tag: '\"It is late,\" she sighed.'",
+        "explanation": "'\"It is late.\" she sighed.' should use a comma, not a period, inside the quotes before the tag: '\"It is late,\" she sighed.'",
         "standard": "ELA.6.C.3.1",
         "difficulty": "hard"
       },
