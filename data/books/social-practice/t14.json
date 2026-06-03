@@ -153,6 +153,456 @@
         "explanation": "A weakened, divided Greece became vulnerable to conquest.",
         "standard": "SS.6.W.3.4",
         "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q11",
+        "section": "social",
+        "question": "Which set of wars came FIRST in time?",
+        "choices": {
+          "A": "The Punic Wars",
+          "B": "The Persian Wars",
+          "C": "The Peloponnesian War",
+          "D": "The Trojan War"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Persian Wars came first, before the Greeks turned on each other.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q12",
+        "section": "social",
+        "question": "In the Peloponnesian War, the Greek city-states were mostly fighting whom?",
+        "choices": {
+          "A": "The Persian Empire",
+          "B": "The Roman Empire",
+          "C": "Each other",
+          "D": "The Egyptians"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the Peloponnesian War the Greeks turned on each other, with Athens against Sparta.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q13",
+        "section": "social",
+        "question": "Which two city-states were the strongest and became rivals in Greece?",
+        "choices": {
+          "A": "Athens and Sparta",
+          "B": "Marathon and Salamis",
+          "C": "Rome and Carthage",
+          "D": "Persia and Egypt"
+        },
+        "correctAnswer": "A",
+        "explanation": "Athens and Sparta were the two strongest city-states and became rivals.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-1-q14",
+        "section": "social",
+        "question": "Why was it surprising that the Greeks won the Persian Wars?",
+        "choices": {
+          "A": "The Greeks had far more soldiers than Persia",
+          "B": "Persia did not really want to fight",
+          "C": "The smaller Greek forces beat the mighty Persian Empire",
+          "D": "The Greeks had better weapons than anyone in the world"
+        },
+        "correctAnswer": "C",
+        "explanation": "It was surprising because the smaller Greek forces defeated the mighty Persian Empire.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q15",
+        "section": "social",
+        "question": "The victory in the Persian Wars helped lead to a 'Golden Age' in which city?",
+        "choices": {
+          "A": "Sparta",
+          "B": "Athens",
+          "C": "Alexandria",
+          "D": "Babylon"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Persian Wars victory led to a Golden Age in Athens.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q16",
+        "section": "social",
+        "question": "Which of these was NOT a reason the Greeks defeated Persia?",
+        "choices": {
+          "A": "Teamwork between the city-states",
+          "B": "Clever battle tactics",
+          "C": "Knowledge of their own land",
+          "D": "Having a much larger army than Persia"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Greeks had a smaller army, not a larger one; their teamwork, tactics, and knowledge of the land won the wars.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q17",
+        "section": "social",
+        "question": "What does the Peloponnesian War warn us about?",
+        "choices": {
+          "A": "The strength gained by uniting",
+          "B": "The danger of fighting among yourselves",
+          "C": "The benefit of trading with enemies",
+          "D": "The value of building pyramids"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Peloponnesian War shows the danger of fighting among themselves.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q18",
+        "section": "social",
+        "question": "A student says, 'When the Greeks worked together, they were powerful.' Which war BEST supports this?",
+        "choices": {
+          "A": "The Persian Wars",
+          "B": "The Peloponnesian War",
+          "C": "The Punic Wars",
+          "D": "The Hundred Years' War"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Persian Wars show how powerful the Greeks were when they united against a common enemy.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q19",
+        "section": "social",
+        "question": "Before Persia invaded, the Greek city-states were usually what?",
+        "choices": {
+          "A": "Joined into one strong empire",
+          "B": "Ruled by Persia",
+          "C": "Normally divided and separate",
+          "D": "Part of Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Greek city-states were normally divided, but they united to fight Persia.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q20",
+        "section": "social",
+        "question": "Athens led one side in the Peloponnesian War. Who led the OTHER side?",
+        "choices": {
+          "A": "Persia",
+          "B": "Sparta",
+          "C": "Rome",
+          "D": "Macedonia"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sparta led the side that fought against Athens in the Peloponnesian War.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-1-q21",
+        "section": "social",
+        "question": "Even though Sparta won the Peloponnesian War, what happened to Greece overall?",
+        "choices": {
+          "A": "Greece was completely unharmed",
+          "B": "Greece became the world's largest empire",
+          "C": "Greece was made richer than ever",
+          "D": "All of Greece became weakened and exhausted"
+        },
+        "correctAnswer": "D",
+        "explanation": "Even with Sparta's victory, the long war left all of Greece weakened and exhausted.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q22",
+        "section": "social",
+        "question": "Which battle is an example of a Greek victory over Persia?",
+        "choices": {
+          "A": "Marathon",
+          "B": "Cannae",
+          "C": "Hastings",
+          "D": "Waterloo"
+        },
+        "correctAnswer": "A",
+        "explanation": "Marathon was a famous battle where the Greeks defeated Persia.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q23",
+        "section": "social",
+        "question": "Put these in the correct order: Greek unity in the Persian Wars, then what?",
+        "choices": {
+          "A": "The Greeks fought each other in the Peloponnesian War",
+          "B": "The Greeks were conquered by Egypt",
+          "C": "The Greeks gave up all their cities",
+          "D": "The Greeks invaded China"
+        },
+        "correctAnswer": "A",
+        "explanation": "After uniting in the Persian Wars, the Greeks later fought each other in the Peloponnesian War.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q24",
+        "section": "social",
+        "question": "Salamis was a famous what?",
+        "choices": {
+          "A": "Greek philosopher",
+          "B": "Persian king",
+          "C": "Greek temple",
+          "D": "Battle of the Persian Wars"
+        },
+        "correctAnswer": "D",
+        "explanation": "Salamis was a battle of the Persian Wars where the Greeks defeated Persia.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q25",
+        "section": "social",
+        "question": "Why might the Peloponnesian War be called a 'civil' kind of war for the Greeks?",
+        "choices": {
+          "A": "It was fought against Persia",
+          "B": "It was fought between Greeks and Egyptians",
+          "C": "It was fought among the Greek city-states themselves",
+          "D": "It was fought in Rome"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Peloponnesian War was fought among the Greek city-states themselves, Greek against Greek.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q26",
+        "section": "social",
+        "question": "What helped the Greeks fight well on their own land against Persia?",
+        "choices": {
+          "A": "They had never seen the land before",
+          "B": "The land was all desert",
+          "C": "The land belonged to Persia",
+          "D": "They knew their own land well"
+        },
+        "correctAnswer": "D",
+        "explanation": "Knowing their own land well helped the Greeks defeat the invading Persians.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q27",
+        "section": "social",
+        "question": "Which statement about the two wars is TRUE?",
+        "choices": {
+          "A": "In both wars the Greeks fought Persia",
+          "B": "In the Persian Wars the Greeks united; in the Peloponnesian War they fought each other",
+          "C": "Both wars made Greece stronger",
+          "D": "Neither war had any winner"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the Persian Wars the Greeks united, while in the Peloponnesian War they fought each other.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q28",
+        "section": "social",
+        "question": "What is a 'city-state'?",
+        "choices": {
+          "A": "A traveling army",
+          "B": "A country with no cities",
+          "C": "A capital of an empire only",
+          "D": "A single city that governs itself like its own small country"
+        },
+        "correctAnswer": "D",
+        "explanation": "A city-state is a single city that rules itself, like Athens or Sparta did.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q29",
+        "section": "social",
+        "question": "Which result came from the Persian Wars rather than the Peloponnesian War?",
+        "choices": {
+          "A": "Greece was left weak and divided",
+          "B": "Sparta defeated Athens",
+          "C": "Greek independence was protected",
+          "D": "All Greek city-states were destroyed"
+        },
+        "correctAnswer": "C",
+        "explanation": "Winning the Persian Wars protected Greek independence.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q30",
+        "section": "social",
+        "question": "Imagine you are an Athenian during the Persian invasion. What is the smartest choice?",
+        "choices": {
+          "A": "Fight Persia completely alone",
+          "B": "Surrender right away",
+          "C": "Help Persia attack the other Greeks",
+          "D": "Join with other Greek city-states to fight together"
+        },
+        "correctAnswer": "D",
+        "explanation": "Joining with other Greek city-states to fight together is what gave the Greeks their surprising victory.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q31",
+        "section": "social",
+        "question": "Which word best describes Greece AFTER the Peloponnesian War?",
+        "choices": {
+          "A": "Exhausted",
+          "B": "United",
+          "C": "Unbeatable",
+          "D": "Wealthy"
+        },
+        "correctAnswer": "A",
+        "explanation": "After the long Peloponnesian War, Greece was left exhausted and divided.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q32",
+        "section": "social",
+        "question": "The Persian Wars and the Peloponnesian War were fought by which people?",
+        "choices": {
+          "A": "The Romans",
+          "B": "The Egyptians",
+          "C": "The Greeks",
+          "D": "The Chinese"
+        },
+        "correctAnswer": "C",
+        "explanation": "Both sets of wars were fought by the Greek city-states.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-1-q33",
+        "section": "social",
+        "question": "What kind of empire did Persia have when it invaded Greece?",
+        "choices": {
+          "A": "A tiny, weak one",
+          "B": "A huge, mighty one",
+          "C": "One that no longer existed",
+          "D": "A Greek-ruled one"
+        },
+        "correctAnswer": "B",
+        "explanation": "Persia was a huge, mighty empire, which made the Greek victory surprising.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-1-q34",
+        "section": "social",
+        "question": "Cause and effect: Because the Peloponnesian War lasted so long and was so brutal, what was the EFFECT?",
+        "choices": {
+          "A": "The Olympics were canceled forever",
+          "B": "Persia took over Athens",
+          "C": "The Greeks united into one country",
+          "D": "All of Greece was weakened"
+        },
+        "correctAnswer": "D",
+        "explanation": "The long, brutal war weakened all of Greece.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q35",
+        "section": "social",
+        "question": "Which of these is NOT something the Persian Wars are remembered for?",
+        "choices": {
+          "A": "Greek city-states uniting",
+          "B": "Victories at Marathon and Salamis",
+          "C": "Protecting Greek independence",
+          "D": "Sparta defeating Athens"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sparta defeating Athens happened in the Peloponnesian War, not the Persian Wars.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q36",
+        "section": "social",
+        "question": "How did a divided Greece eventually become a problem for the Greeks?",
+        "choices": {
+          "A": "A weakened, divided Greece was easy for outsiders to conquer",
+          "B": "A divided Greece grew much stronger",
+          "C": "Division made Greece rich",
+          "D": "Division ended all future wars"
+        },
+        "correctAnswer": "A",
+        "explanation": "A weakened, divided Greece became easy for outsiders to conquer.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q37",
+        "section": "social",
+        "question": "Which sentence correctly matches a war to its outcome?",
+        "choices": {
+          "A": "Persian Wars: Greece was conquered by Persia",
+          "B": "Peloponnesian War: Greece grew stronger than ever",
+          "C": "Persian Wars: the Greeks protected their independence",
+          "D": "Peloponnesian War: Persia won"
+        },
+        "correctAnswer": "C",
+        "explanation": "In the Persian Wars the Greeks protected their independence.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-1-q38",
+        "section": "social",
+        "question": "Which best explains why uniting helped the Greeks in the Persian Wars?",
+        "choices": {
+          "A": "Many separate forces working together were stronger than fighting alone",
+          "B": "Uniting made each city weaker",
+          "C": "Uniting meant they did not have to fight at all",
+          "D": "Uniting let Persia win"
+        },
+        "correctAnswer": "A",
+        "explanation": "By uniting, the separate Greek forces became stronger together than they would have been fighting alone.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q39",
+        "section": "social",
+        "question": "If two friends on the same team start fighting each other, it is most like which Greek war?",
+        "choices": {
+          "A": "The Persian Wars",
+          "B": "The Peloponnesian War",
+          "C": "The Battle of Marathon",
+          "D": "The Battle of Salamis"
+        },
+        "correctAnswer": "B",
+        "explanation": "Friends on the same team fighting each other is most like the Peloponnesian War, where Greeks fought Greeks.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-1-q40",
+        "section": "social",
+        "question": "What is the BIG lesson the two wars teach when looked at together?",
+        "choices": {
+          "A": "Persia always wins",
+          "B": "Wars never matter",
+          "C": "Unity brings strength, but fighting among yourselves brings weakness",
+          "D": "City-states should never cooperate"
+        },
+        "correctAnswer": "C",
+        "explanation": "Together the wars teach that unity brings strength while fighting among yourselves brings weakness.",
+        "standard": "SS.6.W.3.4",
+        "difficulty": "hard"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "Greek art and architecture were famous for balance and beauty.",
         "standard": "SS.6.W.3.5",
         "difficulty": "easy"
+      },
+      {
+        "id": "14-2-q11",
+        "section": "social",
+        "question": "What does the word 'philosophy' mean?",
+        "choices": {
+          "A": "Love of wisdom",
+          "B": "Fear of gods",
+          "C": "Study of stars",
+          "D": "Building of temples"
+        },
+        "correctAnswer": "A",
+        "explanation": "Philosophy means 'love of wisdom.'",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-2-q12",
+        "section": "social",
+        "question": "Who was the student of Socrates?",
+        "choices": {
+          "A": "Aristotle",
+          "B": "Plato",
+          "C": "Pythagoras",
+          "D": "Hippocrates"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plato was the student of Socrates.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q13",
+        "section": "social",
+        "question": "Who was the student of Plato?",
+        "choices": {
+          "A": "Socrates",
+          "B": "Hippocrates",
+          "C": "Aristotle",
+          "D": "Pythagoras"
+        },
+        "correctAnswer": "C",
+        "explanation": "Aristotle was the student of Plato.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q14",
+        "section": "social",
+        "question": "Put these philosophers in the correct teacher-to-student order.",
+        "choices": {
+          "A": "Aristotle, then Plato, then Socrates",
+          "B": "Plato, then Socrates, then Aristotle",
+          "C": "Socrates, then Plato, then Aristotle",
+          "D": "Aristotle, then Socrates, then Plato"
+        },
+        "correctAnswer": "C",
+        "explanation": "Socrates taught Plato, and Plato taught Aristotle.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q15",
+        "section": "social",
+        "question": "Greek plays came in two main types. What were they?",
+        "choices": {
+          "A": "Comedies and tragedies",
+          "B": "Myths and laws",
+          "C": "Poems and songs",
+          "D": "Battles and races"
+        },
+        "correctAnswer": "A",
+        "explanation": "Greek theater included comedies and tragedies.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q16",
+        "section": "social",
+        "question": "Which Greek taught that diseases had natural causes?",
+        "choices": {
+          "A": "Socrates",
+          "B": "Pythagoras",
+          "C": "Hippocrates",
+          "D": "Plato"
+        },
+        "correctAnswer": "C",
+        "explanation": "Hippocrates taught that diseases had natural causes.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q17",
+        "section": "social",
+        "question": "Pythagoras is connected to which field of study?",
+        "choices": {
+          "A": "Math and geometry",
+          "B": "Theater",
+          "C": "Cooking",
+          "D": "Shipbuilding"
+        },
+        "correctAnswer": "A",
+        "explanation": "Pythagoras was a mathematician connected to math and geometry.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q18",
+        "section": "social",
+        "question": "Which of these is NOT a Greek achievement described in the lesson?",
+        "choices": {
+          "A": "Philosophy",
+          "B": "The Olympics",
+          "C": "Theater",
+          "D": "Inventing the wheel"
+        },
+        "correctAnswer": "D",
+        "explanation": "The lesson lists philosophy, the Olympics, and theater as Greek achievements, but not inventing the wheel.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q19",
+        "section": "social",
+        "question": "Your school holds a track meet to celebrate. Which Greek achievement is this most like?",
+        "choices": {
+          "A": "Philosophy",
+          "B": "Theater",
+          "C": "The Olympics",
+          "D": "Medicine"
+        },
+        "correctAnswer": "C",
+        "explanation": "An athletic event like a track meet is most like the Olympics the Greeks began.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q20",
+        "section": "social",
+        "question": "A teacher who answers a question with another question to make students think is using a method like which philosopher?",
+        "choices": {
+          "A": "Hippocrates",
+          "B": "Socrates",
+          "C": "Pythagoras",
+          "D": "Aristotle"
+        },
+        "correctAnswer": "B",
+        "explanation": "Teaching by asking questions is the method of Socrates.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q21",
+        "section": "social",
+        "question": "The word 'classical' is used to describe these famous Greek thinkers. What does this suggest about their ideas?",
+        "choices": {
+          "A": "Their ideas were forgotten quickly",
+          "B": "Their ideas are old but still important and admired today",
+          "C": "Their ideas were never written down",
+          "D": "Their ideas only mattered in Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Calling them classical means their old ideas are still important and admired today.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q22",
+        "section": "social",
+        "question": "Which pair correctly matches a Greek to what they are known for?",
+        "choices": {
+          "A": "Socrates — building ships",
+          "B": "Hippocrates — medicine",
+          "C": "Pythagoras — theater",
+          "D": "Plato — the Olympics"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hippocrates is known for medicine, teaching that diseases had natural causes.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q23",
+        "section": "social",
+        "question": "Which subjects we study in school trace back to the Greeks?",
+        "choices": {
+          "A": "Nothing we study today",
+          "B": "Only farming",
+          "C": "Only sailing",
+          "D": "Philosophy, science, theater, and the Olympics"
+        },
+        "correctAnswer": "D",
+        "explanation": "Philosophy, science, theater, and the Olympics all trace back to the Greeks.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q24",
+        "section": "social",
+        "question": "Greek temples like the Parthenon are especially known for what feature?",
+        "choices": {
+          "A": "No roof at all",
+          "B": "Mud-brick walls",
+          "C": "Pointed pyramids",
+          "D": "Tall columns"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Parthenon and other Greek temples are known for their tall columns.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q25",
+        "section": "social",
+        "question": "A Greek tragedy and a Greek comedy are both examples of what Greek achievement?",
+        "choices": {
+          "A": "Theater",
+          "B": "Philosophy",
+          "C": "Medicine",
+          "D": "Geometry"
+        },
+        "correctAnswer": "A",
+        "explanation": "Both tragedies and comedies are forms of Greek theater.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-2-q26",
+        "section": "social",
+        "question": "Which statement about Greek philosophers is TRUE?",
+        "choices": {
+          "A": "They asked deep questions about life, truth, and how people should live",
+          "B": "They only studied farming",
+          "C": "They never wrote or taught anyone",
+          "D": "They lived in ancient China"
+        },
+        "correctAnswer": "A",
+        "explanation": "Greek philosophers asked deep questions about life, truth, and how people should live.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q27",
+        "section": "social",
+        "question": "Why are the Olympics important as a Greek achievement?",
+        "choices": {
+          "A": "They were laws carved in stone",
+          "B": "They were a kind of writing",
+          "C": "They were athletic games to honor the gods, still held in a form today",
+          "D": "They were used to choose a king"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Olympics were athletic games to honor the gods, and a form of them is still held today.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q28",
+        "section": "social",
+        "question": "In medicine, what was Hippocrates' big idea?",
+        "choices": {
+          "A": "Diseases come only from angry gods",
+          "B": "Diseases have natural causes",
+          "C": "Diseases cannot be studied",
+          "D": "Diseases come from bad theater"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hippocrates taught that diseases have natural causes.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q29",
+        "section": "social",
+        "question": "Which of these did the Greeks NOT create or start, according to the lesson?",
+        "choices": {
+          "A": "Theater",
+          "B": "The Olympics",
+          "C": "Philosophy",
+          "D": "The pyramids of Egypt"
+        },
+        "correctAnswer": "D",
+        "explanation": "The pyramids of Egypt were not a Greek creation; the Greeks gave us theater, the Olympics, and philosophy.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q30",
+        "section": "social",
+        "question": "Plato was both a student and a teacher. Who did he teach?",
+        "choices": {
+          "A": "Socrates",
+          "B": "Aristotle",
+          "C": "Hippocrates",
+          "D": "Pythagoras"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plato was a student of Socrates and the teacher of Aristotle.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q31",
+        "section": "social",
+        "question": "What field did the Greeks advance that includes geometry?",
+        "choices": {
+          "A": "Sailing",
+          "B": "Theater",
+          "C": "Cooking",
+          "D": "Math"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Greeks made advances in math, including geometry.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-2-q32",
+        "section": "social",
+        "question": "Why do we say the Greek legacy 'still shapes the modern world'?",
+        "choices": {
+          "A": "Because the Greeks built modern computers",
+          "B": "Because Greece is the largest country today",
+          "C": "Because no one remembers the Greeks",
+          "D": "Because their ideas in philosophy, science, theater, and government are still used today"
+        },
+        "correctAnswer": "D",
+        "explanation": "Greek ideas in philosophy, science, theater, and government are still used today, so their legacy still shapes the modern world.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-2-q33",
+        "section": "social",
+        "question": "Which Greek achievement most directly involves actors performing a story for an audience?",
+        "choices": {
+          "A": "Philosophy",
+          "B": "Math",
+          "C": "Theater",
+          "D": "The Olympics"
+        },
+        "correctAnswer": "C",
+        "explanation": "Theater involves actors performing a story for an audience.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-2-q34",
+        "section": "social",
+        "question": "A doctor today who looks for the real, natural reason a patient is sick follows the idea of which Greek?",
+        "choices": {
+          "A": "Socrates",
+          "B": "Plato",
+          "C": "Pythagoras",
+          "D": "Hippocrates"
+        },
+        "correctAnswer": "D",
+        "explanation": "Looking for natural causes of illness follows the idea of Hippocrates.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q35",
+        "section": "social",
+        "question": "Which choice lists ONLY Greek philosophers?",
+        "choices": {
+          "A": "Socrates, Confucius, and Hammurabi",
+          "B": "Plato, Cyrus, and Moses",
+          "C": "Socrates, Plato, and Aristotle",
+          "D": "Aristotle, Sargon, and Darius"
+        },
+        "correctAnswer": "C",
+        "explanation": "Socrates, Plato, and Aristotle were all Greek philosophers.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q36",
+        "section": "social",
+        "question": "The Parthenon is an example of Greek what?",
+        "choices": {
+          "A": "Olympics",
+          "B": "Medicine",
+          "C": "Philosophy",
+          "D": "Architecture"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Parthenon is an example of Greek architecture.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-2-q37",
+        "section": "social",
+        "question": "Which sentence best describes Greek myths and stories?",
+        "choices": {
+          "A": "They were lost and never written down",
+          "B": "They were all about Rome",
+          "C": "They are still told today",
+          "D": "They were only about math"
+        },
+        "correctAnswer": "C",
+        "explanation": "Greek myths and stories are still told today.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-2-q38",
+        "section": "social",
+        "question": "Compare a Greek philosopher and a Greek athlete in the Olympics. What is the main difference?",
+        "choices": {
+          "A": "The philosopher used deep thinking and questions; the athlete competed in sports",
+          "B": "Both only played sports",
+          "C": "Both only wrote laws",
+          "D": "There was no difference at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "A philosopher used deep thinking and questions, while an Olympic athlete competed in sports.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q39",
+        "section": "social",
+        "question": "Which of these best shows the Greeks' love of balance and beauty?",
+        "choices": {
+          "A": "Plain mud huts with no design",
+          "B": "The carefully designed temple called the Parthenon",
+          "C": "A simple dirt road",
+          "D": "An empty desert"
+        },
+        "correctAnswer": "B",
+        "explanation": "The carefully designed Parthenon shows the Greek love of balance and beauty.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-2-q40",
+        "section": "social",
+        "question": "Overall, why are the ancient Greeks remembered as so important?",
+        "choices": {
+          "A": "They gave the world lasting ideas in philosophy, science, government, theater, and the Olympics",
+          "B": "They never created anything new",
+          "C": "They only farmed the land",
+          "D": "They had no influence on later peoples"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Greeks are remembered for lasting ideas in philosophy, science, government, theater, and the Olympics.",
+        "standard": "SS.6.W.3.5",
+        "difficulty": "hard"
       }
     ]
   },
@@ -465,6 +1365,456 @@
         },
         "correctAnswer": "B",
         "explanation": "The cultural blending of the Hellenistic Age influenced the world for centuries.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q11",
+        "section": "social",
+        "question": "Macedonia, the home of Alexander the Great, was located where?",
+        "choices": {
+          "A": "Just north of Greece",
+          "B": "Inside Egypt",
+          "C": "In central China",
+          "D": "South of India"
+        },
+        "correctAnswer": "A",
+        "explanation": "Macedonia was a kingdom just north of Greece.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-3-q12",
+        "section": "social",
+        "question": "Around what time did Alexander begin his conquests?",
+        "choices": {
+          "A": "Around 1500 AD",
+          "B": "Around 334 BC",
+          "C": "Around the year 2000",
+          "D": "Around 50 AD"
+        },
+        "correctAnswer": "B",
+        "explanation": "Alexander began conquering his empire around 334 BC.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q13",
+        "section": "social",
+        "question": "What does the word 'Hellenistic' come from?",
+        "choices": {
+          "A": "The name of a Roman god",
+          "B": "An Egyptian city",
+          "C": "'Hellas,' the Greek word for Greece",
+          "D": "A Persian king's name"
+        },
+        "correctAnswer": "C",
+        "explanation": "'Hellenistic' comes from 'Hellas,' the Greek word for Greece.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q14",
+        "section": "social",
+        "question": "Which famous philosopher was Alexander's teacher?",
+        "choices": {
+          "A": "Socrates",
+          "B": "Plato",
+          "C": "Hippocrates",
+          "D": "Aristotle"
+        },
+        "correctAnswer": "D",
+        "explanation": "Alexander was taught by the Greek philosopher Aristotle.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q15",
+        "section": "social",
+        "question": "Alexander's empire stretched from Greece and Egypt eastward to the edge of what land?",
+        "choices": {
+          "A": "China",
+          "B": "India",
+          "C": "Spain",
+          "D": "Britain"
+        },
+        "correctAnswer": "B",
+        "explanation": "His empire reached eastward to the edge of India.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q16",
+        "section": "social",
+        "question": "Why is Alexander called one of the most famous conquerors in history?",
+        "choices": {
+          "A": "He built a huge empire and was never defeated in battle",
+          "B": "He lost every battle he fought",
+          "C": "He never left Macedonia",
+          "D": "He was a peaceful farmer"
+        },
+        "correctAnswer": "A",
+        "explanation": "Alexander built a huge empire and was never defeated in battle, making him one of history's most famous conquerors.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q17",
+        "section": "social",
+        "question": "As Alexander conquered new lands, what happened to Greek culture and local cultures?",
+        "choices": {
+          "A": "They stayed completely separate",
+          "B": "They blended and mixed together",
+          "C": "Greek culture disappeared",
+          "D": "All local cultures stayed exactly the same"
+        },
+        "correctAnswer": "B",
+        "explanation": "Greek culture blended and mixed with the cultures of Egypt, Persia, and other conquered lands.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q18",
+        "section": "social",
+        "question": "Which Egyptian city named after Alexander became a great center of learning?",
+        "choices": {
+          "A": "Memphis",
+          "B": "Thebes",
+          "C": "Alexandria",
+          "D": "Babylon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Alexandria in Egypt, named for Alexander, became a great center of learning.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q19",
+        "section": "social",
+        "question": "What is the main idea of the Hellenistic Age?",
+        "choices": {
+          "A": "Greek and Eastern cultures blended together",
+          "B": "Greece destroyed all other cultures",
+          "C": "Rome conquered Greece",
+          "D": "China spread its culture west"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Hellenistic Age was the blending of Greek and Eastern cultures.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-3-q20",
+        "section": "social",
+        "question": "Which of these was NOT spread by Alexander's armies?",
+        "choices": {
+          "A": "Greek language",
+          "B": "Greek art",
+          "C": "Greek ideas",
+          "D": "Chinese writing"
+        },
+        "correctAnswer": "D",
+        "explanation": "Alexander's armies spread Greek language, art, and ideas, not Chinese writing.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q21",
+        "section": "social",
+        "question": "A modern city where foods, languages, and customs from many cultures mix together is most like which Hellenistic place?",
+        "choices": {
+          "A": "Sparta",
+          "B": "Alexandria",
+          "C": "Marathon",
+          "D": "Macedonia"
+        },
+        "correctAnswer": "B",
+        "explanation": "Alexandria, where ideas and cultures mixed together, is most like a modern city blending many cultures.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q22",
+        "section": "social",
+        "question": "How long did the cultural blending of the Hellenistic Age affect the ancient world?",
+        "choices": {
+          "A": "For only one day",
+          "B": "For centuries",
+          "C": "It had no effect",
+          "D": "For about a week"
+        },
+        "correctAnswer": "B",
+        "explanation": "The mixing of cultures shaped the ancient world for centuries.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q23",
+        "section": "social",
+        "question": "Which best describes Alexander as a military leader?",
+        "choices": {
+          "A": "A leader who never fought",
+          "B": "Weak and often defeated",
+          "C": "Brilliant and never defeated in battle",
+          "D": "A leader who only defended Macedonia"
+        },
+        "correctAnswer": "C",
+        "explanation": "Alexander was a brilliant military leader who was never defeated in battle.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-3-q24",
+        "section": "social",
+        "question": "Put these in order: Alexander is taught by Aristotle, then what happens next?",
+        "choices": {
+          "A": "Alexander conquers a huge empire and spreads Greek culture",
+          "B": "Alexander is conquered by Persia",
+          "C": "Alexander gives up his throne",
+          "D": "Alexander destroys Greece"
+        },
+        "correctAnswer": "A",
+        "explanation": "After being taught by Aristotle, Alexander conquered a huge empire and spread Greek culture.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q25",
+        "section": "social",
+        "question": "Cause and effect: Because Alexander conquered so many lands, what was one EFFECT?",
+        "choices": {
+          "A": "All learning stopped",
+          "B": "Greece shrank to a single city",
+          "C": "Greek culture spread far and wide and blended with other cultures",
+          "D": "Greek ideas were forgotten"
+        },
+        "correctAnswer": "C",
+        "explanation": "Because Alexander conquered so many lands, Greek culture spread far and blended with other cultures.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q26",
+        "section": "social",
+        "question": "Which statement about Alexander is TRUE?",
+        "choices": {
+          "A": "He came from China",
+          "B": "He never left his home kingdom",
+          "C": "He was taught by the Greek philosopher Aristotle",
+          "D": "He built the pyramids"
+        },
+        "correctAnswer": "C",
+        "explanation": "Alexander was taught by the Greek philosopher Aristotle.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q27",
+        "section": "social",
+        "question": "The word 'Hellenistic' tells us that this age was strongly influenced by which culture?",
+        "choices": {
+          "A": "Egyptian",
+          "B": "Roman",
+          "C": "Greek",
+          "D": "Chinese"
+        },
+        "correctAnswer": "C",
+        "explanation": "Because 'Hellenistic' comes from 'Hellas,' the age was strongly influenced by Greek culture.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q28",
+        "section": "social",
+        "question": "What made cities like Alexandria special during the Hellenistic Age?",
+        "choices": {
+          "A": "They had no people",
+          "B": "They were centers of learning where ideas and cultures mixed",
+          "C": "They forbade all learning",
+          "D": "They were only military forts"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cities like Alexandria were great centers of learning where ideas, languages, and art from many cultures mixed.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q29",
+        "section": "social",
+        "question": "Which of these places was NOT part of or near Alexander's empire?",
+        "choices": {
+          "A": "Greece",
+          "B": "Egypt",
+          "C": "The edge of India",
+          "D": "The continent of North America"
+        },
+        "correctAnswer": "D",
+        "explanation": "Alexander's empire reached Greece, Egypt, and the edge of India, but not North America.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q30",
+        "section": "social",
+        "question": "How does the Hellenistic Age connect Alexander to Greek philosophy?",
+        "choices": {
+          "A": "Alexander, taught by the Greek Aristotle, spread Greek ideas as he conquered",
+          "B": "Alexander destroyed all Greek ideas",
+          "C": "Alexander hated Greek learning",
+          "D": "Alexander never met any Greek thinkers"
+        },
+        "correctAnswer": "A",
+        "explanation": "Alexander, taught by the Greek philosopher Aristotle, spread Greek ideas across his empire.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q31",
+        "section": "social",
+        "question": "Which word best describes the SIZE of Alexander's empire?",
+        "choices": {
+          "A": "Tiny",
+          "B": "Imaginary",
+          "C": "Shrinking",
+          "D": "Huge"
+        },
+        "correctAnswer": "D",
+        "explanation": "Alexander conquered a huge empire stretching from Greece to the edge of India.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-3-q32",
+        "section": "social",
+        "question": "Which sentence correctly matches a term to its meaning?",
+        "choices": {
+          "A": "Macedonia: a kingdom just north of Greece",
+          "B": "Hellenistic: a Roman emperor",
+          "C": "Alexandria: a Persian king",
+          "D": "Aristotle: a city in Egypt"
+        },
+        "correctAnswer": "A",
+        "explanation": "Macedonia was a kingdom just north of Greece, the home of Alexander.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q33",
+        "section": "social",
+        "question": "Why is Alexander important to world history even today?",
+        "choices": {
+          "A": "He had no lasting effect",
+          "B": "He stopped all trade between lands",
+          "C": "He kept every culture totally separate",
+          "D": "He spread Greek culture across a huge area, shaping the ancient world for centuries"
+        },
+        "correctAnswer": "D",
+        "explanation": "By spreading Greek culture across a huge area, Alexander shaped the ancient world for centuries.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q34",
+        "section": "social",
+        "question": "Which of these best describes a result of the Hellenistic Age?",
+        "choices": {
+          "A": "Greek language and ideas were found far beyond Greece",
+          "B": "Greece became completely cut off from the world",
+          "C": "All Greek art was destroyed",
+          "D": "Learning ended in Egypt"
+        },
+        "correctAnswer": "A",
+        "explanation": "A result of the Hellenistic Age was that Greek language and ideas spread far beyond Greece.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q35",
+        "section": "social",
+        "question": "Alexander is BEST described as which of the following?",
+        "choices": {
+          "A": "A peaceful farmer who never traveled",
+          "B": "A Greek philosopher who never fought",
+          "C": "An Egyptian pharaoh",
+          "D": "A brilliant conqueror who spread Greek culture"
+        },
+        "correctAnswer": "D",
+        "explanation": "Alexander was a brilliant conqueror who spread Greek culture across his empire.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-3-q36",
+        "section": "social",
+        "question": "Which is the correct order of events?",
+        "choices": {
+          "A": "Greek culture disappears, then Alexander spreads it",
+          "B": "The Hellenistic Age happens first, then Alexander is born",
+          "C": "Alexander conquers an empire, then Greek culture spreads and blends, creating the Hellenistic Age",
+          "D": "Alexander dies before he conquers anything"
+        },
+        "correctAnswer": "C",
+        "explanation": "Alexander conquered an empire, then Greek culture spread and blended, creating the Hellenistic Age.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q37",
+        "section": "social",
+        "question": "Which culture did Greek culture blend with as Alexander conquered the east?",
+        "choices": {
+          "A": "Inca",
+          "B": "Aztec",
+          "C": "Viking",
+          "D": "Persian"
+        },
+        "correctAnswer": "D",
+        "explanation": "Greek culture blended with Persian, Egyptian, and other Eastern cultures.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "14-3-q38",
+        "section": "social",
+        "question": "Which statement is NOT true about Alexander the Great?",
+        "choices": {
+          "A": "He came from Macedonia",
+          "B": "He was taught by Aristotle",
+          "C": "He spread Greek culture",
+          "D": "He was defeated in every battle"
+        },
+        "correctAnswer": "D",
+        "explanation": "Alexander was never defeated in battle, so saying he lost every battle is false.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "14-3-q39",
+        "section": "social",
+        "question": "If a teacher asks you to name an age when Greek and Eastern cultures came together, what should you say?",
+        "choices": {
+          "A": "The Bronze Age",
+          "B": "The Stone Age",
+          "C": "The Hellenistic Age",
+          "D": "The Ice Age"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Hellenistic Age is when Greek and Eastern cultures came together.",
+        "standard": "SS.6.W.3.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "14-3-q40",
+        "section": "social",
+        "question": "What is the BIG idea to remember about Alexander the Great?",
+        "choices": {
+          "A": "He destroyed Greek culture",
+          "B": "He spread Greek culture, creating the Hellenistic Age",
+          "C": "He never left Macedonia",
+          "D": "He had no effect on history"
+        },
+        "correctAnswer": "B",
+        "explanation": "The big idea is that Alexander the Great spread Greek culture, creating the Hellenistic Age.",
         "standard": "SS.6.W.3.7",
         "difficulty": "medium"
       }
