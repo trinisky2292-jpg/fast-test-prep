@@ -153,6 +153,456 @@
         "explanation": "Roman roads and safe travel allowed Christianity to spread widely.",
         "standard": "SS.6.W.3.13",
         "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q11",
+        "section": "social",
+        "question": "What does the word 'monotheism' mean?",
+        "choices": {
+          "A": "Belief in one God",
+          "B": "Belief in many gods",
+          "C": "Belief in no god",
+          "D": "Belief in nature spirits"
+        },
+        "correctAnswer": "A",
+        "explanation": "Monotheism means belief in one God, which Christianity teaches.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-1-q12",
+        "section": "social",
+        "question": "Judea was located in which part of the Roman Empire?",
+        "choices": {
+          "A": "The western part",
+          "B": "The eastern part",
+          "C": "The far north",
+          "D": "Outside the empire"
+        },
+        "correctAnswer": "B",
+        "explanation": "Judea was part of the eastern Roman Empire.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q13",
+        "section": "social",
+        "question": "Followers of Jesus believed he was the son of whom?",
+        "choices": {
+          "A": "The Roman emperor",
+          "B": "A famous general",
+          "C": "God",
+          "D": "A wealthy merchant"
+        },
+        "correctAnswer": "C",
+        "explanation": "Jesus's followers believed he was the son of God.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-1-q14",
+        "section": "social",
+        "question": "Which group of people lived in Judea where Christianity began?",
+        "choices": {
+          "A": "Only Roman soldiers",
+          "B": "Only Greek philosophers",
+          "C": "No people at all",
+          "D": "Many Jewish people"
+        },
+        "correctAnswer": "D",
+        "explanation": "Judea was a region where many Jewish people lived.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q15",
+        "section": "social",
+        "question": "Christianity and Judaism share a belief in what?",
+        "choices": {
+          "A": "Many gods",
+          "B": "One God",
+          "C": "Worship of the emperor",
+          "D": "No gods at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "Christianity grew out of Judaism and both share belief in one God.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q16",
+        "section": "social",
+        "question": "What did the Romans build that helped ideas travel quickly across the empire?",
+        "choices": {
+          "A": "Tall stone walls around every city",
+          "B": "Flying machines",
+          "C": "Underground tunnels only",
+          "D": "A network of well-made roads"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Romans built a huge network of well-made roads that helped ideas spread.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-1-q17",
+        "section": "social",
+        "question": "Which of the following was NOT a message Jesus taught?",
+        "choices": {
+          "A": "Love",
+          "B": "Forgiveness",
+          "C": "Kindness",
+          "D": "Conquering other lands"
+        },
+        "correctAnswer": "D",
+        "explanation": "Jesus taught love, forgiveness, and kindness, not conquest.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q18",
+        "section": "social",
+        "question": "The period of Roman peace that made travel and trade safe was called the what?",
+        "choices": {
+          "A": "Punic Wars",
+          "B": "Dark Ages",
+          "C": "Crusades",
+          "D": "Pax Romana"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Pax Romana was the period of Roman peace that made travel and trade safe.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q19",
+        "section": "social",
+        "question": "How did Christianity change in size over time after it began?",
+        "choices": {
+          "A": "It disappeared right away",
+          "B": "It stayed exactly the same forever",
+          "C": "It spread steadily and grew",
+          "D": "It shrank every year"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christianity spread steadily and grew over time.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q20",
+        "section": "social",
+        "question": "Why is it surprising that the Roman Empire helped Christianity spread?",
+        "choices": {
+          "A": "Because Rome was a small village",
+          "B": "Because the empire was an outside force, yet its roads carried the new religion's ideas",
+          "C": "Because Rome had no people",
+          "D": "Because Christianity began in China"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Roman Empire's roads and safe travel carried Christianity's ideas, helping a new religion spread.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-1-q21",
+        "section": "social",
+        "question": "What is an 'apostle' like Paul best described as?",
+        "choices": {
+          "A": "A Roman emperor",
+          "B": "A follower who traveled to share Jesus's teachings",
+          "C": "An enemy general",
+          "D": "A road builder"
+        },
+        "correctAnswer": "B",
+        "explanation": "An apostle like Paul was a follower who traveled to share Jesus's teachings.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q22",
+        "section": "social",
+        "question": "A new town is connected to Rome by a safe, well-built road. Based on the lesson, what is MOST likely to happen?",
+        "choices": {
+          "A": "The town would never hear of Christianity",
+          "B": "All roads would be destroyed",
+          "C": "The town would leave the empire",
+          "D": "Christian ideas could reach that town more easily"
+        },
+        "correctAnswer": "D",
+        "explanation": "Safe, well-built roads let Christian ideas reach new towns more easily.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-1-q23",
+        "section": "social",
+        "question": "Which sentence correctly compares the start and later spread of Christianity?",
+        "choices": {
+          "A": "It started large and shrank to a small group",
+          "B": "It started small but spread widely across the empire",
+          "C": "It started and stayed the same the whole time",
+          "D": "It started in Spain and stayed there"
+        },
+        "correctAnswer": "B",
+        "explanation": "Christianity started small but spread widely across the empire.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q24",
+        "section": "social",
+        "question": "Which is the BEST example of how roads and trade routes helped Christianity?",
+        "choices": {
+          "A": "A traveler carries Jesus's teachings along a road to a new city",
+          "B": "A farmer plants wheat in a field",
+          "C": "Soldiers build a wall around a fort",
+          "D": "A king collects taxes"
+        },
+        "correctAnswer": "A",
+        "explanation": "A traveler carrying Jesus's teachings along a road shows how roads helped spread the religion.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q25",
+        "section": "social",
+        "question": "Which religion did Christianity grow OUT of?",
+        "choices": {
+          "A": "Buddhism",
+          "B": "Hinduism",
+          "C": "Roman state religion",
+          "D": "Judaism"
+        },
+        "correctAnswer": "D",
+        "explanation": "Christianity grew out of Judaism.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-1-q26",
+        "section": "social",
+        "question": "Put these in the correct order: Christianity began, then it _______.",
+        "choices": {
+          "A": "disappeared before anyone heard it",
+          "B": "started in China and moved to Rome",
+          "C": "became the first religion ever created",
+          "D": "spread along Roman roads to new places"
+        },
+        "correctAnswer": "D",
+        "explanation": "Christianity began in Judea and then spread along Roman roads to new places.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q27",
+        "section": "social",
+        "question": "Which statement about Jesus's teachings is TRUE?",
+        "choices": {
+          "A": "He taught people to treat others well",
+          "B": "He taught people to worship many gods",
+          "C": "He taught people to conquer Rome",
+          "D": "He taught that there was no God"
+        },
+        "correctAnswer": "A",
+        "explanation": "Jesus taught people to treat others well.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-1-q28",
+        "section": "social",
+        "question": "If the Romans had NOT built safe roads, what might have happened to Christianity's spread?",
+        "choices": {
+          "A": "It might have spread more slowly",
+          "B": "It would have spread even faster",
+          "C": "It would have reached every land instantly",
+          "D": "Roads have nothing to do with ideas"
+        },
+        "correctAnswer": "A",
+        "explanation": "Without safe roads, Christianity's ideas might have spread more slowly.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-1-q29",
+        "section": "social",
+        "question": "Which word best describes Christianity at its very beginning?",
+        "choices": {
+          "A": "Huge",
+          "B": "Empire-wide",
+          "C": "Small",
+          "D": "Forbidden everywhere forever"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christianity began as a small group of followers.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-1-q30",
+        "section": "social",
+        "question": "Which pair correctly matches a place with what happened there?",
+        "choices": {
+          "A": "Egypt — where Christianity began",
+          "B": "Spain — where Jesus was born",
+          "C": "Judea — where Christianity began",
+          "D": "Gaul — where Judaism started"
+        },
+        "correctAnswer": "C",
+        "explanation": "Judea is where Christianity began.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q31",
+        "section": "social",
+        "question": "Besides roads, what else made Roman travel and trade safe and easy?",
+        "choices": {
+          "A": "Constant warfare everywhere",
+          "B": "The peace of the Pax Romana",
+          "C": "A ban on all movement",
+          "D": "Heavy snow year-round"
+        },
+        "correctAnswer": "B",
+        "explanation": "The peace of the Pax Romana made travel and trade safe and easy.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q32",
+        "section": "social",
+        "question": "Which of these is NOT true about the beginnings of Christianity?",
+        "choices": {
+          "A": "It began in Judea",
+          "B": "It grew from Judaism",
+          "C": "It began as a large empire-wide religion",
+          "D": "It followed the teachings of Jesus"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christianity did NOT begin large; it began as a small group.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-1-q33",
+        "section": "social",
+        "question": "Why did Jesus's followers travel to other places?",
+        "choices": {
+          "A": "To collect Roman taxes",
+          "B": "To share his teachings with new people",
+          "C": "To build new roads",
+          "D": "To start a war"
+        },
+        "correctAnswer": "B",
+        "explanation": "Jesus's followers traveled to share his teachings with new people.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q34",
+        "section": "social",
+        "question": "Christianity shares belief in one God with Judaism. This is an example of what kind of connection?",
+        "choices": {
+          "A": "Two religions that have nothing in common",
+          "B": "A military alliance",
+          "C": "A trade agreement",
+          "D": "A shared belief between two religions"
+        },
+        "correctAnswer": "D",
+        "explanation": "Believing in one God is a shared belief between Christianity and Judaism.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q35",
+        "section": "social",
+        "question": "Which best completes the cause-and-effect chain: 'Romans built safe roads, SO ____.'",
+        "choices": {
+          "A": "no one could leave their home",
+          "B": "all religions were banned",
+          "C": "ideas like Christianity could travel quickly",
+          "D": "Judea disappeared"
+        },
+        "correctAnswer": "C",
+        "explanation": "Safe roads meant ideas like Christianity could travel quickly.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q36",
+        "section": "social",
+        "question": "Which person is known as a teacher who helped spread early Christianity?",
+        "choices": {
+          "A": "Hannibal",
+          "B": "Julius Caesar",
+          "C": "The apostle Paul",
+          "D": "Constantine's army"
+        },
+        "correctAnswer": "C",
+        "explanation": "The apostle Paul was a teacher who helped spread early Christianity.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q37",
+        "section": "social",
+        "question": "Which statement BEST summarizes the lesson?",
+        "choices": {
+          "A": "Christianity began in China and never spread",
+          "B": "Christianity began in Judea, grew from Judaism, and spread along Roman roads",
+          "C": "Christianity worshiped many gods and stayed small forever",
+          "D": "Christianity was created by Roman road builders"
+        },
+        "correctAnswer": "B",
+        "explanation": "Christianity began in Judea, grew from Judaism, and spread along Roman roads.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-1-q38",
+        "section": "social",
+        "question": "A merchant travels a Roman trade route and hears about Jesus from another traveler. This shows that trade routes did what?",
+        "choices": {
+          "A": "Stopped all new ideas",
+          "B": "Helped spread new ideas like Christianity",
+          "C": "Were never used by people",
+          "D": "Only carried gold, never ideas"
+        },
+        "correctAnswer": "B",
+        "explanation": "Trade routes helped spread new ideas like Christianity from person to person.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q39",
+        "section": "social",
+        "question": "Which describes the relationship between Judaism and Christianity?",
+        "choices": {
+          "A": "Christianity grew out of Judaism",
+          "B": "Judaism grew out of Christianity",
+          "C": "They have no connection at all",
+          "D": "They both worship many gods"
+        },
+        "correctAnswer": "A",
+        "explanation": "Christianity grew out of Judaism.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-1-q40",
+        "section": "social",
+        "question": "Which detail explains WHY Christianity was able to reach far parts of the empire?",
+        "choices": {
+          "A": "There were no people in the empire",
+          "B": "Travel was dangerous and slow everywhere",
+          "C": "Safe roads and trade routes let its ideas travel quickly",
+          "D": "Rome forbade anyone from traveling"
+        },
+        "correctAnswer": "C",
+        "explanation": "Safe roads and trade routes let Christianity's ideas travel quickly to far parts of the empire.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
       }
     ]
   },
@@ -308,6 +758,456 @@
         },
         "correctAnswer": "B",
         "explanation": "Legalizing Christianity ended persecution and helped it spread.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q11",
+        "section": "social",
+        "question": "What was the name of the law by which Constantine made Christianity legal?",
+        "choices": {
+          "A": "The Edict of Milan",
+          "B": "The Twelve Tables",
+          "C": "The Magna Carta",
+          "D": "The Code of Hammurabi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Constantine made Christianity legal through the Edict of Milan.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q12",
+        "section": "social",
+        "question": "In about what time period did Constantine make Christianity legal?",
+        "choices": {
+          "A": "The early 1000s AD",
+          "B": "The early 300s AD",
+          "C": "Before any people existed",
+          "D": "The year 2000 AD"
+        },
+        "correctAnswer": "B",
+        "explanation": "Constantine made Christianity legal in the early 300s AD.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q13",
+        "section": "social",
+        "question": "Which ideas in Christianity's message especially gave people hope?",
+        "choices": {
+          "A": "Higher taxes for everyone",
+          "B": "More wars to fight",
+          "C": "Equality and the promise of an afterlife",
+          "D": "Worship of the emperor"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christianity's message of hope, equality, and an afterlife appealed to many people.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q14",
+        "section": "social",
+        "question": "Which of the following did NOT happen to Christianity in the Roman Empire?",
+        "choices": {
+          "A": "It was first persecuted",
+          "B": "It was made legal by Constantine",
+          "C": "It later became the official religion",
+          "D": "It was completely destroyed and forgotten"
+        },
+        "correctAnswer": "D",
+        "explanation": "Christianity was not destroyed; it grew and became Rome's official religion.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q15",
+        "section": "social",
+        "question": "What did Constantine's support of Christianity allow the religion to do?",
+        "choices": {
+          "A": "Disappear quietly",
+          "B": "Shrink to a few people",
+          "C": "Spread to millions of people",
+          "D": "Move only to India"
+        },
+        "correctAnswer": "C",
+        "explanation": "With Constantine's support, Christianity spread to millions of people.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q16",
+        "section": "social",
+        "question": "Christians were persecuted mainly because they refused to do what?",
+        "choices": {
+          "A": "Worship the Roman gods or the emperor",
+          "B": "Pay any taxes ever",
+          "C": "Build any roads",
+          "D": "Eat Roman food"
+        },
+        "correctAnswer": "A",
+        "explanation": "Christians refused to worship the Roman gods or the emperor.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q17",
+        "section": "social",
+        "question": "Put these events in the correct order.",
+        "choices": {
+          "A": "Constantine legalized it, then Christians were first persecuted",
+          "B": "Christians were first persecuted, then Constantine made Christianity legal",
+          "C": "Christianity was the official religion, then it began",
+          "D": "Christianity was banned, then it was never heard of again"
+        },
+        "correctAnswer": "B",
+        "explanation": "First Christians were persecuted, then Constantine made Christianity legal.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q18",
+        "section": "social",
+        "question": "What does it mean that Christianity became the 'official' religion of Rome?",
+        "choices": {
+          "A": "It was the main religion supported by the empire",
+          "B": "It was banned by the empire",
+          "C": "It was practiced only in secret",
+          "D": "It was the smallest religion in Rome"
+        },
+        "correctAnswer": "A",
+        "explanation": "Being the official religion meant it was the main religion supported by the empire.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q19",
+        "section": "social",
+        "question": "Why was Constantine's decision a 'turning point' for Christianity?",
+        "choices": {
+          "A": "It made Christianity illegal again",
+          "B": "It had no real effect",
+          "C": "It ended official persecution and let the faith grow freely",
+          "D": "It forced everyone to worship Roman gods"
+        },
+        "correctAnswer": "C",
+        "explanation": "Constantine's decision ended official persecution and let the faith grow freely.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q20",
+        "section": "social",
+        "question": "Which of these is the BEST example of persecution?",
+        "choices": {
+          "A": "Christians being given free land",
+          "B": "Christians being elected to office",
+          "C": "Christians being paid in gold",
+          "D": "Christians being punished for their beliefs"
+        },
+        "correctAnswer": "D",
+        "explanation": "Being punished for one's beliefs is an example of persecution.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q21",
+        "section": "social",
+        "question": "Imagine a poor person in the Roman Empire. Why might Christianity's message appeal to them?",
+        "choices": {
+          "A": "It promised them an army to command",
+          "B": "It offered hope, equality, and a promise of an afterlife",
+          "C": "It made them a Roman emperor",
+          "D": "It gave them a palace right away"
+        },
+        "correctAnswer": "B",
+        "explanation": "Christianity offered hope, equality, and the promise of an afterlife, which appealed to the poor.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q22",
+        "section": "social",
+        "question": "Which statement compares Christianity BEFORE and AFTER Constantine?",
+        "choices": {
+          "A": "Before, it was official; after, it was banned",
+          "B": "Before and after, it was always illegal",
+          "C": "Before, it was persecuted; after, it was legal and growing",
+          "D": "It never changed in any way"
+        },
+        "correctAnswer": "C",
+        "explanation": "Before Constantine, Christianity was persecuted; after, it was legal and growing.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q23",
+        "section": "social",
+        "question": "What happened to the number of Christians across the empire over time?",
+        "choices": {
+          "A": "It steadily increased",
+          "B": "It dropped to zero",
+          "C": "It stayed exactly the same",
+          "D": "It was always larger than the whole empire"
+        },
+        "correctAnswer": "A",
+        "explanation": "The number of Christians steadily increased across the empire.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-2-q24",
+        "section": "social",
+        "question": "The spread of Christianity 'reshaped' the ancient world. What does 'reshaped' mean here?",
+        "choices": {
+          "A": "Made no difference",
+          "B": "Cut into small pieces",
+          "C": "Built new roads",
+          "D": "Changed the culture and beliefs"
+        },
+        "correctAnswer": "D",
+        "explanation": "'Reshaped' means it changed the culture and beliefs of the ancient world.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q25",
+        "section": "social",
+        "question": "Which best describes a Christian during the time of persecution?",
+        "choices": {
+          "A": "Someone rewarded by Rome for their faith",
+          "B": "Someone who could be punished for their beliefs",
+          "C": "Someone forced to become emperor",
+          "D": "Someone who worshiped many Roman gods"
+        },
+        "correctAnswer": "B",
+        "explanation": "During persecution, a Christian could be punished for their beliefs.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-2-q26",
+        "section": "social",
+        "question": "Which of these is NOT a reason Christianity appealed to many people?",
+        "choices": {
+          "A": "It offered hope",
+          "B": "It taught equality",
+          "C": "It promised an afterlife",
+          "D": "It promised great wealth and an army"
+        },
+        "correctAnswer": "D",
+        "explanation": "Christianity appealed through hope, equality, and an afterlife, not wealth and armies.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q27",
+        "section": "social",
+        "question": "What does the word 'legal' mean when we say Constantine made Christianity legal?",
+        "choices": {
+          "A": "Allowed by law",
+          "B": "Forbidden by law",
+          "C": "Kept totally secret",
+          "D": "Destroyed by law"
+        },
+        "correctAnswer": "A",
+        "explanation": "'Legal' means allowed by law.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-2-q28",
+        "section": "social",
+        "question": "If a religion is 'persecuted' but still 'keeps growing,' what does that show?",
+        "choices": {
+          "A": "That the religion disappeared",
+          "B": "That punishment instantly stopped all believers",
+          "C": "That its message was strong enough to attract people despite hardship",
+          "D": "That no one ever believed in it"
+        },
+        "correctAnswer": "C",
+        "explanation": "Growing despite persecution shows the message was strong enough to attract people despite hardship.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q29",
+        "section": "social",
+        "question": "Which emperor is remembered for supporting Christianity and helping it spread?",
+        "choices": {
+          "A": "Hannibal",
+          "B": "Augustus",
+          "C": "Julius Caesar",
+          "D": "Constantine"
+        },
+        "correctAnswer": "D",
+        "explanation": "Constantine supported Christianity and helped it spread.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-2-q30",
+        "section": "social",
+        "question": "Which sentence shows cause and effect correctly?",
+        "choices": {
+          "A": "Christians worshiped Roman gods, SO they were persecuted",
+          "B": "Constantine banned Christianity, SO it became legal",
+          "C": "Christianity shrank, SO it became the official religion",
+          "D": "Christians refused to worship Roman gods, SO the government saw them as a threat"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because Christians refused to worship Roman gods, the government saw them as a threat.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q31",
+        "section": "social",
+        "question": "Before Constantine, how did the Roman government view Christianity?",
+        "choices": {
+          "A": "As the official state religion",
+          "B": "As a threat",
+          "C": "As a harmless hobby it encouraged",
+          "D": "As a branch of Roman law"
+        },
+        "correctAnswer": "B",
+        "explanation": "Before Constantine, the Roman government saw Christianity as a threat.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q32",
+        "section": "social",
+        "question": "Which is the BEST summary of how Christianity changed in Rome?",
+        "choices": {
+          "A": "It began as the official religion and was then banned",
+          "B": "It stayed small and persecuted the entire time",
+          "C": "It went from persecuted to legal to the official religion",
+          "D": "It was created by Constantine from nothing"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christianity went from persecuted, to legal, to the official religion of Rome.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q33",
+        "section": "social",
+        "question": "What does 'afterlife' mean in Christianity's message of hope?",
+        "choices": {
+          "A": "A life after death",
+          "B": "A new emperor",
+          "C": "A second job",
+          "D": "A type of Roman road"
+        },
+        "correctAnswer": "A",
+        "explanation": "'Afterlife' means a life after death, part of Christianity's message of hope.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "easy"
+      },
+      {
+        "id": "16-2-q34",
+        "section": "social",
+        "question": "A historian says Christianity became 'one of the most powerful and widespread religions in history.' What does this describe?",
+        "choices": {
+          "A": "Its disappearance",
+          "B": "Its failure to spread",
+          "C": "How it stayed tiny",
+          "D": "Its huge growth and influence over time"
+        },
+        "correctAnswer": "D",
+        "explanation": "This describes Christianity's huge growth and influence over time.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q35",
+        "section": "social",
+        "question": "Which statement is TRUE about Christianity after Constantine?",
+        "choices": {
+          "A": "It was banned forever",
+          "B": "Official persecution had ended",
+          "C": "It vanished from the empire",
+          "D": "It worshiped many gods"
+        },
+        "correctAnswer": "B",
+        "explanation": "After Constantine, official persecution of Christianity had ended.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q36",
+        "section": "social",
+        "question": "Which group did Christianity's promise of equality most likely comfort?",
+        "choices": {
+          "A": "Only the richest nobles",
+          "B": "Only the emperor's family",
+          "C": "The poor and powerless",
+          "D": "Only Roman generals"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christianity's promise of equality comforted the poor and powerless.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q37",
+        "section": "social",
+        "question": "Why did Christianity NOT die out during the years of persecution?",
+        "choices": {
+          "A": "Rome paid people to join it",
+          "B": "There was no persecution at all",
+          "C": "Constantine started it that year",
+          "D": "Its message of hope kept attracting new believers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Its message of hope kept attracting new believers, so it did not die out.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q38",
+        "section": "social",
+        "question": "Which event came LAST in Christianity's story in Rome?",
+        "choices": {
+          "A": "Christians were persecuted",
+          "B": "Christianity became the official religion of the empire",
+          "C": "Christianity began in Judea",
+          "D": "Constantine first made it legal"
+        },
+        "correctAnswer": "B",
+        "explanation": "Becoming the official religion of the empire came last in this sequence.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "hard"
+      },
+      {
+        "id": "16-2-q39",
+        "section": "social",
+        "question": "Which best describes how the Roman government's view of Christianity changed?",
+        "choices": {
+          "A": "It went from seeing it as a threat to supporting it",
+          "B": "It always fully supported Christianity",
+          "C": "It always wanted to destroy Christianity and never stopped",
+          "D": "It never had any opinion about Christianity"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Roman government changed from seeing Christianity as a threat to supporting it.",
+        "standard": "SS.6.W.3.13",
+        "difficulty": "medium"
+      },
+      {
+        "id": "16-2-q40",
+        "section": "social",
+        "question": "Which sentence BEST captures the main idea of this lesson?",
+        "choices": {
+          "A": "Christianity was always the official religion and never changed",
+          "B": "Christianity stayed small and was never legalized",
+          "C": "Christians were first persecuted, then Constantine made Christianity legal and it spread widely",
+          "D": "Constantine destroyed Christianity in the early 300s AD"
+        },
+        "correctAnswer": "C",
+        "explanation": "Christians were first persecuted, then Constantine made Christianity legal and it spread widely.",
         "standard": "SS.6.W.3.13",
         "difficulty": "medium"
       }
