@@ -2,106 +2,4236 @@
   "4-1": {
     "learn": "Worked Example 1: Is x = 9 a solution to x + 4 = 13?\nStep 1: An equation is true when both sides are equal. Substitute x = 9.\nStep 2: 9 + 4 = 13.\nStep 3: 13 = 13. Both sides match, so YES, x = 9 is a solution.\n\nWorked Example 2: Which value is the solution to 5n = 30: n = 5 or n = 6?\nStep 1: Test n = 5: 5 x 5 = 25. But 25 is not 30, so n = 5 is NOT the solution.\nStep 2: Test n = 6: 5 x 6 = 30. 30 = 30, true.\nStep 3: So n = 6 is the solution.\n\nWorked Example 3: Tell whether y = 2 makes the equation 8 - y = 5 true.\nStep 1: Substitute y = 2: 8 - 2 = 6.\nStep 2: 6 = 5? No, 6 is not equal to 5.\nStep 3: So y = 2 is NOT a solution.",
     "questions": [
-      {"id":"4-1-q1","section":"math","question":"Which of these is an equation?","choices":{"A":"3 + 4","B":"x - 7","C":"2x + 1 = 9","D":"5x"},"correctAnswer":"C","explanation":"An equation must have an equals sign (=). Only 2x + 1 = 9 has one; the others are just expressions.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-1-q2","section":"math","question":"Is x = 5 a solution to x + 3 = 8?","choices":{"A":"Yes, because 5 + 3 = 8","B":"No, because 5 + 3 = 9","C":"Yes, because 5 + 8 = 13","D":"No, because 5 - 3 = 2"},"correctAnswer":"A","explanation":"Substitute x = 5: 5 + 3 = 8, and 8 = 8 is true, so x = 5 is a solution.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-1-q3","section":"math","question":"What is the solution to the equation 6x = 24?","choices":{"A":"x = 3","B":"x = 4","C":"x = 6","D":"x = 18"},"correctAnswer":"B","explanation":"A solution makes the equation true. Test x = 4: 6 x 4 = 24, which is true. So x = 4.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-1-q4","section":"math","question":"Which value of n makes n - 5 = 10 true?","choices":{"A":"n = 5","B":"n = 10","C":"n = 15","D":"n = 50"},"correctAnswer":"C","explanation":"Test n = 15: 15 - 5 = 10, which is true. So n = 15 is the solution.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-1-q5","section":"math","question":"Is y = 7 a solution to 2y = 16?","choices":{"A":"Yes, because 2 x 7 = 16","B":"No, because 2 x 7 = 14","C":"Yes, because 7 + 2 = 9","D":"No, because 16 - 7 = 9"},"correctAnswer":"B","explanation":"Substitute y = 7: 2 x 7 = 14, not 16. Since 14 is not equal to 16, y = 7 is NOT a solution.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-1-q6","section":"math","question":"Which equation has x = 0 as its solution?","choices":{"A":"x + 5 = 5","B":"x + 5 = 10","C":"x - 5 = 5","D":"2x = 4"},"correctAnswer":"A","explanation":"Test x = 0 in x + 5 = 5: 0 + 5 = 5, true. The others give false statements when x = 0.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-1-q7","section":"math","question":"A solution to an equation is a value that...","choices":{"A":"makes the left side bigger than the right","B":"makes both sides equal","C":"removes the equals sign","D":"is always a whole number"},"correctAnswer":"B","explanation":"A solution is the value of the variable that makes both sides of the equation equal (true).","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-1-q8","section":"math","question":"Which value of x makes 3x + 1 = 10 true?","choices":{"A":"x = 2","B":"x = 3","C":"x = 4","D":"x = 9"},"correctAnswer":"B","explanation":"Test x = 3: 3 x 3 + 1 = 9 + 1 = 10, which is true. So x = 3 is the solution.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-1-q9","section":"math","question":"Marcus says w = 12 is a solution to w / 2 = 6. Is he correct?","choices":{"A":"Yes, because 12 / 2 = 6","B":"No, because 12 / 2 = 4","C":"No, because 12 x 2 = 24","D":"Yes, because 6 + 2 = 12"},"correctAnswer":"A","explanation":"Substitute w = 12: 12 / 2 = 6, and 6 = 6 is true. Marcus is correct.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-1-q10","section":"math","question":"Which value of x is NOT a solution to x + 8 = 12?","choices":{"A":"x = 4","B":"x = 3","C":"x = 4 is the only solution, so 3 is not","D":"Both 3 and 5"},"correctAnswer":"B","explanation":"The only solution is x = 4 because 4 + 8 = 12. x = 3 gives 3 + 8 = 11, which is false, so 3 is NOT a solution.","standard":"MA.6.AR.2.1","difficulty":"hard"}
+      {
+        "id": "4-1-q1",
+        "section": "math",
+        "question": "Which of these is an equation?",
+        "choices": {
+          "A": "3 + 4",
+          "B": "x - 7",
+          "C": "2x + 1 = 9",
+          "D": "5x"
+        },
+        "correctAnswer": "C",
+        "explanation": "An equation must have an equals sign (=). Only 2x + 1 = 9 has one; the others are just expressions.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q2",
+        "section": "math",
+        "question": "Is x = 5 a solution to x + 3 = 8?",
+        "choices": {
+          "A": "Yes, because 5 + 3 = 8",
+          "B": "No, because 5 + 3 = 9",
+          "C": "Yes, because 5 + 8 = 13",
+          "D": "No, because 5 - 3 = 2"
+        },
+        "correctAnswer": "A",
+        "explanation": "Substitute x = 5: 5 + 3 = 8, and 8 = 8 is true, so x = 5 is a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q3",
+        "section": "math",
+        "question": "What is the solution to the equation 6x = 24?",
+        "choices": {
+          "A": "x = 3",
+          "B": "x = 4",
+          "C": "x = 6",
+          "D": "x = 18"
+        },
+        "correctAnswer": "B",
+        "explanation": "A solution makes the equation true. Test x = 4: 6 x 4 = 24, which is true. So x = 4.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q4",
+        "section": "math",
+        "question": "Which value of n makes n - 5 = 10 true?",
+        "choices": {
+          "A": "n = 5",
+          "B": "n = 10",
+          "C": "n = 15",
+          "D": "n = 50"
+        },
+        "correctAnswer": "C",
+        "explanation": "Test n = 15: 15 - 5 = 10, which is true. So n = 15 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q5",
+        "section": "math",
+        "question": "Is y = 7 a solution to 2y = 16?",
+        "choices": {
+          "A": "Yes, because 2 x 7 = 16",
+          "B": "No, because 2 x 7 = 14",
+          "C": "Yes, because 7 + 2 = 9",
+          "D": "No, because 16 - 7 = 9"
+        },
+        "correctAnswer": "B",
+        "explanation": "Substitute y = 7: 2 x 7 = 14, not 16. Since 14 is not equal to 16, y = 7 is NOT a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q6",
+        "section": "math",
+        "question": "Which equation has x = 0 as its solution?",
+        "choices": {
+          "A": "x + 5 = 5",
+          "B": "x + 5 = 10",
+          "C": "x - 5 = 5",
+          "D": "2x = 4"
+        },
+        "correctAnswer": "A",
+        "explanation": "Test x = 0 in x + 5 = 5: 0 + 5 = 5, true. The others give false statements when x = 0.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q7",
+        "section": "math",
+        "question": "A solution to an equation is a value that...",
+        "choices": {
+          "A": "makes the left side bigger than the right",
+          "B": "makes both sides equal",
+          "C": "removes the equals sign",
+          "D": "is always a whole number"
+        },
+        "correctAnswer": "B",
+        "explanation": "A solution is the value of the variable that makes both sides of the equation equal (true).",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q8",
+        "section": "math",
+        "question": "Which value of x makes 3x + 1 = 10 true?",
+        "choices": {
+          "A": "x = 2",
+          "B": "x = 3",
+          "C": "x = 4",
+          "D": "x = 9"
+        },
+        "correctAnswer": "B",
+        "explanation": "Test x = 3: 3 x 3 + 1 = 9 + 1 = 10, which is true. So x = 3 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q9",
+        "section": "math",
+        "question": "Marcus says w = 12 is a solution to w / 2 = 6. Is he correct?",
+        "choices": {
+          "A": "Yes, because 12 / 2 = 6",
+          "B": "No, because 12 / 2 = 4",
+          "C": "No, because 12 x 2 = 24",
+          "D": "Yes, because 6 + 2 = 12"
+        },
+        "correctAnswer": "A",
+        "explanation": "Substitute w = 12: 12 / 2 = 6, and 6 = 6 is true. Marcus is correct.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q10",
+        "section": "math",
+        "question": "Which value of x is NOT a solution to x + 8 = 12?",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 3",
+          "C": "x = 4 is the only solution, so 3 is not",
+          "D": "Both 3 and 5"
+        },
+        "correctAnswer": "B",
+        "explanation": "The only solution is x = 4 because 4 + 8 = 12. x = 3 gives 3 + 8 = 11, which is false, so 3 is NOT a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q11",
+        "section": "math",
+        "question": "Which of these is an equation, not just an expression?",
+        "choices": {
+          "A": "6 + 2",
+          "B": "4y",
+          "C": "y - 1",
+          "D": "7y = 21"
+        },
+        "correctAnswer": "D",
+        "explanation": "An equation needs an equals sign (=). Only 7y = 21 has one. The others are expressions.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q12",
+        "section": "math",
+        "question": "Is x = 6 a solution to x + 2 = 8?",
+        "choices": {
+          "A": "No, because 6 + 2 = 9",
+          "B": "No, because 6 + 8 = 14",
+          "C": "Yes, because 6 - 2 = 4",
+          "D": "Yes, because 6 + 2 = 8"
+        },
+        "correctAnswer": "D",
+        "explanation": "Substitute x = 6: 6 + 2 = 8, and 8 = 8 is true. So x = 6 is a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q13",
+        "section": "math",
+        "question": "What is the solution to the equation 4x = 20?",
+        "choices": {
+          "A": "x = 16",
+          "B": "x = 24",
+          "C": "x = 5",
+          "D": "x = 80"
+        },
+        "correctAnswer": "C",
+        "explanation": "Test x = 5: 4 x 5 = 20, which is true. So x = 5 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q14",
+        "section": "math",
+        "question": "Which value of n makes n - 7 = 3 true?",
+        "choices": {
+          "A": "n = 10",
+          "B": "n = 4",
+          "C": "n = 21",
+          "D": "n = 73"
+        },
+        "correctAnswer": "A",
+        "explanation": "Test n = 10: 10 - 7 = 3, which is true. So n = 10 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q15",
+        "section": "math",
+        "question": "Which symbol must every equation contain?",
+        "choices": {
+          "A": "a plus sign +",
+          "B": "an equals sign =",
+          "C": "a variable letter",
+          "D": "a minus sign -"
+        },
+        "correctAnswer": "B",
+        "explanation": "By definition, an equation states that two things are equal, so it must contain an equals sign (=).",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q16",
+        "section": "math",
+        "question": "Is y = 3 a solution to 2y = 6?",
+        "choices": {
+          "A": "Yes, because 2 x 3 = 6",
+          "B": "No, because 2 x 3 = 5",
+          "C": "No, because 3 + 2 = 5",
+          "D": "Yes, because 6 - 3 = 3"
+        },
+        "correctAnswer": "A",
+        "explanation": "Substitute y = 3: 2 x 3 = 6, and 6 = 6 is true. So y = 3 is a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q17",
+        "section": "math",
+        "question": "Which value of x makes x - 1 = 0 true?",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 1",
+          "C": "x = -1",
+          "D": "x = 10"
+        },
+        "correctAnswer": "B",
+        "explanation": "Test x = 1: 1 - 1 = 0, which is true. So x = 1 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q18",
+        "section": "math",
+        "question": "Which of these is NOT an equation?",
+        "choices": {
+          "A": "x + 1 = 5",
+          "B": "3 = 3",
+          "C": "2x - 4",
+          "D": "5y = 10"
+        },
+        "correctAnswer": "C",
+        "explanation": "2x - 4 has no equals sign, so it is an expression, not an equation. The others all contain =.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q19",
+        "section": "math",
+        "question": "Is x = 8 a solution to x + 5 = 12?",
+        "choices": {
+          "A": "Yes, because 8 + 5 = 12",
+          "B": "No, because 8 + 5 = 13",
+          "C": "Yes, because 8 + 12 = 20",
+          "D": "No, because 8 - 5 = 3"
+        },
+        "correctAnswer": "B",
+        "explanation": "Substitute x = 8: 8 + 5 = 13, not 12. Since 13 is not 12, x = 8 is NOT a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q20",
+        "section": "math",
+        "question": "Which value of x makes 2x + 3 = 11 true?",
+        "choices": {
+          "A": "x = 3",
+          "B": "x = 7",
+          "C": "x = 5",
+          "D": "x = 4"
+        },
+        "correctAnswer": "D",
+        "explanation": "Test x = 4: 2 x 4 + 3 = 8 + 3 = 11, which is true. So x = 4 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q21",
+        "section": "math",
+        "question": "Which equation has x = 10 as its solution?",
+        "choices": {
+          "A": "x - 4 = 6",
+          "B": "x + 4 = 6",
+          "C": "x - 4 = 14",
+          "D": "2x = 10"
+        },
+        "correctAnswer": "A",
+        "explanation": "Test x = 10 in x - 4 = 6: 10 - 4 = 6, true. The others are false when x = 10.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q22",
+        "section": "math",
+        "question": "Sara says n = 8 is a solution to 3n = 24. Is she correct?",
+        "choices": {
+          "A": "Yes, because 3 x 8 = 24",
+          "B": "No, because 8 + 3 = 11",
+          "C": "No, because 3 x 8 = 21",
+          "D": "Yes, because 24 - 8 = 16"
+        },
+        "correctAnswer": "A",
+        "explanation": "Substitute n = 8: 3 x 8 = 24, and 24 = 24 is true. Sara is correct.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q23",
+        "section": "math",
+        "question": "Which value of w makes w / 3 = 4 true?",
+        "choices": {
+          "A": "w = 7",
+          "B": "w = 1",
+          "C": "w = 12",
+          "D": "w = 43"
+        },
+        "correctAnswer": "C",
+        "explanation": "Test w = 12: 12 / 3 = 4, which is true. So w = 12 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q24",
+        "section": "math",
+        "question": "Is x = 2 a solution to 9 - x = 7?",
+        "choices": {
+          "A": "Yes, because 9 - 2 = 7",
+          "B": "No, because 9 - 2 = 6",
+          "C": "No, because 9 + 2 = 11",
+          "D": "Yes, because 2 + 7 = 9 only"
+        },
+        "correctAnswer": "A",
+        "explanation": "Substitute x = 2: 9 - 2 = 7, and 7 = 7 is true. So x = 2 is a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q25",
+        "section": "math",
+        "question": "Which value of x makes 5x = 45 true?",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 50",
+          "C": "x = 40",
+          "D": "x = 9"
+        },
+        "correctAnswer": "D",
+        "explanation": "Test x = 9: 5 x 9 = 45, which is true. So x = 9 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q26",
+        "section": "math",
+        "question": "Which value of n makes n + 6 = 6 true?",
+        "choices": {
+          "A": "n = 0",
+          "B": "n = 6",
+          "C": "n = 12",
+          "D": "n = 1"
+        },
+        "correctAnswer": "A",
+        "explanation": "Test n = 0: 0 + 6 = 6, which is true. So n = 0 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q27",
+        "section": "math",
+        "question": "Is y = 5 a solution to 4y = 20?",
+        "choices": {
+          "A": "No, because 4 x 5 = 25",
+          "B": "Yes, because 4 x 5 = 20",
+          "C": "No, because 5 + 4 = 9",
+          "D": "Yes, because 20 - 5 = 15"
+        },
+        "correctAnswer": "B",
+        "explanation": "Substitute y = 5: 4 x 5 = 20, and 20 = 20 is true. So y = 5 is a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q28",
+        "section": "math",
+        "question": "Which value of x makes x / 5 = 3 true?",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 2",
+          "C": "x = 15",
+          "D": "x = 53"
+        },
+        "correctAnswer": "C",
+        "explanation": "Test x = 15: 15 / 5 = 3, which is true. So x = 15 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q29",
+        "section": "math",
+        "question": "Which value of x makes the equation 10 = x + 4 true?",
+        "choices": {
+          "A": "x = 14",
+          "B": "x = 6",
+          "C": "x = 4",
+          "D": "x = 40"
+        },
+        "correctAnswer": "B",
+        "explanation": "Test x = 6: 6 + 4 = 10, which matches 10 = 10. So x = 6 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q30",
+        "section": "math",
+        "question": "A solution to an equation must make the equation...",
+        "choices": {
+          "A": "have no variable",
+          "B": "true (both sides equal)",
+          "C": "larger on the left",
+          "D": "a fraction"
+        },
+        "correctAnswer": "B",
+        "explanation": "A solution is a value that makes the equation a true statement, meaning both sides are equal.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q31",
+        "section": "math",
+        "question": "Which value of x makes 3x - 2 = 13 true?",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 11",
+          "C": "x = 6",
+          "D": "x = 5"
+        },
+        "correctAnswer": "D",
+        "explanation": "Test x = 5: 3 x 5 - 2 = 15 - 2 = 13, which is true. So x = 5 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q32",
+        "section": "math",
+        "question": "Which value of x is NOT a solution to x - 3 = 7?",
+        "choices": {
+          "A": "x = 10",
+          "B": "x = 9",
+          "C": "x = 10 is the only solution",
+          "D": "none of these"
+        },
+        "correctAnswer": "B",
+        "explanation": "The only solution is x = 10 because 10 - 3 = 7. x = 9 gives 9 - 3 = 6, which is false, so 9 is NOT a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q33",
+        "section": "math",
+        "question": "Is x = 7 a solution to 2x + 1 = 15?",
+        "choices": {
+          "A": "Yes, because 2 x 7 + 1 = 15",
+          "B": "No, because 2 x 7 + 1 = 16",
+          "C": "No, because 7 + 1 = 8",
+          "D": "Yes, because 15 - 7 = 8"
+        },
+        "correctAnswer": "A",
+        "explanation": "Substitute x = 7: 2 x 7 + 1 = 14 + 1 = 15, and 15 = 15 is true. So x = 7 is a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q34",
+        "section": "math",
+        "question": "Which equation has x = 0 as a solution?",
+        "choices": {
+          "A": "x + 7 = 7",
+          "B": "x - 2 = 5",
+          "C": "3x = 9",
+          "D": "x + 1 = 4"
+        },
+        "correctAnswer": "A",
+        "explanation": "Test x = 0 in x + 7 = 7: 0 + 7 = 7, true. The others are false when x = 0.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q35",
+        "section": "math",
+        "question": "Which value of x makes 4x - 5 = 19 true?",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 5",
+          "C": "x = 7",
+          "D": "x = 24"
+        },
+        "correctAnswer": "A",
+        "explanation": "Test x = 6: 4 x 6 - 5 = 24 - 5 = 19, which is true. So x = 6 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q36",
+        "section": "math",
+        "question": "Which value of x makes the equation x + x = 12 true?",
+        "choices": {
+          "A": "x = 12",
+          "B": "x = 24",
+          "C": "x = 6",
+          "D": "x = 4"
+        },
+        "correctAnswer": "C",
+        "explanation": "x + x means 2x. Test x = 6: 6 + 6 = 12, which is true. So x = 6 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-1-q37",
+        "section": "math",
+        "question": "Is x = 4 a solution to 5x = 20?",
+        "choices": {
+          "A": "No, because 5 x 4 = 25",
+          "B": "Yes, because 5 x 4 = 20",
+          "C": "No, because 4 + 5 = 9",
+          "D": "Yes, because 20 + 4 = 24"
+        },
+        "correctAnswer": "B",
+        "explanation": "Substitute x = 4: 5 x 4 = 20, and 20 = 20 is true. So x = 4 is a solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q38",
+        "section": "math",
+        "question": "Which value of n makes 2n = 14 true?",
+        "choices": {
+          "A": "n = 6",
+          "B": "n = 7",
+          "C": "n = 12",
+          "D": "n = 28"
+        },
+        "correctAnswer": "B",
+        "explanation": "Test n = 7: 2 x 7 = 14, which is true. So n = 7 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-1-q39",
+        "section": "math",
+        "question": "Which statement is true about the equation x + 3 = 10?",
+        "choices": {
+          "A": "it has no solution",
+          "B": "x = 13 makes it true",
+          "C": "x = 3 makes it true",
+          "D": "x = 7 makes it true"
+        },
+        "correctAnswer": "D",
+        "explanation": "Test x = 7: 7 + 3 = 10, true. So x = 7 is the solution that makes the equation true.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-1-q40",
+        "section": "math",
+        "question": "Which value of x makes 6x + 2 = 20 true?",
+        "choices": {
+          "A": "x = 3",
+          "B": "x = 2",
+          "C": "x = 4",
+          "D": "x = 18"
+        },
+        "correctAnswer": "A",
+        "explanation": "Test x = 3: 6 x 3 + 2 = 18 + 2 = 20, which is true. So x = 3 is the solution.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "4-2": {
     "learn": "Worked Example 1: Solve x - 6 = 10 using the addition property of equality.\nStep 1: To undo subtracting 6, add 6 to BOTH sides.\nStep 2: x - 6 + 6 = 10 + 6.\nStep 3: x = 16.\nCheck: 16 - 6 = 10. True.\n\nWorked Example 2: Solve x + 9 = 15 using the subtraction property of equality.\nStep 1: To undo adding 9, subtract 9 from BOTH sides.\nStep 2: x + 9 - 9 = 15 - 9.\nStep 3: x = 6.\nCheck: 6 + 9 = 15. True.\n\nWorked Example 3: Solve 3x = 21 using the division property of equality.\nStep 1: To undo multiplying by 3, divide BOTH sides by 3.\nStep 2: 3x / 3 = 21 / 3.\nStep 3: x = 7.\nCheck: 3 x 7 = 21. True. The key rule: whatever you do to one side, do to the other to keep it balanced.",
     "questions": [
-      {"id":"4-2-q1","section":"math","question":"To keep an equation balanced, whatever you do to one side you must also do to...","choices":{"A":"the variable only","B":"the other side","C":"the equals sign","D":"nothing else"},"correctAnswer":"B","explanation":"The property of equality says you must do the same operation to BOTH sides to keep the equation balanced.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-2-q2","section":"math","question":"To solve x - 4 = 9, what should you do to both sides?","choices":{"A":"Subtract 4","B":"Add 4","C":"Divide by 4","D":"Multiply by 9"},"correctAnswer":"B","explanation":"Subtracting 4 is undone by adding 4 to both sides: x - 4 + 4 = 9 + 4, so x = 13.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-2-q3","section":"math","question":"To solve x + 7 = 12, what should you do to both sides?","choices":{"A":"Add 7","B":"Subtract 7","C":"Multiply by 7","D":"Divide by 12"},"correctAnswer":"B","explanation":"Adding 7 is undone by subtracting 7 from both sides: x + 7 - 7 = 12 - 7, so x = 5.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-2-q4","section":"math","question":"To solve 5x = 35, what should you do to both sides?","choices":{"A":"Multiply by 5","B":"Add 5","C":"Divide by 5","D":"Subtract 35"},"correctAnswer":"C","explanation":"Multiplying by 5 is undone by dividing both sides by 5: 5x / 5 = 35 / 5, so x = 7.","standard":"MA.6.AR.2.1","difficulty":"easy"},
-      {"id":"4-2-q5","section":"math","question":"Solve x - 6 = 10.","choices":{"A":"x = 4","B":"x = 16","C":"x = 60","D":"x = 6"},"correctAnswer":"B","explanation":"Add 6 to both sides: x = 10 + 6 = 16. Check: 16 - 6 = 10. True.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-2-q6","section":"math","question":"Solve x + 8 = 20.","choices":{"A":"x = 28","B":"x = 12","C":"x = 160","D":"x = 8"},"correctAnswer":"B","explanation":"Subtract 8 from both sides: x = 20 - 8 = 12. Check: 12 + 8 = 20. True.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-2-q7","section":"math","question":"Which step correctly keeps the equation x + 3 = 7 balanced?","choices":{"A":"Subtract 3 from the left side only","B":"Subtract 3 from both sides","C":"Add 3 to both sides","D":"Divide the left side by 3"},"correctAnswer":"B","explanation":"To stay balanced, subtract 3 from BOTH sides: x + 3 - 3 = 7 - 3, giving x = 4.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-2-q8","section":"math","question":"Solve 6x = 30.","choices":{"A":"x = 5","B":"x = 24","C":"x = 36","D":"x = 180"},"correctAnswer":"A","explanation":"Divide both sides by 6: x = 30 / 6 = 5. Check: 6 x 5 = 30. True.","standard":"MA.6.AR.2.1","difficulty":"medium"},
-      {"id":"4-2-q9","section":"math","question":"A student solves x - 9 = 4 by subtracting 9 from both sides. What is wrong?","choices":{"A":"Nothing, that is correct","B":"They should ADD 9 to both sides to undo the subtraction","C":"They should divide by 9","D":"They should subtract 4"},"correctAnswer":"B","explanation":"To undo subtracting 9, you ADD 9 to both sides: x = 4 + 9 = 13. Subtracting 9 again would not isolate x.","standard":"MA.6.AR.2.1","difficulty":"hard"},
-      {"id":"4-2-q10","section":"math","question":"Solve x / 4 = 5 using a property of equality.","choices":{"A":"x = 1","B":"x = 9","C":"x = 20","D":"x = 45"},"correctAnswer":"C","explanation":"To undo dividing by 4, multiply both sides by 4: x = 5 x 4 = 20. Check: 20 / 4 = 5. True.","standard":"MA.6.AR.2.1","difficulty":"hard"}
+      {
+        "id": "4-2-q1",
+        "section": "math",
+        "question": "To keep an equation balanced, whatever you do to one side you must also do to...",
+        "choices": {
+          "A": "the variable only",
+          "B": "the other side",
+          "C": "the equals sign",
+          "D": "nothing else"
+        },
+        "correctAnswer": "B",
+        "explanation": "The property of equality says you must do the same operation to BOTH sides to keep the equation balanced.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q2",
+        "section": "math",
+        "question": "To solve x - 4 = 9, what should you do to both sides?",
+        "choices": {
+          "A": "Subtract 4",
+          "B": "Add 4",
+          "C": "Divide by 4",
+          "D": "Multiply by 9"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtracting 4 is undone by adding 4 to both sides: x - 4 + 4 = 9 + 4, so x = 13.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q3",
+        "section": "math",
+        "question": "To solve x + 7 = 12, what should you do to both sides?",
+        "choices": {
+          "A": "Add 7",
+          "B": "Subtract 7",
+          "C": "Multiply by 7",
+          "D": "Divide by 12"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adding 7 is undone by subtracting 7 from both sides: x + 7 - 7 = 12 - 7, so x = 5.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q4",
+        "section": "math",
+        "question": "To solve 5x = 35, what should you do to both sides?",
+        "choices": {
+          "A": "Multiply by 5",
+          "B": "Add 5",
+          "C": "Divide by 5",
+          "D": "Subtract 35"
+        },
+        "correctAnswer": "C",
+        "explanation": "Multiplying by 5 is undone by dividing both sides by 5: 5x / 5 = 35 / 5, so x = 7.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q5",
+        "section": "math",
+        "question": "Solve x - 6 = 10.",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 16",
+          "C": "x = 60",
+          "D": "x = 6"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 6 to both sides: x = 10 + 6 = 16. Check: 16 - 6 = 10. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q6",
+        "section": "math",
+        "question": "Solve x + 8 = 20.",
+        "choices": {
+          "A": "x = 28",
+          "B": "x = 12",
+          "C": "x = 160",
+          "D": "x = 8"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 8 from both sides: x = 20 - 8 = 12. Check: 12 + 8 = 20. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q7",
+        "section": "math",
+        "question": "Which step correctly keeps the equation x + 3 = 7 balanced?",
+        "choices": {
+          "A": "Subtract 3 from the left side only",
+          "B": "Subtract 3 from both sides",
+          "C": "Add 3 to both sides",
+          "D": "Divide the left side by 3"
+        },
+        "correctAnswer": "B",
+        "explanation": "To stay balanced, subtract 3 from BOTH sides: x + 3 - 3 = 7 - 3, giving x = 4.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q8",
+        "section": "math",
+        "question": "Solve 6x = 30.",
+        "choices": {
+          "A": "x = 5",
+          "B": "x = 24",
+          "C": "x = 36",
+          "D": "x = 180"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 6: x = 30 / 6 = 5. Check: 6 x 5 = 30. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q9",
+        "section": "math",
+        "question": "A student solves x - 9 = 4 by subtracting 9 from both sides. What is wrong?",
+        "choices": {
+          "A": "Nothing, that is correct",
+          "B": "They should ADD 9 to both sides to undo the subtraction",
+          "C": "They should divide by 9",
+          "D": "They should subtract 4"
+        },
+        "correctAnswer": "B",
+        "explanation": "To undo subtracting 9, you ADD 9 to both sides: x = 4 + 9 = 13. Subtracting 9 again would not isolate x.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q10",
+        "section": "math",
+        "question": "Solve x / 4 = 5 using a property of equality.",
+        "choices": {
+          "A": "x = 1",
+          "B": "x = 9",
+          "C": "x = 20",
+          "D": "x = 45"
+        },
+        "correctAnswer": "C",
+        "explanation": "To undo dividing by 4, multiply both sides by 4: x = 5 x 4 = 20. Check: 20 / 4 = 5. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q11",
+        "section": "math",
+        "question": "To solve x - 5 = 8, what should you do to both sides?",
+        "choices": {
+          "A": "Subtract 5",
+          "B": "Add 5",
+          "C": "Multiply by 5",
+          "D": "Divide by 8"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtracting 5 is undone by adding 5 to both sides: x - 5 + 5 = 8 + 5, so x = 13.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q12",
+        "section": "math",
+        "question": "To solve x + 6 = 14, what should you do to both sides?",
+        "choices": {
+          "A": "Add 6",
+          "B": "Subtract 6",
+          "C": "Multiply by 6",
+          "D": "Divide by 14"
+        },
+        "correctAnswer": "B",
+        "explanation": "Adding 6 is undone by subtracting 6 from both sides: x + 6 - 6 = 14 - 6, so x = 8.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q13",
+        "section": "math",
+        "question": "To solve 4x = 28, what should you do to both sides?",
+        "choices": {
+          "A": "Add 4",
+          "B": "Multiply by 4",
+          "C": "Divide by 4",
+          "D": "Subtract 28"
+        },
+        "correctAnswer": "C",
+        "explanation": "Multiplying by 4 is undone by dividing both sides by 4: 4x / 4 = 28 / 4, so x = 7.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q14",
+        "section": "math",
+        "question": "To solve x / 6 = 2, what should you do to both sides?",
+        "choices": {
+          "A": "Divide by 6",
+          "B": "Multiply by 6",
+          "C": "Subtract 6",
+          "D": "Add 2"
+        },
+        "correctAnswer": "B",
+        "explanation": "Dividing by 6 is undone by multiplying both sides by 6: (x / 6) x 6 = 2 x 6, so x = 12.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q15",
+        "section": "math",
+        "question": "The property of equality says you must do the same thing to...",
+        "choices": {
+          "A": "only the side with the variable",
+          "B": "both sides of the equation",
+          "C": "the equals sign",
+          "D": "only the number side"
+        },
+        "correctAnswer": "B",
+        "explanation": "To keep an equation balanced, you must do the same operation to BOTH sides.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q16",
+        "section": "math",
+        "question": "Solve x - 7 = 9.",
+        "choices": {
+          "A": "x = 16",
+          "B": "x = 2",
+          "C": "x = 63",
+          "D": "x = 7"
+        },
+        "correctAnswer": "A",
+        "explanation": "Add 7 to both sides: x = 9 + 7 = 16. Check: 16 - 7 = 9. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q17",
+        "section": "math",
+        "question": "Solve x + 5 = 17.",
+        "choices": {
+          "A": "x = 22",
+          "B": "x = 5",
+          "C": "x = 85",
+          "D": "x = 12"
+        },
+        "correctAnswer": "D",
+        "explanation": "Subtract 5 from both sides: x = 17 - 5 = 12. Check: 12 + 5 = 17. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q18",
+        "section": "math",
+        "question": "Solve 7x = 56.",
+        "choices": {
+          "A": "x = 392",
+          "B": "x = 49",
+          "C": "x = 63",
+          "D": "x = 8"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 7: x = 56 / 7 = 8. Check: 7 x 8 = 56. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q19",
+        "section": "math",
+        "question": "Solve x / 3 = 6.",
+        "choices": {
+          "A": "x = 18",
+          "B": "x = 9",
+          "C": "x = 2",
+          "D": "x = 63"
+        },
+        "correctAnswer": "A",
+        "explanation": "Multiply both sides by 3: x = 6 x 3 = 18. Check: 18 / 3 = 6. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q20",
+        "section": "math",
+        "question": "Which step correctly keeps x + 5 = 9 balanced?",
+        "choices": {
+          "A": "Subtract 5 from the left side only",
+          "B": "Add 5 to both sides",
+          "C": "Subtract 5 from both sides",
+          "D": "Divide the left side by 5"
+        },
+        "correctAnswer": "C",
+        "explanation": "To stay balanced, subtract 5 from BOTH sides: x + 5 - 5 = 9 - 5, giving x = 4.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q21",
+        "section": "math",
+        "question": "Solve x - 12 = 8.",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 12",
+          "C": "x = 96",
+          "D": "x = 20"
+        },
+        "correctAnswer": "D",
+        "explanation": "Add 12 to both sides: x = 8 + 12 = 20. Check: 20 - 12 = 8. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q22",
+        "section": "math",
+        "question": "Solve x + 10 = 25.",
+        "choices": {
+          "A": "x = 15",
+          "B": "x = 35",
+          "C": "x = 250",
+          "D": "x = 10"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 10 from both sides: x = 25 - 10 = 15. Check: 15 + 10 = 25. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q23",
+        "section": "math",
+        "question": "Solve 8x = 40.",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 320",
+          "C": "x = 32",
+          "D": "x = 5"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 8: x = 40 / 8 = 5. Check: 8 x 5 = 40. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q24",
+        "section": "math",
+        "question": "Solve x / 5 = 7.",
+        "choices": {
+          "A": "x = 2",
+          "B": "x = 12",
+          "C": "x = 35",
+          "D": "x = 1.4"
+        },
+        "correctAnswer": "C",
+        "explanation": "Multiply both sides by 5: x = 7 x 5 = 35. Check: 35 / 5 = 7. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q25",
+        "section": "math",
+        "question": "Which operation undoes adding 8 in the equation x + 8 = 15?",
+        "choices": {
+          "A": "adding 8",
+          "B": "subtracting 8",
+          "C": "multiplying by 8",
+          "D": "dividing by 15"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtraction undoes addition. Subtract 8 from both sides: x = 15 - 8 = 7.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q26",
+        "section": "math",
+        "question": "Which operation undoes multiplying by 9 in the equation 9x = 36?",
+        "choices": {
+          "A": "adding 9",
+          "B": "subtracting 9",
+          "C": "dividing by 9",
+          "D": "multiplying by 9"
+        },
+        "correctAnswer": "C",
+        "explanation": "Division undoes multiplication. Divide both sides by 9: x = 36 / 9 = 4.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q27",
+        "section": "math",
+        "question": "Solve x - 3 = 3.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 6",
+          "C": "x = 9",
+          "D": "x = 1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 3 to both sides: x = 3 + 3 = 6. Check: 6 - 3 = 3. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q28",
+        "section": "math",
+        "question": "Solve x + 11 = 11.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 11",
+          "C": "x = 22",
+          "D": "x = 1"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 11 from both sides: x = 11 - 11 = 0. Check: 0 + 11 = 11. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q29",
+        "section": "math",
+        "question": "Solve 10x = 90.",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 900",
+          "C": "x = 80",
+          "D": "x = 9"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 10: x = 90 / 10 = 9. Check: 10 x 9 = 90. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q30",
+        "section": "math",
+        "question": "Why do we do the same operation to both sides of an equation?",
+        "choices": {
+          "A": "to make the numbers bigger",
+          "B": "to keep the equation balanced and true",
+          "C": "to remove the variable",
+          "D": "to add an equals sign"
+        },
+        "correctAnswer": "B",
+        "explanation": "Doing the same operation to both sides keeps the two sides equal, so the equation stays balanced and true.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q31",
+        "section": "math",
+        "question": "A student solves x + 6 = 10 by adding 6 to both sides. What is wrong?",
+        "choices": {
+          "A": "Nothing, that is correct",
+          "B": "They should SUBTRACT 6 from both sides to undo the addition",
+          "C": "They should multiply by 6",
+          "D": "They should add 10"
+        },
+        "correctAnswer": "B",
+        "explanation": "To undo adding 6, you SUBTRACT 6 from both sides: x = 10 - 6 = 4. Adding 6 again would not isolate x.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q32",
+        "section": "math",
+        "question": "Solve x / 7 = 4.",
+        "choices": {
+          "A": "x = 11",
+          "B": "x = 28",
+          "C": "x = 3",
+          "D": "x = 1.75"
+        },
+        "correctAnswer": "B",
+        "explanation": "To undo dividing by 7, multiply both sides by 7: x = 4 x 7 = 28. Check: 28 / 7 = 4. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q33",
+        "section": "math",
+        "question": "Solve 12x = 48.",
+        "choices": {
+          "A": "x = 3",
+          "B": "x = 4",
+          "C": "x = 36",
+          "D": "x = 576"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 12: x = 48 / 12 = 4. Check: 12 x 4 = 48. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q34",
+        "section": "math",
+        "question": "A student solves 5x = 25 by subtracting 5 from both sides. What is wrong?",
+        "choices": {
+          "A": "Nothing, that is correct",
+          "B": "They should DIVIDE both sides by 5 to undo the multiplication",
+          "C": "They should add 5",
+          "D": "They should multiply by 25"
+        },
+        "correctAnswer": "B",
+        "explanation": "To undo multiplying by 5, you DIVIDE both sides by 5: x = 25 / 5 = 5. Subtracting 5 would not isolate x.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-2-q35",
+        "section": "math",
+        "question": "Solve x - 15 = 15.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 30",
+          "C": "x = 1",
+          "D": "x = 225"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 15 to both sides: x = 15 + 15 = 30. Check: 30 - 15 = 15. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q36",
+        "section": "math",
+        "question": "Solve x + 14 = 32.",
+        "choices": {
+          "A": "x = 18",
+          "B": "x = 46",
+          "C": "x = 16",
+          "D": "x = 14"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 14 from both sides: x = 32 - 14 = 18. Check: 18 + 14 = 32. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q37",
+        "section": "math",
+        "question": "Solve 9x = 81.",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 90",
+          "C": "x = 72",
+          "D": "x = 9"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 9: x = 81 / 9 = 9. Check: 9 x 9 = 81. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q38",
+        "section": "math",
+        "question": "To isolate x in x + 20 = 50, which operation do you use on both sides?",
+        "choices": {
+          "A": "add 20",
+          "B": "subtract 20",
+          "C": "multiply by 20",
+          "D": "divide by 50"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 20 from both sides to undo adding 20: x = 50 - 20 = 30.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-2-q39",
+        "section": "math",
+        "question": "Solve x / 2 = 11.",
+        "choices": {
+          "A": "x = 5.5",
+          "B": "x = 13",
+          "C": "x = 22",
+          "D": "x = 9"
+        },
+        "correctAnswer": "C",
+        "explanation": "Multiply both sides by 2: x = 11 x 2 = 22. Check: 22 / 2 = 11. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-2-q40",
+        "section": "math",
+        "question": "Solve 6x = 54.",
+        "choices": {
+          "A": "x = 9",
+          "B": "x = 8",
+          "C": "x = 48",
+          "D": "x = 60"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 6: x = 54 / 6 = 9. Check: 6 x 9 = 54. True.",
+        "standard": "MA.6.AR.2.1",
+        "difficulty": "medium"
+      }
     ]
   },
   "4-3": {
     "learn": "Worked Example 1: Solve x + 7 = 12.\nStep 1: x is being added to 7. Do the opposite: subtract 7 from both sides.\nStep 2: x + 7 - 7 = 12 - 7.\nStep 3: x = 5.\nCheck: 5 + 7 = 12. True.\n\nWorked Example 2: Solve x - 8 = 3.\nStep 1: 8 is being subtracted from x. Do the opposite: add 8 to both sides.\nStep 2: x - 8 + 8 = 3 + 8.\nStep 3: x = 11.\nCheck: 11 - 8 = 3. True.\n\nWorked Example 3: Write and solve. Maria had some stickers. After giving away 6, she had 9 left. How many did she start with?\nStep 1: Let s = starting stickers. Equation: s - 6 = 9.\nStep 2: Add 6 to both sides: s = 9 + 6.\nStep 3: s = 15. Maria started with 15 stickers. Check: 15 - 6 = 9. True.",
     "questions": [
-      {"id":"4-3-q1","section":"math","question":"Solve x + 5 = 11.","choices":{"A":"x = 6","B":"x = 16","C":"x = 5","D":"x = 55"},"correctAnswer":"A","explanation":"Subtract 5 from both sides: x = 11 - 5 = 6. Check: 6 + 5 = 11. True.","standard":"MA.6.AR.2.2","difficulty":"easy"},
-      {"id":"4-3-q2","section":"math","question":"Solve x - 3 = 8.","choices":{"A":"x = 5","B":"x = 11","C":"x = 24","D":"x = 3"},"correctAnswer":"B","explanation":"Add 3 to both sides: x = 8 + 3 = 11. Check: 11 - 3 = 8. True.","standard":"MA.6.AR.2.2","difficulty":"easy"},
-      {"id":"4-3-q3","section":"math","question":"Solve x + 9 = 9.","choices":{"A":"x = 0","B":"x = 9","C":"x = 18","D":"x = 1"},"correctAnswer":"A","explanation":"Subtract 9 from both sides: x = 9 - 9 = 0. Check: 0 + 9 = 9. True.","standard":"MA.6.AR.2.2","difficulty":"easy"},
-      {"id":"4-3-q4","section":"math","question":"Solve x - 10 = 5.","choices":{"A":"x = 5","B":"x = 50","C":"x = 15","D":"x = 2"},"correctAnswer":"C","explanation":"Add 10 to both sides: x = 5 + 10 = 15. Check: 15 - 10 = 5. True.","standard":"MA.6.AR.2.2","difficulty":"easy"},
-      {"id":"4-3-q5","section":"math","question":"Solve 14 = x + 6.","choices":{"A":"x = 8","B":"x = 20","C":"x = 6","D":"x = 84"},"correctAnswer":"A","explanation":"Subtract 6 from both sides: x = 14 - 6 = 8. Check: 14 = 8 + 6. True.","standard":"MA.6.AR.2.2","difficulty":"medium"},
-      {"id":"4-3-q6","section":"math","question":"Which equation matches: 'A number plus 4 equals 13'?","choices":{"A":"4x = 13","B":"x - 4 = 13","C":"x + 4 = 13","D":"x + 13 = 4"},"correctAnswer":"C","explanation":"'A number plus 4 equals 13' translates directly to x + 4 = 13. Solving gives x = 9.","standard":"MA.6.AR.2.2","difficulty":"medium"},
-      {"id":"4-3-q7","section":"math","question":"Tom spent $7 and had $15 left. Which equation finds how much he started with?","choices":{"A":"x + 7 = 15","B":"x - 7 = 15","C":"7x = 15","D":"x - 15 = 7"},"correctAnswer":"B","explanation":"Starting amount minus what he spent equals what is left: x - 7 = 15. Solving gives x = 22.","standard":"MA.6.AR.2.2","difficulty":"medium"},
-      {"id":"4-3-q8","section":"math","question":"Solve x + 12 = 30.","choices":{"A":"x = 42","B":"x = 18","C":"x = 22","D":"x = 360"},"correctAnswer":"B","explanation":"Subtract 12 from both sides: x = 30 - 12 = 18. Check: 18 + 12 = 30. True.","standard":"MA.6.AR.2.2","difficulty":"medium"},
-      {"id":"4-3-q9","section":"math","question":"A book had some pages. After reading 24 pages, 56 were left. Solve p - 24 = 56 for the total pages.","choices":{"A":"p = 32","B":"p = 80","C":"p = 1344","D":"p = 56"},"correctAnswer":"B","explanation":"Add 24 to both sides: p = 56 + 24 = 80. The book has 80 pages. Check: 80 - 24 = 56. True.","standard":"MA.6.AR.2.2","difficulty":"hard"},
-      {"id":"4-3-q10","section":"math","question":"Solve 25 = x - 8.","choices":{"A":"x = 17","B":"x = 33","C":"x = 200","D":"x = 8"},"correctAnswer":"B","explanation":"Add 8 to both sides: x = 25 + 8 = 33. Check: 25 = 33 - 8. True.","standard":"MA.6.AR.2.2","difficulty":"hard"}
+      {
+        "id": "4-3-q1",
+        "section": "math",
+        "question": "Solve x + 5 = 11.",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 16",
+          "C": "x = 5",
+          "D": "x = 55"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 5 from both sides: x = 11 - 5 = 6. Check: 6 + 5 = 11. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q2",
+        "section": "math",
+        "question": "Solve x - 3 = 8.",
+        "choices": {
+          "A": "x = 5",
+          "B": "x = 11",
+          "C": "x = 24",
+          "D": "x = 3"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 3 to both sides: x = 8 + 3 = 11. Check: 11 - 3 = 8. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q3",
+        "section": "math",
+        "question": "Solve x + 9 = 9.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 9",
+          "C": "x = 18",
+          "D": "x = 1"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 9 from both sides: x = 9 - 9 = 0. Check: 0 + 9 = 9. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q4",
+        "section": "math",
+        "question": "Solve x - 10 = 5.",
+        "choices": {
+          "A": "x = 5",
+          "B": "x = 50",
+          "C": "x = 15",
+          "D": "x = 2"
+        },
+        "correctAnswer": "C",
+        "explanation": "Add 10 to both sides: x = 5 + 10 = 15. Check: 15 - 10 = 5. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q5",
+        "section": "math",
+        "question": "Solve 14 = x + 6.",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 20",
+          "C": "x = 6",
+          "D": "x = 84"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 6 from both sides: x = 14 - 6 = 8. Check: 14 = 8 + 6. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q6",
+        "section": "math",
+        "question": "Which equation matches: 'A number plus 4 equals 13'?",
+        "choices": {
+          "A": "4x = 13",
+          "B": "x - 4 = 13",
+          "C": "x + 4 = 13",
+          "D": "x + 13 = 4"
+        },
+        "correctAnswer": "C",
+        "explanation": "'A number plus 4 equals 13' translates directly to x + 4 = 13. Solving gives x = 9.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q7",
+        "section": "math",
+        "question": "Tom spent $7 and had $15 left. Which equation finds how much he started with?",
+        "choices": {
+          "A": "x + 7 = 15",
+          "B": "x - 7 = 15",
+          "C": "7x = 15",
+          "D": "x - 15 = 7"
+        },
+        "correctAnswer": "B",
+        "explanation": "Starting amount minus what he spent equals what is left: x - 7 = 15. Solving gives x = 22.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q8",
+        "section": "math",
+        "question": "Solve x + 12 = 30.",
+        "choices": {
+          "A": "x = 42",
+          "B": "x = 18",
+          "C": "x = 22",
+          "D": "x = 360"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 12 from both sides: x = 30 - 12 = 18. Check: 18 + 12 = 30. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q9",
+        "section": "math",
+        "question": "A book had some pages. After reading 24 pages, 56 were left. Solve p - 24 = 56 for the total pages.",
+        "choices": {
+          "A": "p = 32",
+          "B": "p = 80",
+          "C": "p = 1344",
+          "D": "p = 56"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 24 to both sides: p = 56 + 24 = 80. The book has 80 pages. Check: 80 - 24 = 56. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-3-q10",
+        "section": "math",
+        "question": "Solve 25 = x - 8.",
+        "choices": {
+          "A": "x = 17",
+          "B": "x = 33",
+          "C": "x = 200",
+          "D": "x = 8"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 8 to both sides: x = 25 + 8 = 33. Check: 25 = 33 - 8. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-3-q11",
+        "section": "math",
+        "question": "Solve x + 6 = 13.",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 19",
+          "C": "x = 7",
+          "D": "x = 78"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 6 from both sides: x = 13 - 6 = 7. Check: 7 + 6 = 13. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q12",
+        "section": "math",
+        "question": "Solve x - 5 = 9.",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 5",
+          "C": "x = 45",
+          "D": "x = 14"
+        },
+        "correctAnswer": "D",
+        "explanation": "Add 5 to both sides: x = 9 + 5 = 14. Check: 14 - 5 = 9. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q13",
+        "section": "math",
+        "question": "Solve x + 2 = 10.",
+        "choices": {
+          "A": "x = 12",
+          "B": "x = 20",
+          "C": "x = 5",
+          "D": "x = 8"
+        },
+        "correctAnswer": "D",
+        "explanation": "Subtract 2 from both sides: x = 10 - 2 = 8. Check: 8 + 2 = 10. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q14",
+        "section": "math",
+        "question": "Solve x - 7 = 7.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 14",
+          "C": "x = 49",
+          "D": "x = 1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 7 to both sides: x = 7 + 7 = 14. Check: 14 - 7 = 7. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q15",
+        "section": "math",
+        "question": "Solve x + 11 = 20.",
+        "choices": {
+          "A": "x = 31",
+          "B": "x = 11",
+          "C": "x = 9",
+          "D": "x = 220"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 11 from both sides: x = 20 - 11 = 9. Check: 9 + 11 = 20. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q16",
+        "section": "math",
+        "question": "Solve 18 = x + 5.",
+        "choices": {
+          "A": "x = 90",
+          "B": "x = 23",
+          "C": "x = 5",
+          "D": "x = 13"
+        },
+        "correctAnswer": "D",
+        "explanation": "Subtract 5 from both sides: x = 18 - 5 = 13. Check: 18 = 13 + 5. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q17",
+        "section": "math",
+        "question": "Which equation matches: 'A number minus 6 equals 10'?",
+        "choices": {
+          "A": "6x = 10",
+          "B": "x + 6 = 10",
+          "C": "x - 6 = 10",
+          "D": "x - 10 = 6"
+        },
+        "correctAnswer": "C",
+        "explanation": "'A number minus 6 equals 10' translates to x - 6 = 10. Solving gives x = 16.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q18",
+        "section": "math",
+        "question": "Lily earned $9 and now has $23. Which equation finds how much she had before?",
+        "choices": {
+          "A": "x - 9 = 23",
+          "B": "x + 9 = 23",
+          "C": "9x = 23",
+          "D": "x + 23 = 9"
+        },
+        "correctAnswer": "B",
+        "explanation": "Starting amount plus what she earned equals her new total: x + 9 = 23. Solving gives x = 14.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q19",
+        "section": "math",
+        "question": "Solve x + 15 = 40.",
+        "choices": {
+          "A": "x = 55",
+          "B": "x = 600",
+          "C": "x = 15",
+          "D": "x = 25"
+        },
+        "correctAnswer": "D",
+        "explanation": "Subtract 15 from both sides: x = 40 - 15 = 25. Check: 25 + 15 = 40. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q20",
+        "section": "math",
+        "question": "Solve x - 14 = 6.",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 14",
+          "C": "x = 84",
+          "D": "x = 20"
+        },
+        "correctAnswer": "D",
+        "explanation": "Add 14 to both sides: x = 6 + 14 = 20. Check: 20 - 14 = 6. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q21",
+        "section": "math",
+        "question": "Solve 30 = x + 12.",
+        "choices": {
+          "A": "x = 42",
+          "B": "x = 18",
+          "C": "x = 12",
+          "D": "x = 360"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 12 from both sides: x = 30 - 12 = 18. Check: 30 = 18 + 12. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q22",
+        "section": "math",
+        "question": "Which equation matches: 'The sum of a number and 8 is 21'?",
+        "choices": {
+          "A": "x - 8 = 21",
+          "B": "x + 8 = 21",
+          "C": "8x = 21",
+          "D": "x + 21 = 8"
+        },
+        "correctAnswer": "B",
+        "explanation": "'The sum of a number and 8' means x + 8, so x + 8 = 21. Solving gives x = 13.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q23",
+        "section": "math",
+        "question": "Solve x + 4 = 4.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 8",
+          "C": "x = 4",
+          "D": "x = 1"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 4 from both sides: x = 4 - 4 = 0. Check: 0 + 4 = 4. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q24",
+        "section": "math",
+        "question": "Solve x - 20 = 5.",
+        "choices": {
+          "A": "x = 15",
+          "B": "x = 4",
+          "C": "x = 100",
+          "D": "x = 25"
+        },
+        "correctAnswer": "D",
+        "explanation": "Add 20 to both sides: x = 5 + 20 = 25. Check: 25 - 20 = 5. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q25",
+        "section": "math",
+        "question": "Solve x + 7 = 16.",
+        "choices": {
+          "A": "x = 9",
+          "B": "x = 23",
+          "C": "x = 7",
+          "D": "x = 112"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 7 from both sides: x = 16 - 7 = 9. Check: 9 + 7 = 16. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q26",
+        "section": "math",
+        "question": "A jar lost 13 marbles and now has 27. Which equation finds the starting amount?",
+        "choices": {
+          "A": "x + 13 = 27",
+          "B": "x - 13 = 27",
+          "C": "13x = 27",
+          "D": "x - 27 = 13"
+        },
+        "correctAnswer": "B",
+        "explanation": "Starting amount minus what was lost equals what is left: x - 13 = 27. Solving gives x = 40.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q27",
+        "section": "math",
+        "question": "Solve 50 = x - 10.",
+        "choices": {
+          "A": "x = 40",
+          "B": "x = 60",
+          "C": "x = 500",
+          "D": "x = 10"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 10 to both sides: x = 50 + 10 = 60. Check: 50 = 60 - 10. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q28",
+        "section": "math",
+        "question": "Solve x + 9 = 22.",
+        "choices": {
+          "A": "x = 13",
+          "B": "x = 31",
+          "C": "x = 9",
+          "D": "x = 198"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 9 from both sides: x = 22 - 9 = 13. Check: 13 + 9 = 22. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q29",
+        "section": "math",
+        "question": "Solve x - 6 = 18.",
+        "choices": {
+          "A": "x = 12",
+          "B": "x = 24",
+          "C": "x = 108",
+          "D": "x = 6"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 6 to both sides: x = 18 + 6 = 24. Check: 24 - 6 = 18. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q30",
+        "section": "math",
+        "question": "A team scored 8 more points than last game for a total of 35. Solve x + 8 = 35 for last game's score.",
+        "choices": {
+          "A": "x = 43",
+          "B": "x = 27",
+          "C": "x = 8",
+          "D": "x = 280"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 8 from both sides: x = 35 - 8 = 27. Last game's score was 27. Check: 27 + 8 = 35. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-3-q31",
+        "section": "math",
+        "question": "Solve 41 = x + 17.",
+        "choices": {
+          "A": "x = 58",
+          "B": "x = 24",
+          "C": "x = 17",
+          "D": "x = 23"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 17 from both sides: x = 41 - 17 = 24. Check: 41 = 24 + 17. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-3-q32",
+        "section": "math",
+        "question": "A wallet had money, then $19 was added, making $63. Solve x + 19 = 63 for the starting amount.",
+        "choices": {
+          "A": "x = 82",
+          "B": "x = 44",
+          "C": "x = 19",
+          "D": "x = 46"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 19 from both sides: x = 63 - 19 = 44. The wallet started with $44. Check: 44 + 19 = 63. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-3-q33",
+        "section": "math",
+        "question": "Solve x - 28 = 35.",
+        "choices": {
+          "A": "x = 7",
+          "B": "x = 28",
+          "C": "x = 980",
+          "D": "x = 63"
+        },
+        "correctAnswer": "D",
+        "explanation": "Add 28 to both sides: x = 35 + 28 = 63. Check: 63 - 28 = 35. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-3-q34",
+        "section": "math",
+        "question": "Solve x + 23 = 60.",
+        "choices": {
+          "A": "x = 83",
+          "B": "x = 23",
+          "C": "x = 37",
+          "D": "x = 47"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 23 from both sides: x = 60 - 23 = 37. Check: 37 + 23 = 60. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q35",
+        "section": "math",
+        "question": "Solve x - 9 = 0.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 9",
+          "C": "x = -9",
+          "D": "x = 18"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 9 to both sides: x = 0 + 9 = 9. Check: 9 - 9 = 0. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q36",
+        "section": "math",
+        "question": "Which equation matches: '12 less than a number is 20'?",
+        "choices": {
+          "A": "x + 12 = 20",
+          "B": "x - 12 = 20",
+          "C": "12 - x = 20",
+          "D": "12x = 20"
+        },
+        "correctAnswer": "B",
+        "explanation": "'12 less than a number' means x - 12, so x - 12 = 20. Solving gives x = 32.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q37",
+        "section": "math",
+        "question": "Solve x + 6 = 31.",
+        "choices": {
+          "A": "x = 37",
+          "B": "x = 186",
+          "C": "x = 6",
+          "D": "x = 25"
+        },
+        "correctAnswer": "D",
+        "explanation": "Subtract 6 from both sides: x = 31 - 6 = 25. Check: 25 + 6 = 31. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q38",
+        "section": "math",
+        "question": "Solve x - 11 = 11.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 22",
+          "C": "x = 121",
+          "D": "x = 11"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 11 to both sides: x = 11 + 11 = 22. Check: 22 - 11 = 11. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-3-q39",
+        "section": "math",
+        "question": "A backpack weighs 6 pounds more after adding books, for a total of 14 pounds. Solve x + 6 = 14 for the empty weight.",
+        "choices": {
+          "A": "x = 20",
+          "B": "x = 8",
+          "C": "x = 6",
+          "D": "x = 84"
+        },
+        "correctAnswer": "B",
+        "explanation": "Subtract 6 from both sides: x = 14 - 6 = 8. The empty backpack weighs 8 pounds. Check: 8 + 6 = 14. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-3-q40",
+        "section": "math",
+        "question": "Solve 100 = x + 45.",
+        "choices": {
+          "A": "x = 145",
+          "B": "x = 65",
+          "C": "x = 45",
+          "D": "x = 55"
+        },
+        "correctAnswer": "D",
+        "explanation": "Subtract 45 from both sides: x = 100 - 45 = 55. Check: 100 = 55 + 45. True.",
+        "standard": "MA.6.AR.2.2",
+        "difficulty": "hard"
+      }
     ]
   },
   "4-4": {
     "learn": "Worked Example 1: Solve 4x = 20.\nStep 1: x is multiplied by 4. Do the opposite: divide both sides by 4.\nStep 2: 4x / 4 = 20 / 4.\nStep 3: x = 5.\nCheck: 4 x 5 = 20. True.\n\nWorked Example 2: Solve x / 3 = 6.\nStep 1: x is divided by 3. Do the opposite: multiply both sides by 3.\nStep 2: (x / 3) x 3 = 6 x 3.\nStep 3: x = 18.\nCheck: 18 / 3 = 6. True.\n\nWorked Example 3: Write and solve. 5 friends shared a bag of marbles equally and each got 8. How many marbles total?\nStep 1: Let m = total marbles. Equation: m / 5 = 8.\nStep 2: Multiply both sides by 5: m = 8 x 5.\nStep 3: m = 40. There were 40 marbles. Check: 40 / 5 = 8. True.",
     "questions": [
-      {"id":"4-4-q1","section":"math","question":"Solve 3x = 18.","choices":{"A":"x = 6","B":"x = 15","C":"x = 21","D":"x = 54"},"correctAnswer":"A","explanation":"Divide both sides by 3: x = 18 / 3 = 6. Check: 3 x 6 = 18. True.","standard":"MA.6.AR.2.3","difficulty":"easy"},
-      {"id":"4-4-q2","section":"math","question":"Solve 7x = 49.","choices":{"A":"x = 6","B":"x = 7","C":"x = 8","D":"x = 42"},"correctAnswer":"B","explanation":"Divide both sides by 7: x = 49 / 7 = 7. Check: 7 x 7 = 49. True.","standard":"MA.6.AR.2.3","difficulty":"easy"},
-      {"id":"4-4-q3","section":"math","question":"Solve x / 2 = 9.","choices":{"A":"x = 4.5","B":"x = 7","C":"x = 11","D":"x = 18"},"correctAnswer":"D","explanation":"Multiply both sides by 2: x = 9 x 2 = 18. Check: 18 / 2 = 9. True.","standard":"MA.6.AR.2.3","difficulty":"easy"},
-      {"id":"4-4-q4","section":"math","question":"Solve x / 5 = 4.","choices":{"A":"x = 9","B":"x = 20","C":"x = 1.25","D":"x = 45"},"correctAnswer":"B","explanation":"Multiply both sides by 5: x = 4 x 5 = 20. Check: 20 / 5 = 4. True.","standard":"MA.6.AR.2.3","difficulty":"easy"},
-      {"id":"4-4-q5","section":"math","question":"To solve 6x = 42, what operation do you use on both sides?","choices":{"A":"Multiply by 6","B":"Add 6","C":"Divide by 6","D":"Subtract 42"},"correctAnswer":"C","explanation":"Division undoes multiplication: divide both sides by 6 to get x = 42 / 6 = 7.","standard":"MA.6.AR.2.3","difficulty":"medium"},
-      {"id":"4-4-q6","section":"math","question":"Solve 9x = 72.","choices":{"A":"x = 7","B":"x = 8","C":"x = 9","D":"x = 63"},"correctAnswer":"B","explanation":"Divide both sides by 9: x = 72 / 9 = 8. Check: 9 x 8 = 72. True.","standard":"MA.6.AR.2.3","difficulty":"medium"},
-      {"id":"4-4-q7","section":"math","question":"Which equation matches: '8 times a number is 56'?","choices":{"A":"x + 8 = 56","B":"8x = 56","C":"x / 8 = 56","D":"x - 8 = 56"},"correctAnswer":"B","explanation":"'8 times a number' means 8x, so 8x = 56. Solving gives x = 7.","standard":"MA.6.AR.2.3","difficulty":"medium"},
-      {"id":"4-4-q8","section":"math","question":"6 students shared pencils equally and each got 4. Solve p / 6 = 4 for the total pencils.","choices":{"A":"p = 10","B":"p = 24","C":"p = 2","D":"p = 1.5"},"correctAnswer":"B","explanation":"Multiply both sides by 6: p = 4 x 6 = 24. Check: 24 / 6 = 4. True.","standard":"MA.6.AR.2.3","difficulty":"medium"},
-      {"id":"4-4-q9","section":"math","question":"Solve 12x = 60.","choices":{"A":"x = 4","B":"x = 5","C":"x = 6","D":"x = 48"},"correctAnswer":"B","explanation":"Divide both sides by 12: x = 60 / 12 = 5. Check: 12 x 5 = 60. True.","standard":"MA.6.AR.2.3","difficulty":"hard"},
-      {"id":"4-4-q10","section":"math","question":"A pizza was cut into equal slices. Each of 8 people got 3 slices. Solve s / 8 = 3 for total slices.","choices":{"A":"s = 11","B":"s = 24","C":"s = 5","D":"s = 2.67"},"correctAnswer":"B","explanation":"Multiply both sides by 8: s = 3 x 8 = 24. The pizza had 24 slices. Check: 24 / 8 = 3. True.","standard":"MA.6.AR.2.3","difficulty":"hard"}
+      {
+        "id": "4-4-q1",
+        "section": "math",
+        "question": "Solve 3x = 18.",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 15",
+          "C": "x = 21",
+          "D": "x = 54"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 3: x = 18 / 3 = 6. Check: 3 x 6 = 18. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q2",
+        "section": "math",
+        "question": "Solve 7x = 49.",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 7",
+          "C": "x = 8",
+          "D": "x = 42"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 7: x = 49 / 7 = 7. Check: 7 x 7 = 49. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q3",
+        "section": "math",
+        "question": "Solve x / 2 = 9.",
+        "choices": {
+          "A": "x = 4.5",
+          "B": "x = 7",
+          "C": "x = 11",
+          "D": "x = 18"
+        },
+        "correctAnswer": "D",
+        "explanation": "Multiply both sides by 2: x = 9 x 2 = 18. Check: 18 / 2 = 9. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q4",
+        "section": "math",
+        "question": "Solve x / 5 = 4.",
+        "choices": {
+          "A": "x = 9",
+          "B": "x = 20",
+          "C": "x = 1.25",
+          "D": "x = 45"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 5: x = 4 x 5 = 20. Check: 20 / 5 = 4. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q5",
+        "section": "math",
+        "question": "To solve 6x = 42, what operation do you use on both sides?",
+        "choices": {
+          "A": "Multiply by 6",
+          "B": "Add 6",
+          "C": "Divide by 6",
+          "D": "Subtract 42"
+        },
+        "correctAnswer": "C",
+        "explanation": "Division undoes multiplication: divide both sides by 6 to get x = 42 / 6 = 7.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q6",
+        "section": "math",
+        "question": "Solve 9x = 72.",
+        "choices": {
+          "A": "x = 7",
+          "B": "x = 8",
+          "C": "x = 9",
+          "D": "x = 63"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 9: x = 72 / 9 = 8. Check: 9 x 8 = 72. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q7",
+        "section": "math",
+        "question": "Which equation matches: '8 times a number is 56'?",
+        "choices": {
+          "A": "x + 8 = 56",
+          "B": "8x = 56",
+          "C": "x / 8 = 56",
+          "D": "x - 8 = 56"
+        },
+        "correctAnswer": "B",
+        "explanation": "'8 times a number' means 8x, so 8x = 56. Solving gives x = 7.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q8",
+        "section": "math",
+        "question": "6 students shared pencils equally and each got 4. Solve p / 6 = 4 for the total pencils.",
+        "choices": {
+          "A": "p = 10",
+          "B": "p = 24",
+          "C": "p = 2",
+          "D": "p = 1.5"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 6: p = 4 x 6 = 24. Check: 24 / 6 = 4. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q9",
+        "section": "math",
+        "question": "Solve 12x = 60.",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 5",
+          "C": "x = 6",
+          "D": "x = 48"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 12: x = 60 / 12 = 5. Check: 12 x 5 = 60. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-4-q10",
+        "section": "math",
+        "question": "A pizza was cut into equal slices. Each of 8 people got 3 slices. Solve s / 8 = 3 for total slices.",
+        "choices": {
+          "A": "s = 11",
+          "B": "s = 24",
+          "C": "s = 5",
+          "D": "s = 2.67"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 8: s = 3 x 8 = 24. The pizza had 24 slices. Check: 24 / 8 = 3. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-4-q11",
+        "section": "math",
+        "question": "Solve 5x = 25.",
+        "choices": {
+          "A": "x = 125",
+          "B": "x = 20",
+          "C": "x = 30",
+          "D": "x = 5"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 5: x = 25 / 5 = 5. Check: 5 x 5 = 25. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q12",
+        "section": "math",
+        "question": "Solve 4x = 32.",
+        "choices": {
+          "A": "x = 7",
+          "B": "x = 28",
+          "C": "x = 9",
+          "D": "x = 8"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 4: x = 32 / 4 = 8. Check: 4 x 8 = 32. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q13",
+        "section": "math",
+        "question": "Solve x / 3 = 7.",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 10",
+          "C": "x = 21",
+          "D": "x = 2.33"
+        },
+        "correctAnswer": "C",
+        "explanation": "Multiply both sides by 3: x = 7 x 3 = 21. Check: 21 / 3 = 7. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q14",
+        "section": "math",
+        "question": "Solve x / 4 = 6.",
+        "choices": {
+          "A": "x = 10",
+          "B": "x = 24",
+          "C": "x = 1.5",
+          "D": "x = 2"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 4: x = 6 x 4 = 24. Check: 24 / 4 = 6. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q15",
+        "section": "math",
+        "question": "Solve 8x = 64.",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 7",
+          "C": "x = 9",
+          "D": "x = 56"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 8: x = 64 / 8 = 8. Check: 8 x 8 = 64. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q16",
+        "section": "math",
+        "question": "To solve 7x = 35, what operation do you use on both sides?",
+        "choices": {
+          "A": "Multiply by 7",
+          "B": "Add 7",
+          "C": "Divide by 7",
+          "D": "Subtract 35"
+        },
+        "correctAnswer": "C",
+        "explanation": "Division undoes multiplication: divide both sides by 7 to get x = 35 / 7 = 5.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q17",
+        "section": "math",
+        "question": "To solve x / 9 = 2, what operation do you use on both sides?",
+        "choices": {
+          "A": "Divide by 9",
+          "B": "Multiply by 9",
+          "C": "Subtract 9",
+          "D": "Add 2"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiplication undoes division: multiply both sides by 9 to get x = 2 x 9 = 18.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q18",
+        "section": "math",
+        "question": "Solve 11x = 88.",
+        "choices": {
+          "A": "x = 7",
+          "B": "x = 77",
+          "C": "x = 9",
+          "D": "x = 8"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 11: x = 88 / 11 = 8. Check: 11 x 8 = 88. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q19",
+        "section": "math",
+        "question": "Which equation matches: '6 times a number is 54'?",
+        "choices": {
+          "A": "x + 6 = 54",
+          "B": "6x = 54",
+          "C": "x / 6 = 54",
+          "D": "x - 6 = 54"
+        },
+        "correctAnswer": "B",
+        "explanation": "'6 times a number' means 6x, so 6x = 54. Solving gives x = 9.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q20",
+        "section": "math",
+        "question": "7 friends shared cards equally and each got 5. Solve c / 7 = 5 for the total cards.",
+        "choices": {
+          "A": "c = 12",
+          "B": "c = 35",
+          "C": "c = 2",
+          "D": "c = 1.4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 7: c = 5 x 7 = 35. Check: 35 / 7 = 5. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q21",
+        "section": "math",
+        "question": "Solve 9x = 54.",
+        "choices": {
+          "A": "x = 5",
+          "B": "x = 45",
+          "C": "x = 7",
+          "D": "x = 6"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 9: x = 54 / 9 = 6. Check: 9 x 6 = 54. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q22",
+        "section": "math",
+        "question": "Solve x / 6 = 5.",
+        "choices": {
+          "A": "x = 30",
+          "B": "x = 11",
+          "C": "x = 1.2",
+          "D": "x = 1"
+        },
+        "correctAnswer": "A",
+        "explanation": "Multiply both sides by 6: x = 5 x 6 = 30. Check: 30 / 6 = 5. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q23",
+        "section": "math",
+        "question": "Solve 3x = 27.",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 24",
+          "C": "x = 9",
+          "D": "x = 81"
+        },
+        "correctAnswer": "C",
+        "explanation": "Divide both sides by 3: x = 27 / 3 = 9. Check: 3 x 9 = 27. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q24",
+        "section": "math",
+        "question": "Solve x / 7 = 3.",
+        "choices": {
+          "A": "x = 10",
+          "B": "x = 2.33",
+          "C": "x = 21",
+          "D": "x = 4"
+        },
+        "correctAnswer": "C",
+        "explanation": "Multiply both sides by 7: x = 3 x 7 = 21. Check: 21 / 7 = 3. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q25",
+        "section": "math",
+        "question": "Which operation undoes dividing by 5 in x / 5 = 8?",
+        "choices": {
+          "A": "dividing by 5",
+          "B": "multiplying by 5",
+          "C": "adding 5",
+          "D": "subtracting 8"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiplication undoes division. Multiply both sides by 5: x = 8 x 5 = 40.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q26",
+        "section": "math",
+        "question": "Solve 2x = 16.",
+        "choices": {
+          "A": "x = 8",
+          "B": "x = 7",
+          "C": "x = 14",
+          "D": "x = 32"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 2: x = 16 / 2 = 8. Check: 2 x 8 = 16. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q27",
+        "section": "math",
+        "question": "Which equation matches: 'A number divided by 4 is 9'?",
+        "choices": {
+          "A": "4x = 9",
+          "B": "x / 4 = 9",
+          "C": "x - 4 = 9",
+          "D": "x + 4 = 9"
+        },
+        "correctAnswer": "B",
+        "explanation": "'A number divided by 4' means x / 4, so x / 4 = 9. Solving gives x = 36.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q28",
+        "section": "math",
+        "question": "Solve 10x = 70.",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 700",
+          "C": "x = 60",
+          "D": "x = 7"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 10: x = 70 / 10 = 7. Check: 10 x 7 = 70. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q29",
+        "section": "math",
+        "question": "Solve x / 8 = 4.",
+        "choices": {
+          "A": "x = 12",
+          "B": "x = 0.5",
+          "C": "x = 2",
+          "D": "x = 32"
+        },
+        "correctAnswer": "D",
+        "explanation": "Multiply both sides by 8: x = 4 x 8 = 32. Check: 32 / 8 = 4. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q30",
+        "section": "math",
+        "question": "5 vans carried students equally, 9 per van. Solve s / 5 = 9 for the total students.",
+        "choices": {
+          "A": "s = 14",
+          "B": "s = 45",
+          "C": "s = 4",
+          "D": "s = 1.8"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 5: s = 9 x 5 = 45. There were 45 students. Check: 45 / 5 = 9. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q31",
+        "section": "math",
+        "question": "Solve 12x = 84.",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 7",
+          "C": "x = 8",
+          "D": "x = 72"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 12: x = 84 / 12 = 7. Check: 12 x 7 = 84. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-4-q32",
+        "section": "math",
+        "question": "A rope was cut into equal pieces. Each of 9 people got 6 ft. Solve r / 9 = 6 for the total length.",
+        "choices": {
+          "A": "r = 15",
+          "B": "r = 54",
+          "C": "r = 1.5",
+          "D": "r = 3"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 9: r = 6 x 9 = 54. The rope was 54 ft. Check: 54 / 9 = 6. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-4-q33",
+        "section": "math",
+        "question": "Solve 15x = 90.",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 5",
+          "C": "x = 7",
+          "D": "x = 75"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 15: x = 90 / 15 = 6. Check: 15 x 6 = 90. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-4-q34",
+        "section": "math",
+        "question": "Solve x / 10 = 7.",
+        "choices": {
+          "A": "x = 17",
+          "B": "x = 70",
+          "C": "x = 0.7",
+          "D": "x = 3"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 10: x = 7 x 10 = 70. Check: 70 / 10 = 7. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q35",
+        "section": "math",
+        "question": "Solve 6x = 48.",
+        "choices": {
+          "A": "x = 7",
+          "B": "x = 42",
+          "C": "x = 9",
+          "D": "x = 8"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 6: x = 48 / 6 = 8. Check: 6 x 8 = 48. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q36",
+        "section": "math",
+        "question": "A student solves 4x = 24 by subtracting 4 from both sides. What should they do instead?",
+        "choices": {
+          "A": "Nothing, that is correct",
+          "B": "Divide both sides by 4 to undo the multiplication",
+          "C": "Add 4 to both sides",
+          "D": "Multiply both sides by 4"
+        },
+        "correctAnswer": "B",
+        "explanation": "To undo multiplying by 4, divide both sides by 4: x = 24 / 4 = 6.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-4-q37",
+        "section": "math",
+        "question": "Solve x / 2 = 15.",
+        "choices": {
+          "A": "x = 13",
+          "B": "x = 30",
+          "C": "x = 7.5",
+          "D": "x = 17"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 2: x = 15 x 2 = 30. Check: 30 / 2 = 15. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-4-q38",
+        "section": "math",
+        "question": "Solve 7x = 63.",
+        "choices": {
+          "A": "x = 9",
+          "B": "x = 8",
+          "C": "x = 10",
+          "D": "x = 56"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 7: x = 63 / 7 = 9. Check: 7 x 9 = 63. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q39",
+        "section": "math",
+        "question": "Which equation matches: '9 times a number equals 36'?",
+        "choices": {
+          "A": "x / 9 = 36",
+          "B": "9x = 36",
+          "C": "x + 9 = 36",
+          "D": "x - 9 = 36"
+        },
+        "correctAnswer": "B",
+        "explanation": "'9 times a number' means 9x, so 9x = 36. Solving gives x = 4.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-4-q40",
+        "section": "math",
+        "question": "Solve x / 12 = 3.",
+        "choices": {
+          "A": "x = 15",
+          "B": "x = 0.25",
+          "C": "x = 4",
+          "D": "x = 36"
+        },
+        "correctAnswer": "D",
+        "explanation": "Multiply both sides by 12: x = 3 x 12 = 36. Check: 36 / 12 = 3. True.",
+        "standard": "MA.6.AR.2.3",
+        "difficulty": "medium"
+      }
     ]
   },
   "4-5": {
     "learn": "Worked Example 1: Solve x + 2.5 = 7.\nStep 1: Do the opposite of adding 2.5: subtract 2.5 from both sides.\nStep 2: x = 7 - 2.5.\nStep 3: x = 4.5.\nCheck: 4.5 + 2.5 = 7. True.\n\nWorked Example 2: Solve (1/2)x = 6.\nStep 1: x is multiplied by 1/2. Do the opposite: multiply both sides by 2 (or divide by 1/2).\nStep 2: x = 6 x 2.\nStep 3: x = 12.\nCheck: (1/2) x 12 = 6. True.\n\nWorked Example 3: Solve x - 3/4 = 1/4.\nStep 1: Add 3/4 to both sides.\nStep 2: x = 1/4 + 3/4.\nStep 3: x = 4/4 = 1.\nCheck: 1 - 3/4 = 1/4. True. The same balancing rules work with fractions and decimals.",
     "questions": [
-      {"id":"4-5-q1","section":"math","question":"Solve x + 1.5 = 4.","choices":{"A":"x = 2.5","B":"x = 5.5","C":"x = 3","D":"x = 6"},"correctAnswer":"A","explanation":"Subtract 1.5 from both sides: x = 4 - 1.5 = 2.5. Check: 2.5 + 1.5 = 4. True.","standard":"MA.6.AR.2.4","difficulty":"easy"},
-      {"id":"4-5-q2","section":"math","question":"Solve x - 0.5 = 2.3.","choices":{"A":"x = 1.8","B":"x = 2.8","C":"x = 2.35","D":"x = 0.5"},"correctAnswer":"B","explanation":"Add 0.5 to both sides: x = 2.3 + 0.5 = 2.8. Check: 2.8 - 0.5 = 2.3. True.","standard":"MA.6.AR.2.4","difficulty":"easy"},
-      {"id":"4-5-q3","section":"math","question":"Solve x + 1/4 = 3/4.","choices":{"A":"x = 1/2","B":"x = 1","C":"x = 1/4","D":"x = 4/8"},"correctAnswer":"A","explanation":"Subtract 1/4 from both sides: x = 3/4 - 1/4 = 2/4 = 1/2. Check: 1/2 + 1/4 = 3/4. True.","standard":"MA.6.AR.2.4","difficulty":"medium"},
-      {"id":"4-5-q4","section":"math","question":"Solve 2x = 5 (answer may be a decimal).","choices":{"A":"x = 2.5","B":"x = 3","C":"x = 10","D":"x = 7"},"correctAnswer":"A","explanation":"Divide both sides by 2: x = 5 / 2 = 2.5. Check: 2 x 2.5 = 5. True.","standard":"MA.6.AR.2.4","difficulty":"easy"},
-      {"id":"4-5-q5","section":"math","question":"Solve (1/3)x = 4.","choices":{"A":"x = 4/3","B":"x = 7","C":"x = 12","D":"x = 1.33"},"correctAnswer":"C","explanation":"Multiply both sides by 3: x = 4 x 3 = 12. Check: (1/3) x 12 = 4. True.","standard":"MA.6.AR.2.4","difficulty":"medium"},
-      {"id":"4-5-q6","section":"math","question":"Solve x - 2/5 = 1/5.","choices":{"A":"x = 1/5","B":"x = 3/5","C":"x = 3/10","D":"x = 1"},"correctAnswer":"B","explanation":"Add 2/5 to both sides: x = 1/5 + 2/5 = 3/5. Check: 3/5 - 2/5 = 1/5. True.","standard":"MA.6.AR.2.4","difficulty":"medium"},
-      {"id":"4-5-q7","section":"math","question":"Solve 0.4x = 2.","choices":{"A":"x = 0.8","B":"x = 5","C":"x = 1.6","D":"x = 2.4"},"correctAnswer":"B","explanation":"Divide both sides by 0.4: x = 2 / 0.4 = 5. Check: 0.4 x 5 = 2. True.","standard":"MA.6.AR.2.4","difficulty":"hard"},
-      {"id":"4-5-q8","section":"math","question":"Solve x + 3.25 = 5.","choices":{"A":"x = 1.75","B":"x = 2.25","C":"x = 8.25","D":"x = 1.25"},"correctAnswer":"A","explanation":"Subtract 3.25 from both sides: x = 5 - 3.25 = 1.75. Check: 1.75 + 3.25 = 5. True.","standard":"MA.6.AR.2.4","difficulty":"medium"},
-      {"id":"4-5-q9","section":"math","question":"A ribbon was 4.8 m long. After cutting off a piece, 1.9 m was left. Solve 4.8 - p = 1.9 for the piece cut off.","choices":{"A":"p = 2.9","B":"p = 6.7","C":"p = 3.1","D":"p = 2.1"},"correctAnswer":"A","explanation":"4.8 - p = 1.9 means p = 4.8 - 1.9 = 2.9. Check: 4.8 - 2.9 = 1.9. True.","standard":"MA.6.AR.2.4","difficulty":"hard"},
-      {"id":"4-5-q10","section":"math","question":"Solve (3/4)x = 9.","choices":{"A":"x = 6.75","B":"x = 12","C":"x = 9.75","D":"x = 27"},"correctAnswer":"B","explanation":"Multiply both sides by 4/3: x = 9 x 4/3 = 36/3 = 12. Check: (3/4) x 12 = 9. True.","standard":"MA.6.AR.2.4","difficulty":"hard"}
+      {
+        "id": "4-5-q1",
+        "section": "math",
+        "question": "Solve x + 1.5 = 4.",
+        "choices": {
+          "A": "x = 2.5",
+          "B": "x = 5.5",
+          "C": "x = 3",
+          "D": "x = 6"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 1.5 from both sides: x = 4 - 1.5 = 2.5. Check: 2.5 + 1.5 = 4. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q2",
+        "section": "math",
+        "question": "Solve x - 0.5 = 2.3.",
+        "choices": {
+          "A": "x = 1.8",
+          "B": "x = 2.8",
+          "C": "x = 2.35",
+          "D": "x = 0.5"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 0.5 to both sides: x = 2.3 + 0.5 = 2.8. Check: 2.8 - 0.5 = 2.3. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q3",
+        "section": "math",
+        "question": "Solve x + 1/4 = 3/4.",
+        "choices": {
+          "A": "x = 1/2",
+          "B": "x = 1",
+          "C": "x = 1/4",
+          "D": "x = 4/8"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 1/4 from both sides: x = 3/4 - 1/4 = 2/4 = 1/2. Check: 1/2 + 1/4 = 3/4. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q4",
+        "section": "math",
+        "question": "Solve 2x = 5 (answer may be a decimal).",
+        "choices": {
+          "A": "x = 2.5",
+          "B": "x = 3",
+          "C": "x = 10",
+          "D": "x = 7"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 2: x = 5 / 2 = 2.5. Check: 2 x 2.5 = 5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q5",
+        "section": "math",
+        "question": "Solve (1/3)x = 4.",
+        "choices": {
+          "A": "x = 4/3",
+          "B": "x = 7",
+          "C": "x = 12",
+          "D": "x = 1.33"
+        },
+        "correctAnswer": "C",
+        "explanation": "Multiply both sides by 3: x = 4 x 3 = 12. Check: (1/3) x 12 = 4. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q6",
+        "section": "math",
+        "question": "Solve x - 2/5 = 1/5.",
+        "choices": {
+          "A": "x = 1/5",
+          "B": "x = 3/5",
+          "C": "x = 3/10",
+          "D": "x = 1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 2/5 to both sides: x = 1/5 + 2/5 = 3/5. Check: 3/5 - 2/5 = 1/5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q7",
+        "section": "math",
+        "question": "Solve 0.4x = 2.",
+        "choices": {
+          "A": "x = 0.8",
+          "B": "x = 5",
+          "C": "x = 1.6",
+          "D": "x = 2.4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 0.4: x = 2 / 0.4 = 5. Check: 0.4 x 5 = 2. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q8",
+        "section": "math",
+        "question": "Solve x + 3.25 = 5.",
+        "choices": {
+          "A": "x = 1.75",
+          "B": "x = 2.25",
+          "C": "x = 8.25",
+          "D": "x = 1.25"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 3.25 from both sides: x = 5 - 3.25 = 1.75. Check: 1.75 + 3.25 = 5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q9",
+        "section": "math",
+        "question": "A ribbon was 4.8 m long. After cutting off a piece, 1.9 m was left. Solve 4.8 - p = 1.9 for the piece cut off.",
+        "choices": {
+          "A": "p = 2.9",
+          "B": "p = 6.7",
+          "C": "p = 3.1",
+          "D": "p = 2.1"
+        },
+        "correctAnswer": "A",
+        "explanation": "4.8 - p = 1.9 means p = 4.8 - 1.9 = 2.9. Check: 4.8 - 2.9 = 1.9. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q10",
+        "section": "math",
+        "question": "Solve (3/4)x = 9.",
+        "choices": {
+          "A": "x = 6.75",
+          "B": "x = 12",
+          "C": "x = 9.75",
+          "D": "x = 27"
+        },
+        "correctAnswer": "B",
+        "explanation": "Multiply both sides by 4/3: x = 9 x 4/3 = 36/3 = 12. Check: (3/4) x 12 = 9. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q11",
+        "section": "math",
+        "question": "Solve x + 2.5 = 6.",
+        "choices": {
+          "A": "x = 4",
+          "B": "x = 8.5",
+          "C": "x = 3.5",
+          "D": "x = 2.5"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 2.5 from both sides: x = 6 - 2.5 = 3.5. Check: 3.5 + 2.5 = 6. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q12",
+        "section": "math",
+        "question": "Solve x - 1.2 = 3.4.",
+        "choices": {
+          "A": "x = 2.2",
+          "B": "x = 1.2",
+          "C": "x = 4.08",
+          "D": "x = 4.6"
+        },
+        "correctAnswer": "D",
+        "explanation": "Add 1.2 to both sides: x = 3.4 + 1.2 = 4.6. Check: 4.6 - 1.2 = 3.4. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q13",
+        "section": "math",
+        "question": "Solve x + 0.7 = 1.0.",
+        "choices": {
+          "A": "x = 0.7",
+          "B": "x = 1.7",
+          "C": "x = 0.3",
+          "D": "x = 1.3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 0.7 from both sides: x = 1.0 - 0.7 = 0.3. Check: 0.3 + 0.7 = 1.0. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q14",
+        "section": "math",
+        "question": "Solve x + 1/4 = 1.",
+        "choices": {
+          "A": "x = 5/4",
+          "B": "x = 1/4",
+          "C": "x = 3/4",
+          "D": "x = 1/2"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 1/4 from both sides: x = 1 - 1/4 = 3/4. Check: 3/4 + 1/4 = 1. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q15",
+        "section": "math",
+        "question": "Solve 2x = 9 (answer may be a decimal).",
+        "choices": {
+          "A": "x = 4.5",
+          "B": "x = 7",
+          "C": "x = 18",
+          "D": "x = 11"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 2: x = 9 / 2 = 4.5. Check: 2 x 4.5 = 9. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q16",
+        "section": "math",
+        "question": "Solve (1/2)x = 5.",
+        "choices": {
+          "A": "x = 10",
+          "B": "x = 7",
+          "C": "x = 2.5",
+          "D": "x = 5.5"
+        },
+        "correctAnswer": "A",
+        "explanation": "Multiply both sides by 2: x = 5 x 2 = 10. Check: (1/2) x 10 = 5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q17",
+        "section": "math",
+        "question": "Solve x - 3/8 = 1/8.",
+        "choices": {
+          "A": "x = 2/8",
+          "B": "x = 4/8",
+          "C": "x = 1/2",
+          "D": "both B and C are equal and correct"
+        },
+        "correctAnswer": "D",
+        "explanation": "Add 3/8 to both sides: x = 1/8 + 3/8 = 4/8 = 1/2. Since 4/8 and 1/2 are the same value, choice D is correct.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q18",
+        "section": "math",
+        "question": "Solve x + 4.6 = 10.",
+        "choices": {
+          "A": "x = 5.6",
+          "B": "x = 14.6",
+          "C": "x = 6.4",
+          "D": "x = 5.4"
+        },
+        "correctAnswer": "D",
+        "explanation": "Subtract 4.6 from both sides: x = 10 - 4.6 = 5.4. Check: 5.4 + 4.6 = 10. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q19",
+        "section": "math",
+        "question": "Solve 0.5x = 4.",
+        "choices": {
+          "A": "x = 2",
+          "B": "x = 8",
+          "C": "x = 4.5",
+          "D": "x = 0.125"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 0.5: x = 4 / 0.5 = 8. Check: 0.5 x 8 = 4. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q20",
+        "section": "math",
+        "question": "Solve x - 2.7 = 1.3.",
+        "choices": {
+          "A": "x = 1.4",
+          "B": "x = 4.0",
+          "C": "x = 3.91",
+          "D": "x = 4.1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 2.7 to both sides: x = 1.3 + 2.7 = 4.0. Check: 4.0 - 2.7 = 1.3. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q21",
+        "section": "math",
+        "question": "Solve x + 5/6 = 1.",
+        "choices": {
+          "A": "x = 11/6",
+          "B": "x = 5/6",
+          "C": "x = 1/6",
+          "D": "x = 1/3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 5/6 from both sides: x = 1 - 5/6 = 1/6. Check: 1/6 + 5/6 = 6/6 = 1. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q22",
+        "section": "math",
+        "question": "Solve (1/4)x = 3.",
+        "choices": {
+          "A": "x = 12",
+          "B": "x = 7",
+          "C": "x = 3/4",
+          "D": "x = 0.75"
+        },
+        "correctAnswer": "A",
+        "explanation": "Multiply both sides by 4: x = 3 x 4 = 12. Check: (1/4) x 12 = 3. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q23",
+        "section": "math",
+        "question": "Solve x + 1.25 = 2.",
+        "choices": {
+          "A": "x = 0.25",
+          "B": "x = 3.25",
+          "C": "x = 0.75",
+          "D": "x = 1.75"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 1.25 from both sides: x = 2 - 1.25 = 0.75. Check: 0.75 + 1.25 = 2. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q24",
+        "section": "math",
+        "question": "Solve 4x = 10 (answer may be a decimal).",
+        "choices": {
+          "A": "x = 14",
+          "B": "x = 6",
+          "C": "x = 40",
+          "D": "x = 2.5"
+        },
+        "correctAnswer": "D",
+        "explanation": "Divide both sides by 4: x = 10 / 4 = 2.5. Check: 4 x 2.5 = 10. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q25",
+        "section": "math",
+        "question": "Solve x - 1/3 = 1/3.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 2/3",
+          "C": "x = 1/3",
+          "D": "x = 1/6"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 1/3 to both sides: x = 1/3 + 1/3 = 2/3. Check: 2/3 - 1/3 = 1/3. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q26",
+        "section": "math",
+        "question": "Solve x + 0.05 = 0.5.",
+        "choices": {
+          "A": "x = 0.45",
+          "B": "x = 0.55",
+          "C": "x = 0.045",
+          "D": "x = 0.4"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 0.05 from both sides: x = 0.5 - 0.05 = 0.45. Check: 0.45 + 0.05 = 0.5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q27",
+        "section": "math",
+        "question": "Solve (2/3)x = 8.",
+        "choices": {
+          "A": "x = 5.33",
+          "B": "x = 24",
+          "C": "x = 16/3",
+          "D": "x = 12"
+        },
+        "correctAnswer": "D",
+        "explanation": "Multiply both sides by 3/2: x = 8 x 3/2 = 24/2 = 12. Check: (2/3) x 12 = 8. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q28",
+        "section": "math",
+        "question": "Solve x - 0.9 = 0.1.",
+        "choices": {
+          "A": "x = 0.8",
+          "B": "x = 1.0",
+          "C": "x = 0.09",
+          "D": "x = 1.9"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 0.9 to both sides: x = 0.1 + 0.9 = 1.0. Check: 1.0 - 0.9 = 0.1. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q29",
+        "section": "math",
+        "question": "A water bottle held some liters. After drinking 0.6 L, 1.4 L was left. Solve x - 0.6 = 1.4 for the start amount.",
+        "choices": {
+          "A": "x = 0.8",
+          "B": "x = 2.0",
+          "C": "x = 1.96",
+          "D": "x = 2.4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 0.6 to both sides: x = 1.4 + 0.6 = 2.0. The bottle held 2.0 L. Check: 2.0 - 0.6 = 1.4. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q30",
+        "section": "math",
+        "question": "Solve x + 3/10 = 7/10.",
+        "choices": {
+          "A": "x = 10/10",
+          "B": "x = 1",
+          "C": "x = 4/10",
+          "D": "x = 4/20"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 3/10 from both sides: x = 7/10 - 3/10 = 4/10. Check: 4/10 + 3/10 = 7/10. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q31",
+        "section": "math",
+        "question": "Solve 0.2x = 3.",
+        "choices": {
+          "A": "x = 0.6",
+          "B": "x = 15",
+          "C": "x = 2.8",
+          "D": "x = 6"
+        },
+        "correctAnswer": "B",
+        "explanation": "Divide both sides by 0.2: x = 3 / 0.2 = 15. Check: 0.2 x 15 = 3. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q32",
+        "section": "math",
+        "question": "Solve x + 6.75 = 10.",
+        "choices": {
+          "A": "x = 3.25",
+          "B": "x = 4.25",
+          "C": "x = 16.75",
+          "D": "x = 3.75"
+        },
+        "correctAnswer": "A",
+        "explanation": "Subtract 6.75 from both sides: x = 10 - 6.75 = 3.25. Check: 3.25 + 6.75 = 10. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q33",
+        "section": "math",
+        "question": "Solve (1/5)x = 7.",
+        "choices": {
+          "A": "x = 35",
+          "B": "x = 12",
+          "C": "x = 1.4",
+          "D": "x = 7/5"
+        },
+        "correctAnswer": "A",
+        "explanation": "Multiply both sides by 5: x = 7 x 5 = 35. Check: (1/5) x 35 = 7. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q34",
+        "section": "math",
+        "question": "Solve x - 4.5 = 4.5.",
+        "choices": {
+          "A": "x = 0",
+          "B": "x = 9",
+          "C": "x = 9.0 only as a fraction",
+          "D": "x = 2.25"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 4.5 to both sides: x = 4.5 + 4.5 = 9. Check: 9 - 4.5 = 4.5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q35",
+        "section": "math",
+        "question": "Solve x + 2/5 = 4/5.",
+        "choices": {
+          "A": "x = 2/10",
+          "B": "x = 6/5",
+          "C": "x = 2/5",
+          "D": "x = 1"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 2/5 from both sides: x = 4/5 - 2/5 = 2/5. Check: 2/5 + 2/5 = 4/5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q36",
+        "section": "math",
+        "question": "Solve 5x = 12 (answer may be a decimal).",
+        "choices": {
+          "A": "x = 2.4",
+          "B": "x = 7",
+          "C": "x = 60",
+          "D": "x = 2.6"
+        },
+        "correctAnswer": "A",
+        "explanation": "Divide both sides by 5: x = 12 / 5 = 2.4. Check: 5 x 2.4 = 12. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q37",
+        "section": "math",
+        "question": "Solve x - 0.25 = 0.75.",
+        "choices": {
+          "A": "x = 0.5",
+          "B": "x = 1.0",
+          "C": "x = 0.50 plus 0.25",
+          "D": "x = 1.25"
+        },
+        "correctAnswer": "B",
+        "explanation": "Add 0.25 to both sides: x = 0.75 + 0.25 = 1.0. Check: 1.0 - 0.25 = 0.75. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-5-q38",
+        "section": "math",
+        "question": "Solve (3/5)x = 6.",
+        "choices": {
+          "A": "x = 3.6",
+          "B": "x = 18/5",
+          "C": "x = 30",
+          "D": "x = 10"
+        },
+        "correctAnswer": "D",
+        "explanation": "Multiply both sides by 5/3: x = 6 x 5/3 = 30/3 = 10. Check: (3/5) x 10 = 6. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-5-q39",
+        "section": "math",
+        "question": "A board was 5.5 ft long. After cutting a piece, 2.2 ft was left. Solve 5.5 - p = 2.2 for the piece cut off.",
+        "choices": {
+          "A": "p = 3.3",
+          "B": "p = 7.7",
+          "C": "p = 3.7",
+          "D": "p = 2.3"
+        },
+        "correctAnswer": "A",
+        "explanation": "5.5 - p = 2.2 means p = 5.5 - 2.2 = 3.3. Check: 5.5 - 3.3 = 2.2. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-5-q40",
+        "section": "math",
+        "question": "Solve x + 1.5 = 1.5.",
+        "choices": {
+          "A": "x = 1.5",
+          "B": "x = 3",
+          "C": "x = 0",
+          "D": "x = 0.75"
+        },
+        "correctAnswer": "C",
+        "explanation": "Subtract 1.5 from both sides: x = 1.5 - 1.5 = 0. Check: 0 + 1.5 = 1.5. True.",
+        "standard": "MA.6.AR.2.4",
+        "difficulty": "easy"
+      }
     ]
   },
   "4-6": {
     "learn": "Worked Example 1: Write an inequality for 'a number is greater than 5.'\nStep 1: 'Greater than' uses the > symbol.\nStep 2: Let the number be x.\nStep 3: x > 5. This means any value larger than 5 works (like 6, 7, 100), but NOT 5 itself.\n\nWorked Example 2: Write an inequality for 'you must be at least 10 years old.'\nStep 1: 'At least 10' means 10 or more, so it includes 10.\nStep 2: 'Or more' with 'including' uses the >= symbol.\nStep 3: age >= 10.\n\nWorked Example 3: Is x = 4 a solution to x < 7?\nStep 1: x < 7 means x is less than 7.\nStep 2: Is 4 less than 7? Yes.\nStep 3: So x = 4 IS a solution. (Note: x = 7 would NOT work because 7 is not less than 7.)",
     "questions": [
-      {"id":"4-6-q1","section":"math","question":"Which symbol means 'greater than'?","choices":{"A":"<","B":">","C":"=","D":"+"},"correctAnswer":"B","explanation":"The > symbol means 'greater than.' For example, 8 > 3 reads '8 is greater than 3.'","standard":"MA.6.AR.1.2","difficulty":"easy"},
-      {"id":"4-6-q2","section":"math","question":"Which inequality means 'x is less than 6'?","choices":{"A":"x > 6","B":"x < 6","C":"x = 6","D":"x >= 6"},"correctAnswer":"B","explanation":"'Less than' uses the < symbol, so 'x is less than 6' is written x < 6.","standard":"MA.6.AR.1.2","difficulty":"easy"},
-      {"id":"4-6-q3","section":"math","question":"'At least 10' is written as which inequality?","choices":{"A":"x > 10","B":"x < 10","C":"x >= 10","D":"x <= 10"},"correctAnswer":"C","explanation":"'At least 10' means 10 or more, which includes 10, so it is x >= 10.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-6-q4","section":"math","question":"'No more than 15' is written as which inequality?","choices":{"A":"x >= 15","B":"x <= 15","C":"x > 15","D":"x < 15"},"correctAnswer":"B","explanation":"'No more than 15' means 15 or less, which includes 15, so it is x <= 15.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-6-q5","section":"math","question":"Is x = 8 a solution to x > 5?","choices":{"A":"Yes, because 8 is greater than 5","B":"No, because 8 is less than 5","C":"No, because 8 equals 5","D":"Yes, because 8 is less than 5"},"correctAnswer":"A","explanation":"x > 5 means x must be greater than 5. Since 8 > 5 is true, x = 8 is a solution.","standard":"MA.6.AR.1.2","difficulty":"easy"},
-      {"id":"4-6-q6","section":"math","question":"Which value is NOT a solution to x <= 4?","choices":{"A":"x = 2","B":"x = 4","C":"x = 0","D":"x = 5"},"correctAnswer":"D","explanation":"x <= 4 means x is 4 or less. 5 is greater than 4, so x = 5 is NOT a solution. The others (2, 4, 0) all satisfy x <= 4.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-6-q7","section":"math","question":"A ride requires you to be 'more than 48 inches' tall. Which inequality fits, where h is height?","choices":{"A":"h < 48","B":"h > 48","C":"h >= 48","D":"h <= 48"},"correctAnswer":"B","explanation":"'More than 48' does NOT include 48 itself, so it uses >. The inequality is h > 48.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-6-q8","section":"math","question":"Which words describe the inequality x >= 12?","choices":{"A":"Less than 12","B":"At most 12","C":"At least 12","D":"More than 12"},"correctAnswer":"C","explanation":"x >= 12 means 12 or greater, which is described as 'at least 12.'","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-6-q9","section":"math","question":"A store sells tickets for 'fewer than 20 per customer.' Which inequality fits, where t is tickets?","choices":{"A":"t <= 20","B":"t < 20","C":"t > 20","D":"t >= 20"},"correctAnswer":"B","explanation":"'Fewer than 20' does NOT include 20, so it uses <. The inequality is t < 20.","standard":"MA.6.AR.1.2","difficulty":"hard"},
-      {"id":"4-6-q10","section":"math","question":"Which inequality means 'a number is at most 7 and includes 7'?","choices":{"A":"x < 7","B":"x > 7","C":"x <= 7","D":"x >= 7"},"correctAnswer":"C","explanation":"'At most 7' means 7 or less, including 7, so it uses <=. The inequality is x <= 7.","standard":"MA.6.AR.1.2","difficulty":"hard"}
+      {
+        "id": "4-6-q1",
+        "section": "math",
+        "question": "Which symbol means 'greater than'?",
+        "choices": {
+          "A": "<",
+          "B": ">",
+          "C": "=",
+          "D": "+"
+        },
+        "correctAnswer": "B",
+        "explanation": "The > symbol means 'greater than.' For example, 8 > 3 reads '8 is greater than 3.'",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q2",
+        "section": "math",
+        "question": "Which inequality means 'x is less than 6'?",
+        "choices": {
+          "A": "x > 6",
+          "B": "x < 6",
+          "C": "x = 6",
+          "D": "x >= 6"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Less than' uses the < symbol, so 'x is less than 6' is written x < 6.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q3",
+        "section": "math",
+        "question": "'At least 10' is written as which inequality?",
+        "choices": {
+          "A": "x > 10",
+          "B": "x < 10",
+          "C": "x >= 10",
+          "D": "x <= 10"
+        },
+        "correctAnswer": "C",
+        "explanation": "'At least 10' means 10 or more, which includes 10, so it is x >= 10.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q4",
+        "section": "math",
+        "question": "'No more than 15' is written as which inequality?",
+        "choices": {
+          "A": "x >= 15",
+          "B": "x <= 15",
+          "C": "x > 15",
+          "D": "x < 15"
+        },
+        "correctAnswer": "B",
+        "explanation": "'No more than 15' means 15 or less, which includes 15, so it is x <= 15.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q5",
+        "section": "math",
+        "question": "Is x = 8 a solution to x > 5?",
+        "choices": {
+          "A": "Yes, because 8 is greater than 5",
+          "B": "No, because 8 is less than 5",
+          "C": "No, because 8 equals 5",
+          "D": "Yes, because 8 is less than 5"
+        },
+        "correctAnswer": "A",
+        "explanation": "x > 5 means x must be greater than 5. Since 8 > 5 is true, x = 8 is a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q6",
+        "section": "math",
+        "question": "Which value is NOT a solution to x <= 4?",
+        "choices": {
+          "A": "x = 2",
+          "B": "x = 4",
+          "C": "x = 0",
+          "D": "x = 5"
+        },
+        "correctAnswer": "D",
+        "explanation": "x <= 4 means x is 4 or less. 5 is greater than 4, so x = 5 is NOT a solution. The others (2, 4, 0) all satisfy x <= 4.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q7",
+        "section": "math",
+        "question": "A ride requires you to be 'more than 48 inches' tall. Which inequality fits, where h is height?",
+        "choices": {
+          "A": "h < 48",
+          "B": "h > 48",
+          "C": "h >= 48",
+          "D": "h <= 48"
+        },
+        "correctAnswer": "B",
+        "explanation": "'More than 48' does NOT include 48 itself, so it uses >. The inequality is h > 48.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q8",
+        "section": "math",
+        "question": "Which words describe the inequality x >= 12?",
+        "choices": {
+          "A": "Less than 12",
+          "B": "At most 12",
+          "C": "At least 12",
+          "D": "More than 12"
+        },
+        "correctAnswer": "C",
+        "explanation": "x >= 12 means 12 or greater, which is described as 'at least 12.'",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q9",
+        "section": "math",
+        "question": "A store sells tickets for 'fewer than 20 per customer.' Which inequality fits, where t is tickets?",
+        "choices": {
+          "A": "t <= 20",
+          "B": "t < 20",
+          "C": "t > 20",
+          "D": "t >= 20"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Fewer than 20' does NOT include 20, so it uses <. The inequality is t < 20.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-6-q10",
+        "section": "math",
+        "question": "Which inequality means 'a number is at most 7 and includes 7'?",
+        "choices": {
+          "A": "x < 7",
+          "B": "x > 7",
+          "C": "x <= 7",
+          "D": "x >= 7"
+        },
+        "correctAnswer": "C",
+        "explanation": "'At most 7' means 7 or less, including 7, so it uses <=. The inequality is x <= 7.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-6-q11",
+        "section": "math",
+        "question": "Which symbol means 'less than'?",
+        "choices": {
+          "A": ">",
+          "B": "<",
+          "C": "=",
+          "D": ">="
+        },
+        "correctAnswer": "B",
+        "explanation": "The < symbol means 'less than.' For example, 3 < 8 reads '3 is less than 8.'",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q12",
+        "section": "math",
+        "question": "Which inequality means 'x is greater than 9'?",
+        "choices": {
+          "A": "x < 9",
+          "B": "x > 9",
+          "C": "x = 9",
+          "D": "x <= 9"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Greater than' uses the > symbol, so 'x is greater than 9' is written x > 9.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q13",
+        "section": "math",
+        "question": "Which symbol means 'greater than or equal to'?",
+        "choices": {
+          "A": ">",
+          "B": "<",
+          "C": ">=",
+          "D": "<="
+        },
+        "correctAnswer": "C",
+        "explanation": "The >= symbol means 'greater than or equal to.' It includes the number itself.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q14",
+        "section": "math",
+        "question": "Which symbol means 'less than or equal to'?",
+        "choices": {
+          "A": ">=",
+          "B": "<=",
+          "C": ">",
+          "D": "<"
+        },
+        "correctAnswer": "B",
+        "explanation": "The <= symbol means 'less than or equal to.' It includes the number itself.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q15",
+        "section": "math",
+        "question": "'At least 5' is written as which inequality?",
+        "choices": {
+          "A": "x >= 5",
+          "B": "x < 5",
+          "C": "x > 5",
+          "D": "x <= 5"
+        },
+        "correctAnswer": "A",
+        "explanation": "'At least 5' means 5 or more, which includes 5, so it is x >= 5.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q16",
+        "section": "math",
+        "question": "'No more than 8' is written as which inequality?",
+        "choices": {
+          "A": "x >= 8",
+          "B": "x < 8",
+          "C": "x > 8",
+          "D": "x <= 8"
+        },
+        "correctAnswer": "D",
+        "explanation": "'No more than 8' means 8 or less, which includes 8, so it is x <= 8.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q17",
+        "section": "math",
+        "question": "Is x = 10 a solution to x > 6?",
+        "choices": {
+          "A": "Yes, because 10 is greater than 6",
+          "B": "No, because 10 is less than 6",
+          "C": "No, because 10 equals 6",
+          "D": "Yes, because 6 is greater than 10"
+        },
+        "correctAnswer": "A",
+        "explanation": "x > 6 means x must be greater than 6. Since 10 > 6 is true, x = 10 is a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q18",
+        "section": "math",
+        "question": "Is x = 3 a solution to x < 5?",
+        "choices": {
+          "A": "No, because 3 is greater than 5",
+          "B": "Yes, because 3 is less than 5",
+          "C": "No, because 3 equals 5",
+          "D": "Yes, because 5 is less than 3"
+        },
+        "correctAnswer": "B",
+        "explanation": "x < 5 means x must be less than 5. Since 3 < 5 is true, x = 3 is a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q19",
+        "section": "math",
+        "question": "Which value is NOT a solution to x >= 6?",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 8",
+          "C": "x = 5",
+          "D": "x = 10"
+        },
+        "correctAnswer": "C",
+        "explanation": "x >= 6 means x is 6 or more. 5 is less than 6, so x = 5 is NOT a solution. The others (6, 8, 10) all work.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q20",
+        "section": "math",
+        "question": "A pool requires swimmers to be 'less than 12 years old' for free entry. Which inequality fits, where a is age?",
+        "choices": {
+          "A": "a <= 12",
+          "B": "a < 12",
+          "C": "a > 12",
+          "D": "a >= 12"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Less than 12' does NOT include 12, so it uses <. The inequality is a < 12.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q21",
+        "section": "math",
+        "question": "Which words describe the inequality x <= 9?",
+        "choices": {
+          "A": "More than 9",
+          "B": "At most 9",
+          "C": "At least 9",
+          "D": "Greater than 9"
+        },
+        "correctAnswer": "B",
+        "explanation": "x <= 9 means 9 or less, which is described as 'at most 9.'",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q22",
+        "section": "math",
+        "question": "A sign says 'you must spend more than $20 to get free shipping.' Which inequality fits, where s is spending?",
+        "choices": {
+          "A": "s < 20",
+          "B": "s > 20",
+          "C": "s >= 20",
+          "D": "s <= 20"
+        },
+        "correctAnswer": "B",
+        "explanation": "'More than $20' does NOT include 20, so it uses >. The inequality is s > 20.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q23",
+        "section": "math",
+        "question": "Which words describe the inequality x > 4?",
+        "choices": {
+          "A": "At most 4",
+          "B": "Greater than 4",
+          "C": "Less than 4",
+          "D": "At least 4"
+        },
+        "correctAnswer": "B",
+        "explanation": "x > 4 means a number larger than 4 but not 4 itself, which is described as 'greater than 4.'",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q24",
+        "section": "math",
+        "question": "Which inequality means 'x is at most 15'?",
+        "choices": {
+          "A": "x <= 15",
+          "B": "x > 15",
+          "C": "x < 15",
+          "D": "x >= 15"
+        },
+        "correctAnswer": "A",
+        "explanation": "'At most 15' means 15 or less, including 15, so it uses <=. The inequality is x <= 15.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q25",
+        "section": "math",
+        "question": "Is x = 7 a solution to x <= 7?",
+        "choices": {
+          "A": "Yes, because 7 equals 7 and <= includes 7",
+          "B": "No, because 7 is greater than 7",
+          "C": "No, because <= does not include 7",
+          "D": "Yes, because 7 is greater than 7"
+        },
+        "correctAnswer": "A",
+        "explanation": "x <= 7 means x is 7 or less. Since 7 = 7 is true and <= includes the number, x = 7 IS a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q26",
+        "section": "math",
+        "question": "Which value IS a solution to x < 3?",
+        "choices": {
+          "A": "x = 3",
+          "B": "x = 4",
+          "C": "x = 2",
+          "D": "x = 5"
+        },
+        "correctAnswer": "C",
+        "explanation": "x < 3 means values less than 3. Only 2 < 3 is true. The value 3 is not (it equals 3), and 4, 5 are too big.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q27",
+        "section": "math",
+        "question": "A speed limit sign says 'maximum 45 mph.' Which inequality fits, where s is speed?",
+        "choices": {
+          "A": "s > 45",
+          "B": "s < 45",
+          "C": "s <= 45",
+          "D": "s >= 45"
+        },
+        "correctAnswer": "C",
+        "explanation": "A maximum of 45 means 45 or less, including 45, so it uses <=. The inequality is s <= 45.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q28",
+        "section": "math",
+        "question": "Which words describe the inequality x >= 20?",
+        "choices": {
+          "A": "Less than 20",
+          "B": "At most 20",
+          "C": "At least 20",
+          "D": "Fewer than 20"
+        },
+        "correctAnswer": "C",
+        "explanation": "x >= 20 means 20 or greater, which is described as 'at least 20.'",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q29",
+        "section": "math",
+        "question": "Which inequality means 'a number is fewer than 30'?",
+        "choices": {
+          "A": "x <= 30",
+          "B": "x < 30",
+          "C": "x > 30",
+          "D": "x >= 30"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Fewer than 30' does NOT include 30, so it uses <. The inequality is x < 30.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q30",
+        "section": "math",
+        "question": "Is x = 6 a solution to x > 6?",
+        "choices": {
+          "A": "Yes, because 6 equals 6",
+          "B": "No, because 6 is not greater than 6",
+          "C": "Yes, because > includes 6",
+          "D": "No, because 6 is less than 6"
+        },
+        "correctAnswer": "B",
+        "explanation": "x > 6 means strictly greater than 6. Since 6 is not greater than 6 (it equals 6), x = 6 is NOT a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-6-q31",
+        "section": "math",
+        "question": "A contest needs 'at least 100 votes' to win. Which inequality fits, where v is votes?",
+        "choices": {
+          "A": "v > 100",
+          "B": "v < 100",
+          "C": "v <= 100",
+          "D": "v >= 100"
+        },
+        "correctAnswer": "D",
+        "explanation": "'At least 100' means 100 or more, including 100, so it uses >=. The inequality is v >= 100.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-6-q32",
+        "section": "math",
+        "question": "Which value is NOT a solution to x <= 10?",
+        "choices": {
+          "A": "x = 10",
+          "B": "x = 11",
+          "C": "x = 5",
+          "D": "x = 0"
+        },
+        "correctAnswer": "B",
+        "explanation": "x <= 10 means 10 or less. 11 is greater than 10, so x = 11 is NOT a solution. The others (10, 5, 0) all work.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q33",
+        "section": "math",
+        "question": "Which inequality correctly compares: 'A number n is greater than or equal to 8'?",
+        "choices": {
+          "A": "n > 8",
+          "B": "n >= 8",
+          "C": "n < 8",
+          "D": "n <= 8"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Greater than or equal to 8' uses >=, so it is n >= 8.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q34",
+        "section": "math",
+        "question": "A class can have 'no fewer than 12 students.' Which inequality fits, where s is students?",
+        "choices": {
+          "A": "s >= 12",
+          "B": "s <= 12",
+          "C": "s < 12",
+          "D": "s > 12"
+        },
+        "correctAnswer": "A",
+        "explanation": "'No fewer than 12' means 12 or more, including 12, so it uses >=. The inequality is s >= 12.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-6-q35",
+        "section": "math",
+        "question": "Which words describe the inequality x < 50?",
+        "choices": {
+          "A": "At least 50",
+          "B": "Less than 50",
+          "C": "At most 50",
+          "D": "Greater than 50"
+        },
+        "correctAnswer": "B",
+        "explanation": "x < 50 means a value smaller than 50 and not 50 itself, which is described as 'less than 50.'",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q36",
+        "section": "math",
+        "question": "Is x = 0 a solution to x >= 0?",
+        "choices": {
+          "A": "Yes, because 0 equals 0 and >= includes 0",
+          "B": "No, because 0 is less than 0",
+          "C": "No, because >= cannot use 0",
+          "D": "Yes, because 0 is greater than 0"
+        },
+        "correctAnswer": "A",
+        "explanation": "x >= 0 means 0 or greater. Since 0 = 0 is true and >= includes the number, x = 0 IS a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q37",
+        "section": "math",
+        "question": "Which inequality means 'x is more than 100'?",
+        "choices": {
+          "A": "x >= 100",
+          "B": "x > 100",
+          "C": "x < 100",
+          "D": "x <= 100"
+        },
+        "correctAnswer": "B",
+        "explanation": "'More than 100' does NOT include 100, so it uses >. The inequality is x > 100.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-6-q38",
+        "section": "math",
+        "question": "A backpack can hold 'up to 25 pounds.' Which inequality fits, where w is weight?",
+        "choices": {
+          "A": "w > 25",
+          "B": "w < 25",
+          "C": "w >= 25",
+          "D": "w <= 25"
+        },
+        "correctAnswer": "D",
+        "explanation": "'Up to 25 pounds' means 25 or less, including 25, so it uses <=. The inequality is w <= 25.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q39",
+        "section": "math",
+        "question": "Which value IS a solution to x >= 4?",
+        "choices": {
+          "A": "x = 1",
+          "B": "x = 2",
+          "C": "x = 4",
+          "D": "x = 3"
+        },
+        "correctAnswer": "C",
+        "explanation": "x >= 4 means 4 or greater. Among the choices, only 4 satisfies x >= 4 (since 4 = 4). The others are too small.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-6-q40",
+        "section": "math",
+        "question": "Which inequality means 'a number is at least 0 (zero or positive)'?",
+        "choices": {
+          "A": "x > 0",
+          "B": "x <= 0",
+          "C": "x < 0",
+          "D": "x >= 0"
+        },
+        "correctAnswer": "D",
+        "explanation": "'At least 0' means 0 or more, including 0, so it uses >=. The inequality is x >= 0.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      }
     ]
   },
   "4-7": {
     "learn": "Worked Example 1: Graph x > 3 on a number line.\nStep 1: Find 3 on the number line.\nStep 2: Because the symbol is > (greater than, NOT equal), use an OPEN circle at 3.\nStep 3: Shade to the RIGHT, toward larger numbers, because x is greater than 3.\n\nWorked Example 2: Graph x <= 2 on a number line.\nStep 1: Find 2 on the number line.\nStep 2: Because the symbol is <= (less than OR equal to), use a CLOSED (filled) circle at 2 to include it.\nStep 3: Shade to the LEFT, toward smaller numbers, because x is less than or equal to 2.\n\nWorked Example 3: A graph has a closed circle at 5 and shading to the right. What inequality is it?\nStep 1: Closed circle means 'or equal to' is included.\nStep 2: Shading right means greater than.\nStep 3: Together that is x >= 5.",
     "questions": [
-      {"id":"4-7-q1","section":"math","question":"When graphing x > 4, what kind of circle do you put at 4?","choices":{"A":"Open circle","B":"Closed (filled) circle","C":"Two circles","D":"No circle"},"correctAnswer":"A","explanation":"The > symbol does NOT include the number itself, so you use an OPEN circle at 4.","standard":"MA.6.AR.1.2","difficulty":"easy"},
-      {"id":"4-7-q2","section":"math","question":"When graphing x <= 6, what kind of circle do you put at 6?","choices":{"A":"Open circle","B":"Closed (filled) circle","C":"No circle","D":"A square"},"correctAnswer":"B","explanation":"The <= symbol includes the number ('or equal to'), so you use a CLOSED (filled) circle at 6.","standard":"MA.6.AR.1.2","difficulty":"easy"},
-      {"id":"4-7-q3","section":"math","question":"To graph x > 2, which way do you shade?","choices":{"A":"To the left","B":"To the right","C":"Both directions","D":"You do not shade"},"correctAnswer":"B","explanation":"x > 2 means values greater than 2, which are to the RIGHT of 2 on the number line.","standard":"MA.6.AR.1.2","difficulty":"easy"},
-      {"id":"4-7-q4","section":"math","question":"To graph x < 5, which way do you shade?","choices":{"A":"To the right","B":"To the left","C":"Both directions","D":"Only at 5"},"correctAnswer":"B","explanation":"x < 5 means values less than 5, which are to the LEFT of 5 on the number line.","standard":"MA.6.AR.1.2","difficulty":"easy"},
-      {"id":"4-7-q5","section":"math","question":"A number line has an OPEN circle at 1 and shading to the right. What inequality is it?","choices":{"A":"x >= 1","B":"x > 1","C":"x < 1","D":"x <= 1"},"correctAnswer":"B","explanation":"Open circle means 'not equal to,' and shading right means greater than. So it is x > 1.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-7-q6","section":"math","question":"A number line has a CLOSED circle at 3 and shading to the left. What inequality is it?","choices":{"A":"x < 3","B":"x > 3","C":"x <= 3","D":"x >= 3"},"correctAnswer":"C","explanation":"Closed circle means 'or equal to,' and shading left means less than. So it is x <= 3.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-7-q7","section":"math","question":"Which inequality would use a CLOSED circle when graphed?","choices":{"A":"x > 7","B":"x < 7","C":"x >= 7","D":"none of them"},"correctAnswer":"C","explanation":"Only inequalities with >= or <= include the endpoint, so x >= 7 uses a closed (filled) circle.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-7-q8","section":"math","question":"A graph shows an OPEN circle at 0 with shading to the left. What inequality is it?","choices":{"A":"x < 0","B":"x > 0","C":"x <= 0","D":"x >= 0"},"correctAnswer":"A","explanation":"Open circle means strict inequality, and shading left means less than. So it is x < 0.","standard":"MA.6.AR.1.2","difficulty":"medium"},
-      {"id":"4-7-q9","section":"math","question":"Which point would be SHADED on the graph of x >= 4?","choices":{"A":"x = 2","B":"x = 3","C":"x = 5","D":"x = 1"},"correctAnswer":"C","explanation":"x >= 4 includes 4 and everything greater. Among the choices, only 5 satisfies x >= 4, so 5 is shaded.","standard":"MA.6.AR.1.2","difficulty":"hard"},
-      {"id":"4-7-q10","section":"math","question":"A graph has a CLOSED circle at 2 and shading to the right. Which value is a solution?","choices":{"A":"x = 1","B":"x = 0","C":"x = 2","D":"x = -3"},"correctAnswer":"C","explanation":"Closed circle at 2 with right shading means x >= 2. The value 2 is included (closed circle), so x = 2 is a solution.","standard":"MA.6.AR.1.2","difficulty":"hard"}
+      {
+        "id": "4-7-q1",
+        "section": "math",
+        "question": "When graphing x > 4, what kind of circle do you put at 4?",
+        "choices": {
+          "A": "Open circle",
+          "B": "Closed (filled) circle",
+          "C": "Two circles",
+          "D": "No circle"
+        },
+        "correctAnswer": "A",
+        "explanation": "The > symbol does NOT include the number itself, so you use an OPEN circle at 4.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q2",
+        "section": "math",
+        "question": "When graphing x <= 6, what kind of circle do you put at 6?",
+        "choices": {
+          "A": "Open circle",
+          "B": "Closed (filled) circle",
+          "C": "No circle",
+          "D": "A square"
+        },
+        "correctAnswer": "B",
+        "explanation": "The <= symbol includes the number ('or equal to'), so you use a CLOSED (filled) circle at 6.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q3",
+        "section": "math",
+        "question": "To graph x > 2, which way do you shade?",
+        "choices": {
+          "A": "To the left",
+          "B": "To the right",
+          "C": "Both directions",
+          "D": "You do not shade"
+        },
+        "correctAnswer": "B",
+        "explanation": "x > 2 means values greater than 2, which are to the RIGHT of 2 on the number line.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q4",
+        "section": "math",
+        "question": "To graph x < 5, which way do you shade?",
+        "choices": {
+          "A": "To the right",
+          "B": "To the left",
+          "C": "Both directions",
+          "D": "Only at 5"
+        },
+        "correctAnswer": "B",
+        "explanation": "x < 5 means values less than 5, which are to the LEFT of 5 on the number line.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q5",
+        "section": "math",
+        "question": "A number line has an OPEN circle at 1 and shading to the right. What inequality is it?",
+        "choices": {
+          "A": "x >= 1",
+          "B": "x > 1",
+          "C": "x < 1",
+          "D": "x <= 1"
+        },
+        "correctAnswer": "B",
+        "explanation": "Open circle means 'not equal to,' and shading right means greater than. So it is x > 1.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q6",
+        "section": "math",
+        "question": "A number line has a CLOSED circle at 3 and shading to the left. What inequality is it?",
+        "choices": {
+          "A": "x < 3",
+          "B": "x > 3",
+          "C": "x <= 3",
+          "D": "x >= 3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Closed circle means 'or equal to,' and shading left means less than. So it is x <= 3.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q7",
+        "section": "math",
+        "question": "Which inequality would use a CLOSED circle when graphed?",
+        "choices": {
+          "A": "x > 7",
+          "B": "x < 7",
+          "C": "x >= 7",
+          "D": "none of them"
+        },
+        "correctAnswer": "C",
+        "explanation": "Only inequalities with >= or <= include the endpoint, so x >= 7 uses a closed (filled) circle.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q8",
+        "section": "math",
+        "question": "A graph shows an OPEN circle at 0 with shading to the left. What inequality is it?",
+        "choices": {
+          "A": "x < 0",
+          "B": "x > 0",
+          "C": "x <= 0",
+          "D": "x >= 0"
+        },
+        "correctAnswer": "A",
+        "explanation": "Open circle means strict inequality, and shading left means less than. So it is x < 0.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q9",
+        "section": "math",
+        "question": "Which point would be SHADED on the graph of x >= 4?",
+        "choices": {
+          "A": "x = 2",
+          "B": "x = 3",
+          "C": "x = 5",
+          "D": "x = 1"
+        },
+        "correctAnswer": "C",
+        "explanation": "x >= 4 includes 4 and everything greater. Among the choices, only 5 satisfies x >= 4, so 5 is shaded.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-7-q10",
+        "section": "math",
+        "question": "A graph has a CLOSED circle at 2 and shading to the right. Which value is a solution?",
+        "choices": {
+          "A": "x = 1",
+          "B": "x = 0",
+          "C": "x = 2",
+          "D": "x = -3"
+        },
+        "correctAnswer": "C",
+        "explanation": "Closed circle at 2 with right shading means x >= 2. The value 2 is included (closed circle), so x = 2 is a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-7-q11",
+        "section": "math",
+        "question": "When graphing x < 5, what kind of circle do you put at 5?",
+        "choices": {
+          "A": "Closed (filled) circle",
+          "B": "Open circle",
+          "C": "No circle",
+          "D": "A triangle"
+        },
+        "correctAnswer": "B",
+        "explanation": "The < symbol does NOT include the number itself, so you use an OPEN circle at 5.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q12",
+        "section": "math",
+        "question": "When graphing x >= 3, what kind of circle do you put at 3?",
+        "choices": {
+          "A": "Open circle",
+          "B": "A star",
+          "C": "No circle",
+          "D": "Closed (filled) circle"
+        },
+        "correctAnswer": "D",
+        "explanation": "The >= symbol includes the number ('or equal to'), so you use a CLOSED (filled) circle at 3.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q13",
+        "section": "math",
+        "question": "To graph x > 6, which way do you shade?",
+        "choices": {
+          "A": "To the left",
+          "B": "To the right",
+          "C": "Both directions",
+          "D": "You do not shade"
+        },
+        "correctAnswer": "B",
+        "explanation": "x > 6 means values greater than 6, which are to the RIGHT of 6 on the number line.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q14",
+        "section": "math",
+        "question": "To graph x <= 2, which way do you shade?",
+        "choices": {
+          "A": "To the right",
+          "B": "To the left",
+          "C": "Both directions",
+          "D": "Only at 2"
+        },
+        "correctAnswer": "B",
+        "explanation": "x <= 2 means values less than or equal to 2, which are to the LEFT of 2 on the number line.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q15",
+        "section": "math",
+        "question": "A number line has an OPEN circle at 5 and shading to the right. What inequality is it?",
+        "choices": {
+          "A": "x > 5",
+          "B": "x >= 5",
+          "C": "x < 5",
+          "D": "x <= 5"
+        },
+        "correctAnswer": "A",
+        "explanation": "Open circle means 'not equal to,' and shading right means greater than. So it is x > 5.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q16",
+        "section": "math",
+        "question": "A number line has a CLOSED circle at 4 and shading to the left. What inequality is it?",
+        "choices": {
+          "A": "x < 4",
+          "B": "x > 4",
+          "C": "x <= 4",
+          "D": "x >= 4"
+        },
+        "correctAnswer": "C",
+        "explanation": "Closed circle means 'or equal to,' and shading left means less than. So it is x <= 4.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q17",
+        "section": "math",
+        "question": "Which inequality would use an OPEN circle when graphed?",
+        "choices": {
+          "A": "x >= 2",
+          "B": "x <= 2",
+          "C": "x > 2",
+          "D": "none of them"
+        },
+        "correctAnswer": "C",
+        "explanation": "Inequalities with > or < do NOT include the endpoint, so x > 2 uses an open circle.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q18",
+        "section": "math",
+        "question": "A graph shows a CLOSED circle at 7 and shading to the right. What inequality is it?",
+        "choices": {
+          "A": "x > 7",
+          "B": "x <= 7",
+          "C": "x < 7",
+          "D": "x >= 7"
+        },
+        "correctAnswer": "D",
+        "explanation": "Closed circle means 'or equal to,' and shading right means greater than. So it is x >= 7.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q19",
+        "section": "math",
+        "question": "A graph shows an OPEN circle at 6 with shading to the left. What inequality is it?",
+        "choices": {
+          "A": "x < 6",
+          "B": "x > 6",
+          "C": "x <= 6",
+          "D": "x >= 6"
+        },
+        "correctAnswer": "A",
+        "explanation": "Open circle means strict inequality, and shading left means less than. So it is x < 6.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q20",
+        "section": "math",
+        "question": "Which inequality would use a CLOSED circle when graphed?",
+        "choices": {
+          "A": "x > 9",
+          "B": "x < 9",
+          "C": "x <= 9",
+          "D": "none of them"
+        },
+        "correctAnswer": "C",
+        "explanation": "Only >= or <= include the endpoint, so x <= 9 uses a closed (filled) circle.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q21",
+        "section": "math",
+        "question": "To graph x >= 1, which way do you shade and what circle?",
+        "choices": {
+          "A": "Open circle, shade left",
+          "B": "Closed circle, shade left",
+          "C": "Open circle, shade right",
+          "D": "Closed circle, shade right"
+        },
+        "correctAnswer": "D",
+        "explanation": "x >= 1 uses a CLOSED circle (includes 1) and shades RIGHT (greater than).",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q22",
+        "section": "math",
+        "question": "To graph x < 8, which way do you shade and what circle?",
+        "choices": {
+          "A": "Open circle, shade left",
+          "B": "Closed circle, shade left",
+          "C": "Open circle, shade right",
+          "D": "Closed circle, shade right"
+        },
+        "correctAnswer": "A",
+        "explanation": "x < 8 uses an OPEN circle (does not include 8) and shades LEFT (less than).",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q23",
+        "section": "math",
+        "question": "An open circle on a number line tells you the inequality is...",
+        "choices": {
+          "A": "'or equal to' (>= or <=)",
+          "B": "strict (> or <), not equal",
+          "C": "always greater than",
+          "D": "always less than"
+        },
+        "correctAnswer": "B",
+        "explanation": "An open (unfilled) circle means the endpoint is NOT included, so the inequality is strict: > or <.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q24",
+        "section": "math",
+        "question": "A closed (filled) circle on a number line tells you the inequality is...",
+        "choices": {
+          "A": "strict (> or <)",
+          "B": "'or equal to' (>= or <=)",
+          "C": "always greater than",
+          "D": "has no endpoint"
+        },
+        "correctAnswer": "B",
+        "explanation": "A closed (filled) circle means the endpoint IS included, so the inequality uses >= or <=.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q25",
+        "section": "math",
+        "question": "Which point would be SHADED on the graph of x > 5?",
+        "choices": {
+          "A": "x = 5",
+          "B": "x = 4",
+          "C": "x = 6",
+          "D": "x = 3"
+        },
+        "correctAnswer": "C",
+        "explanation": "x > 5 includes everything greater than 5 (but not 5). Among the choices, only 6 satisfies x > 5, so 6 is shaded.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-7-q26",
+        "section": "math",
+        "question": "Which point would be SHADED on the graph of x <= 3?",
+        "choices": {
+          "A": "x = 5",
+          "B": "x = 2",
+          "C": "x = 4",
+          "D": "x = 6"
+        },
+        "correctAnswer": "B",
+        "explanation": "x <= 3 includes 3 and everything less. Among the choices, only 2 satisfies x <= 3, so 2 is shaded.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-7-q27",
+        "section": "math",
+        "question": "A graph has an OPEN circle at 3 and shading to the right. Which value is a solution?",
+        "choices": {
+          "A": "x = 3",
+          "B": "x = 2",
+          "C": "x = 5",
+          "D": "x = 1"
+        },
+        "correctAnswer": "C",
+        "explanation": "Open circle at 3 with right shading means x > 3. The value 3 is NOT included (open circle). Only 5 > 3, so x = 5 is a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-7-q28",
+        "section": "math",
+        "question": "A graph has a CLOSED circle at 0 and shading to the left. What inequality is it?",
+        "choices": {
+          "A": "x > 0",
+          "B": "x < 0",
+          "C": "x <= 0",
+          "D": "x >= 0"
+        },
+        "correctAnswer": "C",
+        "explanation": "Closed circle means 'or equal to,' and shading left means less than. So it is x <= 0.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q29",
+        "section": "math",
+        "question": "When graphing x > 10, the circle at 10 is...",
+        "choices": {
+          "A": "closed because > includes the number",
+          "B": "open because > does not include the number",
+          "C": "both open and closed",
+          "D": "not drawn at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "The > symbol does not include the endpoint, so the circle at 10 is OPEN.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q30",
+        "section": "math",
+        "question": "A number line has an OPEN circle at 2 and shading to the right. Which value is NOT a solution?",
+        "choices": {
+          "A": "x = 3",
+          "B": "x = 5",
+          "C": "x = 2",
+          "D": "x = 10"
+        },
+        "correctAnswer": "C",
+        "explanation": "Open circle at 2 with right shading means x > 2. The value 2 is NOT included (open circle, equals not allowed), so x = 2 is NOT a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-7-q31",
+        "section": "math",
+        "question": "To graph x <= 7, which way do you shade and what circle?",
+        "choices": {
+          "A": "Open circle, shade right",
+          "B": "Open circle, shade left",
+          "C": "Closed circle, shade right",
+          "D": "Closed circle, shade left"
+        },
+        "correctAnswer": "D",
+        "explanation": "x <= 7 uses a CLOSED circle (includes 7) and shades LEFT (less than).",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q32",
+        "section": "math",
+        "question": "A graph has a CLOSED circle at 6 and shading to the right. Which value is a solution?",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 4",
+          "C": "x = 5",
+          "D": "x = 0"
+        },
+        "correctAnswer": "A",
+        "explanation": "Closed circle at 6 with right shading means x >= 6. The value 6 is included (closed circle), so x = 6 is a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q33",
+        "section": "math",
+        "question": "When graphing x >= 8, the circle at 8 is...",
+        "choices": {
+          "A": "open because >= does not include the number",
+          "B": "closed because >= includes the number",
+          "C": "not drawn",
+          "D": "a square"
+        },
+        "correctAnswer": "B",
+        "explanation": "The >= symbol includes the endpoint ('or equal to'), so the circle at 8 is CLOSED (filled).",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "4-7-q34",
+        "section": "math",
+        "question": "A number line shows an OPEN circle at 4 with shading to the left. What inequality is it?",
+        "choices": {
+          "A": "x <= 4",
+          "B": "x < 4",
+          "C": "x > 4",
+          "D": "x >= 4"
+        },
+        "correctAnswer": "B",
+        "explanation": "Open circle means strict, and shading left means less than. So it is x < 4.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q35",
+        "section": "math",
+        "question": "Which inequality would shade to the LEFT when graphed?",
+        "choices": {
+          "A": "x > 5",
+          "B": "x >= 5",
+          "C": "x < 5",
+          "D": "x = 5"
+        },
+        "correctAnswer": "C",
+        "explanation": "Inequalities with < or <= shade left (smaller values). x < 5 shades to the left of 5.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q36",
+        "section": "math",
+        "question": "Which inequality would shade to the RIGHT when graphed?",
+        "choices": {
+          "A": "x < 2",
+          "B": "x <= 2",
+          "C": "x > 2",
+          "D": "x = 2"
+        },
+        "correctAnswer": "C",
+        "explanation": "Inequalities with > or >= shade right (larger values). x > 2 shades to the right of 2.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q37",
+        "section": "math",
+        "question": "A graph has a CLOSED circle at 1 and shading to the right. Which value is NOT a solution?",
+        "choices": {
+          "A": "x = 1",
+          "B": "x = 3",
+          "C": "x = 0",
+          "D": "x = 5"
+        },
+        "correctAnswer": "C",
+        "explanation": "Closed circle at 1 with right shading means x >= 1. The value 0 is less than 1, so x = 0 is NOT a solution.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "4-7-q38",
+        "section": "math",
+        "question": "To graph x > 0, what circle and direction do you use?",
+        "choices": {
+          "A": "Closed circle, shade left",
+          "B": "Open circle, shade right",
+          "C": "Closed circle, shade right",
+          "D": "Open circle, shade left"
+        },
+        "correctAnswer": "B",
+        "explanation": "x > 0 uses an OPEN circle (does not include 0) and shades RIGHT (greater than).",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q39",
+        "section": "math",
+        "question": "A number line shows a CLOSED circle at 9 and shading to the left. What inequality is it?",
+        "choices": {
+          "A": "x < 9",
+          "B": "x >= 9",
+          "C": "x > 9",
+          "D": "x <= 9"
+        },
+        "correctAnswer": "D",
+        "explanation": "Closed circle means 'or equal to,' and shading left means less than. So it is x <= 9.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "4-7-q40",
+        "section": "math",
+        "question": "Which point would be SHADED on the graph of x <= 5?",
+        "choices": {
+          "A": "x = 6",
+          "B": "x = 7",
+          "C": "x = 8",
+          "D": "x = 5"
+        },
+        "correctAnswer": "D",
+        "explanation": "x <= 5 includes 5 and everything less. Among the choices, only 5 satisfies x <= 5 (since 5 = 5), so 5 is shaded.",
+        "standard": "MA.6.AR.1.2",
+        "difficulty": "medium"
+      }
     ]
   }
 }
