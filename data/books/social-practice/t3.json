@@ -153,6 +153,456 @@
         "explanation": "The two rivers' floods created fertile soil that enabled farming and surplus.",
         "standard": "SS.6.W.2.3",
         "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q11",
+        "section": "social",
+        "question": "The rich, dark soil left behind after a river flood is called what?",
+        "choices": {
+          "A": "Clay tablets",
+          "B": "Sand",
+          "C": "Gravel",
+          "D": "Silt"
+        },
+        "correctAnswer": "D",
+        "explanation": "The rich soil left by floods is called silt.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q12",
+        "section": "social",
+        "question": "Why is the Fertile Crescent given the name 'crescent'?",
+        "choices": {
+          "A": "It was always covered in snow",
+          "B": "It had a curved, moon-like shape",
+          "C": "It was perfectly square",
+          "D": "It was shaped like a star"
+        },
+        "correctAnswer": "B",
+        "explanation": "The land was named 'crescent' because of its curved, moon-like shape.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q13",
+        "section": "social",
+        "question": "A farmer's fields are far from the river and the water is low this year. Which Mesopotamian invention would help most?",
+        "choices": {
+          "A": "Irrigation channels to carry water to the fields",
+          "B": "A larger desert next to the fields",
+          "C": "Taller mountains around the river",
+          "D": "Removing all the soil from the land"
+        },
+        "correctAnswer": "A",
+        "explanation": "Irrigation channels carried river water to fields even when the river was low.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q14",
+        "section": "social",
+        "question": "Which of these is NOT a true statement about the rivers of Mesopotamia?",
+        "choices": {
+          "A": "Their floods left behind rich soil",
+          "B": "They were the Tigris and Euphrates",
+          "C": "Their floods were always gentle and easy to predict",
+          "D": "They helped make farming possible"
+        },
+        "correctAnswer": "C",
+        "explanation": "The rivers' floods were actually unpredictable and dangerous, not gentle and easy to predict.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q15",
+        "section": "social",
+        "question": "Extra food that is left over after people have enough to eat is called a what?",
+        "choices": {
+          "A": "Famine",
+          "B": "Surplus",
+          "C": "Drought",
+          "D": "Tribute"
+        },
+        "correctAnswer": "B",
+        "explanation": "Extra food beyond what people need is called a surplus.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q16",
+        "section": "social",
+        "question": "Put these in the correct order for how civilization grew in Mesopotamia.",
+        "choices": {
+          "A": "Cities form, then floods begin, then soil appears",
+          "B": "People leave, then floods stop, then farming begins",
+          "C": "Rivers flood and leave rich soil, then farming makes surplus food, then a civilization grows",
+          "D": "Deserts spread, then food disappears, then cities form"
+        },
+        "correctAnswer": "C",
+        "explanation": "First the rivers flooded and left rich soil, which let farming produce surplus food, which let a civilization grow.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q17",
+        "section": "social",
+        "question": "Which body of land is Mesopotamia part of today?",
+        "choices": {
+          "A": "South America",
+          "B": "Antarctica",
+          "C": "The Middle East",
+          "D": "Western Europe"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mesopotamia is located in the region we now call the Middle East.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q18",
+        "section": "social",
+        "question": "What was one DANGER that came from living near the Tigris and Euphrates?",
+        "choices": {
+          "A": "The rivers could never be crossed",
+          "B": "Floods could be unpredictable and destructive",
+          "C": "The water was always frozen solid",
+          "D": "The rivers gave no water at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "The river floods could be unpredictable and dangerous, which was a real danger.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q19",
+        "section": "social",
+        "question": "Which word means a place where something important first begins or develops?",
+        "choices": {
+          "A": "Cradle",
+          "B": "Border",
+          "C": "Tablet",
+          "D": "Stylus"
+        },
+        "correctAnswer": "A",
+        "explanation": "A 'cradle' means a place where something first begins, which is why Mesopotamia is the 'cradle of civilization.'",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q20",
+        "section": "social",
+        "question": "Why did people in Mesopotamia choose to settle near the rivers instead of in the dry desert?",
+        "choices": {
+          "A": "The desert had more water",
+          "B": "The rivers were too dangerous to live near",
+          "C": "The rivers provided water and rich soil for farming",
+          "D": "The desert had the best soil"
+        },
+        "correctAnswer": "C",
+        "explanation": "People settled near the rivers because the water and rich soil made farming possible.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q21",
+        "section": "social",
+        "question": "A 'crescent' shape is most like which of these?",
+        "choices": {
+          "A": "A full circle",
+          "B": "A straight line",
+          "C": "A square",
+          "D": "A curved sliver of the moon"
+        },
+        "correctAnswer": "D",
+        "explanation": "A crescent looks like a curved sliver of the moon.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q22",
+        "section": "social",
+        "question": "How is the Tigris and Euphrates region different from a dry desert with no rivers?",
+        "choices": {
+          "A": "The desert had two rivers and the river region had none",
+          "B": "The desert flooded every year but the river region did not",
+          "C": "Both had exactly the same farmland",
+          "D": "The river region had water and rich soil for farming, while the desert did not"
+        },
+        "correctAnswer": "D",
+        "explanation": "The river region had water and rich, flood-fed soil for farming, while a dry desert did not.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q23",
+        "section": "social",
+        "question": "Which is the BEST example of people cooperating in Mesopotamia?",
+        "choices": {
+          "A": "Many people working together to dig and care for irrigation channels",
+          "B": "One person trying to stop a flood alone",
+          "C": "Families moving away from each other",
+          "D": "People refusing to share any water"
+        },
+        "correctAnswer": "A",
+        "explanation": "Digging and maintaining irrigation channels took many people working together, a clear example of cooperation.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q24",
+        "section": "social",
+        "question": "If the rivers had NEVER flooded, what most likely would have happened to early Mesopotamia?",
+        "choices": {
+          "A": "The soil would have been even richer",
+          "B": "Nothing would have changed at all",
+          "C": "Cities would have grown faster",
+          "D": "The land would have been harder to farm and surplus food harder to grow"
+        },
+        "correctAnswer": "D",
+        "explanation": "Without flooding there would be no fresh silt, so the land would be harder to farm and surplus food harder to grow.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q25",
+        "section": "social",
+        "question": "Which pair correctly names the two rivers of Mesopotamia?",
+        "choices": {
+          "A": "Tigris and Euphrates",
+          "B": "Nile and Tigris",
+          "C": "Euphrates and Ganges",
+          "D": "Yangtze and Nile"
+        },
+        "correctAnswer": "A",
+        "explanation": "The two rivers of Mesopotamia were the Tigris and the Euphrates.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q26",
+        "section": "social",
+        "question": "The word 'Mesopotamia' comes from words meaning 'between' and what?",
+        "choices": {
+          "A": "Mountains",
+          "B": "Deserts",
+          "C": "Rivers",
+          "D": "Seas"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mesopotamia means land 'between the rivers.'",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q27",
+        "section": "social",
+        "question": "Which sentence BEST describes the relationship between the rivers and Mesopotamian farming?",
+        "choices": {
+          "A": "The rivers had nothing to do with farming",
+          "B": "The rivers' floods made the soil rich, which helped farming succeed",
+          "C": "Farming destroyed the rivers",
+          "D": "The rivers only hurt the crops"
+        },
+        "correctAnswer": "B",
+        "explanation": "The rivers' yearly floods enriched the soil, which helped farming succeed.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q28",
+        "section": "social",
+        "question": "A surplus of food allowed some people to stop farming and do OTHER jobs. This shows that surplus could lead to what?",
+        "choices": {
+          "A": "Everyone starving",
+          "B": "People doing different jobs in a community",
+          "C": "The rivers drying up",
+          "D": "Farming becoming impossible"
+        },
+        "correctAnswer": "B",
+        "explanation": "Surplus food meant not everyone had to farm, so people could do different jobs in a community.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q29",
+        "section": "social",
+        "question": "Which of these would you find in the Fertile Crescent?",
+        "choices": {
+          "A": "Frozen tundra with no plants",
+          "B": "An ocean with no land",
+          "C": "Rich farmland fed by river floods",
+          "D": "Tall snow-capped volcanoes"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Fertile Crescent was rich farmland made fertile by the rivers' floods.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q30",
+        "section": "social",
+        "question": "Why is Mesopotamia important in the study of world history?",
+        "choices": {
+          "A": "It was where one of the world's first civilizations began",
+          "B": "It was the last place people ever lived",
+          "C": "It had no farming or cities",
+          "D": "It was always covered by ice"
+        },
+        "correctAnswer": "A",
+        "explanation": "Mesopotamia is important because one of the world's first civilizations began there.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q31",
+        "section": "social",
+        "question": "Which best completes this cause-and-effect: 'The rivers flooded, SO ______.'",
+        "choices": {
+          "A": "the soil became rich for farming",
+          "B": "the people stopped eating",
+          "C": "the desert grew larger",
+          "D": "writing was invented overnight"
+        },
+        "correctAnswer": "A",
+        "explanation": "Because the rivers flooded, the soil became rich and good for farming.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q32",
+        "section": "social",
+        "question": "What did the Tigris and Euphrates rivers provide that a dry, sandy region could NOT?",
+        "choices": {
+          "A": "Endless snow",
+          "B": "Cold ocean water",
+          "C": "Tall mountains",
+          "D": "Water and rich soil for crops"
+        },
+        "correctAnswer": "D",
+        "explanation": "The rivers provided water and rich soil for crops that a dry sandy region could not.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q33",
+        "section": "social",
+        "question": "Which statement about irrigation is TRUE?",
+        "choices": {
+          "A": "Irrigation moved water from fields back into the sky",
+          "B": "Irrigation was a kind of writing system",
+          "C": "Irrigation carried water from the rivers to the fields",
+          "D": "Irrigation was a type of god the Sumerians worshipped"
+        },
+        "correctAnswer": "C",
+        "explanation": "Irrigation carried water from the rivers to the fields through channels.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q34",
+        "section": "social",
+        "question": "A student says, 'Mesopotamia was a good place for early people to settle.' Which fact BEST supports this?",
+        "choices": {
+          "A": "Nothing could grow there",
+          "B": "It had no water anywhere",
+          "C": "It was a frozen wasteland",
+          "D": "Its rivers gave water and left rich soil that made farming possible"
+        },
+        "correctAnswer": "D",
+        "explanation": "The rivers gave water and rich soil for farming, which supports the idea it was a good place to settle.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q35",
+        "section": "social",
+        "question": "Which of these is NOT a reason organized communities formed in Mesopotamia?",
+        "choices": {
+          "A": "People needed to dig irrigation channels together",
+          "B": "People needed to manage dangerous floods together",
+          "C": "Surplus food allowed people to live close together",
+          "D": "People wanted to escape all farmland forever"
+        },
+        "correctAnswer": "D",
+        "explanation": "Wanting to escape all farmland was not a reason; communities formed to manage water, floods, and grow with surplus food.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q36",
+        "section": "social",
+        "question": "The yearly flooding of the Tigris and Euphrates was important mainly because it did what?",
+        "choices": {
+          "A": "Destroyed all the cities each year",
+          "B": "Refreshed the soil with rich silt for farming",
+          "C": "Made the land too salty to farm forever",
+          "D": "Stopped people from ever cooperating"
+        },
+        "correctAnswer": "B",
+        "explanation": "The yearly flooding refreshed the soil with rich silt that was good for farming.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q37",
+        "section": "social",
+        "question": "Which two features made Mesopotamia's land 'fertile'?",
+        "choices": {
+          "A": "Ice and snow",
+          "B": "Sand and stone",
+          "C": "River water and rich silt soil",
+          "D": "Salt and rock"
+        },
+        "correctAnswer": "C",
+        "explanation": "River water and the rich silt soil left by floods made the land fertile.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q38",
+        "section": "social",
+        "question": "Which of these came FIRST in Mesopotamia?",
+        "choices": {
+          "A": "A large civilization with cities",
+          "B": "Farming using the rivers' rich soil",
+          "C": "Empires ruling many lands",
+          "D": "Writing on clay tablets"
+        },
+        "correctAnswer": "B",
+        "explanation": "Farming using the rivers' rich soil came first; it produced the surplus that later allowed cities and civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q39",
+        "section": "social",
+        "question": "What is the BEST meaning of the word 'fertile' as used for the Fertile Crescent?",
+        "choices": {
+          "A": "Frozen and empty",
+          "B": "Filled with salt water",
+          "C": "Covered in deep sand",
+          "D": "Able to grow many crops"
+        },
+        "correctAnswer": "D",
+        "explanation": "'Fertile' means able to grow many crops, which describes the rich farmland.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q40",
+        "section": "social",
+        "question": "Which sentence BEST summarizes the main idea of 'The Land Between Two Rivers'?",
+        "choices": {
+          "A": "Two rivers and their floods created rich farmland that helped one of the world's first civilizations grow",
+          "B": "Mesopotamia was a frozen desert where no one could live",
+          "C": "The rivers had no effect on the people who lived there",
+          "D": "Civilization began in the deep ocean, not near rivers"
+        },
+        "correctAnswer": "A",
+        "explanation": "The main idea is that the two rivers and their floods created rich farmland that helped one of the world's first civilizations grow.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
       }
     ]
   },
@@ -308,6 +758,456 @@
         },
         "correctAnswer": "A",
         "explanation": "Sumerian firsts like writing, the wheel, and base-60 math influenced later civilizations for millennia.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q11",
+        "section": "social",
+        "question": "The word 'cuneiform' means what?",
+        "choices": {
+          "A": "Wedge-shaped",
+          "B": "Picture writing",
+          "C": "Sun symbol",
+          "D": "River letters"
+        },
+        "correctAnswer": "A",
+        "explanation": "The name 'cuneiform' means 'wedge-shaped,' describing the marks made in clay.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q12",
+        "section": "social",
+        "question": "The wedge-shaped tool the Sumerians used to write in clay was called a what?",
+        "choices": {
+          "A": "Plow",
+          "B": "Ziggurat",
+          "C": "Stylus",
+          "D": "Sail"
+        },
+        "correctAnswer": "C",
+        "explanation": "The writing tool pressed into clay was called a stylus.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q13",
+        "section": "social",
+        "question": "In which part of Mesopotamia did the Sumerians live?",
+        "choices": {
+          "A": "Northern Mesopotamia",
+          "B": "Southern Mesopotamia",
+          "C": "Far across the ocean",
+          "D": "High in the mountains"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Sumerians lived in southern Mesopotamia.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q14",
+        "section": "social",
+        "question": "Which writing system belongs to Egypt, NOT to Sumer?",
+        "choices": {
+          "A": "Cuneiform",
+          "B": "Hieroglyphics",
+          "C": "Clay-tablet wedges",
+          "D": "Stylus marks"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hieroglyphics belonged to Egypt; the Sumerians used cuneiform.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q15",
+        "section": "social",
+        "question": "A farmer wants to move a heavy load of grain across town more easily. Which Sumerian invention would help most?",
+        "choices": {
+          "A": "A clay tablet",
+          "B": "Cuneiform writing",
+          "C": "The number 60",
+          "D": "The wheel, used on a cart"
+        },
+        "correctAnswer": "D",
+        "explanation": "The wheel, used on a cart, would make moving heavy loads much easier.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q16",
+        "section": "social",
+        "question": "Because of Sumerian base-60 math, a full circle is divided into how many degrees?",
+        "choices": {
+          "A": "100 degrees",
+          "B": "60 degrees",
+          "C": "10 degrees",
+          "D": "360 degrees"
+        },
+        "correctAnswer": "D",
+        "explanation": "A circle has 360 degrees, which comes from Sumerian base-60 math.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q17",
+        "section": "social",
+        "question": "Which of these is NOT an invention credited to the Sumerians?",
+        "choices": {
+          "A": "The plow",
+          "B": "Sailboats",
+          "C": "The gasoline car",
+          "D": "The arch"
+        },
+        "correctAnswer": "C",
+        "explanation": "The gasoline car was not a Sumerian invention; the Sumerians invented the plow, sailboats, and the arch.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q18",
+        "section": "social",
+        "question": "How is cuneiform DIFFERENT from the writing you do today with a pen?",
+        "choices": {
+          "A": "Cuneiform used only pictures of animals",
+          "B": "Cuneiform was written with ink on paper, just like today",
+          "C": "Cuneiform was pressed into clay with a wedge tool, not written with ink on paper",
+          "D": "Cuneiform was carved into gold coins"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cuneiform was pressed into clay with a wedge-shaped tool, unlike modern ink-on-paper writing.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q19",
+        "section": "social",
+        "question": "Which invention let the Sumerians record laws and stories so they could be saved for the future?",
+        "choices": {
+          "A": "The wheel",
+          "B": "The sailboat",
+          "C": "The plow",
+          "D": "Writing (cuneiform)"
+        },
+        "correctAnswer": "D",
+        "explanation": "Writing, or cuneiform, let people record laws and stories to save for the future.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q20",
+        "section": "social",
+        "question": "The Sumerians used the wheel for two main things. Which pair is correct?",
+        "choices": {
+          "A": "Books and scrolls",
+          "B": "Airplanes and trains",
+          "C": "Clocks and coins",
+          "D": "Carts and pottery"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Sumerians used the wheel for carts and for making pottery.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q21",
+        "section": "social",
+        "question": "Why do historians say Sumerian inventions were 'firsts'?",
+        "choices": {
+          "A": "They were the first to copy older civilizations",
+          "B": "They were among the earliest to create these things in the world",
+          "C": "They were the last people to ever use them",
+          "D": "They borrowed every idea from Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sumerian inventions were 'firsts' because they were among the earliest in the world to create them.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q22",
+        "section": "social",
+        "question": "Which statement about Sumerian writing is TRUE?",
+        "choices": {
+          "A": "It was first used to keep records of trade and crops",
+          "B": "It was used only to write comic books",
+          "C": "It was invented in Egypt",
+          "D": "It was written with ink on paper"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sumerian writing was first used to keep records of trade and crops.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q23",
+        "section": "social",
+        "question": "We measure time with 60 minutes in an hour and 60 seconds in a minute. This system came from which civilization?",
+        "choices": {
+          "A": "The Maya",
+          "B": "Ancient Rome",
+          "C": "The Sumerians",
+          "D": "Ancient Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "Our 60-based time system came from the Sumerians' base-60 math.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q24",
+        "section": "social",
+        "question": "Which BEST explains why Sumerian inventions still matter today?",
+        "choices": {
+          "A": "Their inventions were used for only one year",
+          "B": "No one remembers anything the Sumerians made",
+          "C": "We still use ideas like writing, the wheel, and 60-minute hours",
+          "D": "Their inventions only worked in Sumer"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sumerian inventions still matter because ideas like writing, the wheel, and the 60-minute hour are still used today.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q25",
+        "section": "social",
+        "question": "A new Sumerian invention helped boats travel across water using the wind. What was it?",
+        "choices": {
+          "A": "The arch",
+          "B": "The sailboat",
+          "C": "The plow",
+          "D": "The clay tablet"
+        },
+        "correctAnswer": "B",
+        "explanation": "The sailboat let boats travel across water using the wind.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q26",
+        "section": "social",
+        "question": "Which tool helped Sumerian farmers break up soil to plant crops?",
+        "choices": {
+          "A": "The arch",
+          "B": "The stylus",
+          "C": "The sailboat",
+          "D": "The plow"
+        },
+        "correctAnswer": "D",
+        "explanation": "The plow helped farmers break up the soil to plant crops.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q27",
+        "section": "social",
+        "question": "Put these Sumerian writing steps in the correct order.",
+        "choices": {
+          "A": "Bake the tablet, then press wedges, then dig up clay",
+          "B": "Get soft clay, then press wedge marks with a stylus, then let it dry hard",
+          "C": "Paint on paper, then carve gold, then mail it",
+          "D": "Read the tablet, then erase it, then plant it"
+        },
+        "correctAnswer": "B",
+        "explanation": "Scribes got soft clay, pressed wedge marks with a stylus, then let the tablet dry hard.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q28",
+        "section": "social",
+        "question": "Which of these did the Sumerians do FIRST in human history?",
+        "choices": {
+          "A": "Land an airplane",
+          "B": "Drive a car",
+          "C": "Invent the internet",
+          "D": "Build a true city"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Sumerians were among the first to build true cities.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q29",
+        "section": "social",
+        "question": "Why was building the first CITIES a big achievement for the Sumerians?",
+        "choices": {
+          "A": "Cities let many people live, trade, and work together in one place",
+          "B": "Cities forced everyone to stop farming",
+          "C": "Cities had no buildings at all",
+          "D": "Cities made writing impossible"
+        },
+        "correctAnswer": "A",
+        "explanation": "Building cities was a big achievement because cities let many people live, trade, and work together in one place.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q30",
+        "section": "social",
+        "question": "Which is the BEST example of how writing helped trade in Sumer?",
+        "choices": {
+          "A": "A merchant used hieroglyphics from Egypt",
+          "B": "A merchant threw away all records of trade",
+          "C": "A merchant refused to count any goods",
+          "D": "A merchant kept clay records of how much grain was bought and sold"
+        },
+        "correctAnswer": "D",
+        "explanation": "Keeping clay records of grain bought and sold is the best example of writing helping trade.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q31",
+        "section": "social",
+        "question": "Which curved building shape did the Sumerians invent for stronger doorways and roofs?",
+        "choices": {
+          "A": "The wheel",
+          "B": "The plow",
+          "C": "The arch",
+          "D": "The sail"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Sumerians invented the arch, a curved shape used in doorways and roofs.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q32",
+        "section": "social",
+        "question": "How is cuneiform SIMILAR to writing today?",
+        "choices": {
+          "A": "Both use a clay stylus pressed into mud",
+          "B": "Both let people record and share information using symbols",
+          "C": "Both are written only in gold",
+          "D": "Both were invented in Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Like modern writing, cuneiform let people record and share information using symbols.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q33",
+        "section": "social",
+        "question": "Which statement correctly matches an invention with the people who made it?",
+        "choices": {
+          "A": "Hieroglyphics — the Sumerians",
+          "B": "The wheel — the ancient Maya",
+          "C": "Cuneiform — the Sumerians",
+          "D": "Base-60 math — ancient Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cuneiform was made by the Sumerians, so that match is correct.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q34",
+        "section": "social",
+        "question": "Before writing was invented, why was it hard to remember exactly how much grain a merchant traded?",
+        "choices": {
+          "A": "There was no way to record numbers and amounts on a tablet",
+          "B": "Grain did not exist yet",
+          "C": "Merchants never traded anything",
+          "D": "Everyone already had perfect memory"
+        },
+        "correctAnswer": "A",
+        "explanation": "Without writing there was no way to record numbers and amounts, making exact trade records hard to keep.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q35",
+        "section": "social",
+        "question": "Which of these is NOT true about Sumerian cuneiform?",
+        "choices": {
+          "A": "It was one of the earliest writing systems",
+          "B": "It was pressed into clay tablets",
+          "C": "It was the same as Egyptian hieroglyphics",
+          "D": "It was first used to record trade and crops"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cuneiform was not the same as Egyptian hieroglyphics; they were two different writing systems.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q36",
+        "section": "social",
+        "question": "A clock face today shows 60 minutes. Which ancient people's math is this based on?",
+        "choices": {
+          "A": "The Sumerians",
+          "B": "The Romans",
+          "C": "The Egyptians",
+          "D": "The Maya"
+        },
+        "correctAnswer": "A",
+        "explanation": "The 60-minute clock is based on the Sumerians' base-60 math.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q37",
+        "section": "social",
+        "question": "Why did the Sumerians' inventions spread to other civilizations?",
+        "choices": {
+          "A": "No one ever traded with the Sumerians",
+          "B": "Other people were forced to forget them",
+          "C": "They only worked inside Sumer",
+          "D": "They were so useful that other people copied and kept using them"
+        },
+        "correctAnswer": "D",
+        "explanation": "The inventions were so useful that other people copied them and kept using them.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q38",
+        "section": "social",
+        "question": "Which list contains ONLY things the Sumerians are credited with inventing?",
+        "choices": {
+          "A": "The wheel, cuneiform, the plow, and the arch",
+          "B": "The car, the phone, and the computer",
+          "C": "Electricity, the airplane, and the television",
+          "D": "Hieroglyphics, the printing press, and the internet"
+        },
+        "correctAnswer": "A",
+        "explanation": "The wheel, cuneiform, the plow, and the arch are all credited to the Sumerians.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q39",
+        "section": "social",
+        "question": "What is the BEST meaning of the word 'invention'?",
+        "choices": {
+          "A": "Something brand-new that someone creates for the first time",
+          "B": "Something that already existed and never changed",
+          "C": "A type of clay used for tablets",
+          "D": "A god worshipped in Sumer"
+        },
+        "correctAnswer": "A",
+        "explanation": "An 'invention' is something brand-new that someone creates for the first time.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q40",
+        "section": "social",
+        "question": "Which sentence BEST summarizes the main idea of 'Sumer: Writing, the Wheel, and Cities'?",
+        "choices": {
+          "A": "The Sumerians borrowed all their ideas from Egypt and invented nothing",
+          "B": "The Sumerians created many world 'firsts,' like writing, the wheel, and cities, that shaped later civilizations",
+          "C": "The Sumerians had no cities and never wrote anything down",
+          "D": "The Sumerians only invented the gasoline car"
+        },
+        "correctAnswer": "B",
+        "explanation": "The main idea is that the Sumerians created many world 'firsts' like writing, the wheel, and cities that shaped later civilizations.",
         "standard": "SS.6.W.2.7",
         "difficulty": "medium"
       }
@@ -467,6 +1367,456 @@
         "explanation": "Their religion explained the natural world and gave order to life.",
         "standard": "SS.6.W.2.4",
         "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q11",
+        "section": "social",
+        "question": "The belief in only ONE god is called what?",
+        "choices": {
+          "A": "Polytheism",
+          "B": "Monotheism",
+          "C": "Irrigation",
+          "D": "Surplus"
+        },
+        "correctAnswer": "B",
+        "explanation": "Belief in only one god is called monotheism, which is different from the Sumerians' polytheism.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q12",
+        "section": "social",
+        "question": "Where in a ziggurat was the temple located?",
+        "choices": {
+          "A": "Underground in a basement",
+          "B": "At the very top",
+          "C": "Floating beside it",
+          "D": "Buried in the fields"
+        },
+        "correctAnswer": "B",
+        "explanation": "The temple sat at the very top of the ziggurat.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q13",
+        "section": "social",
+        "question": "Why were priests given so much power in Sumerian society?",
+        "choices": {
+          "A": "They owned all the farmland",
+          "B": "They were the largest group of people",
+          "C": "They were believed to speak for the gods",
+          "D": "They built every house in the city"
+        },
+        "correctAnswer": "C",
+        "explanation": "Priests held power because they were believed to speak for the gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q14",
+        "section": "social",
+        "question": "Which group was the LARGEST in Sumerian society?",
+        "choices": {
+          "A": "Kings",
+          "B": "Priests",
+          "C": "Farmers",
+          "D": "Foreign traders"
+        },
+        "correctAnswer": "C",
+        "explanation": "Farmers were the largest group in Sumerian society.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q15",
+        "section": "social",
+        "question": "Which of these did the Sumerians believe their gods controlled?",
+        "choices": {
+          "A": "Only faraway lands",
+          "B": "Only the inside of houses",
+          "C": "Nothing in nature at all",
+          "D": "The sky, the rivers, and the harvest"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Sumerians believed gods controlled nature, such as the sky, rivers, and harvest.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q16",
+        "section": "social",
+        "question": "Order these groups from the TOP of Sumerian society to the BOTTOM.",
+        "choices": {
+          "A": "Enslaved people, then farmers, then kings and priests",
+          "B": "Kings and priests, then merchants and crafters and farmers, then enslaved people",
+          "C": "Farmers, then kings, then merchants",
+          "D": "Merchants, then enslaved people, then priests"
+        },
+        "correctAnswer": "B",
+        "explanation": "From top to bottom: kings and priests, then merchants, crafters, and farmers, then enslaved people.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q17",
+        "section": "social",
+        "question": "A ziggurat was built mainly for what purpose?",
+        "choices": {
+          "A": "To store river water",
+          "B": "To grow crops indoors",
+          "C": "To honor the gods as a temple",
+          "D": "To hold sporting games"
+        },
+        "correctAnswer": "C",
+        "explanation": "Ziggurats were built to honor the gods and held a temple at the top.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q18",
+        "section": "social",
+        "question": "How is polytheism DIFFERENT from monotheism?",
+        "choices": {
+          "A": "Polytheism is belief in many gods, while monotheism is belief in one god",
+          "B": "Polytheism is belief in one god, while monotheism is belief in many",
+          "C": "They mean exactly the same thing",
+          "D": "Both mean believing in no gods at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "Polytheism is belief in many gods, while monotheism is belief in only one god.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q19",
+        "section": "social",
+        "question": "Which job would an ordinary crafter in Sumer most likely do?",
+        "choices": {
+          "A": "Rule the entire city",
+          "B": "Speak for the gods",
+          "C": "Make pottery, cloth, or tools",
+          "D": "Lead the army into battle"
+        },
+        "correctAnswer": "C",
+        "explanation": "Crafters made goods like pottery, cloth, and tools.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q20",
+        "section": "social",
+        "question": "Which of these is NOT a reason religion was important in Sumer?",
+        "choices": {
+          "A": "It explained the world around the Sumerians",
+          "B": "It gave kings and priests their power",
+          "C": "It shaped how cities were organized",
+          "D": "It made farming and trade illegal"
+        },
+        "correctAnswer": "D",
+        "explanation": "Religion did not make farming and trade illegal; it explained the world, gave leaders power, and shaped cities.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q21",
+        "section": "social",
+        "question": "If a Sumerian harvest failed, what might the people have believed was the cause?",
+        "choices": {
+          "A": "The wheel had been invented",
+          "B": "The ziggurat was too tall",
+          "C": "There were too few enslaved people",
+          "D": "The gods were unhappy"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because they believed gods controlled the harvest, a failed crop might be blamed on unhappy gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q22",
+        "section": "social",
+        "question": "A society divided into ranked groups, like kings, farmers, and enslaved people, is said to have what?",
+        "choices": {
+          "A": "Irrigation",
+          "B": "Social classes",
+          "C": "A surplus",
+          "D": "A stylus"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ranked groups in a society are called social classes.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q23",
+        "section": "social",
+        "question": "How was a Sumerian ziggurat DIFFERENT from an ordinary house?",
+        "choices": {
+          "A": "It was usually the tallest, most important building and was used to honor the gods",
+          "B": "It was a small hut where one family slept",
+          "C": "It was used only to store grain",
+          "D": "It was built underground"
+        },
+        "correctAnswer": "A",
+        "explanation": "Unlike an ordinary house, the ziggurat was usually the tallest, most important building, used to honor the gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q24",
+        "section": "social",
+        "question": "Which sentence BEST shows how religion and government were connected in Sumer?",
+        "choices": {
+          "A": "Kings and priests led the city because they were believed to speak for the gods",
+          "B": "Religion and government had nothing to do with each other",
+          "C": "Farmers made all the laws by themselves",
+          "D": "Gods ruled the city in person each day"
+        },
+        "correctAnswer": "A",
+        "explanation": "Religion and government were connected because kings and priests led the city as people believed to speak for the gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q25",
+        "section": "social",
+        "question": "Which group in Sumer would buy and sell goods?",
+        "choices": {
+          "A": "Ziggurats",
+          "B": "Enslaved people",
+          "C": "Gods",
+          "D": "Merchants"
+        },
+        "correctAnswer": "D",
+        "explanation": "Merchants were the group that bought and sold goods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q26",
+        "section": "social",
+        "question": "Which statement about Sumerian gods is TRUE?",
+        "choices": {
+          "A": "The Sumerians believed in only one god",
+          "B": "The Sumerians believed in many gods who controlled nature",
+          "C": "The Sumerians had no religion at all",
+          "D": "The Sumerians believed gods built the ziggurats by themselves"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Sumerians believed in many gods who controlled nature.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q27",
+        "section": "social",
+        "question": "The Sumerians worshipped the gods of the sky, rivers, and harvest. This shows their religion was closely tied to what?",
+        "choices": {
+          "A": "Modern machines",
+          "B": "Faraway oceans they never saw",
+          "C": "Nature and the things they depended on",
+          "D": "Sports and games"
+        },
+        "correctAnswer": "C",
+        "explanation": "Worshipping gods of sky, rivers, and harvest shows their religion was tied to nature and the things they depended on.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q28",
+        "section": "social",
+        "question": "Which of these is the BEST example of how religion shaped a Sumerian city?",
+        "choices": {
+          "A": "A giant ziggurat temple stood as the most important building in the city",
+          "B": "The city had no temples or priests",
+          "C": "Religion was banned inside the city",
+          "D": "The gods ran the markets themselves"
+        },
+        "correctAnswer": "A",
+        "explanation": "A giant ziggurat temple as the city's most important building is a clear example of religion shaping the city.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q29",
+        "section": "social",
+        "question": "Compared to a king or priest, an enslaved person in Sumer had what?",
+        "choices": {
+          "A": "The most power of all",
+          "B": "The same power as a king",
+          "C": "Very little power and the lowest position",
+          "D": "Complete control of the temple"
+        },
+        "correctAnswer": "C",
+        "explanation": "Enslaved people had very little power and held the lowest position in society.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q30",
+        "section": "social",
+        "question": "Which would you most likely find at the CENTER of an important Sumerian city?",
+        "choices": {
+          "A": "An empty desert",
+          "B": "A frozen lake",
+          "C": "A modern factory",
+          "D": "A tall ziggurat temple"
+        },
+        "correctAnswer": "D",
+        "explanation": "A tall ziggurat temple was usually the central, most important building of a Sumerian city.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q31",
+        "section": "social",
+        "question": "Why might a Sumerian king also act as a religious leader?",
+        "choices": {
+          "A": "Because farmers refused to follow priests",
+          "B": "Because kings had no other duties",
+          "C": "Because gods were not important",
+          "D": "Because people believed leaders spoke for the gods"
+        },
+        "correctAnswer": "D",
+        "explanation": "Kings could act as religious leaders because people believed leaders spoke for the gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q32",
+        "section": "social",
+        "question": "Which list shows Sumerian social classes from HIGHEST to LOWEST power?",
+        "choices": {
+          "A": "Enslaved people, farmers, kings",
+          "B": "Farmers, merchants, priests",
+          "C": "Kings and priests, merchants and crafters and farmers, enslaved people",
+          "D": "Merchants, kings, enslaved people"
+        },
+        "correctAnswer": "C",
+        "explanation": "From highest to lowest: kings and priests, then merchants, crafters, and farmers, then enslaved people.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q33",
+        "section": "social",
+        "question": "Which best describes a ziggurat?",
+        "choices": {
+          "A": "A flat field used for farming",
+          "B": "A tall, stepped temple built to honor the gods",
+          "C": "A river boat used for trade",
+          "D": "A small clay writing tablet"
+        },
+        "correctAnswer": "B",
+        "explanation": "A ziggurat was a tall, stepped temple built to honor the gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q34",
+        "section": "social",
+        "question": "Which is NOT one of the social groups described in Sumerian society?",
+        "choices": {
+          "A": "Kings and priests",
+          "B": "Merchants and crafters",
+          "C": "Farmers",
+          "D": "Astronauts"
+        },
+        "correctAnswer": "D",
+        "explanation": "Astronauts were not part of Sumerian society; the groups were kings and priests, merchants and crafters, farmers, and enslaved people.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q35",
+        "section": "social",
+        "question": "If the priests said the gods wanted a new temple built, what would most likely happen?",
+        "choices": {
+          "A": "The people would ignore the priests completely",
+          "B": "The people would likely obey because priests were believed to speak for the gods",
+          "C": "The temple would build itself",
+          "D": "The city would be abandoned forever"
+        },
+        "correctAnswer": "B",
+        "explanation": "People would likely obey because priests were believed to speak for the gods, giving them great influence.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q36",
+        "section": "social",
+        "question": "The Sumerians made pottery, cloth, and tools. The people who made these goods were called what?",
+        "choices": {
+          "A": "Kings",
+          "B": "Priests",
+          "C": "Crafters",
+          "D": "Gods"
+        },
+        "correctAnswer": "C",
+        "explanation": "The people who made pottery, cloth, and tools were crafters.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q37",
+        "section": "social",
+        "question": "Which sentence correctly compares a king and a farmer in Sumer?",
+        "choices": {
+          "A": "A king held great power, while a farmer was part of the largest, lower-ranked group",
+          "B": "A farmer ruled the city, while a king grew the crops",
+          "C": "Both held exactly equal power",
+          "D": "A king was at the bottom and a farmer at the top"
+        },
+        "correctAnswer": "A",
+        "explanation": "A king held great power, while a farmer belonged to the largest, lower-ranked group.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q38",
+        "section": "social",
+        "question": "Why did the Sumerians build their ziggurats so tall?",
+        "choices": {
+          "A": "To hide the city from view",
+          "B": "To store extra grain in the basement",
+          "C": "To block the river from flooding",
+          "D": "To honor the gods and make the temple stand out as the most important place"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ziggurats were built tall to honor the gods and stand out as the city's most important place.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q39",
+        "section": "social",
+        "question": "What is the BEST meaning of the word 'polytheism'?",
+        "choices": {
+          "A": "Belief in many gods",
+          "B": "Belief in one god",
+          "C": "Belief in no gods",
+          "D": "A type of farming tool"
+        },
+        "correctAnswer": "A",
+        "explanation": "'Polytheism' means belief in many gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q40",
+        "section": "social",
+        "question": "Which sentence BEST summarizes the main idea of 'Religion and Daily Life in Sumer'?",
+        "choices": {
+          "A": "Religion shaped Sumerian life, giving kings and priests power and influencing how cities were organized",
+          "B": "The Sumerians had no gods and no temples",
+          "C": "Everyone in Sumer had exactly equal power and the same job",
+          "D": "Religion had no effect on Sumerian cities or rulers"
+        },
+        "correctAnswer": "A",
+        "explanation": "The main idea is that religion shaped Sumerian life, giving kings and priests power and influencing how cities were organized.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
       }
     ]
   }
