@@ -153,6 +153,456 @@
         "explanation": "Elected leaders, separation of powers, and rule of law are Roman influences.",
         "standard": "SS.6.W.3.10",
         "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q11",
+        "section": "social",
+        "question": "On which peninsula did Rome begin and grow?",
+        "choices": {
+          "A": "The Italian peninsula",
+          "B": "The Arabian peninsula",
+          "C": "The Korean peninsula",
+          "D": "The Iberian peninsula"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rome began on the Italian peninsula and grew into a powerful state.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q12",
+        "section": "social",
+        "question": "What did Romans do to their kings before creating the Republic?",
+        "choices": {
+          "A": "They crowned a new king",
+          "B": "They made the king a god",
+          "C": "They overthrew the kings",
+          "D": "They asked Carthage for a king"
+        },
+        "correctAnswer": "C",
+        "explanation": "Romans overthrew their kings and then created the Republic.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q13",
+        "section": "social",
+        "question": "Where did Roman senators serve?",
+        "choices": {
+          "A": "In the army only",
+          "B": "In Carthage",
+          "C": "In the temples",
+          "D": "In the Senate"
+        },
+        "correctAnswer": "D",
+        "explanation": "Senators served in the Senate and helped run the government and make laws.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q14",
+        "section": "social",
+        "question": "A student says, 'In my country, citizens vote to choose their lawmakers instead of obeying a king.' Which Roman idea does this match?",
+        "choices": {
+          "A": "A caste system",
+          "B": "The Mandate of Heaven",
+          "C": "A dynasty",
+          "D": "A republic"
+        },
+        "correctAnswer": "D",
+        "explanation": "Citizens electing their lawmakers instead of obeying a king describes a republic.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q15",
+        "section": "social",
+        "question": "What did the rule of law mean for a powerful Roman senator?",
+        "choices": {
+          "A": "He could ignore the law",
+          "B": "He also had to follow the law",
+          "C": "He could write any law in secret",
+          "D": "Only farmers had to obey laws"
+        },
+        "correctAnswer": "B",
+        "explanation": "The rule of law meant everyone, even powerful leaders, had to follow the law.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q16",
+        "section": "social",
+        "question": "Why did Rome write its early laws down in the Twelve Tables?",
+        "choices": {
+          "A": "So only the king could read them",
+          "B": "To keep the laws a secret",
+          "C": "To replace the Senate",
+          "D": "So the laws were known and everyone could be held to them"
+        },
+        "correctAnswer": "D",
+        "explanation": "Writing laws in the Twelve Tables supported the rule of law by making the laws public so everyone could follow them.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-1-q17",
+        "section": "social",
+        "question": "Which of these is NOT a Roman idea that influenced later governments?",
+        "choices": {
+          "A": "Electing leaders",
+          "B": "Separation of powers",
+          "C": "The rule of law",
+          "D": "Rule by a single pharaoh-god"
+        },
+        "correctAnswer": "D",
+        "explanation": "Electing leaders, separation of powers, and the rule of law are Roman influences; rule by a single pharaoh-god is not.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q18",
+        "section": "social",
+        "question": "If all power were given to one ruler with no limits, which Roman idea would be broken?",
+        "choices": {
+          "A": "Separation of powers",
+          "B": "Farming surplus",
+          "C": "Trade routes",
+          "D": "War elephants"
+        },
+        "correctAnswer": "A",
+        "explanation": "Giving all power to one ruler would break the separation of powers, which divided power among different leaders and groups.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-1-q19",
+        "section": "social",
+        "question": "A Roman citizen votes in elections and serves the government. This is an example of what?",
+        "choices": {
+          "A": "Reincarnation",
+          "B": "Civic duty",
+          "C": "Mummification",
+          "D": "Bartering"
+        },
+        "correctAnswer": "B",
+        "explanation": "Taking part in government, such as voting and serving, is the responsibility called civic duty.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q20",
+        "section": "social",
+        "question": "Which group helped make the laws in the Roman Republic?",
+        "choices": {
+          "A": "The pharaohs",
+          "B": "The Brahmins",
+          "C": "The senators",
+          "D": "The satraps"
+        },
+        "correctAnswer": "C",
+        "explanation": "Senators served in the Senate and helped make the laws.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q21",
+        "section": "social",
+        "question": "In a republic, where does the power to choose leaders come from?",
+        "choices": {
+          "A": "From a single king alone",
+          "B": "From foreign armies",
+          "C": "From the gods picking rulers",
+          "D": "From the citizens, who elect them"
+        },
+        "correctAnswer": "D",
+        "explanation": "In a republic, citizens hold the power to elect their leaders.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q22",
+        "section": "social",
+        "question": "Why might dividing power among several leaders protect a republic?",
+        "choices": {
+          "A": "It lets one person rule forever",
+          "B": "It ends all voting",
+          "C": "It removes all laws",
+          "D": "It keeps any one person from gaining too much power"
+        },
+        "correctAnswer": "D",
+        "explanation": "Dividing power keeps any one person from gaining too much power, which protects the republic.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-1-q23",
+        "section": "social",
+        "question": "Put these in order: Rome had kings, then Romans ___, then Rome became a republic.",
+        "choices": {
+          "A": "crowned more kings",
+          "B": "overthrew the kings",
+          "C": "moved to Carthage",
+          "D": "elected a pharaoh"
+        },
+        "correctAnswer": "B",
+        "explanation": "After having kings, Romans overthrew the kings and then created the Republic.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q24",
+        "section": "social",
+        "question": "Which best describes the Twelve Tables?",
+        "choices": {
+          "A": "A list of Roman gods",
+          "B": "A map of Roman roads",
+          "C": "Rome's earliest written laws",
+          "D": "The names of all senators"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Twelve Tables were Rome's earliest written laws.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q25",
+        "section": "social",
+        "question": "How is electing leaders different from inheriting a throne?",
+        "choices": {
+          "A": "There is no difference",
+          "B": "Elected leaders rule for life automatically",
+          "C": "A throne is always chosen by a vote",
+          "D": "Elected leaders are chosen by citizens; a throne passes within a family"
+        },
+        "correctAnswer": "D",
+        "explanation": "Elected leaders are chosen by citizens, while inheriting a throne passes power within a family.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-1-q26",
+        "section": "social",
+        "question": "The United States borrowed which Roman idea by having citizens vote for representatives?",
+        "choices": {
+          "A": "Mummification",
+          "B": "The caste system",
+          "C": "War elephants",
+          "D": "Electing leaders"
+        },
+        "correctAnswer": "D",
+        "explanation": "Having citizens vote for representatives reflects the Roman idea of electing leaders.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q27",
+        "section": "social",
+        "question": "Which statement about the Roman Senate is correct?",
+        "choices": {
+          "A": "It was a single all-powerful king",
+          "B": "It was Rome's main temple",
+          "C": "It was a foreign army",
+          "D": "It was made up of senators who helped run the government"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Senate was made up of senators who helped run the government and make laws.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q28",
+        "section": "social",
+        "question": "Which is the BEST short definition of 'rule of law'?",
+        "choices": {
+          "A": "Only the rich must obey laws",
+          "B": "Laws change every day",
+          "C": "Everyone must follow the law",
+          "D": "There are no laws at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "The rule of law means everyone must follow the law.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q29",
+        "section": "social",
+        "question": "Why is voting in elections part of a citizen's civic duty in a republic?",
+        "choices": {
+          "A": "Because only kings are allowed to vote",
+          "B": "Because voting ends the government",
+          "C": "Because citizens are expected to take part in government",
+          "D": "Because it replaces the rule of law"
+        },
+        "correctAnswer": "C",
+        "explanation": "Voting is part of civic duty because citizens are expected to take part in government.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q30",
+        "section": "social",
+        "question": "Which pair correctly matches a Roman idea with what it means?",
+        "choices": {
+          "A": "Republic = ruled by one king",
+          "B": "Civic duty = ignoring the government",
+          "C": "Rule of law = everyone must follow the law",
+          "D": "Separation of powers = one person holds all power"
+        },
+        "correctAnswer": "C",
+        "explanation": "The rule of law correctly means that everyone must follow the law.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q31",
+        "section": "social",
+        "question": "Before becoming a republic, how was Rome governed?",
+        "choices": {
+          "A": "By elected senators",
+          "B": "By kings",
+          "C": "By a Roman emperor",
+          "D": "By the people of Carthage"
+        },
+        "correctAnswer": "B",
+        "explanation": "Before the Republic, Rome had once been ruled by kings.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q32",
+        "section": "social",
+        "question": "Which of the following would a senator most likely do?",
+        "choices": {
+          "A": "Help make laws in the Senate",
+          "B": "Build the pyramids",
+          "C": "Lead Carthage's elephants",
+          "D": "Crown himself pharaoh"
+        },
+        "correctAnswer": "A",
+        "explanation": "A senator would help make laws in the Senate.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q33",
+        "section": "social",
+        "question": "What is the main reason the rule of law matters in a republic?",
+        "choices": {
+          "A": "It lets leaders break laws freely",
+          "B": "It treats everyone as bound by the same laws",
+          "C": "It gives all power to one ruler",
+          "D": "It ends elections"
+        },
+        "correctAnswer": "B",
+        "explanation": "The rule of law matters because it treats everyone as bound by the same laws.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-1-q34",
+        "section": "social",
+        "question": "Which choice lists THREE things Roman citizens or government had?",
+        "choices": {
+          "A": "Elected leaders, a Senate, written laws",
+          "B": "Pyramids, mummies, hieroglyphics",
+          "C": "Dynasties, the Mandate of Heaven, oracle bones",
+          "D": "A caste system, reincarnation, the Ganges"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rome had elected leaders, a Senate, and written laws like the Twelve Tables.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q35",
+        "section": "social",
+        "question": "How did separation of powers and the rule of law work TOGETHER in Rome?",
+        "choices": {
+          "A": "Both gave one ruler unlimited control",
+          "B": "Both helped limit power and keep everyone under the law",
+          "C": "Both ended the Senate",
+          "D": "Neither affected the government"
+        },
+        "correctAnswer": "B",
+        "explanation": "Separation of powers and the rule of law both helped limit power and keep everyone under the law.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-1-q36",
+        "section": "social",
+        "question": "Which sentence shows civic duty?",
+        "choices": {
+          "A": "A citizen votes and serves on a government body",
+          "B": "A king refuses to share power",
+          "C": "A general ignores all laws",
+          "D": "A farmer never takes part in government"
+        },
+        "correctAnswer": "A",
+        "explanation": "A citizen voting and serving on a government body shows civic duty.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q37",
+        "section": "social",
+        "question": "Why is a republic considered different from earlier kingdoms?",
+        "choices": {
+          "A": "Citizens choose leaders rather than living under one unelected king",
+          "B": "It has no laws or leaders",
+          "C": "Only the king may speak",
+          "D": "It is ruled by foreign armies"
+        },
+        "correctAnswer": "A",
+        "explanation": "A republic is different because citizens choose leaders rather than living under one unelected king.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-1-q38",
+        "section": "social",
+        "question": "Which word means a government where citizens elect their leaders?",
+        "choices": {
+          "A": "Empire",
+          "B": "Dynasty",
+          "C": "Republic",
+          "D": "Caste"
+        },
+        "correctAnswer": "C",
+        "explanation": "A republic is a government where citizens elect their leaders.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-1-q39",
+        "section": "social",
+        "question": "Suppose a new nation copies Rome's idea that no leader is above the law. Which idea is it using?",
+        "choices": {
+          "A": "The Mandate of Heaven",
+          "B": "The rule of law",
+          "C": "Reincarnation",
+          "D": "A surplus of grain"
+        },
+        "correctAnswer": "B",
+        "explanation": "Saying no leader is above the law uses the Roman idea of the rule of law.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-1-q40",
+        "section": "social",
+        "question": "Which best summarizes Rome's early government, the Republic?",
+        "choices": {
+          "A": "Citizens elected leaders, power was divided, and everyone followed the law",
+          "B": "One king held all power and no one could vote",
+          "C": "Priests ruled using the Mandate of Heaven",
+          "D": "There was no government of any kind"
+        },
+        "correctAnswer": "A",
+        "explanation": "In the Republic, citizens elected leaders, power was divided, and everyone followed the law.",
+        "standard": "SS.6.W.3.10",
+        "difficulty": "easy"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "Victory set Rome on the path to becoming a mighty empire.",
         "standard": "SS.6.W.3.9",
         "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q11",
+        "section": "social",
+        "question": "On which continent was the city of Carthage located?",
+        "choices": {
+          "A": "Asia",
+          "B": "Europe",
+          "C": "North Africa",
+          "D": "South America"
+        },
+        "correctAnswer": "C",
+        "explanation": "Carthage was a powerful trading city located in North Africa.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-2-q12",
+        "section": "social",
+        "question": "Before the wars, Carthage was best known as a powerful what?",
+        "choices": {
+          "A": "Farming village",
+          "B": "Trading city",
+          "C": "Mountain fortress",
+          "D": "Desert temple"
+        },
+        "correctAnswer": "B",
+        "explanation": "Carthage was a powerful trading city before its wars with Rome.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q13",
+        "section": "social",
+        "question": "Which animals did Hannibal famously use in his army?",
+        "choices": {
+          "A": "War elephants",
+          "B": "Horses only",
+          "C": "Camels",
+          "D": "Eagles"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hannibal marched war elephants over the Alps with his army.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-2-q14",
+        "section": "social",
+        "question": "From which direction did Hannibal plan to attack Rome by crossing the Alps?",
+        "choices": {
+          "A": "From the sea to the south",
+          "B": "From inside the city",
+          "C": "From across the ocean",
+          "D": "From the north"
+        },
+        "correctAnswer": "D",
+        "explanation": "By crossing the Alps, Hannibal attacked Rome from the north.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q15",
+        "section": "social",
+        "question": "Which body of water did Rome and Carthage fight to control?",
+        "choices": {
+          "A": "The Nile River",
+          "B": "The Pacific Ocean",
+          "C": "The Mediterranean Sea",
+          "D": "The Red Sea"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rome and Carthage fought over control of the Mediterranean Sea and its trade.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q16",
+        "section": "social",
+        "question": "How would you best describe the Punic Wars?",
+        "choices": {
+          "A": "Short and peaceful",
+          "B": "Three long, brutal wars",
+          "C": "A single quick battle",
+          "D": "A trade agreement"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Punic Wars were three long, brutal wars.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q17",
+        "section": "social",
+        "question": "Which of these did NOT happen during or after the Punic Wars?",
+        "choices": {
+          "A": "Rome won all three wars",
+          "B": "Hannibal crossed the Alps",
+          "C": "Rome destroyed Carthage",
+          "D": "Carthage conquered Rome"
+        },
+        "correctAnswer": "D",
+        "explanation": "Carthage did not conquer Rome; Rome won the wars and eventually destroyed Carthage.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q18",
+        "section": "social",
+        "question": "Hannibal fought for which side in the Punic Wars?",
+        "choices": {
+          "A": "Carthage",
+          "B": "Rome",
+          "C": "Greece",
+          "D": "Egypt"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hannibal was a general of Carthage.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-2-q19",
+        "section": "social",
+        "question": "What phrase best describes Rome AFTER it won the Punic Wars?",
+        "choices": {
+          "A": "A small, weak village",
+          "B": "A defeated land",
+          "C": "The master of the Mediterranean",
+          "D": "A part of Carthage"
+        },
+        "correctAnswer": "C",
+        "explanation": "Winning the Punic Wars made Rome the master of the Mediterranean.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q20",
+        "section": "social",
+        "question": "Why did Rome and Carthage become enemies?",
+        "choices": {
+          "A": "They shared the same king",
+          "B": "Both wanted control of the Mediterranean and its trade",
+          "C": "Carthage was inside Rome",
+          "D": "They never actually fought"
+        },
+        "correctAnswer": "B",
+        "explanation": "Rome and Carthage became enemies because both wanted control of the Mediterranean and its trade.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q21",
+        "section": "social",
+        "question": "What does it mean that Rome became 'master of the Mediterranean'?",
+        "choices": {
+          "A": "Rome gave up all its land",
+          "B": "Carthage now ruled Rome",
+          "C": "Rome had no power at sea",
+          "D": "Rome controlled the land, trade, and resources of the region"
+        },
+        "correctAnswer": "D",
+        "explanation": "Being master of the Mediterranean meant Rome controlled the land, trade, and resources of the region.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q22",
+        "section": "social",
+        "question": "Which sentence about Hannibal is TRUE?",
+        "choices": {
+          "A": "He led Carthage's army over the Alps and won several battles against Rome",
+          "B": "He was a Roman senator",
+          "C": "He destroyed Carthage himself",
+          "D": "He never fought Rome"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hannibal led Carthage's army over the Alps and won several battles against Rome.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q23",
+        "section": "social",
+        "question": "Hannibal 'nearly defeated Rome' means that he—",
+        "choices": {
+          "A": "easily lost right away",
+          "B": "joined the Roman army",
+          "C": "came close to beating Rome but did not win in the end",
+          "D": "captured the whole Roman Empire"
+        },
+        "correctAnswer": "C",
+        "explanation": "Hannibal came close to beating Rome but did not win in the end, since Rome won all three wars.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q24",
+        "section": "social",
+        "question": "Put these events in order: Rome and Carthage fight, Hannibal crosses the Alps, and ___.",
+        "choices": {
+          "A": "Carthage wins all wars",
+          "B": "Rome wins and destroys Carthage",
+          "C": "Rome and Carthage become one city",
+          "D": "the wars never end"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the end, Rome won and destroyed Carthage.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q25",
+        "section": "social",
+        "question": "Crossing the snowy Alps with elephants was hard mostly because—",
+        "choices": {
+          "A": "the route was a flat, easy road",
+          "B": "elephants love cold mountains",
+          "C": "Rome helped him cross",
+          "D": "mountains are cold, steep, and dangerous for an army and elephants"
+        },
+        "correctAnswer": "D",
+        "explanation": "The march was daring because mountains are cold, steep, and dangerous for an army and elephants.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q26",
+        "section": "social",
+        "question": "Which side finally won the Punic Wars?",
+        "choices": {
+          "A": "Rome",
+          "B": "Carthage",
+          "C": "Greece",
+          "D": "Persia"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rome won all three Punic Wars.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-2-q27",
+        "section": "social",
+        "question": "Why are the Punic Wars called a 'turning point' for Rome?",
+        "choices": {
+          "A": "They ended Rome's power",
+          "B": "They had no lasting effect",
+          "C": "They turned Rome from a regional power into a mighty empire",
+          "D": "They made Carthage the strongest state"
+        },
+        "correctAnswer": "C",
+        "explanation": "The wars are a turning point because they turned Rome from a regional power into a mighty empire.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q28",
+        "section": "social",
+        "question": "The word 'Punic' in 'Punic Wars' connects to which group?",
+        "choices": {
+          "A": "The Romans",
+          "B": "The people of Carthage",
+          "C": "The Greeks",
+          "D": "The Egyptians"
+        },
+        "correctAnswer": "B",
+        "explanation": "The name 'Punic' connects to Carthage, Rome's enemy in these wars.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q29",
+        "section": "social",
+        "question": "What was the final fate of the city of Carthage?",
+        "choices": {
+          "A": "It became Rome's capital",
+          "B": "It defeated Rome",
+          "C": "It was left untouched",
+          "D": "It was completely destroyed by Rome"
+        },
+        "correctAnswer": "D",
+        "explanation": "In the end, Carthage was completely destroyed by Rome.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q30",
+        "section": "social",
+        "question": "Which best explains why control of the Mediterranean mattered?",
+        "choices": {
+          "A": "It gave control of valuable trade and resources",
+          "B": "It was useless land",
+          "C": "It had no trade at all",
+          "D": "It belonged to China"
+        },
+        "correctAnswer": "A",
+        "explanation": "Control of the Mediterranean mattered because it gave control of valuable trade and resources.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q31",
+        "section": "social",
+        "question": "How many wars made up the Punic Wars in total?",
+        "choices": {
+          "A": "Five",
+          "B": "Two",
+          "C": "Three",
+          "D": "Seven"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Punic Wars were three wars between Rome and Carthage.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-2-q32",
+        "section": "social",
+        "question": "A general who leads his army across dangerous mountains to surprise an enemy is best described as—",
+        "choices": {
+          "A": "fearful and weak",
+          "B": "bold and daring",
+          "C": "lazy",
+          "D": "uninterested in war"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hannibal's mountain crossing shows he was bold and daring.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q33",
+        "section": "social",
+        "question": "Which statement compares Rome and Carthage correctly?",
+        "choices": {
+          "A": "Both were located in Italy",
+          "B": "Both were ruled by Hannibal",
+          "C": "Neither wanted Mediterranean trade",
+          "D": "Both were strong powers, but Rome was in Italy and Carthage in North Africa"
+        },
+        "correctAnswer": "D",
+        "explanation": "Both were strong powers, but Rome was in Italy and Carthage in North Africa.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q34",
+        "section": "social",
+        "question": "What happened to Rome's strength because it won the Punic Wars?",
+        "choices": {
+          "A": "It grew weaker and smaller",
+          "B": "It stayed exactly the same",
+          "C": "It grew much stronger and gained new land",
+          "D": "It was conquered by Carthage"
+        },
+        "correctAnswer": "C",
+        "explanation": "Winning the wars made Rome much stronger and gained it new land across the region.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q35",
+        "section": "social",
+        "question": "Which choice names the two main sides of the Punic Wars?",
+        "choices": {
+          "A": "Rome and Carthage",
+          "B": "Greece and Persia",
+          "C": "Egypt and Babylon",
+          "D": "China and India"
+        },
+        "correctAnswer": "A",
+        "explanation": "The two main sides of the Punic Wars were Rome and Carthage.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-2-q36",
+        "section": "social",
+        "question": "Even though Hannibal won several battles, why is Carthage NOT remembered as the winner?",
+        "choices": {
+          "A": "Carthage never fought at all",
+          "B": "Hannibal joined Rome",
+          "C": "Hannibal lost every battle",
+          "D": "Rome won all three wars in the end and destroyed Carthage"
+        },
+        "correctAnswer": "D",
+        "explanation": "Carthage is not the winner because Rome won all three wars in the end and destroyed Carthage.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q37",
+        "section": "social",
+        "question": "Which is an EFFECT of Rome winning the Punic Wars?",
+        "choices": {
+          "A": "Rome lost all its trade",
+          "B": "Rome gained control of valuable Mediterranean trade and resources",
+          "C": "Carthage grew larger",
+          "D": "Rome stopped expanding forever"
+        },
+        "correctAnswer": "B",
+        "explanation": "An effect of winning was that Rome gained control of valuable Mediterranean trade and resources.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q38",
+        "section": "social",
+        "question": "Which event came FIRST?",
+        "choices": {
+          "A": "Rome destroyed Carthage",
+          "B": "Rome became master of the Mediterranean",
+          "C": "Rome and Carthage began fighting the Punic Wars",
+          "D": "Rome grew into a mighty empire"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Punic Wars began first; the other events followed Rome's victory.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-2-q39",
+        "section": "social",
+        "question": "Which sentence about the Punic Wars is FALSE?",
+        "choices": {
+          "A": "Rome and Carthage fought three wars",
+          "B": "Hannibal used war elephants",
+          "C": "Rome won the wars",
+          "D": "The wars were fought over control of the Nile River"
+        },
+        "correctAnswer": "D",
+        "explanation": "The wars were fought over the Mediterranean, not the Nile River, so that statement is false.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-2-q40",
+        "section": "social",
+        "question": "Which best summarizes the Punic Wars?",
+        "choices": {
+          "A": "Rome fought Carthage three times, Hannibal used elephants, and Rome won to control the Mediterranean",
+          "B": "Carthage easily defeated Rome in one battle",
+          "C": "Rome and Carthage never fought",
+          "D": "Greece conquered both Rome and Carthage"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rome fought Carthage three times, Hannibal used elephants, and Rome won to control the Mediterranean.",
+        "standard": "SS.6.W.3.9",
+        "difficulty": "easy"
       }
     ]
   },
@@ -465,6 +1365,456 @@
         },
         "correctAnswer": "A",
         "explanation": "The Empire had one emperor; the Republic elected leaders.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-3-q11",
+        "section": "social",
+        "question": "What is the meaning of 'assassinated'?",
+        "choices": {
+          "A": "Elected to office",
+          "B": "Crowned as king",
+          "C": "Killed, especially a leader",
+          "D": "Sent into exile"
+        },
+        "correctAnswer": "C",
+        "explanation": "To be assassinated means to be killed, especially a leader, as happened to Julius Caesar.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q12",
+        "section": "social",
+        "question": "Who was Octavian to Julius Caesar?",
+        "choices": {
+          "A": "His enemy general from Carthage",
+          "B": "His adopted heir",
+          "C": "A Roman king before him",
+          "D": "A senator who never knew him"
+        },
+        "correctAnswer": "B",
+        "explanation": "Octavian was Caesar's adopted heir, who later became Augustus.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q13",
+        "section": "social",
+        "question": "In a republic, who holds the power to choose leaders?",
+        "choices": {
+          "A": "Citizens, through elected leaders",
+          "B": "One emperor alone",
+          "C": "Foreign armies",
+          "D": "Carthage"
+        },
+        "correctAnswer": "A",
+        "explanation": "In a republic, power rests with citizens through elected leaders.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-3-q14",
+        "section": "social",
+        "question": "In which year was Julius Caesar assassinated?",
+        "choices": {
+          "A": "200 BC",
+          "B": "1 AD",
+          "C": "476 AD",
+          "D": "44 BC"
+        },
+        "correctAnswer": "D",
+        "explanation": "Senators assassinated Julius Caesar in 44 BC.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q15",
+        "section": "social",
+        "question": "Which of these was a problem that hurt the Roman Republic?",
+        "choices": {
+          "A": "Too much peace and quiet",
+          "B": "No people living in Rome",
+          "C": "Fighting between rich and poor and armies loyal to generals",
+          "D": "Having no army at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Republic struggled with fighting between rich and poor and armies loyal to their generals.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q16",
+        "section": "social",
+        "question": "Who ruled Rome during the Roman Empire?",
+        "choices": {
+          "A": "Elected senators only",
+          "B": "An emperor",
+          "C": "The people of Carthage",
+          "D": "No one at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "During the Roman Empire, Rome was ruled by an emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-3-q17",
+        "section": "social",
+        "question": "Which of these did NOT happen as Rome changed from Republic to Empire?",
+        "choices": {
+          "A": "Julius Caesar took control of Rome",
+          "B": "Augustus became the first emperor",
+          "C": "The Pax Romana began",
+          "D": "Citizens gained more power to elect leaders"
+        },
+        "correctAnswer": "D",
+        "explanation": "Citizens did not gain more power; instead power shifted from elected leaders to one emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q18",
+        "section": "social",
+        "question": "Caesar's death was followed by what?",
+        "choices": {
+          "A": "More civil war",
+          "B": "Instant lasting peace",
+          "C": "The fall of Carthage",
+          "D": "The building of the pyramids"
+        },
+        "correctAnswer": "A",
+        "explanation": "Caesar's death led to more civil war before Octavian took power.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q19",
+        "section": "social",
+        "question": "Which leader brought the Pax Romana to Rome?",
+        "choices": {
+          "A": "Hannibal",
+          "B": "Julius Caesar before his death",
+          "C": "Augustus",
+          "D": "Cyrus the Great"
+        },
+        "correctAnswer": "C",
+        "explanation": "Under Augustus, Rome entered the long peace called the Pax Romana.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q20",
+        "section": "social",
+        "question": "Why did a group of senators assassinate Julius Caesar?",
+        "choices": {
+          "A": "Because he refused to lead Rome",
+          "B": "Because they feared he had too much power",
+          "C": "Because he was from Carthage",
+          "D": "Because he ended all wars"
+        },
+        "correctAnswer": "B",
+        "explanation": "Senators feared Caesar had gained too much power, so they assassinated him.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q21",
+        "section": "social",
+        "question": "What is the BEST description of the change from Republic to Empire?",
+        "choices": {
+          "A": "Rome got smaller and weaker",
+          "B": "Citizens gained the right to vote for kings",
+          "C": "Rome had no government for 200 years",
+          "D": "Power shifted from elected leaders to one powerful emperor"
+        },
+        "correctAnswer": "D",
+        "explanation": "The biggest change was that power shifted from elected leaders to one powerful emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q22",
+        "section": "social",
+        "question": "What name did Octavian take when he became emperor?",
+        "choices": {
+          "A": "Augustus",
+          "B": "Hannibal",
+          "C": "Caesar's son",
+          "D": "Constantine"
+        },
+        "correctAnswer": "A",
+        "explanation": "Octavian took the name Augustus as Rome's first emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q23",
+        "section": "social",
+        "question": "Put these in order: the Republic struggled, Caesar took control, and ___.",
+        "choices": {
+          "A": "Rome returned to having kings only",
+          "B": "Carthage took over Rome",
+          "C": "Augustus became the first emperor",
+          "D": "the Republic grew stronger than ever"
+        },
+        "correctAnswer": "C",
+        "explanation": "After the Republic struggled and Caesar took control, Augustus became the first emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q24",
+        "section": "social",
+        "question": "The Pax Romana is best described as—",
+        "choices": {
+          "A": "a series of bloody civil wars",
+          "B": "a long period of Roman peace and stability",
+          "C": "a war against Carthage",
+          "D": "the fall of the Roman Empire"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Pax Romana was a long period of Roman peace and stability.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q25",
+        "section": "social",
+        "question": "How is the Roman Republic DIFFERENT from the Roman Empire?",
+        "choices": {
+          "A": "They were exactly the same",
+          "B": "The Republic had an emperor and the Empire had elections",
+          "C": "Neither had any leaders",
+          "D": "The Republic elected leaders, while the Empire was ruled by an emperor"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Republic elected its leaders, while the Empire was ruled by an emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q26",
+        "section": "social",
+        "question": "Before becoming emperor, Augustus had to do what?",
+        "choices": {
+          "A": "Defeat his rivals in civil war",
+          "B": "Surrender to Carthage",
+          "C": "Give up all his power",
+          "D": "Become a senator's slave"
+        },
+        "correctAnswer": "A",
+        "explanation": "Octavian defeated his rivals in civil war before taking power as Augustus.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q27",
+        "section": "social",
+        "question": "Which phrase describes how Julius Caesar ruled Rome?",
+        "choices": {
+          "A": "As an elected senator sharing power",
+          "B": "As a foreign king from Carthage",
+          "C": "Almost like a king, holding great power",
+          "D": "As a powerless servant"
+        },
+        "correctAnswer": "C",
+        "explanation": "Caesar took control and ruled almost like a king, holding great power.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q28",
+        "section": "social",
+        "question": "Which of these is a cause of the Republic's troubles?",
+        "choices": {
+          "A": "Too few people in Rome",
+          "B": "Armies that were loyal to their generals instead of Rome",
+          "C": "Too much peace",
+          "D": "A lack of any leaders"
+        },
+        "correctAnswer": "B",
+        "explanation": "Armies loyal to their generals were one cause of the Republic's troubles.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q29",
+        "section": "social",
+        "question": "Under which leader did the Pax Romana begin?",
+        "choices": {
+          "A": "Hannibal",
+          "B": "A king of Carthage",
+          "C": "Julius Caesar after he became emperor",
+          "D": "Augustus"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Pax Romana began under Augustus, Rome's first emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q30",
+        "section": "social",
+        "question": "Which event marked the END of the Roman Republic and the BEGINNING of the Roman Empire?",
+        "choices": {
+          "A": "Augustus becoming the first emperor",
+          "B": "The Punic Wars starting",
+          "C": "Rome overthrowing its early kings",
+          "D": "The writing of the Twelve Tables"
+        },
+        "correctAnswer": "A",
+        "explanation": "Augustus becoming the first emperor marked the end of the Republic and start of the Empire.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q31",
+        "section": "social",
+        "question": "If a country changes from electing its leaders to obeying one all-powerful ruler, this is most like Rome's change from—",
+        "choices": {
+          "A": "Empire to Republic",
+          "B": "village to farm",
+          "C": "Republic to Empire",
+          "D": "peace to the Punic Wars"
+        },
+        "correctAnswer": "C",
+        "explanation": "Going from elected leaders to one all-powerful ruler matches Rome's change from Republic to Empire.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q32",
+        "section": "social",
+        "question": "Which word best means 'a person who rules an empire'?",
+        "choices": {
+          "A": "Senator",
+          "B": "Emperor",
+          "C": "Citizen",
+          "D": "General"
+        },
+        "correctAnswer": "B",
+        "explanation": "An emperor is the single ruler of an empire, like Augustus.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-3-q33",
+        "section": "social",
+        "question": "Which sentence about Augustus is TRUE?",
+        "choices": {
+          "A": "He was assassinated like Caesar",
+          "B": "He lost to Carthage",
+          "C": "He gave power back to the Senate to restore the Republic",
+          "D": "He was Rome's first emperor and brought the Pax Romana"
+        },
+        "correctAnswer": "D",
+        "explanation": "Augustus was Rome's first emperor and brought the Pax Romana.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q34",
+        "section": "social",
+        "question": "What was one EFFECT of Augustus becoming emperor?",
+        "choices": {
+          "A": "Rome fell apart immediately",
+          "B": "The Republic returned at once",
+          "C": "Rome entered a long peace called the Pax Romana",
+          "D": "Carthage destroyed Rome"
+        },
+        "correctAnswer": "C",
+        "explanation": "One effect of Augustus's rule was the long peace known as the Pax Romana.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q35",
+        "section": "social",
+        "question": "Which list shows the leaders in the correct order of taking power?",
+        "choices": {
+          "A": "Julius Caesar, then Augustus",
+          "B": "Augustus, then Julius Caesar",
+          "C": "Hannibal, then Julius Caesar",
+          "D": "Augustus, then Hannibal"
+        },
+        "correctAnswer": "A",
+        "explanation": "Julius Caesar took power first, and after his death Augustus became the first emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q36",
+        "section": "social",
+        "question": "Why is the change from Republic to Empire so important to study?",
+        "choices": {
+          "A": "It shows Rome never changed",
+          "B": "It shows how Rome shrank into a village",
+          "C": "It proves Carthage ruled Rome",
+          "D": "It shows how power moved from many elected leaders to one emperor"
+        },
+        "correctAnswer": "D",
+        "explanation": "It matters because it shows how power moved from many elected leaders to one emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q37",
+        "section": "social",
+        "question": "Which best completes the sentence: 'Republic means elected leaders, but Empire means ___.'?",
+        "choices": {
+          "A": "no government at all",
+          "B": "rule by one emperor",
+          "C": "rule by Carthage",
+          "D": "rule by many kings at once"
+        },
+        "correctAnswer": "B",
+        "explanation": "While a Republic has elected leaders, an Empire means rule by one emperor.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "easy"
+      },
+      {
+        "id": "15-3-q38",
+        "section": "social",
+        "question": "Which event happened FIRST?",
+        "choices": {
+          "A": "Augustus became the first emperor",
+          "B": "The Pax Romana began",
+          "C": "Julius Caesar was assassinated",
+          "D": "Octavian defeated his rivals"
+        },
+        "correctAnswer": "C",
+        "explanation": "Julius Caesar's assassination came first, leading to civil war and then Augustus's rise.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "hard"
+      },
+      {
+        "id": "15-3-q39",
+        "section": "social",
+        "question": "Which statement about the Pax Romana is FALSE?",
+        "choices": {
+          "A": "It means 'Roman Peace'",
+          "B": "It lasted about 200 years",
+          "C": "It began under Augustus",
+          "D": "It was a war between Rome and Carthage"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Pax Romana was a long peace, not a war between Rome and Carthage, so that statement is false.",
+        "standard": "SS.6.W.3.11",
+        "difficulty": "medium"
+      },
+      {
+        "id": "15-3-q40",
+        "section": "social",
+        "question": "Which best summarizes how Rome changed from Republic to Empire?",
+        "choices": {
+          "A": "Caesar took power, was assassinated, and Augustus became the first emperor, beginning the Empire",
+          "B": "Rome stayed a republic forever with no emperors",
+          "C": "Carthage conquered Rome and ruled it",
+          "D": "Rome had no leaders for 200 years"
+        },
+        "correctAnswer": "A",
+        "explanation": "Caesar took power, was assassinated, and Augustus became the first emperor, beginning the Empire.",
         "standard": "SS.6.W.3.11",
         "difficulty": "easy"
       }
