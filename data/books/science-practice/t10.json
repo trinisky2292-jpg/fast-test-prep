@@ -2,73 +2,2429 @@
   "10-1": {
     "title": "What Are Living Things?",
     "standard": "SC.6.L.14.1",
-    "learn": "KEY IDEAS\n\nLiving things, or organisms, share certain features:\n- They are made of CELLS.\n- They USE ENERGY.\n- They GROW and DEVELOP.\n- They RESPOND to their surroundings.\n- They REPRODUCE (make more of their kind).\n\nThe CELL is the basic building block of all living things. Some organisms are made of just ONE cell; others, like you, are made of TRILLIONS.\n\nScientists organize life from small to large: atoms → molecules → cells → tissues → organs → whole organisms.\n\nExample 1 — Is it alive?\nA dog is alive: it is made of cells, uses energy, grows, responds, and reproduces. A rock is NOT alive: it does none of these.\n\nExample 2 — One cell vs. many\nA bacterium is a single-celled organism; a human is made of trillions of cells.\n\nExample 3 — Levels of organization\nCells make up tissues, tissues make up organs, and organs work together in a whole organism."
-,
+    "learn": "KEY IDEAS\n\nLiving things, or organisms, share certain features:\n- They are made of CELLS.\n- They USE ENERGY.\n- They GROW and DEVELOP.\n- They RESPOND to their surroundings.\n- They REPRODUCE (make more of their kind).\n\nThe CELL is the basic building block of all living things. Some organisms are made of just ONE cell; others, like you, are made of TRILLIONS.\n\nScientists organize life from small to large: atoms → molecules → cells → tissues → organs → whole organisms.\n\nExample 1 — Is it alive?\nA dog is alive: it is made of cells, uses energy, grows, responds, and reproduces. A rock is NOT alive: it does none of these.\n\nExample 2 — One cell vs. many\nA bacterium is a single-celled organism; a human is made of trillions of cells.\n\nExample 3 — Levels of organization\nCells make up tissues, tissues make up organs, and organs work together in a whole organism.",
     "questions": [
-      { "id": "10-1-q1", "section": "science", "question": "The basic building block of all living things is the", "choices": { "A": "cell", "B": "rock", "C": "mineral", "D": "atom of metal" }, "correctAnswer": "A", "explanation": "The cell is the basic building block of all living things.", "standard": "SC.6.L.14.1", "difficulty": "easy" },
-      { "id": "10-1-q2", "section": "science", "question": "Which is a feature shared by all living things?", "choices": { "A": "They use energy", "B": "They are always green", "C": "They never move", "D": "They are made of metal" }, "correctAnswer": "A", "explanation": "All living things use energy, among other shared features.", "standard": "SC.6.L.14.1", "difficulty": "easy" },
-      { "id": "10-1-q3", "section": "science", "question": "Another word for a living thing is", "choices": { "A": "organism", "B": "mineral", "C": "landform", "D": "molecule" }, "correctAnswer": "A", "explanation": "An organism is a living thing.", "standard": "SC.6.L.14.1", "difficulty": "easy" },
-      { "id": "10-1-q4", "section": "science", "question": "Which of these is NOT a living thing?", "choices": { "A": "A tree", "B": "A dog", "C": "A rock", "D": "A bacterium" }, "correctAnswer": "C", "explanation": "A rock is not alive; it is not made of cells and does not use energy, grow, or reproduce.", "standard": "SC.6.L.14.1", "difficulty": "easy" },
-      { "id": "10-1-q5", "section": "science", "question": "An organism made of only one cell is called", "choices": { "A": "single-celled", "B": "many-celled", "C": "nonliving", "D": "a mineral" }, "correctAnswer": "A", "explanation": "An organism made of one cell is single-celled, like a bacterium.", "standard": "SC.6.L.14.1", "difficulty": "medium" },
-      { "id": "10-1-q6", "section": "science", "question": "Which shows the correct order from smallest to largest?", "choices": { "A": "Organs, cells, tissues", "B": "Cells, tissues, organs", "C": "Tissues, cells, organs", "D": "Organs, tissues, cells" }, "correctAnswer": "B", "explanation": "From smallest to largest: cells make tissues, and tissues make organs.", "standard": "SC.6.L.14.1", "difficulty": "medium" },
-      { "id": "10-1-q7", "section": "science", "question": "A plant turns toward sunlight. Which feature of living things does this show?", "choices": { "A": "Responding to its surroundings", "B": "Being made of metal", "C": "Never changing", "D": "Being nonliving" }, "correctAnswer": "A", "explanation": "Turning toward sunlight shows the plant responding to its surroundings.", "standard": "SC.6.L.14.1", "difficulty": "medium" },
-      { "id": "10-1-q8", "section": "science", "question": "A human body is made of about how many cells?", "choices": { "A": "Just one", "B": "About ten", "C": "Trillions", "D": "Zero" }, "correctAnswer": "C", "explanation": "A human is made of trillions of cells.", "standard": "SC.6.L.14.1", "difficulty": "medium" },
-      { "id": "10-1-q9", "section": "science", "question": "Why is a car NOT considered a living thing, even though it uses energy and moves?", "choices": { "A": "It is not made of cells, does not grow, and cannot reproduce", "B": "It is too big", "C": "It is made of metal", "D": "It is too fast" }, "correctAnswer": "A", "explanation": "A car is not made of cells and cannot grow or reproduce, so it is not a living thing despite using energy.", "standard": "SC.6.L.14.1", "difficulty": "hard" },
-      { "id": "10-1-q10", "section": "science", "question": "Which group lists ONLY features of living things?", "choices": { "A": "Made of cells, uses energy, grows, reproduces", "B": "Made of metal, never moves, has no cells", "C": "Always green, never grows, made of rock", "D": "Cannot respond, cannot use energy" }, "correctAnswer": "A", "explanation": "Being made of cells, using energy, growing, and reproducing are all features of living things.", "standard": "SC.6.L.14.1", "difficulty": "hard" }
+      {
+        "id": "10-1-q1",
+        "section": "science",
+        "question": "The basic building block of all living things is the",
+        "choices": {
+          "A": "cell",
+          "B": "rock",
+          "C": "mineral",
+          "D": "atom of metal"
+        },
+        "correctAnswer": "A",
+        "explanation": "The cell is the basic building block of all living things.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q2",
+        "section": "science",
+        "question": "Which is a feature shared by all living things?",
+        "choices": {
+          "A": "They use energy",
+          "B": "They are always green",
+          "C": "They never move",
+          "D": "They are made of metal"
+        },
+        "correctAnswer": "A",
+        "explanation": "All living things use energy, among other shared features.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q3",
+        "section": "science",
+        "question": "Another word for a living thing is",
+        "choices": {
+          "A": "organism",
+          "B": "mineral",
+          "C": "landform",
+          "D": "molecule"
+        },
+        "correctAnswer": "A",
+        "explanation": "An organism is a living thing.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q4",
+        "section": "science",
+        "question": "Which of these is NOT a living thing?",
+        "choices": {
+          "A": "A tree",
+          "B": "A dog",
+          "C": "A rock",
+          "D": "A bacterium"
+        },
+        "correctAnswer": "C",
+        "explanation": "A rock is not alive; it is not made of cells and does not use energy, grow, or reproduce.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q5",
+        "section": "science",
+        "question": "An organism made of only one cell is called",
+        "choices": {
+          "A": "single-celled",
+          "B": "many-celled",
+          "C": "nonliving",
+          "D": "a mineral"
+        },
+        "correctAnswer": "A",
+        "explanation": "An organism made of one cell is single-celled, like a bacterium.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q6",
+        "section": "science",
+        "question": "Which shows the correct order from smallest to largest?",
+        "choices": {
+          "A": "Organs, cells, tissues",
+          "B": "Cells, tissues, organs",
+          "C": "Tissues, cells, organs",
+          "D": "Organs, tissues, cells"
+        },
+        "correctAnswer": "B",
+        "explanation": "From smallest to largest: cells make tissues, and tissues make organs.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q7",
+        "section": "science",
+        "question": "A plant turns toward sunlight. Which feature of living things does this show?",
+        "choices": {
+          "A": "Responding to its surroundings",
+          "B": "Being made of metal",
+          "C": "Never changing",
+          "D": "Being nonliving"
+        },
+        "correctAnswer": "A",
+        "explanation": "Turning toward sunlight shows the plant responding to its surroundings.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q8",
+        "section": "science",
+        "question": "A human body is made of about how many cells?",
+        "choices": {
+          "A": "Just one",
+          "B": "About ten",
+          "C": "Trillions",
+          "D": "Zero"
+        },
+        "correctAnswer": "C",
+        "explanation": "A human is made of trillions of cells.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q9",
+        "section": "science",
+        "question": "Why is a car NOT considered a living thing, even though it uses energy and moves?",
+        "choices": {
+          "A": "It is not made of cells, does not grow, and cannot reproduce",
+          "B": "It is too big",
+          "C": "It is made of metal",
+          "D": "It is too fast"
+        },
+        "correctAnswer": "A",
+        "explanation": "A car is not made of cells and cannot grow or reproduce, so it is not a living thing despite using energy.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q10",
+        "section": "science",
+        "question": "Which group lists ONLY features of living things?",
+        "choices": {
+          "A": "Made of cells, uses energy, grows, reproduces",
+          "B": "Made of metal, never moves, has no cells",
+          "C": "Always green, never grows, made of rock",
+          "D": "Cannot respond, cannot use energy"
+        },
+        "correctAnswer": "A",
+        "explanation": "Being made of cells, using energy, growing, and reproducing are all features of living things.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q11",
+        "section": "science",
+        "question": "When living things make more of their own kind, this feature is called",
+        "choices": {
+          "A": "reproducing",
+          "B": "melting",
+          "C": "freezing",
+          "D": "erosion"
+        },
+        "correctAnswer": "A",
+        "explanation": "Reproducing means making more of their own kind, a feature of all living things.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q12",
+        "section": "science",
+        "question": "A puppy slowly turns into an adult dog. Which feature of living things does this show?",
+        "choices": {
+          "A": "It is made of metal",
+          "B": "It grows and develops",
+          "C": "It is nonliving",
+          "D": "It never changes"
+        },
+        "correctAnswer": "B",
+        "explanation": "Changing from a puppy into an adult dog shows that living things grow and develop.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q13",
+        "section": "science",
+        "question": "Which of these is a living thing?",
+        "choices": {
+          "A": "A pebble",
+          "B": "A drop of rain",
+          "C": "An oak tree",
+          "D": "A piece of plastic"
+        },
+        "correctAnswer": "C",
+        "explanation": "An oak tree is alive because it is made of cells, uses energy, grows, and reproduces.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q14",
+        "section": "science",
+        "question": "A group of similar cells working together forms a",
+        "choices": {
+          "A": "rock",
+          "B": "mineral",
+          "C": "cloud",
+          "D": "tissue"
+        },
+        "correctAnswer": "D",
+        "explanation": "Cells that work together form a tissue.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q15",
+        "section": "science",
+        "question": "Which level of organization is the LARGEST?",
+        "choices": {
+          "A": "A whole organism",
+          "B": "A tissue",
+          "C": "An organ",
+          "D": "A single cell"
+        },
+        "correctAnswer": "A",
+        "explanation": "A whole organism is the largest of these levels; it is made of organs, which are made of tissues, which are made of cells.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q16",
+        "section": "science",
+        "question": "You pull your hand back quickly after touching something hot. This shows that living things",
+        "choices": {
+          "A": "are made of metal",
+          "B": "respond to their surroundings",
+          "C": "cannot move",
+          "D": "do not use energy"
+        },
+        "correctAnswer": "B",
+        "explanation": "Pulling your hand back shows living things respond to their surroundings.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q17",
+        "section": "science",
+        "question": "A bacterium is an example of an organism that is",
+        "choices": {
+          "A": "made of trillions of cells",
+          "B": "nonliving",
+          "C": "single-celled",
+          "D": "made of metal"
+        },
+        "correctAnswer": "C",
+        "explanation": "A bacterium is single-celled, meaning it is made of just one cell.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q18",
+        "section": "science",
+        "question": "Where does a living thing get the energy it needs to carry out life activities?",
+        "choices": {
+          "A": "Energy comes from rocks only",
+          "B": "It does not need energy",
+          "C": "Energy comes from being made of metal",
+          "D": "It uses energy from food or sunlight"
+        },
+        "correctAnswer": "D",
+        "explanation": "Living things use energy, which they get from food or, for plants, from sunlight.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q19",
+        "section": "science",
+        "question": "Which statement about cells is correct?",
+        "choices": {
+          "A": "All living things are made of one or more cells",
+          "B": "Only plants are made of cells",
+          "C": "Cells are only found in animals",
+          "D": "Living things have no cells"
+        },
+        "correctAnswer": "A",
+        "explanation": "All living things are made of one or more cells, the basic building block of life.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q20",
+        "section": "science",
+        "question": "Which of these does a rock NOT do that a living thing does?",
+        "choices": {
+          "A": "Take up space",
+          "B": "Grow, reproduce, and use energy",
+          "C": "Have a mass",
+          "D": "Sit still"
+        },
+        "correctAnswer": "B",
+        "explanation": "Unlike living things, a rock does not grow, reproduce, or use energy.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q21",
+        "section": "science",
+        "question": "Organs that work together make up a",
+        "choices": {
+          "A": "single cell",
+          "B": "mineral",
+          "C": "whole organism",
+          "D": "raindrop"
+        },
+        "correctAnswer": "C",
+        "explanation": "Organs work together to form a whole organism.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q22",
+        "section": "science",
+        "question": "Which is the BEST example of a single-celled organism?",
+        "choices": {
+          "A": "A human",
+          "B": "An elephant",
+          "C": "An oak tree",
+          "D": "A bacterium"
+        },
+        "correctAnswer": "D",
+        "explanation": "A bacterium is made of just one cell, making it a single-celled organism.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q23",
+        "section": "science",
+        "question": "A flowering plant makes seeds that grow into new plants. This shows the living-thing feature of",
+        "choices": {
+          "A": "being nonliving",
+          "B": "reproducing",
+          "C": "being made of metal",
+          "D": "never changing"
+        },
+        "correctAnswer": "B",
+        "explanation": "Making seeds that grow into new plants shows the plant reproducing.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q24",
+        "section": "science",
+        "question": "Which correctly orders the levels from smallest to largest?",
+        "choices": {
+          "A": "Tissues → cells → organism → organs",
+          "B": "Organism → organs → tissues → cells",
+          "C": "Cells → tissues → organs → organism",
+          "D": "Organs → organism → cells → tissues"
+        },
+        "correctAnswer": "C",
+        "explanation": "From smallest to largest the order is cells, then tissues, then organs, then the whole organism.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q25",
+        "section": "science",
+        "question": "Which of the following is NOT a feature shared by all living things?",
+        "choices": {
+          "A": "Being made of cells",
+          "B": "Using energy",
+          "C": "Reproducing",
+          "D": "Being made of metal"
+        },
+        "correctAnswer": "D",
+        "explanation": "Being made of metal is not a feature of living things; being made of cells, using energy, and reproducing are.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q26",
+        "section": "science",
+        "question": "A sunflower bends to follow the Sun across the sky. This is an example of a living thing",
+        "choices": {
+          "A": "turning into a rock",
+          "B": "responding to its surroundings",
+          "C": "stopping all life activities",
+          "D": "losing its cells"
+        },
+        "correctAnswer": "B",
+        "explanation": "Bending to follow the Sun shows the plant responding to its surroundings.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q27",
+        "section": "science",
+        "question": "Compared to a single-celled bacterium, a human is made of",
+        "choices": {
+          "A": "no cells at all",
+          "B": "exactly one cell",
+          "C": "trillions of cells",
+          "D": "only metal parts"
+        },
+        "correctAnswer": "C",
+        "explanation": "Unlike a single-celled bacterium, a human is made of trillions of cells.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q28",
+        "section": "science",
+        "question": "A scientist finds an object that is made of cells, uses energy, grows, responds, and reproduces. The object is",
+        "choices": {
+          "A": "nonliving",
+          "B": "a rock",
+          "C": "a mineral",
+          "D": "a living thing"
+        },
+        "correctAnswer": "D",
+        "explanation": "An object with all of these features is a living thing.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q29",
+        "section": "science",
+        "question": "Why is the cell called the basic building block of life?",
+        "choices": {
+          "A": "Because cells are made of metal",
+          "B": "Because all living things are built from one or more cells",
+          "C": "Because only rocks contain cells",
+          "D": "Because cells are nonliving"
+        },
+        "correctAnswer": "B",
+        "explanation": "The cell is the basic building block of life because all living things are built from one or more cells.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q30",
+        "section": "science",
+        "question": "A candle flame uses energy and seems to 'grow,' yet it is NOT alive. The best reason is that it",
+        "choices": {
+          "A": "is too bright",
+          "B": "is too hot",
+          "C": "is not made of cells and cannot reproduce",
+          "D": "moves too fast"
+        },
+        "correctAnswer": "C",
+        "explanation": "A flame is not made of cells and cannot reproduce, so it is not a living thing.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q31",
+        "section": "science",
+        "question": "Which list shows levels of organization in living things?",
+        "choices": {
+          "A": "Day, night, week, month",
+          "B": "Rain, clouds, wind, storms",
+          "C": "Rocks, minerals, sand, gravel",
+          "D": "Atoms, molecules, cells, tissues, organs"
+        },
+        "correctAnswer": "D",
+        "explanation": "Atoms, molecules, cells, tissues, and organs are levels of organization in living things.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q32",
+        "section": "science",
+        "question": "If something does NOT grow, use energy, respond, or reproduce, it is most likely",
+        "choices": {
+          "A": "a single-celled organism",
+          "B": "nonliving",
+          "C": "a young animal",
+          "D": "a fast-growing plant"
+        },
+        "correctAnswer": "B",
+        "explanation": "Something that does none of the life activities is most likely nonliving.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q33",
+        "section": "science",
+        "question": "Which is an example of an organism responding to its surroundings?",
+        "choices": {
+          "A": "A rock sitting in the Sun",
+          "B": "Water freezing into ice",
+          "C": "A dog running away from loud thunder",
+          "D": "Sand blowing in the wind"
+        },
+        "correctAnswer": "C",
+        "explanation": "A dog running from thunder is an organism responding to its surroundings.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q34",
+        "section": "science",
+        "question": "Which best compares a one-celled organism and a many-celled organism?",
+        "choices": {
+          "A": "One is a rock and one is a mineral",
+          "B": "Only the many-celled one is alive",
+          "C": "Neither is made of cells",
+          "D": "Both are made of cells, but one has a single cell and the other has many"
+        },
+        "correctAnswer": "D",
+        "explanation": "Both are living and made of cells; one is made of a single cell while the other is made of many cells.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q35",
+        "section": "science",
+        "question": "A seed sprouts, grows leaves, and gets taller over weeks. Which two features of living things does this show?",
+        "choices": {
+          "A": "It is made of metal and never changes",
+          "B": "It grows and develops, and it uses energy",
+          "C": "It is nonliving and has no cells",
+          "D": "It turns into a rock and stops"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sprouting and getting taller shows the plant grows and develops while using energy.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q36",
+        "section": "science",
+        "question": "Which of these is the SMALLEST living unit that can carry out life activities on its own?",
+        "choices": {
+          "A": "A tissue",
+          "B": "An organ",
+          "C": "A single cell",
+          "D": "A whole organism"
+        },
+        "correctAnswer": "C",
+        "explanation": "A single cell is the smallest living unit and the basic building block of all living things.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q37",
+        "section": "science",
+        "question": "A toy robot can move and 'use energy' from a battery. Why is it still NOT a living thing?",
+        "choices": {
+          "A": "It is too small",
+          "B": "It moves too slowly",
+          "C": "It is the wrong color",
+          "D": "It is not made of cells and cannot grow or reproduce"
+        },
+        "correctAnswer": "D",
+        "explanation": "A robot is not made of cells and cannot grow or reproduce, so it is not alive.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q38",
+        "section": "science",
+        "question": "All of the following are living things EXCEPT",
+        "choices": {
+          "A": "a cat",
+          "B": "a glass of water",
+          "C": "a mushroom",
+          "D": "a fern"
+        },
+        "correctAnswer": "B",
+        "explanation": "A glass of water is nonliving; a cat, a fern, and a mushroom are all living things.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q39",
+        "section": "science",
+        "question": "Which sentence about energy and living things is correct?",
+        "choices": {
+          "A": "Energy makes things nonliving",
+          "B": "Living things never use energy",
+          "C": "Only nonliving things use energy",
+          "D": "Living things use energy to grow, move, and stay alive"
+        },
+        "correctAnswer": "D",
+        "explanation": "Living things use energy to grow, move, and carry out life activities.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q40",
+        "section": "science",
+        "question": "A student lists features of an unknown object: it is made of cells, grows, responds, and makes more of its kind. The best conclusion is that the object",
+        "choices": {
+          "A": "is made only of metal",
+          "B": "is a rock",
+          "C": "is nonliving",
+          "D": "is a living thing"
+        },
+        "correctAnswer": "D",
+        "explanation": "An object made of cells that grows, responds, and reproduces is a living thing.",
+        "standard": "SC.6.L.14.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "10-2": {
     "title": "Classifying Living Things",
     "standard": "SC.6.L.15.1",
-    "learn": "KEY IDEAS\n\nThere are millions of kinds of living things, so scientists CLASSIFY (group) them by shared characteristics. This makes organisms easier to study and compare.\n\nScientists use the LINNAEAN system together with broad groups called DOMAINS to sort all life.\n\nEach organism gets a two-part SCIENTIFIC NAME (genus + species) so people everywhere know exactly which living thing they mean — no matter what language they speak.\n\nExample 1 — Why classify?\nGrouping living things by shared traits (like having a backbone, or making their own food) makes them easier to study.\n\nExample 2 — Scientific name\nThe two-part scientific name (like Homo sapiens for humans) is the same worldwide, avoiding confusion from common names.\n\nExample 3 — Shared traits\nAnimals that have fur and feed milk to their young are grouped together because they share those characteristics."
-,
+    "learn": "KEY IDEAS\n\nThere are millions of kinds of living things, so scientists CLASSIFY (group) them by shared characteristics. This makes organisms easier to study and compare.\n\nScientists use the LINNAEAN system together with broad groups called DOMAINS to sort all life.\n\nEach organism gets a two-part SCIENTIFIC NAME (genus + species) so people everywhere know exactly which living thing they mean — no matter what language they speak.\n\nExample 1 — Why classify?\nGrouping living things by shared traits (like having a backbone, or making their own food) makes them easier to study.\n\nExample 2 — Scientific name\nThe two-part scientific name (like Homo sapiens for humans) is the same worldwide, avoiding confusion from common names.\n\nExample 3 — Shared traits\nAnimals that have fur and feed milk to their young are grouped together because they share those characteristics.",
     "questions": [
-      { "id": "10-2-q1", "section": "science", "question": "To classify living things means to", "choices": { "A": "make them grow faster", "B": "turn them into rocks", "C": "group them by shared characteristics", "D": "give them all the same name" }, "correctAnswer": "C", "explanation": "Classifying means grouping living things by shared characteristics.", "standard": "SC.6.L.15.1", "difficulty": "easy" },
-      { "id": "10-2-q2", "section": "science", "question": "Why do scientists classify living things?", "choices": { "A": "To make them easier to study and compare", "B": "To make them disappear", "C": "Because there are only a few species", "D": "To change their cells" }, "correctAnswer": "A", "explanation": "Classifying makes the millions of kinds of organisms easier to study and compare.", "standard": "SC.6.L.15.1", "difficulty": "easy" },
-      { "id": "10-2-q3", "section": "science", "question": "Each organism's scientific name has how many parts?", "choices": { "A": "One", "B": "Two", "C": "Five", "D": "Ten" }, "correctAnswer": "B", "explanation": "A scientific name has two parts (genus and species).", "standard": "SC.6.L.15.1", "difficulty": "easy" },
-      { "id": "10-2-q4", "section": "science", "question": "The broadest, largest groups used to sort all life are called", "choices": { "A": "cells", "B": "minerals", "C": "fronts", "D": "domains" }, "correctAnswer": "D", "explanation": "Domains are the broadest groups scientists use to sort all living things.", "standard": "SC.6.L.15.1", "difficulty": "medium" },
-      { "id": "10-2-q5", "section": "science", "question": "A two-part scientific name is useful because it", "choices": { "A": "means the same thing to scientists everywhere", "B": "is different in every country", "C": "changes every year", "D": "only works for plants" }, "correctAnswer": "A", "explanation": "The scientific name is the same worldwide, so scientists everywhere know exactly which organism is meant.", "standard": "SC.6.L.15.1", "difficulty": "medium" },
-      { "id": "10-2-q6", "section": "science", "question": "The naming and grouping system created by Linnaeus is called the", "choices": { "A": "Linnaean system", "B": "water cycle", "C": "rock cycle", "D": "food web" }, "correctAnswer": "A", "explanation": "Scientists use the Linnaean system to name and classify living things.", "standard": "SC.6.L.15.1", "difficulty": "medium" },
-      { "id": "10-2-q7", "section": "science", "question": "Animals with fur that feed milk to their young are grouped together because they", "choices": { "A": "share those characteristics", "B": "live in the same house", "C": "are the same color", "D": "have the same name" }, "correctAnswer": "A", "explanation": "Organisms are grouped by shared characteristics, such as having fur and feeding milk to their young.", "standard": "SC.6.L.15.1", "difficulty": "medium" },
-      { "id": "10-2-q8", "section": "science", "question": "Why are common names (like 'puma,' 'cougar,' 'mountain lion') a problem for scientists?", "choices": { "A": "The same animal can have many different common names, causing confusion", "B": "Common names are too short", "C": "Common names never change", "D": "Common names are only used by scientists" }, "correctAnswer": "A", "explanation": "One animal can have many common names, so a single scientific name avoids confusion.", "standard": "SC.6.L.15.1", "difficulty": "hard" },
-      { "id": "10-2-q9", "section": "science", "question": "Which BEST explains the benefit of classification?", "choices": { "A": "It organizes millions of organisms into groups so we can study and understand them", "B": "It makes all living things identical", "C": "It removes the need for scientific names", "D": "It stops organisms from reproducing" }, "correctAnswer": "A", "explanation": "Classification organizes the huge number of organisms into groups, making them easier to study and understand.", "standard": "SC.6.L.15.1", "difficulty": "hard" },
-      { "id": "10-2-q10", "section": "science", "question": "If two organisms are placed in the same group, it most likely means they", "choices": { "A": "share important characteristics", "B": "live on different planets", "C": "have nothing in common", "D": "are both nonliving" }, "correctAnswer": "A", "explanation": "Organisms placed in the same group share important characteristics.", "standard": "SC.6.L.15.1", "difficulty": "medium" }
+      {
+        "id": "10-2-q1",
+        "section": "science",
+        "question": "To classify living things means to",
+        "choices": {
+          "A": "make them grow faster",
+          "B": "turn them into rocks",
+          "C": "group them by shared characteristics",
+          "D": "give them all the same name"
+        },
+        "correctAnswer": "C",
+        "explanation": "Classifying means grouping living things by shared characteristics.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q2",
+        "section": "science",
+        "question": "Why do scientists classify living things?",
+        "choices": {
+          "A": "To make them easier to study and compare",
+          "B": "To make them disappear",
+          "C": "Because there are only a few species",
+          "D": "To change their cells"
+        },
+        "correctAnswer": "A",
+        "explanation": "Classifying makes the millions of kinds of organisms easier to study and compare.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q3",
+        "section": "science",
+        "question": "Each organism's scientific name has how many parts?",
+        "choices": {
+          "A": "One",
+          "B": "Two",
+          "C": "Five",
+          "D": "Ten"
+        },
+        "correctAnswer": "B",
+        "explanation": "A scientific name has two parts (genus and species).",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q4",
+        "section": "science",
+        "question": "The broadest, largest groups used to sort all life are called",
+        "choices": {
+          "A": "cells",
+          "B": "minerals",
+          "C": "fronts",
+          "D": "domains"
+        },
+        "correctAnswer": "D",
+        "explanation": "Domains are the broadest groups scientists use to sort all living things.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q5",
+        "section": "science",
+        "question": "A two-part scientific name is useful because it",
+        "choices": {
+          "A": "means the same thing to scientists everywhere",
+          "B": "is different in every country",
+          "C": "changes every year",
+          "D": "only works for plants"
+        },
+        "correctAnswer": "A",
+        "explanation": "The scientific name is the same worldwide, so scientists everywhere know exactly which organism is meant.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q6",
+        "section": "science",
+        "question": "The naming and grouping system created by Linnaeus is called the",
+        "choices": {
+          "A": "Linnaean system",
+          "B": "water cycle",
+          "C": "rock cycle",
+          "D": "food web"
+        },
+        "correctAnswer": "A",
+        "explanation": "Scientists use the Linnaean system to name and classify living things.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q7",
+        "section": "science",
+        "question": "Animals with fur that feed milk to their young are grouped together because they",
+        "choices": {
+          "A": "share those characteristics",
+          "B": "live in the same house",
+          "C": "are the same color",
+          "D": "have the same name"
+        },
+        "correctAnswer": "A",
+        "explanation": "Organisms are grouped by shared characteristics, such as having fur and feeding milk to their young.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q8",
+        "section": "science",
+        "question": "Why are common names (like 'puma,' 'cougar,' 'mountain lion') a problem for scientists?",
+        "choices": {
+          "A": "The same animal can have many different common names, causing confusion",
+          "B": "Common names are too short",
+          "C": "Common names never change",
+          "D": "Common names are only used by scientists"
+        },
+        "correctAnswer": "A",
+        "explanation": "One animal can have many common names, so a single scientific name avoids confusion.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q9",
+        "section": "science",
+        "question": "Which BEST explains the benefit of classification?",
+        "choices": {
+          "A": "It organizes millions of organisms into groups so we can study and understand them",
+          "B": "It makes all living things identical",
+          "C": "It removes the need for scientific names",
+          "D": "It stops organisms from reproducing"
+        },
+        "correctAnswer": "A",
+        "explanation": "Classification organizes the huge number of organisms into groups, making them easier to study and understand.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q10",
+        "section": "science",
+        "question": "If two organisms are placed in the same group, it most likely means they",
+        "choices": {
+          "A": "share important characteristics",
+          "B": "live on different planets",
+          "C": "have nothing in common",
+          "D": "are both nonliving"
+        },
+        "correctAnswer": "A",
+        "explanation": "Organisms placed in the same group share important characteristics.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q11",
+        "section": "science",
+        "question": "The two parts of a scientific name are the",
+        "choices": {
+          "A": "genus and species",
+          "B": "color and size",
+          "C": "weight and height",
+          "D": "domain and rock"
+        },
+        "correctAnswer": "A",
+        "explanation": "A scientific name is made of two parts: the genus and the species.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q12",
+        "section": "science",
+        "question": "Scientists need to classify living things mainly because",
+        "choices": {
+          "A": "all organisms are the same",
+          "B": "there are millions of kinds of organisms",
+          "C": "there are only ten organisms",
+          "D": "organisms cannot be studied"
+        },
+        "correctAnswer": "B",
+        "explanation": "There are millions of kinds of living things, so classifying them makes them easier to study.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q13",
+        "section": "science",
+        "question": "What do scientists look at to decide how to group living things?",
+        "choices": {
+          "A": "The day they were found",
+          "B": "Their names only",
+          "C": "Their shared characteristics",
+          "D": "Their price"
+        },
+        "correctAnswer": "C",
+        "explanation": "Scientists group living things by their shared characteristics.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q14",
+        "section": "science",
+        "question": "The scientific name 'Homo sapiens' is used for",
+        "choices": {
+          "A": "dogs",
+          "B": "trees",
+          "C": "rocks",
+          "D": "humans"
+        },
+        "correctAnswer": "D",
+        "explanation": "Homo sapiens is the two-part scientific name for humans.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q15",
+        "section": "science",
+        "question": "A scientist in Japan and a scientist in Brazil both use the name 'Homo sapiens.' This shows that scientific names are",
+        "choices": {
+          "A": "the same all over the world",
+          "B": "different in every country",
+          "C": "changed every year",
+          "D": "used only for plants"
+        },
+        "correctAnswer": "A",
+        "explanation": "Scientific names are the same all over the world, so scientists everywhere understand them.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q16",
+        "section": "science",
+        "question": "Which broad group does a scientist use to first sort all of life into a few large groups?",
+        "choices": {
+          "A": "Species",
+          "B": "Domain",
+          "C": "Common name",
+          "D": "Color"
+        },
+        "correctAnswer": "B",
+        "explanation": "Domains are the broadest groups used to first sort all living things.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q17",
+        "section": "science",
+        "question": "The system of naming and classifying organisms is named after the scientist",
+        "choices": {
+          "A": "Newton",
+          "B": "Edison",
+          "C": "Linnaeus",
+          "D": "Galileo"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Linnaean system is named after Linnaeus, who created it.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q18",
+        "section": "science",
+        "question": "Two animals both have backbones, fur, and feed milk to their young. A scientist would likely",
+        "choices": {
+          "A": "say they share nothing",
+          "B": "place them in totally separate domains",
+          "C": "call them nonliving",
+          "D": "place them in the same group"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sharing traits like backbones, fur, and feeding milk means they are likely placed in the same group.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q19",
+        "section": "science",
+        "question": "A trait that could be used to group living things is",
+        "choices": {
+          "A": "having a backbone",
+          "B": "the day of the week",
+          "C": "the country's flag",
+          "D": "the price of food"
+        },
+        "correctAnswer": "A",
+        "explanation": "Having a backbone is a characteristic scientists can use to group living things.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q20",
+        "section": "science",
+        "question": "Which is NOT a reason scientists classify living things?",
+        "choices": {
+          "A": "To make them easier to study",
+          "B": "To make every organism identical",
+          "C": "To organize the millions of kinds",
+          "D": "To compare them"
+        },
+        "correctAnswer": "B",
+        "explanation": "Classifying does not make organisms identical; it helps scientists study, compare, and organize them.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q21",
+        "section": "science",
+        "question": "One animal is called a 'puma' in one place and a 'mountain lion' in another. A single scientific name helps by",
+        "choices": {
+          "A": "changing the animal's traits",
+          "B": "making the animal disappear",
+          "C": "giving the animal one name everyone can use",
+          "D": "splitting it into many species"
+        },
+        "correctAnswer": "C",
+        "explanation": "A single scientific name gives the animal one name that scientists everywhere can use, avoiding confusion.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q22",
+        "section": "science",
+        "question": "What is the MAIN purpose of giving each organism a scientific name?",
+        "choices": {
+          "A": "To change it every year",
+          "B": "To make the name hard to say",
+          "C": "To keep the organism a secret",
+          "D": "To avoid confusion so everyone knows exactly which organism is meant"
+        },
+        "correctAnswer": "D",
+        "explanation": "A scientific name avoids confusion so people everywhere know exactly which organism is meant.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q23",
+        "section": "science",
+        "question": "Classifying living things is most like",
+        "choices": {
+          "A": "melting ice into water",
+          "B": "sorting books in a library by topic",
+          "C": "watching the Sun set",
+          "D": "throwing everything in one big pile"
+        },
+        "correctAnswer": "B",
+        "explanation": "Classifying is like sorting books by topic: grouping things by shared features makes them easier to find and study.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q24",
+        "section": "science",
+        "question": "How many parts does the scientific name 'Canis lupus' have?",
+        "choices": {
+          "A": "One",
+          "B": "Three",
+          "C": "Two",
+          "D": "Four"
+        },
+        "correctAnswer": "C",
+        "explanation": "Like all scientific names, it has two parts: a genus and a species.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q25",
+        "section": "science",
+        "question": "Which statement BEST describes the Linnaean system?",
+        "choices": {
+          "A": "A map of the planets",
+          "B": "A way to make rain",
+          "C": "A list of all the rocks on Earth",
+          "D": "A way to name and group living things by shared traits"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Linnaean system is a way to name and group living things by their shared traits.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q26",
+        "section": "science",
+        "question": "If a new organism is discovered, scientists will FIRST want to",
+        "choices": {
+          "A": "ignore it completely",
+          "B": "look at its characteristics to decide where it belongs",
+          "C": "turn it into a rock",
+          "D": "give it the same name as every other organism"
+        },
+        "correctAnswer": "B",
+        "explanation": "Scientists look at an organism's characteristics to decide where it belongs in the classification system.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q27",
+        "section": "science",
+        "question": "Which pair would most likely be classified together?",
+        "choices": {
+          "A": "A bird and a cloud",
+          "B": "A fish and a rock",
+          "C": "A house cat and a tiger, which both have fur and claws",
+          "D": "A tree and a raindrop"
+        },
+        "correctAnswer": "C",
+        "explanation": "A house cat and a tiger share traits like fur and claws, so they would likely be classified together.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q28",
+        "section": "science",
+        "question": "A common name like 'robin' can be a problem because",
+        "choices": {
+          "A": "common names never repeat",
+          "B": "common names are scientific names",
+          "C": "robins are not real",
+          "D": "different birds in different places may all be called 'robin'"
+        },
+        "correctAnswer": "D",
+        "explanation": "Different birds in different places may share the common name 'robin,' which causes confusion.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q29",
+        "section": "science",
+        "question": "Putting organisms into groups based on shared traits is called",
+        "choices": {
+          "A": "erosion",
+          "B": "classification",
+          "C": "evaporation",
+          "D": "condensation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Putting organisms into groups based on shared traits is called classification.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q30",
+        "section": "science",
+        "question": "Why is a scientific name better than a common name for scientists?",
+        "choices": {
+          "A": "It is easier to forget",
+          "B": "It is shorter",
+          "C": "It is the same in every language and points to one exact organism",
+          "D": "It changes from place to place"
+        },
+        "correctAnswer": "C",
+        "explanation": "A scientific name is the same in every language and points to one exact organism, unlike common names.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q31",
+        "section": "science",
+        "question": "Which of these would scientists place in the SAME group?",
+        "choices": {
+          "A": "A spider and a sand dune",
+          "B": "A bird and a mineral",
+          "C": "A frog and a thundercloud",
+          "D": "Two animals that both have feathers and lay eggs"
+        },
+        "correctAnswer": "D",
+        "explanation": "Two animals that share traits like feathers and laying eggs would be placed in the same group.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q32",
+        "section": "science",
+        "question": "The MOST general (broadest) level of classification is the",
+        "choices": {
+          "A": "species",
+          "B": "domain",
+          "C": "genus",
+          "D": "scientific name"
+        },
+        "correctAnswer": "B",
+        "explanation": "The domain is the broadest, most general level used to sort all living things.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q33",
+        "section": "science",
+        "question": "Which is an example of classifying?",
+        "choices": {
+          "A": "Counting the days in a week",
+          "B": "Watering a plant",
+          "C": "Sorting animals into 'has fur' and 'has feathers'",
+          "D": "Painting a rock"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sorting animals by traits like 'has fur' or 'has feathers' is an example of classifying.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q34",
+        "section": "science",
+        "question": "Scientists everywhere can communicate clearly about a single organism because",
+        "choices": {
+          "A": "every organism has the same color",
+          "B": "no organism has a name",
+          "C": "every organism has hundreds of names",
+          "D": "every organism has one agreed-upon scientific name"
+        },
+        "correctAnswer": "D",
+        "explanation": "Each organism has one agreed-upon scientific name, so scientists everywhere can communicate clearly.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q35",
+        "section": "science",
+        "question": "Which question would help a scientist classify a new organism?",
+        "choices": {
+          "A": "What day was it found?",
+          "B": "Does it have a backbone or not?",
+          "C": "What is its favorite color?",
+          "D": "How much does it cost?"
+        },
+        "correctAnswer": "B",
+        "explanation": "Asking whether an organism has a backbone helps a scientist classify it by its characteristics.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q36",
+        "section": "science",
+        "question": "What is the result of a good classification system?",
+        "choices": {
+          "A": "Organisms can no longer be named",
+          "B": "All organisms become identical",
+          "C": "Millions of organisms are organized so they are easier to study",
+          "D": "Scientists can no longer compare organisms"
+        },
+        "correctAnswer": "C",
+        "explanation": "A good classification system organizes millions of organisms so they are easier to study.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q37",
+        "section": "science",
+        "question": "Which is NOT part of an organism's two-part scientific name?",
+        "choices": {
+          "A": "Genus",
+          "B": "Species",
+          "C": "(There are only two parts, and these are genus and species)",
+          "D": "Common name"
+        },
+        "correctAnswer": "D",
+        "explanation": "The scientific name is made of genus and species; the common name is not part of it.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q38",
+        "section": "science",
+        "question": "A student groups leaves by shape and edge pattern. The student is",
+        "choices": {
+          "A": "naming a domain",
+          "B": "classifying by shared characteristics",
+          "C": "writing a scientific name",
+          "D": "making the leaves identical"
+        },
+        "correctAnswer": "B",
+        "explanation": "Grouping leaves by shared features like shape is classifying by shared characteristics.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q39",
+        "section": "science",
+        "question": "Domains and the Linnaean system are both tools used to",
+        "choices": {
+          "A": "make rain",
+          "B": "build mountains",
+          "C": "name and sort living things",
+          "D": "measure temperature"
+        },
+        "correctAnswer": "C",
+        "explanation": "Both domains and the Linnaean system are used to name and sort living things.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q40",
+        "section": "science",
+        "question": "Which BEST shows why classification matters?",
+        "choices": {
+          "A": "It stops scientists from comparing living things",
+          "B": "It makes all organisms the same size",
+          "C": "It removes the need to observe organisms",
+          "D": "It lets scientists study millions of organisms in an organized way and share findings clearly"
+        },
+        "correctAnswer": "D",
+        "explanation": "Classification lets scientists study millions of organisms in an organized way and share findings clearly.",
+        "standard": "SC.6.L.15.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "10-3": {
     "title": "Energy and Matter in Ecosystems",
     "standard": "SC.6.E.7.4",
-    "learn": "KEY IDEAS\n\nAn ecosystem is all the living and nonliving things in an area working together.\n\nEnergy flow: Energy enters most ecosystems from the SUN. Plants capture sunlight to make food, then animals eat the plants, and other animals eat those animals. This flow of energy from one living thing to the next is shown by FOOD CHAINS and FOOD WEBS.\n- Producers (plants) make their own food using sunlight.\n- Consumers (animals) eat other living things for energy.\n- Decomposers break down dead matter and return nutrients to the soil.\n\nMatter (like water and nutrients) gets RECYCLED and used again and again.\n\nExample 1 — Simple food chain\nSun → grass (producer) → rabbit (consumer) → fox (consumer). Energy flows from one to the next.\n\nExample 2 — Producers vs. consumers\nA plant is a producer (makes its own food); a deer is a consumer (eats plants).\n\nExample 3 — Recycling matter\nWhen a plant or animal dies, decomposers break it down and return its nutrients to the soil for new plants to use."
-,
+    "learn": "KEY IDEAS\n\nAn ecosystem is all the living and nonliving things in an area working together.\n\nEnergy flow: Energy enters most ecosystems from the SUN. Plants capture sunlight to make food, then animals eat the plants, and other animals eat those animals. This flow of energy from one living thing to the next is shown by FOOD CHAINS and FOOD WEBS.\n- Producers (plants) make their own food using sunlight.\n- Consumers (animals) eat other living things for energy.\n- Decomposers break down dead matter and return nutrients to the soil.\n\nMatter (like water and nutrients) gets RECYCLED and used again and again.\n\nExample 1 — Simple food chain\nSun → grass (producer) → rabbit (consumer) → fox (consumer). Energy flows from one to the next.\n\nExample 2 — Producers vs. consumers\nA plant is a producer (makes its own food); a deer is a consumer (eats plants).\n\nExample 3 — Recycling matter\nWhen a plant or animal dies, decomposers break it down and return its nutrients to the soil for new plants to use.",
     "questions": [
-      { "id": "10-3-q1", "section": "science", "question": "An ecosystem is", "choices": { "A": "only the plants in an area", "B": "a single animal", "C": "all the living and nonliving things in an area working together", "D": "a type of rock" }, "correctAnswer": "C", "explanation": "An ecosystem includes all the living and nonliving things in an area interacting together.", "standard": "SC.6.E.7.4", "difficulty": "easy" },
-      { "id": "10-3-q2", "section": "science", "question": "Where does the energy in most ecosystems originally come from?", "choices": { "A": "The Sun", "B": "Rocks", "C": "The Moon", "D": "Wind only" }, "correctAnswer": "A", "explanation": "Energy in most ecosystems comes originally from the Sun.", "standard": "SC.6.E.7.4", "difficulty": "easy" },
-      { "id": "10-3-q3", "section": "science", "question": "Organisms that make their own food using sunlight are called", "choices": { "A": "consumers", "B": "decomposers", "C": "minerals", "D": "producers" }, "correctAnswer": "D", "explanation": "Producers, like plants, make their own food using sunlight.", "standard": "SC.6.E.7.4", "difficulty": "easy" },
-      { "id": "10-3-q4", "section": "science", "question": "A food chain shows", "choices": { "A": "how energy flows from one living thing to the next", "B": "how rocks form", "C": "how clouds make rain", "D": "the layers of Earth" }, "correctAnswer": "A", "explanation": "A food chain shows the flow of energy from one organism to the next.", "standard": "SC.6.E.7.4", "difficulty": "easy" },
-      { "id": "10-3-q5", "section": "science", "question": "In the food chain grass → rabbit → fox, the grass is the", "choices": { "A": "producer", "B": "consumer", "C": "decomposer", "D": "predator only" }, "correctAnswer": "A", "explanation": "Grass makes its own food using sunlight, so it is the producer.", "standard": "SC.6.E.7.4", "difficulty": "medium" },
-      { "id": "10-3-q6", "section": "science", "question": "An animal that eats other living things for energy is a", "choices": { "A": "producer", "B": "consumer", "C": "mineral", "D": "rock" }, "correctAnswer": "B", "explanation": "Consumers eat other living things to get energy.", "standard": "SC.6.E.7.4", "difficulty": "medium" },
-      { "id": "10-3-q7", "section": "science", "question": "Decomposers are important in an ecosystem because they", "choices": { "A": "break down dead matter and return nutrients to the soil", "B": "make energy from the Sun", "C": "create new sunlight", "D": "build mountains" }, "correctAnswer": "A", "explanation": "Decomposers break down dead matter and return nutrients to the soil to be reused.", "standard": "SC.6.E.7.4", "difficulty": "medium" },
-      { "id": "10-3-q8", "section": "science", "question": "How is matter (like nutrients and water) handled in an ecosystem?", "choices": { "A": "It is recycled and used again and again", "B": "It is created from sunlight", "C": "It disappears forever", "D": "It only moves in one direction and is lost" }, "correctAnswer": "A", "explanation": "Matter such as water and nutrients is recycled and reused in an ecosystem.", "standard": "SC.6.E.7.4", "difficulty": "hard" },
-      { "id": "10-3-q9", "section": "science", "question": "In the chain Sun → grass → grasshopper → frog, energy flows", "choices": { "A": "from the Sun to grass to grasshopper to frog", "B": "from the frog to the Sun", "C": "from the grasshopper to the Sun", "D": "in no particular direction" }, "correctAnswer": "A", "explanation": "Energy flows in order from the Sun to the producer (grass) to each consumer in turn.", "standard": "SC.6.E.7.4", "difficulty": "hard" },
-      { "id": "10-3-q10", "section": "science", "question": "What is the MAIN difference between how energy and matter move in an ecosystem?", "choices": { "A": "Energy flows through (mostly from the Sun) while matter is recycled", "B": "Both are created and never moved", "C": "Energy is recycled while matter is destroyed", "D": "Neither energy nor matter moves" }, "correctAnswer": "A", "explanation": "Energy flows through the ecosystem (originally from the Sun), while matter is recycled and reused.", "standard": "SC.6.E.7.4", "difficulty": "medium" }
+      {
+        "id": "10-3-q1",
+        "section": "science",
+        "question": "An ecosystem is",
+        "choices": {
+          "A": "only the plants in an area",
+          "B": "a single animal",
+          "C": "all the living and nonliving things in an area working together",
+          "D": "a type of rock"
+        },
+        "correctAnswer": "C",
+        "explanation": "An ecosystem includes all the living and nonliving things in an area interacting together.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q2",
+        "section": "science",
+        "question": "Where does the energy in most ecosystems originally come from?",
+        "choices": {
+          "A": "The Sun",
+          "B": "Rocks",
+          "C": "The Moon",
+          "D": "Wind only"
+        },
+        "correctAnswer": "A",
+        "explanation": "Energy in most ecosystems comes originally from the Sun.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q3",
+        "section": "science",
+        "question": "Organisms that make their own food using sunlight are called",
+        "choices": {
+          "A": "consumers",
+          "B": "decomposers",
+          "C": "minerals",
+          "D": "producers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Producers, like plants, make their own food using sunlight.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q4",
+        "section": "science",
+        "question": "A food chain shows",
+        "choices": {
+          "A": "how energy flows from one living thing to the next",
+          "B": "how rocks form",
+          "C": "how clouds make rain",
+          "D": "the layers of Earth"
+        },
+        "correctAnswer": "A",
+        "explanation": "A food chain shows the flow of energy from one organism to the next.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q5",
+        "section": "science",
+        "question": "In the food chain grass → rabbit → fox, the grass is the",
+        "choices": {
+          "A": "producer",
+          "B": "consumer",
+          "C": "decomposer",
+          "D": "predator only"
+        },
+        "correctAnswer": "A",
+        "explanation": "Grass makes its own food using sunlight, so it is the producer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q6",
+        "section": "science",
+        "question": "An animal that eats other living things for energy is a",
+        "choices": {
+          "A": "producer",
+          "B": "consumer",
+          "C": "mineral",
+          "D": "rock"
+        },
+        "correctAnswer": "B",
+        "explanation": "Consumers eat other living things to get energy.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q7",
+        "section": "science",
+        "question": "Decomposers are important in an ecosystem because they",
+        "choices": {
+          "A": "break down dead matter and return nutrients to the soil",
+          "B": "make energy from the Sun",
+          "C": "create new sunlight",
+          "D": "build mountains"
+        },
+        "correctAnswer": "A",
+        "explanation": "Decomposers break down dead matter and return nutrients to the soil to be reused.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q8",
+        "section": "science",
+        "question": "How is matter (like nutrients and water) handled in an ecosystem?",
+        "choices": {
+          "A": "It is recycled and used again and again",
+          "B": "It is created from sunlight",
+          "C": "It disappears forever",
+          "D": "It only moves in one direction and is lost"
+        },
+        "correctAnswer": "A",
+        "explanation": "Matter such as water and nutrients is recycled and reused in an ecosystem.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q9",
+        "section": "science",
+        "question": "In the chain Sun → grass → grasshopper → frog, energy flows",
+        "choices": {
+          "A": "from the Sun to grass to grasshopper to frog",
+          "B": "from the frog to the Sun",
+          "C": "from the grasshopper to the Sun",
+          "D": "in no particular direction"
+        },
+        "correctAnswer": "A",
+        "explanation": "Energy flows in order from the Sun to the producer (grass) to each consumer in turn.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q10",
+        "section": "science",
+        "question": "What is the MAIN difference between how energy and matter move in an ecosystem?",
+        "choices": {
+          "A": "Energy flows through (mostly from the Sun) while matter is recycled",
+          "B": "Both are created and never moved",
+          "C": "Energy is recycled while matter is destroyed",
+          "D": "Neither energy nor matter moves"
+        },
+        "correctAnswer": "A",
+        "explanation": "Energy flows through the ecosystem (originally from the Sun), while matter is recycled and reused.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q11",
+        "section": "science",
+        "question": "A deer that eats grass and leaves is best called a",
+        "choices": {
+          "A": "consumer",
+          "B": "producer",
+          "C": "decomposer",
+          "D": "mineral"
+        },
+        "correctAnswer": "A",
+        "explanation": "A deer eats other living things for energy, so it is a consumer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q12",
+        "section": "science",
+        "question": "Which organism is a producer?",
+        "choices": {
+          "A": "A wolf",
+          "B": "A blade of grass",
+          "C": "A hawk",
+          "D": "A snake"
+        },
+        "correctAnswer": "B",
+        "explanation": "A blade of grass makes its own food using sunlight, so it is a producer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q13",
+        "section": "science",
+        "question": "Mushrooms and bacteria that break down a dead log are acting as",
+        "choices": {
+          "A": "producers",
+          "B": "the Sun",
+          "C": "decomposers",
+          "D": "rocks"
+        },
+        "correctAnswer": "C",
+        "explanation": "Organisms that break down dead matter are decomposers.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q14",
+        "section": "science",
+        "question": "Both living and nonliving things in an area working together make up a(n)",
+        "choices": {
+          "A": "domain",
+          "B": "single cell",
+          "C": "scientific name",
+          "D": "ecosystem"
+        },
+        "correctAnswer": "D",
+        "explanation": "An ecosystem is all the living and nonliving things in an area working together.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q15",
+        "section": "science",
+        "question": "Which arrow direction is correct for a food chain?",
+        "choices": {
+          "A": "Energy moves from the food to the thing that eats it",
+          "B": "Energy moves backward, from the last animal to the Sun",
+          "C": "Energy does not move at all",
+          "D": "Energy only moves between rocks"
+        },
+        "correctAnswer": "A",
+        "explanation": "In a food chain, energy moves from the food to the organism that eats it.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q16",
+        "section": "science",
+        "question": "When a plant or animal dies, decomposers return its nutrients to the",
+        "choices": {
+          "A": "Sun",
+          "B": "soil",
+          "C": "Moon",
+          "D": "clouds"
+        },
+        "correctAnswer": "B",
+        "explanation": "Decomposers return nutrients from dead matter to the soil, where new plants can use them.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q17",
+        "section": "science",
+        "question": "In the food chain Sun → grass → rabbit → fox, the fox is a",
+        "choices": {
+          "A": "producer",
+          "B": "decomposer",
+          "C": "consumer",
+          "D": "source of sunlight"
+        },
+        "correctAnswer": "C",
+        "explanation": "The fox eats the rabbit for energy, so the fox is a consumer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q18",
+        "section": "science",
+        "question": "Many food chains linked together in an ecosystem form a",
+        "choices": {
+          "A": "rock cycle",
+          "B": "single cell",
+          "C": "weather front",
+          "D": "food web"
+        },
+        "correctAnswer": "D",
+        "explanation": "Many connected food chains form a food web.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q19",
+        "section": "science",
+        "question": "What would MOST likely happen to an ecosystem if all its producers disappeared?",
+        "choices": {
+          "A": "Consumers would lose their food supply and energy source",
+          "B": "Nothing would change",
+          "C": "More energy would come from the Sun",
+          "D": "Rocks would start making food"
+        },
+        "correctAnswer": "A",
+        "explanation": "Producers make the food that brings energy into the ecosystem, so losing them would leave consumers without food.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q20",
+        "section": "science",
+        "question": "How do plants capture the energy they use to make food?",
+        "choices": {
+          "A": "By eating other animals",
+          "B": "By using sunlight",
+          "C": "By breaking down dead matter",
+          "D": "By drinking from rocks"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plants capture sunlight and use it to make their own food.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q21",
+        "section": "science",
+        "question": "Which best describes the role of consumers in an ecosystem?",
+        "choices": {
+          "A": "They make food from sunlight",
+          "B": "They return nutrients to the soil",
+          "C": "They eat other living things to get energy",
+          "D": "They create sunlight"
+        },
+        "correctAnswer": "C",
+        "explanation": "Consumers eat other living things to get the energy they need.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q22",
+        "section": "science",
+        "question": "Which is an example of matter being recycled in an ecosystem?",
+        "choices": {
+          "A": "Sunlight reaching a leaf",
+          "B": "A fox running away",
+          "C": "Energy leaving the ecosystem as heat",
+          "D": "Nutrients from a dead leaf going into the soil for new plants"
+        },
+        "correctAnswer": "D",
+        "explanation": "Nutrients from a dead leaf returning to the soil for new plants shows matter being recycled.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q23",
+        "section": "science",
+        "question": "Which group brings new energy INTO most ecosystems by capturing sunlight?",
+        "choices": {
+          "A": "Decomposers",
+          "B": "Producers",
+          "C": "Top predators",
+          "D": "Rocks"
+        },
+        "correctAnswer": "B",
+        "explanation": "Producers capture sunlight to make food, bringing new energy into the ecosystem.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q24",
+        "section": "science",
+        "question": "In the chain Sun → algae → small fish → big fish, the algae act as the",
+        "choices": {
+          "A": "decomposer",
+          "B": "top consumer",
+          "C": "producer",
+          "D": "Sun"
+        },
+        "correctAnswer": "C",
+        "explanation": "Algae make their own food using sunlight, so they are the producer in this chain.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q25",
+        "section": "science",
+        "question": "Why is the Sun important to almost every food chain?",
+        "choices": {
+          "A": "It is a top predator",
+          "B": "It eats the producers",
+          "C": "It recycles all the matter",
+          "D": "It is the original source of the energy that flows through the chain"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Sun is the original source of energy that producers capture and that then flows through the food chain.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q26",
+        "section": "science",
+        "question": "Which of these is NOT a living part of an ecosystem?",
+        "choices": {
+          "A": "A rabbit",
+          "B": "A rock",
+          "C": "A tree",
+          "D": "A mushroom"
+        },
+        "correctAnswer": "B",
+        "explanation": "A rock is a nonliving part of an ecosystem; the rabbit, tree, and mushroom are living.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q27",
+        "section": "science",
+        "question": "How are a producer and a consumer DIFFERENT?",
+        "choices": {
+          "A": "Both make their own food",
+          "B": "A producer eats animals, while a consumer makes food",
+          "C": "A producer makes its own food, while a consumer eats other living things",
+          "D": "Both are nonliving"
+        },
+        "correctAnswer": "C",
+        "explanation": "A producer makes its own food using sunlight, while a consumer eats other living things for energy.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q28",
+        "section": "science",
+        "question": "If decomposers were removed from an ecosystem, what would MOST likely happen over time?",
+        "choices": {
+          "A": "Nothing in the ecosystem would change",
+          "B": "The Sun would stop shining",
+          "C": "Producers would eat the consumers",
+          "D": "Dead matter would pile up and fewer nutrients would return to the soil"
+        },
+        "correctAnswer": "D",
+        "explanation": "Without decomposers, dead matter would pile up and fewer nutrients would be returned to the soil.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q29",
+        "section": "science",
+        "question": "Which statement about energy in an ecosystem is correct?",
+        "choices": {
+          "A": "Energy is made by decomposers",
+          "B": "Energy usually starts with the Sun and flows from producers to consumers",
+          "C": "Energy never moves",
+          "D": "Energy is recycled endlessly with no source"
+        },
+        "correctAnswer": "B",
+        "explanation": "Energy usually starts with the Sun and flows from producers to consumers through the food chain.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q30",
+        "section": "science",
+        "question": "A grasshopper eats grass, and a bird eats the grasshopper. The bird is a",
+        "choices": {
+          "A": "producer",
+          "B": "decomposer",
+          "C": "consumer",
+          "D": "source of sunlight"
+        },
+        "correctAnswer": "C",
+        "explanation": "The bird eats the grasshopper for energy, so the bird is a consumer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q31",
+        "section": "science",
+        "question": "Which BEST describes how matter moves in an ecosystem?",
+        "choices": {
+          "A": "It is used once and lost forever",
+          "B": "It is created by the Sun",
+          "C": "It never moves",
+          "D": "It is recycled and used again and again"
+        },
+        "correctAnswer": "D",
+        "explanation": "Matter such as water and nutrients is recycled and used again and again in an ecosystem.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q32",
+        "section": "science",
+        "question": "Which is the correct order of a simple food chain?",
+        "choices": {
+          "A": "Fox → rabbit → grass → Sun",
+          "B": "Sun → grass → rabbit → fox",
+          "C": "Rabbit → Sun → fox → grass",
+          "D": "Grass → fox → Sun → rabbit"
+        },
+        "correctAnswer": "B",
+        "explanation": "Energy flows Sun → grass → rabbit → fox, from the Sun to the producer to each consumer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q33",
+        "section": "science",
+        "question": "Algae floating in a pond capture sunlight to make food. Algae are acting as",
+        "choices": {
+          "A": "top predators",
+          "B": "decomposers",
+          "C": "producers",
+          "D": "nonliving matter"
+        },
+        "correctAnswer": "C",
+        "explanation": "Because they capture sunlight to make food, the algae are acting as producers.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q34",
+        "section": "science",
+        "question": "Which role does a worm play when it breaks down a dead leaf in the soil?",
+        "choices": {
+          "A": "Producer",
+          "B": "Top predator only",
+          "C": "Source of sunlight",
+          "D": "Decomposer"
+        },
+        "correctAnswer": "D",
+        "explanation": "Breaking down dead matter and returning nutrients to the soil makes the worm a decomposer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q35",
+        "section": "science",
+        "question": "How is energy DIFFERENT from matter in an ecosystem?",
+        "choices": {
+          "A": "Energy is recycled, but matter is not",
+          "B": "Energy keeps flowing through and is not recycled the way matter is",
+          "C": "Both are destroyed",
+          "D": "Neither moves through the ecosystem"
+        },
+        "correctAnswer": "B",
+        "explanation": "Energy flows through the ecosystem and is not recycled, while matter is recycled and reused.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q36",
+        "section": "science",
+        "question": "Which of these would be found in an ocean ecosystem AND a forest ecosystem?",
+        "choices": {
+          "A": "Only sunlight, with no living things",
+          "B": "Only rocks",
+          "C": "Producers, consumers, and decomposers",
+          "D": "Only decomposers"
+        },
+        "correctAnswer": "C",
+        "explanation": "Both ecosystems contain producers, consumers, and decomposers working together.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q37",
+        "section": "science",
+        "question": "A food web is MORE useful than a single food chain because it",
+        "choices": {
+          "A": "shows the layers of Earth",
+          "B": "only shows one organism",
+          "C": "shows how rocks form",
+          "D": "shows the many connections between organisms in an ecosystem"
+        },
+        "correctAnswer": "D",
+        "explanation": "A food web shows the many connections among organisms, while a single chain shows only one path of energy.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q38",
+        "section": "science",
+        "question": "Which sentence correctly matches an organism to its role?",
+        "choices": {
+          "A": "A grass plant is a consumer",
+          "B": "A mushroom that breaks down dead matter is a decomposer",
+          "C": "A rabbit is a producer",
+          "D": "The Sun is a decomposer"
+        },
+        "correctAnswer": "B",
+        "explanation": "A mushroom that breaks down dead matter is a decomposer; the grass is a producer and the rabbit is a consumer.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q39",
+        "section": "science",
+        "question": "Without the Sun, most ecosystems would lose their main",
+        "choices": {
+          "A": "source of rock",
+          "B": "supply of decomposers",
+          "C": "source of energy",
+          "D": "supply of soil"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Sun is the main source of energy for most ecosystems.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q40",
+        "section": "science",
+        "question": "Which BEST summarizes how an ecosystem works?",
+        "choices": {
+          "A": "Producers eat consumers and matter is destroyed",
+          "B": "Energy and matter are both created by decomposers",
+          "C": "Nothing moves; everything stays the same",
+          "D": "Energy flows from the Sun through producers and consumers, while matter is recycled by decomposers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Energy flows from the Sun through producers and consumers, while decomposers recycle matter back into the ecosystem.",
+        "standard": "SC.6.E.7.4",
+        "difficulty": "hard"
+      }
     ]
   },
   "10-4": {
     "title": "Microorganisms: Viruses, Bacteria, Protists, and Fungi",
     "standard": "SC.6.L.14.6",
-    "learn": "KEY IDEAS\n\nSome living things are too small to see without a MICROSCOPE.\n- Bacteria: tiny SINGLE-CELLED organisms found almost everywhere. Some are HELPFUL (like those that help digest food) and some are HARMFUL (cause disease).\n- Protists: organisms like algae and amoebas.\n- Fungi: organisms like mushrooms, mold, and yeast.\n- Viruses: even SMALLER than bacteria and NOT quite alive — they can only reproduce by invading a living cell (a host).\n\nComparing these tiny agents helps us understand health and disease.\n\nExample 1 — Bacteria can help or harm\nSome bacteria help your body (like in your gut); others can make you sick.\n\nExample 2 — Viruses need a host\nA virus cannot reproduce on its own; it must invade a living cell to make copies of itself.\n\nExample 3 — Match the microbe\nMold on bread = fungi. Algae in a pond = protist. The flu = caused by a virus."
-,
+    "learn": "KEY IDEAS\n\nSome living things are too small to see without a MICROSCOPE.\n- Bacteria: tiny SINGLE-CELLED organisms found almost everywhere. Some are HELPFUL (like those that help digest food) and some are HARMFUL (cause disease).\n- Protists: organisms like algae and amoebas.\n- Fungi: organisms like mushrooms, mold, and yeast.\n- Viruses: even SMALLER than bacteria and NOT quite alive — they can only reproduce by invading a living cell (a host).\n\nComparing these tiny agents helps us understand health and disease.\n\nExample 1 — Bacteria can help or harm\nSome bacteria help your body (like in your gut); others can make you sick.\n\nExample 2 — Viruses need a host\nA virus cannot reproduce on its own; it must invade a living cell to make copies of itself.\n\nExample 3 — Match the microbe\nMold on bread = fungi. Algae in a pond = protist. The flu = caused by a virus.",
     "questions": [
-      { "id": "10-4-q1", "section": "science", "question": "Living things too small to see without a microscope are called", "choices": { "A": "minerals", "B": "landforms", "C": "microorganisms", "D": "fronts" }, "correctAnswer": "C", "explanation": "Microorganisms are living things too small to see without a microscope.", "standard": "SC.6.L.14.6", "difficulty": "easy" },
-      { "id": "10-4-q2", "section": "science", "question": "Bacteria are best described as", "choices": { "A": "tiny single-celled organisms found almost everywhere", "B": "large animals", "C": "types of rock", "D": "kinds of weather" }, "correctAnswer": "A", "explanation": "Bacteria are tiny single-celled organisms found nearly everywhere.", "standard": "SC.6.L.14.6", "difficulty": "easy" },
-      { "id": "10-4-q3", "section": "science", "question": "Which microorganism is NOT considered fully alive?", "choices": { "A": "Bacteria", "B": "Viruses", "C": "Fungi", "D": "Protists" }, "correctAnswer": "B", "explanation": "Viruses are not quite alive; they can only reproduce by invading a living cell.", "standard": "SC.6.L.14.6", "difficulty": "easy" },
-      { "id": "10-4-q4", "section": "science", "question": "Mushrooms, mold, and yeast belong to which group?", "choices": { "A": "Bacteria", "B": "Viruses", "C": "Minerals", "D": "Fungi" }, "correctAnswer": "D", "explanation": "Mushrooms, mold, and yeast are fungi.", "standard": "SC.6.L.14.6", "difficulty": "easy" },
-      { "id": "10-4-q5", "section": "science", "question": "Which statement about bacteria is TRUE?", "choices": { "A": "All bacteria are harmful", "B": "Some bacteria are helpful and some are harmful", "C": "Bacteria are larger than animals", "D": "Bacteria are nonliving" }, "correctAnswer": "B", "explanation": "Some bacteria are helpful (like those that aid digestion) and some are harmful (cause disease).", "standard": "SC.6.L.14.6", "difficulty": "medium" },
-      { "id": "10-4-q6", "section": "science", "question": "How do viruses reproduce?", "choices": { "A": "On their own, anywhere", "B": "By invading a living cell and using it to make copies", "C": "By turning into rocks", "D": "By using sunlight like plants" }, "correctAnswer": "B", "explanation": "A virus can only reproduce by invading a living host cell and using it to make copies.", "standard": "SC.6.L.14.6", "difficulty": "medium" },
-      { "id": "10-4-q7", "section": "science", "question": "Algae and amoebas are examples of", "choices": { "A": "protists", "B": "viruses", "C": "fungi", "D": "minerals" }, "correctAnswer": "A", "explanation": "Algae and amoebas are protists.", "standard": "SC.6.L.14.6", "difficulty": "medium" },
-      { "id": "10-4-q8", "section": "science", "question": "Compared to bacteria, viruses are", "choices": { "A": "even smaller and not quite alive", "B": "much larger and clearly alive", "C": "the same size and made of rock", "D": "able to make their own food" }, "correctAnswer": "A", "explanation": "Viruses are even smaller than bacteria and are not quite alive.", "standard": "SC.6.L.14.6", "difficulty": "hard" },
-      { "id": "10-4-q9", "section": "science", "question": "Why might the same word, 'germ,' be misleading when talking about microorganisms?", "choices": { "A": "Because microorganisms include very different groups, like bacteria, viruses, protists, and fungi", "B": "Because all microorganisms are exactly the same", "C": "Because microorganisms are not real", "D": "Because germs are nonliving rocks" }, "correctAnswer": "A", "explanation": "'Germ' lumps together very different groups (bacteria, viruses, protists, fungi) that are not the same.", "standard": "SC.6.L.14.6", "difficulty": "hard" },
-      { "id": "10-4-q10", "section": "science", "question": "Studying and comparing microorganisms helps people understand", "choices": { "A": "health and disease", "B": "the layers of Earth's core", "C": "how mountains form", "D": "how stars shine" }, "correctAnswer": "A", "explanation": "Comparing microorganisms like bacteria and viruses helps us understand health and disease.", "standard": "SC.6.L.14.6", "difficulty": "medium" }
+      {
+        "id": "10-4-q1",
+        "section": "science",
+        "question": "Living things too small to see without a microscope are called",
+        "choices": {
+          "A": "minerals",
+          "B": "landforms",
+          "C": "microorganisms",
+          "D": "fronts"
+        },
+        "correctAnswer": "C",
+        "explanation": "Microorganisms are living things too small to see without a microscope.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q2",
+        "section": "science",
+        "question": "Bacteria are best described as",
+        "choices": {
+          "A": "tiny single-celled organisms found almost everywhere",
+          "B": "large animals",
+          "C": "types of rock",
+          "D": "kinds of weather"
+        },
+        "correctAnswer": "A",
+        "explanation": "Bacteria are tiny single-celled organisms found nearly everywhere.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q3",
+        "section": "science",
+        "question": "Which microorganism is NOT considered fully alive?",
+        "choices": {
+          "A": "Bacteria",
+          "B": "Viruses",
+          "C": "Fungi",
+          "D": "Protists"
+        },
+        "correctAnswer": "B",
+        "explanation": "Viruses are not quite alive; they can only reproduce by invading a living cell.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q4",
+        "section": "science",
+        "question": "Mushrooms, mold, and yeast belong to which group?",
+        "choices": {
+          "A": "Bacteria",
+          "B": "Viruses",
+          "C": "Minerals",
+          "D": "Fungi"
+        },
+        "correctAnswer": "D",
+        "explanation": "Mushrooms, mold, and yeast are fungi.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q5",
+        "section": "science",
+        "question": "Which statement about bacteria is TRUE?",
+        "choices": {
+          "A": "All bacteria are harmful",
+          "B": "Some bacteria are helpful and some are harmful",
+          "C": "Bacteria are larger than animals",
+          "D": "Bacteria are nonliving"
+        },
+        "correctAnswer": "B",
+        "explanation": "Some bacteria are helpful (like those that aid digestion) and some are harmful (cause disease).",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q6",
+        "section": "science",
+        "question": "How do viruses reproduce?",
+        "choices": {
+          "A": "On their own, anywhere",
+          "B": "By invading a living cell and using it to make copies",
+          "C": "By turning into rocks",
+          "D": "By using sunlight like plants"
+        },
+        "correctAnswer": "B",
+        "explanation": "A virus can only reproduce by invading a living host cell and using it to make copies.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q7",
+        "section": "science",
+        "question": "Algae and amoebas are examples of",
+        "choices": {
+          "A": "protists",
+          "B": "viruses",
+          "C": "fungi",
+          "D": "minerals"
+        },
+        "correctAnswer": "A",
+        "explanation": "Algae and amoebas are protists.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q8",
+        "section": "science",
+        "question": "Compared to bacteria, viruses are",
+        "choices": {
+          "A": "even smaller and not quite alive",
+          "B": "much larger and clearly alive",
+          "C": "the same size and made of rock",
+          "D": "able to make their own food"
+        },
+        "correctAnswer": "A",
+        "explanation": "Viruses are even smaller than bacteria and are not quite alive.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-4-q9",
+        "section": "science",
+        "question": "Why might the same word, 'germ,' be misleading when talking about microorganisms?",
+        "choices": {
+          "A": "Because microorganisms include very different groups, like bacteria, viruses, protists, and fungi",
+          "B": "Because all microorganisms are exactly the same",
+          "C": "Because microorganisms are not real",
+          "D": "Because germs are nonliving rocks"
+        },
+        "correctAnswer": "A",
+        "explanation": "'Germ' lumps together very different groups (bacteria, viruses, protists, fungi) that are not the same.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-4-q10",
+        "section": "science",
+        "question": "Studying and comparing microorganisms helps people understand",
+        "choices": {
+          "A": "health and disease",
+          "B": "the layers of Earth's core",
+          "C": "how mountains form",
+          "D": "how stars shine"
+        },
+        "correctAnswer": "A",
+        "explanation": "Comparing microorganisms like bacteria and viruses helps us understand health and disease.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q11",
+        "section": "science",
+        "question": "Which tool is needed to see most microorganisms?",
+        "choices": {
+          "A": "A microscope",
+          "B": "A ruler",
+          "C": "A telescope",
+          "D": "A thermometer"
+        },
+        "correctAnswer": "A",
+        "explanation": "Most microorganisms are too small to see without a microscope.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q12",
+        "section": "science",
+        "question": "Mold growing on a slice of bread is an example of",
+        "choices": {
+          "A": "a virus",
+          "B": "a fungus",
+          "C": "a protist",
+          "D": "a mineral"
+        },
+        "correctAnswer": "B",
+        "explanation": "Mold is a fungus, the same group that includes mushrooms and yeast.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q13",
+        "section": "science",
+        "question": "The flu is caused by which kind of microorganism?",
+        "choices": {
+          "A": "A fungus",
+          "B": "A protist",
+          "C": "A virus",
+          "D": "A mineral"
+        },
+        "correctAnswer": "C",
+        "explanation": "The flu is caused by a virus.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q14",
+        "section": "science",
+        "question": "Which microorganism group is described as tiny single-celled organisms found almost everywhere?",
+        "choices": {
+          "A": "Trees",
+          "B": "Mushrooms",
+          "C": "Fish",
+          "D": "Bacteria"
+        },
+        "correctAnswer": "D",
+        "explanation": "Bacteria are tiny single-celled organisms found almost everywhere.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q15",
+        "section": "science",
+        "question": "Algae floating in a pond are an example of",
+        "choices": {
+          "A": "protists",
+          "B": "fungi",
+          "C": "viruses",
+          "D": "bacteria"
+        },
+        "correctAnswer": "A",
+        "explanation": "Algae are protists, the same group that includes amoebas.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q16",
+        "section": "science",
+        "question": "Why are viruses said to be 'not quite alive'?",
+        "choices": {
+          "A": "They are too big to study",
+          "B": "They can only reproduce by invading a living cell",
+          "C": "They make their own food",
+          "D": "They are made of rock"
+        },
+        "correctAnswer": "B",
+        "explanation": "Viruses are not quite alive because they can only reproduce by invading a living host cell.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q17",
+        "section": "science",
+        "question": "Which statement shows that bacteria can be helpful?",
+        "choices": {
+          "A": "Bacteria are larger than animals",
+          "B": "All bacteria cause disease",
+          "C": "Some bacteria help your body digest food",
+          "D": "Bacteria are nonliving rocks"
+        },
+        "correctAnswer": "C",
+        "explanation": "Some bacteria are helpful, such as those that help your body digest food.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q18",
+        "section": "science",
+        "question": "A living thing a virus invades in order to reproduce is called a",
+        "choices": {
+          "A": "producer",
+          "B": "decomposer",
+          "C": "mineral",
+          "D": "host"
+        },
+        "correctAnswer": "D",
+        "explanation": "A virus reproduces by invading a living cell called a host.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q19",
+        "section": "science",
+        "question": "Which group of microorganisms includes mushrooms, mold, and yeast?",
+        "choices": {
+          "A": "Fungi",
+          "B": "Bacteria",
+          "C": "Protists",
+          "D": "Viruses"
+        },
+        "correctAnswer": "A",
+        "explanation": "Mushrooms, mold, and yeast all belong to the fungi group.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q20",
+        "section": "science",
+        "question": "How do viruses compare in size to bacteria?",
+        "choices": {
+          "A": "Viruses are much larger than bacteria",
+          "B": "Viruses are even smaller than bacteria",
+          "C": "Viruses are the same size as bacteria",
+          "D": "Viruses are bigger than animals"
+        },
+        "correctAnswer": "B",
+        "explanation": "Viruses are even smaller than bacteria.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q21",
+        "section": "science",
+        "question": "Amoebas belong to which group of microorganisms?",
+        "choices": {
+          "A": "Fungi",
+          "B": "Viruses",
+          "C": "Protists",
+          "D": "Minerals"
+        },
+        "correctAnswer": "C",
+        "explanation": "Amoebas are protists, like algae.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q22",
+        "section": "science",
+        "question": "Which is the BEST reason bacteria are found 'almost everywhere'?",
+        "choices": {
+          "A": "They are large and easy to see",
+          "B": "They are actually viruses",
+          "C": "They are made of metal",
+          "D": "They are tiny, single-celled, and can live in many places"
+        },
+        "correctAnswer": "D",
+        "explanation": "Bacteria are tiny, single-celled organisms that can live in many places, so they are found almost everywhere.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q23",
+        "section": "science",
+        "question": "Which microorganism CANNOT reproduce on its own without a living cell?",
+        "choices": {
+          "A": "Viruses",
+          "B": "Fungi",
+          "C": "Bacteria",
+          "D": "Protists"
+        },
+        "correctAnswer": "A",
+        "explanation": "Viruses cannot reproduce on their own; they must invade a living cell.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q24",
+        "section": "science",
+        "question": "Yeast used to make bread rise is a kind of",
+        "choices": {
+          "A": "virus",
+          "B": "fungus",
+          "C": "bacterium only",
+          "D": "mineral"
+        },
+        "correctAnswer": "B",
+        "explanation": "Yeast is a fungus, in the same group as mushrooms and mold.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q25",
+        "section": "science",
+        "question": "Which statement BEST compares bacteria and viruses?",
+        "choices": {
+          "A": "Both are made of rock",
+          "B": "Both are large and clearly alive",
+          "C": "Bacteria are living single cells, while viruses are smaller and not quite alive",
+          "D": "Viruses are alive but bacteria are not"
+        },
+        "correctAnswer": "C",
+        "explanation": "Bacteria are living single-celled organisms, while viruses are smaller and not quite alive.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-4-q26",
+        "section": "science",
+        "question": "A student sees green slime in a fish tank under a microscope and identifies algae. The algae are",
+        "choices": {
+          "A": "rocks",
+          "B": "viruses",
+          "C": "minerals",
+          "D": "protists"
+        },
+        "correctAnswer": "D",
+        "explanation": "Algae are protists.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q27",
+        "section": "science",
+        "question": "Which is NOT a microorganism group described in the lesson?",
+        "choices": {
+          "A": "Mammals",
+          "B": "Viruses",
+          "C": "Bacteria",
+          "D": "Fungi"
+        },
+        "correctAnswer": "A",
+        "explanation": "Mammals are not a microorganism group; bacteria, viruses, and fungi are.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q28",
+        "section": "science",
+        "question": "Bacteria that help your body and bacteria that make you sick show that bacteria can be",
+        "choices": {
+          "A": "only harmful",
+          "B": "either helpful or harmful",
+          "C": "only helpful",
+          "D": "always nonliving"
+        },
+        "correctAnswer": "B",
+        "explanation": "Some bacteria are helpful and some are harmful, so bacteria can be either.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q29",
+        "section": "science",
+        "question": "Which correctly matches a microbe to its group?",
+        "choices": {
+          "A": "The flu is a bacterium",
+          "B": "Algae in a pond is a virus",
+          "C": "Mold on bread is a fungus",
+          "D": "A mushroom is a protist"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mold on bread is a fungus; algae are protists and the flu is a virus.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q30",
+        "section": "science",
+        "question": "What makes a virus different from a bacterium?",
+        "choices": {
+          "A": "A virus is a living cell that makes food",
+          "B": "A virus is bigger than an animal",
+          "C": "A virus is a kind of mineral",
+          "D": "A virus needs to invade a living cell to reproduce"
+        },
+        "correctAnswer": "D",
+        "explanation": "Unlike a bacterium, a virus must invade a living cell to reproduce.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-4-q31",
+        "section": "science",
+        "question": "Which group is made of single-celled organisms that can be helpful, such as helping digest food?",
+        "choices": {
+          "A": "Viruses",
+          "B": "Bacteria",
+          "C": "Mountains",
+          "D": "Stars"
+        },
+        "correctAnswer": "B",
+        "explanation": "Bacteria are single-celled organisms, and some are helpful, like those that help digest food.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q32",
+        "section": "science",
+        "question": "Which sentence about fungi is correct?",
+        "choices": {
+          "A": "Fungi are a type of mineral",
+          "B": "Fungi are smaller than viruses",
+          "C": "Fungi include mushrooms, mold, and yeast",
+          "D": "Fungi are not quite alive"
+        },
+        "correctAnswer": "C",
+        "explanation": "Fungi include mushrooms, mold, and yeast.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-4-q33",
+        "section": "science",
+        "question": "Why does comparing different microorganisms matter to people?",
+        "choices": {
+          "A": "It shows the layers of Earth",
+          "B": "It explains how stars shine",
+          "C": "It tells us how mountains form",
+          "D": "It helps us understand health and disease"
+        },
+        "correctAnswer": "D",
+        "explanation": "Comparing microorganisms helps us understand health and disease.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q34",
+        "section": "science",
+        "question": "A doctor explains that one illness is caused by bacteria and another by a virus. This is useful because the two are",
+        "choices": {
+          "A": "exactly the same",
+          "B": "different kinds of microorganisms that may need different treatment",
+          "C": "both nonliving rocks",
+          "D": "both large animals"
+        },
+        "correctAnswer": "B",
+        "explanation": "Bacteria and viruses are different kinds of microorganisms, so knowing which one causes an illness matters.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-4-q35",
+        "section": "science",
+        "question": "Which microorganism is the SMALLEST and not quite alive?",
+        "choices": {
+          "A": "Bacteria",
+          "B": "Fungi",
+          "C": "Viruses",
+          "D": "Protists"
+        },
+        "correctAnswer": "C",
+        "explanation": "Viruses are even smaller than bacteria and are not quite alive.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q36",
+        "section": "science",
+        "question": "Which is the BEST example of a helpful microorganism?",
+        "choices": {
+          "A": "A microorganism that has no effect at all",
+          "B": "A virus that causes the flu",
+          "C": "A rock in the soil",
+          "D": "Bacteria in your gut that help digest food"
+        },
+        "correctAnswer": "D",
+        "explanation": "Bacteria in your gut that help digest food are an example of a helpful microorganism.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q37",
+        "section": "science",
+        "question": "Why might the single word 'germ' be misleading?",
+        "choices": {
+          "A": "Germs are nonliving minerals",
+          "B": "It is too long to say",
+          "C": "It treats very different groups, such as bacteria, viruses, protists, and fungi, as if they were all the same",
+          "D": "There is only one kind of microorganism"
+        },
+        "correctAnswer": "C",
+        "explanation": "The word 'germ' lumps together very different groups that are not the same.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-4-q38",
+        "section": "science",
+        "question": "Which list places microorganisms from generally LARGER to smaller in the lesson's comparison?",
+        "choices": {
+          "A": "Stars, then planets",
+          "B": "Viruses, then bacteria (which are even smaller)",
+          "C": "Rocks, then minerals",
+          "D": "Bacteria, then viruses (which are even smaller)"
+        },
+        "correctAnswer": "D",
+        "explanation": "Viruses are even smaller than bacteria, so bacteria come first in size, then viruses.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-4-q39",
+        "section": "science",
+        "question": "A protist and a fungus are alike because both are",
+        "choices": {
+          "A": "nonliving minerals",
+          "B": "viruses",
+          "C": "kinds of microorganisms studied with a microscope",
+          "D": "large animals"
+        },
+        "correctAnswer": "C",
+        "explanation": "Protists and fungi are both kinds of microorganisms that scientists study.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-4-q40",
+        "section": "science",
+        "question": "Which BEST summarizes what the lesson teaches about microorganisms?",
+        "choices": {
+          "A": "Microorganisms are nonliving rocks",
+          "B": "All microorganisms are exactly the same",
+          "C": "Microorganisms are all large and easy to see",
+          "D": "Microorganisms include several different groups, and comparing them helps us understand health and disease"
+        },
+        "correctAnswer": "D",
+        "explanation": "Microorganisms include several different groups, and comparing them helps us understand health and disease.",
+        "standard": "SC.6.L.14.6",
+        "difficulty": "medium"
+      }
     ]
   }
 }

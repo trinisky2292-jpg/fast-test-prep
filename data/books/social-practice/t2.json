@@ -153,6 +153,456 @@
         "explanation": "For most of human history, a moving, nomadic life was normal.",
         "standard": "SS.6.W.2.1",
         "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q11",
+        "section": "social",
+        "question": "The word 'nomad' is the OPPOSITE of which kind of life?",
+        "choices": {
+          "A": "Hunting wild animals",
+          "B": "Gathering wild plants",
+          "C": "Settled, staying in one place",
+          "D": "Moving with the seasons"
+        },
+        "correctAnswer": "C",
+        "explanation": "A nomad moves around, which is the opposite of a settled life that stays in one place.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q12",
+        "section": "social",
+        "question": "Which item is an example of an artifact an archaeologist might dig up?",
+        "choices": {
+          "A": "A cell phone",
+          "B": "A printed map",
+          "C": "An ancient stone tool",
+          "D": "A plastic bottle"
+        },
+        "correctAnswer": "C",
+        "explanation": "An ancient stone tool is something early people left behind, the kind of artifact archaeologists study.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q13",
+        "section": "social",
+        "question": "Cave paintings made by early humans are useful to scientists MAINLY because they",
+        "choices": {
+          "A": "tell us today's weather",
+          "B": "give clues about early human life and movement",
+          "C": "are written in modern English",
+          "D": "show photographs of cities"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cave art is one of the clues that gives information about early human life and migration.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q14",
+        "section": "social",
+        "question": "Which sentence best explains why hunter-gatherers did NOT build permanent towns?",
+        "choices": {
+          "A": "They did not know how to stack stones",
+          "B": "They were not allowed to settle by a king",
+          "C": "The weather was always perfect everywhere",
+          "D": "Wild food ran out in each area, so they had to keep moving"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because wild food ran out in each place, they kept moving and did not build permanent towns.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q15",
+        "section": "social",
+        "question": "Put these in the correct order from EARLIEST to LATEST in human history.",
+        "choices": {
+          "A": "Cities first, then hunter-gatherers",
+          "B": "Writing first, then humans appear in Africa",
+          "C": "Humans migrate everywhere, then first appear in Africa",
+          "D": "Humans appear in Africa, then migrate to other continents"
+        },
+        "correctAnswer": "D",
+        "explanation": "Humans first appeared in Africa and afterward migrated to other continents.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q16",
+        "section": "social",
+        "question": "A group of early people enters a cold, snowy region for the first time. According to the lesson, what would they most likely do?",
+        "choices": {
+          "A": "Adapt by learning new skills to survive the climate",
+          "B": "Refuse to change anything they do",
+          "C": "Immediately build a writing system",
+          "D": "Stop gathering plants forever"
+        },
+        "correctAnswer": "A",
+        "explanation": "Migrating groups adapted to new climates by learning new skills to survive.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q17",
+        "section": "social",
+        "question": "Which of these would a hunter-gatherer GATHER rather than hunt?",
+        "choices": {
+          "A": "Berries and nuts",
+          "B": "A deer",
+          "C": "A fish",
+          "D": "A wild pig"
+        },
+        "correctAnswer": "A",
+        "explanation": "Gathering means collecting wild plant foods like berries and nuts, not hunting animals.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q18",
+        "section": "social",
+        "question": "Which is NOT a reason early humans migrated to new lands?",
+        "choices": {
+          "A": "Following animal herds",
+          "B": "To watch television in another town",
+          "C": "Searching for ripe wild plants",
+          "D": "Finding new sources of food"
+        },
+        "correctAnswer": "B",
+        "explanation": "Watching television did not exist; early humans moved to follow food sources like herds and plants.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q19",
+        "section": "social",
+        "question": "Scientists believe humans spread to 'nearly every continent.' This shows that early humans were very",
+        "choices": {
+          "A": "unwilling to ever move",
+          "B": "able to adapt and survive in many places",
+          "C": "limited to only one valley",
+          "D": "dependent on grocery stores"
+        },
+        "correctAnswer": "B",
+        "explanation": "Spreading to nearly every continent shows early humans could adapt and survive in many environments.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q20",
+        "section": "social",
+        "question": "Why are bones an important clue for studying migration?",
+        "choices": {
+          "A": "They tell us the price of food",
+          "B": "They are written documents",
+          "C": "They show where and when people once lived",
+          "D": "They are modern inventions"
+        },
+        "correctAnswer": "C",
+        "explanation": "Bones found in different places help show where and when early people lived as they migrated.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q21",
+        "section": "social",
+        "question": "Which word means the movement of people from one region to settle in another?",
+        "choices": {
+          "A": "Surplus",
+          "B": "Migration",
+          "C": "Bronze",
+          "D": "Government"
+        },
+        "correctAnswer": "B",
+        "explanation": "Migration is the movement of people from one region to another.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q22",
+        "section": "social",
+        "question": "How is a hunter-gatherer DIFFERENT from a modern farmer?",
+        "choices": {
+          "A": "A hunter-gatherer plants seeds each spring",
+          "B": "A hunter-gatherer never eats meat",
+          "C": "A hunter-gatherer lives in a large city",
+          "D": "A hunter-gatherer moves to find wild food instead of growing it"
+        },
+        "correctAnswer": "D",
+        "explanation": "A hunter-gatherer moved around to find wild food, while a farmer grows food in one place.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q23",
+        "section": "social",
+        "question": "Stone tools found in many lands suggest that early humans",
+        "choices": {
+          "A": "never used any tools",
+          "B": "stayed in one cave forever",
+          "C": "bought tools from stores",
+          "D": "carried their skills with them as they moved"
+        },
+        "correctAnswer": "D",
+        "explanation": "Tools found across many lands show that early humans carried their skills and culture as they migrated.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q24",
+        "section": "social",
+        "question": "What is the BEST title for a chapter about hunter-gatherers?",
+        "choices": {
+          "A": "Building the First Skyscrapers",
+          "B": "Kings and Their Written Laws",
+          "C": "A Moving Life: Following Food Across the Land",
+          "D": "How to Mix Copper and Tin"
+        },
+        "correctAnswer": "C",
+        "explanation": "Hunter-gatherers lived a moving life following food across the land.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q25",
+        "section": "social",
+        "question": "An archaeologist finds tools and bones but no writing at a site. What can she conclude?",
+        "choices": {
+          "A": "The people there had a printing press",
+          "B": "The site can never be studied",
+          "C": "These people left physical clues even without writing",
+          "D": "The people were from modern times"
+        },
+        "correctAnswer": "C",
+        "explanation": "Even without writing, people left physical clues like tools and bones for archaeologists to study.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q26",
+        "section": "social",
+        "question": "For MOST of human history, people lived as",
+        "choices": {
+          "A": "factory workers",
+          "B": "computer programmers",
+          "C": "kings and queens",
+          "D": "hunter-gatherers"
+        },
+        "correctAnswer": "D",
+        "explanation": "For most of human history people lived as hunter-gatherers.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q27",
+        "section": "social",
+        "question": "Which continent is considered the starting point of human migration?",
+        "choices": {
+          "A": "Africa",
+          "B": "South America",
+          "C": "Antarctica",
+          "D": "Europe"
+        },
+        "correctAnswer": "A",
+        "explanation": "Africa is where the oldest human evidence is found and the starting point of migration.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q28",
+        "section": "social",
+        "question": "Which is the BEST example of 'adapting' to a new environment?",
+        "choices": {
+          "A": "Refusing to eat any new foods",
+          "B": "Making warmer clothing after moving to a colder place",
+          "C": "Building a city before learning the land",
+          "D": "Ignoring the local animals"
+        },
+        "correctAnswer": "B",
+        "explanation": "Making warmer clothing for a colder place is an example of adapting to a new environment.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q29",
+        "section": "social",
+        "question": "Why did early humans depend so much on the seasons?",
+        "choices": {
+          "A": "Seasons told them when to go to school",
+          "B": "Seasons set the price of bronze",
+          "C": "Seasons controlled when wild plants ripened and herds moved",
+          "D": "Seasons had no effect on them"
+        },
+        "correctAnswer": "C",
+        "explanation": "Seasons controlled when plants ripened and when herds moved, so hunter-gatherers followed them.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q30",
+        "section": "social",
+        "question": "Which statement about early human migration is TRUE?",
+        "choices": {
+          "A": "It happened slowly over a very long time",
+          "B": "It happened in a single year",
+          "C": "It only moved people within Africa",
+          "D": "It required cars and ships"
+        },
+        "correctAnswer": "A",
+        "explanation": "Migration happened slowly over a very long time as small groups spread across the planet.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q31",
+        "section": "social",
+        "question": "A 'nomadic' lifestyle would be MOST useful for a group that",
+        "choices": {
+          "A": "runs a permanent bakery",
+          "B": "teaches in a fixed school",
+          "C": "needs to follow moving food sources",
+          "D": "owns a large farm"
+        },
+        "correctAnswer": "C",
+        "explanation": "A nomadic lifestyle suits a group that must follow moving food sources like herds.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q32",
+        "section": "social",
+        "question": "Which job studies the past by examining objects left in the ground?",
+        "choices": {
+          "A": "Pilot",
+          "B": "Farmer",
+          "C": "Soldier",
+          "D": "Archaeologist"
+        },
+        "correctAnswer": "D",
+        "explanation": "An archaeologist studies the past by examining objects ancient people left behind.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q33",
+        "section": "social",
+        "question": "If a group could not find enough wild food in one valley, a nomadic group would MOST likely",
+        "choices": {
+          "A": "move on to a new area with more food",
+          "B": "stay and starve there",
+          "C": "build a permanent stone palace",
+          "D": "write a law about food"
+        },
+        "correctAnswer": "A",
+        "explanation": "Nomads moved to a new area when wild food ran out in one place.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q34",
+        "section": "social",
+        "question": "Which of these is NOT something archaeologists use to study early humans?",
+        "choices": {
+          "A": "Bones",
+          "B": "Stone tools",
+          "C": "Cave art",
+          "D": "Television news reports"
+        },
+        "correctAnswer": "D",
+        "explanation": "Archaeologists use bones, tools, and cave art, not modern television reports.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q35",
+        "section": "social",
+        "question": "The spread of human culture around the world was MAINLY a result of",
+        "choices": {
+          "A": "people staying in one place",
+          "B": "people migrating into new lands",
+          "C": "people forgetting their skills",
+          "D": "the invention of writing"
+        },
+        "correctAnswer": "B",
+        "explanation": "Human culture spread because people migrated into new lands, carrying their ways with them.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q36",
+        "section": "social",
+        "question": "Which pair correctly matches a word with its meaning?",
+        "choices": {
+          "A": "Nomad = a person who never moves",
+          "B": "Migration = the movement of people to new regions",
+          "C": "Archaeologist = a king of a city",
+          "D": "Hunter-gatherer = a person who only farms"
+        },
+        "correctAnswer": "B",
+        "explanation": "Migration means the movement of people to new regions.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q37",
+        "section": "social",
+        "question": "Why might two groups of hunter-gatherers in different lands develop different tools?",
+        "choices": {
+          "A": "Because tools are always identical everywhere",
+          "B": "Because they bought them at the same store",
+          "C": "Because a king ordered it",
+          "D": "Because they adapted to different environments and needs"
+        },
+        "correctAnswer": "D",
+        "explanation": "Groups adapted to different environments, so their tools and skills could differ.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q38",
+        "section": "social",
+        "question": "Which best describes the food supply of hunter-gatherers?",
+        "choices": {
+          "A": "Wild and found in nature",
+          "B": "Stored in giant warehouses",
+          "C": "Grown on farms",
+          "D": "Bought with money"
+        },
+        "correctAnswer": "A",
+        "explanation": "Hunter-gatherers ate wild food found in nature, not farmed or purchased food.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q39",
+        "section": "social",
+        "question": "A timeline of early humans would show that migration out of Africa happened",
+        "choices": {
+          "A": "after humans first appeared in Africa",
+          "B": "after modern cities were built",
+          "C": "before humans first appeared",
+          "D": "at the same time as the internet"
+        },
+        "correctAnswer": "A",
+        "explanation": "Humans first appeared in Africa, and migration out of Africa came afterward.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q40",
+        "section": "social",
+        "question": "What is the MOST important big idea of this lesson?",
+        "choices": {
+          "A": "Early humans never changed at all",
+          "B": "Cities came before hunter-gatherers",
+          "C": "Movement and adaptation spread humans and culture across the world",
+          "D": "Writing was the first human invention"
+        },
+        "correctAnswer": "C",
+        "explanation": "The big idea is that movement and adaptation spread humans and their culture across the world.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
       }
     ]
   },
@@ -308,6 +758,456 @@
         },
         "correctAnswer": "B",
         "explanation": "Surplus food (cause) allowed job specialization (effect).",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q11",
+        "section": "social",
+        "question": "What is another name for the Agricultural Revolution?",
+        "choices": {
+          "A": "The Bronze Age",
+          "B": "The Ice Age",
+          "C": "The Neolithic Revolution",
+          "D": "The Industrial Revolution"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Agricultural Revolution is also called the Neolithic Revolution.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q12",
+        "section": "social",
+        "question": "Which word describes a settled, stay-in-one-place way of living?",
+        "choices": {
+          "A": "Nomadic",
+          "B": "Wandering",
+          "C": "Migrating",
+          "D": "Sedentary"
+        },
+        "correctAnswer": "D",
+        "explanation": "A settled, stay-in-one-place life is called sedentary.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q13",
+        "section": "social",
+        "question": "Besides planting crops, what else did people learn to do during the Agricultural Revolution?",
+        "choices": {
+          "A": "Build airplanes",
+          "B": "Mix copper and tin",
+          "C": "Raise animals",
+          "D": "Write books"
+        },
+        "correctAnswer": "C",
+        "explanation": "During the Agricultural Revolution people learned to plant crops and raise animals.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q14",
+        "section": "social",
+        "question": "A farmer grows more grain than her family can eat and stores the extra. What is the stored extra called?",
+        "choices": {
+          "A": "A nomad",
+          "B": "A surplus",
+          "C": "A migration",
+          "D": "A class"
+        },
+        "correctAnswer": "B",
+        "explanation": "Extra food that is grown and stored is called a surplus.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q15",
+        "section": "social",
+        "question": "Which is the BEST example of division of labor in an early farming village?",
+        "choices": {
+          "A": "Everyone does the exact same job",
+          "B": "No one does any work",
+          "C": "One person farms, another builds, another trades",
+          "D": "Everyone moves away"
+        },
+        "correctAnswer": "C",
+        "explanation": "Division of labor means different people do different jobs, like farming, building, and trading.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q16",
+        "section": "social",
+        "question": "Why was a food surplus so important for the growth of civilization?",
+        "choices": {
+          "A": "It forced everyone to keep moving",
+          "B": "It made people stop eating",
+          "C": "It freed some people to do jobs other than farming",
+          "D": "It ended all trade"
+        },
+        "correctAnswer": "C",
+        "explanation": "A food surplus freed some people from farming so they could specialize in other jobs.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q17",
+        "section": "social",
+        "question": "Put these in the correct order from FIRST to LAST.",
+        "choices": {
+          "A": "Cities, then villages, then farming",
+          "B": "Towns, then farming, then surplus",
+          "C": "Farming, then permanent homes, then villages and towns",
+          "D": "Surplus, then hunting, then nomads"
+        },
+        "correctAnswer": "C",
+        "explanation": "Farming came first, which allowed permanent homes, which grew into villages and towns.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q18",
+        "section": "social",
+        "question": "How was a farmer's life DIFFERENT from a hunter-gatherer's life?",
+        "choices": {
+          "A": "A farmer moved constantly; a hunter-gatherer stayed put",
+          "B": "A farmer settled in one place; a hunter-gatherer moved to find food",
+          "C": "A farmer never ate plants",
+          "D": "A farmer had no tools"
+        },
+        "correctAnswer": "B",
+        "explanation": "Farmers settled in one place, while hunter-gatherers moved around to find wild food.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q19",
+        "section": "social",
+        "question": "Which job could a person take ONLY after a food surplus made it possible?",
+        "choices": {
+          "A": "Hunter who must find all his own food",
+          "B": "Nomad who follows herds",
+          "C": "Gatherer of wild berries",
+          "D": "Full-time priest who does not farm"
+        },
+        "correctAnswer": "D",
+        "explanation": "A full-time priest who does not farm was possible only because a surplus fed people who did other jobs.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q20",
+        "section": "social",
+        "question": "The Agricultural Revolution set the stage for the first what?",
+        "choices": {
+          "A": "Hunting trips",
+          "B": "Ice ages",
+          "C": "Civilizations",
+          "D": "Cave paintings"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Agricultural Revolution set the stage for the first civilizations.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q21",
+        "section": "social",
+        "question": "Which is NOT an effect of the Agricultural Revolution?",
+        "choices": {
+          "A": "People could store extra food",
+          "B": "People stopped using any tools",
+          "C": "People could settle in one place",
+          "D": "People could specialize in different jobs"
+        },
+        "correctAnswer": "B",
+        "explanation": "Farming did not make people stop using tools; it led to surplus, settlement, and specialization.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q22",
+        "section": "social",
+        "question": "The word 'sedentary' is the OPPOSITE of which word?",
+        "choices": {
+          "A": "Settled",
+          "B": "Nomadic",
+          "C": "Permanent",
+          "D": "Farming"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sedentary means settled, the opposite of nomadic, which means moving around.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q23",
+        "section": "social",
+        "question": "Which sentence shows correct cause and effect?",
+        "choices": {
+          "A": "Because people moved more, they invented farming",
+          "B": "Because cities existed, farming was no longer needed",
+          "C": "Because hunting ended, plants disappeared",
+          "D": "Because farmers had a surplus, some people could become builders and traders"
+        },
+        "correctAnswer": "D",
+        "explanation": "A surplus (cause) let some people become builders and traders instead of farmers (effect).",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q24",
+        "section": "social",
+        "question": "About 10,000 years ago, the biggest change in how people got food was that they began to",
+        "choices": {
+          "A": "produce their own food by farming",
+          "B": "buy food in stores",
+          "C": "stop eating meat",
+          "D": "follow herds even farther"
+        },
+        "correctAnswer": "A",
+        "explanation": "About 10,000 years ago people began producing their own food by farming.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q25",
+        "section": "social",
+        "question": "Which would you expect to find in a settled farming community but NOT in a nomadic hunter-gatherer band?",
+        "choices": {
+          "A": "Wild plants",
+          "B": "Animals",
+          "C": "Food of any kind",
+          "D": "Permanent homes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Permanent homes appear in settled farming communities, not in nomadic bands that keep moving.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q26",
+        "section": "social",
+        "question": "Why did farming allow communities to grow LARGER than hunter-gatherer groups?",
+        "choices": {
+          "A": "Farming produced more steady food in one place",
+          "B": "Farming made people stop having children",
+          "C": "Farming forced everyone to leave",
+          "D": "Farming used no land"
+        },
+        "correctAnswer": "A",
+        "explanation": "Farming produced a steady supply of food in one place, which let communities grow larger.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q27",
+        "section": "social",
+        "question": "Which list shows settlements growing in the correct order from smallest to largest?",
+        "choices": {
+          "A": "Village, town, city",
+          "B": "City, town, village",
+          "C": "Town, city, village",
+          "D": "City, village, town"
+        },
+        "correctAnswer": "A",
+        "explanation": "Settlements grew from villages to towns to cities, smallest to largest.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q28",
+        "section": "social",
+        "question": "What does 'specialization of jobs' mean?",
+        "choices": {
+          "A": "Everyone must hunt",
+          "B": "Nobody works",
+          "C": "People focus on particular jobs instead of all doing the same work",
+          "D": "People only farm and nothing else"
+        },
+        "correctAnswer": "C",
+        "explanation": "Specialization means people focus on particular jobs rather than all doing the same work.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q29",
+        "section": "social",
+        "question": "A village stores so much grain that some people stop farming and become potters. This BEST shows",
+        "choices": {
+          "A": "how a surplus leads to specialized jobs",
+          "B": "nomadic life",
+          "C": "migration",
+          "D": "the Bronze Age ending"
+        },
+        "correctAnswer": "A",
+        "explanation": "Stored grain (surplus) freeing people to become potters shows how a surplus leads to specialized jobs.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q30",
+        "section": "social",
+        "question": "Which is the BEST definition of the Agricultural Revolution?",
+        "choices": {
+          "A": "The change when people began farming and raising animals",
+          "B": "A war between two cities",
+          "C": "The first use of bronze weapons",
+          "D": "A long migration out of Africa"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Agricultural Revolution was the change when people began farming and raising animals.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q31",
+        "section": "social",
+        "question": "Which group would MOST likely have a sedentary lifestyle?",
+        "choices": {
+          "A": "Hunters chasing herds",
+          "B": "Gatherers following ripe plants",
+          "C": "Nomads crossing a desert",
+          "D": "Farmers tending fields year after year"
+        },
+        "correctAnswer": "D",
+        "explanation": "Farmers tending the same fields year after year live a sedentary, settled lifestyle.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q32",
+        "section": "social",
+        "question": "Which is NOT a job that became possible because of a food surplus?",
+        "choices": {
+          "A": "Builder",
+          "B": "Wild-plant gatherer who must find all his own food",
+          "C": "Priest",
+          "D": "Trader"
+        },
+        "correctAnswer": "B",
+        "explanation": "A surplus freed people to be builders, priests, and traders, not to gather all their own wild food.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q33",
+        "section": "social",
+        "question": "What is the MAIN reason the Agricultural Revolution is so important in history?",
+        "choices": {
+          "A": "It taught people to mix metals",
+          "B": "It turned wandering hunters into settled farmers and led to civilizations",
+          "C": "It made people leave Africa",
+          "D": "It ended all farming"
+        },
+        "correctAnswer": "B",
+        "explanation": "It turned wandering hunters into settled farmers and set the stage for the first civilizations.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q34",
+        "section": "social",
+        "question": "Which word means 'extra'?",
+        "choices": {
+          "A": "Nomad",
+          "B": "Sedentary",
+          "C": "Migration",
+          "D": "Surplus"
+        },
+        "correctAnswer": "D",
+        "explanation": "A surplus is extra food that is grown and stored.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q35",
+        "section": "social",
+        "question": "Before the Agricultural Revolution, almost everyone had to spend their time",
+        "choices": {
+          "A": "finding wild food to survive",
+          "B": "ruling a government",
+          "C": "writing on clay tablets",
+          "D": "trading in city markets"
+        },
+        "correctAnswer": "A",
+        "explanation": "Before farming, almost everyone had to spend time finding wild food just to survive.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q36",
+        "section": "social",
+        "question": "Two villages start farming. One has a big surplus; one barely grows enough. Which is MORE likely to develop specialized jobs?",
+        "choices": {
+          "A": "The village that barely grows enough food",
+          "B": "Neither village ever could",
+          "C": "Both will stop farming",
+          "D": "The village with the big surplus"
+        },
+        "correctAnswer": "D",
+        "explanation": "The village with the big surplus can free people from farming, so it is more likely to develop specialized jobs.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q37",
+        "section": "social",
+        "question": "Which best completes the sentence: 'Farming led to a surplus, which led to ___.'",
+        "choices": {
+          "A": "specialized jobs and growing communities",
+          "B": "constant moving",
+          "C": "the end of all towns",
+          "D": "fewer people"
+        },
+        "correctAnswer": "A",
+        "explanation": "A surplus led to specialized jobs and growing communities.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q38",
+        "section": "social",
+        "question": "Which is an example of 'raising animals' as part of farming?",
+        "choices": {
+          "A": "Hunting wild deer in a forest",
+          "B": "Catching fish from a wild river",
+          "C": "Gathering wild bird eggs",
+          "D": "Keeping sheep and goats for wool and milk"
+        },
+        "correctAnswer": "D",
+        "explanation": "Keeping sheep and goats is raising animals, a part of farming, not hunting wild ones.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q39",
+        "section": "social",
+        "question": "How did the Agricultural Revolution change WHERE people lived?",
+        "choices": {
+          "A": "It made everyone move constantly",
+          "B": "It let people settle permanently in one place",
+          "C": "It forced people back into caves",
+          "D": "It had no effect on where people lived"
+        },
+        "correctAnswer": "B",
+        "explanation": "Farming let people settle permanently in one place instead of always moving.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q40",
+        "section": "social",
+        "question": "Which statement BEST summarizes the Agricultural Revolution?",
+        "choices": {
+          "A": "People stopped eating and moved into the sea",
+          "B": "People built cities before they learned to grow food",
+          "C": "People learned to farm, settle down, store surplus food, and take on specialized jobs",
+          "D": "People gave up tools and homes"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Agricultural Revolution is best summarized as people learning to farm, settle, store surplus, and specialize.",
         "standard": "SS.6.W.2.2",
         "difficulty": "hard"
       }
@@ -467,6 +1367,456 @@
         "explanation": "Cities, writing, and organized government are all civilization characteristics.",
         "standard": "SS.6.W.2.3",
         "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q11",
+        "section": "social",
+        "question": "During the Bronze Age, what two metals were mixed to make bronze?",
+        "choices": {
+          "A": "Gold and silver",
+          "B": "Copper and tin",
+          "C": "Iron and lead",
+          "D": "Steel and aluminum"
+        },
+        "correctAnswer": "B",
+        "explanation": "Bronze is made by mixing copper and tin.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q12",
+        "section": "social",
+        "question": "Which is NOT one of the key characteristics of a civilization?",
+        "choices": {
+          "A": "Cities",
+          "B": "A writing system",
+          "C": "No leaders or government",
+          "D": "Specialized jobs"
+        },
+        "correctAnswer": "C",
+        "explanation": "Having no leaders or government is not a characteristic; civilizations have an organized government.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q13",
+        "section": "social",
+        "question": "Why is a writing system so useful to a civilization?",
+        "choices": {
+          "A": "It makes farming impossible",
+          "B": "It forces everyone to move",
+          "C": "It replaces the need for food",
+          "D": "It lets people record laws, trade, and ideas"
+        },
+        "correctAnswer": "D",
+        "explanation": "A writing system lets people record laws, trade, and ideas, which helps a civilization run.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q14",
+        "section": "social",
+        "question": "A society has homes and fields but no cities, no writing, and no government. It is BEST called a",
+        "choices": {
+          "A": "great empire",
+          "B": "modern nation",
+          "C": "small village, not yet a full civilization",
+          "D": "complete civilization"
+        },
+        "correctAnswer": "C",
+        "explanation": "Without cities, writing, and government, it is a small village, not yet a full civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q15",
+        "section": "social",
+        "question": "What does it mean for a society to have 'social classes'?",
+        "choices": {
+          "A": "Groups of people are ranked from higher to lower",
+          "B": "Everyone is exactly equal",
+          "C": "People go to school together",
+          "D": "There are no rules"
+        },
+        "correctAnswer": "A",
+        "explanation": "Social classes means groups of people are ranked from higher to lower in a society.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q16",
+        "section": "social",
+        "question": "How did stronger bronze tools help farming?",
+        "choices": {
+          "A": "They made it harder to grow food",
+          "B": "They ended all farming",
+          "C": "They let farmers work the land more easily and effectively",
+          "D": "They were used only for art"
+        },
+        "correctAnswer": "C",
+        "explanation": "Stronger bronze tools let farmers work the land more easily, improving farming.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q17",
+        "section": "social",
+        "question": "Which is an example of a 'public building' that might be found in a civilization?",
+        "choices": {
+          "A": "A single family's tent",
+          "B": "A large temple where many people worship",
+          "C": "A wild forest",
+          "D": "An empty desert"
+        },
+        "correctAnswer": "B",
+        "explanation": "A large temple where many people worship is an example of a public building in a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q18",
+        "section": "social",
+        "question": "An organized government in a civilization MAINLY helps to",
+        "choices": {
+          "A": "stop people from trading",
+          "B": "destroy cities",
+          "C": "make rules and keep order for many people",
+          "D": "prevent any writing"
+        },
+        "correctAnswer": "C",
+        "explanation": "An organized government makes rules and keeps order for the many people in a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q19",
+        "section": "social",
+        "question": "Why is bronze better than copper alone for making weapons?",
+        "choices": {
+          "A": "Bronze is softer than copper",
+          "B": "Bronze melts at room temperature",
+          "C": "Bronze cannot be shaped",
+          "D": "Bronze is stronger than copper alone"
+        },
+        "correctAnswer": "D",
+        "explanation": "Mixing copper with tin makes bronze, which is stronger than copper alone, so it makes better weapons.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q20",
+        "section": "social",
+        "question": "Which group of words all name characteristics of a civilization?",
+        "choices": {
+          "A": "Rivers, mountains, deserts, oceans",
+          "B": "Bones, tools, cave art, herds",
+          "C": "Spring, summer, fall, winter",
+          "D": "Cities, writing, government, social classes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Cities, writing, government, and social classes are all characteristics of a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q21",
+        "section": "social",
+        "question": "A 'shared religion or culture' means that many people in the society",
+        "choices": {
+          "A": "each believe something totally different",
+          "B": "have no beliefs at all",
+          "C": "never speak to one another",
+          "D": "hold common beliefs, customs, or traditions"
+        },
+        "correctAnswer": "D",
+        "explanation": "A shared religion or culture means many people hold common beliefs, customs, or traditions.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q22",
+        "section": "social",
+        "question": "Which best shows 'specialized jobs' in a civilization?",
+        "choices": {
+          "A": "A scribe writes, a soldier fights, and a potter makes pots",
+          "B": "Everyone in the city farms only",
+          "C": "No one has a job",
+          "D": "All people are nomads"
+        },
+        "correctAnswer": "A",
+        "explanation": "Specialized jobs means different people do different work, like a scribe, a soldier, and a potter.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q23",
+        "section": "social",
+        "question": "The Bronze Age is named after",
+        "choices": {
+          "A": "a kind of writing",
+          "B": "a metal people learned to make and use",
+          "C": "a king named Bronze",
+          "D": "a type of city"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Bronze Age is named for bronze, a metal people learned to make and use for tools and weapons.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q24",
+        "section": "social",
+        "question": "Which question would a historian ask to decide if a society is a civilization?",
+        "choices": {
+          "A": "What color are the rocks?",
+          "B": "How many clouds are in the sky?",
+          "C": "Does it have cities, writing, and government?",
+          "D": "Is the water cold?"
+        },
+        "correctAnswer": "C",
+        "explanation": "A historian checks for key features like cities, writing, and government to identify a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q25",
+        "section": "social",
+        "question": "How did better bronze weapons affect armies?",
+        "choices": {
+          "A": "They helped armies become stronger in battle",
+          "B": "They made armies weaker",
+          "C": "They ended all wars instantly",
+          "D": "They were never used in fighting"
+        },
+        "correctAnswer": "A",
+        "explanation": "Stronger bronze weapons helped armies become more powerful in battle.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q26",
+        "section": "social",
+        "question": "Which is the BEST definition of a civilization?",
+        "choices": {
+          "A": "Any group of two or three people",
+          "B": "A complex society with cities, government, writing, and specialized jobs",
+          "C": "A single farm with one family",
+          "D": "A group that moves constantly with no homes"
+        },
+        "correctAnswer": "B",
+        "explanation": "A civilization is a complex society with cities, government, writing, and specialized jobs.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q27",
+        "section": "social",
+        "question": "A village develops a king, builds a city, and invents writing. It is changing into a",
+        "choices": {
+          "A": "civilization",
+          "B": "hunting band",
+          "C": "nomadic group",
+          "D": "single tent"
+        },
+        "correctAnswer": "A",
+        "explanation": "Gaining a government, a city, and writing means a village is becoming a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q28",
+        "section": "social",
+        "question": "Which is NOT a metal involved in making bronze?",
+        "choices": {
+          "A": "Copper",
+          "B": "Tin",
+          "C": "The mix of copper and tin",
+          "D": "Gold"
+        },
+        "correctAnswer": "D",
+        "explanation": "Bronze is made from copper and tin; gold is not used to make bronze.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q29",
+        "section": "social",
+        "question": "Why do the same characteristics appear in many different early civilizations?",
+        "choices": {
+          "A": "They all copied one teacher",
+          "B": "They all spoke the same language",
+          "C": "It happened only by accident once",
+          "D": "These shared features are what allow complex societies to grow and work"
+        },
+        "correctAnswer": "D",
+        "explanation": "The same characteristics appear repeatedly because these shared features let complex societies grow and function.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q30",
+        "section": "social",
+        "question": "Which pair correctly matches a characteristic with an example?",
+        "choices": {
+          "A": "Social classes — everyone is exactly equal",
+          "B": "Writing system — a clay tablet with symbols",
+          "C": "Organized government — no rules exist",
+          "D": "Cities — a single empty field"
+        },
+        "correctAnswer": "B",
+        "explanation": "A clay tablet with symbols is an example of a writing system, one characteristic of civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q31",
+        "section": "social",
+        "question": "Compared with a small village, a civilization usually has",
+        "choices": {
+          "A": "fewer people and no rules",
+          "B": "cities, writing, and an organized government",
+          "C": "no buildings at all",
+          "D": "only one job for everyone"
+        },
+        "correctAnswer": "B",
+        "explanation": "Unlike a small village, a civilization usually has cities, writing, and an organized government.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q32",
+        "section": "social",
+        "question": "Advanced technology, art, and public buildings are often signs of a",
+        "choices": {
+          "A": "civilization",
+          "B": "nomadic band",
+          "C": "hunting trip",
+          "D": "single family camp"
+        },
+        "correctAnswer": "A",
+        "explanation": "Advanced technology, art, and public buildings are often added signs of a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q33",
+        "section": "social",
+        "question": "Which sentence shows the correct cause and effect about bronze?",
+        "choices": {
+          "A": "Because people made bronze, they got stronger tools and weapons",
+          "B": "Because people had cities, bronze disappeared",
+          "C": "Because of writing, copper turned into gold",
+          "D": "Because of farming, all metals were banned"
+        },
+        "correctAnswer": "A",
+        "explanation": "Learning to make bronze (cause) gave people stronger tools and weapons (effect).",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q34",
+        "section": "social",
+        "question": "Which is the BEST title for a list that includes cities, government, writing, and social classes?",
+        "choices": {
+          "A": "Types of Weather",
+          "B": "Steps to Hunt an Animal",
+          "C": "Kinds of Wild Plants",
+          "D": "Characteristics of a Civilization"
+        },
+        "correctAnswer": "D",
+        "explanation": "Cities, government, writing, and social classes are all characteristics of a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q35",
+        "section": "social",
+        "question": "In a society with social classes, which statement is TRUE?",
+        "choices": {
+          "A": "Some groups have higher rank or status than others",
+          "B": "Everyone holds the exact same rank",
+          "C": "No one belongs to any group",
+          "D": "Classes have nothing to do with status"
+        },
+        "correctAnswer": "A",
+        "explanation": "In a society with social classes, some groups have higher rank or status than others.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q36",
+        "section": "social",
+        "question": "Why might a civilization need a writing system MORE than a small wandering band does?",
+        "choices": {
+          "A": "A band has more cities to manage",
+          "B": "Writing is only used by nomads",
+          "C": "A civilization has more people, trade, and laws to keep track of",
+          "D": "Small bands trade far more than cities"
+        },
+        "correctAnswer": "C",
+        "explanation": "A civilization has more people, trade, and laws to record, so writing is more useful there than for a small band.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q37",
+        "section": "social",
+        "question": "Which of these is an organized government MOST likely to do?",
+        "choices": {
+          "A": "Stop people from living together",
+          "B": "Make laws and lead the people",
+          "C": "Forbid all building",
+          "D": "End the use of tools"
+        },
+        "correctAnswer": "B",
+        "explanation": "An organized government makes laws and leads the people of a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q38",
+        "section": "social",
+        "question": "Which is the BEST example of 'specialized jobs' that a food surplus made possible in a civilization?",
+        "choices": {
+          "A": "Every person grows their own food and nothing else",
+          "B": "No one does any work",
+          "C": "Priests, soldiers, and traders who do not farm",
+          "D": "People who only wander"
+        },
+        "correctAnswer": "C",
+        "explanation": "Priests, soldiers, and traders who do not farm are specialized jobs made possible by a food surplus.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q39",
+        "section": "social",
+        "question": "Which statement about the Bronze Age is TRUE?",
+        "choices": {
+          "A": "People used only stone and never metal",
+          "B": "Bronze was weaker than wood",
+          "C": "People learned to make bronze for better tools and weapons",
+          "D": "Bronze was made from plastic"
+        },
+        "correctAnswer": "C",
+        "explanation": "During the Bronze Age, people learned to make bronze, which gave them better tools and weapons.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q40",
+        "section": "social",
+        "question": "What is the MOST important big idea of this lesson?",
+        "choices": {
+          "A": "All villages are automatically civilizations",
+          "B": "Bronze was useless to early people",
+          "C": "Writing is the only thing that matters",
+          "D": "Civilizations share key features like cities, writing, government, and specialized jobs"
+        },
+        "correctAnswer": "D",
+        "explanation": "The big idea is that civilizations share key features such as cities, writing, government, and specialized jobs.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
       }
     ]
   }
