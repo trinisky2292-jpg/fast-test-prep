@@ -2,55 +2,1822 @@
   "8-1": {
     "title": "Drifting Continents",
     "standard": "SC.6.E.6.1",
-    "learn": "KEY IDEAS\n\nLong ago, scientist Alfred Wegener noticed the continents look like puzzle pieces that could fit together. He proposed the idea of continental drift — that all continents were once joined in one giant supercontinent called PANGAEA and have slowly drifted apart.\n\nEvidence for continental drift:\n- Matching coastlines that fit like a puzzle (South America and Africa).\n- Matching ROCKS and mountain ranges on different continents.\n- Matching FOSSILS of the same plants and animals found on continents now separated by oceans.\n\nExample 1 — Pangaea\nPangaea was the single supercontinent that contained all of today's continents joined together.\n\nExample 2 — Fossil evidence\nThe same fossil found on two continents now far apart suggests they were once connected.\n\nExample 3 — Wegener's idea\nWegener used matching coastlines, rocks, and fossils as evidence that the continents had drifted apart from Pangaea."
-,
+    "learn": "KEY IDEAS\n\nLong ago, scientist Alfred Wegener noticed the continents look like puzzle pieces that could fit together. He proposed the idea of continental drift — that all continents were once joined in one giant supercontinent called PANGAEA and have slowly drifted apart.\n\nEvidence for continental drift:\n- Matching coastlines that fit like a puzzle (South America and Africa).\n- Matching ROCKS and mountain ranges on different continents.\n- Matching FOSSILS of the same plants and animals found on continents now separated by oceans.\n\nExample 1 — Pangaea\nPangaea was the single supercontinent that contained all of today's continents joined together.\n\nExample 2 — Fossil evidence\nThe same fossil found on two continents now far apart suggests they were once connected.\n\nExample 3 — Wegener's idea\nWegener used matching coastlines, rocks, and fossils as evidence that the continents had drifted apart from Pangaea.",
     "questions": [
-      { "id": "8-1-q1", "section": "science", "question": "Which scientist proposed the idea of continental drift?", "choices": { "A": "Isaac Newton", "B": "Charles Darwin", "C": "Alfred Wegener", "D": "Albert Einstein" }, "correctAnswer": "C", "explanation": "Alfred Wegener proposed the idea of continental drift.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-1-q2", "section": "science", "question": "The single giant supercontinent that once joined all continents was called", "choices": { "A": "Pangaea", "B": "Atlantis", "C": "Eurasia", "D": "Gondwana City" }, "correctAnswer": "A", "explanation": "Pangaea was the supercontinent that joined all of today's continents.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-1-q3", "section": "science", "question": "Continental drift is the idea that continents", "choices": { "A": "stay in one place forever", "B": "are sinking into the ocean", "C": "are made of water", "D": "have slowly moved apart over time" }, "correctAnswer": "D", "explanation": "Continental drift is the idea that the continents have slowly drifted apart over time.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-1-q4", "section": "science", "question": "Which is evidence Wegener used for continental drift?", "choices": { "A": "Matching fossils on continents now far apart", "B": "The color of the ocean", "C": "The number of stars", "D": "The temperature of the Sun" }, "correctAnswer": "A", "explanation": "Matching fossils on now-separated continents was evidence that they were once joined.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-1-q5", "section": "science", "question": "Why do the coastlines of South America and Africa support continental drift?", "choices": { "A": "They are the same color", "B": "They fit together like puzzle pieces", "C": "They are the same temperature", "D": "They have the same weather" }, "correctAnswer": "B", "explanation": "The coastlines of South America and Africa fit together like puzzle pieces, supporting the idea they were once joined.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-1-q6", "section": "science", "question": "Finding matching mountain ranges on two separate continents suggests that they", "choices": { "A": "were never connected", "B": "were once joined together", "C": "are made of water", "D": "are moving toward the Sun" }, "correctAnswer": "B", "explanation": "Matching mountain ranges on separate continents suggest the continents were once joined.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-1-q7", "section": "science", "question": "The same fossil of an ancient plant is found in both Africa and South America. This BEST supports the idea that", "choices": { "A": "the plant swam across the ocean", "B": "the two continents were once connected", "C": "fossils are not real", "D": "the continents never moved" }, "correctAnswer": "B", "explanation": "The same fossil on both continents suggests they were once connected when the plant lived.", "standard": "SC.6.E.6.1", "difficulty": "hard" },
-      { "id": "8-1-q8", "section": "science", "question": "Which list shows THREE types of evidence for continental drift?", "choices": { "A": "Matching coastlines, matching rocks, matching fossils", "B": "Star maps, ocean color, wind speed", "C": "Temperature, humidity, air pressure", "D": "Cloud shapes, rainfall, sunlight" }, "correctAnswer": "A", "explanation": "Matching coastlines, rocks, and fossils are three key pieces of evidence for continental drift.", "standard": "SC.6.E.6.1", "difficulty": "hard" },
-      { "id": "8-1-q9", "section": "science", "question": "If the continents were once joined and are now apart, then over time they have", "choices": { "A": "stayed perfectly still", "B": "slowly moved away from each other", "C": "grown larger", "D": "turned into oceans" }, "correctAnswer": "B", "explanation": "Continental drift means the continents have slowly moved apart over a very long time.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-1-q10", "section": "science", "question": "What did Wegener notice that first led him to the idea of continental drift?", "choices": { "A": "The continents look like puzzle pieces that could fit together", "B": "The continents are all the same size", "C": "The oceans were getting smaller", "D": "The Sun was moving" }, "correctAnswer": "A", "explanation": "Wegener noticed the continents look like puzzle pieces that could fit together, which led to his idea.", "standard": "SC.6.E.6.1", "difficulty": "medium" }
+      {
+        "id": "8-1-q1",
+        "section": "science",
+        "question": "Which scientist proposed the idea of continental drift?",
+        "choices": {
+          "A": "Isaac Newton",
+          "B": "Charles Darwin",
+          "C": "Alfred Wegener",
+          "D": "Albert Einstein"
+        },
+        "correctAnswer": "C",
+        "explanation": "Alfred Wegener proposed the idea of continental drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q2",
+        "section": "science",
+        "question": "The single giant supercontinent that once joined all continents was called",
+        "choices": {
+          "A": "Pangaea",
+          "B": "Atlantis",
+          "C": "Eurasia",
+          "D": "Gondwana City"
+        },
+        "correctAnswer": "A",
+        "explanation": "Pangaea was the supercontinent that joined all of today's continents.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q3",
+        "section": "science",
+        "question": "Continental drift is the idea that continents",
+        "choices": {
+          "A": "stay in one place forever",
+          "B": "are sinking into the ocean",
+          "C": "are made of water",
+          "D": "have slowly moved apart over time"
+        },
+        "correctAnswer": "D",
+        "explanation": "Continental drift is the idea that the continents have slowly drifted apart over time.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q4",
+        "section": "science",
+        "question": "Which is evidence Wegener used for continental drift?",
+        "choices": {
+          "A": "Matching fossils on continents now far apart",
+          "B": "The color of the ocean",
+          "C": "The number of stars",
+          "D": "The temperature of the Sun"
+        },
+        "correctAnswer": "A",
+        "explanation": "Matching fossils on now-separated continents was evidence that they were once joined.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q5",
+        "section": "science",
+        "question": "Why do the coastlines of South America and Africa support continental drift?",
+        "choices": {
+          "A": "They are the same color",
+          "B": "They fit together like puzzle pieces",
+          "C": "They are the same temperature",
+          "D": "They have the same weather"
+        },
+        "correctAnswer": "B",
+        "explanation": "The coastlines of South America and Africa fit together like puzzle pieces, supporting the idea they were once joined.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q6",
+        "section": "science",
+        "question": "Finding matching mountain ranges on two separate continents suggests that they",
+        "choices": {
+          "A": "were never connected",
+          "B": "were once joined together",
+          "C": "are made of water",
+          "D": "are moving toward the Sun"
+        },
+        "correctAnswer": "B",
+        "explanation": "Matching mountain ranges on separate continents suggest the continents were once joined.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q7",
+        "section": "science",
+        "question": "The same fossil of an ancient plant is found in both Africa and South America. This BEST supports the idea that",
+        "choices": {
+          "A": "the plant swam across the ocean",
+          "B": "the two continents were once connected",
+          "C": "fossils are not real",
+          "D": "the continents never moved"
+        },
+        "correctAnswer": "B",
+        "explanation": "The same fossil on both continents suggests they were once connected when the plant lived.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q8",
+        "section": "science",
+        "question": "Which list shows THREE types of evidence for continental drift?",
+        "choices": {
+          "A": "Matching coastlines, matching rocks, matching fossils",
+          "B": "Star maps, ocean color, wind speed",
+          "C": "Temperature, humidity, air pressure",
+          "D": "Cloud shapes, rainfall, sunlight"
+        },
+        "correctAnswer": "A",
+        "explanation": "Matching coastlines, rocks, and fossils are three key pieces of evidence for continental drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q9",
+        "section": "science",
+        "question": "If the continents were once joined and are now apart, then over time they have",
+        "choices": {
+          "A": "stayed perfectly still",
+          "B": "slowly moved away from each other",
+          "C": "grown larger",
+          "D": "turned into oceans"
+        },
+        "correctAnswer": "B",
+        "explanation": "Continental drift means the continents have slowly moved apart over a very long time.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q10",
+        "section": "science",
+        "question": "What did Wegener notice that first led him to the idea of continental drift?",
+        "choices": {
+          "A": "The continents look like puzzle pieces that could fit together",
+          "B": "The continents are all the same size",
+          "C": "The oceans were getting smaller",
+          "D": "The Sun was moving"
+        },
+        "correctAnswer": "A",
+        "explanation": "Wegener noticed the continents look like puzzle pieces that could fit together, which led to his idea.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q11",
+        "section": "science",
+        "question": "What does the word 'drift' mean in 'continental drift'?",
+        "choices": {
+          "A": "To stay frozen in one place",
+          "B": "To grow taller over time",
+          "C": "To slowly move from place to place",
+          "D": "To break into tiny pieces"
+        },
+        "correctAnswer": "C",
+        "explanation": "In continental drift, 'drift' means the continents slowly move from place to place over time.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q12",
+        "section": "science",
+        "question": "Before the continents drifted apart, they were joined together as",
+        "choices": {
+          "A": "many separate islands",
+          "B": "one giant supercontinent",
+          "C": "a chain of volcanoes",
+          "D": "a frozen ocean"
+        },
+        "correctAnswer": "B",
+        "explanation": "Before drifting apart, the continents were joined as one giant supercontinent called Pangaea.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q13",
+        "section": "science",
+        "question": "Which pair of continents is often used as an example because their coastlines fit together?",
+        "choices": {
+          "A": "Africa and Antarctica",
+          "B": "Asia and Australia",
+          "C": "North America and Asia",
+          "D": "South America and Africa"
+        },
+        "correctAnswer": "D",
+        "explanation": "The coastlines of South America and Africa fit together like puzzle pieces.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q14",
+        "section": "science",
+        "question": "A fossil is BEST described as",
+        "choices": {
+          "A": "the preserved remains or trace of an ancient living thing",
+          "B": "a kind of melted rock under the ocean",
+          "C": "a tool scientists use to measure heat",
+          "D": "a type of ocean current"
+        },
+        "correctAnswer": "A",
+        "explanation": "A fossil is the preserved remains or trace of an ancient living thing, like a plant or animal.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q15",
+        "section": "science",
+        "question": "Which of these did Wegener NOT use as evidence for continental drift?",
+        "choices": {
+          "A": "Matching coastlines",
+          "B": "Matching fossils",
+          "C": "Matching rocks and mountains",
+          "D": "Matching weather forecasts"
+        },
+        "correctAnswer": "D",
+        "explanation": "Wegener used matching coastlines, fossils, and rocks — not matching weather forecasts.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q16",
+        "section": "science",
+        "question": "Identical rock layers found on two continents that are now far apart suggest that",
+        "choices": {
+          "A": "the rocks fell from the sky",
+          "B": "those continents were once joined",
+          "C": "rocks can grow back",
+          "D": "the continents are sinking"
+        },
+        "correctAnswer": "B",
+        "explanation": "Identical rock layers on separated continents suggest those continents were once joined together.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q17",
+        "section": "science",
+        "question": "How is fitting the continents together like working on a jigsaw puzzle?",
+        "choices": {
+          "A": "The edges of the continents match up like puzzle pieces",
+          "B": "The continents are made of cardboard",
+          "C": "Puzzles and continents are both flat",
+          "D": "Both can be done in one minute"
+        },
+        "correctAnswer": "A",
+        "explanation": "Like a jigsaw puzzle, the edges of the continents match up and fit together.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q18",
+        "section": "science",
+        "question": "A student says, 'The continents have always been exactly where they are now.' How does continental drift correct this idea?",
+        "choices": {
+          "A": "It does not — the continents never move",
+          "B": "The continents have slowly moved over long periods of time",
+          "C": "The continents move several miles each day",
+          "D": "Only the oceans move, not the continents"
+        },
+        "correctAnswer": "B",
+        "explanation": "Continental drift shows the continents have slowly moved over long periods of time, so they were not always where they are now.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q19",
+        "section": "science",
+        "question": "Why is fossil evidence considered strong support for continental drift?",
+        "choices": {
+          "A": "Fossils are very colorful",
+          "B": "The same land species could not swim across a wide ocean, so the lands must have been joined",
+          "C": "Fossils are found only in oceans",
+          "D": "Fossils prove the Sun moves"
+        },
+        "correctAnswer": "B",
+        "explanation": "A land plant or animal could not cross a wide ocean, so finding its fossil on two continents means the lands were once joined.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q20",
+        "section": "science",
+        "question": "Which statement BEST describes Pangaea?",
+        "choices": {
+          "A": "A single supercontinent that later broke apart into today's continents",
+          "B": "A deep crack in the ocean floor",
+          "C": "A type of fossil plant",
+          "D": "An ocean that covered the whole Earth"
+        },
+        "correctAnswer": "A",
+        "explanation": "Pangaea was a single supercontinent that later broke apart into today's continents.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q21",
+        "section": "science",
+        "question": "If two continents were once part of Pangaea, their rock layers along the matching edges should be",
+        "choices": {
+          "A": "completely different from each other",
+          "B": "made only of water",
+          "C": "similar to one another",
+          "D": "much younger than the ocean"
+        },
+        "correctAnswer": "C",
+        "explanation": "Continents once joined in Pangaea should have similar rock layers along their matching edges.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q22",
+        "section": "science",
+        "question": "Continental drift mainly helps explain how",
+        "choices": {
+          "A": "the Sun produces light",
+          "B": "the positions of the continents have changed over time",
+          "C": "clouds form rain",
+          "D": "minerals get their color"
+        },
+        "correctAnswer": "B",
+        "explanation": "Continental drift explains how the positions of the continents have changed over time.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q23",
+        "section": "science",
+        "question": "Which is an example of fossil evidence for continental drift?",
+        "choices": {
+          "A": "The same ocean wave appearing on two coasts",
+          "B": "The same cloud shape over two continents",
+          "C": "The same ancient reptile fossil found on two continents now far apart",
+          "D": "The same star seen from two continents"
+        },
+        "correctAnswer": "C",
+        "explanation": "The same ancient reptile fossil found on two now-distant continents is fossil evidence they were once joined.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q24",
+        "section": "science",
+        "question": "Compared with how fast a person walks, the drifting of continents is",
+        "choices": {
+          "A": "much, much slower",
+          "B": "exactly the same speed",
+          "C": "much faster",
+          "D": "as fast as a car"
+        },
+        "correctAnswer": "A",
+        "explanation": "Continents drift extremely slowly — much, much slower than a person walks.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q25",
+        "section": "science",
+        "question": "Which of these is NOT a reason scientists accept that continents have drifted?",
+        "choices": {
+          "A": "Coastlines of some continents fit together",
+          "B": "Matching fossils appear on separated continents",
+          "C": "Matching rock layers appear on separated continents",
+          "D": "The continents are all the same shape"
+        },
+        "correctAnswer": "D",
+        "explanation": "Matching coastlines, fossils, and rock layers are reasons for drift — the continents being the same shape is not one of them.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q26",
+        "section": "science",
+        "question": "What is the MAIN job of evidence in science, as shown by Wegener's work?",
+        "choices": {
+          "A": "To make a guess sound interesting",
+          "B": "To support or test an idea with observations",
+          "C": "To replace the need for observations",
+          "D": "To prove that ideas can never change"
+        },
+        "correctAnswer": "B",
+        "explanation": "Evidence supports or tests an idea with observations, which is how Wegener backed up continental drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q27",
+        "section": "science",
+        "question": "If you could rewind time to when Pangaea existed, you would see",
+        "choices": {
+          "A": "all the continents joined into one large landmass",
+          "B": "the continents in their exact positions today",
+          "C": "no land at all, only ocean",
+          "D": "the continents floating in space"
+        },
+        "correctAnswer": "A",
+        "explanation": "When Pangaea existed, all the continents were joined into one large landmass.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q28",
+        "section": "science",
+        "question": "Two continents share matching coastlines, matching rocks, AND matching fossils. Together, this evidence MOST strongly suggests",
+        "choices": {
+          "A": "the continents have always been separate",
+          "B": "the continents are made of fossils",
+          "C": "the continents were once joined and later drifted apart",
+          "D": "the evidence is just a coincidence"
+        },
+        "correctAnswer": "C",
+        "explanation": "Matching coastlines, rocks, and fossils together strongly suggest the continents were once joined and later drifted apart.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q29",
+        "section": "science",
+        "question": "The supercontinent that scientists describe in the study of continental drift is named",
+        "choices": {
+          "A": "Pangaea",
+          "B": "Sahara",
+          "C": "Amazonia",
+          "D": "Pacifica"
+        },
+        "correctAnswer": "A",
+        "explanation": "The supercontinent in the study of continental drift is named Pangaea.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q30",
+        "section": "science",
+        "question": "Why can't a single piece of evidence, like matching coastlines, completely prove continental drift by itself?",
+        "choices": {
+          "A": "Coastlines are not real",
+          "B": "Continents do not have coastlines",
+          "C": "Stronger ideas in science are supported by several different kinds of evidence together",
+          "D": "One piece of evidence is always enough in science"
+        },
+        "correctAnswer": "C",
+        "explanation": "Stronger scientific ideas are supported by several different kinds of evidence together, not just one observation.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q31",
+        "section": "science",
+        "question": "The breaking apart of Pangaea over millions of years produced",
+        "choices": {
+          "A": "all the planets",
+          "B": "the Sun and the Moon",
+          "C": "the continents we have today",
+          "D": "the layers of the atmosphere"
+        },
+        "correctAnswer": "C",
+        "explanation": "As Pangaea broke apart over millions of years, it produced the continents we have today.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q32",
+        "section": "science",
+        "question": "Which observation would a scientist studying continental drift care about MOST?",
+        "choices": {
+          "A": "The price of a map",
+          "B": "How many birds fly over the ocean",
+          "C": "Matching rock layers on two separated continents",
+          "D": "The color of the sky at sunset"
+        },
+        "correctAnswer": "C",
+        "explanation": "Matching rock layers on two separated continents is direct evidence for continental drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q33",
+        "section": "science",
+        "question": "Wegener's idea of continental drift is an example of",
+        "choices": {
+          "A": "a guess made with no observations at all",
+          "B": "a story with no connection to Earth",
+          "C": "a rule that can never be tested",
+          "D": "an explanation built from several observations and evidence"
+        },
+        "correctAnswer": "D",
+        "explanation": "Continental drift is an explanation Wegener built from several observations and pieces of evidence.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q34",
+        "section": "science",
+        "question": "How does the matching of fossils differ from the matching of coastlines as evidence?",
+        "choices": {
+          "A": "Neither one is real evidence",
+          "B": "They are exactly the same kind of evidence",
+          "C": "Fossils compare land shapes, while coastlines compare living things",
+          "D": "Coastlines compare the shapes of land edges, while fossils compare the remains of once-living things"
+        },
+        "correctAnswer": "D",
+        "explanation": "Coastline evidence compares the shapes of land edges, while fossil evidence compares the remains of once-living things.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q35",
+        "section": "science",
+        "question": "If continents are still drifting today, then in the far future the map of Earth will",
+        "choices": {
+          "A": "look exactly the same as now",
+          "B": "show the Sun in the center",
+          "C": "have no continents at all",
+          "D": "be slowly different from today's map"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because continents keep drifting, the future map of Earth will slowly be different from today's map.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q36",
+        "section": "science",
+        "question": "Which sentence correctly describes continental drift?",
+        "choices": {
+          "A": "Continents are fixed and have never moved",
+          "B": "Continents move several feet every hour",
+          "C": "Continents have slowly changed position over millions of years",
+          "D": "Continents are made of ocean water"
+        },
+        "correctAnswer": "C",
+        "explanation": "Continental drift means continents have slowly changed position over millions of years.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q37",
+        "section": "science",
+        "question": "A reason some people doubted Wegener at first was that he could not yet explain",
+        "choices": {
+          "A": "what color the continents are",
+          "B": "why fossils existed",
+          "C": "why oceans are wet",
+          "D": "what force could move the huge continents"
+        },
+        "correctAnswer": "D",
+        "explanation": "Many doubted Wegener because he could not yet explain what force could move the huge continents.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q38",
+        "section": "science",
+        "question": "Which is the BEST title for a chart listing puzzle-fit coastlines, matching rocks, and matching fossils?",
+        "choices": {
+          "A": "Reasons the Sun Shines",
+          "B": "How Clouds Form",
+          "C": "Types of Ocean Waves",
+          "D": "Evidence for Continental Drift"
+        },
+        "correctAnswer": "D",
+        "explanation": "Puzzle-fit coastlines, matching rocks, and matching fossils are all evidence for continental drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q39",
+        "section": "science",
+        "question": "Which of the following is an example of MATCHING ROCK evidence for drift?",
+        "choices": {
+          "A": "A river that flows the same direction on two continents",
+          "B": "A bird that lives on two continents",
+          "C": "A mountain range that lines up and continues on two now-separated continents",
+          "D": "A cloud seen over two continents"
+        },
+        "correctAnswer": "C",
+        "explanation": "A mountain range that lines up across two now-separated continents is matching rock/mountain evidence for drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q40",
+        "section": "science",
+        "question": "The MAIN idea of the lesson 'Drifting Continents' is that",
+        "choices": {
+          "A": "the continents are all sinking into the sea",
+          "B": "fossils are found only on one continent",
+          "C": "the continents never move at all",
+          "D": "the continents were once joined and have slowly drifted apart, shown by matching coastlines, rocks, and fossils"
+        },
+        "correctAnswer": "D",
+        "explanation": "The main idea is that the continents were once joined and have slowly drifted apart, shown by matching coastlines, rocks, and fossils.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      }
     ]
   },
   "8-2": {
     "title": "Sea-Floor Spreading",
     "standard": "SC.6.E.6.1",
-    "learn": "KEY IDEAS\n\nDeep under the oceans, hot melted rock rises up through long cracks called MID-OCEAN RIDGES. As it cools, it adds NEW rock to the sea floor and pushes the older sea floor OUTWARD on both sides.\n\nThis process is called SEA-FLOOR SPREADING. It gave scientists strong evidence for how Earth's surface moves and helped explain how continents drift apart.\n\nKey idea: rock is YOUNGEST at the mid-ocean ridge (newest) and OLDER as you move away from the ridge.\n\nExample 1 — New crust forms\nAt a mid-ocean ridge, magma rises and cools, forming new ocean floor that pushes the older floor aside.\n\nExample 2 — Age of the sea floor\nThe sea floor closest to the ridge is the youngest; farther from the ridge it is older.\n\nExample 3 — Support for drift\nSea-floor spreading explains the 'how' behind continental drift — new sea floor forming at ridges slowly moves the continents apart."
-,
+    "learn": "KEY IDEAS\n\nDeep under the oceans, hot melted rock rises up through long cracks called MID-OCEAN RIDGES. As it cools, it adds NEW rock to the sea floor and pushes the older sea floor OUTWARD on both sides.\n\nThis process is called SEA-FLOOR SPREADING. It gave scientists strong evidence for how Earth's surface moves and helped explain how continents drift apart.\n\nKey idea: rock is YOUNGEST at the mid-ocean ridge (newest) and OLDER as you move away from the ridge.\n\nExample 1 — New crust forms\nAt a mid-ocean ridge, magma rises and cools, forming new ocean floor that pushes the older floor aside.\n\nExample 2 — Age of the sea floor\nThe sea floor closest to the ridge is the youngest; farther from the ridge it is older.\n\nExample 3 — Support for drift\nSea-floor spreading explains the 'how' behind continental drift — new sea floor forming at ridges slowly moves the continents apart.",
     "questions": [
-      { "id": "8-2-q1", "section": "science", "question": "Sea-floor spreading happens at long underwater cracks called", "choices": { "A": "river deltas", "B": "sand dunes", "C": "mid-ocean ridges", "D": "mountains on land" }, "correctAnswer": "C", "explanation": "Sea-floor spreading happens at mid-ocean ridges, where hot melted rock rises.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-2-q2", "section": "science", "question": "At a mid-ocean ridge, hot melted rock rises and", "choices": { "A": "cools to add new rock to the sea floor", "B": "freezes the whole ocean", "C": "disappears into the air", "D": "turns into living things" }, "correctAnswer": "A", "explanation": "The rising melted rock cools and adds new rock to the sea floor at the ridge.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-2-q3", "section": "science", "question": "As new sea floor forms at a ridge, the older sea floor is", "choices": { "A": "pushed outward on both sides", "B": "pulled toward the ridge", "C": "lifted into the air", "D": "turned into magma" }, "correctAnswer": "A", "explanation": "New rock at the ridge pushes the older sea floor outward on both sides.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-2-q4", "section": "science", "question": "Where is the YOUNGEST sea-floor rock found?", "choices": { "A": "Far from the mid-ocean ridge", "B": "On the continents", "C": "In the inner core", "D": "At the mid-ocean ridge" }, "correctAnswer": "D", "explanation": "The youngest sea-floor rock is at the mid-ocean ridge, where new rock forms.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-2-q5", "section": "science", "question": "Sea-floor rock that is FAR from a mid-ocean ridge is generally", "choices": { "A": "the youngest", "B": "older than rock at the ridge", "C": "all the same age", "D": "made of living cells" }, "correctAnswer": "B", "explanation": "Rock farther from the ridge formed earlier, so it is older than rock at the ridge.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-2-q6", "section": "science", "question": "Sea-floor spreading helped scientists explain", "choices": { "A": "how the continents drift apart", "B": "why the Sun shines", "C": "how clouds form", "D": "why minerals are hard" }, "correctAnswer": "A", "explanation": "Sea-floor spreading provided evidence for how the continents drift apart.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-2-q7", "section": "science", "question": "Which process adds brand-new rock to Earth's surface at the bottom of the ocean?", "choices": { "A": "Weathering", "B": "Sea-floor spreading", "C": "Evaporation", "D": "Erosion" }, "correctAnswer": "B", "explanation": "Sea-floor spreading adds new rock to the ocean floor as magma rises and cools.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-2-q8", "section": "science", "question": "If scientists measure rock ages across the sea floor, what pattern supports sea-floor spreading?", "choices": { "A": "Rock gets older moving away from the ridge on both sides", "B": "Rock is the same age everywhere", "C": "Rock gets younger far from the ridge", "D": "Rock has no age" }, "correctAnswer": "A", "explanation": "Rock ages increasing symmetrically away from the ridge support sea-floor spreading.", "standard": "SC.6.E.6.1", "difficulty": "hard" },
-      { "id": "8-2-q9", "section": "science", "question": "How does sea-floor spreading connect to continental drift?", "choices": { "A": "New sea floor forming at ridges slowly moves the continents apart", "B": "It freezes the continents in place", "C": "It has no connection at all", "D": "It melts the continents" }, "correctAnswer": "A", "explanation": "New sea floor forming at ridges pushes plates and slowly moves the continents apart, explaining drift.", "standard": "SC.6.E.6.1", "difficulty": "hard" },
-      { "id": "8-2-q10", "section": "science", "question": "Which statement about the mid-ocean ridge is TRUE?", "choices": { "A": "It is where the oldest rock is found", "B": "It is where new ocean floor is created", "C": "It is on the top of a mountain on land", "D": "It is where the ocean is shallowest because of sand" }, "correctAnswer": "B", "explanation": "The mid-ocean ridge is where new ocean floor is created by rising, cooling magma.", "standard": "SC.6.E.6.1", "difficulty": "medium" }
+      {
+        "id": "8-2-q1",
+        "section": "science",
+        "question": "Sea-floor spreading happens at long underwater cracks called",
+        "choices": {
+          "A": "river deltas",
+          "B": "sand dunes",
+          "C": "mid-ocean ridges",
+          "D": "mountains on land"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sea-floor spreading happens at mid-ocean ridges, where hot melted rock rises.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q2",
+        "section": "science",
+        "question": "At a mid-ocean ridge, hot melted rock rises and",
+        "choices": {
+          "A": "cools to add new rock to the sea floor",
+          "B": "freezes the whole ocean",
+          "C": "disappears into the air",
+          "D": "turns into living things"
+        },
+        "correctAnswer": "A",
+        "explanation": "The rising melted rock cools and adds new rock to the sea floor at the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q3",
+        "section": "science",
+        "question": "As new sea floor forms at a ridge, the older sea floor is",
+        "choices": {
+          "A": "pushed outward on both sides",
+          "B": "pulled toward the ridge",
+          "C": "lifted into the air",
+          "D": "turned into magma"
+        },
+        "correctAnswer": "A",
+        "explanation": "New rock at the ridge pushes the older sea floor outward on both sides.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q4",
+        "section": "science",
+        "question": "Where is the YOUNGEST sea-floor rock found?",
+        "choices": {
+          "A": "Far from the mid-ocean ridge",
+          "B": "On the continents",
+          "C": "In the inner core",
+          "D": "At the mid-ocean ridge"
+        },
+        "correctAnswer": "D",
+        "explanation": "The youngest sea-floor rock is at the mid-ocean ridge, where new rock forms.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q5",
+        "section": "science",
+        "question": "Sea-floor rock that is FAR from a mid-ocean ridge is generally",
+        "choices": {
+          "A": "the youngest",
+          "B": "older than rock at the ridge",
+          "C": "all the same age",
+          "D": "made of living cells"
+        },
+        "correctAnswer": "B",
+        "explanation": "Rock farther from the ridge formed earlier, so it is older than rock at the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q6",
+        "section": "science",
+        "question": "Sea-floor spreading helped scientists explain",
+        "choices": {
+          "A": "how the continents drift apart",
+          "B": "why the Sun shines",
+          "C": "how clouds form",
+          "D": "why minerals are hard"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sea-floor spreading provided evidence for how the continents drift apart.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q7",
+        "section": "science",
+        "question": "Which process adds brand-new rock to Earth's surface at the bottom of the ocean?",
+        "choices": {
+          "A": "Weathering",
+          "B": "Sea-floor spreading",
+          "C": "Evaporation",
+          "D": "Erosion"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sea-floor spreading adds new rock to the ocean floor as magma rises and cools.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q8",
+        "section": "science",
+        "question": "If scientists measure rock ages across the sea floor, what pattern supports sea-floor spreading?",
+        "choices": {
+          "A": "Rock gets older moving away from the ridge on both sides",
+          "B": "Rock is the same age everywhere",
+          "C": "Rock gets younger far from the ridge",
+          "D": "Rock has no age"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rock ages increasing symmetrically away from the ridge support sea-floor spreading.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q9",
+        "section": "science",
+        "question": "How does sea-floor spreading connect to continental drift?",
+        "choices": {
+          "A": "New sea floor forming at ridges slowly moves the continents apart",
+          "B": "It freezes the continents in place",
+          "C": "It has no connection at all",
+          "D": "It melts the continents"
+        },
+        "correctAnswer": "A",
+        "explanation": "New sea floor forming at ridges pushes plates and slowly moves the continents apart, explaining drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q10",
+        "section": "science",
+        "question": "Which statement about the mid-ocean ridge is TRUE?",
+        "choices": {
+          "A": "It is where the oldest rock is found",
+          "B": "It is where new ocean floor is created",
+          "C": "It is on the top of a mountain on land",
+          "D": "It is where the ocean is shallowest because of sand"
+        },
+        "correctAnswer": "B",
+        "explanation": "The mid-ocean ridge is where new ocean floor is created by rising, cooling magma.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q11",
+        "section": "science",
+        "question": "What is magma?",
+        "choices": {
+          "A": "Cold ocean water",
+          "B": "Hot, melted rock",
+          "C": "A type of fossil",
+          "D": "Dry sand on a beach"
+        },
+        "correctAnswer": "B",
+        "explanation": "Magma is hot, melted rock that rises at mid-ocean ridges.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q12",
+        "section": "science",
+        "question": "A mid-ocean ridge is found",
+        "choices": {
+          "A": "on the tops of tall land mountains",
+          "B": "in the center of a desert",
+          "C": "along the deep ocean floor",
+          "D": "high in the atmosphere"
+        },
+        "correctAnswer": "C",
+        "explanation": "A mid-ocean ridge runs along the deep ocean floor, where new crust forms.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q13",
+        "section": "science",
+        "question": "When hot melted rock at a ridge cools, it",
+        "choices": {
+          "A": "becomes solid new rock",
+          "B": "turns into a gas and floats away",
+          "C": "becomes ocean water",
+          "D": "becomes a living animal"
+        },
+        "correctAnswer": "A",
+        "explanation": "When the hot melted rock cools, it hardens into solid new rock on the sea floor.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q14",
+        "section": "science",
+        "question": "Which describes the direction the sea floor moves during sea-floor spreading?",
+        "choices": {
+          "A": "It moves down into the ridge",
+          "B": "It moves away from the ridge on both sides",
+          "C": "It stays completely still",
+          "D": "It moves straight up to the surface"
+        },
+        "correctAnswer": "B",
+        "explanation": "During sea-floor spreading, the sea floor moves away from the ridge on both sides.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q15",
+        "section": "science",
+        "question": "Which list orders sea-floor rock from YOUNGEST to OLDEST?",
+        "choices": {
+          "A": "Rock far from the ridge, then rock near the ridge",
+          "B": "All rock is the same age, so there is no order",
+          "C": "Rock at the ridge, then rock far from the ridge",
+          "D": "Rock on land, then rock at the ridge"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rock at the ridge is youngest and rock far from the ridge is oldest, so youngest-to-oldest goes from the ridge outward.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q16",
+        "section": "science",
+        "question": "Why does the sea floor get OLDER as you move away from a mid-ocean ridge?",
+        "choices": {
+          "A": "Because that rock formed earlier and was pushed aside as newer rock formed",
+          "B": "Because rock ages faster in cold water",
+          "C": "Because older rock floats to the surface",
+          "D": "Because the Sun heats it more there"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rock far from the ridge formed earlier and was pushed aside as newer rock kept forming at the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q17",
+        "section": "science",
+        "question": "Sea-floor spreading is MOST like",
+        "choices": {
+          "A": "a conveyor belt carrying new rock away from the ridge",
+          "B": "a rock sitting still on the ground",
+          "C": "water evaporating from a puddle",
+          "D": "a balloon being blown up"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sea-floor spreading works like a conveyor belt, carrying new rock outward away from the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q18",
+        "section": "science",
+        "question": "A scientist finds that rock 100 km east of a ridge and rock 100 km west of a ridge are about the same age. This pattern supports",
+        "choices": {
+          "A": "the idea that the ocean is drying up",
+          "B": "sea-floor spreading occurring evenly on both sides",
+          "C": "the idea that ridges make no new rock",
+          "D": "the Sun causing earthquakes"
+        },
+        "correctAnswer": "B",
+        "explanation": "Matching ages at equal distances on both sides support sea-floor spreading happening evenly on both sides of the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q19",
+        "section": "science",
+        "question": "Which is NOT true about sea-floor spreading?",
+        "choices": {
+          "A": "New rock forms at mid-ocean ridges",
+          "B": "Rock is youngest near the ridge",
+          "C": "It pushes older sea floor outward",
+          "D": "It destroys all the rock at the ridge"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sea-floor spreading creates new rock at the ridge and pushes older rock outward; it does not destroy all the rock at the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q20",
+        "section": "science",
+        "question": "Sea-floor spreading gave scientists strong evidence about how",
+        "choices": {
+          "A": "stars are born",
+          "B": "Earth's surface moves and continents can drift",
+          "C": "rain falls from clouds",
+          "D": "plants make food"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sea-floor spreading gave evidence about how Earth's surface moves and how continents can drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q21",
+        "section": "science",
+        "question": "Where does the rock material that builds new sea floor come from?",
+        "choices": {
+          "A": "Falling rain",
+          "B": "Sand carried by rivers",
+          "C": "Hot melted rock rising from below",
+          "D": "Dust from space"
+        },
+        "correctAnswer": "C",
+        "explanation": "The new sea floor is built from hot melted rock that rises from below at the ridge and cools.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q22",
+        "section": "science",
+        "question": "How is the rock right at the ridge different from rock far away from the ridge?",
+        "choices": {
+          "A": "Rock at the ridge is younger, and rock far away is older",
+          "B": "Rock at the ridge is older, and rock far away is younger",
+          "C": "Both are exactly the same age",
+          "D": "Rock at the ridge is made of water"
+        },
+        "correctAnswer": "A",
+        "explanation": "Rock at the ridge is younger because it just formed, while rock far away is older.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q23",
+        "section": "science",
+        "question": "If sea-floor spreading suddenly stopped, what would happen to the creation of new ocean floor?",
+        "choices": {
+          "A": "Even more new ocean floor would form",
+          "B": "No new ocean floor would form at the ridge",
+          "C": "The continents would speed up",
+          "D": "The ridge would turn into land"
+        },
+        "correctAnswer": "B",
+        "explanation": "If spreading stopped, no new ocean floor would form at the ridge, since spreading is what creates it.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q24",
+        "section": "science",
+        "question": "Which best completes this cause-and-effect statement? 'Magma rises and cools at a ridge, SO ___'",
+        "choices": {
+          "A": "new rock is added and the sea floor spreads",
+          "B": "the ocean instantly freezes",
+          "C": "the continents stop moving",
+          "D": "all fossils disappear"
+        },
+        "correctAnswer": "A",
+        "explanation": "Because magma rises and cools at the ridge, new rock is added and the sea floor spreads outward.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q25",
+        "section": "science",
+        "question": "The newest part of the ocean floor is located",
+        "choices": {
+          "A": "deep inside Earth's core",
+          "B": "next to the continents",
+          "C": "right at the mid-ocean ridge",
+          "D": "on the highest land mountains"
+        },
+        "correctAnswer": "C",
+        "explanation": "The newest ocean floor is right at the mid-ocean ridge, where rock has just formed.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q26",
+        "section": "science",
+        "question": "How does sea-floor spreading support Wegener's earlier idea of continental drift?",
+        "choices": {
+          "A": "It proves the continents never moved",
+          "B": "It explains a way the continents could actually be moved apart",
+          "C": "It shows the continents are made of magma",
+          "D": "It has nothing to do with continental drift"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sea-floor spreading explains a real way the continents could be moved apart, supporting Wegener's idea of drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q27",
+        "section": "science",
+        "question": "Which tool would be MOST useful for studying sea-floor spreading?",
+        "choices": {
+          "A": "A rain gauge",
+          "B": "A thermometer for measuring air temperature",
+          "C": "A device that maps the ocean floor and measures rock ages",
+          "D": "A telescope pointed at the stars"
+        },
+        "correctAnswer": "C",
+        "explanation": "A device that maps the ocean floor and measures rock ages directly helps study sea-floor spreading.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q28",
+        "section": "science",
+        "question": "Which sentence correctly describes what happens at a mid-ocean ridge?",
+        "choices": {
+          "A": "Old crust sinks back into the ridge and disappears",
+          "B": "Hot melted rock rises, cools, and forms new sea floor",
+          "C": "The ocean water boils completely away",
+          "D": "Sand piles up to make a mountain on land"
+        },
+        "correctAnswer": "B",
+        "explanation": "At a mid-ocean ridge, hot melted rock rises, cools, and forms new sea floor.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q29",
+        "section": "science",
+        "question": "Which would be the BEST evidence that the sea floor is spreading?",
+        "choices": {
+          "A": "The ocean is salty",
+          "B": "All ocean rock is exactly the same color",
+          "C": "Rock ages increase the farther you go from the ridge on both sides",
+          "D": "Fish live near the ridge"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rock ages increasing the farther you go from the ridge on both sides is direct evidence the sea floor is spreading.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q30",
+        "section": "science",
+        "question": "In sea-floor spreading, what role does the mid-ocean ridge play?",
+        "choices": {
+          "A": "It is where old rock is destroyed",
+          "B": "It is where the ocean ends",
+          "C": "It is where new sea floor is made and spreading begins",
+          "D": "It is where continents stop moving"
+        },
+        "correctAnswer": "C",
+        "explanation": "The mid-ocean ridge is where new sea floor is made and where the spreading begins.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q31",
+        "section": "science",
+        "question": "Compared with rock at a mid-ocean ridge, rock found near the edge of an ocean basin is usually",
+        "choices": {
+          "A": "much younger",
+          "B": "exactly the same age",
+          "C": "older",
+          "D": "not really rock at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rock near the edge of an ocean basin is farther from the ridge, so it is older than rock at the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q32",
+        "section": "science",
+        "question": "What is the MAIN idea of sea-floor spreading?",
+        "choices": {
+          "A": "The ocean floor never changes",
+          "B": "The ocean floor is the oldest rock on Earth",
+          "C": "Ocean floor is made of frozen water",
+          "D": "New ocean floor forms at ridges and spreads outward, carrying older floor away"
+        },
+        "correctAnswer": "D",
+        "explanation": "The main idea is that new ocean floor forms at ridges and spreads outward, carrying older floor away.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q33",
+        "section": "science",
+        "question": "Hot melted rock is able to rise at a mid-ocean ridge because",
+        "choices": {
+          "A": "it is heavier than the rock around it",
+          "B": "it is solid and cold",
+          "C": "the ocean pushes it down",
+          "D": "it is hot and less dense, so it rises through cracks"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hot melted rock is less dense, so it rises through cracks at the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q34",
+        "section": "science",
+        "question": "If a piece of sea floor formed millions of years ago, where is it MOST likely now?",
+        "choices": {
+          "A": "Still right at the ridge",
+          "B": "Floating on the ocean surface",
+          "C": "High on a land mountain",
+          "D": "Some distance away from the ridge"
+        },
+        "correctAnswer": "D",
+        "explanation": "Older sea floor has been pushed some distance away from the ridge over time.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q35",
+        "section": "science",
+        "question": "Which pairing of process and result is CORRECT?",
+        "choices": {
+          "A": "Sea-floor spreading → fossils form on land",
+          "B": "Sea-floor spreading → the Sun heats up",
+          "C": "Sea-floor spreading → clouds make rain",
+          "D": "Sea-floor spreading → new ocean floor forms"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sea-floor spreading results in new ocean floor forming at the ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q36",
+        "section": "science",
+        "question": "Why are mid-ocean ridges important to scientists who study Earth's changing surface?",
+        "choices": {
+          "A": "They show where the ocean is shallowest",
+          "B": "They are the warmest places in the sky",
+          "C": "They are where the oldest fossils are buried",
+          "D": "They are where new crust is constantly being made"
+        },
+        "correctAnswer": "D",
+        "explanation": "Mid-ocean ridges are important because they are where new crust is constantly being made.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q37",
+        "section": "science",
+        "question": "A model shows two halves of the sea floor moving in opposite directions away from a center line. The center line in the model represents",
+        "choices": {
+          "A": "the edge of a continent",
+          "B": "the inner core",
+          "C": "the mid-ocean ridge",
+          "D": "a river on land"
+        },
+        "correctAnswer": "C",
+        "explanation": "The center line where new floor forms and two halves move apart represents the mid-ocean ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q38",
+        "section": "science",
+        "question": "Which BEST explains the connection between sea-floor spreading and Earth being an active, changing planet?",
+        "choices": {
+          "A": "It shows the continents are shrinking into dust",
+          "B": "It shows Earth's surface stays frozen forever",
+          "C": "It shows Earth has no oceans",
+          "D": "It shows Earth's surface is being remade and rearranged over time"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sea-floor spreading shows Earth's surface is being remade and rearranged over time, so Earth is active and changing.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q39",
+        "section": "science",
+        "question": "Which statement about new sea-floor rock is correct?",
+        "choices": {
+          "A": "It forms only on the continents",
+          "B": "It is made from ocean salt",
+          "C": "It is the oldest rock on the planet",
+          "D": "It forms at the ridge and is the youngest sea-floor rock"
+        },
+        "correctAnswer": "D",
+        "explanation": "New sea-floor rock forms at the ridge and is the youngest sea-floor rock.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q40",
+        "section": "science",
+        "question": "How does sea-floor spreading answer the 'HOW' that continental drift could not explain at first?",
+        "choices": {
+          "A": "It shows the continents are stuck and cannot move",
+          "B": "It shows fossils cause the movement",
+          "C": "It shows continents float on air",
+          "D": "It shows new sea floor forming at ridges can push plates and move continents apart"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sea-floor spreading shows new sea floor forming at ridges can push plates and move continents apart, answering the 'how' of drift.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      }
     ]
   },
   "8-3": {
     "title": "The Theory of Plate Tectonics",
     "standard": "SC.6.E.6.1",
-    "learn": "KEY IDEAS\n\nEarth's crust is broken into giant pieces called TECTONIC PLATES that slowly float on the soft mantle below. They move only a few centimeters a year, but over millions of years this adds up.\n\nWhere plates meet (plate boundaries), they can:\n- Push together → build mountains.\n- Pull apart → open oceans / form new crust.\n- Slide past each other → cause earthquakes.\n\nThese movements build mountains, open oceans, and cause earthquakes and volcanoes. This is why Earth's surface is always slowly changing.\n\nExample 1 — Mountains form\nWhen two plates push together, the crust crumples and pushes up, building mountains.\n\nExample 2 — Earthquakes\nWhen plates slide past each other, the sudden movement can cause an earthquake.\n\nExample 3 — Slow but powerful\nPlates move only a few centimeters per year — about as fast as your fingernails grow — but over millions of years they reshape Earth's surface."
-,
+    "learn": "KEY IDEAS\n\nEarth's crust is broken into giant pieces called TECTONIC PLATES that slowly float on the soft mantle below. They move only a few centimeters a year, but over millions of years this adds up.\n\nWhere plates meet (plate boundaries), they can:\n- Push together → build mountains.\n- Pull apart → open oceans / form new crust.\n- Slide past each other → cause earthquakes.\n\nThese movements build mountains, open oceans, and cause earthquakes and volcanoes. This is why Earth's surface is always slowly changing.\n\nExample 1 — Mountains form\nWhen two plates push together, the crust crumples and pushes up, building mountains.\n\nExample 2 — Earthquakes\nWhen plates slide past each other, the sudden movement can cause an earthquake.\n\nExample 3 — Slow but powerful\nPlates move only a few centimeters per year — about as fast as your fingernails grow — but over millions of years they reshape Earth's surface.",
     "questions": [
-      { "id": "8-3-q1", "section": "science", "question": "Earth's crust is broken into giant moving pieces called", "choices": { "A": "minerals", "B": "fossils", "C": "tectonic plates", "D": "air masses" }, "correctAnswer": "C", "explanation": "Earth's crust is broken into giant pieces called tectonic plates.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-3-q2", "section": "science", "question": "Tectonic plates slowly float on which layer of Earth?", "choices": { "A": "The soft mantle", "B": "The inner core", "C": "The atmosphere", "D": "The ocean only" }, "correctAnswer": "A", "explanation": "Tectonic plates float and move on the soft mantle below the crust.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-3-q3", "section": "science", "question": "About how fast do tectonic plates move?", "choices": { "A": "A few centimeters per year", "B": "Hundreds of miles per day", "C": "The speed of light", "D": "They do not move at all" }, "correctAnswer": "A", "explanation": "Tectonic plates move only a few centimeters per year.", "standard": "SC.6.E.6.1", "difficulty": "easy" },
-      { "id": "8-3-q4", "section": "science", "question": "When two tectonic plates push together, they can", "choices": { "A": "create rain", "B": "make the Sun shine", "C": "stop all earthquakes", "D": "build mountains" }, "correctAnswer": "D", "explanation": "Plates pushing together can crumple the crust and build mountains.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-3-q5", "section": "science", "question": "Earthquakes often happen when tectonic plates", "choices": { "A": "stay perfectly still", "B": "slide past or move against each other", "C": "turn into water", "D": "float into space" }, "correctAnswer": "B", "explanation": "The sudden movement of plates sliding past or against each other can cause earthquakes.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-3-q6", "section": "science", "question": "Why is Earth's surface always slowly changing?", "choices": { "A": "Because tectonic plates keep moving", "B": "Because the Sun moves", "C": "Because oceans evaporate", "D": "Because of the ozone layer" }, "correctAnswer": "A", "explanation": "The constant slow movement of tectonic plates keeps reshaping Earth's surface.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-3-q7", "section": "science", "question": "Two plates pull apart from each other. This can", "choices": { "A": "open an ocean or form new crust", "B": "instantly freeze the ocean", "C": "make the plates disappear", "D": "stop the rock cycle" }, "correctAnswer": "A", "explanation": "When plates pull apart, new crust forms and oceans can open up in the gap.", "standard": "SC.6.E.6.1", "difficulty": "medium" },
-      { "id": "8-3-q8", "section": "science", "question": "Volcanoes and earthquakes are MOST common", "choices": { "A": "in the middle of flat plains far from plate edges", "B": "along the boundaries where tectonic plates meet", "C": "only at the North Pole", "D": "only in the ocean's center, away from ridges" }, "correctAnswer": "B", "explanation": "Most volcanoes and earthquakes happen along plate boundaries where plates meet.", "standard": "SC.6.E.6.1", "difficulty": "hard" },
-      { "id": "8-3-q9", "section": "science", "question": "Even though plates move only a few centimeters a year, they can build huge mountains because", "choices": { "A": "the movement adds up over millions of years", "B": "they move very fast for one day", "C": "mountains form in a single night", "D": "the Sun pushes them up" }, "correctAnswer": "A", "explanation": "Tiny yearly movements add up over millions of years to build huge mountains.", "standard": "SC.6.E.6.1", "difficulty": "hard" },
-      { "id": "8-3-q10", "section": "science", "question": "Which statement BEST summarizes the theory of plate tectonics?", "choices": { "A": "Earth's surface never changes", "B": "Earth's crust is in giant moving plates whose motion shapes the surface", "C": "Plates are made of liquid water", "D": "Plates move thousands of miles each year" }, "correctAnswer": "B", "explanation": "Plate tectonics explains that Earth's crust is in giant moving plates whose slow motion shapes the surface.", "standard": "SC.6.E.6.1", "difficulty": "medium" }
+      {
+        "id": "8-3-q1",
+        "section": "science",
+        "question": "Earth's crust is broken into giant moving pieces called",
+        "choices": {
+          "A": "minerals",
+          "B": "fossils",
+          "C": "tectonic plates",
+          "D": "air masses"
+        },
+        "correctAnswer": "C",
+        "explanation": "Earth's crust is broken into giant pieces called tectonic plates.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q2",
+        "section": "science",
+        "question": "Tectonic plates slowly float on which layer of Earth?",
+        "choices": {
+          "A": "The soft mantle",
+          "B": "The inner core",
+          "C": "The atmosphere",
+          "D": "The ocean only"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tectonic plates float and move on the soft mantle below the crust.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q3",
+        "section": "science",
+        "question": "About how fast do tectonic plates move?",
+        "choices": {
+          "A": "A few centimeters per year",
+          "B": "Hundreds of miles per day",
+          "C": "The speed of light",
+          "D": "They do not move at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tectonic plates move only a few centimeters per year.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q4",
+        "section": "science",
+        "question": "When two tectonic plates push together, they can",
+        "choices": {
+          "A": "create rain",
+          "B": "make the Sun shine",
+          "C": "stop all earthquakes",
+          "D": "build mountains"
+        },
+        "correctAnswer": "D",
+        "explanation": "Plates pushing together can crumple the crust and build mountains.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q5",
+        "section": "science",
+        "question": "Earthquakes often happen when tectonic plates",
+        "choices": {
+          "A": "stay perfectly still",
+          "B": "slide past or move against each other",
+          "C": "turn into water",
+          "D": "float into space"
+        },
+        "correctAnswer": "B",
+        "explanation": "The sudden movement of plates sliding past or against each other can cause earthquakes.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q6",
+        "section": "science",
+        "question": "Why is Earth's surface always slowly changing?",
+        "choices": {
+          "A": "Because tectonic plates keep moving",
+          "B": "Because the Sun moves",
+          "C": "Because oceans evaporate",
+          "D": "Because of the ozone layer"
+        },
+        "correctAnswer": "A",
+        "explanation": "The constant slow movement of tectonic plates keeps reshaping Earth's surface.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q7",
+        "section": "science",
+        "question": "Two plates pull apart from each other. This can",
+        "choices": {
+          "A": "open an ocean or form new crust",
+          "B": "instantly freeze the ocean",
+          "C": "make the plates disappear",
+          "D": "stop the rock cycle"
+        },
+        "correctAnswer": "A",
+        "explanation": "When plates pull apart, new crust forms and oceans can open up in the gap.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q8",
+        "section": "science",
+        "question": "Volcanoes and earthquakes are MOST common",
+        "choices": {
+          "A": "in the middle of flat plains far from plate edges",
+          "B": "along the boundaries where tectonic plates meet",
+          "C": "only at the North Pole",
+          "D": "only in the ocean's center, away from ridges"
+        },
+        "correctAnswer": "B",
+        "explanation": "Most volcanoes and earthquakes happen along plate boundaries where plates meet.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q9",
+        "section": "science",
+        "question": "Even though plates move only a few centimeters a year, they can build huge mountains because",
+        "choices": {
+          "A": "the movement adds up over millions of years",
+          "B": "they move very fast for one day",
+          "C": "mountains form in a single night",
+          "D": "the Sun pushes them up"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tiny yearly movements add up over millions of years to build huge mountains.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q10",
+        "section": "science",
+        "question": "Which statement BEST summarizes the theory of plate tectonics?",
+        "choices": {
+          "A": "Earth's surface never changes",
+          "B": "Earth's crust is in giant moving plates whose motion shapes the surface",
+          "C": "Plates are made of liquid water",
+          "D": "Plates move thousands of miles each year"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plate tectonics explains that Earth's crust is in giant moving plates whose slow motion shapes the surface.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q11",
+        "section": "science",
+        "question": "A place where two tectonic plates meet is called a",
+        "choices": {
+          "A": "fossil bed",
+          "B": "plate boundary",
+          "C": "sand dune",
+          "D": "cloud layer"
+        },
+        "correctAnswer": "B",
+        "explanation": "A place where two tectonic plates meet is called a plate boundary.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q12",
+        "section": "science",
+        "question": "The lesson compares the speed of plate movement to",
+        "choices": {
+          "A": "how fast a car drives",
+          "B": "how fast your fingernails grow",
+          "C": "how fast light travels",
+          "D": "how fast a rocket flies"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plates move about as fast as your fingernails grow — only a few centimeters per year.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q13",
+        "section": "science",
+        "question": "Which layer do the tectonic plates make up?",
+        "choices": {
+          "A": "The atmosphere",
+          "B": "The ocean water",
+          "C": "Earth's crust",
+          "D": "The inner core"
+        },
+        "correctAnswer": "C",
+        "explanation": "The tectonic plates make up Earth's crust, the outer solid layer.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q14",
+        "section": "science",
+        "question": "Which event is caused by tectonic plates sliding past each other?",
+        "choices": {
+          "A": "A rainbow",
+          "B": "An earthquake",
+          "C": "A sunny day",
+          "D": "A snowstorm"
+        },
+        "correctAnswer": "B",
+        "explanation": "When plates slide past each other, the sudden movement can cause an earthquake.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q15",
+        "section": "science",
+        "question": "Which result is matched with the correct plate motion?",
+        "choices": {
+          "A": "Plates push together → mountains build up",
+          "B": "Plates push together → the ocean disappears",
+          "C": "Plates slide past → mountains build up",
+          "D": "Plates pull apart → an earthquake is impossible"
+        },
+        "correctAnswer": "A",
+        "explanation": "When plates push together, the crust crumples upward and mountains build up.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q16",
+        "section": "science",
+        "question": "When two plates pull apart, new crust can form. This is MOST like which ocean-floor process?",
+        "choices": {
+          "A": "Weathering of rock on land",
+          "B": "Sea-floor spreading at a mid-ocean ridge",
+          "C": "Evaporation of ocean water",
+          "D": "Sand building up on a beach"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plates pulling apart and forming new crust is like sea-floor spreading at a mid-ocean ridge.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q17",
+        "section": "science",
+        "question": "Which is NOT a result of moving tectonic plates?",
+        "choices": {
+          "A": "Mountains being built",
+          "B": "Earthquakes happening",
+          "C": "Oceans opening up",
+          "D": "The Sun rising each morning"
+        },
+        "correctAnswer": "D",
+        "explanation": "Moving plates build mountains, cause earthquakes, and open oceans; the Sun rising is not caused by plate motion.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q18",
+        "section": "science",
+        "question": "The theory of plate tectonics helps explain BOTH continental drift and sea-floor spreading because it describes",
+        "choices": {
+          "A": "how the whole crust is divided into moving plates",
+          "B": "how the Sun gives off light",
+          "C": "how clouds turn into rain",
+          "D": "how plants grow toward sunlight"
+        },
+        "correctAnswer": "A",
+        "explanation": "Plate tectonics describes how the whole crust is divided into moving plates, tying together drift and spreading.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q19",
+        "section": "science",
+        "question": "Why do plates move so slowly that you cannot feel it day to day?",
+        "choices": {
+          "A": "They move only a few centimeters per year",
+          "B": "They move hundreds of miles per hour",
+          "C": "They are stuck and never move",
+          "D": "They move only at night"
+        },
+        "correctAnswer": "A",
+        "explanation": "Plates move only a few centimeters per year, far too slowly to feel day to day.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q20",
+        "section": "science",
+        "question": "A tall mountain range forms where two continents have collided. This is BEST explained by",
+        "choices": {
+          "A": "two plates pulling apart",
+          "B": "two plates pushing together",
+          "C": "plates that never moved",
+          "D": "ocean water freezing"
+        },
+        "correctAnswer": "B",
+        "explanation": "Two plates pushing together can collide and crumple the crust to form tall mountains.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q21",
+        "section": "science",
+        "question": "What is found just below the tectonic plates that allows them to move?",
+        "choices": {
+          "A": "A layer of solid ice",
+          "B": "The soft, slowly flowing mantle",
+          "C": "Empty space",
+          "D": "A layer of ocean water"
+        },
+        "correctAnswer": "B",
+        "explanation": "The soft, slowly flowing mantle lies below the plates and allows them to move.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q22",
+        "section": "science",
+        "question": "Which list shows THREE things plate movements can cause?",
+        "choices": {
+          "A": "Mountains, earthquakes, and volcanoes",
+          "B": "Rainbows, sunsets, and clouds",
+          "C": "Tides, breezes, and fog",
+          "D": "Stars, planets, and comets"
+        },
+        "correctAnswer": "A",
+        "explanation": "Plate movements can build mountains and cause earthquakes and volcanoes.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q23",
+        "section": "science",
+        "question": "How is plate tectonics different from the earlier idea of continental drift?",
+        "choices": {
+          "A": "Plate tectonics describes the moving plates that explain HOW the continents move, not just THAT they move",
+          "B": "They are exactly the same idea with no difference",
+          "C": "Plate tectonics says continents never move",
+          "D": "Continental drift describes plates and tectonics describes fossils"
+        },
+        "correctAnswer": "A",
+        "explanation": "Plate tectonics goes further than continental drift by describing the moving plates that explain how the continents move.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q24",
+        "section": "science",
+        "question": "A region has frequent earthquakes and volcanoes. A scientist would predict that this region is",
+        "choices": {
+          "A": "far from any plate boundary",
+          "B": "located near a boundary where plates meet",
+          "C": "in the exact center of a plate",
+          "D": "above the inner core"
+        },
+        "correctAnswer": "B",
+        "explanation": "Frequent earthquakes and volcanoes are signs the region is located near a boundary where plates meet.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q25",
+        "section": "science",
+        "question": "Which sentence correctly describes tectonic plates?",
+        "choices": {
+          "A": "They never move at all",
+          "B": "They are made of ocean water",
+          "C": "They are giant pieces of Earth's crust that slowly move",
+          "D": "They are tiny pieces smaller than a grain of sand"
+        },
+        "correctAnswer": "C",
+        "explanation": "Tectonic plates are giant pieces of Earth's crust that slowly move.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q26",
+        "section": "science",
+        "question": "When plates pull apart on the ocean floor, the gap is filled by",
+        "choices": {
+          "A": "falling rain",
+          "B": "blowing sand from a desert",
+          "C": "new crust forming as melted rock rises and cools",
+          "D": "ice from the poles"
+        },
+        "correctAnswer": "C",
+        "explanation": "When plates pull apart on the ocean floor, new crust forms as melted rock rises and cools.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q27",
+        "section": "science",
+        "question": "Over millions of years, the slow motion of plates can",
+        "choices": {
+          "A": "turn rock into the Sun",
+          "B": "make the surface freeze solid forever",
+          "C": "completely reshape Earth's surface",
+          "D": "stop the planet from spinning"
+        },
+        "correctAnswer": "C",
+        "explanation": "Over millions of years, the slow motion of plates can completely reshape Earth's surface.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q28",
+        "section": "science",
+        "question": "Which type of plate boundary is matched with the WRONG result?",
+        "choices": {
+          "A": "Plates pushing together → building mountains",
+          "B": "Plates pulling apart → opening oceans",
+          "C": "Plates sliding past → causing earthquakes",
+          "D": "Plates sliding past → making the Sun brighter"
+        },
+        "correctAnswer": "D",
+        "explanation": "Plates sliding past each other cause earthquakes; they do not make the Sun brighter, so that pairing is wrong.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q29",
+        "section": "science",
+        "question": "The theory of plate tectonics is important because it",
+        "choices": {
+          "A": "tells us the weather for tomorrow",
+          "B": "explains how stars are made",
+          "C": "explains many of Earth's features and events with one big idea",
+          "D": "describes how plants make seeds"
+        },
+        "correctAnswer": "C",
+        "explanation": "Plate tectonics is important because one big idea explains many of Earth's features and events, like mountains and earthquakes.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q30",
+        "section": "science",
+        "question": "If tectonic plates suddenly stopped moving forever, which would MOST likely happen?",
+        "choices": {
+          "A": "All rivers would dry up instantly",
+          "B": "The Sun would stop shining",
+          "C": "New mountains and ocean basins would stop forming from plate motion",
+          "D": "Plants would stop growing"
+        },
+        "correctAnswer": "C",
+        "explanation": "If plates stopped moving, new mountains and ocean basins would stop forming from plate motion.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q31",
+        "section": "science",
+        "question": "Which best describes a plate boundary?",
+        "choices": {
+          "A": "The center of a flat plain",
+          "B": "The middle of the ocean far from any plate",
+          "C": "The edge where one plate meets another plate",
+          "D": "The top layer of the atmosphere"
+        },
+        "correctAnswer": "C",
+        "explanation": "A plate boundary is the edge where one plate meets another plate.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q32",
+        "section": "science",
+        "question": "Two plates that push together cause the crust to",
+        "choices": {
+          "A": "turn into ocean water",
+          "B": "spread flat and disappear",
+          "C": "crumple and push up into mountains",
+          "D": "freeze into ice"
+        },
+        "correctAnswer": "C",
+        "explanation": "When plates push together, the crust crumples and pushes up into mountains.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q33",
+        "section": "science",
+        "question": "How does the theory of plate tectonics connect to sea-floor spreading?",
+        "choices": {
+          "A": "Plate tectonics only happens on land, never in the ocean",
+          "B": "They are not connected in any way",
+          "C": "Sea-floor spreading stops plates from moving",
+          "D": "Sea-floor spreading is one way plate boundaries form new crust as plates pull apart"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sea-floor spreading is one way plate boundaries form new crust as plates pull apart, so it fits within plate tectonics.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q34",
+        "section": "science",
+        "question": "Which statement about plate movement is TRUE?",
+        "choices": {
+          "A": "Plates move thousands of miles each year",
+          "B": "Plates never change Earth's surface",
+          "C": "Plates only move during the day",
+          "D": "Plates move a few centimeters each year, but the effects add up over time"
+        },
+        "correctAnswer": "D",
+        "explanation": "Plates move only a few centimeters each year, but the effects add up over a very long time.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q35",
+        "section": "science",
+        "question": "Why can plate tectonics be called a 'theory' in science?",
+        "choices": {
+          "A": "It is a wild guess with no support",
+          "B": "It is just a story people made up for fun",
+          "C": "It has never been tested",
+          "D": "It is a well-supported explanation backed by lots of evidence"
+        },
+        "correctAnswer": "D",
+        "explanation": "In science, plate tectonics is a theory because it is a well-supported explanation backed by lots of evidence.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q36",
+        "section": "science",
+        "question": "An ocean slowly grows wider over millions of years. This is BEST explained by plates that are",
+        "choices": {
+          "A": "pushing together",
+          "B": "sliding sideways past each other",
+          "C": "pulling apart",
+          "D": "completely still"
+        },
+        "correctAnswer": "C",
+        "explanation": "An ocean growing wider is best explained by plates pulling apart, which opens the ocean and forms new crust.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q37",
+        "section": "science",
+        "question": "Which is the BEST evidence that Earth's surface is still changing today?",
+        "choices": {
+          "A": "The Moon changes shape in the sky",
+          "B": "The Sun rises every morning",
+          "C": "Rain falls from clouds",
+          "D": "Earthquakes and volcanoes still happen along plate boundaries"
+        },
+        "correctAnswer": "D",
+        "explanation": "Earthquakes and volcanoes still happening along plate boundaries are evidence Earth's surface is still changing.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q38",
+        "section": "science",
+        "question": "Which correctly orders the size relationship?",
+        "choices": {
+          "A": "A tectonic plate is smaller than a single rock",
+          "B": "A tectonic plate is smaller than a grain of sand",
+          "C": "A tectonic plate and a pebble are the same size",
+          "D": "A tectonic plate is much larger than a single mountain"
+        },
+        "correctAnswer": "D",
+        "explanation": "Tectonic plates are giant pieces of crust, so a plate is much larger than a single mountain.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q39",
+        "section": "science",
+        "question": "What MAIN idea ties together drifting continents, sea-floor spreading, and plate tectonics?",
+        "choices": {
+          "A": "Fossils cause continents to move",
+          "B": "Earth's surface is frozen and never changes",
+          "C": "The Sun controls all of Earth's rocks",
+          "D": "Earth's surface is made of moving plates that slowly reshape the planet"
+        },
+        "correctAnswer": "D",
+        "explanation": "The main idea tying these lessons together is that Earth's surface is made of moving plates that slowly reshape the planet.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q40",
+        "section": "science",
+        "question": "A student wants to predict where the next big earthquake might strike. The BEST place to look is",
+        "choices": {
+          "A": "in the flat center of a large plate",
+          "B": "high in the clouds",
+          "C": "in the deepest part of a calm desert",
+          "D": "near a plate boundary where plates meet and move"
+        },
+        "correctAnswer": "D",
+        "explanation": "Earthquakes are most common near plate boundaries where plates meet and move, so that is the best place to predict one.",
+        "standard": "SC.6.E.6.1",
+        "difficulty": "medium"
+      }
     ]
   }
 }
