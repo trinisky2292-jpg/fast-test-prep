@@ -1,0 +1,222 @@
+{
+  "1-1": {
+    "title": "The Scientific Method & Investigations",
+    "standard": "SC.6.N.1.1",
+    "problems": [
+      { "q": "List the basic steps a scientist follows, in order, to answer a question using the scientific method.", "answer": "Ask a question, form a hypothesis, plan and do an investigation, collect and organize data, then draw a conclusion from the evidence." },
+      { "q": "Fill in the blank: A hypothesis is a smart guess that you can ____.", "answer": "test" },
+      { "q": "True or False: In an experiment, you change one variable on purpose to see what happens.", "answer": "True" },
+      { "q": "What is a systematic observation, and how is it different from an experiment?", "answer": "A systematic observation is when you watch and record carefully without changing anything; an experiment is when you change a variable on purpose." },
+      { "q": "Explain why a scientist should choose the right kind of investigation (experiment vs. observation) for the question being asked.", "answer": "Because some questions can only be answered by changing a variable, while others (like watching animals in nature) must be answered by observing without interfering. Choosing the right method gives valid, useful evidence." }
+    ]
+  },
+  "1-2": {
+    "title": "Why Experiments Must Be Repeatable",
+    "standard": "SC.6.N.1.2",
+    "problems": [
+      { "q": "Fill in the blank: When other people can do the same investigation and get the same answer, the result is said to be ____.", "answer": "replicable (repeatable)" },
+      { "q": "True or False: A result that no one else can reproduce is automatically trusted by scientists.", "answer": "False" },
+      { "q": "Why do scientists trust a result more when an experiment can be repeated with the same outcome?", "answer": "Repeated matching results show the outcome was not a one-time accident or mistake, making it more reliable." },
+      { "q": "Short answer: Give one reason a single experiment might give a wrong or misleading result.", "answer": "A mistake, error in measurement, or a one-time accident could cause a wrong result." },
+      { "q": "Explain why being repeatable makes a scientific finding stronger.", "answer": "If many people repeat the investigation and keep getting the same result, it confirms the finding is real and not chance, so scientists can rely on it." }
+    ]
+  },
+  "1-3": {
+    "title": "Theories, Laws, and Models",
+    "standard": "SC.6.N.3.1",
+    "problems": [
+      { "q": "In science, what does the word 'theory' mean?", "answer": "A well-tested, widely accepted explanation supported by a large amount of evidence." },
+      { "q": "True or False: In everyday talk a 'theory' means a wild guess, but in science it means a well-supported explanation.", "answer": "True" },
+      { "q": "Fill in the blank: A scientific ____ describes a relationship that always happens under certain conditions but does not explain why.", "answer": "law" },
+      { "q": "What is a scientific model, and why do scientists use them? Give one example.", "answer": "A model is something that represents a real thing that is too big, small, or far away to study directly, such as a globe or a diagram." },
+      { "q": "Explain the main difference between a scientific law and a scientific theory.", "answer": "A law describes what happens (a relationship that always occurs under set conditions), while a theory explains why it happens, backed by lots of evidence." }
+    ]
+  },
+  "1-4": {
+    "title": "Scientific Knowledge Can Change",
+    "standard": "SC.6.N.2.2",
+    "problems": [
+      { "q": "Fill in the blank: Scientific knowledge is ____, meaning it lasts and is reliable, but it is never completely finished.", "answer": "durable" },
+      { "q": "True or False: When scientists find new evidence, they may update what we know.", "answer": "True" },
+      { "q": "Why is the willingness to change scientific ideas considered a strength rather than a weakness?", "answer": "Because updating ideas with new evidence makes science more accurate over time." },
+      { "q": "Short answer: Name two places where creativity is needed in science.", "answer": "Designing clever experiments and imagining explanations that fit the evidence." },
+      { "q": "Explain what usually causes scientists to change or update an accepted idea.", "answer": "New evidence or a better explanation that fits the evidence more accurately causes scientists to update what we know." }
+    ]
+  },
+  "2-1": {
+    "title": "Earth's Layers: Crust, Mantle, Core",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "Name Earth's three main layers from outside to inside.", "answer": "Crust, mantle, core." },
+      { "q": "Fill in the blank: The thin outer layer of Earth that we live on is called the ____.", "answer": "crust" },
+      { "q": "True or False: Earth's outer core is liquid metal and its inner core is solid metal.", "answer": "True" },
+      { "q": "What happens to temperature and density as you go deeper into Earth?", "answer": "It gets hotter and denser the deeper you go." },
+      { "q": "Explain why the mantle is described as solid rock that can still flow.", "answer": "The mantle is solid rock, but it is so hot that over long periods of time it can slowly flow or move like a very thick material." }
+    ]
+  },
+  "2-2": {
+    "title": "Plate Tectonics & Moving Plates",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "Fill in the blank: Earth's crust is broken into giant pieces called ____ plates.", "answer": "tectonic" },
+      { "q": "About how fast do tectonic plates move?", "answer": "Just a few centimeters per year." },
+      { "q": "True or False: Earthquakes and volcanoes often happen where tectonic plates meet.", "answer": "True" },
+      { "q": "Name the three ways tectonic plates can move in relation to each other.", "answer": "They push together, pull apart, or slide past each other." },
+      { "q": "Explain why Earth's surface is always slowly changing.", "answer": "Because tectonic plates keep moving over millions of years, building mountains, opening oceans, and causing earthquakes and volcanoes, which reshapes the surface." }
+    ]
+  },
+  "2-3": {
+    "title": "Weathering, Erosion & Deposition",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "Define weathering.", "answer": "Weathering is when rock is broken into smaller pieces by water, ice, wind, or chemicals." },
+      { "q": "Fill in the blank: ____ is when broken pieces of rock are carried away by wind, water, or ice.", "answer": "Erosion" },
+      { "q": "True or False: Deposition is when rock pieces are dropped and build up land like sandbars and deltas.", "answer": "True" },
+      { "q": "Put these in the correct order: deposition, weathering, erosion.", "answer": "Weathering, erosion, deposition." },
+      { "q": "Explain how weathering, erosion, and deposition work together to reshape the land.", "answer": "Weathering breaks rock into pieces, erosion carries the pieces away, and deposition drops them in a new place, so land is torn down in one spot and built up in another." }
+    ]
+  },
+  "2-4": {
+    "title": "Landforms (and Florida's Landforms)",
+    "standard": "SC.6.E.6.2",
+    "problems": [
+      { "q": "What is a landform? Give two examples.", "answer": "A landform is a natural feature of Earth's surface, such as mountains and rivers (also coastlines, dunes, deltas, lakes, or glaciers)." },
+      { "q": "Fill in the blank: Rivers carve ____, while waves and wind shape sandy coastlines and dunes.", "answer": "valleys" },
+      { "q": "True or False: Florida has many tall mountains and glaciers.", "answer": "False" },
+      { "q": "Describe what Florida's landscape is mostly like.", "answer": "Florida is mostly flat and low, with long sandy coastlines, beaches, dunes, wetlands like the Everglades, and many lakes." },
+      { "q": "Explain why different forces produce different landforms.", "answer": "Different forces act in different ways, so rivers carve out valleys while waves and wind build up dunes and shape coastlines, creating different features." }
+    ]
+  },
+  "3-1": {
+    "title": "The Rock Cycle",
+    "standard": "SC.6.E.6.1",
+    "problems": [
+      { "q": "Name the three main types of rock.", "answer": "Igneous, sedimentary, and metamorphic." },
+      { "q": "Fill in the blank: ____ rock forms when melted rock cools and hardens.", "answer": "Igneous" },
+      { "q": "True or False: Metamorphic rock forms when heat and pressure change an existing rock.", "answer": "True" },
+      { "q": "How does sedimentary rock form?", "answer": "When bits of rock and sand are pressed and cemented together in layers." },
+      { "q": "Explain how one type of rock can become another type over time.", "answer": "Over millions of years rock can melt, break down, or get squeezed by heat and pressure, so any rock can change into any other type in the rock cycle." }
+    ]
+  },
+  "4-1": {
+    "title": "How Heat Moves: Radiation, Conduction, Convection",
+    "standard": "SC.6.E.7.1",
+    "problems": [
+      { "q": "Name the three ways heat moves.", "answer": "Radiation, conduction, and convection." },
+      { "q": "Fill in the blank: ____ is how the Sun's heat reaches Earth, traveling as rays through empty space.", "answer": "Radiation" },
+      { "q": "True or False: Conduction is heat passing directly from one touching object to another.", "answer": "True" },
+      { "q": "Describe how convection moves heat in a liquid or gas.", "answer": "Warm material rises and cool material sinks, creating circular currents that move heat." },
+      { "q": "Explain which type of heat transfer warms your hand when you touch a hot pan, and why.", "answer": "Conduction, because heat passes directly from the touching hot pan into your hand." }
+    ]
+  },
+  "4-2": {
+    "title": "Energy from the Sun Drives Earth's Patterns",
+    "standard": "SC.6.E.7.5",
+    "problems": [
+      { "q": "What is the main source of energy for almost everything on Earth?", "answer": "The Sun." },
+      { "q": "Fill in the blank: The ____ gets the most direct sunlight, while the poles get less.", "answer": "equator" },
+      { "q": "True or False: Land, water, and air all heat up and cool down at exactly the same speed.", "answer": "False" },
+      { "q": "Name two things created by the Sun's uneven heating of Earth.", "answer": "Wind and ocean currents (also weather)." },
+      { "q": "Explain why the Sun heats different parts of Earth by different amounts.", "answer": "Because Earth is round, sunlight hits the equator directly and the poles at a slant, so the equator receives more direct sunlight and heats more than the poles." }
+    ]
+  },
+  "4-3": {
+    "title": "Potential & Kinetic Energy",
+    "standard": "SC.6.P.11.1",
+    "problems": [
+      { "q": "What is kinetic energy?", "answer": "Kinetic energy is the energy of motion; any moving object has it." },
+      { "q": "Fill in the blank: ____ energy is stored energy because of an object's position, like a ball at the top of a hill.", "answer": "Potential" },
+      { "q": "True or False: According to the Law of Conservation of Energy, energy can be created and destroyed.", "answer": "False" },
+      { "q": "As a ball rolls down a hill, what energy change happens?", "answer": "Its potential energy changes into kinetic energy." },
+      { "q": "Explain what the Law of Conservation of Energy means.", "answer": "It means energy is never created or destroyed; it only changes from one form to another, such as potential energy turning into kinetic energy." }
+    ]
+  },
+  "5-1": {
+    "title": "Earth's Spheres Interacting",
+    "standard": "SC.6.E.7.4",
+    "problems": [
+      { "q": "Name Earth's five spheres.", "answer": "Geosphere, hydrosphere, cryosphere, atmosphere, and biosphere." },
+      { "q": "Fill in the blank: The ____ is all the living things on Earth.", "answer": "biosphere" },
+      { "q": "True or False: The hydrosphere is all the liquid water on Earth.", "answer": "True" },
+      { "q": "Which sphere is the frozen ice and snow?", "answer": "The cryosphere." },
+      { "q": "Explain, with an example, how two of Earth's spheres can interact.", "answer": "The spheres affect each other; for example, rain from the hydrosphere wears down mountains in the geosphere and gives water to plants in the biosphere." }
+    ]
+  },
+  "5-2": {
+    "title": "The Water Cycle",
+    "standard": "SC.6.E.7.2",
+    "problems": [
+      { "q": "Fill in the blank: ____ turns liquid water into water vapor when the Sun heats it.", "answer": "Evaporation" },
+      { "q": "What is condensation in the water cycle?", "answer": "Condensation is when water vapor cools and turns back into tiny liquid droplets, forming clouds." },
+      { "q": "True or False: Rain, snow, and hail are all forms of precipitation.", "answer": "True" },
+      { "q": "What provides the energy that drives the water cycle?", "answer": "The Sun's heat." },
+      { "q": "Explain the order of the main steps of the water cycle.", "answer": "The Sun causes evaporation of liquid water into vapor; the vapor cools and condenses into clouds; then it falls as precipitation, and the water collects to start the cycle again." }
+    ]
+  },
+  "5-3": {
+    "title": "The Atmosphere Protects Earth",
+    "standard": "SC.6.E.7.9",
+    "problems": [
+      { "q": "What is the atmosphere?", "answer": "The blanket of gases surrounding Earth." },
+      { "q": "Fill in the blank: ____ in the upper atmosphere blocks harmful ultraviolet rays from the Sun.", "answer": "Ozone" },
+      { "q": "True or False: The atmosphere burns up most meteors before they hit the ground.", "answer": "True" },
+      { "q": "Name two ways the atmosphere protects life on Earth.", "answer": "It blocks harmful ultraviolet rays with ozone and traps enough heat to keep Earth warm (it also burns up most meteors)." },
+      { "q": "Explain why Earth would be too cold and dangerous to live on without its atmosphere.", "answer": "The atmosphere traps heat to keep Earth warm, blocks harmful UV rays, and burns up meteors; without it, Earth would lose heat and be exposed to UV and impacts." }
+    ]
+  },
+  "6-1": {
+    "title": "Weather vs. Climate",
+    "standard": "SC.6.E.7.6",
+    "problems": [
+      { "q": "What is weather?", "answer": "Weather is what the atmosphere is doing right now or over a few days, like temperature, rain, or wind." },
+      { "q": "Fill in the blank: ____ is the average weather pattern of a place measured over many years.", "answer": "Climate" },
+      { "q": "True or False: One cool day in Miami means Miami has a cool climate.", "answer": "False" },
+      { "q": "Over what length of time is climate measured?", "answer": "Many years." },
+      { "q": "Explain the main difference between weather and climate.", "answer": "Weather is the short-term, day-to-day condition of the atmosphere, while climate is the average pattern of weather over many years in a place." }
+    ]
+  },
+  "6-2": {
+    "title": "Global Patterns: Jet Stream & Ocean Currents",
+    "standard": "SC.6.E.7.3",
+    "problems": [
+      { "q": "What is the jet stream?", "answer": "A fast river of high-altitude wind that pushes weather systems across the planet." },
+      { "q": "Fill in the blank: ____ are huge flows of warm and cold water that move heat around the globe.", "answer": "Ocean currents" },
+      { "q": "True or False: Ocean currents can affect the temperature and humidity of nearby land.", "answer": "True" },
+      { "q": "Name two measurable weather factors these global patterns help explain.", "answer": "Any two of: temperature, air pressure, wind speed, precipitation." },
+      { "q": "Explain how the jet stream and ocean currents affect the weather people feel locally.", "answer": "The jet stream steers weather systems across regions, and ocean currents carry warm or cold water that changes the temperature and humidity of nearby land, shaping local weather." }
+    ]
+  },
+  "6-3": {
+    "title": "Natural Disasters & Staying Safe in Florida",
+    "standard": "SC.6.E.7.7",
+    "problems": [
+      { "q": "Name two types of hazardous weather Florida faces.", "answer": "Any two of: hurricanes, lightning, flooding, intense sun." },
+      { "q": "Fill in the blank: To protect their skin from harmful ultraviolet rays, people use sunscreen, hats, and ____.", "answer": "shade" },
+      { "q": "True or False: Boarding up windows and keeping emergency supplies are ways to prepare for a hurricane.", "answer": "True" },
+      { "q": "List two things Floridians do to stay safe during hurricanes.", "answer": "Any two of: track storms, evacuate when told, board up windows, keep emergency supplies." },
+      { "q": "Explain why knowing the risks of hazardous weather helps a community.", "answer": "Knowing the risks lets people prepare and protect themselves and their homes ahead of time, which keeps the community ready and safer." }
+    ]
+  },
+  "7-1": {
+    "title": "The Solar System & Planets",
+    "standard": "SC.6.E.7.5",
+    "problems": [
+      { "q": "How many planets are in our solar system, and what holds them in orbit?", "answer": "Eight planets, held in orbit by the Sun's gravity." },
+      { "q": "Fill in the blank: The four inner planets are small and ____, while the four outer planets are huge balls of gas and ice.", "answer": "rocky" },
+      { "q": "True or False: Jupiter, Saturn, Uranus, and Neptune are the four outer planets.", "answer": "True" },
+      { "q": "What is an orbit?", "answer": "The path a planet travels around the Sun." },
+      { "q": "Explain why the planets stay in their orbits around the Sun.", "answer": "The Sun's powerful gravity pulls on the planets and holds them in their orbits instead of letting them drift away." }
+    ]
+  },
+  "7-2": {
+    "title": "Gravity & Forces",
+    "standard": "SC.6.P.13.2",
+    "problems": [
+      { "q": "What is a force?", "answer": "A push or a pull." },
+      { "q": "Fill in the blank: Gravity is the pull that every object with ____ has on every other object.", "answer": "mass" },
+      { "q": "True or False: Some forces, like gravity and magnetism, can act even without objects touching.", "answer": "True" },
+      { "q": "What two things make the pull of gravity between objects stronger?", "answer": "More mass and being closer together." },
+      { "q": "Explain what an unbalanced force can do to an object's motion.", "answer": "An unbalanced force can change an object's speed, its direction, or both." }
+    ]
+  }
+}

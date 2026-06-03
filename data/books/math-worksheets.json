@@ -1,0 +1,640 @@
+{
+  "1-1": {
+    "title": "Fluently add, subtract, and multiply decimals",
+    "standard": "MA.6.NSO.2.1",
+    "problems": [
+      { "q": "Add: 3.45 + 2.7", "answer": "6.15" },
+      { "q": "Subtract: 12.5 - 4.83", "answer": "7.67" },
+      { "q": "Multiply: 0.6 × 0.4", "answer": "0.24" },
+      { "q": "Multiply: 2.3 × 1.5", "answer": "3.45" },
+      { "q": "A notebook costs $1.25. Maria buys 3 notebooks and pays with a $5 bill. How much change does she get back?", "answer": "$1.25" }
+    ]
+  },
+  "1-2": {
+    "title": "Fluently divide whole numbers and decimals",
+    "standard": "MA.6.NSO.2.1",
+    "problems": [
+      { "q": "Divide: 144 ÷ 6", "answer": "24" },
+      { "q": "Divide: 8.4 ÷ 4", "answer": "2.1" },
+      { "q": "Divide: 9.6 ÷ 0.8", "answer": "12" },
+      { "q": "Divide: 7.5 ÷ 0.25", "answer": "30" },
+      { "q": "A 4.5-pound bag of rice is split evenly into 3 containers. How many pounds are in each container?", "answer": "1.5 pounds" }
+    ]
+  },
+  "1-3": {
+    "title": "Multiply fractions",
+    "standard": "MA.6.NSO.2.2",
+    "problems": [
+      { "q": "Multiply: 3/4 × 2/5", "answer": "3/10" },
+      { "q": "Multiply: 2/3 × 6/7", "answer": "4/7" },
+      { "q": "Multiply: 5/8 × 4/15", "answer": "1/6" },
+      { "q": "Find 2/3 of 9.", "answer": "6" },
+      { "q": "A recipe needs 3/4 cup of sugar. You make 1/2 of the recipe. How much sugar do you need?", "answer": "3/8 cup" }
+    ]
+  },
+  "1-4": {
+    "title": "Understand division with fractions",
+    "standard": "MA.6.NSO.2.2",
+    "problems": [
+      { "q": "How many 1/4-cup scoops are in 3 cups?", "answer": "12" },
+      { "q": "Divide: 6 ÷ 1/2", "answer": "12" },
+      { "q": "Write the reciprocal of 3/5.", "answer": "5/3" },
+      { "q": "How many 1/3 servings are in 5 cups of soup?", "answer": "15" },
+      { "q": "A ribbon is 4 feet long. How many 2/3-foot pieces can be cut from it?", "answer": "6" }
+    ]
+  },
+  "1-5": {
+    "title": "Divide fractions by fractions",
+    "standard": "MA.6.NSO.2.2",
+    "problems": [
+      { "q": "Divide: 3/4 ÷ 1/2", "answer": "3/2 (or 1 1/2)" },
+      { "q": "Divide: 2/3 ÷ 4/9", "answer": "3/2 (or 1 1/2)" },
+      { "q": "Divide: 5/6 ÷ 5/12", "answer": "2" },
+      { "q": "Divide: 1/2 ÷ 3/8", "answer": "4/3 (or 1 1/3)" },
+      { "q": "A board 7/8 foot long is cut into pieces each 7/16 foot long. How many pieces are there?", "answer": "2" }
+    ]
+  },
+  "1-6": {
+    "title": "Divide mixed numbers",
+    "standard": "MA.6.NSO.2.2",
+    "problems": [
+      { "q": "Divide: 2 1/2 ÷ 1 1/4", "answer": "2" },
+      { "q": "Divide: 3 1/3 ÷ 2/3", "answer": "5" },
+      { "q": "Divide: 4 1/2 ÷ 1/2", "answer": "9" },
+      { "q": "Divide: 2 2/3 ÷ 1 1/3", "answer": "2" },
+      { "q": "You have 5 1/4 cups of flour. Each loaf of bread needs 1 3/4 cups. How many loaves can you make?", "answer": "3" }
+    ]
+  },
+  "1-7": {
+    "title": "Solve problems with rational numbers",
+    "standard": "MA.6.NSO.2.3",
+    "problems": [
+      { "q": "A water bottle holds 0.75 liter. How many liters do 4 bottles hold?", "answer": "3 liters" },
+      { "q": "Jamal walks 1 1/2 miles each day. How many miles does he walk in 5 days?", "answer": "7 1/2 miles" },
+      { "q": "A pizza is cut into 8 slices. If you eat 3/8 of the pizza, how many slices did you eat?", "answer": "3 slices" },
+      { "q": "A phone costs $249.99. It is on sale for $40.50 off. What is the sale price?", "answer": "$209.49" },
+      { "q": "A 12.6-meter rope is cut into pieces that are each 2.1 meters long. How many pieces are made?", "answer": "6 pieces" }
+    ]
+  },
+  "2-1": {
+    "title": "Understand integers",
+    "standard": "MA.6.NSO.1.1",
+    "problems": [
+      { "q": "Write the opposite of -8.", "answer": "8" },
+      { "q": "A temperature is 7 degrees below zero. Write this as an integer.", "answer": "-7" },
+      { "q": "Which is greater: -3 or -10?", "answer": "-3" },
+      { "q": "Order from least to greatest: 4, -2, 0, -5.", "answer": "-5, -2, 0, 4" },
+      { "q": "A diver is 15 feet below sea level. Write the integer that represents her position.", "answer": "-15" }
+    ]
+  },
+  "2-2": {
+    "title": "Represent rational numbers on the number line",
+    "standard": "MA.6.NSO.1.1",
+    "problems": [
+      { "q": "Which number is farther to the LEFT on a number line: -1.5 or -0.5?", "answer": "-1.5" },
+      { "q": "What number is halfway between 0 and 1 on a number line?", "answer": "1/2 (0.5)" },
+      { "q": "Order from least to greatest: -1/2, 1/4, -3/4.", "answer": "-3/4, -1/2, 1/4" },
+      { "q": "On a number line, is 2/3 to the left or right of 1?", "answer": "Left" },
+      { "q": "Plot -2 1/2 on a number line. Between which two integers does it fall?", "answer": "Between -3 and -2" }
+    ]
+  },
+  "2-3": {
+    "title": "Absolute values of rational numbers",
+    "standard": "MA.6.NSO.1.3",
+    "problems": [
+      { "q": "Find |-9|.", "answer": "9" },
+      { "q": "Find |6|.", "answer": "6" },
+      { "q": "Find |-3.5|.", "answer": "3.5" },
+      { "q": "Which has the greater absolute value: -7 or 5?", "answer": "-7" },
+      { "q": "Find |-2/3|.", "answer": "2/3" }
+    ]
+  },
+  "2-4": {
+    "title": "Add integers",
+    "standard": "MA.6.NSO.4.1",
+    "problems": [
+      { "q": "Add: -6 + (-4)", "answer": "-10" },
+      { "q": "Add: (-6) + 9", "answer": "3" },
+      { "q": "Add: 8 + (-12)", "answer": "-4" },
+      { "q": "Add: -5 + 5", "answer": "0" },
+      { "q": "The temperature was -3°F and then rose 7 degrees. What is the new temperature?", "answer": "4°F" }
+    ]
+  },
+  "2-5": {
+    "title": "Subtract integers",
+    "standard": "MA.6.NSO.4.1",
+    "problems": [
+      { "q": "Subtract: 5 - 9", "answer": "-4" },
+      { "q": "Subtract: -3 - 6", "answer": "-9" },
+      { "q": "Subtract: 4 - (-7)", "answer": "11" },
+      { "q": "Subtract: -8 - (-2)", "answer": "-6" },
+      { "q": "The temperature dropped from 2°F to -5°F. How many degrees did it drop?", "answer": "7 degrees" }
+    ]
+  },
+  "2-6": {
+    "title": "Multiply integers",
+    "standard": "MA.6.NSO.4.2",
+    "problems": [
+      { "q": "Multiply: (-4) × 6", "answer": "-24" },
+      { "q": "Multiply: (-5) × (-3)", "answer": "15" },
+      { "q": "Multiply: 7 × (-2)", "answer": "-14" },
+      { "q": "Multiply: (-1) × (-1) × (-1)", "answer": "-1" },
+      { "q": "A diver descends 3 feet each second. Write a product and find his position after 5 seconds (start at 0).", "answer": "(-3) × 5 = -15 feet" }
+    ]
+  },
+  "2-7": {
+    "title": "Divide integers",
+    "standard": "MA.6.NSO.4.2",
+    "problems": [
+      { "q": "Divide: -20 ÷ 4", "answer": "-5" },
+      { "q": "Divide: -36 ÷ (-6)", "answer": "6" },
+      { "q": "Divide: 45 ÷ (-9)", "answer": "-5" },
+      { "q": "Divide: 0 ÷ (-7)", "answer": "0" },
+      { "q": "A submarine descends a total of -48 meters over 8 minutes at a steady rate. What is its change in depth per minute?", "answer": "-6 meters per minute" }
+    ]
+  },
+  "2-8": {
+    "title": "Solve problems with absolute value",
+    "standard": "MA.6.NSO.1.4",
+    "problems": [
+      { "q": "A bank account shows a balance of -$45. What is the absolute value, and what does it represent?", "answer": "45; the amount of money owed" },
+      { "q": "The temperature changed from 5°F to -8°F. Use absolute value to find the total change in degrees.", "answer": "13 degrees" },
+      { "q": "Which represents the bigger debt: an account at -$30 or an account at -$50?", "answer": "-$50 (it has the greater absolute value)" },
+      { "q": "A fish is at -12 feet and a bird is at +12 feet. How far is each from sea level?", "answer": "12 feet each" },
+      { "q": "An elevator goes from floor -3 to floor 4. How many floors did it travel?", "answer": "7 floors" }
+    ]
+  },
+  "3-1": {
+    "title": "Understand, represent, and evaluate exponents",
+    "standard": "MA.6.NSO.3.3",
+    "problems": [
+      { "q": "Evaluate: 2^4", "answer": "16" },
+      { "q": "Evaluate: 5^2", "answer": "25" },
+      { "q": "Evaluate: 10^3", "answer": "1000" },
+      { "q": "Write 3 × 3 × 3 × 3 using an exponent, then evaluate.", "answer": "3^4 = 81" },
+      { "q": "Evaluate: 1^7", "answer": "1" }
+    ]
+  },
+  "3-2": {
+    "title": "Find the greatest common factor",
+    "standard": "MA.6.NSO.3.1",
+    "problems": [
+      { "q": "Find the GCF of 12 and 18.", "answer": "6" },
+      { "q": "Find the GCF of 24 and 36.", "answer": "12" },
+      { "q": "Find the GCF of 15 and 20.", "answer": "5" },
+      { "q": "Find the GCF of 7 and 21.", "answer": "7" },
+      { "q": "A baker has 16 muffins and 24 cookies. What is the greatest number of identical bags she can make using all the items?", "answer": "8 bags" }
+    ]
+  },
+  "3-3": {
+    "title": "Write and evaluate numerical expressions",
+    "standard": "MA.6.AR.1.3",
+    "problems": [
+      { "q": "Evaluate: 4 + 3 × 2", "answer": "10" },
+      { "q": "Evaluate: (8 - 3) × 4", "answer": "20" },
+      { "q": "Evaluate: 2^3 + 6 ÷ 2", "answer": "11" },
+      { "q": "Evaluate: 20 - 2 × (3 + 1)", "answer": "12" },
+      { "q": "Evaluate: 18 ÷ 3 + 5 × 2", "answer": "16" }
+    ]
+  },
+  "3-4": {
+    "title": "Write algebraic expressions",
+    "standard": "MA.6.AR.1.1",
+    "problems": [
+      { "q": "Write an expression: 'five more than a number n.'", "answer": "n + 5" },
+      { "q": "Write an expression: 'a number x decreased by 8.'", "answer": "x - 8" },
+      { "q": "Write an expression: 'the product of 7 and a number y.'", "answer": "7y" },
+      { "q": "Write an expression: 'a number d divided by 4.'", "answer": "d/4" },
+      { "q": "Write an expression: 'twice a number m, plus 3.'", "answer": "2m + 3" }
+    ]
+  },
+  "3-5": {
+    "title": "Evaluate algebraic expressions",
+    "standard": "MA.6.AR.1.3",
+    "problems": [
+      { "q": "Evaluate 2x + 1 when x = 3.", "answer": "7" },
+      { "q": "Evaluate 5n - 4 when n = 2.", "answer": "6" },
+      { "q": "Evaluate a^2 + 3 when a = 4.", "answer": "19" },
+      { "q": "Evaluate 3(x + 2) when x = 5.", "answer": "21" },
+      { "q": "A taxi charges 3 + 2m dollars for a ride of m miles. Find the cost for a 6-mile ride.", "answer": "$15" }
+    ]
+  },
+  "3-6": {
+    "title": "Apply properties of operations",
+    "standard": "MA.6.AR.1.4",
+    "problems": [
+      { "q": "Use the distributive property to expand: 3(x + 4).", "answer": "3x + 12" },
+      { "q": "Use the distributive property to expand: 5(2x + 1).", "answer": "10x + 5" },
+      { "q": "Use the distributive property to expand: 2(x - 6).", "answer": "2x - 12" },
+      { "q": "Factor out the GCF: 6x + 9.", "answer": "3(2x + 3)" },
+      { "q": "Use the distributive property to expand: 4(3 + 2y).", "answer": "12 + 8y" }
+    ]
+  },
+  "3-7": {
+    "title": "Simplify algebraic expressions",
+    "standard": "MA.6.AR.1.4",
+    "problems": [
+      { "q": "Simplify: 4x + 2x", "answer": "6x" },
+      { "q": "Simplify: 7y - 3y", "answer": "4y" },
+      { "q": "Simplify: 3x + 5 + 2x", "answer": "5x + 5" },
+      { "q": "Simplify: 8a + 2b - 3a", "answer": "5a + 2b" },
+      { "q": "Simplify: 6m + 4 - m - 1", "answer": "5m + 3" }
+    ]
+  },
+  "4-1": {
+    "title": "Understand equations and solutions",
+    "standard": "MA.6.AR.2.1",
+    "problems": [
+      { "q": "Is x = 4 a solution to x + 3 = 7?", "answer": "Yes" },
+      { "q": "Is x = 5 a solution to 2x = 8?", "answer": "No" },
+      { "q": "Which value is the solution to n - 2 = 6: n = 4 or n = 8?", "answer": "n = 8" },
+      { "q": "Is y = 3 a solution to 4y = 12?", "answer": "Yes" },
+      { "q": "Is x = 10 a solution to x/2 = 4?", "answer": "No" }
+    ]
+  },
+  "4-2": {
+    "title": "Apply properties of equality",
+    "standard": "MA.6.AR.2.1",
+    "problems": [
+      { "q": "To solve x + 5 = 9, what operation should you do to both sides?", "answer": "Subtract 5" },
+      { "q": "To solve x - 4 = 10, what operation should you do to both sides?", "answer": "Add 4" },
+      { "q": "To solve 3x = 15, what operation should you do to both sides?", "answer": "Divide by 3" },
+      { "q": "To solve x/2 = 6, what operation should you do to both sides?", "answer": "Multiply by 2" },
+      { "q": "If a = b, and you add 7 to side a, what must you do to side b to keep it balanced?", "answer": "Add 7" }
+    ]
+  },
+  "4-3": {
+    "title": "Write and solve addition and subtraction equations",
+    "standard": "MA.6.AR.2.2",
+    "problems": [
+      { "q": "Solve: x + 7 = 12", "answer": "x = 5" },
+      { "q": "Solve: x - 4 = 9", "answer": "x = 13" },
+      { "q": "Solve: 15 = x + 6", "answer": "x = 9" },
+      { "q": "Solve: x - 11 = 3", "answer": "x = 14" },
+      { "q": "Maria had some stickers. After getting 8 more, she has 20. Write and solve an equation for how many she started with.", "answer": "x + 8 = 20; x = 12" }
+    ]
+  },
+  "4-4": {
+    "title": "Write and solve multiplication and division equations",
+    "standard": "MA.6.AR.2.3",
+    "problems": [
+      { "q": "Solve: 4x = 20", "answer": "x = 5" },
+      { "q": "Solve: x/3 = 6", "answer": "x = 18" },
+      { "q": "Solve: 7x = 56", "answer": "x = 8" },
+      { "q": "Solve: x/5 = 9", "answer": "x = 45" },
+      { "q": "Six friends share a bag of marbles equally and each gets 9. Write and solve an equation for the total number of marbles.", "answer": "x/6 = 9; x = 54" }
+    ]
+  },
+  "4-5": {
+    "title": "Write and solve equations with rational numbers",
+    "standard": "MA.6.AR.2.4",
+    "problems": [
+      { "q": "Solve: x + 2.5 = 6", "answer": "x = 3.5" },
+      { "q": "Solve: x - 1.2 = 4.8", "answer": "x = 6" },
+      { "q": "Solve: 0.5x = 4", "answer": "x = 8" },
+      { "q": "Solve: x + 1/4 = 3/4", "answer": "x = 1/2" },
+      { "q": "Solve: 2/3 x = 8", "answer": "x = 12" }
+    ]
+  },
+  "4-6": {
+    "title": "Understand and write inequalities",
+    "standard": "MA.6.AR.1.2",
+    "problems": [
+      { "q": "Write an inequality: 'a number x is at least 10.'", "answer": "x ≥ 10" },
+      { "q": "Write an inequality: 'a number n is less than 5.'", "answer": "n < 5" },
+      { "q": "Write an inequality: 'you must be at most 12 years old (age a).'", "answer": "a ≤ 12" },
+      { "q": "Is x = 8 a solution to x > 5?", "answer": "Yes" },
+      { "q": "Write an inequality: 'the speed s is more than 60 mph.'", "answer": "s > 60" }
+    ]
+  },
+  "4-7": {
+    "title": "Represent solutions to inequalities",
+    "standard": "MA.6.AR.1.2",
+    "problems": [
+      { "q": "When graphing x > 3 on a number line, do you use an open or closed circle at 3?", "answer": "Open circle" },
+      { "q": "When graphing x ≤ 7 on a number line, do you use an open or closed circle at 7?", "answer": "Closed circle" },
+      { "q": "For x < 2, do you shade to the left or right of 2?", "answer": "Left" },
+      { "q": "For x ≥ -1, do you shade to the left or right of -1?", "answer": "Right" },
+      { "q": "Name one whole number that is a solution to x ≥ 4.", "answer": "Any whole number 4 or greater (e.g., 5)" }
+    ]
+  },
+  "5-1": {
+    "title": "Understand ratios",
+    "standard": "MA.6.AR.3.1",
+    "problems": [
+      { "q": "A box has 3 red pens and 5 blue pens. Write the ratio of red to blue pens.", "answer": "3:5" },
+      { "q": "In a class there are 12 boys and 16 girls. Write the ratio of boys to girls in simplest form.", "answer": "3:4" },
+      { "q": "A fruit bowl has 4 apples and 6 oranges. Write the ratio of apples to total fruit.", "answer": "4:10 (or 2:5)" },
+      { "q": "A recipe uses 2 cups flour to 3 cups water. Write the ratio of water to flour.", "answer": "3:2" },
+      { "q": "There are 9 cats and 6 dogs. Write the ratio of dogs to cats in simplest form.", "answer": "2:3" }
+    ]
+  },
+  "5-2": {
+    "title": "Generate equivalent ratios",
+    "standard": "MA.6.AR.3.3",
+    "problems": [
+      { "q": "Write a ratio equivalent to 3:2 by multiplying both parts by 3.", "answer": "9:6" },
+      { "q": "Simplify the ratio 12:8 to its lowest terms.", "answer": "3:2" },
+      { "q": "Fill in the blank: 2:5 = 8:___", "answer": "20" },
+      { "q": "Fill in the blank: 4:6 = ___:3", "answer": "2" },
+      { "q": "A recipe uses 1 cup sugar for every 2 cups flour. How much sugar is needed for 10 cups of flour?", "answer": "5 cups" }
+    ]
+  },
+  "5-3": {
+    "title": "Compare ratios",
+    "standard": "MA.6.AR.3.3",
+    "problems": [
+      { "q": "Which is a steeper mix of juice: 2 cups juice to 3 cups water, or 3 cups juice to 5 cups water? (Higher juice fraction wins.)", "answer": "2:3 (it is 10:15 vs 9:15)" },
+      { "q": "Store A sells 4 pens for $2. Store B sells 6 pens for $4. Which store has the lower price per pen?", "answer": "Store A ($0.50 per pen vs $0.67)" },
+      { "q": "Are the ratios 3:4 and 9:12 equivalent?", "answer": "Yes" },
+      { "q": "Team Red won 3 of 5 games. Team Blue won 5 of 8 games. Which team has the higher win ratio? (Compare 24/40 vs 25/40.)", "answer": "Team Blue" },
+      { "q": "Which ratio is larger: 5:10 or 3:5?", "answer": "3:5 (0.6 vs 0.5)" }
+    ]
+  },
+  "5-4": {
+    "title": "Represent and graph ratios",
+    "standard": "MA.6.AR.3.3",
+    "problems": [
+      { "q": "The ratio of apples to dollars is 2:1. Write the ordered pair (apples, dollars) for 6 apples.", "answer": "(6, 3)" },
+      { "q": "A ratio table shows 1:3, 2:6, 3:9. What ordered pair comes next for the value 4?", "answer": "(4, 12)" },
+      { "q": "Equivalent ratios graphed as points form what kind of line, and through which point does it pass?", "answer": "A straight line through the origin (0,0)" },
+      { "q": "For the ratio 1 hour : 4 miles, list the ordered pairs (hours, miles) for 1, 2, and 3 hours.", "answer": "(1,4), (2,8), (3,12)" },
+      { "q": "A point on the ratio line is (5, 10). What is the ratio of x to y in simplest form?", "answer": "1:2" }
+    ]
+  },
+  "5-5": {
+    "title": "Understand rates and unit rates",
+    "standard": "MA.6.AR.3.2",
+    "problems": [
+      { "q": "A car travels 150 miles in 3 hours. What is the unit rate in miles per hour?", "answer": "50 miles per hour" },
+      { "q": "8 apples cost $4. What is the unit price per apple?", "answer": "$0.50 per apple" },
+      { "q": "A printer prints 90 pages in 5 minutes. How many pages per minute?", "answer": "18 pages per minute" },
+      { "q": "A runner goes 12 km in 4 hours. What is the unit rate in km per hour?", "answer": "3 km per hour" },
+      { "q": "A 12-ounce bottle of juice costs $3. What is the cost per ounce?", "answer": "$0.25 per ounce" }
+    ]
+  },
+  "5-6": {
+    "title": "Compare unit rates",
+    "standard": "MA.6.AR.3.2",
+    "problems": [
+      { "q": "Brand A: 6 bars for $3. Brand B: 10 bars for $4. Which is the better buy (lower cost per bar)?", "answer": "Brand B ($0.40 vs $0.50 per bar)" },
+      { "q": "Car X goes 120 miles on 4 gallons. Car Y goes 150 miles on 6 gallons. Which gets more miles per gallon?", "answer": "Car X (30 mpg vs 25 mpg)" },
+      { "q": "A 16-oz drink costs $2.00 and a 24-oz drink costs $2.40. Which has the lower price per ounce?", "answer": "24-oz ($0.10 vs $0.125 per oz)" },
+      { "q": "Worker A makes 24 parts in 3 hours. Worker B makes 35 parts in 5 hours. Who is faster per hour?", "answer": "Worker A (8 per hour vs 7 per hour)" },
+      { "q": "Store 1: 5 lbs for $10. Store 2: 8 lbs for $12. Which store is cheaper per pound?", "answer": "Store 2 ($1.50 vs $2.00 per pound)" }
+    ]
+  },
+  "5-7": {
+    "title": "Solve unit rate problems",
+    "standard": "MA.6.AR.3.5",
+    "problems": [
+      { "q": "A car uses gas at 30 miles per gallon. How far can it go on 12 gallons?", "answer": "360 miles" },
+      { "q": "Apples cost $0.50 each. How much do 14 apples cost?", "answer": "$7.00" },
+      { "q": "A typist types 40 words per minute. How many words in 9 minutes?", "answer": "360 words" },
+      { "q": "A faucet fills 3 gallons per minute. How long to fill a 21-gallon tub?", "answer": "7 minutes" },
+      { "q": "If 5 notebooks cost $7.50, how much would 8 notebooks cost?", "answer": "$12.00" }
+    ]
+  },
+  "5-8": {
+    "title": "Ratio reasoning: convert customary units",
+    "standard": "MA.6.AR.3.5",
+    "problems": [
+      { "q": "Convert 4 feet to inches (12 inches = 1 foot).", "answer": "48 inches" },
+      { "q": "Convert 36 inches to feet.", "answer": "3 feet" },
+      { "q": "Convert 2 pounds to ounces (16 ounces = 1 pound).", "answer": "32 ounces" },
+      { "q": "Convert 5 yards to feet (3 feet = 1 yard).", "answer": "15 feet" },
+      { "q": "Convert 2 gallons to quarts (4 quarts = 1 gallon).", "answer": "8 quarts" }
+    ]
+  },
+  "5-9": {
+    "title": "Ratio reasoning: convert metric units",
+    "standard": "MA.6.AR.3.5",
+    "problems": [
+      { "q": "Convert 3 meters to centimeters (1 meter = 100 cm).", "answer": "300 centimeters" },
+      { "q": "Convert 5000 grams to kilograms (1 kg = 1000 g).", "answer": "5 kilograms" },
+      { "q": "Convert 2.5 liters to milliliters (1 L = 1000 mL).", "answer": "2500 milliliters" },
+      { "q": "Convert 450 centimeters to meters.", "answer": "4.5 meters" },
+      { "q": "Convert 4 kilometers to meters (1 km = 1000 m).", "answer": "4000 meters" }
+    ]
+  },
+  "6-1": {
+    "title": "Understand percent",
+    "standard": "MA.6.NSO.3.5",
+    "problems": [
+      { "q": "Write 25% as a fraction out of 100.", "answer": "25/100 (or 1/4)" },
+      { "q": "Write 60% as a decimal.", "answer": "0.6" },
+      { "q": "What percent is shaded if 40 out of 100 squares are colored?", "answer": "40%" },
+      { "q": "Write 7% as a decimal.", "answer": "0.07" },
+      { "q": "If 3 out of 4 students passed, what percent passed?", "answer": "75%" }
+    ]
+  },
+  "6-2": {
+    "title": "Relate fractions, decimals, and percents",
+    "standard": "MA.6.NSO.3.5",
+    "problems": [
+      { "q": "Write 1/2 as a percent.", "answer": "50%" },
+      { "q": "Write 0.35 as a percent.", "answer": "35%" },
+      { "q": "Write 80% as a decimal.", "answer": "0.8" },
+      { "q": "Write 3/5 as a decimal and a percent.", "answer": "0.6 and 60%" },
+      { "q": "Write 0.25 as a fraction in simplest form.", "answer": "1/4" }
+    ]
+  },
+  "6-3": {
+    "title": "Represent percents greater than 100 or less than 1",
+    "standard": "MA.6.NSO.3.5",
+    "problems": [
+      { "q": "Write 150% as a decimal.", "answer": "1.5" },
+      { "q": "Write 0.5% as a decimal.", "answer": "0.005" },
+      { "q": "Write 200% as a whole number.", "answer": "2" },
+      { "q": "Write 125% as a fraction in simplest form.", "answer": "5/4 (or 1 1/4)" },
+      { "q": "Write the decimal 2.4 as a percent.", "answer": "240%" }
+    ]
+  },
+  "6-4": {
+    "title": "Estimate to find percent",
+    "standard": "MA.6.AR.3.4",
+    "problems": [
+      { "q": "Estimate 10% of 80.", "answer": "8" },
+      { "q": "Estimate 5% of 200 (half of 10%).", "answer": "10" },
+      { "q": "Estimate 20% of 50 (double 10%).", "answer": "10" },
+      { "q": "About how much is a 10% tip on a $39.50 bill (round to $40)?", "answer": "About $4" },
+      { "q": "Estimate 25% of 80 (one fourth).", "answer": "20" }
+    ]
+  },
+  "6-5": {
+    "title": "Find the percent of a number",
+    "standard": "MA.6.AR.3.4",
+    "problems": [
+      { "q": "Find 20% of 60.", "answer": "12" },
+      { "q": "Find 50% of 84.", "answer": "42" },
+      { "q": "Find 15% of 200.", "answer": "30" },
+      { "q": "Find 30% of 90.", "answer": "27" },
+      { "q": "A $40 shirt is 25% off. How much is the discount in dollars?", "answer": "$10" }
+    ]
+  },
+  "6-6": {
+    "title": "Find the whole given the part and the percent",
+    "standard": "MA.6.AR.3.4",
+    "problems": [
+      { "q": "12 is 20% of what number?", "answer": "60" },
+      { "q": "15 is 50% of what number?", "answer": "30" },
+      { "q": "9 is 25% of what number?", "answer": "36" },
+      { "q": "30 is 10% of what number?", "answer": "300" },
+      { "q": "A team won 18 games, which was 60% of all its games. How many games did the team play in all?", "answer": "30 games" }
+    ]
+  },
+  "7-1": {
+    "title": "Represent rational numbers on the coordinate plane",
+    "standard": "MA.6.GR.1.1",
+    "problems": [
+      { "q": "In which quadrant is the point (-3, 4) located?", "answer": "Quadrant II" },
+      { "q": "In which quadrant is the point (2, -5) located?", "answer": "Quadrant IV" },
+      { "q": "What are the coordinates of the origin?", "answer": "(0, 0)" },
+      { "q": "Starting at the origin, where do you end up for the point (4, -2)?", "answer": "4 right, 2 down" },
+      { "q": "In which quadrant is the point (-1, -6) located?", "answer": "Quadrant III" }
+    ]
+  },
+  "7-2": {
+    "title": "Solve problems on the coordinate plane",
+    "standard": "MA.6.GR.1.3",
+    "problems": [
+      { "q": "Find the distance between (2, 3) and (2, 8).", "answer": "5 units" },
+      { "q": "Find the distance between (-4, 1) and (6, 1).", "answer": "10 units" },
+      { "q": "A rectangle has corners at (0,0), (6,0), (6,4), and (0,4). What is its perimeter?", "answer": "20 units" },
+      { "q": "A rectangle has corners at (0,0), (6,0), (6,4), and (0,4). What is its area?", "answer": "24 square units" },
+      { "q": "Find the distance between (-2, -3) and (-2, 5).", "answer": "8 units" }
+    ]
+  },
+  "7-3": {
+    "title": "Derive and apply the triangle area formula",
+    "standard": "MA.6.GR.2.1",
+    "problems": [
+      { "q": "Find the area of a triangle with base 10 cm and height 6 cm.", "answer": "30 square cm" },
+      { "q": "Find the area of a triangle with base 8 in and height 5 in.", "answer": "20 square in" },
+      { "q": "Find the area of a triangle with base 12 m and height 7 m.", "answer": "42 square m" },
+      { "q": "A triangular flag has base 9 ft and height 4 ft. What is its area?", "answer": "18 square ft" },
+      { "q": "Find the area of a triangle with base 3 cm and height 14 cm.", "answer": "21 square cm" }
+    ]
+  },
+  "7-4": {
+    "title": "Decompose polygons into triangles and rectangles",
+    "standard": "MA.6.GR.2.2",
+    "problems": [
+      { "q": "An L-shape is made of a 4×2 rectangle and a 3×2 rectangle. What is the total area?", "answer": "14 square units" },
+      { "q": "A figure is a 6×4 rectangle with a triangle (base 6, height 2) on top. Find the total area.", "answer": "30 square units" },
+      { "q": "A shape splits into a rectangle of area 18 and a triangle of area 9. What is the total area?", "answer": "27 square units" },
+      { "q": "A 5×5 square has a triangle (base 5, height 4) attached. Find the total area.", "answer": "35 square units" },
+      { "q": "A figure breaks into two rectangles, 3×3 and 7×2. Find the total area.", "answer": "23 square units" }
+    ]
+  },
+  "7-5": {
+    "title": "Represent solid figures using nets",
+    "standard": "MA.6.GR.2.4",
+    "problems": [
+      { "q": "How many faces does the net of a cube have?", "answer": "6 faces" },
+      { "q": "How many rectangular faces does the net of a rectangular prism (box) have?", "answer": "6 faces" },
+      { "q": "A square pyramid's net has 1 square base. How many triangular faces does it have?", "answer": "4 triangles" },
+      { "q": "A triangular prism's net has how many rectangular faces and how many triangular faces?", "answer": "3 rectangles and 2 triangles" },
+      { "q": "If a net has 6 identical squares, what solid figure does it fold into?", "answer": "A cube" }
+    ]
+  },
+  "7-6": {
+    "title": "Find surface areas of prisms",
+    "standard": "MA.6.GR.2.4",
+    "problems": [
+      { "q": "Find the surface area of a cube with edge length 3 cm.", "answer": "54 square cm" },
+      { "q": "Find the surface area of a rectangular prism with length 4, width 3, and height 2.", "answer": "52 square units" },
+      { "q": "Find the surface area of a cube with edge length 5 in.", "answer": "150 square in" },
+      { "q": "A box is 6 cm by 2 cm by 4 cm. What is its surface area?", "answer": "88 square cm" },
+      { "q": "Find the surface area of a rectangular prism that is 10 by 1 by 1.", "answer": "42 square units" }
+    ]
+  },
+  "7-7": {
+    "title": "Find surface areas of pyramids",
+    "standard": "MA.6.GR.2.4",
+    "problems": [
+      { "q": "A square pyramid has a base of 4×4 and 4 triangular faces each with area 6. Find the total surface area.", "answer": "40 square units" },
+      { "q": "A square pyramid has a base area of 25 and 4 triangular faces each with area 10. Find the surface area.", "answer": "65 square units" },
+      { "q": "A square pyramid has base side 6 (base area 36) and each triangle face has area 15. Find the total surface area.", "answer": "96 square units" },
+      { "q": "A square pyramid has base 5×5 with 4 triangular faces of area 12.5 each. Find the surface area.", "answer": "75 square units" },
+      { "q": "A square pyramid has base area 16 and slant triangles of area 8 each (4 of them). Find the surface area.", "answer": "48 square units" }
+    ]
+  },
+  "7-8": {
+    "title": "Find volume with fractional edge lengths",
+    "standard": "MA.6.GR.2.3",
+    "problems": [
+      { "q": "Find the volume of a rectangular prism with length 5, width 4, and height 3.", "answer": "60 cubic units" },
+      { "q": "Find the volume of a box that is 1/2 by 1/2 by 1/2.", "answer": "1/8 cubic units" },
+      { "q": "Find the volume of a prism with length 2 1/2, width 2, and height 4.", "answer": "20 cubic units" },
+      { "q": "Find the volume of a box that is 3 by 1/2 by 4.", "answer": "6 cubic units" },
+      { "q": "A fish tank is 1.5 m long, 0.5 m wide, and 0.4 m tall. Find its volume.", "answer": "0.3 cubic meters" }
+    ]
+  },
+  "8-1": {
+    "title": "Recognize statistical questions",
+    "standard": "MA.6.DP.1.1",
+    "problems": [
+      { "q": "Is this a statistical question? 'How old am I?'", "answer": "No" },
+      { "q": "Is this a statistical question? 'How tall are the students in my class?'", "answer": "Yes" },
+      { "q": "Is this a statistical question? 'What is my shoe size?'", "answer": "No" },
+      { "q": "Is this a statistical question? 'How many minutes did each student spend on homework last night?'", "answer": "Yes" },
+      { "q": "Is this a statistical question? 'How many pets do students at my school have?'", "answer": "Yes" }
+    ]
+  },
+  "8-2": {
+    "title": "Summarize data using mean, median, mode, and range",
+    "standard": "MA.6.DP.1.2",
+    "problems": [
+      { "q": "Find the mean of 4, 6, 8, 10, 12.", "answer": "8" },
+      { "q": "Find the median of 3, 7, 9, 12, 15.", "answer": "9" },
+      { "q": "Find the mode of 2, 5, 5, 7, 9.", "answer": "5" },
+      { "q": "Find the range of 14, 6, 20, 9.", "answer": "14" },
+      { "q": "Find the median of 4, 8, 10, 12.", "answer": "9" }
+    ]
+  },
+  "8-3": {
+    "title": "Describe and interpret line plots",
+    "standard": "MA.6.DP.1.3",
+    "problems": [
+      { "q": "A line plot shows: 2 has 3 Xs, 3 has 1 X, 4 has 2 Xs. How many data points are there in all?", "answer": "6" },
+      { "q": "On the same line plot (2:3 Xs, 3:1 X, 4:2 Xs), which value appears most often?", "answer": "2" },
+      { "q": "On the same line plot, what is the range (highest value minus lowest value)?", "answer": "2" },
+      { "q": "A line plot of pets shows 0:4, 1:3, 2:2, 3:1 (value:Xs). How many students have at least 2 pets?", "answer": "3 students" },
+      { "q": "On the pets line plot (0:4, 1:3, 2:2, 3:1), how many students were surveyed in all?", "answer": "10 students" }
+    ]
+  },
+  "8-4": {
+    "title": "Display data in frequency tables and histograms",
+    "standard": "MA.6.DP.1.4",
+    "problems": [
+      { "q": "A frequency table has bins 0-9: 5, 10-19: 8, 20-29: 2. How many data values are there in all?", "answer": "15" },
+      { "q": "Using the same table (0-9:5, 10-19:8, 20-29:2), which interval has the most values?", "answer": "10-19" },
+      { "q": "Using the same table, how many values are 10 or greater?", "answer": "10" },
+      { "q": "A histogram has bars: 60-69: 3, 70-79: 6, 80-89: 4, 90-99: 2. How many scores were 80 or above?", "answer": "6" },
+      { "q": "On the same histogram (60-69:3, 70-79:6, 80-89:4, 90-99:2), how many scores were recorded in total?", "answer": "15" }
+    ]
+  },
+  "8-5": {
+    "title": "Display data in box plots",
+    "standard": "MA.6.DP.1.5",
+    "problems": [
+      { "q": "For the data 2, 4, 6, 8, 10, what is the minimum and maximum?", "answer": "Minimum 2, maximum 10" },
+      { "q": "For the data 2, 4, 6, 8, 10, what is the median?", "answer": "6" },
+      { "q": "A box plot has minimum 10 and maximum 40. What is the range?", "answer": "30" },
+      { "q": "A box plot has lower quartile 15 and upper quartile 35. What is the interquartile range (IQR)?", "answer": "20" },
+      { "q": "For the data 1, 3, 5, 7, 9, 11, 13, find the median (the middle value).", "answer": "7" }
+    ]
+  },
+  "8-6": {
+    "title": "Determine how data changes impact statistical measures",
+    "standard": "MA.6.DP.1.6",
+    "problems": [
+      { "q": "The set 4, 6, 8 has a mean of 6. If you add the value 12, what is the new mean?", "answer": "7.5" },
+      { "q": "The set 2, 4, 6, 8 has a range of 6. If you add the value 20, what is the new range?", "answer": "18" },
+      { "q": "Which measure is most affected by adding a very large outlier: the mean or the mode?", "answer": "The mean" },
+      { "q": "The set 5, 5, 5, 5 has a mode of 5. If you add one more 5, does the mode change?", "answer": "No" },
+      { "q": "The median of 10, 20, 30 is 20. If you add the value 30, what is the new median?", "answer": "25" }
+    ]
+  }
+}

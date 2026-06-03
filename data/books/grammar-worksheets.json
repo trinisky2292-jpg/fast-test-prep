@@ -1,0 +1,387 @@
+{
+  "1-1": {
+    "title": "Complete Sentences vs. Fragments",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Is this a complete sentence or a fragment? 'Running across the muddy field after the ball.'", "answer": "Fragment (it has no subject and no main verb showing who did the action)" },
+      { "q": "Is this a complete sentence or a fragment? 'The thunder rumbled in the distance.'", "answer": "Complete sentence" },
+      { "q": "Fix this fragment into a complete sentence: 'Because the bus was late.'", "answer": "Because the bus was late, we missed the first class." },
+      { "q": "Identify the part that is missing in this fragment: 'A loud noise in the empty hallway.'", "answer": "It is missing a verb (there is no action)." },
+      { "q": "Turn this fragment into a complete sentence: 'The tired soccer players.'", "answer": "The tired soccer players rested on the bench." }
+    ]
+  },
+  "1-2": {
+    "title": "Independent & Dependent Clauses",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Is this clause independent or dependent? 'When the rain stopped.'", "answer": "Dependent" },
+      { "q": "Is this clause independent or dependent? 'We went outside to play.'", "answer": "Independent" },
+      { "q": "Combine these into one complete sentence: 'Although she was nervous. She gave the speech.'", "answer": "Although she was nervous, she gave the speech." },
+      { "q": "Identify the dependent clause in this sentence: 'I called my friend because I needed help.'", "answer": "because I needed help" },
+      { "q": "Add an independent clause to finish this sentence: 'Before the movie started, ____.'", "answer": "Before the movie started, we bought popcorn." }
+    ]
+  },
+  "1-3": {
+    "title": "Run-On Sentences & Comma Splices",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Fix this comma splice: 'I love science, it is my favorite subject.'", "answer": "I love science; it is my favorite subject." },
+      { "q": "Fix this run-on: 'The dog barked the mail carrier left quickly.'", "answer": "The dog barked, so the mail carrier left quickly." },
+      { "q": "Is this a run-on, a comma splice, or correct? 'She studied all night, and she passed the test.'", "answer": "Correct" },
+      { "q": "Fix this comma splice using a period: 'We finished early, we went home.'", "answer": "We finished early. We went home." },
+      { "q": "Is this a run-on, a comma splice, or correct? 'My brother plays guitar I play drums.'", "answer": "Run-on" }
+    ]
+  },
+  "1-4": {
+    "title": "Simple, Compound & Complex Sentences",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Identify the sentence type: 'The sun set behind the hills.'", "answer": "Simple" },
+      { "q": "Identify the sentence type: 'Maria wanted to swim, but the pool was closed.'", "answer": "Compound" },
+      { "q": "Identify the sentence type: 'When the bell rang, the students left.'", "answer": "Complex" },
+      { "q": "Combine these into one compound sentence: 'I like apples. My sister likes oranges.'", "answer": "I like apples, and my sister likes oranges." },
+      { "q": "Combine these into one complex sentence: 'It was cold. We stayed inside.'", "answer": "Because it was cold, we stayed inside." }
+    ]
+  },
+  "1-5": {
+    "title": "Varying Sentence Structure",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Combine these choppy sentences into one smooth sentence: 'The wind blew. The leaves fell. The sky darkened.'", "answer": "As the wind blew, the leaves fell and the sky darkened." },
+      { "q": "Rewrite so the sentence does NOT begin with the subject 'I': 'I finally stopped, exhausted from the long run.'", "answer": "Exhausted from the long run, I finally stopped." },
+      { "q": "Combine these two short sentences into one varied sentence: 'The cat was hungry. The cat meowed loudly.'", "answer": "Hungry, the cat meowed loudly." },
+      { "q": "Rewrite this so it begins with a dependent clause: 'We ate lunch after we washed our hands.'", "answer": "After we washed our hands, we ate lunch." },
+      { "q": "Combine these into one sentence that starts with an -ing word: 'She smiled. She waved at the crowd.'", "answer": "Smiling, she waved at the crowd." }
+    ]
+  },
+  "2-1": {
+    "title": "Commas in a Series",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Add commas where they belong: 'I bought milk eggs bread and cheese.'", "answer": "I bought milk, eggs, bread, and cheese." },
+      { "q": "Add commas where they belong: 'We hiked swam and camped over the weekend.'", "answer": "We hiked, swam, and camped over the weekend." },
+      { "q": "Is this sentence punctuated correctly? 'She packed shorts, a hat, and sunscreen.'", "answer": "Yes, it is correct." },
+      { "q": "Add commas where they belong: 'The flag is red white and blue.'", "answer": "The flag is red, white, and blue." },
+      { "q": "Add commas where they belong: 'My favorite subjects are math science history and art.'", "answer": "My favorite subjects are math, science, history, and art." }
+    ]
+  },
+  "2-2": {
+    "title": "Commas with Introductory Phrases",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Add a comma where it belongs: 'After the game we ate pizza.'", "answer": "After the game, we ate pizza." },
+      { "q": "Add a comma where it belongs: 'Suddenly the lights went out.'", "answer": "Suddenly, the lights went out." },
+      { "q": "Is this sentence punctuated correctly? 'During the storm, the power went out.'", "answer": "Yes, it is correct." },
+      { "q": "Add a comma where it belongs: 'Before leaving for school Jamal grabbed his lunch.'", "answer": "Before leaving for school, Jamal grabbed his lunch." },
+      { "q": "Add a comma where it belongs: 'Excited about the trip the students boarded the bus.'", "answer": "Excited about the trip, the students boarded the bus." }
+    ]
+  },
+  "2-3": {
+    "title": "Commas with Joining Words (FANBOYS)",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Add a comma if one is needed: 'I wanted to go but I had homework.'", "answer": "I wanted to go, but I had homework." },
+      { "q": "Add a comma if one is needed: 'She likes tea and coffee.'", "answer": "No comma is needed: 'She likes tea and coffee.'" },
+      { "q": "Add a comma if one is needed: 'We can walk or we can ride bikes.'", "answer": "We can walk, or we can ride bikes." },
+      { "q": "Is this sentence punctuated correctly? 'It rained all day, so the game was canceled.'", "answer": "Yes, it is correct." },
+      { "q": "Add a comma if one is needed: 'He studied hard yet he was still nervous.'", "answer": "He studied hard, yet he was still nervous." }
+    ]
+  },
+  "2-4": {
+    "title": "Colons & Semicolons",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose a colon or semicolon: 'It was getting late ___ we decided to leave.'", "answer": "semicolon: 'It was getting late; we decided to leave.'" },
+      { "q": "Choose a colon or semicolon: 'Bring these supplies ___ a pencil, a ruler, and paper.'", "answer": "colon: 'Bring these supplies: a pencil, a ruler, and paper.'" },
+      { "q": "Is this punctuated correctly? 'The recipe needs three things: flour, sugar, and eggs.'", "answer": "Yes, it is correct." },
+      { "q": "Add the correct mark: 'I have one goal this year ___ to read more books.'", "answer": "colon: 'I have one goal this year: to read more books.'" },
+      { "q": "Add the correct mark: 'The test was hard ___ everyone passed anyway.'", "answer": "semicolon: 'The test was hard; everyone passed anyway.'" }
+    ]
+  },
+  "2-5": {
+    "title": "Apostrophes: Contractions & Possessives",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the correct word: 'The dog wagged ___ (its / it's) tail.'", "answer": "its" },
+      { "q": "Write the contraction for 'should not.'", "answer": "shouldn't" },
+      { "q": "Add an apostrophe to show ownership: 'This is Marias backpack.'", "answer": "This is Maria's backpack." },
+      { "q": "Choose the correct word: '___ (Its / It's) going to rain tonight.'", "answer": "It's" },
+      { "q": "Rewrite to show the book belongs to the students (plural): 'the books of the students'", "answer": "the students' books" }
+    ]
+  },
+  "2-6": {
+    "title": "Quotation Marks & Dialogue",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Add quotation marks and correct punctuation: 'Lets go to the park said Tomas.'", "answer": "\"Let's go to the park,\" said Tomas." },
+      { "q": "Add quotation marks and correct punctuation: 'The teacher asked Did everyone finish.'", "answer": "The teacher asked, \"Did everyone finish?\"" },
+      { "q": "Is the end punctuation placed correctly? 'She said, \"I am ready.\"'", "answer": "Yes, the period is correctly inside the quotation marks." },
+      { "q": "Add quotation marks and a comma: 'I love this song Maria shouted.'", "answer": "\"I love this song,\" Maria shouted." },
+      { "q": "True or False: You should start a new paragraph each time the speaker changes.", "answer": "True" }
+    ]
+  },
+  "2-7": {
+    "title": "Hyphens, Dashes & Ellipses",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Add a hyphen where it belongs: 'She is a well known author.'", "answer": "She is a well-known author." },
+      { "q": "What punctuation mark (...) shows a pause or that words were left out?", "answer": "An ellipsis" },
+      { "q": "Add a hyphen where it belongs: 'We need a twenty four hour notice.'", "answer": "We need a twenty-four-hour notice." },
+      { "q": "Which mark adds a dramatic pause in this sentence: 'I finally knew the answer — at last'?", "answer": "A dash" },
+      { "q": "Add a hyphen where it belongs: 'He gave a last minute warning.'", "answer": "He gave a last-minute warning." }
+    ]
+  },
+  "3-1": {
+    "title": "Pronoun Case (Subject vs. Object)",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the correct pronoun: 'My mom drove ___ (I / me) to school.'", "answer": "me" },
+      { "q": "Choose the correct pronoun: 'Sara and ___ (I / me) went to the store.'", "answer": "I" },
+      { "q": "Fix the error: 'Her gave the book to I.'", "answer": "She gave the book to me." },
+      { "q": "Choose the correct pronoun: 'The coach picked ___ (he / him) for the team.'", "answer": "him" },
+      { "q": "Identify whether the underlined pronoun is a subject or object pronoun: 'They cheered loudly.' (underlined: They)", "answer": "Subject pronoun" }
+    ]
+  },
+  "3-2": {
+    "title": "Pronoun-Antecedent Agreement",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the correct pronoun: 'Each player must bring ___ (his or her / their) own water.'", "answer": "his or her" },
+      { "q": "Choose the correct pronoun: 'The girls finished ___ (her / their) project.'", "answer": "their" },
+      { "q": "Fix the agreement error: 'Every student should raise their hand.'", "answer": "Every student should raise his or her hand." },
+      { "q": "Choose the correct pronoun: 'The team won ___ (its / their) first game.'", "answer": "its" },
+      { "q": "Choose the correct pronoun: 'Neither boy brought ___ (his / their) jacket.'", "answer": "his" }
+    ]
+  },
+  "3-3": {
+    "title": "Fixing Vague Pronoun References",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Why is this sentence unclear? 'Mia told Ava that she passed.'", "answer": "The pronoun 'she' is vague — it is unclear whether 'she' means Mia or Ava." },
+      { "q": "Rewrite to fix the vague pronoun: 'Jake told Sam that he won the prize.' (Jake won.)", "answer": "Jake told Sam, \"I won the prize.\"" },
+      { "q": "Why is 'it' unclear here? 'I put the cup on the shelf, but it broke.'", "answer": "It is unclear whether 'it' refers to the cup or the shelf." },
+      { "q": "Rewrite to make the pronoun clear: 'When Lara met Nadia, she was happy.' (Lara was happy.)", "answer": "When Lara met Nadia, Lara was happy." },
+      { "q": "Identify the vague pronoun in this sentence: 'The teachers told the parents that they were late.'", "answer": "they (it is unclear whether the teachers or the parents were late)" }
+    ]
+  },
+  "3-4": {
+    "title": "Pronoun Person (Staying Consistent)",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Fix the shift in person: 'When a student studies, you do better on tests.'", "answer": "When students study, they do better on tests." },
+      { "q": "Fix the shift in person: 'If a person wants to win, you must practice.'", "answer": "If people want to win, they must practice." },
+      { "q": "Is the point of view consistent? 'When I cook, I always follow the recipe.'", "answer": "Yes, it is consistent (first person throughout)." },
+      { "q": "Fix the shift in person: 'We hiked the trail, and you could see the whole valley.'", "answer": "We hiked the trail, and we could see the whole valley." },
+      { "q": "Fix the shift in person: 'A reader enjoys the book because you can picture the scenes.'", "answer": "Readers enjoy the book because they can picture the scenes." }
+    ]
+  },
+  "4-1": {
+    "title": "Consistent Verb Tense",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Fix the tense shift: 'She opens the door and grabbed her coat.'", "answer": "She opened the door and grabbed her coat." },
+      { "q": "Fix the tense shift: 'The dog ran outside and barks at the cat.'", "answer": "The dog ran outside and barked at the cat." },
+      { "q": "Is the tense consistent? 'He studies hard and earns good grades.'", "answer": "Yes, it is consistent (both verbs are present tense)." },
+      { "q": "Fix the tense shift: 'We walked to the park and play on the swings.'", "answer": "We walked to the park and played on the swings." },
+      { "q": "Choose the verb that keeps the tense consistent: 'Yesterday I woke up early and ___ (eat / ate) breakfast.'", "answer": "ate" }
+    ]
+  },
+  "4-2": {
+    "title": "Subject-Verb Agreement",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the correct verb: 'The box of crayons ___ (is / are) on the desk.'", "answer": "is" },
+      { "q": "Choose the correct verb: 'My brothers ___ (plays / play) soccer.'", "answer": "play" },
+      { "q": "Fix the agreement error: 'The list of names were long.'", "answer": "The list of names was long." },
+      { "q": "Choose the correct verb: 'Each of the students ___ (has / have) a book.'", "answer": "has" },
+      { "q": "Choose the correct verb: 'The dog ___ (run / runs) across the yard.'", "answer": "runs" }
+    ]
+  },
+  "4-3": {
+    "title": "Active vs. Passive Voice",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Is this active or passive voice? 'The window was broken by the storm.'", "answer": "Passive" },
+      { "q": "Is this active or passive voice? 'The chef cooked the meal.'", "answer": "Active" },
+      { "q": "Rewrite in active voice: 'The homework was finished by Carlos.'", "answer": "Carlos finished the homework." },
+      { "q": "Rewrite in active voice: 'The song was sung by the choir.'", "answer": "The choir sang the song." },
+      { "q": "Is this active or passive voice? 'The students planted the trees.'", "answer": "Active" }
+    ]
+  },
+  "4-4": {
+    "title": "Verb Mood",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Identify the mood: 'Close the window, please.'", "answer": "Imperative" },
+      { "q": "Identify the mood: 'The sky is clear today.'", "answer": "Indicative" },
+      { "q": "Choose the correct word for the subjunctive: 'If I ___ (was / were) taller, I could reach the shelf.'", "answer": "were" },
+      { "q": "Identify the mood: 'I wish I were on vacation.'", "answer": "Subjunctive" },
+      { "q": "Identify the mood: 'Turn off the lights before you leave.'", "answer": "Imperative" }
+    ]
+  },
+  "4-5": {
+    "title": "Verbals: Gerunds, Infinitives & Participles",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Identify the verbal type (gerund, infinitive, or participle): 'Swimming is great exercise.'", "answer": "Gerund" },
+      { "q": "Identify the verbal type: 'I want to learn the guitar.'", "answer": "Infinitive" },
+      { "q": "Identify the verbal type: 'The broken vase lay on the floor.'", "answer": "Participle" },
+      { "q": "Identify the verbal type: 'Reading at night helps me relax.'", "answer": "Gerund" },
+      { "q": "Identify the verbal type: 'She loves to dance.'", "answer": "Infinitive" }
+    ]
+  },
+  "5-1": {
+    "title": "Adjectives vs. Adverbs",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the correct word: 'She sings ___ (beautiful / beautifully).'", "answer": "beautifully" },
+      { "q": "Choose the correct word: 'That is a ___ (quick / quickly) fox.'", "answer": "quick" },
+      { "q": "Fix the error: 'He runs quick.'", "answer": "He runs quickly." },
+      { "q": "Is the underlined word an adjective or adverb? 'The bright sun warmed the field.' (underlined: bright)", "answer": "Adjective" },
+      { "q": "Is the underlined word an adjective or adverb? 'She spoke softly to the baby.' (underlined: softly)", "answer": "Adverb" }
+    ]
+  },
+  "5-2": {
+    "title": "Comparative & Superlative Forms",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the correct form: 'She is the ___ (taller / tallest) of the two sisters.'", "answer": "taller" },
+      { "q": "Choose the correct form: 'This is the ___ (more careful / most careful) work in the class.'", "answer": "most careful" },
+      { "q": "Fix the error: 'He is more taller than his friend.'", "answer": "He is taller than his friend." },
+      { "q": "Write the comparative form of 'fast' to compare two runners: 'Mia is ___ than Jon.'", "answer": "faster" },
+      { "q": "Write the superlative form of 'good': 'That was the ___ movie I have ever seen.'", "answer": "best" }
+    ]
+  },
+  "5-3": {
+    "title": "Misplaced & Dangling Modifiers",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Fix the misplaced modifier: 'I saw a dog walking to school.' (You were walking to school.)", "answer": "Walking to school, I saw a dog." },
+      { "q": "Fix the dangling modifier: 'Running late, the bus was missed.'", "answer": "Running late, I missed the bus." },
+      { "q": "Why is this sentence confusing? 'She served sandwiches to the kids on paper plates.'", "answer": "It sounds like the kids are on paper plates; the modifier 'on paper plates' is misplaced." },
+      { "q": "Fix the misplaced modifier: 'Covered in chocolate, I ate the cake.'", "answer": "I ate the cake, which was covered in chocolate." },
+      { "q": "Fix the misplaced modifier: 'The boy fed the fish wearing pajamas.'", "answer": "Wearing pajamas, the boy fed the fish." }
+    ]
+  },
+  "6-1": {
+    "title": "Coordinating Conjunctions (FANBOYS)",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the best coordinating conjunction: 'I studied hard, ___ I passed the test.'", "answer": "so" },
+      { "q": "Choose the best coordinating conjunction: 'I wanted to swim, ___ the pool was closed.'", "answer": "but" },
+      { "q": "Identify the coordinating conjunction: 'We can stay home or go to the movies.'", "answer": "or" },
+      { "q": "Choose the best coordinating conjunction: 'She was tired, ___ she kept working.'", "answer": "yet" },
+      { "q": "List all seven coordinating conjunctions (FANBOYS).", "answer": "for, and, nor, but, or, yet, so" }
+    ]
+  },
+  "6-2": {
+    "title": "Subordinating Conjunctions",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Identify the subordinating conjunction: 'Although it rained, we still played.'", "answer": "Although" },
+      { "q": "Choose the best subordinating conjunction: '___ I finished my homework, I went outside.'", "answer": "After (or 'When')" },
+      { "q": "Identify the subordinating conjunction: 'We left early because the show was over.'", "answer": "because" },
+      { "q": "Choose the best subordinating conjunction: 'We will go to the park ___ it stops raining.'", "answer": "when (or 'if')" },
+      { "q": "Identify the subordinating conjunction: 'Since you helped me, I will help you.'", "answer": "Since" }
+    ]
+  },
+  "6-3": {
+    "title": "Transition Words",
+    "standard": "ELA.6.C.1.3",
+    "problems": [
+      { "q": "Choose the best transition: 'I was tired; ___, I kept going.'", "answer": "however" },
+      { "q": "Choose the best transition to add an idea: 'The soup was hot. ___, it was delicious.'", "answer": "In addition (or 'Also')" },
+      { "q": "Choose the best transition to give an example: 'Many animals migrate. ___, geese fly south each winter.'", "answer": "For example" },
+      { "q": "Choose the best transition to show the last point: 'First, mix the batter. ___, bake the cake.'", "answer": "Finally" },
+      { "q": "Combine using a transition that shows contrast: 'It was cold. We went swimming.'", "answer": "It was cold; however, we went swimming." }
+    ]
+  },
+  "7-1": {
+    "title": "Capitalization Rules",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Fix the capitalization: 'on monday, maria visited miami.'", "answer": "On Monday, Maria visited Miami." },
+      { "q": "Fix the capitalization: 'we drove to florida in july.'", "answer": "We drove to Florida in July." },
+      { "q": "Which words should be capitalized? 'my friend carlos lives on oak street.'", "answer": "My, Carlos, Oak, Street (My friend Carlos lives on Oak Street.)" },
+      { "q": "Is this correct? 'The city of Paris is in France.'", "answer": "Yes, it is correct." },
+      { "q": "Fix the capitalization: 'i asked mrs. lopez about the test.'", "answer": "I asked Mrs. Lopez about the test." }
+    ]
+  },
+  "7-2": {
+    "title": "Capitalizing Titles",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Capitalize this title correctly: 'the lord of the rings'", "answer": "The Lord of the Rings" },
+      { "q": "Capitalize this title correctly: 'charlie and the chocolate factory'", "answer": "Charlie and the Chocolate Factory" },
+      { "q": "Capitalize this song title correctly: 'a whole new world'", "answer": "A Whole New World" },
+      { "q": "Should the word 'of' be capitalized in the middle of a title?", "answer": "No, leave small words like 'of' lowercase unless they start or end the title." },
+      { "q": "Capitalize this title correctly: 'diary of a wimpy kid'", "answer": "Diary of a Wimpy Kid" }
+    ]
+  },
+  "7-3": {
+    "title": "Commonly Confused Words",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Choose the correct word: '___ (Their / There / They're) going to the game tonight.'", "answer": "They're" },
+      { "q": "Choose the correct word: 'Please put your books over ___ (their / there / they're).'", "answer": "there" },
+      { "q": "Choose the correct word: 'I love ___ (your / you're) new shoes.'", "answer": "your" },
+      { "q": "Choose the correct word: '___ (Your / You're) going to love this movie.'", "answer": "You're" },
+      { "q": "Fix the error: 'The students forgot there homework.'", "answer": "The students forgot their homework." }
+    ]
+  },
+  "7-4": {
+    "title": "Spelling Patterns & Plurals",
+    "standard": "ELA.6.C.3.1",
+    "problems": [
+      { "q": "Write the plural of 'box.'", "answer": "boxes" },
+      { "q": "Write the plural of 'candy.'", "answer": "candies" },
+      { "q": "Write the plural of 'wish.'", "answer": "wishes" },
+      { "q": "Write the plural of 'dog.'", "answer": "dogs" },
+      { "q": "Write the plural of 'bench.'", "answer": "benches" }
+    ]
+  },
+  "8-1": {
+    "title": "Greek & Latin Roots and Affixes",
+    "standard": "ELA.6.V.1.2",
+    "problems": [
+      { "q": "The root 'tele-' means 'far' and '-phone' means 'sound.' What does 'telephone' mean?", "answer": "A device that carries sound from far away" },
+      { "q": "The prefix 'bi-' means 'two.' What does 'bicycle' mean?", "answer": "A vehicle with two wheels" },
+      { "q": "The root 'aqua' means 'water.' What does 'aquarium' most likely mean?", "answer": "A tank or place that holds water (and the animals living in it)" },
+      { "q": "The prefix 're-' means 'again.' What does 'rewrite' mean?", "answer": "To write again" },
+      { "q": "The root 'port' means 'carry.' What does 'transport' mean?", "answer": "To carry something across or from one place to another" }
+    ]
+  },
+  "8-2": {
+    "title": "Using Context Clues",
+    "standard": "ELA.6.V.1.3",
+    "problems": [
+      { "q": "Use context clues: 'The arid desert had no water for miles.' What does 'arid' mean?", "answer": "Dry" },
+      { "q": "Use context clues: 'She was so famished that she ate three sandwiches.' What does 'famished' mean?", "answer": "Very hungry" },
+      { "q": "Use context clues: 'The fragile glass shattered the moment it hit the floor.' What does 'fragile' mean?", "answer": "Easily broken" },
+      { "q": "Use context clues: 'Unlike his cheerful sister, Max was glum all day.' What does 'glum' mean?", "answer": "Sad or gloomy" },
+      { "q": "Use context clues: 'The enormous elephant towered over the tiny mouse.' What does 'enormous' mean?", "answer": "Very large" }
+    ]
+  },
+  "8-3": {
+    "title": "Figurative Language in Your Writing",
+    "standard": "ELA.6.R.3.1",
+    "problems": [
+      { "q": "Identify the type of figurative language: 'She was as brave as a lion.'", "answer": "Simile" },
+      { "q": "Identify the type of figurative language: 'The classroom was a zoo.'", "answer": "Metaphor" },
+      { "q": "Identify the type of figurative language: 'The wind whispered through the trees.'", "answer": "Personification" },
+      { "q": "Identify the type of figurative language: 'His smile was like sunshine.'", "answer": "Simile" },
+      { "q": "Identify the type of figurative language: 'The stars danced in the night sky.'", "answer": "Personification" }
+    ]
+  },
+  "8-4": {
+    "title": "Connotation vs. Denotation",
+    "standard": "ELA.6.V.1.3",
+    "problems": [
+      { "q": "Which word has a more positive connotation: 'thrifty' or 'cheap'?", "answer": "thrifty" },
+      { "q": "Which word has a more negative connotation: 'confident' or 'arrogant'?", "answer": "arrogant" },
+      { "q": "Which word has a more positive connotation: 'slim' or 'scrawny'?", "answer": "slim" },
+      { "q": "Does 'childish' have a positive or negative connotation?", "answer": "Negative" },
+      { "q": "Which word has a more positive connotation when describing a curious person: 'nosy' or 'interested'?", "answer": "interested" }
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "1-1": {
+    "title": "Time, Timelines, and Eras",
+    "standard": "SS.6.W.1.2",
+    "problems": [
+      { "q": "How many years are in a century?", "answer": "100 years" },
+      { "q": "Fill in the blank: A millennium is a period of ______ years.", "answer": "1,000" },
+      { "q": "True or False: The dates 'BC' (or BCE) count backward toward the year zero.", "answer": "True" },
+      { "q": "Which happened first, 500 BC or 500 AD? Explain why.", "answer": "500 BC happened first, because BC dates come before AD dates (BC counts backward before year zero and AD counts forward after it)." },
+      { "q": "What is the main reason historians use timelines?", "answer": "To put events in order from oldest to newest." }
+    ]
+  },
+  "1-2": {
+    "title": "Primary and Secondary Sources",
+    "standard": "SS.6.W.1.3",
+    "problems": [
+      { "q": "What is a primary source?", "answer": "A source that comes straight from the time being studied, such as a diary, clay tablet, or old coin." },
+      { "q": "Fill in the blank: A textbook or a museum sign written later by someone who studied the past is called a ______ source.", "answer": "secondary" },
+      { "q": "True or False: An old coin made during the time being studied is a primary source.", "answer": "True" },
+      { "q": "Give one example of a primary source and one example of a secondary source.", "answer": "Primary example: a diary, clay tablet, or old coin. Secondary example: a textbook or a museum sign." },
+      { "q": "Why do historians consider primary sources to give the most direct evidence about the past?", "answer": "Because primary sources come straight from the time being studied, rather than being made later by someone who only studied the clues." }
+    ]
+  },
+  "1-3": {
+    "title": "How Historians Investigate the Past",
+    "standard": "SS.6.W.1.4",
+    "problems": [
+      { "q": "What is historical inquiry?", "answer": "Asking questions about the past and hunting for evidence to answer them, almost like a detective." },
+      { "q": "Fill in the blank: Historians look at who made a source and ______ they made it.", "answer": "why" },
+      { "q": "True or False: Two people can describe the same event in different ways.", "answer": "True" },
+      { "q": "Name two other subjects that history connects to.", "answer": "Any two of: geography, economics, and government." },
+      { "q": "Why is it important for historians to compare different sources instead of trusting just one?", "answer": "Because different sources can describe the same event differently, so comparing them helps find what really happened and spot bias." }
+    ]
+  },
+  "2-1": {
+    "title": "Latitude, Longitude, and Map Tools",
+    "standard": "SS.6.G.1.1",
+    "problems": [
+      { "q": "Which way do latitude lines run, and what do they measure?", "answer": "Latitude lines run east-west and measure how far north or south you are." },
+      { "q": "Fill in the blank: Longitude lines run north-south and measure how far ______ or west you are.", "answer": "east" },
+      { "q": "True or False: The exact location of a place is found where a latitude line and a longitude line cross.", "answer": "True" },
+      { "q": "What map tool shows you which way is north, south, east, and west?", "answer": "The compass rose." },
+      { "q": "Explain how latitude and longitude lines work together to find an exact spot on Earth.", "answer": "Latitude tells how far north or south a place is and longitude tells how far east or west; where the two lines cross gives the exact location." }
+    ]
+  },
+  "2-2": {
+    "title": "Types of Maps and Map Projections",
+    "standard": "SS.6.G.1.2",
+    "problems": [
+      { "q": "What does a political map show?", "answer": "Borders and cities." },
+      { "q": "Fill in the blank: A ______ map shows landforms like mountains and rivers.", "answer": "physical" },
+      { "q": "True or False: Because Earth is round and maps are flat, every map projection stretches or shrinks parts of the world a little.", "answer": "True" },
+      { "q": "What kind of map would you use to show climate or population?", "answer": "A special-purpose (thematic) map." },
+      { "q": "Why does every flat map distort some part of the Earth?", "answer": "Because Earth is round (a sphere) and a map is flat, so turning the round surface into a flat one stretches or shrinks parts of the world." }
+    ]
+  },
+  "2-3": {
+    "title": "Rivers, Seas, and Where People Settle",
+    "standard": "SS.6.G.1.6",
+    "problems": [
+      { "q": "Name two things rivers provided that helped early people survive.", "answer": "Fresh water for drinking and water for farming." },
+      { "q": "Fill in the blank: Seas became ______ for trade and travel.", "answer": "highways" },
+      { "q": "True or False: Many of the world's first civilizations grew beside rivers and along coastlines.", "answer": "True" },
+      { "q": "Why did early people often settle next to rivers?", "answer": "Because rivers gave fresh water for drinking and farming, which they needed to survive and grow food." },
+      { "q": "How did living near the sea help ancient people?", "answer": "The sea acted as a highway, making trade and travel to other places easier." }
+    ]
+  },
+  "2-4": {
+    "title": "Cultural Diffusion: How Ideas Spread",
+    "standard": "SS.6.G.2.6",
+    "problems": [
+      { "q": "What is cultural diffusion?", "answer": "The spreading of ideas, goods, religions, and inventions from one group of people to another." },
+      { "q": "Fill in the blank: Cultural diffusion happened through trade, travel, migration, and even ______.", "answer": "war" },
+      { "q": "True or False: Only goods, never ideas or religions, can spread through cultural diffusion.", "answer": "False" },
+      { "q": "Give one example of something that spread from one ancient civilization to another.", "answer": "Any one of: the alphabet, new foods, or beliefs/religions." },
+      { "q": "Explain how trade could lead to cultural diffusion.", "answer": "When people from different groups trade goods, they also meet and share ideas, inventions, and beliefs, which spreads culture between them." }
+    ]
+  },
+  "3-1": {
+    "title": "Hunter-Gatherers vs. Early Farmers",
+    "standard": "SS.6.W.2.1",
+    "problems": [
+      { "q": "How did hunter-gatherers get their food?", "answer": "They moved around to hunt animals and gather wild plants." },
+      { "q": "Fill in the blank: About ______ years ago, some groups learned to plant crops and raise animals.", "answer": "10,000" },
+      { "q": "True or False: Farming let people stay in one place instead of always moving.", "answer": "True" },
+      { "q": "Name one thing farming allowed people to do that hunting and gathering did not.", "answer": "Any one of: store food, build permanent homes, or grow into larger communities." },
+      { "q": "Why did learning to farm change the way people lived?", "answer": "Farming let people stay in one place, store extra food, build permanent homes, and grow into larger communities instead of moving to hunt and gather." }
+    ]
+  },
+  "3-2": {
+    "title": "Farming, Metal Tools, and the Rise of Civilization",
+    "standard": "SS.6.W.2.2",
+    "problems": [
+      { "q": "What happened when farming produced extra food?", "answer": "Not everyone had to grow crops, so people could become builders, priests, traders, or leaders." },
+      { "q": "Fill in the blank: Learning to work metals like ______ gave people stronger tools and weapons.", "answer": "bronze" },
+      { "q": "True or False: Extra food meant everyone still had to farm and no one could take other jobs.", "answer": "False" },
+      { "q": "Name two new jobs people could take once not everyone had to farm.", "answer": "Any two of: builders, priests, traders, or leaders." },
+      { "q": "Explain how having extra food helped lead to the first civilizations.", "answer": "Extra food freed some people from farming so they could specialize in other jobs, which led to bigger populations, towns, and eventually the first civilizations." }
+    ]
+  },
+  "3-3": {
+    "title": "The Characteristics of a Civilization",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "Name three features that most civilizations have.", "answer": "Any three of: cities, organized government, a writing system, specialized jobs, social classes, and a shared religion or culture." },
+      { "q": "Fill in the blank: A civilization usually has a ______ system so people can record information.", "answer": "writing" },
+      { "q": "True or False: A civilization is just any big group of people, with no special features.", "answer": "False" },
+      { "q": "Where did the earliest civilizations with all these features develop?", "answer": "In early river valleys." },
+      { "q": "Why do these characteristics help us tell a civilization apart from a small village?", "answer": "Because a small village usually lacks features like cities, organized government, writing, specialized jobs, and social classes, while a true civilization has all of them." }
+    ]
+  },
+  "3-4": {
+    "title": "Tracing Early Human Migration",
+    "standard": "SS.6.G.4.3",
+    "problems": [
+      { "q": "On which continents do archaeologists find the oldest evidence of humans?", "answer": "Africa and Asia." },
+      { "q": "Fill in the blank: By following bones, tools, and cave ______, scientists can map the routes early humans took.", "answer": "art" },
+      { "q": "True or False: Early human migrations spread people to nearly every continent.", "answer": "True" },
+      { "q": "Name two kinds of evidence scientists use to trace early human migration.", "answer": "Any two of: bones, tools, and cave art." },
+      { "q": "Why is studying old bones and tools useful for understanding human migration?", "answer": "Because their locations and ages let scientists trace the routes early humans took as they slowly spread across the planet." }
+    ]
+  },
+  "4-1": {
+    "title": "The Land Between Two Rivers",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "What does the word 'Mesopotamia' mean?", "answer": "'Land between the rivers.'" },
+      { "q": "Fill in the blank: Mesopotamia sat between the Tigris and ______ Rivers.", "answer": "Euphrates" },
+      { "q": "True or False: The rich farmland of Mesopotamia was nicknamed the Fertile Crescent.", "answer": "True" },
+      { "q": "Why was the soil in Mesopotamia so good for farming?", "answer": "Because the rivers flooded and left behind rich soil." },
+      { "q": "Explain how the rivers helped a civilization grow in Mesopotamia.", "answer": "The Tigris and Euphrates flooded and left rich soil, making the land great for farming, which let one of the world's first civilizations grow there." }
+    ]
+  },
+  "4-2": {
+    "title": "Achievements: Writing, Wheel, and Cities",
+    "standard": "SS.6.W.2.7",
+    "problems": [
+      { "q": "What was the early Sumerian writing system called?", "answer": "Cuneiform." },
+      { "q": "Fill in the blank: Cuneiform was made by pressing ______ into clay.", "answer": "wedges" },
+      { "q": "True or False: Sumerian math was based on the number 60, which is why we still have 60-minute hours.", "answer": "True" },
+      { "q": "Name two important 'firsts' the Sumerians gave the world.", "answer": "Any two of: cuneiform writing, the first cities, the wheel, and math based on the number 60." },
+      { "q": "Why were Sumerian inventions like writing and the wheel so important?", "answer": "Because they shaped and were used by civilizations for thousands of years, helping people record information, build cities, and travel or move goods." }
+    ]
+  },
+  "4-3": {
+    "title": "Hammurabi and His Famous Code",
+    "standard": "SS.6.W.2.8",
+    "problems": [
+      { "q": "Who was Hammurabi?", "answer": "A Babylonian king who wrote down one of the first sets of laws." },
+      { "q": "Fill in the blank: Hammurabi's laws followed the idea of 'an eye for an ______.'", "answer": "eye" },
+      { "q": "True or False: The Code of Hammurabi was carved on a tall stone for everyone to see.", "answer": "True" },
+      { "q": "What was the name of Hammurabi's famous set of laws?", "answer": "The Code of Hammurabi." },
+      { "q": "Why was writing the laws down important for the people of Babylon?", "answer": "Because written laws applied to everyone, so rules were the same for all instead of changing based on whatever a ruler felt like that day." }
+    ]
+  },
+  "4-4": {
+    "title": "The Israelites and Monotheism",
+    "standard": "SS.6.W.2.9",
+    "problems": [
+      { "q": "What is monotheism?", "answer": "The belief in just one God." },
+      { "q": "Fill in the blank: The Israelites stressed following moral laws like the Ten ______.", "answer": "Commandments" },
+      { "q": "True or False: Most of the Israelites' neighbors also believed in only one God.", "answer": "False" },
+      { "q": "Name the three religions that were later shaped by the idea of one God.", "answer": "Judaism, Christianity, and Islam." },
+      { "q": "Why were the ancient Israelites considered different from most of their neighbors?", "answer": "Because they believed in just one God (monotheism), while most of their neighbors worshipped many gods." }
+    ]
+  },
+  "5-1": {
+    "title": "The Gift of the Nile",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "Along which river did ancient Egypt grow?", "answer": "The Nile River." },
+      { "q": "Fill in the blank: Each year the Nile flooded and left behind rich ______ soil perfect for farming.", "answer": "black" },
+      { "q": "True or False: The desert around Egypt acted like a natural wall that protected it from invaders.", "answer": "True" },
+      { "q": "Which Greek historian called Egypt 'the gift of the Nile'?", "answer": "Herodotus." },
+      { "q": "Explain why Egypt was called 'the gift of the Nile.'", "answer": "Because the Nile's yearly floods left rich soil for farming, making the river so important to Egypt's survival that Herodotus called Egypt a gift of the Nile." }
+    ]
+  },
+  "5-2": {
+    "title": "Pyramids, Hieroglyphics, and Achievements",
+    "standard": "SS.6.W.2.5",
+    "problems": [
+      { "q": "What were the Egyptian pyramids built to be?", "answer": "Tombs for their pharaohs." },
+      { "q": "Fill in the blank: The Egyptian picture-writing system was called ______.", "answer": "hieroglyphics" },
+      { "q": "True or False: The Egyptians invented papyrus, an early kind of paper.", "answer": "True" },
+      { "q": "Name two fields in which the Egyptians were skilled.", "answer": "Any two of: medicine, math, and engineering." },
+      { "q": "Why do many Egyptian achievements still amaze scientists today?", "answer": "Because the Egyptians built enormous stone pyramids and made advances in medicine, math, and engineering that were remarkable for their time." }
+    ]
+  },
+  "5-3": {
+    "title": "Pharaohs and Key Figures of Egypt",
+    "standard": "SS.6.W.2.6",
+    "problems": [
+      { "q": "What was a pharaoh?", "answer": "A king of Egypt who was seen as a god-like leader." },
+      { "q": "Fill in the blank: King ______'s untouched tomb was discovered in 1922.", "answer": "Tutankhamun" },
+      { "q": "True or False: Hatshepsut was one of the few female pharaohs of Egypt.", "answer": "True" },
+      { "q": "Name two things pharaohs organized.", "answer": "Any two of: building projects, armies, and trade." },
+      { "q": "Why were pharaohs so powerful in ancient Egypt?", "answer": "Because they were seen as god-like leaders and they organized the kingdom's building projects, armies, and trade." }
+    ]
+  },
+  "6-1": {
+    "title": "The Indus Valley Civilization",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "In what river valley did one of the earliest civilizations grow?", "answer": "The Indus River Valley (in what is now Pakistan and India)." },
+      { "q": "Fill in the blank: Two famous Indus Valley cities were Harappa and ______.", "answer": "Mohenjo-Daro" },
+      { "q": "True or False: Indus Valley cities had indoor plumbing and sewer systems.", "answer": "True" },
+      { "q": "Name two advanced features of Indus Valley cities.", "answer": "Any two of: brick houses, straight streets, indoor plumbing, and sewer systems." },
+      { "q": "What does the careful planning of cities like Mohenjo-Daro tell us about this society?", "answer": "It shows the society was very organized, with straight streets, brick houses, and planned plumbing and sewer systems." }
+    ]
+  },
+  "6-2": {
+    "title": "Aryan Migrations and the Caste System",
+    "standard": "SS.6.W.4.1",
+    "problems": [
+      { "q": "Which group migrated into India after the Indus cities declined?", "answer": "The Aryans." },
+      { "q": "Fill in the blank: Society in India became divided into ranked groups called the ______ system.", "answer": "caste" },
+      { "q": "True or False: In the caste system, people could easily move from one caste to another.", "answer": "False" },
+      { "q": "In the caste system, what decided a person's role in life?", "answer": "The family (caste) they were born into." },
+      { "q": "Explain how the caste system affected a person's life.", "answer": "The caste a person was born into decided their role in life, and people generally could not move to a different caste, so their job and status were set from birth." }
+    ]
+  },
+  "6-3": {
+    "title": "Hinduism and Buddhism",
+    "standard": "SS.6.W.4.2",
+    "problems": [
+      { "q": "Name two ideas that Hinduism teaches.", "answer": "Any two of: karma, reincarnation, and many gods seen as forms of one spirit." },
+      { "q": "Fill in the blank: Buddhism began when a prince named Siddhartha Gautama, called the ______, taught his ideas.", "answer": "Buddha" },
+      { "q": "True or False: Both Hinduism and Buddhism started in India.", "answer": "True" },
+      { "q": "According to the Buddha, what leads to peace?", "answer": "Letting go of selfish desire." },
+      { "q": "Why are Hinduism and Buddhism both important to world history?", "answer": "Because both began in India and spread across Asia, influencing the beliefs and cultures of many peoples." }
+    ]
+  },
+  "6-4": {
+    "title": "The Mauryan and Gupta Empires",
+    "standard": "SS.6.W.4.3",
+    "problems": [
+      { "q": "Who was the greatest ruler of the Mauryan Empire?", "answer": "Asoka (Ashoka)." },
+      { "q": "Fill in the blank: The Gupta Empire is often called India's '______ Age.'", "answer": "Golden" },
+      { "q": "True or False: Asoka spread Buddhism and ideas of peace after a terrible war.", "answer": "True" },
+      { "q": "Name two areas in which Gupta thinkers made advances.", "answer": "Any two of: math, science, and art." },
+      { "q": "Why is the Gupta Empire remembered as a 'Golden Age'?", "answer": "Because of its great advances in math, science, and art, including helping create the number zero and our modern number symbols." }
+    ]
+  },
+  "7-1": {
+    "title": "Rivers, Dynasties, and the Mandate of Heaven",
+    "standard": "SS.6.W.4.6",
+    "problems": [
+      { "q": "Along which two rivers did Chinese civilization grow?", "answer": "The Yellow and Yangtze Rivers." },
+      { "q": "Fill in the blank: A ruling family in ancient China was called a ______.", "answer": "dynasty" },
+      { "q": "True or False: The Mandate of Heaven said a ruler could keep the right to rule even if he was cruel and unfair.", "answer": "False" },
+      { "q": "What was the Mandate of Heaven?", "answer": "The idea that heaven gave a ruler the right to rule only as long as he ruled wisely and fairly." },
+      { "q": "Explain what people believed would happen if a dynasty became cruel or weak.", "answer": "They believed the dynasty had lost the Mandate of Heaven, so it could be replaced by a new ruler or dynasty." }
+    ]
+  },
+  "7-2": {
+    "title": "Confucius, Laozi, and Chinese Thinkers",
+    "standard": "SS.6.W.4.7",
+    "problems": [
+      { "q": "What did Confucius teach?", "answer": "Respect, good manners, and that leaders should set a good example." },
+      { "q": "Fill in the blank: Laozi taught a way of life called Daoism, which is living simply and in harmony with ______.", "answer": "nature" },
+      { "q": "True or False: Legalism, taught by Han Fei Zi, was the belief that strict laws and harsh punishments keep order.", "answer": "True" },
+      { "q": "Which thinker taught Daoism?", "answer": "Laozi." },
+      { "q": "How were the ideas of Confucius and the Legalists different about how to keep order?", "answer": "Confucius believed order came from respect, good manners, and leaders setting a good example, while Legalists believed order came from strict laws and harsh punishments." }
+    ]
+  },
+  "7-3": {
+    "title": "Inventions and the Silk Roads",
+    "standard": "SS.6.W.4.10",
+    "problems": [
+      { "q": "Name two things ancient China invented.", "answer": "Any two of: paper, silk, the compass, and gunpowder." },
+      { "q": "Fill in the blank: China built the Great ______ to defend their land.", "answer": "Wall" },
+      { "q": "True or False: The Silk Roads carried Chinese silk west and brought new goods and ideas back east.", "answer": "True" },
+      { "q": "What were the Silk Roads?", "answer": "Long trade routes that connected China with other regions and carried goods and ideas." },
+      { "q": "Why were the Silk Roads important to the ancient world?", "answer": "Because they connected China, India, the Middle East, and the Mediterranean, letting goods and ideas spread between distant lands." }
+    ]
+  },
+  "7-4": {
+    "title": "The Mongol Empire",
+    "standard": "SS.6.W.4.11",
+    "problems": [
+      { "q": "Who led the Mongols in building their empire?", "answer": "Genghis Khan." },
+      { "q": "Fill in the blank: ______ Khan, Genghis Khan's grandson, ruled China and welcomed travelers like Marco Polo.", "answer": "Kublai" },
+      { "q": "True or False: The Mongols built the largest connected land empire in history.", "answer": "True" },
+      { "q": "Which famous traveler visited Kublai Khan's China?", "answer": "Marco Polo." },
+      { "q": "Explain how Mongol control helped trade and ideas spread.", "answer": "Mongol control made the Silk Roads safer, so traders and travelers could move along them more easily, helping goods and ideas spread even farther." }
+    ]
+  },
+  "8-1": {
+    "title": "City-States and the Birth of Democracy",
+    "standard": "SS.6.W.3.2",
+    "problems": [
+      { "q": "What was a Greek city-state called?", "answer": "A polis." },
+      { "q": "Fill in the blank: ______ created an early form of democracy where citizens could vote on laws.", "answer": "Athens" },
+      { "q": "True or False: In Athens, women, enslaved people, and foreigners were not allowed to vote.", "answer": "True" },
+      { "q": "What is a democracy?", "answer": "A form of government in which citizens can vote on laws and take part in government." },
+      { "q": "Why are Greek ideas about government still important today?", "answer": "Because Greek ideas about voting and the rule of law influenced and continue to shape governments around the world." }
+    ]
+  },
+  "8-2": {
+    "title": "Athens vs. Sparta",
+    "standard": "SS.6.W.3.3",
+    "problems": [
+      { "q": "What did Athens value?", "answer": "Education, art, and democracy." },
+      { "q": "Fill in the blank: Sparta focused almost entirely on training tough ______ from a young age.", "answer": "soldiers" },
+      { "q": "True or False: Athens and Sparta were very similar city-states with the same way of life.", "answer": "False" },
+      { "q": "Which city-state was famous for its strong, well-trained army?", "answer": "Sparta." },
+      { "q": "Explain one major difference between Athens and Sparta.", "answer": "Athens valued education, art, and democracy, while Sparta focused almost entirely on training tough soldiers, showing two very different ways of life." }
+    ]
+  },
+  "8-3": {
+    "title": "The Persian and Peloponnesian Wars",
+    "standard": "SS.6.W.3.4",
+    "problems": [
+      { "q": "What did the Greek city-states do when the Persian Empire invaded?", "answer": "They united and fought together, winning surprising victories." },
+      { "q": "Fill in the blank: The Greeks won famous victories over Persia at battles like Marathon and ______.", "answer": "Salamis" },
+      { "q": "True or False: In the Peloponnesian War, Athens and Sparta fought against each other.", "answer": "True" },
+      { "q": "Which war weakened Greece by turning Greek city-states against one another?", "answer": "The Peloponnesian War." },
+      { "q": "What do these two wars show about the Greek city-states?", "answer": "They show the strength of Greek teamwork against Persia, but also the danger of fighting among themselves, which weakened Greece." }
+    ]
+  },
+  "8-4": {
+    "title": "Greek Achievements and the Hellenistic Age",
+    "standard": "SS.6.W.3.5",
+    "problems": [
+      { "q": "Name two famous Greek philosophers.", "answer": "Any two of: Socrates, Plato, and Aristotle." },
+      { "q": "Fill in the blank: ______ the Great conquered a huge empire and spread Greek culture across the Middle East and Asia.", "answer": "Alexander" },
+      { "q": "True or False: The Greeks created the Olympics and early theater.", "answer": "True" },
+      { "q": "What is the name of the age that began when Greek culture spread across the Middle East and Asia?", "answer": "The Hellenistic Age." },
+      { "q": "Why was the Hellenistic Age important to the ancient world?", "answer": "Because Alexander's conquests blended Greek culture with Eastern cultures, shaping the ancient world for centuries." }
+    ]
+  },
+  "9-1": {
+    "title": "The Roman Republic",
+    "standard": "SS.6.W.3.10",
+    "problems": [
+      { "q": "What is a republic?", "answer": "A government in which citizens elect leaders to make decisions for them." },
+      { "q": "Fill in the blank: In the Roman Republic, citizens elected leaders called ______ to make decisions.", "answer": "senators" },
+      { "q": "True or False: Roman ideas like separation of powers and the rule of law influenced later governments, including the United States.", "answer": "True" },
+      { "q": "What was the duty of Roman citizens to take part in their government called?", "answer": "Civic duty." },
+      { "q": "Why is the Roman Republic important to governments today?", "answer": "Because its ideas of separation of powers, the rule of law, and electing leaders influenced later governments, including the United States." }
+    ]
+  },
+  "9-2": {
+    "title": "The Punic Wars and Roman Expansion",
+    "standard": "SS.6.W.3.9",
+    "problems": [
+      { "q": "Which city did Rome fight in the Punic Wars?", "answer": "Carthage." },
+      { "q": "Fill in the blank: There were ______ Punic Wars between Rome and Carthage.", "answer": "three" },
+      { "q": "True or False: Carthage's general Hannibal marched elephants over the mountains.", "answer": "True" },
+      { "q": "What did Rome do to Carthage at the end of the Punic Wars?", "answer": "Rome won and destroyed Carthage." },
+      { "q": "Why were the Punic Wars so important for Rome?", "answer": "Because winning made Rome the master of the Mediterranean and set the stage for a mighty empire." }
+    ]
+  },
+  "9-3": {
+    "title": "From Republic to Empire",
+    "standard": "SS.6.W.3.11",
+    "problems": [
+      { "q": "Which Roman general took control before being assassinated?", "answer": "Julius Caesar." },
+      { "q": "Fill in the blank: ______ became the first emperor of Rome.", "answer": "Augustus" },
+      { "q": "True or False: The long period of peace at the start of the Roman Empire was called the Pax Romana.", "answer": "True" },
+      { "q": "What happened to power in Rome as it changed from a republic to an empire?", "answer": "Power shifted from elected leaders to one powerful emperor." },
+      { "q": "Explain how Rome changed from a republic into an empire.", "answer": "As the republic struggled, Julius Caesar took control and was assassinated, then his heir Augustus became the first emperor, shifting power to one ruler and beginning the Roman Empire." }
+    ]
+  },
+  "9-4": {
+    "title": "Roman Achievements and Early Christianity",
+    "standard": "SS.6.W.3.14",
+    "problems": [
+      { "q": "Name two things the Romans were famous for building.", "answer": "Any two of: roads, aqueducts, concrete buildings, and laws." },
+      { "q": "Fill in the blank: Roman ______ carried water across long distances.", "answer": "aqueducts" },
+      { "q": "True or False: Christianity began in Roman lands and slowly spread until it became the empire's main religion.", "answer": "True" },
+      { "q": "What did early Christianity teach?", "answer": "Belief in one God and in Jesus." },
+      { "q": "How did Roman roads and trade help Christianity spread?", "answer": "Roman roads and trade routes let people, goods, and ideas travel quickly, so the new Christian beliefs spread across the empire faster." }
+    ]
+  },
+  "9-5": {
+    "title": "The Fall of the Western Roman Empire",
+    "standard": "SS.6.W.3.15",
+    "problems": [
+      { "q": "Which half of the Roman Empire slowly declined and fell?", "answer": "The western half (the Western Roman Empire)." },
+      { "q": "Fill in the blank: By the year ______ AD the Western Roman Empire had fallen.", "answer": "476" },
+      { "q": "True or False: One cause of Rome's fall was that the empire was so huge it was hard to defend.", "answer": "True" },
+      { "q": "Name two causes of the fall of the Western Roman Empire.", "answer": "Any two of: weak leaders, money problems, a huge size hard to defend, and invasions by outside groups." },
+      { "q": "Why is the fall of the Western Roman Empire seen as the end of an era?", "answer": "Because its fall in 476 AD ended the ancient classical world in Europe." }
+    ]
+  },
+  "10-1": {
+    "title": "The Kingdoms of Kush and Axum",
+    "standard": "SS.6.W.3.18",
+    "problems": [
+      { "q": "Where was the kingdom of Kush located?", "answer": "South of Egypt along the Nile River." },
+      { "q": "Fill in the blank: The kingdom of Kush traded gold, ivory, and ______.", "answer": "iron" },
+      { "q": "True or False: Axum was one of the first kingdoms to adopt Christianity.", "answer": "True" },
+      { "q": "What made the kingdom of Axum powerful?", "answer": "It became a powerful trading center in East Africa." },
+      { "q": "What do the kingdoms of Kush and Axum show us about ancient Africa?", "answer": "They show that great civilizations grew across the whole continent of Africa, not only in Egypt." }
+    ]
+  },
+  "10-2": {
+    "title": "Trade, Barter, and Money in the Ancient World",
+    "standard": "SS.6.E.3.1",
+    "problems": [
+      { "q": "What is barter?", "answer": "Trading goods directly for other goods, like trading grain for cloth." },
+      { "q": "Fill in the blank: Over time, civilizations created money, such as ______, to make trading easier.", "answer": "coins" },
+      { "q": "True or False: Money is used as a medium of exchange that makes trading easier.", "answer": "True" },
+      { "q": "Give an example of barter.", "answer": "Trading grain for cloth (any direct swap of goods for goods)." },
+      { "q": "Why did using money make trade easier than barter?", "answer": "With barter you had to find someone who wanted exactly what you had, but money works as a medium of exchange that everyone accepts, so trading is simpler." }
+    ]
+  },
+  "10-3": {
+    "title": "Scarcity, Supply, and Economic Choices",
+    "standard": "SS.6.E.1.3",
+    "problems": [
+      { "q": "What does scarcity mean?", "answer": "There is never enough of everything people want, so choices must be made about resources." },
+      { "q": "Fill in the blank: Choosing one thing means giving up another, which is called ______ cost.", "answer": "opportunity" },
+      { "q": "True or False: Because of scarcity, societies must make choices about how to use resources like land, labor, and tools.", "answer": "True" },
+      { "q": "Name two ways ancient civilizations dealt with scarcity.", "answer": "Trade and new technology." },
+      { "q": "Explain how opportunity cost works when a society makes an economic choice.", "answer": "Because resources are scarce, choosing to use them for one thing means giving up the chance to use them for something else, and that given-up choice is the opportunity cost." }
+    ]
+  }
+}
