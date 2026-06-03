@@ -153,6 +153,456 @@
         "explanation": "The Nile supplied water, fertile soil, and transportation — central to Egyptian life.",
         "standard": "SS.6.W.2.3",
         "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q11",
+        "section": "social",
+        "question": "Which title belongs to the Nile compared to other rivers in the world?",
+        "choices": {
+          "A": "The shortest river in the world",
+          "B": "The widest lake in the world",
+          "C": "The longest river in the world",
+          "D": "The deepest ocean in the world"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile is described as the longest river in the world.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q12",
+        "section": "social",
+        "question": "In which part of Africa is the Nile valley of ancient Egypt found?",
+        "choices": {
+          "A": "Southwestern Africa",
+          "B": "Central Africa",
+          "C": "Southern Africa",
+          "D": "Northeastern Africa"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ancient Egypt grew along the Nile in northeastern Africa.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q13",
+        "section": "social",
+        "question": "A 'civilization' is BEST described as what?",
+        "choices": {
+          "A": "A large, organized society with cities, government, and culture",
+          "B": "A small group of travelers with no home",
+          "C": "A single family living alone",
+          "D": "A type of desert animal"
+        },
+        "correctAnswer": "A",
+        "explanation": "A civilization is a large, organized society with cities, government, and culture.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q14",
+        "section": "social",
+        "question": "If the Nile had stopped flooding for many years, what would MOST likely have happened to Egyptian farming?",
+        "choices": {
+          "A": "Crops would have grown even better",
+          "B": "Farmers would lose the rich soil and struggle to grow crops",
+          "C": "Nothing would change at all",
+          "D": "The desert would turn into a forest"
+        },
+        "correctAnswer": "B",
+        "explanation": "Without floods, farmers would lose the rich soil the floods provided, making crops hard to grow.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q15",
+        "section": "social",
+        "question": "Which of these was NOT a way the Nile helped ancient Egyptians?",
+        "choices": {
+          "A": "Watering crops",
+          "B": "Providing a route for travel and trade",
+          "C": "Blocking invaders like a tall mountain range",
+          "D": "Leaving rich soil after floods"
+        },
+        "correctAnswer": "C",
+        "explanation": "Deserts, not the river itself, acted as the natural barrier against invaders.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q16",
+        "section": "social",
+        "question": "Why was rich, dark soil so valuable to Egyptian farmers?",
+        "choices": {
+          "A": "It scared away desert animals",
+          "B": "It could be sold as gold",
+          "C": "It kept the river frozen",
+          "D": "It made it easier to grow plenty of crops"
+        },
+        "correctAnswer": "D",
+        "explanation": "The rich soil let Egyptians grow plenty of crops.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q17",
+        "section": "social",
+        "question": "Which sentence shows a CAUSE and its EFFECT in ancient Egypt?",
+        "choices": {
+          "A": "The Nile flooded, so farmers gained rich soil to grow crops",
+          "B": "The desert was hot, so the Nile dried up forever",
+          "C": "Egypt was in Africa, so it had no rivers",
+          "D": "Floods happened, so all crops died"
+        },
+        "correctAnswer": "A",
+        "explanation": "The flooding (cause) gave farmers rich soil for crops (effect).",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q18",
+        "section": "social",
+        "question": "Compared to Mesopotamia, why did Egypt become more stable and long-lasting?",
+        "choices": {
+          "A": "Egypt had no rivers to worry about",
+          "B": "The Nile's predictable floods made life easier to plan",
+          "C": "Egypt had colder weather",
+          "D": "Egypt had no deserts at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Nile's regular, predictable floods helped Egypt stay stable and long-lasting.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q19",
+        "section": "social",
+        "question": "Herodotus, who described Egypt, was from which ancient land?",
+        "choices": {
+          "A": "Egypt",
+          "B": "China",
+          "C": "Greece",
+          "D": "Persia"
+        },
+        "correctAnswer": "C",
+        "explanation": "Herodotus was a Greek historian.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q20",
+        "section": "social",
+        "question": "Which natural feature surrounded the Nile valley on the sides?",
+        "choices": {
+          "A": "Oceans",
+          "B": "Glaciers",
+          "C": "Rainforests",
+          "D": "Hot deserts"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hot deserts surrounded the Nile valley.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q21",
+        "section": "social",
+        "question": "An Egyptian farmer could count on the floods coming each year. The word that BEST means 'able to be counted on' is which?",
+        "choices": {
+          "A": "Reliable",
+          "B": "Sudden",
+          "C": "Dangerous",
+          "D": "Empty"
+        },
+        "correctAnswer": "A",
+        "explanation": "Something that can be counted on is reliable, like the Nile's floods.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q22",
+        "section": "social",
+        "question": "How did the Nile most likely help Egyptians travel and trade?",
+        "choices": {
+          "A": "By turning into a paved highway",
+          "B": "By serving as a watery road for boats",
+          "C": "By freezing into an ice path",
+          "D": "By drying up into a sandy trail"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Nile served as a route for boats to travel and trade goods.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q23",
+        "section": "social",
+        "question": "Which BEST describes how geography both fed AND protected Egypt?",
+        "choices": {
+          "A": "The mountains fed crops while forests stopped invaders",
+          "B": "The deserts grew crops while the river blocked attacks",
+          "C": "The river fed crops while the deserts kept invaders out",
+          "D": "The ocean fed crops while ice protected the land"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile fed crops with water and soil, while the deserts protected Egypt from invaders.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q24",
+        "section": "social",
+        "question": "Which is an EXAMPLE of how Egyptians used the Nile in daily life?",
+        "choices": {
+          "A": "Climbing it like a mountain",
+          "B": "Flying over it in planes",
+          "C": "Using it to make snow",
+          "D": "Getting water to drink and to grow food"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptians used the Nile for water to drink and to grow food.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q25",
+        "section": "social",
+        "question": "Put these in the correct ORDER for Egyptian farming: (1) the Nile floods, (2) rich soil is left behind, (3) crops grow.",
+        "choices": {
+          "A": "The Nile floods, then rich soil is left, then crops grow",
+          "B": "Crops grow, then floods come, then soil is left",
+          "C": "Soil is left, then floods come, then crops die",
+          "D": "Crops grow, then soil washes away, then floods stop"
+        },
+        "correctAnswer": "A",
+        "explanation": "First the Nile floods, then it leaves rich soil, then crops grow in that soil.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q26",
+        "section": "social",
+        "question": "Which statement about ancient Egypt is TRUE?",
+        "choices": {
+          "A": "Egypt grew far away from any water",
+          "B": "Egypt depended heavily on the Nile River",
+          "C": "The Nile was unimportant to Egyptian life",
+          "D": "Egypt had no farming at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "Egypt depended heavily on the Nile River for nearly everything.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q27",
+        "section": "social",
+        "question": "Why might invaders have found it hard to attack ancient Egypt?",
+        "choices": {
+          "A": "Egypt floated in the sky",
+          "B": "Egypt was hidden under the ocean",
+          "C": "Crossing the surrounding hot deserts was difficult",
+          "D": "Egypt had no people to attack"
+        },
+        "correctAnswer": "C",
+        "explanation": "The hot deserts around Egypt made it hard for invaders to cross and attack.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q28",
+        "section": "social",
+        "question": "What does the nickname 'the gift of the Nile' suggest about how Egyptians felt about the river?",
+        "choices": {
+          "A": "They feared and avoided the river",
+          "B": "They wanted to drain the river away",
+          "C": "They thought the river was useless",
+          "D": "They were thankful because the river gave them so much"
+        },
+        "correctAnswer": "D",
+        "explanation": "Calling Egypt 'the gift of the Nile' shows the river gave them so much they were thankful for it.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q29",
+        "section": "social",
+        "question": "Which pair correctly matches a feature with what it did for Egypt?",
+        "choices": {
+          "A": "Nile River — watered crops; Desert — protected from invaders",
+          "B": "Nile River — blocked invaders; Desert — watered crops",
+          "C": "Nile River — froze crops; Desert — flooded the land",
+          "D": "Nile River — made gold; Desert — grew forests"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Nile watered crops, while the desert protected Egypt from invaders.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q30",
+        "section": "social",
+        "question": "The yearly Nile floods are an example of how which of these shaped ancient Egypt?",
+        "choices": {
+          "A": "Modern machines",
+          "B": "Geography and nature",
+          "C": "Written laws",
+          "D": "Foreign armies"
+        },
+        "correctAnswer": "B",
+        "explanation": "The floods show how geography and nature shaped Egyptian life.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q31",
+        "section": "social",
+        "question": "Which of these would NOT belong in a description of ancient Egypt's geography?",
+        "choices": {
+          "A": "A long, flooding river",
+          "B": "Rich, dark soil",
+          "C": "Snowy mountains covering the whole land",
+          "D": "Surrounding hot deserts"
+        },
+        "correctAnswer": "C",
+        "explanation": "Egypt was known for the Nile, rich soil, and deserts, not snowy mountains covering the land.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q32",
+        "section": "social",
+        "question": "Why did people settle close to the Nile rather than far out in the desert?",
+        "choices": {
+          "A": "The desert had more water than the river",
+          "B": "People disliked the river",
+          "C": "The desert had better farming",
+          "D": "The Nile gave water and fertile soil needed to live and farm"
+        },
+        "correctAnswer": "D",
+        "explanation": "People settled near the Nile because it gave water and fertile soil needed for life and farming.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q33",
+        "section": "social",
+        "question": "Which is the BEST example of the Nile acting as the 'heart' of Egyptian life?",
+        "choices": {
+          "A": "Almost all farming, trade, travel, and daily life depended on it",
+          "B": "It was only used once a year",
+          "C": "People ignored it most of the time",
+          "D": "It was kept secret from everyone"
+        },
+        "correctAnswer": "A",
+        "explanation": "Because farming, trade, travel, and daily life all depended on it, the Nile was the heart of Egyptian life.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q34",
+        "section": "social",
+        "question": "What does the word 'fertile' MOST likely mean when describing the soil left by Nile floods?",
+        "choices": {
+          "A": "Too dry for anything",
+          "B": "Good for growing crops",
+          "C": "Full of salt and useless",
+          "D": "Frozen solid"
+        },
+        "correctAnswer": "B",
+        "explanation": "Fertile soil is good for growing crops, like the rich soil left by the floods.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q35",
+        "section": "social",
+        "question": "An ancient Egyptian boat carrying grain to trade is moving DOWN the Nile. This shows the Nile being used for what?",
+        "choices": {
+          "A": "Building pyramids",
+          "B": "Worshipping gods",
+          "C": "Transportation and trade",
+          "D": "Writing laws"
+        },
+        "correctAnswer": "C",
+        "explanation": "Carrying grain by boat shows the Nile being used for transportation and trade.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q36",
+        "section": "social",
+        "question": "Why might a historian say geography 'shaped' ancient Egypt?",
+        "choices": {
+          "A": "Because Egyptians lived only on ships",
+          "B": "Because Egypt had no land at all",
+          "C": "Because geography had no effect on people",
+          "D": "Because the land and river decided where people lived, farmed, and stayed safe"
+        },
+        "correctAnswer": "D",
+        "explanation": "Geography shaped Egypt because the river and land decided where people lived, farmed, and stayed safe.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q37",
+        "section": "social",
+        "question": "Which word BEST describes how long Egyptian civilization lasted?",
+        "choices": {
+          "A": "For thousands of years",
+          "B": "Briefly, for only a few weeks",
+          "C": "Just one season",
+          "D": "Less than a year"
+        },
+        "correctAnswer": "A",
+        "explanation": "Protected and well-fed, Egyptian civilization lasted for thousands of years.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q38",
+        "section": "social",
+        "question": "If you wanted to summarize this lesson in one sentence, which fits BEST?",
+        "choices": {
+          "A": "Egypt depended on snowy mountains for everything",
+          "B": "The Nile River gave Egypt water, soil, travel, and protection for a long-lasting civilization",
+          "C": "Egypt had no rivers and lived in the ocean",
+          "D": "The Nile destroyed Egyptian farming every year"
+        },
+        "correctAnswer": "B",
+        "explanation": "The lesson's main idea is that the Nile gave Egypt water, soil, travel, and protection for a long-lasting civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q39",
+        "section": "social",
+        "question": "Which detail BEST supports the idea that the Nile flooded in a way Egyptians could plan around?",
+        "choices": {
+          "A": "The floods came at no set time and surprised everyone",
+          "B": "The floods only happened once in history",
+          "C": "The floods were fairly regular and could be counted on",
+          "D": "The floods never left any soil"
+        },
+        "correctAnswer": "C",
+        "explanation": "The detail that floods were fairly regular and could be counted on supports planning around them.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q40",
+        "section": "social",
+        "question": "Which is the BEST reason the Nile mattered more to Egypt than the deserts did?",
+        "choices": {
+          "A": "The deserts gave food and water, but the river only blocked invaders",
+          "B": "Neither one mattered to Egypt",
+          "C": "Both the river and deserts grew crops equally",
+          "D": "The river provided water, soil, food, and travel, while the deserts mainly gave protection"
+        },
+        "correctAnswer": "D",
+        "explanation": "The river gave water, soil, food, and travel, while the deserts mainly provided protection, so the river was more central to daily life.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "The nearly intact tomb gave historians rare, rich evidence about ancient Egypt.",
         "standard": "SS.6.W.2.6",
         "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q11",
+        "section": "social",
+        "question": "Which pharaoh is remembered as a great builder and warrior?",
+        "choices": {
+          "A": "Confucius",
+          "B": "Herodotus",
+          "C": "Ramses II",
+          "D": "Sargon"
+        },
+        "correctAnswer": "C",
+        "explanation": "Ramses II was known as a great builder and warrior pharaoh.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q12",
+        "section": "social",
+        "question": "Besides ruling, what did Hatshepsut promote during her reign?",
+        "choices": {
+          "A": "War with every neighbor",
+          "B": "Banning religion",
+          "C": "Ending all farming",
+          "D": "Trade"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hatshepsut ruled successfully and promoted trade.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q13",
+        "section": "social",
+        "question": "An 'archaeologist' is BEST described as a person who does what?",
+        "choices": {
+          "A": "Studies the past by digging up and examining old objects and places",
+          "B": "Builds boats for trade",
+          "C": "Rules a kingdom as a queen",
+          "D": "Farms along the river"
+        },
+        "correctAnswer": "A",
+        "explanation": "An archaeologist studies the past by digging up and examining old objects and places, like King Tut's tomb.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q14",
+        "section": "social",
+        "question": "In the Egyptian social pyramid, who was placed just BELOW the pharaoh?",
+        "choices": {
+          "A": "Enslaved workers",
+          "B": "Priests and nobles",
+          "C": "Foreign invaders",
+          "D": "Children only"
+        },
+        "correctAnswer": "B",
+        "explanation": "Priests and nobles were placed just below the pharaoh.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q15",
+        "section": "social",
+        "question": "Which of these was NOT something pharaohs were responsible for?",
+        "choices": {
+          "A": "Organizing armies",
+          "B": "Leading big building projects",
+          "C": "Being elected each year by farmers",
+          "D": "Collecting taxes"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pharaohs were not elected; they organized armies, building projects, and taxes.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q16",
+        "section": "social",
+        "question": "What is special about Hatshepsut compared to most other pharaohs?",
+        "choices": {
+          "A": "She was a child the whole time she ruled",
+          "B": "She refused to rule",
+          "C": "She came from Greece",
+          "D": "She was one of the few women to rule as pharaoh"
+        },
+        "correctAnswer": "D",
+        "explanation": "Most pharaohs were men, so being one of the few female pharaohs made Hatshepsut special.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q17",
+        "section": "social",
+        "question": "Because Egyptians believed the pharaoh was god-like, how did they MOST likely treat his commands?",
+        "choices": {
+          "A": "They obeyed them and gave him great respect",
+          "B": "They ignored them",
+          "C": "They voted to cancel them",
+          "D": "They laughed at them"
+        },
+        "correctAnswer": "A",
+        "explanation": "Seeing the pharaoh as god-like, Egyptians obeyed his commands and gave him great respect.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q18",
+        "section": "social",
+        "question": "Which pair correctly matches a person with how they are remembered?",
+        "choices": {
+          "A": "Hatshepsut — a Roman emperor",
+          "B": "King Tut — the boy-king with the famous tomb",
+          "C": "Ramses II — a female pharaoh",
+          "D": "King Tut — a Greek historian"
+        },
+        "correctAnswer": "B",
+        "explanation": "King Tut is remembered as the boy-king whose famous tomb was found in 1922.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q19",
+        "section": "social",
+        "question": "A 'scribe' in ancient Egypt was a person who did what?",
+        "choices": {
+          "A": "Ruled as pharaoh",
+          "B": "Led the army into battle",
+          "C": "Read and wrote records",
+          "D": "Grew all the crops alone"
+        },
+        "correctAnswer": "C",
+        "explanation": "Scribes were people who read and wrote records, placed in the middle of the social pyramid.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q20",
+        "section": "social",
+        "question": "Why might historians call the pharaoh both a political AND a religious leader?",
+        "choices": {
+          "A": "He served a foreign king",
+          "B": "He only farmed and nothing more",
+          "C": "He had no power over religion or government",
+          "D": "He ruled the government and was seen as a link to the gods"
+        },
+        "correctAnswer": "D",
+        "explanation": "The pharaoh ruled the government and was seen as a link to the gods, making him both political and religious.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q21",
+        "section": "social",
+        "question": "How did King Tut become pharaoh?",
+        "choices": {
+          "A": "He became pharaoh as a boy",
+          "B": "He was elected by the people",
+          "C": "He conquered Egypt as a foreign king",
+          "D": "He was chosen by a Greek historian"
+        },
+        "correctAnswer": "A",
+        "explanation": "King Tut became pharaoh while he was still a boy.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q22",
+        "section": "social",
+        "question": "Which is the BEST example of the pharaoh's 'enormous power'?",
+        "choices": {
+          "A": "He could plant only one seed a year",
+          "B": "He could order huge building projects, armies, and taxes",
+          "C": "He had to ask farmers for permission to rule",
+          "D": "He had no control over trade"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ordering huge building projects, armies, and taxes shows the pharaoh's enormous power.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q23",
+        "section": "social",
+        "question": "In which year was King Tut's tomb discovered?",
+        "choices": {
+          "A": "1492",
+          "B": "1776",
+          "C": "1922",
+          "D": "2001"
+        },
+        "correctAnswer": "C",
+        "explanation": "King Tut's tomb was discovered in 1922.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q24",
+        "section": "social",
+        "question": "Which statement about Egyptian society is TRUE?",
+        "choices": {
+          "A": "Everyone in Egypt was equal with no ranks",
+          "B": "There were no leaders at all",
+          "C": "Farmers ruled over the pharaoh",
+          "D": "Society had clear levels, with the pharaoh at the top"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptian society had clear levels, with the pharaoh at the top.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q25",
+        "section": "social",
+        "question": "Order these social groups from HIGHEST to LOWEST in Egyptian society.",
+        "choices": {
+          "A": "Pharaoh, priests and nobles, scribes and craftspeople, farmers",
+          "B": "Farmers, scribes, priests, pharaoh",
+          "C": "Scribes, pharaoh, farmers, priests",
+          "D": "Farmers, pharaoh, nobles, scribes"
+        },
+        "correctAnswer": "A",
+        "explanation": "From highest to lowest: the pharaoh, then priests and nobles, then scribes and craftspeople, then farmers.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q26",
+        "section": "social",
+        "question": "How were Hatshepsut and Ramses II ALIKE?",
+        "choices": {
+          "A": "Both were Greek philosophers",
+          "B": "Both ruled Egypt as pharaohs",
+          "C": "Both refused to lead",
+          "D": "Both lived in Mesopotamia"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hatshepsut and Ramses II were alike in that both ruled Egypt as pharaohs.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q27",
+        "section": "social",
+        "question": "Why did a clear social order help keep Egypt organized?",
+        "choices": {
+          "A": "It removed all leaders",
+          "B": "It made everyone confused about their jobs",
+          "C": "It told everyone their role and who was in charge",
+          "D": "It stopped people from farming"
+        },
+        "correctAnswer": "C",
+        "explanation": "A clear social order kept Egypt organized by showing everyone their role and who was in charge.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q28",
+        "section": "social",
+        "question": "Which group was found at the very BOTTOM of the Egyptian social pyramid?",
+        "choices": {
+          "A": "Pharaohs and priests",
+          "B": "Nobles and scribes",
+          "C": "Kings and queens",
+          "D": "Farmers and enslaved workers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Farmers and enslaved workers were at the bottom of the social pyramid.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q29",
+        "section": "social",
+        "question": "Which is an EXAMPLE of the pharaoh acting as a link between the people and the gods?",
+        "choices": {
+          "A": "Leading religious ceremonies that Egyptians believed pleased the gods",
+          "B": "Planting crops as an ordinary farmer",
+          "C": "Selling goods in a foreign market",
+          "D": "Writing records as a scribe"
+        },
+        "correctAnswer": "A",
+        "explanation": "Leading religious ceremonies believed to please the gods shows the pharaoh as a link between people and the gods.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q30",
+        "section": "social",
+        "question": "What does the word 'enormous' MOST likely mean in the phrase 'enormous power'?",
+        "choices": {
+          "A": "Very small",
+          "B": "Very great or huge",
+          "C": "Completely gone",
+          "D": "Equal to everyone else's"
+        },
+        "correctAnswer": "B",
+        "explanation": "Enormous power means very great or huge power.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q31",
+        "section": "social",
+        "question": "Which is the BEST summary of this lesson?",
+        "choices": {
+          "A": "Egypt had no rulers and everyone was equal",
+          "B": "Farmers ruled Egypt and built all the tombs",
+          "C": "Pharaohs were god-like kings who led Egypt at the top of a pyramid-shaped society",
+          "D": "Greek historians ruled ancient Egypt"
+        },
+        "correctAnswer": "C",
+        "explanation": "The main idea is that pharaohs were god-like kings who led Egypt at the top of a pyramid-shaped society.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q32",
+        "section": "social",
+        "question": "Which detail BEST supports the idea that pharaohs had religious importance?",
+        "choices": {
+          "A": "Pharaohs built large projects",
+          "B": "Pharaohs collected taxes",
+          "C": "Pharaohs organized trade",
+          "D": "Egyptians believed the pharaoh was god-like"
+        },
+        "correctAnswer": "D",
+        "explanation": "The belief that the pharaoh was god-like best supports his religious importance.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q33",
+        "section": "social",
+        "question": "If a new pharaoh wanted to show his power, which action fits BEST with what pharaohs did?",
+        "choices": {
+          "A": "Ordering a giant temple to be built",
+          "B": "Asking the farmers to vote on every choice",
+          "C": "Giving up the throne to a foreign king",
+          "D": "Refusing to lead the army"
+        },
+        "correctAnswer": "A",
+        "explanation": "Ordering a giant temple fits the pharaoh's role of leading big building projects to show power.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q34",
+        "section": "social",
+        "question": "Which best explains why so few women, like Hatshepsut, became pharaoh?",
+        "choices": {
+          "A": "Women were not allowed in Egypt",
+          "B": "Most pharaohs were men, so a female pharaoh was rare",
+          "C": "There were no leaders in Egypt",
+          "D": "Only Greek women could rule Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Most pharaohs were men, which made a female pharaoh like Hatshepsut rare.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q35",
+        "section": "social",
+        "question": "The treasures found in King Tut's tomb tell historians MOST about what?",
+        "choices": {
+          "A": "Modern technology",
+          "B": "The geography of Greece",
+          "C": "The wealth, art, and beliefs of ancient Egypt",
+          "D": "The laws of Mesopotamia"
+        },
+        "correctAnswer": "C",
+        "explanation": "The tomb's treasures reveal the wealth, art, and beliefs of ancient Egypt.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q36",
+        "section": "social",
+        "question": "Which job would be placed in the MIDDLE of the Egyptian social pyramid?",
+        "choices": {
+          "A": "Pharaoh",
+          "B": "Enslaved worker",
+          "C": "Foreign invader",
+          "D": "Scribe or craftsperson"
+        },
+        "correctAnswer": "D",
+        "explanation": "Scribes and craftspeople sat in the middle of the social pyramid.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q37",
+        "section": "social",
+        "question": "Why was being seen as god-like USEFUL for a pharaoh's rule?",
+        "choices": {
+          "A": "It gave him authority that people were unlikely to question",
+          "B": "It made people refuse to follow him",
+          "C": "It forced him to give up his land",
+          "D": "It made him equal to a farmer"
+        },
+        "correctAnswer": "A",
+        "explanation": "Being seen as god-like gave the pharaoh authority that people were unlikely to question.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q38",
+        "section": "social",
+        "question": "Which person does NOT belong in a list of famous Egyptian pharaohs?",
+        "choices": {
+          "A": "Tutankhamun",
+          "B": "Herodotus",
+          "C": "Ramses II",
+          "D": "Hatshepsut"
+        },
+        "correctAnswer": "B",
+        "explanation": "Herodotus was a Greek historian, not an Egyptian pharaoh.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q39",
+        "section": "social",
+        "question": "What is the MAIN reason Egyptian society stayed organized for thousands of years?",
+        "choices": {
+          "A": "Everyone had the same job",
+          "B": "There were no rules or leaders",
+          "C": "A clear social order with the god-like pharaoh on top",
+          "D": "Egypt changed rulers every day"
+        },
+        "correctAnswer": "C",
+        "explanation": "A clear social order with the god-like pharaoh on top kept Egypt organized for thousands of years.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q40",
+        "section": "social",
+        "question": "A pharaoh sends soldiers to defend Egypt, orders a temple built, and collects grain as taxes. These actions BEST show that the pharaoh was what?",
+        "choices": {
+          "A": "A scribe writing records",
+          "B": "A simple farmer with no power",
+          "C": "A foreign trader passing through",
+          "D": "A powerful leader in charge of many parts of Egyptian life"
+        },
+        "correctAnswer": "D",
+        "explanation": "Defending Egypt, building temples, and collecting taxes show the pharaoh was a powerful leader in charge of many parts of Egyptian life.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
       }
     ]
   },
@@ -467,6 +1367,456 @@
         "explanation": "Belief in the afterlife (cause) led to mummies and grand tombs (effect).",
         "standard": "SS.6.W.2.4",
         "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q11",
+        "section": "social",
+        "question": "The word 'polytheist' means a person who believes in what?",
+        "choices": {
+          "A": "Only one god",
+          "B": "No gods",
+          "C": "Many gods",
+          "D": "Only kings"
+        },
+        "correctAnswer": "C",
+        "explanation": "A polytheist believes in many gods, like the ancient Egyptians.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q12",
+        "section": "social",
+        "question": "Which Egyptian god was the god of the sun?",
+        "choices": {
+          "A": "Herodotus",
+          "B": "Osiris",
+          "C": "Hammurabi",
+          "D": "Ra"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ra was the Egyptian sun god.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q13",
+        "section": "social",
+        "question": "Which Egyptian god was connected to the afterlife?",
+        "choices": {
+          "A": "Osiris",
+          "B": "Ra",
+          "C": "Cyrus",
+          "D": "Ramses"
+        },
+        "correctAnswer": "A",
+        "explanation": "Osiris was the god of the afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q14",
+        "section": "social",
+        "question": "During mummification, what material was used to wrap the body?",
+        "choices": {
+          "A": "Gold sheets",
+          "B": "Linen",
+          "C": "Stone blocks",
+          "D": "River reeds"
+        },
+        "correctAnswer": "B",
+        "explanation": "Egyptians wrapped the dried body in linen during mummification.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q15",
+        "section": "social",
+        "question": "Which of these was NOT one of the three things at the center of an ordinary Egyptian's daily life?",
+        "choices": {
+          "A": "Family",
+          "B": "Farming",
+          "C": "Sailing across oceans",
+          "D": "Faith"
+        },
+        "correctAnswer": "C",
+        "explanation": "Daily life centered on family, farming, and faith, not sailing across oceans.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q16",
+        "section": "social",
+        "question": "Put the steps of mummification in the correct ORDER: remove certain organs, dry the body, wrap in linen.",
+        "choices": {
+          "A": "Wrap in linen, remove organs, dry the body",
+          "B": "Wrap in linen, dry the body, remove organs",
+          "C": "Dry the body, wrap in linen, remove organs",
+          "D": "Remove certain organs, dry the body, wrap in linen"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptians first removed certain organs, then dried the body, then wrapped it in linen.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q17",
+        "section": "social",
+        "question": "Which is an EXAMPLE of religion shaping Egyptian life?",
+        "choices": {
+          "A": "Holding festivals to honor the gods",
+          "B": "Forgetting about the gods completely",
+          "C": "Banning all temples",
+          "D": "Worshipping no one"
+        },
+        "correctAnswer": "A",
+        "explanation": "Holding festivals to honor the gods is an example of religion shaping Egyptian life.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q18",
+        "section": "social",
+        "question": "Why were priests important in ancient Egypt?",
+        "choices": {
+          "A": "They led the army into battle",
+          "B": "They helped carry out religious duties that were central to Egyptian life",
+          "C": "They grew all the crops alone",
+          "D": "They had no role at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "Priests were important because religion was central to Egyptian life, and they carried out religious duties.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q19",
+        "section": "social",
+        "question": "The belief in an afterlife is BEST described as the idea that what happens?",
+        "choices": {
+          "A": "Life ends completely at death",
+          "B": "People become rivers after death",
+          "C": "Life continues in some way after death",
+          "D": "People never die"
+        },
+        "correctAnswer": "C",
+        "explanation": "The afterlife is the belief that life continues in some way after death.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q20",
+        "section": "social",
+        "question": "Which sentence shows a CAUSE and EFFECT about Egyptian beliefs?",
+        "choices": {
+          "A": "Egyptians built tombs, so the Nile dried up",
+          "B": "Egyptians had a river, so they had no gods",
+          "C": "Egyptians farmed, so they stopped believing in an afterlife",
+          "D": "Egyptians believed the body was needed in the next world, so they mummified the dead"
+        },
+        "correctAnswer": "D",
+        "explanation": "Believing the body was needed in the next world (cause) led Egyptians to mummify the dead (effect).",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q21",
+        "section": "social",
+        "question": "Where did most ordinary Egyptians do their farming?",
+        "choices": {
+          "A": "Along the Nile",
+          "B": "High in the mountains",
+          "C": "In the middle of the desert",
+          "D": "On the ocean"
+        },
+        "correctAnswer": "A",
+        "explanation": "Ordinary Egyptians farmed along the Nile.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q22",
+        "section": "social",
+        "question": "Which statement about Egyptian religion is TRUE?",
+        "choices": {
+          "A": "Egyptians worshipped only one god",
+          "B": "Religion touched almost everything in Egyptian life",
+          "C": "Egyptians had no gods or temples",
+          "D": "Religion mattered only to foreigners"
+        },
+        "correctAnswer": "B",
+        "explanation": "Religion touched almost everything in Egyptian life.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q23",
+        "section": "social",
+        "question": "How were Ra and Osiris ALIKE?",
+        "choices": {
+          "A": "Both were rivers",
+          "B": "Both were pharaohs",
+          "C": "Both were Egyptian gods",
+          "D": "Both were Greek historians"
+        },
+        "correctAnswer": "C",
+        "explanation": "Ra and Osiris were alike in that both were Egyptian gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q24",
+        "section": "social",
+        "question": "Why would treasures and supplies be placed in a tomb if the person had died?",
+        "choices": {
+          "A": "Because the tomb needed decoration only",
+          "B": "To sell them to invaders",
+          "C": "To use them for farming the next year",
+          "D": "Egyptians believed the person would need them in the afterlife"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptians believed the person would need treasures and supplies in the afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q25",
+        "section": "social",
+        "question": "A 'mummy' is BEST described as what?",
+        "choices": {
+          "A": "A carefully preserved dead body",
+          "B": "A type of Egyptian god",
+          "C": "A grand stone tomb",
+          "D": "A river boat"
+        },
+        "correctAnswer": "A",
+        "explanation": "A mummy is a carefully preserved dead body.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q26",
+        "section": "social",
+        "question": "Which pair correctly matches a god with what they were known for?",
+        "choices": {
+          "A": "Ra — the afterlife; Osiris — the sun",
+          "B": "Ra — the sun; Osiris — the afterlife",
+          "C": "Ra — farming; Osiris — trade",
+          "D": "Ra — the river; Osiris — the desert"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ra was the sun god and Osiris was the god of the afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q27",
+        "section": "social",
+        "question": "Which is the BEST summary of this lesson?",
+        "choices": {
+          "A": "Egyptians had no religion and lived only to farm",
+          "B": "Egyptians believed in only one god and ignored the afterlife",
+          "C": "Religion, including belief in many gods and an afterlife, shaped Egyptian daily life",
+          "D": "Egyptian life centered only on war"
+        },
+        "correctAnswer": "C",
+        "explanation": "The main idea is that religion, including belief in many gods and an afterlife, shaped Egyptian daily life.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q28",
+        "section": "social",
+        "question": "How did belief in the afterlife MOST likely affect the way pharaohs were buried?",
+        "choices": {
+          "A": "They were not buried",
+          "B": "They were thrown into the river",
+          "C": "They were buried with nothing at all",
+          "D": "They were buried in grand tombs with goods for the next world"
+        },
+        "correctAnswer": "D",
+        "explanation": "Belief in the afterlife led pharaohs to be buried in grand tombs with goods for the next world.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q29",
+        "section": "social",
+        "question": "Which detail BEST supports the idea that Egyptians believed in an afterlife?",
+        "choices": {
+          "A": "They preserved bodies and buried goods for use after death",
+          "B": "They had a long river",
+          "C": "They were ruled by pharaohs",
+          "D": "They lived in northeastern Africa"
+        },
+        "correctAnswer": "A",
+        "explanation": "Preserving bodies and burying goods for use after death supports belief in an afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q30",
+        "section": "social",
+        "question": "What was one PURPOSE of mummification?",
+        "choices": {
+          "A": "To make the body easier to farm with",
+          "B": "To keep the body preserved for the afterlife",
+          "C": "To turn the body into a god",
+          "D": "To trade the body for crops"
+        },
+        "correctAnswer": "B",
+        "explanation": "Mummification was meant to keep the body preserved for the afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q31",
+        "section": "social",
+        "question": "Which of these would NOT be part of Egyptian religion?",
+        "choices": {
+          "A": "Honoring many gods",
+          "B": "Believing in an afterlife",
+          "C": "Believing there were no gods at all",
+          "D": "Building tombs for important people"
+        },
+        "correctAnswer": "C",
+        "explanation": "Egyptian religion included many gods, an afterlife, and tombs, not a belief that there were no gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q32",
+        "section": "social",
+        "question": "An Egyptian family plants crops along the Nile and prays to the gods for a good harvest. This BEST shows that daily life mixed which things?",
+        "choices": {
+          "A": "War and trade",
+          "B": "Voting and reading",
+          "C": "Mountains and snow",
+          "D": "Farming and faith"
+        },
+        "correctAnswer": "D",
+        "explanation": "Planting crops and praying to the gods shows daily life mixed farming and faith.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q33",
+        "section": "social",
+        "question": "Why did Egyptians remove certain organs during mummification?",
+        "choices": {
+          "A": "It was part of preserving the body so it would not decay",
+          "B": "To plant them in the fields",
+          "C": "To sell them at market",
+          "D": "To feed the river"
+        },
+        "correctAnswer": "A",
+        "explanation": "Removing certain organs was part of preserving the body so it would not decay.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q34",
+        "section": "social",
+        "question": "Which word BEST describes Egyptian religion, with its many gods?",
+        "choices": {
+          "A": "Monotheistic",
+          "B": "Polytheistic",
+          "C": "Godless",
+          "D": "Foreign"
+        },
+        "correctAnswer": "B",
+        "explanation": "Believing in many gods makes Egyptian religion polytheistic.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q35",
+        "section": "social",
+        "question": "Festivals, temples, and grand burials in Egypt all came mainly from what?",
+        "choices": {
+          "A": "The need to fight wars",
+          "B": "Foreign trade laws",
+          "C": "Religious beliefs",
+          "D": "A shortage of farmland"
+        },
+        "correctAnswer": "C",
+        "explanation": "Festivals, temples, and grand burials all came mainly from religious beliefs.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q36",
+        "section": "social",
+        "question": "Which BEST explains why religion is called the 'heart' of Egyptian life?",
+        "choices": {
+          "A": "It only affected pharaohs",
+          "B": "It was used only once a year",
+          "C": "It mattered to no one",
+          "D": "It touched almost everything, from festivals to farming to burials"
+        },
+        "correctAnswer": "D",
+        "explanation": "Religion is called the heart of Egyptian life because it touched almost everything, from festivals to farming to burials.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q37",
+        "section": "social",
+        "question": "If a historian found a tomb filled with food, jewelry, and furniture, what belief would this MOST support?",
+        "choices": {
+          "A": "Egyptians believed in an afterlife where these items would be used",
+          "B": "Egyptians did not believe in any gods",
+          "C": "Egyptians had no burial customs",
+          "D": "Egyptians never preserved bodies"
+        },
+        "correctAnswer": "A",
+        "explanation": "A tomb filled with food, jewelry, and furniture supports the belief in an afterlife where these items would be used.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q38",
+        "section": "social",
+        "question": "Which statement correctly compares the sun god and the god of the afterlife?",
+        "choices": {
+          "A": "Ra was tied to the afterlife, while Osiris was tied to the sun",
+          "B": "Ra was tied to the sun, while Osiris was tied to life after death",
+          "C": "Both were tied only to farming",
+          "D": "Neither one was a god"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ra was tied to the sun, while Osiris was tied to life after death.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q39",
+        "section": "social",
+        "question": "What does the word 'preserve' MOST likely mean in 'preserve the body'?",
+        "choices": {
+          "A": "To turn it into a god",
+          "B": "To bury it without any care",
+          "C": "To keep it from decaying or being destroyed",
+          "D": "To throw it into the river"
+        },
+        "correctAnswer": "C",
+        "explanation": "To preserve the body means to keep it from decaying or being destroyed.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q40",
+        "section": "social",
+        "question": "Which choice lists three things that were at the heart of life in ancient Egypt?",
+        "choices": {
+          "A": "Mountains, gold, and ice",
+          "B": "Snow, ships, and war",
+          "C": "Voting, reading, and trade",
+          "D": "Religion, farming, and family"
+        },
+        "correctAnswer": "D",
+        "explanation": "Religion, farming, and family were at the heart of life in ancient Egypt.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
       }
     ]
   }
