@@ -153,6 +153,456 @@
         "explanation": "Like others, it grew near a flooding river that provided fertile soil.",
         "standard": "SS.6.W.2.3",
         "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q11",
+        "section": "social",
+        "question": "Another name for the Indus Valley Civilization is the what?",
+        "choices": {
+          "A": "Roman civilization",
+          "B": "Sumerian civilization",
+          "C": "Mayan civilization",
+          "D": "Harappan civilization"
+        },
+        "correctAnswer": "D",
+        "explanation": "It is also called the Harappan civilization, after the city of Harappa.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q12",
+        "section": "social",
+        "question": "What gave the Indus Valley its rich soil for farming?",
+        "choices": {
+          "A": "Volcanic ash from mountains",
+          "B": "Floods from the Indus River",
+          "C": "Snow that never melted",
+          "D": "Imported dirt from Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "Floods from the Indus River left rich soil that was good for farming.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q13",
+        "section": "social",
+        "question": "What does it mean that Indus cities were 'planned'?",
+        "choices": {
+          "A": "They were built quickly with no thought",
+          "B": "They were built underground",
+          "C": "They were laid out carefully ahead of time with grids and drains",
+          "D": "They had no buildings"
+        },
+        "correctAnswer": "C",
+        "explanation": "A planned city was laid out carefully ahead of time, with grid streets and drains.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q14",
+        "section": "social",
+        "question": "Which of these did the Indus people build to carry away waste?",
+        "choices": {
+          "A": "Stone pyramids",
+          "B": "Iron bridges",
+          "C": "Wooden ships",
+          "D": "Covered drains and sewers"
+        },
+        "correctAnswer": "D",
+        "explanation": "They built covered drains and sewer systems to carry away waste.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q15",
+        "section": "social",
+        "question": "The grid pattern of Indus streets looked most like what?",
+        "choices": {
+          "A": "A tangled ball of string",
+          "B": "A single long line",
+          "C": "A spider web",
+          "D": "A checkerboard"
+        },
+        "correctAnswer": "D",
+        "explanation": "The straight grid of streets looked like a checkerboard.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q16",
+        "section": "social",
+        "question": "Where did people in Indus cities get clean water?",
+        "choices": {
+          "A": "Public wells",
+          "B": "Bottled water shipped in",
+          "C": "Melted snow only",
+          "D": "They had no water"
+        },
+        "correctAnswer": "A",
+        "explanation": "Indus cities had public wells that gave people clean water.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q17",
+        "section": "social",
+        "question": "Why is the Indus plumbing surprising to historians?",
+        "choices": {
+          "A": "It was more advanced than many later cities",
+          "B": "It was made of plastic",
+          "C": "It was copied from modern times",
+          "D": "It never worked at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "Their plumbing was more advanced than that of many cities built much later.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-1-q18",
+        "section": "social",
+        "question": "Which statement about the Indus Valley is NOT true?",
+        "choices": {
+          "A": "It had planned cities",
+          "B": "Scholars can read all of its writing easily",
+          "C": "It grew near the Indus River",
+          "D": "It had sewer systems"
+        },
+        "correctAnswer": "B",
+        "explanation": "Scholars still cannot fully read Indus writing, so this statement is not true.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q19",
+        "section": "social",
+        "question": "The city of Mohenjo-Daro was part of which civilization?",
+        "choices": {
+          "A": "Ancient Egypt",
+          "B": "Ancient China",
+          "C": "The Indus Valley",
+          "D": "Ancient Greece"
+        },
+        "correctAnswer": "C",
+        "explanation": "Mohenjo-Daro was one of the great cities of the Indus Valley Civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q20",
+        "section": "social",
+        "question": "If you visited an Indus city, you would most likely see what?",
+        "choices": {
+          "A": "Glass towers and cars",
+          "B": "Snow-covered castles",
+          "C": "A single grass hut",
+          "D": "Straight brick streets with drains"
+        },
+        "correctAnswer": "D",
+        "explanation": "You would see straight brick streets laid out in a grid, with covered drains.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q21",
+        "section": "social",
+        "question": "Like Egypt's Nile and Mesopotamia's rivers, the Indus shows that early civilizations often began where?",
+        "choices": {
+          "A": "On mountaintops",
+          "B": "In deep caves",
+          "C": "Near rivers",
+          "D": "In the middle of oceans"
+        },
+        "correctAnswer": "C",
+        "explanation": "Early civilizations often began near rivers, which gave water and rich soil.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q22",
+        "section": "social",
+        "question": "What does 'indoor plumbing' in Indus homes tell us about their builders?",
+        "choices": {
+          "A": "They had advanced engineering knowledge",
+          "B": "They could not build anything useful",
+          "C": "They lived without water",
+          "D": "They never used bricks"
+        },
+        "correctAnswer": "A",
+        "explanation": "Indoor plumbing shows they had advanced engineering knowledge.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-1-q23",
+        "section": "social",
+        "question": "Harappa and Mohenjo-Daro were examples of what?",
+        "choices": {
+          "A": "Floating villages",
+          "B": "Mountain forts",
+          "C": "Empty deserts",
+          "D": "Carefully planned cities"
+        },
+        "correctAnswer": "D",
+        "explanation": "Both were carefully planned cities of the Indus Valley.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q24",
+        "section": "social",
+        "question": "Why did builders use baked brick instead of dried mud for Indus buildings?",
+        "choices": {
+          "A": "Baked brick is weaker than mud",
+          "B": "Baked brick floats on water",
+          "C": "Mud cannot be found near rivers",
+          "D": "Baked brick is stronger and lasts longer"
+        },
+        "correctAnswer": "D",
+        "explanation": "Baked brick is stronger and more lasting, good for sturdy city buildings.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-1-q25",
+        "section": "social",
+        "question": "The Indus Valley Civilization was one of the world's what?",
+        "choices": {
+          "A": "Newest civilizations",
+          "B": "Smallest villages",
+          "C": "Earliest civilizations",
+          "D": "Only ocean civilizations"
+        },
+        "correctAnswer": "C",
+        "explanation": "It was one of the world's earliest civilizations.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q26",
+        "section": "social",
+        "question": "Put these in order: first a river floods, then what happens?",
+        "choices": {
+          "A": "The soil becomes rich, so farming improves",
+          "B": "The river disappears forever",
+          "C": "Cities sink into the sea",
+          "D": "Writing becomes unreadable"
+        },
+        "correctAnswer": "A",
+        "explanation": "First the river floods, then the soil becomes rich, which improves farming.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q27",
+        "section": "social",
+        "question": "Which of these is the best evidence that the Indus had a strong government?",
+        "choices": {
+          "A": "Random piles of stone",
+          "B": "City-wide grid streets and drains",
+          "C": "A single house",
+          "D": "No streets at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "City-wide grids and drains required strong, organized government to plan.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-1-q28",
+        "section": "social",
+        "question": "The Indus Valley is located in which part of modern India and Pakistan?",
+        "choices": {
+          "A": "The far south",
+          "B": "The northwest",
+          "C": "An island in the ocean",
+          "D": "The east coast only"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Indus Valley lies in the northwest, in today's Pakistan and northwestern India.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q29",
+        "section": "social",
+        "question": "Which feature was shared by both Harappa and Mohenjo-Daro?",
+        "choices": {
+          "A": "Planned grid streets",
+          "B": "Tall stone pyramids",
+          "C": "A giant volcano",
+          "D": "Marble temples to Zeus"
+        },
+        "correctAnswer": "A",
+        "explanation": "Both cities shared planned grid streets, a key feature of Indus cities.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q30",
+        "section": "social",
+        "question": "A modern city has straight numbered streets that cross at right angles. This is most like which Indus feature?",
+        "choices": {
+          "A": "Its baked-brick walls",
+          "B": "Its public wells",
+          "C": "Its grid street plan",
+          "D": "Its sewer pipes"
+        },
+        "correctAnswer": "C",
+        "explanation": "Straight streets crossing at right angles match the Indus grid street plan.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q31",
+        "section": "social",
+        "question": "What is the main reason historians admire Indus cities?",
+        "choices": {
+          "A": "They were left completely empty",
+          "B": "They were made only of gold",
+          "C": "They had no people",
+          "D": "They were carefully planned and advanced"
+        },
+        "correctAnswer": "D",
+        "explanation": "Historians admire how carefully planned and advanced the cities were.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q32",
+        "section": "social",
+        "question": "Which of these would you NOT find in an Indus Valley city?",
+        "choices": {
+          "A": "Covered drains",
+          "B": "Public wells",
+          "C": "Electric streetlights",
+          "D": "Baked-brick houses"
+        },
+        "correctAnswer": "C",
+        "explanation": "Electric streetlights did not exist then, so you would not find them there.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q33",
+        "section": "social",
+        "question": "Compared to many later cities, Indus plumbing and drains were what?",
+        "choices": {
+          "A": "Much more advanced",
+          "B": "Exactly the same as caveman tools",
+          "C": "Far behind",
+          "D": "Never built"
+        },
+        "correctAnswer": "A",
+        "explanation": "Indus plumbing and drains were much more advanced than those of many later cities.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q34",
+        "section": "social",
+        "question": "Which sentence best describes the Indus writing system today?",
+        "choices": {
+          "A": "It has been fully translated",
+          "B": "It was never written down",
+          "C": "It still cannot be fully read",
+          "D": "It was the same as English"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Indus writing still cannot be fully read by scholars.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q35",
+        "section": "social",
+        "question": "Why were public wells important in Indus cities?",
+        "choices": {
+          "A": "They gave many people access to clean water",
+          "B": "They were only for decoration",
+          "C": "They blocked the streets",
+          "D": "They were used to store gold"
+        },
+        "correctAnswer": "A",
+        "explanation": "Public wells gave many people in the city access to clean water.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q36",
+        "section": "social",
+        "question": "The Indus, Nile, and Tigris-Euphrates rivers all helped civilizations by doing what?",
+        "choices": {
+          "A": "Freezing solid all year",
+          "B": "Destroying all crops",
+          "C": "Keeping people apart",
+          "D": "Providing water and rich farming soil"
+        },
+        "correctAnswer": "D",
+        "explanation": "These rivers provided water and rich soil that helped farming and civilization grow.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-1-q37",
+        "section": "social",
+        "question": "A grid street plan, drains, and wells all needed people to do what together?",
+        "choices": {
+          "A": "Fight constantly",
+          "B": "Cooperate and follow shared plans",
+          "C": "Live far apart with no rules",
+          "D": "Ignore each other"
+        },
+        "correctAnswer": "B",
+        "explanation": "These features required people to cooperate and follow shared city plans.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q38",
+        "section": "social",
+        "question": "Which word best describes Indus Valley society based on its cities?",
+        "choices": {
+          "A": "Disorganized",
+          "B": "Lazy",
+          "C": "Organized",
+          "D": "Empty"
+        },
+        "correctAnswer": "C",
+        "explanation": "The planned cities show that Indus society was organized.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q39",
+        "section": "social",
+        "question": "Which two cities are most linked with the Indus Valley Civilization?",
+        "choices": {
+          "A": "Babylon and Ur",
+          "B": "Harappa and Mohenjo-Daro",
+          "C": "Sparta and Athens",
+          "D": "Cairo and Giza"
+        },
+        "correctAnswer": "B",
+        "explanation": "Harappa and Mohenjo-Daro are the two cities most linked with the Indus Valley.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q40",
+        "section": "social",
+        "question": "What is the best one-line summary of the Indus Valley Civilization?",
+        "choices": {
+          "A": "A people with no cities or farming",
+          "B": "Famous for planned cities and plumbing along the Indus River",
+          "C": "A frozen kingdom with no rivers",
+          "D": "A civilization that left no buildings"
+        },
+        "correctAnswer": "B",
+        "explanation": "It is best summarized as famous for planned cities and plumbing along the Indus River.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
       }
     ]
   },
@@ -310,6 +760,456 @@
         "explanation": "The caste system shaped Indian life for thousands of years.",
         "standard": "SS.6.W.4.1",
         "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q11",
+        "section": "social",
+        "question": "From which direction did the Aryans enter India?",
+        "choices": {
+          "A": "The northwest",
+          "B": "The far south",
+          "C": "From across the Pacific Ocean",
+          "D": "From under the ground"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Aryans migrated into India from the northwest.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q12",
+        "section": "social",
+        "question": "What were the Vedas?",
+        "choices": {
+          "A": "Aryan war chariots",
+          "B": "Some of India's oldest sacred writings",
+          "C": "A type of Indian coin",
+          "D": "Mountains in northern India"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Vedas were sacred texts and some of India's oldest writings.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q13",
+        "section": "social",
+        "question": "In the caste system, who was at the very bottom, below the four main groups?",
+        "choices": {
+          "A": "Priests",
+          "B": "Warriors and rulers",
+          "C": "The people called 'untouchables'",
+          "D": "Wealthy merchants"
+        },
+        "correctAnswer": "C",
+        "explanation": "The people sometimes called 'untouchables' were below all four main groups.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q14",
+        "section": "social",
+        "question": "If your father was a farmer in the caste system, what work would you most likely do?",
+        "choices": {
+          "A": "Become a priest at the top",
+          "B": "Choose any job you wanted",
+          "C": "Rule as a king",
+          "D": "Stay in the farmer group like your family"
+        },
+        "correctAnswer": "D",
+        "explanation": "Because caste came from birth, you would stay in the farmer group like your family.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q15",
+        "section": "social",
+        "question": "What is the name for the main groups, or ranks, of the caste system?",
+        "choices": {
+          "A": "Pyramids",
+          "B": "Pharaohs",
+          "C": "Senators",
+          "D": "Varnas"
+        },
+        "correctAnswer": "D",
+        "explanation": "The main groups of the caste system were called varnas.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q16",
+        "section": "social",
+        "question": "What happened to the Indus Valley cities before the Aryans arrived?",
+        "choices": {
+          "A": "They grew into modern megacities",
+          "B": "They were never built",
+          "C": "They moved to Egypt",
+          "D": "They declined and faded"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Indus Valley cities declined and faded before the Aryans came.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q17",
+        "section": "social",
+        "question": "Which group ranked just below the priests in the caste system?",
+        "choices": {
+          "A": "Untouchables",
+          "B": "Servants",
+          "C": "Warriors and rulers",
+          "D": "Foreign traders"
+        },
+        "correctAnswer": "C",
+        "explanation": "Warriors and rulers ranked just below the priests.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q18",
+        "section": "social",
+        "question": "Which statement about the Aryans is NOT true?",
+        "choices": {
+          "A": "They were native to India from the start",
+          "B": "They used the Sanskrit language",
+          "C": "They shaped India's culture",
+          "D": "They migrated into India over time"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Aryans were not native to India; they migrated in, so this statement is not true.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q19",
+        "section": "social",
+        "question": "The word 'caste' refers to what?",
+        "choices": {
+          "A": "A kind of river boat",
+          "B": "A social group a person is born into",
+          "C": "A religious holiday",
+          "D": "A type of metal tool"
+        },
+        "correctAnswer": "B",
+        "explanation": "A caste is a social group that a person is born into.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q20",
+        "section": "social",
+        "question": "Why did the caste system make it hard to change your job?",
+        "choices": {
+          "A": "Jobs changed every single day",
+          "B": "Everyone shared the same job",
+          "C": "Your caste was set by birth and rarely changed",
+          "D": "There were no jobs in India"
+        },
+        "correctAnswer": "C",
+        "explanation": "Your caste was set by birth and rarely changed, which fixed your role and jobs.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q21",
+        "section": "social",
+        "question": "Sanskrit is best described as what?",
+        "choices": {
+          "A": "An important Aryan language in India",
+          "B": "A famous Indian river",
+          "C": "A type of caste",
+          "D": "A war between empires"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sanskrit was an important Aryan language used in India.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q22",
+        "section": "social",
+        "question": "How was the caste system different from a system based on hard work and money?",
+        "choices": {
+          "A": "It let anyone become rich and rise",
+          "B": "Your place came from birth, not from effort or wealth",
+          "C": "It changed based on votes",
+          "D": "It had no ranks at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "In the caste system your place came from birth, not from effort or wealth.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q23",
+        "section": "social",
+        "question": "Which religion's roots come partly from Aryan sacred texts like the Vedas?",
+        "choices": {
+          "A": "Hinduism",
+          "B": "Christianity",
+          "C": "Shinto",
+          "D": "Islam"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Vedas are sacred texts connected to the roots of Hinduism.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q24",
+        "section": "social",
+        "question": "The caste system divided people into groups that were what?",
+        "choices": {
+          "A": "All equal in rank",
+          "B": "Chosen freely each year",
+          "C": "Ranked from highest to lowest",
+          "D": "Open to anyone who wished to join"
+        },
+        "correctAnswer": "C",
+        "explanation": "The caste groups were ranked from highest to lowest.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q25",
+        "section": "social",
+        "question": "What is the correct order in the caste system from highest to lowest?",
+        "choices": {
+          "A": "Servants, farmers, warriors, priests",
+          "B": "Priests, warriors and rulers, farmers and merchants, workers",
+          "C": "Farmers, priests, servants, warriors",
+          "D": "Warriors, servants, priests, merchants"
+        },
+        "correctAnswer": "B",
+        "explanation": "From highest to lowest: priests, then warriors and rulers, then farmers and merchants, then workers.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q26",
+        "section": "social",
+        "question": "Which job belonged to the Brahmins?",
+        "choices": {
+          "A": "Servants",
+          "B": "Soldiers",
+          "C": "Farmers",
+          "D": "Priests"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Brahmins were the priests, the top group of the caste system.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q27",
+        "section": "social",
+        "question": "Why is the caste system important for understanding ancient India?",
+        "choices": {
+          "A": "It only lasted a few days",
+          "B": "It had no effect on people",
+          "C": "It shaped Indian society and daily life for thousands of years",
+          "D": "It was used only by the Aryans' enemies"
+        },
+        "correctAnswer": "C",
+        "explanation": "The caste system shaped Indian society and daily life for thousands of years.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q28",
+        "section": "social",
+        "question": "Which of these did the Aryans bring to India?",
+        "choices": {
+          "A": "The pyramids",
+          "B": "Chinese silk",
+          "C": "Roman law",
+          "D": "The Sanskrit language and the Vedas"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Aryans brought the Sanskrit language and the Vedas to India.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q29",
+        "section": "social",
+        "question": "A person born into the worker/servant group could usually do what?",
+        "choices": {
+          "A": "Move up to become a priest easily",
+          "B": "Switch castes by paying a fee",
+          "C": "Become a ruler overnight",
+          "D": "Stay in that group for their whole life"
+        },
+        "correctAnswer": "D",
+        "explanation": "A person usually stayed in the group they were born into for their whole life.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q30",
+        "section": "social",
+        "question": "What is the best short summary of the caste system?",
+        "choices": {
+          "A": "Social groups set by birth that were hard to change",
+          "B": "A fair contest open to everyone",
+          "C": "A yearly election of leaders",
+          "D": "A trade route across Asia"
+        },
+        "correctAnswer": "A",
+        "explanation": "The caste system was made of social groups set by birth that were hard to change.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q31",
+        "section": "social",
+        "question": "Which came FIRST in time?",
+        "choices": {
+          "A": "The Aryan migration into India",
+          "B": "The decline of the Indus Valley cities",
+          "C": "The Gupta Golden Age",
+          "D": "The building of Roman roads"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Indus Valley cities declined first, and then the Aryans migrated in.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q32",
+        "section": "social",
+        "question": "What does it mean that caste was 'inherited'?",
+        "choices": {
+          "A": "It was passed down from parents at birth",
+          "B": "It was won in a contest",
+          "C": "It was bought with gold",
+          "D": "It was chosen at age 18"
+        },
+        "correctAnswer": "A",
+        "explanation": "Inherited means it was passed down from parents, set at a person's birth.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q33",
+        "section": "social",
+        "question": "Farmers and merchants ranked above which group?",
+        "choices": {
+          "A": "Priests",
+          "B": "Warriors and rulers",
+          "C": "Workers and servants",
+          "D": "No one"
+        },
+        "correctAnswer": "C",
+        "explanation": "Farmers and merchants ranked above the workers and servants.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q34",
+        "section": "social",
+        "question": "Which sentence about the Aryans and Indus people is correct?",
+        "choices": {
+          "A": "The Aryans built the first Indus cities",
+          "B": "The Aryans arrived after the Indus cities had declined",
+          "C": "The Indus people pushed out the Aryans",
+          "D": "They were the exact same people"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Aryans arrived after the Indus Valley cities had declined and faded.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q35",
+        "section": "social",
+        "question": "Why could the caste system feel unfair to many people?",
+        "choices": {
+          "A": "Everyone had the same chances",
+          "B": "People could not rise no matter how hard they worked",
+          "C": "It gave everyone free money",
+          "D": "It let people pick any caste"
+        },
+        "correctAnswer": "B",
+        "explanation": "It could feel unfair because people could not rise no matter how hard they worked.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q36",
+        "section": "social",
+        "question": "The Aryans are best described as what?",
+        "choices": {
+          "A": "Rulers of ancient China",
+          "B": "The builders of the Egyptian pyramids",
+          "C": "Sailors from the Americas",
+          "D": "People who migrated into India and shaped its culture"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Aryans migrated into India and strongly shaped its language and culture.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q37",
+        "section": "social",
+        "question": "Which of these was NOT one of the four main caste groups?",
+        "choices": {
+          "A": "Priests",
+          "B": "Warriors and rulers",
+          "C": "Sea pirates",
+          "D": "Farmers and merchants"
+        },
+        "correctAnswer": "C",
+        "explanation": "Sea pirates were not a caste group; the main groups were priests, warriors, farmers/merchants, and workers.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q38",
+        "section": "social",
+        "question": "The Aryan migration is an example of what kind of historical event?",
+        "choices": {
+          "A": "A people moving into a new land over time",
+          "B": "A volcano erupting",
+          "C": "A river drying up",
+          "D": "A single battle in one day"
+        },
+        "correctAnswer": "A",
+        "explanation": "It is an example of a people moving into a new land over time, a migration.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q39",
+        "section": "social",
+        "question": "How did Sanskrit help the Aryans' influence last?",
+        "choices": {
+          "A": "It was never written down",
+          "B": "It was only spoken by enemies",
+          "C": "It was forgotten right away",
+          "D": "Sacred texts like the Vedas were recorded in it and passed on"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sacred texts like the Vedas were recorded in Sanskrit and passed on, spreading Aryan influence.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q40",
+        "section": "social",
+        "question": "Which pair correctly matches a group with its place in the caste system?",
+        "choices": {
+          "A": "Brahmins at the bottom",
+          "B": "Untouchables at the very top",
+          "C": "Priests at the top",
+          "D": "Servants ranking above priests"
+        },
+        "correctAnswer": "C",
+        "explanation": "Priests were at the top of the caste system, so this pairing is correct.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
       }
     ]
   },
@@ -467,6 +1367,456 @@
         "explanation": "Both religions spread from India across much of Asia.",
         "standard": "SS.6.W.4.2",
         "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q11",
+        "section": "social",
+        "question": "Before he became the Buddha, Siddhartha Gautama was what?",
+        "choices": {
+          "A": "A poor farmer",
+          "B": "A prince who gave up his riches",
+          "C": "A Roman soldier",
+          "D": "A sea captain"
+        },
+        "correctAnswer": "B",
+        "explanation": "Siddhartha Gautama was a prince who gave up his riches to seek the meaning of life.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q12",
+        "section": "social",
+        "question": "How does Hinduism view its many gods?",
+        "choices": {
+          "A": "As having no power",
+          "B": "As completely separate enemies",
+          "C": "As human kings only",
+          "D": "As forms of one great spirit"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hinduism has many gods but sees them as forms of one great spirit.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q13",
+        "section": "social",
+        "question": "Which empire is known as India's Golden Age for its art, math, and science?",
+        "choices": {
+          "A": "The Mauryan Empire",
+          "B": "The Babylonian Empire",
+          "C": "The Gupta Empire",
+          "D": "The Egyptian Empire"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Gupta Empire is known as India's Golden Age for its achievements.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q14",
+        "section": "social",
+        "question": "Asoka changed his ways and spread Buddhism after what event?",
+        "choices": {
+          "A": "Winning a race",
+          "B": "A great flood",
+          "C": "Building a pyramid",
+          "D": "A terrible war"
+        },
+        "correctAnswer": "D",
+        "explanation": "Asoka spread Buddhism and ideas of peace after a terrible war.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q15",
+        "section": "social",
+        "question": "Which number idea did Gupta mathematicians help develop?",
+        "choices": {
+          "A": "Zero",
+          "B": "Roman numerals",
+          "C": "Tally marks",
+          "D": "Picture writing"
+        },
+        "correctAnswer": "A",
+        "explanation": "Gupta mathematicians helped develop the concept of zero.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q16",
+        "section": "social",
+        "question": "Karma is the Hindu idea that what?",
+        "choices": {
+          "A": "Kings rule forever",
+          "B": "Your actions affect your future",
+          "C": "Rivers cause floods",
+          "D": "Money brings happiness"
+        },
+        "correctAnswer": "B",
+        "explanation": "Karma is the idea that your actions affect your future.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q17",
+        "section": "social",
+        "question": "What did the Buddha say causes suffering?",
+        "choices": {
+          "A": "Helping others",
+          "B": "Eating food",
+          "C": "Reading books",
+          "D": "Selfish desire"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Buddha taught that selfish desire causes suffering, and letting go of it brings peace.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q18",
+        "section": "social",
+        "question": "Which religion teaches reincarnation and karma?",
+        "choices": {
+          "A": "Roman religion",
+          "B": "Egyptian religion",
+          "C": "Greek religion",
+          "D": "Hinduism"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hinduism teaches the ideas of reincarnation and karma.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q19",
+        "section": "social",
+        "question": "Reincarnation means what?",
+        "choices": {
+          "A": "Building new cities",
+          "B": "Trading goods across Asia",
+          "C": "The soul is reborn into a new life",
+          "D": "A king passing power to his son"
+        },
+        "correctAnswer": "C",
+        "explanation": "Reincarnation means the soul is reborn into a new life after death.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q20",
+        "section": "social",
+        "question": "Asoka was the most famous ruler of which empire?",
+        "choices": {
+          "A": "The Mauryan Empire",
+          "B": "The Persian Empire",
+          "C": "The Han Empire",
+          "D": "The Aztec Empire"
+        },
+        "correctAnswer": "A",
+        "explanation": "Asoka was the most famous ruler of the Mauryan Empire.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q21",
+        "section": "social",
+        "question": "Which statement about Buddhism is NOT true?",
+        "choices": {
+          "A": "It was founded by Siddhartha Gautama",
+          "B": "It teaches that letting go of desire brings peace",
+          "C": "It began in India",
+          "D": "It was founded by the Gupta kings"
+        },
+        "correctAnswer": "D",
+        "explanation": "Buddhism was founded by Siddhartha Gautama, not the Gupta kings, so this is not true.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q22",
+        "section": "social",
+        "question": "The number system we use today, with zero, traces back partly to which Indian empire?",
+        "choices": {
+          "A": "The Gupta Empire",
+          "B": "The Roman Empire",
+          "C": "The Sumerian Empire",
+          "D": "The Mongol Empire"
+        },
+        "correctAnswer": "A",
+        "explanation": "The number system with zero traces back partly to the Gupta Empire.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q23",
+        "section": "social",
+        "question": "If a person does kind actions, Hindu karma teaches this will affect what?",
+        "choices": {
+          "A": "Nothing at all",
+          "B": "Only the weather",
+          "C": "Their future",
+          "D": "The price of food"
+        },
+        "correctAnswer": "C",
+        "explanation": "Karma teaches that a person's actions, like kind deeds, affect their future.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q24",
+        "section": "social",
+        "question": "How did Buddhism and Hinduism affect the rest of Asia?",
+        "choices": {
+          "A": "They stayed inside one Indian village",
+          "B": "They spread across much of Asia",
+          "C": "They were banned everywhere",
+          "D": "They moved only to North America"
+        },
+        "correctAnswer": "B",
+        "explanation": "Both Hinduism and Buddhism spread from India across much of Asia.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q25",
+        "section": "social",
+        "question": "What does 'enlightened one' describe about the Buddha?",
+        "choices": {
+          "A": "He had gained deep understanding and wisdom",
+          "B": "He owned the most gold",
+          "C": "He won many battles",
+          "D": "He built the tallest temple"
+        },
+        "correctAnswer": "A",
+        "explanation": "'Enlightened one' means he had gained deep understanding and wisdom.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q26",
+        "section": "social",
+        "question": "Which empire came first, the one Asoka ruled or the Golden Age empire?",
+        "choices": {
+          "A": "The Gupta Empire came first",
+          "B": "They were the same empire",
+          "C": "The Mauryan Empire of Asoka came first",
+          "D": "Neither existed"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Mauryan Empire of Asoka came first, and the Gupta Golden Age came later.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q27",
+        "section": "social",
+        "question": "Which pair correctly matches a religion with one of its key ideas?",
+        "choices": {
+          "A": "Buddhism and the worship of pharaohs",
+          "B": "Hinduism and karma",
+          "C": "Buddhism and Roman law",
+          "D": "Hinduism and the number zero"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hinduism is correctly matched with the idea of karma.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q28",
+        "section": "social",
+        "question": "Why is Asoka remembered as an unusual ruler?",
+        "choices": {
+          "A": "He spread ideas of peace and kindness after war",
+          "B": "He destroyed all books",
+          "C": "He never ruled any land",
+          "D": "He banned all religion"
+        },
+        "correctAnswer": "A",
+        "explanation": "Asoka is remembered for spreading ideas of peace and kindness after a terrible war.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q29",
+        "section": "social",
+        "question": "Which of these is an achievement of the Gupta Golden Age?",
+        "choices": {
+          "A": "Building the Egyptian pyramids",
+          "B": "Inventing the Roman alphabet",
+          "C": "Advances in art, math, and science",
+          "D": "Creating the caste system"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Gupta Golden Age is known for advances in art, math, and science.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q30",
+        "section": "social",
+        "question": "Both Hinduism and Buddhism are alike because they both what?",
+        "choices": {
+          "A": "Reject all ideas about the soul",
+          "B": "Were founded by Asoka",
+          "C": "Began in Egypt",
+          "D": "Began in India"
+        },
+        "correctAnswer": "D",
+        "explanation": "Both Hinduism and Buddhism are alike in that they began in India.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q31",
+        "section": "social",
+        "question": "The Buddha taught that the path to peace is to do what?",
+        "choices": {
+          "A": "Gather more riches",
+          "B": "Conquer other lands",
+          "C": "Let go of selfish desire",
+          "D": "Build bigger palaces"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Buddha taught that letting go of selfish desire is the path to peace.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q32",
+        "section": "social",
+        "question": "Which is the correct time order of these in Indian history?",
+        "choices": {
+          "A": "Gupta Golden Age, then the Mauryan Empire",
+          "B": "Mauryan Empire of Asoka, then the Gupta Golden Age",
+          "C": "Roman Empire, then the Indus Valley",
+          "D": "Gupta Golden Age, then the Indus Valley"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Mauryan Empire of Asoka came first, then the Gupta Golden Age followed.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q33",
+        "section": "social",
+        "question": "What is a good example of how India influenced the whole world?",
+        "choices": {
+          "A": "The concept of zero spread to other lands",
+          "B": "India invented the wheel first",
+          "C": "India built the Great Wall",
+          "D": "India started the Roman Republic"
+        },
+        "correctAnswer": "A",
+        "explanation": "The concept of zero, developed in Gupta India, spread and influenced the world.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q34",
+        "section": "social",
+        "question": "Which religion was founded by a single person who became 'the enlightened one'?",
+        "choices": {
+          "A": "Hinduism",
+          "B": "Buddhism",
+          "C": "Roman religion",
+          "D": "Egyptian religion"
+        },
+        "correctAnswer": "B",
+        "explanation": "Buddhism was founded by Siddhartha Gautama, who became the Buddha, 'the enlightened one.'",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q35",
+        "section": "social",
+        "question": "Which idea is part of Hinduism but NOT a main teaching of the Buddha?",
+        "choices": {
+          "A": "Letting go of selfish desire",
+          "B": "Seeking peace",
+          "C": "The caste-linked many gods seen as one great spirit",
+          "D": "Ending suffering"
+        },
+        "correctAnswer": "C",
+        "explanation": "Seeing many gods as forms of one great spirit is a Hindu idea, not a main Buddhist teaching.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q36",
+        "section": "social",
+        "question": "Which became the main religion of India?",
+        "choices": {
+          "A": "Greek religion",
+          "B": "Roman religion",
+          "C": "Shinto",
+          "D": "Hinduism"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hinduism became the main religion of India.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q37",
+        "section": "social",
+        "question": "Asoka used his power mostly to spread what?",
+        "choices": {
+          "A": "Fear and slavery",
+          "B": "Buddhism and ideas of peace and kindness",
+          "C": "The caste system",
+          "D": "The Sanskrit alphabet only"
+        },
+        "correctAnswer": "B",
+        "explanation": "Asoka used his power to spread Buddhism and ideas of peace and kindness.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q38",
+        "section": "social",
+        "question": "What is the best summary of the Gupta Empire?",
+        "choices": {
+          "A": "A time of war and ruin only",
+          "B": "An empire with no achievements",
+          "C": "India's Golden Age of art, math, and science",
+          "D": "A small village with no rulers"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Gupta Empire is best summarized as India's Golden Age of art, math, and science.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q39",
+        "section": "social",
+        "question": "Which sentence correctly connects a cause and effect?",
+        "choices": {
+          "A": "Because Asoka saw a terrible war, he spread ideas of peace",
+          "B": "Because the Gupta fell, zero was forgotten forever",
+          "C": "Because Hinduism began, Buddhism could never start",
+          "D": "Because the Buddha gained riches, he found peace"
+        },
+        "correctAnswer": "A",
+        "explanation": "Seeing a terrible war led Asoka to spread Buddhism and ideas of peace, a true cause and effect.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q40",
+        "section": "social",
+        "question": "Which of these did NOT begin in ancient India?",
+        "choices": {
+          "A": "Hinduism",
+          "B": "Buddhism",
+          "C": "The Gupta Golden Age",
+          "D": "The Roman Republic"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Roman Republic began in Rome, not in ancient India.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
       }
     ]
   }
