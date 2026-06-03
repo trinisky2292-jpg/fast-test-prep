@@ -1,0 +1,473 @@
+{
+  "6-1": {
+    "title": "The Gift of the Nile",
+    "standard": "SS.6.W.2.3",
+    "learn": "KEY IDEAS — EGYPT, THE GIFT OF THE NILE\n\nAncient Egypt grew along the banks of the NILE RIVER in northeastern Africa. The Nile is the longest river in the world, and it was the heart of Egyptian life. Like the rivers of Mesopotamia, the Nile flooded each year. These yearly floods left behind a layer of rich, dark soil that Egyptians used to grow plenty of crops. Because the dark soil was so important, Egyptians even called their land 'the black land.'\n\nGeography protected Egypt too. Hot deserts surrounded the Nile valley and acted like a natural wall, making it hard for invaders to attack. This protection helped Egyptian civilization grow safely for thousands of years.\n\nThe Nile was so important to everything — farming, trade, travel, and daily life — that the Greek historian Herodotus called Egypt 'the gift of the Nile.' Unlike Mesopotamia's unpredictable rivers, the Nile's floods were fairly regular and could be counted on, which helped Egypt become stable and long-lasting. Remember: Egypt = the Nile River.",
+    "questions": [
+      {
+        "id": "6-1-q1",
+        "section": "social",
+        "question": "Along which river did ancient Egypt grow?",
+        "choices": {
+          "A": "The Amazon River",
+          "B": "The Tigris River",
+          "C": "The Yellow River",
+          "D": "The Nile River"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptian civilization grew along the Nile River.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q2",
+        "section": "social",
+        "question": "What did the Nile's yearly floods leave behind that helped farming?",
+        "choices": {
+          "A": "Layers of salt",
+          "B": "Piles of sand",
+          "C": "Blocks of ice",
+          "D": "Rich, dark soil"
+        },
+        "correctAnswer": "D",
+        "explanation": "The floods left rich dark soil perfect for crops.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q3",
+        "section": "social",
+        "question": "What protected Egypt from invaders like a natural wall?",
+        "choices": {
+          "A": "Tall city walls only",
+          "B": "The surrounding deserts",
+          "C": "Thick forests",
+          "D": "Frozen mountains"
+        },
+        "correctAnswer": "B",
+        "explanation": "Deserts around the Nile valley acted as a natural barrier.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q4",
+        "section": "social",
+        "question": "Who called Egypt 'the gift of the Nile'?",
+        "choices": {
+          "A": "The Greek historian Herodotus",
+          "B": "King Hammurabi",
+          "C": "Cyrus the Great",
+          "D": "Confucius"
+        },
+        "correctAnswer": "A",
+        "explanation": "Herodotus, a Greek historian, called Egypt 'the gift of the Nile.'",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q5",
+        "section": "social",
+        "question": "On which continent is Egypt located?",
+        "choices": {
+          "A": "South America",
+          "B": "Europe",
+          "C": "Africa",
+          "D": "Australia"
+        },
+        "correctAnswer": "C",
+        "explanation": "Egypt is in northeastern Africa.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-1-q6",
+        "section": "social",
+        "question": "Why was the Nile called a 'gift'?",
+        "choices": {
+          "A": "It was made of gold",
+          "B": "It provided farming, water, and travel that made life possible",
+          "C": "It gave out free money",
+          "D": "It never had any water"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Nile gave Egypt water, fertile soil, and transportation — the basis of life.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q7",
+        "section": "social",
+        "question": "How were the Nile's floods DIFFERENT from Mesopotamia's rivers?",
+        "choices": {
+          "A": "The Nile flooded with no warning every day",
+          "B": "The Nile never flooded",
+          "C": "The Nile's floods were fairly regular and could be counted on",
+          "D": "The Nile flowed backward"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile flooded predictably, unlike Mesopotamia's unpredictable rivers.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-1-q8",
+        "section": "social",
+        "question": "Egyptians called their land 'the black land' because of what?",
+        "choices": {
+          "A": "The rich dark soil left by floods",
+          "B": "Black storm clouds",
+          "C": "Burned forests",
+          "D": "Dark stone temples"
+        },
+        "correctAnswer": "A",
+        "explanation": "The rich, dark flood soil gave the land its nickname.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q9",
+        "section": "social",
+        "question": "How did the desert help Egyptian civilization last a long time?",
+        "choices": {
+          "A": "It protected Egypt so it could grow safely",
+          "B": "It destroyed all crops",
+          "C": "It froze the Nile",
+          "D": "It blocked the sun"
+        },
+        "correctAnswer": "A",
+        "explanation": "Desert barriers protected Egypt, helping it stay safe and stable.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-1-q10",
+        "section": "social",
+        "question": "Which BEST explains why the Nile was central to Egyptian life?",
+        "choices": {
+          "A": "It was only used for swimming",
+          "B": "It gave water for crops, a route for travel and trade, and rich soil",
+          "C": "It had no effect on Egypt",
+          "D": "It separated Egypt from farming"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Nile supplied water, fertile soil, and transportation — central to Egyptian life.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "6-2": {
+    "title": "Pharaohs and Key Figures of Egypt",
+    "standard": "SS.6.W.2.6",
+    "learn": "KEY IDEAS — PHARAOHS, RULERS OF EGYPT\n\nEgypt was ruled by kings called PHARAOHS. The pharaoh was not just a king — Egyptians believed the pharaoh was god-like, a link between the people and the gods. Because of this, the pharaoh had enormous power and organized big building projects, armies, trade, and the collection of taxes.\n\nA few pharaohs are especially famous. King Tutankhamun, often called 'King Tut,' became pharaoh as a boy. He is famous today because his nearly untouched tomb, full of treasure, was discovered in 1922 by archaeologists. Hatshepsut was one of the few FEMALE pharaohs; she ruled successfully and promoted trade. Ramses II was a great builder and warrior pharaoh.\n\nEgyptian society was shaped like a pyramid. The pharaoh sat at the very TOP. Below the pharaoh were priests and nobles, then scribes and craftspeople, and at the bottom were the many farmers and enslaved workers. This clear social order, with the god-like pharaoh on top, kept Egypt organized for thousands of years.",
+    "questions": [
+      {
+        "id": "6-2-q1",
+        "section": "social",
+        "question": "What were the kings of ancient Egypt called?",
+        "choices": {
+          "A": "Consuls",
+          "B": "Senators",
+          "C": "Satraps",
+          "D": "Pharaohs"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptian kings were called pharaohs.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q2",
+        "section": "social",
+        "question": "How did Egyptians view the pharaoh?",
+        "choices": {
+          "A": "As a god-like leader",
+          "B": "As an ordinary farmer",
+          "C": "As a foreign trader",
+          "D": "As an elected official"
+        },
+        "correctAnswer": "A",
+        "explanation": "The pharaoh was seen as a god-like ruler.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q3",
+        "section": "social",
+        "question": "Which boy-king is famous because his untouched tomb was found in 1922?",
+        "choices": {
+          "A": "Tutankhamun (King Tut)",
+          "B": "Hammurabi",
+          "C": "Cyrus",
+          "D": "Sargon"
+        },
+        "correctAnswer": "A",
+        "explanation": "King Tut's tomb was discovered nearly intact in 1922.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q4",
+        "section": "social",
+        "question": "Hatshepsut is remembered as what?",
+        "choices": {
+          "A": "A Greek philosopher",
+          "B": "One of the few female pharaohs",
+          "C": "A Roman emperor",
+          "D": "A Chinese teacher"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hatshepsut was one of Egypt's few female pharaohs.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q5",
+        "section": "social",
+        "question": "Who sat at the very TOP of Egyptian society?",
+        "choices": {
+          "A": "Farmers",
+          "B": "The pharaoh",
+          "C": "Enslaved workers",
+          "D": "Scribes"
+        },
+        "correctAnswer": "B",
+        "explanation": "The pharaoh was at the top of the social pyramid.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-2-q6",
+        "section": "social",
+        "question": "What kinds of things did pharaohs organize?",
+        "choices": {
+          "A": "Just festivals",
+          "B": "Only farming, nothing else",
+          "C": "Building projects, armies, and trade",
+          "D": "Nothing at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pharaohs organized building projects, armies, trade, and taxes.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q7",
+        "section": "social",
+        "question": "Why did the pharaoh have so much power?",
+        "choices": {
+          "A": "He was elected by a vote",
+          "B": "Egyptians believed he was a link between people and the gods",
+          "C": "He owned no land",
+          "D": "He had no army"
+        },
+        "correctAnswer": "B",
+        "explanation": "Being seen as god-like gave the pharaoh enormous authority.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q8",
+        "section": "social",
+        "question": "Egyptian society was shaped most like what?",
+        "choices": {
+          "A": "A pyramid with the pharaoh on top",
+          "B": "A flat line with everyone equal",
+          "C": "A circle with no leaders",
+          "D": "An upside-down triangle with farmers on top"
+        },
+        "correctAnswer": "A",
+        "explanation": "Society was pyramid-shaped, pharaoh on top, farmers near the bottom.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-2-q9",
+        "section": "social",
+        "question": "Which group made up the largest part of Egyptian society, near the bottom?",
+        "choices": {
+          "A": "Nobles",
+          "B": "Pharaohs",
+          "C": "High priests",
+          "D": "Farmers and laborers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Farmers and laborers formed the large base of the social pyramid.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-2-q10",
+        "section": "social",
+        "question": "Why is King Tut's tomb so important to historians?",
+        "choices": {
+          "A": "It held the Phoenician alphabet",
+          "B": "It contained the Code of Hammurabi",
+          "C": "It was found nearly untouched, full of treasures and clues about Egypt",
+          "D": "It was empty and told us nothing"
+        },
+        "correctAnswer": "C",
+        "explanation": "The nearly intact tomb gave historians rare, rich evidence about ancient Egypt.",
+        "standard": "SS.6.W.2.6",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "6-3": {
+    "title": "Egyptian Religion and Daily Life",
+    "standard": "SS.6.W.2.4",
+    "learn": "KEY IDEAS — EGYPTIAN RELIGION AND DAILY LIFE\n\nThe ancient Egyptians were polytheists — they believed in MANY gods and goddesses, such as Ra the sun god and Osiris, god of the afterlife. Religion touched almost everything in Egyptian life.\n\nA central Egyptian belief was the AFTERLIFE, a life that continued after death. Because they believed the body was needed in the next world, Egyptians carefully preserved dead bodies through a process called mummification, creating mummies. They removed certain organs, dried the body, and wrapped it in linen. Important people, especially pharaohs, were buried in grand tombs with treasures and supplies for the afterlife.\n\nReligion shaped daily life in many ways: festivals honored the gods, priests held great importance, and the way pharaohs were buried in pyramids and tombs all came from religious beliefs. For most ordinary Egyptians, daily life centered on three things: family, farming along the Nile, and faith in the gods. Religion, farming, and family were the heart of life in ancient Egypt.",
+    "questions": [
+      {
+        "id": "6-3-q1",
+        "section": "social",
+        "question": "The ancient Egyptians believed in how many gods?",
+        "choices": {
+          "A": "Exactly two gods",
+          "B": "Only one god",
+          "C": "No gods",
+          "D": "Many gods"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptians were polytheists who worshipped many gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q2",
+        "section": "social",
+        "question": "What did Egyptians believe happened after death?",
+        "choices": {
+          "A": "Nothing at all",
+          "B": "There was an afterlife",
+          "C": "People became gods immediately",
+          "D": "People turned into rivers"
+        },
+        "correctAnswer": "B",
+        "explanation": "Egyptians believed in an afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q3",
+        "section": "social",
+        "question": "What is the name for the process of preserving a dead body in ancient Egypt?",
+        "choices": {
+          "A": "Irrigation",
+          "B": "Mummification",
+          "C": "Migration",
+          "D": "Cultivation"
+        },
+        "correctAnswer": "B",
+        "explanation": "Preserving bodies as mummies is called mummification.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q4",
+        "section": "social",
+        "question": "Why did Egyptians preserve bodies as mummies?",
+        "choices": {
+          "A": "They believed the body was needed in the afterlife",
+          "B": "To use the body for farming",
+          "C": "To trade the body for goods",
+          "D": "Because of the cold weather"
+        },
+        "correctAnswer": "A",
+        "explanation": "They believed the preserved body was needed for the afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q5",
+        "section": "social",
+        "question": "Where were important Egyptians, like pharaohs, often buried?",
+        "choices": {
+          "A": "In simple holes with nothing",
+          "B": "In the river",
+          "C": "In grand tombs with treasures",
+          "D": "Inside ziggurats"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pharaohs were buried in grand tombs with goods for the afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q6",
+        "section": "social",
+        "question": "For most ordinary Egyptians, daily life centered on what three things?",
+        "choices": {
+          "A": "Trade, mountains, and snow",
+          "B": "War, gold, and ships",
+          "C": "Family, farming, and faith",
+          "D": "Reading, writing, and voting"
+        },
+        "correctAnswer": "C",
+        "explanation": "Family, farming along the Nile, and faith centered everyday life.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q7",
+        "section": "social",
+        "question": "How did religion affect Egyptian daily life?",
+        "choices": {
+          "A": "It had no effect on daily life",
+          "B": "It shaped festivals, burials, and the role of priests",
+          "C": "It only mattered to foreigners",
+          "D": "It banned all farming"
+        },
+        "correctAnswer": "B",
+        "explanation": "Religion shaped festivals, burial customs, and the importance of priests.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "6-3-q8",
+        "section": "social",
+        "question": "Ra and Osiris were examples of what in Egypt?",
+        "choices": {
+          "A": "Cities",
+          "B": "Pharaohs",
+          "C": "Rivers",
+          "D": "Gods"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ra (sun) and Osiris (afterlife) were Egyptian gods.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "6-3-q9",
+        "section": "social",
+        "question": "What was placed in tombs along with important people?",
+        "choices": {
+          "A": "Treasures and supplies for the afterlife",
+          "B": "Only sand",
+          "C": "Live animals to farm",
+          "D": "Cuneiform tablets from Sumer"
+        },
+        "correctAnswer": "A",
+        "explanation": "Tombs held treasures and supplies for use in the afterlife.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "6-3-q10",
+        "section": "social",
+        "question": "Which statement BEST shows how religion connected to mummies and tombs?",
+        "choices": {
+          "A": "Belief in an afterlife led Egyptians to preserve bodies and build grand tombs",
+          "B": "Mummies were made to scare invaders",
+          "C": "Tombs were built for storing crops",
+          "D": "Religion had nothing to do with burials"
+        },
+        "correctAnswer": "A",
+        "explanation": "Belief in the afterlife (cause) led to mummies and grand tombs (effect).",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      }
+    ]
+  }
+}

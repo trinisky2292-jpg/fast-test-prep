@@ -1,0 +1,473 @@
+{
+  "17-1": {
+    "title": "Roman Achievements and Daily Life",
+    "standard": "SS.6.W.3.14",
+    "learn": "KEY IDEAS — ROMAN ACHIEVEMENTS AND DAILY LIFE\n\nThe Romans were MASTER BUILDERS and ENGINEERS. They built strong, long-lasting ROADS that connected the whole empire (giving us the saying 'all roads lead to Rome'). They built AQUEDUCTS, structures that carried fresh water over long distances into cities using gravity. They were among the first to use CONCRETE, which let them build huge structures like the Colosseum and domed buildings. They also developed strong systems of LAW that still shape legal ideas today.\n\nRoman society was made up of different groups. PATRICIANS were the rich, upper-class families. PLEBEIANS were the common people, like farmers, workers, and craftspeople. There were also women, children, and many ENSLAVED people, who had very different and much harder daily lives. Each group's daily life was very different depending on their class.\n\nMany things we use today come straight from Rome: our calendar, many words (Latin is the root of English words), styles of buildings and government, and important legal ideas. The Romans' achievements in engineering, building, and law are a big part of their lasting legacy. Remember: Rome = roads, aqueducts, concrete, and law.",
+    "questions": [
+      {
+        "id": "17-1-q1",
+        "section": "social",
+        "question": "What structures did the Romans build to carry water into cities?",
+        "choices": {
+          "A": "Great Walls",
+          "B": "Pyramids",
+          "C": "Ziggurats",
+          "D": "Aqueducts"
+        },
+        "correctAnswer": "D",
+        "explanation": "Aqueducts carried water into Roman cities.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q2",
+        "section": "social",
+        "question": "The Romans were especially skilled at what?",
+        "choices": {
+          "A": "Making silk",
+          "B": "Sailing only",
+          "C": "Mummifying bodies",
+          "D": "Building and engineering"
+        },
+        "correctAnswer": "D",
+        "explanation": "Romans were master builders and engineers.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-1-q3",
+        "section": "social",
+        "question": "Who were the patricians in Roman society?",
+        "choices": {
+          "A": "The rich, upper-class families",
+          "B": "Enslaved workers",
+          "C": "Common farmers",
+          "D": "Foreign traders"
+        },
+        "correctAnswer": "A",
+        "explanation": "Patricians were the wealthy upper class.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q4",
+        "section": "social",
+        "question": "Who were the plebeians?",
+        "choices": {
+          "A": "The richest nobles",
+          "B": "The common people, like farmers and workers",
+          "C": "The emperors only",
+          "D": "Foreign kings"
+        },
+        "correctAnswer": "B",
+        "explanation": "Plebeians were the common people of Rome.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q5",
+        "section": "social",
+        "question": "Which building material let the Romans build huge structures like the Colosseum?",
+        "choices": {
+          "A": "Silk",
+          "B": "Papyrus",
+          "C": "Concrete",
+          "D": "Ice"
+        },
+        "correctAnswer": "C",
+        "explanation": "Romans used concrete to build large structures.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q6",
+        "section": "social",
+        "question": "Why did daily life differ so much among Roman groups?",
+        "choices": {
+          "A": "Everyone lived exactly the same",
+          "B": "Different social classes had very different lives",
+          "C": "There were no classes in Rome",
+          "D": "Only the weather changed lives"
+        },
+        "correctAnswer": "B",
+        "explanation": "Daily life varied greatly by social class.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-1-q7",
+        "section": "social",
+        "question": "Roman roads were so well built that they led to which famous saying?",
+        "choices": {
+          "A": "'An eye for an eye'",
+          "B": "'The gift of the Nile'",
+          "C": "'All roads lead to Rome'",
+          "D": "'Rule by the people'"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rome's road network inspired 'all roads lead to Rome.'",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-1-q8",
+        "section": "social",
+        "question": "Which Roman achievement still shapes legal ideas today?",
+        "choices": {
+          "A": "Their mummies",
+          "B": "Their systems of law",
+          "C": "Their hieroglyphics",
+          "D": "Their caste system"
+        },
+        "correctAnswer": "B",
+        "explanation": "Roman law still influences modern legal systems.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-1-q9",
+        "section": "social",
+        "question": "The Latin language of Rome is the root of many words in which modern language?",
+        "choices": {
+          "A": "English",
+          "B": "Chinese",
+          "C": "Egyptian hieroglyphics",
+          "D": "Sumerian"
+        },
+        "correctAnswer": "A",
+        "explanation": "Latin is the root of many English words.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-1-q10",
+        "section": "social",
+        "question": "Which list correctly names Roman achievements?",
+        "choices": {
+          "A": "Roads, aqueducts, concrete, and law",
+          "B": "Pyramids, mummies, hieroglyphics",
+          "C": "Silk, gunpowder, the compass",
+          "D": "The alphabet, purple dye, sea trade"
+        },
+        "correctAnswer": "A",
+        "explanation": "Roads, aqueducts, concrete, and law are Roman achievements.",
+        "standard": "SS.6.W.3.14",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "17-2": {
+    "title": "The Fall of the Western Roman Empire",
+    "standard": "SS.6.W.3.15",
+    "learn": "KEY IDEAS — THE FALL OF THE WESTERN ROMAN EMPIRE\n\nAfter the long peace of the Pax Romana ended, the Roman Empire began to face serious trouble. Over many years, the WESTERN half of the Roman Empire slowly DECLINED and grew weaker. The fall was not sudden; it happened gradually over a long time.\n\nHistorians point to several CAUSES that worked together. These included: WEAK and corrupt leaders (some emperors ruled badly), MONEY PROBLEMS (the economy struggled and the government ran out of money), the empire's HUGE SIZE (it became too big to defend and govern well), and INVASIONS by outside groups (often called barbarian tribes, like the Goths and Vandals) who attacked the borders. Disease and a shrinking army also played a part. No single cause brought Rome down; many problems combined.\n\nFinally, in 476 AD, the last emperor of the Western Roman Empire was removed from power, and the Western Roman Empire had FALLEN. This event is often used to mark the END of the ancient classical world in Europe and the beginning of the Middle Ages. (The eastern half, the Byzantine Empire, lasted much longer.) Remember: the Western Roman Empire fell in 476 AD from many combined causes.",
+    "questions": [
+      {
+        "id": "17-2-q1",
+        "section": "social",
+        "question": "Which half of the Roman Empire fell first?",
+        "choices": {
+          "A": "Both at the exact same time",
+          "B": "The Eastern half",
+          "C": "Neither half fell",
+          "D": "The Western half"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Western Roman Empire fell first.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-2-q2",
+        "section": "social",
+        "question": "In what year did the Western Roman Empire fall?",
+        "choices": {
+          "A": "1000 AD",
+          "B": "44 BC",
+          "C": "476 AD",
+          "D": "100 BC"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Western Roman Empire fell in 476 AD.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q3",
+        "section": "social",
+        "question": "Which was a cause of Rome's fall?",
+        "choices": {
+          "A": "Invasions by outside groups",
+          "B": "Too much peace and wealth",
+          "C": "Too small a territory",
+          "D": "Having no enemies"
+        },
+        "correctAnswer": "A",
+        "explanation": "Invasions by outside groups helped cause Rome's fall.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q4",
+        "section": "social",
+        "question": "Did the Western Roman Empire fall suddenly or gradually?",
+        "choices": {
+          "A": "It never fell",
+          "B": "In a single day",
+          "C": "In one week",
+          "D": "Gradually, over many years"
+        },
+        "correctAnswer": "D",
+        "explanation": "The fall happened gradually over many years.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q5",
+        "section": "social",
+        "question": "How did the empire's huge SIZE contribute to its fall?",
+        "choices": {
+          "A": "It made Rome stronger forever",
+          "B": "It became too big to defend and govern well",
+          "C": "It had no effect at all",
+          "D": "It made Rome easier to rule"
+        },
+        "correctAnswer": "B",
+        "explanation": "The empire's huge size made it hard to defend and govern.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q6",
+        "section": "social",
+        "question": "Which of these was also a cause of Rome's decline?",
+        "choices": {
+          "A": "Weak and corrupt leaders",
+          "B": "Strong, wise leaders",
+          "C": "Too much gold",
+          "D": "A perfect army"
+        },
+        "correctAnswer": "A",
+        "explanation": "Weak, corrupt leaders weakened Rome.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q7",
+        "section": "social",
+        "question": "Was there ONE single cause for the fall of Rome?",
+        "choices": {
+          "A": "No, many problems combined to cause the fall",
+          "B": "Yes, only invasions",
+          "C": "Yes, only money problems",
+          "D": "Yes, only one bad emperor"
+        },
+        "correctAnswer": "A",
+        "explanation": "Many combined causes, not one, led to Rome's fall.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q8",
+        "section": "social",
+        "question": "The fall of the Western Roman Empire is often used to mark the end of what?",
+        "choices": {
+          "A": "All farming",
+          "B": "The whole world",
+          "C": "The ancient classical world in Europe",
+          "D": "The Stone Age"
+        },
+        "correctAnswer": "C",
+        "explanation": "Rome's fall marks the end of the ancient classical world in Europe.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-2-q9",
+        "section": "social",
+        "question": "What kind of money problem hurt the Roman Empire?",
+        "choices": {
+          "A": "Rome had too much money to spend",
+          "B": "The economy struggled and the government ran low on money",
+          "C": "Money was banned in Rome",
+          "D": "Rome never used money"
+        },
+        "correctAnswer": "B",
+        "explanation": "Economic struggles and lack of money weakened Rome.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-2-q10",
+        "section": "social",
+        "question": "What happened to the EASTERN half of the Roman Empire after 476 AD?",
+        "choices": {
+          "A": "It fell on the same day",
+          "B": "It lasted much longer as the Byzantine Empire",
+          "C": "It never existed",
+          "D": "It conquered the Mongols"
+        },
+        "correctAnswer": "B",
+        "explanation": "The eastern half survived much longer as the Byzantine Empire.",
+        "standard": "SS.6.W.3.15",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "17-3": {
+    "title": "The Lasting Legacy of the Ancient World",
+    "standard": "SS.6.W.1.6",
+    "learn": "KEY IDEAS — THE LASTING LEGACY OF THE ANCIENT WORLD\n\nEven after Rome fell, the great IDEAS of the ancient civilizations LIVED ON. A 'legacy' is something handed down from the past that still affects us today. The ancient world left behind an amazing legacy that we still use.\n\nThink of all the gifts: from GREECE came DEMOCRACY (rule by the people), philosophy, and the Olympics. From ROME came LAW, republican government, roads, and engineering. From the ISRAELITES (Judaism) came MONOTHEISM, which shaped Christianity and Islam too. From the PHOENICIANS came the ALPHABET. From SUMER and EGYPT came WRITING (cuneiform and hieroglyphics) and early MATH and science. From INDIA and the MAYA came the concept of ZERO. From CHINA came inventions like paper and the compass.\n\nStudying ancient civilizations is not just about the past — it helps us understand the ROOTS of the modern world we live in today. Our governments, writing, math, religions, calendars, and buildings all grew from seeds planted by these early peoples. The ancient world's legacy is all around us. Remember: democracy = Greece; law = Rome; alphabet = Phoenicia; monotheism = Israelites; writing = Sumer/Egypt.",
+    "questions": [
+      {
+        "id": "17-3-q1",
+        "section": "social",
+        "question": "What does 'legacy' mean?",
+        "choices": {
+          "A": "A type of ancient war",
+          "B": "Something handed down from the past that still affects us",
+          "C": "A kind of river",
+          "D": "A Roman emperor"
+        },
+        "correctAnswer": "B",
+        "explanation": "A legacy is something from the past that still influences us today.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q2",
+        "section": "social",
+        "question": "Which idea is part of the legacy of ancient GREECE?",
+        "choices": {
+          "A": "Democracy",
+          "B": "The Mandate of Heaven",
+          "C": "The caste system",
+          "D": "Hieroglyphics"
+        },
+        "correctAnswer": "A",
+        "explanation": "Democracy is a Greek legacy.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q3",
+        "section": "social",
+        "question": "Which legacy came from ancient ROME?",
+        "choices": {
+          "A": "Law and republican government",
+          "B": "The alphabet",
+          "C": "Monotheism",
+          "D": "The compass"
+        },
+        "correctAnswer": "A",
+        "explanation": "Law and republican government are Roman legacies.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q4",
+        "section": "social",
+        "question": "The idea of monotheism is part of the legacy of which people?",
+        "choices": {
+          "A": "The Greeks",
+          "B": "The Israelites (Judaism)",
+          "C": "The Romans",
+          "D": "The Chinese"
+        },
+        "correctAnswer": "B",
+        "explanation": "Monotheism came from the Israelites and Judaism.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q5",
+        "section": "social",
+        "question": "The alphabet is part of the legacy of which people?",
+        "choices": {
+          "A": "The Egyptians",
+          "B": "The Maya",
+          "C": "The Mongols",
+          "D": "The Phoenicians"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Phoenicians gave us the alphabet.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q6",
+        "section": "social",
+        "question": "Which two civilizations gave us early WRITING systems?",
+        "choices": {
+          "A": "Kush and Axum",
+          "B": "Greece and Rome",
+          "C": "China and India",
+          "D": "Sumer (cuneiform) and Egypt (hieroglyphics)"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sumer's cuneiform and Egypt's hieroglyphics were early writing.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "17-3-q7",
+        "section": "social",
+        "question": "Why is studying ancient civilizations useful today?",
+        "choices": {
+          "A": "It has no use at all",
+          "B": "It helps us understand the roots of the modern world",
+          "C": "It only teaches us about rivers",
+          "D": "It changes nothing about today"
+        },
+        "correctAnswer": "B",
+        "explanation": "Studying the ancient world reveals the roots of modern life.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q8",
+        "section": "social",
+        "question": "Which invention is part of the legacy of ancient CHINA?",
+        "choices": {
+          "A": "The alphabet",
+          "B": "Democracy",
+          "C": "Paper and the compass",
+          "D": "Roman law"
+        },
+        "correctAnswer": "C",
+        "explanation": "Paper and the compass were Chinese inventions.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "17-3-q9",
+        "section": "social",
+        "question": "Which two faraway civilizations both contributed the concept of ZERO?",
+        "choices": {
+          "A": "India and the Maya",
+          "B": "Greece and Rome",
+          "C": "Egypt and Sumer",
+          "D": "Persia and Phoenicia"
+        },
+        "correctAnswer": "A",
+        "explanation": "Both India and the Maya developed the concept of zero.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "17-3-q10",
+        "section": "social",
+        "question": "Which statement BEST describes the legacy of the ancient world?",
+        "choices": {
+          "A": "The ancient world has no connection to today",
+          "B": "Nothing from the ancient world survived",
+          "C": "Our governments, writing, math, and religions grew from these early peoples",
+          "D": "Only Rome left any legacy"
+        },
+        "correctAnswer": "C",
+        "explanation": "Modern governments, writing, math, and religions all trace to the ancient world.",
+        "standard": "SS.6.W.1.6",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

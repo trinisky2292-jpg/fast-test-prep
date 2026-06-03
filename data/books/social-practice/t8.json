@@ -1,0 +1,473 @@
+{
+  "8-1": {
+    "title": "The Kingdom of Kush",
+    "standard": "SS.6.W.3.18",
+    "learn": "KEY IDEAS — THE KINGDOM OF KUSH (NUBIA)\n\nSouth of Egypt, along the upper Nile River, rose the kingdom of KUSH, also called NUBIA. Because Kush sat along the Nile and right next to Egypt, the two kingdoms traded and influenced each other for a long time.\n\nKush grew rich through TRADE. It controlled valuable resources and traded gold, ivory, ebony wood, and iron. Kush became especially famous as a center for working IRON, making strong tools and weapons. Its capital cities, such as Meroe, became busy centers of trade and ironworking.\n\nThe Kushites learned much from Egypt — building pyramids, worshipping similar gods, and using writing — but they also developed their own culture and writing. For a time, Kush grew so powerful that its kings actually CONQUERED and RULED Egypt itself; these rulers are sometimes called the 'Black Pharaohs.' The story of Kush shows that great, wealthy civilizations grew in Africa beyond just Egypt. Remember: Kush = Nubia, south of Egypt, rich from gold and iron trade.",
+    "questions": [
+      {
+        "id": "8-1-q1",
+        "section": "social",
+        "question": "Where was the kingdom of Kush located?",
+        "choices": {
+          "A": "North of Greece",
+          "B": "South of Egypt along the Nile",
+          "C": "In the Indus Valley",
+          "D": "Along the Yellow River"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kush lay south of Egypt along the upper Nile.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q2",
+        "section": "social",
+        "question": "Kush is also known by what other name?",
+        "choices": {
+          "A": "Nubia",
+          "B": "Babylon",
+          "C": "Carthage",
+          "D": "Sparta"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush was also called Nubia.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q3",
+        "section": "social",
+        "question": "How did Kush become rich?",
+        "choices": {
+          "A": "By farming snow",
+          "B": "By trading gold, ivory, and iron",
+          "C": "By making paper money",
+          "D": "By conquering Rome"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kush grew wealthy trading gold, ivory, and iron.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q4",
+        "section": "social",
+        "question": "Kush became especially famous as a center for working which metal?",
+        "choices": {
+          "A": "Aluminum",
+          "B": "Iron",
+          "C": "Tin only",
+          "D": "Lead"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kush was a major center of ironworking.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q5",
+        "section": "social",
+        "question": "Which civilization did Kush most learn from and trade with?",
+        "choices": {
+          "A": "Greece",
+          "B": "Rome",
+          "C": "China",
+          "D": "Egypt"
+        },
+        "correctAnswer": "D",
+        "explanation": "Kush traded with and learned from its neighbor Egypt.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-1-q6",
+        "section": "social",
+        "question": "What surprising thing did Kushite kings do for a time?",
+        "choices": {
+          "A": "They invented democracy",
+          "B": "They destroyed the Nile",
+          "C": "They conquered and ruled Egypt itself",
+          "D": "They built the Great Wall"
+        },
+        "correctAnswer": "C",
+        "explanation": "Kushite kings ruled Egypt for a period as the 'Black Pharaohs.'",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q7",
+        "section": "social",
+        "question": "What was Meroe?",
+        "choices": {
+          "A": "A Roman law",
+          "B": "A river in China",
+          "C": "A Greek philosopher",
+          "D": "A Kushite capital and center of trade and ironworking"
+        },
+        "correctAnswer": "D",
+        "explanation": "Meroe was a Kushite capital famous for trade and iron.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-1-q8",
+        "section": "social",
+        "question": "What did Kush borrow from Egyptian culture?",
+        "choices": {
+          "A": "Building pyramids and similar gods",
+          "B": "The Roman alphabet",
+          "C": "The Mandate of Heaven",
+          "D": "Greek democracy"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush adopted pyramid building and similar gods from Egypt.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q9",
+        "section": "social",
+        "question": "Why was Kush's location along the Nile important for trade?",
+        "choices": {
+          "A": "It blocked all travel",
+          "B": "The river had no use for trade",
+          "C": "The river connected Kush to Egypt and other trading partners",
+          "D": "It separated Kush from everyone"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Nile connected Kush to Egypt and trade routes.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-1-q10",
+        "section": "social",
+        "question": "What does the story of Kush teach us about African history?",
+        "choices": {
+          "A": "Great, wealthy civilizations grew in Africa beyond Egypt",
+          "B": "Only Egypt ever existed in Africa",
+          "C": "Africa had no trade",
+          "D": "Kush had no culture of its own"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush shows that powerful civilizations rose across Africa, not just in Egypt.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "8-2": {
+    "title": "Axum and East African Trade",
+    "standard": "SS.6.W.3.18",
+    "learn": "KEY IDEAS — AXUM AND EAST AFRICAN TRADE\n\nThe kingdom of AXUM (also spelled Aksum) was a powerful trading kingdom in EAST AFRICA, in the area of present-day Ethiopia and Eritrea. Axum had a great location: it sat near the Red Sea, which let it connect trade between Africa, the Mediterranean world, and the Indian Ocean. This made Axum a busy CROSSROADS of trade.\n\nThrough its ports, Axum traded goods like ivory, gold, and farm products, and it grew very wealthy and powerful. Axum even minted its own coins, a sign of a strong, advanced kingdom.\n\nAxum is also famous for being one of the FIRST kingdoms to officially adopt CHRISTIANITY, around the 300s AD. From Axum, Christianity spread into Ethiopia, where it remained important for centuries. Axum left behind giant stone monuments called stelae (tall carved pillars). Together, Kush and Axum show that great trading civilizations and important religious changes happened across the whole African continent. Remember: Axum = East African trade kingdom + early Christianity.",
+    "questions": [
+      {
+        "id": "8-2-q1",
+        "section": "social",
+        "question": "Where was the kingdom of Axum located?",
+        "choices": {
+          "A": "Western Europe",
+          "B": "East Africa",
+          "C": "Central Asia",
+          "D": "South America"
+        },
+        "correctAnswer": "B",
+        "explanation": "Axum was in East Africa (today's Ethiopia/Eritrea area).",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q2",
+        "section": "social",
+        "question": "What made Axum a powerful kingdom?",
+        "choices": {
+          "A": "It avoided all trade",
+          "B": "It had no contact with others",
+          "C": "It was a busy center of trade",
+          "D": "It had no ports"
+        },
+        "correctAnswer": "C",
+        "explanation": "Axum's strength came from being a major trade center.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q3",
+        "section": "social",
+        "question": "Axum's location near the Red Sea let it connect trade between which areas?",
+        "choices": {
+          "A": "Only Greece and Rome",
+          "B": "Only Egypt and Sumer",
+          "C": "Only China and Japan",
+          "D": "Africa, the Mediterranean, and the Indian Ocean"
+        },
+        "correctAnswer": "D",
+        "explanation": "Axum linked Africa, the Mediterranean, and the Indian Ocean.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q4",
+        "section": "social",
+        "question": "Axum was one of the first kingdoms to adopt which religion?",
+        "choices": {
+          "A": "Christianity",
+          "B": "Buddhism",
+          "C": "Hinduism",
+          "D": "Daoism"
+        },
+        "correctAnswer": "A",
+        "explanation": "Axum was an early adopter of Christianity.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q5",
+        "section": "social",
+        "question": "From Axum, Christianity spread into which modern country?",
+        "choices": {
+          "A": "Ethiopia",
+          "B": "Italy",
+          "C": "India",
+          "D": "China"
+        },
+        "correctAnswer": "A",
+        "explanation": "Christianity from Axum spread into Ethiopia.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q6",
+        "section": "social",
+        "question": "What sign showed that Axum was a strong, advanced kingdom?",
+        "choices": {
+          "A": "It had no money at all",
+          "B": "It minted its own coins",
+          "C": "It used Roman law",
+          "D": "It built the pyramids of Giza"
+        },
+        "correctAnswer": "B",
+        "explanation": "Minting its own coins showed Axum's strength and advancement.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-2-q7",
+        "section": "social",
+        "question": "Axum is famous for leaving behind what kind of monuments?",
+        "choices": {
+          "A": "Chinese pagodas",
+          "B": "Stone pyramids of Giza",
+          "C": "Roman aqueducts",
+          "D": "Giant carved stone pillars (stelae)"
+        },
+        "correctAnswer": "D",
+        "explanation": "Axum built tall carved stone pillars called stelae.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q8",
+        "section": "social",
+        "question": "Why was being a 'crossroads of trade' valuable for Axum?",
+        "choices": {
+          "A": "It made Axum poor",
+          "B": "Goods and ideas from many regions passed through, bringing wealth",
+          "C": "It cut Axum off from the world",
+          "D": "It stopped all travel"
+        },
+        "correctAnswer": "B",
+        "explanation": "As a crossroads, Axum gained wealth and ideas from many regions.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-2-q9",
+        "section": "social",
+        "question": "What goods did Axum trade?",
+        "choices": {
+          "A": "Plastic and steel",
+          "B": "Cars and computers",
+          "C": "Ivory, gold, and farm products",
+          "D": "Nothing at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "Axum traded ivory, gold, and farm goods.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-2-q10",
+        "section": "social",
+        "question": "What do Kush and Axum together teach about Africa's history?",
+        "choices": {
+          "A": "Great trading civilizations grew across the whole continent",
+          "B": "Africa had only one kingdom ever",
+          "C": "Africa had no trade routes",
+          "D": "Africa never adopted any religion"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kush and Axum show powerful trading civilizations existed across Africa.",
+        "standard": "SS.6.W.3.18",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "8-3": {
+    "title": "Trade and Money in the Ancient World",
+    "standard": "SS.6.E.3.1",
+    "learn": "KEY IDEAS — TRADE AND MONEY\n\nLong ago, before money existed, people traded using BARTER. Barter means swapping goods or services directly for other goods — for example, trading a basket of grain for a piece of cloth. Barter worked, but it had a big problem: both people had to want exactly what the other person had at the same time.\n\nTo make trading easier, civilizations slowly created MONEY. Money is anything widely accepted as a 'medium of exchange,' meaning people accept it in trade for goods and services. Early money included valuable items, and later, metal COINS. Money solved barter's problem because everyone accepted it, so you no longer had to find a perfect direct swap.\n\nTrade did more than move goods. As traders traveled along trade routes, they also carried IDEAS, inventions, religions, and writing from one region to another. This spreading of culture is called cultural diffusion. So trade connected distant lands, helping civilizations share goods AND knowledge, which helped the whole ancient world grow and change. Remember: barter came first; money (coins) made trade easier.",
+    "questions": [
+      {
+        "id": "8-3-q1",
+        "section": "social",
+        "question": "What is bartering?",
+        "choices": {
+          "A": "Stealing goods",
+          "B": "Paying only with coins",
+          "C": "Giving things away for free",
+          "D": "Trading goods directly for other goods"
+        },
+        "correctAnswer": "D",
+        "explanation": "Barter is the direct trade of goods for goods.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q2",
+        "section": "social",
+        "question": "What did civilizations create to make trading easier than barter?",
+        "choices": {
+          "A": "Ziggurats",
+          "B": "Pyramids",
+          "C": "Money",
+          "D": "Roads only"
+        },
+        "correctAnswer": "C",
+        "explanation": "Money was created as an easier medium of exchange than barter.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q3",
+        "section": "social",
+        "question": "What is a 'medium of exchange'?",
+        "choices": {
+          "A": "A ruler of a city",
+          "B": "A type of farm",
+          "C": "A kind of river",
+          "D": "Something widely accepted in trade for goods, like money"
+        },
+        "correctAnswer": "D",
+        "explanation": "A medium of exchange, such as money, is accepted in trade for goods.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q4",
+        "section": "social",
+        "question": "What was a big PROBLEM with the barter system?",
+        "choices": {
+          "A": "Both people had to want what the other had",
+          "B": "It was too fast",
+          "C": "It used too many coins",
+          "D": "It only worked with money"
+        },
+        "correctAnswer": "A",
+        "explanation": "Barter required both traders to want exactly what the other offered.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q5",
+        "section": "social",
+        "question": "Besides goods, what else did trade routes help spread?",
+        "choices": {
+          "A": "Only rocks",
+          "B": "Ideas, inventions, and religions",
+          "C": "Nothing but water",
+          "D": "Empty boxes"
+        },
+        "correctAnswer": "B",
+        "explanation": "Trade spread ideas, inventions, and religions, not just goods.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q6",
+        "section": "social",
+        "question": "The spreading of culture and ideas from one place to another is called what?",
+        "choices": {
+          "A": "Irrigation",
+          "B": "Migration",
+          "C": "Cultural diffusion",
+          "D": "Mummification"
+        },
+        "correctAnswer": "C",
+        "explanation": "The spread of culture through contact is called cultural diffusion.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q7",
+        "section": "social",
+        "question": "Which came FIRST in history?",
+        "choices": {
+          "A": "Barter",
+          "B": "Paper money",
+          "C": "Credit cards",
+          "D": "Banks"
+        },
+        "correctAnswer": "A",
+        "explanation": "Barter came before money systems like coins or paper money.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "8-3-q8",
+        "section": "social",
+        "question": "How did money solve the main problem of barter?",
+        "choices": {
+          "A": "Everyone accepted it, so no perfect direct swap was needed",
+          "B": "It made trade impossible",
+          "C": "It forced people to barter more",
+          "D": "It removed all trade"
+        },
+        "correctAnswer": "A",
+        "explanation": "Because money was widely accepted, traders no longer needed an exact match.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "8-3-q9",
+        "section": "social",
+        "question": "An early common form of money was what?",
+        "choices": {
+          "A": "Plastic cards",
+          "B": "Metal coins",
+          "C": "Paper checks",
+          "D": "Computer files"
+        },
+        "correctAnswer": "B",
+        "explanation": "Metal coins were an early form of money.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "8-3-q10",
+        "section": "social",
+        "question": "Which BEST describes how trade affected the ancient world?",
+        "choices": {
+          "A": "It kept all regions separate forever",
+          "B": "It connected distant lands, spreading goods AND ideas",
+          "C": "It only moved water",
+          "D": "It had no effect on civilizations"
+        },
+        "correctAnswer": "B",
+        "explanation": "Trade linked far regions and spread both goods and ideas.",
+        "standard": "SS.6.E.3.1",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

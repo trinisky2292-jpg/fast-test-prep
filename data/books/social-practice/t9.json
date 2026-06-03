@@ -1,0 +1,473 @@
+{
+  "9-1": {
+    "title": "The Indus Valley Civilization",
+    "standard": "SS.6.W.2.3",
+    "learn": "KEY IDEAS — THE INDUS VALLEY CIVILIZATION\n\nOne of the earliest civilizations grew in the INDUS RIVER VALLEY, in what is now Pakistan and northwestern India. Like other early civilizations, it began near a great river, the Indus, whose floods gave rich soil for farming.\n\nThe two most famous cities were HARAPPA and MOHENJO-DARO. (This civilization is sometimes called the Harappan civilization.) These cities are amazing because they were carefully PLANNED. The streets were laid out in a straight grid pattern, like a checkerboard. The buildings were made of baked brick, and the cities had advanced features such as indoor plumbing, public wells, covered drains, and sewer systems to carry away waste — features more advanced than many later cities.\n\nThis careful planning shows how organized and skilled this ancient society was. A planned grid and working sewers mean the Indus people had strong government and engineering knowledge. Scholars still cannot fully read their writing, so many mysteries remain. Remember: Indus Valley = Harappa and Mohenjo-Daro, famous for planned cities and plumbing.",
+    "questions": [
+      {
+        "id": "9-1-q1",
+        "section": "social",
+        "question": "Near which river did the Indus Valley Civilization grow?",
+        "choices": {
+          "A": "The Indus River",
+          "B": "The Nile River",
+          "C": "The Tigris River",
+          "D": "The Yellow River"
+        },
+        "correctAnswer": "A",
+        "explanation": "It grew along the Indus River.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q2",
+        "section": "social",
+        "question": "In which area is the Indus Valley located today?",
+        "choices": {
+          "A": "Egypt and Sudan",
+          "B": "Pakistan and India",
+          "C": "Italy and Greece",
+          "D": "China and Japan"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Indus Valley is in modern Pakistan and India.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q3",
+        "section": "social",
+        "question": "Which were two famous cities of the Indus Valley?",
+        "choices": {
+          "A": "Harappa and Mohenjo-Daro",
+          "B": "Athens and Sparta",
+          "C": "Memphis and Thebes",
+          "D": "Rome and Carthage"
+        },
+        "correctAnswer": "A",
+        "explanation": "Harappa and Mohenjo-Daro were the major Indus cities.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q4",
+        "section": "social",
+        "question": "What advanced feature did Indus Valley cities have?",
+        "choices": {
+          "A": "Paved highways for cars",
+          "B": "Electric lights",
+          "C": "Steel skyscrapers",
+          "D": "Indoor plumbing and sewer systems"
+        },
+        "correctAnswer": "D",
+        "explanation": "Indus cities had indoor plumbing and sewer systems.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q5",
+        "section": "social",
+        "question": "How were the streets of Indus cities arranged?",
+        "choices": {
+          "A": "In one giant circle",
+          "B": "In random curves",
+          "C": "In a straight grid pattern",
+          "D": "With no streets at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "Streets were laid out in a planned grid pattern.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q6",
+        "section": "social",
+        "question": "What does the careful planning of Indus cities show about their society?",
+        "choices": {
+          "A": "It could not build anything",
+          "B": "It had no leaders",
+          "C": "It was organized and skilled in engineering",
+          "D": "It was disorganized"
+        },
+        "correctAnswer": "C",
+        "explanation": "Planned cities reveal an organized, skilled society with engineering knowledge.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-1-q7",
+        "section": "social",
+        "question": "Indus Valley buildings were mainly made of what?",
+        "choices": {
+          "A": "Ice blocks",
+          "B": "Baked brick",
+          "C": "Pure gold",
+          "D": "Bamboo only"
+        },
+        "correctAnswer": "B",
+        "explanation": "Buildings were made of baked brick.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-1-q8",
+        "section": "social",
+        "question": "Why might a working sewer system require an organized government?",
+        "choices": {
+          "A": "Sewers build themselves",
+          "B": "Planning city-wide drains takes shared rules and cooperation",
+          "C": "No planning is needed for cities",
+          "D": "Sewers are only for farms"
+        },
+        "correctAnswer": "B",
+        "explanation": "City-wide sewers and grids require coordinated government and planning.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-1-q9",
+        "section": "social",
+        "question": "Why do many mysteries about the Indus Valley remain?",
+        "choices": {
+          "A": "No one has ever studied them",
+          "B": "The cities never existed",
+          "C": "They left no buildings",
+          "D": "Scholars cannot fully read their writing"
+        },
+        "correctAnswer": "D",
+        "explanation": "Their writing has not been fully translated, leaving mysteries.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-1-q10",
+        "section": "social",
+        "question": "What did the Indus Valley have in common with other early river civilizations?",
+        "choices": {
+          "A": "It grew near a river that flooded and gave rich soil",
+          "B": "It avoided all rivers",
+          "C": "It grew in a frozen desert",
+          "D": "It had no farming"
+        },
+        "correctAnswer": "A",
+        "explanation": "Like others, it grew near a flooding river that provided fertile soil.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "9-2": {
+    "title": "Aryan Migrations and the Caste System",
+    "standard": "SS.6.W.4.1",
+    "learn": "KEY IDEAS — ARYAN MIGRATIONS AND THE CASTE SYSTEM\n\nAfter the Indus Valley cities declined and faded, groups of people called the ARYANS migrated INTO India from the northwest. The Aryans were not native to India; they moved in over time. They strongly shaped India's LANGUAGE and culture. Their language, Sanskrit, became very important, and their sacred texts, the Vedas, are some of India's oldest writings.\n\nOver time, Indian society became divided into ranked groups called the CASTE SYSTEM. In the caste system, the family you were BORN INTO decided your place in society and what jobs you could do. The main groups (varnas), from top to bottom, were priests (Brahmins), warriors and rulers, farmers and merchants, and workers/servants. Below all of these were people sometimes called the 'untouchables,' who did the hardest, lowest jobs.\n\nThe most important fact about the caste system is that people generally could NOT move from one caste to another. You stayed in the caste you were born into for your whole life. The caste system shaped Indian society and daily life for thousands of years. Remember: caste = social groups set by birth, hard to change.",
+    "questions": [
+      {
+        "id": "9-2-q1",
+        "section": "social",
+        "question": "Which group migrated into India after the Indus Valley cities declined?",
+        "choices": {
+          "A": "The Maya",
+          "B": "The Romans",
+          "C": "The Phoenicians",
+          "D": "The Aryans"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Aryans migrated into India.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q2",
+        "section": "social",
+        "question": "The ranked social groups in ancient India were called the what?",
+        "choices": {
+          "A": "Mandate of Heaven",
+          "B": "Caste system",
+          "C": "Republic",
+          "D": "Democracy"
+        },
+        "correctAnswer": "B",
+        "explanation": "India's ranked social groups formed the caste system.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-2-q3",
+        "section": "social",
+        "question": "In the caste system, what decided a person's place in society?",
+        "choices": {
+          "A": "The family they were born into",
+          "B": "How much money they earned",
+          "C": "A public vote",
+          "D": "Their favorite job"
+        },
+        "correctAnswer": "A",
+        "explanation": "Caste was determined by the family one was born into.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q4",
+        "section": "social",
+        "question": "The MOST important rule about the caste system was that people generally could not do what?",
+        "choices": {
+          "A": "Get married",
+          "B": "Move from one caste to another",
+          "C": "Eat food",
+          "D": "Live in a city"
+        },
+        "correctAnswer": "B",
+        "explanation": "People generally could not move out of the caste they were born into.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q5",
+        "section": "social",
+        "question": "The Aryans strongly shaped India's what?",
+        "choices": {
+          "A": "Sea trade routes",
+          "B": "Pyramids",
+          "C": "Language and culture",
+          "D": "Iron mines"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Aryans shaped India's language and culture.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q6",
+        "section": "social",
+        "question": "Which group was at the TOP of the caste system?",
+        "choices": {
+          "A": "Priests (Brahmins)",
+          "B": "Servants",
+          "C": "Farmers",
+          "D": "Untouchables"
+        },
+        "correctAnswer": "A",
+        "explanation": "Priests, or Brahmins, were at the top of the caste system.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q7",
+        "section": "social",
+        "question": "The Aryan language that became important in India was called what?",
+        "choices": {
+          "A": "Latin",
+          "B": "Sanskrit",
+          "C": "Greek",
+          "D": "Cuneiform"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sanskrit was the important Aryan language in India.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q8",
+        "section": "social",
+        "question": "How would a person's caste affect their daily life?",
+        "choices": {
+          "A": "It had no effect at all",
+          "B": "It changed every year",
+          "C": "It decided their role and jobs for their whole life",
+          "D": "It only mattered to foreigners"
+        },
+        "correctAnswer": "C",
+        "explanation": "Caste set a person's lifelong role and jobs.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-2-q9",
+        "section": "social",
+        "question": "Were the Aryans native to India?",
+        "choices": {
+          "A": "No, they migrated in from the northwest",
+          "B": "Yes, they always lived there",
+          "C": "They came from Egypt",
+          "D": "They came from the Americas"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Aryans migrated into India from the northwest.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-2-q10",
+        "section": "social",
+        "question": "How long did the caste system shape Indian society?",
+        "choices": {
+          "A": "For just one year",
+          "B": "For only one week",
+          "C": "It never existed",
+          "D": "For thousands of years"
+        },
+        "correctAnswer": "D",
+        "explanation": "The caste system shaped Indian life for thousands of years.",
+        "standard": "SS.6.W.4.1",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "9-3": {
+    "title": "Hinduism, Buddhism, and India's Empires",
+    "standard": "SS.6.W.4.2",
+    "learn": "KEY IDEAS — HINDUISM, BUDDHISM, AND INDIA'S EMPIRES\n\nTwo of the world's major religions began in India. HINDUISM teaches ideas like KARMA (your actions affect your future) and REINCARNATION (the soul is reborn into a new life after death). Hinduism has many gods but sees them as forms of one great spirit. It became the main religion of India.\n\nBUDDHISM began when a prince named SIDDHARTHA GAUTAMA gave up his riches to search for the meaning of life. After deep thought, he became known as the BUDDHA, meaning 'the enlightened one.' He taught that letting go of selfish desire leads to peace and an end to suffering.\n\nIndia also had great EMPIRES. The MAURYAN Empire's most famous ruler, ASOKA (Ashoka), spread Buddhism and ideas of peace and kindness across his lands after a terrible war. Later, the GUPTA Empire became India's 'GOLDEN AGE,' a time of great achievements in art, math, and science. Gupta mathematicians helped develop the concept of ZERO and the number system we use today. Both Hinduism and Buddhism spread from India across much of Asia.",
+    "questions": [
+      {
+        "id": "9-3-q1",
+        "section": "social",
+        "question": "Which two major religions began in India?",
+        "choices": {
+          "A": "Christianity and Islam",
+          "B": "Hinduism and Buddhism",
+          "C": "Daoism and Confucianism",
+          "D": "Judaism and Shinto"
+        },
+        "correctAnswer": "B",
+        "explanation": "Both Hinduism and Buddhism began in India.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q2",
+        "section": "social",
+        "question": "Who founded Buddhism?",
+        "choices": {
+          "A": "Siddhartha Gautama, the Buddha",
+          "B": "Confucius",
+          "C": "Hammurabi",
+          "D": "Cyrus the Great"
+        },
+        "correctAnswer": "A",
+        "explanation": "Buddhism was founded by Siddhartha Gautama, the Buddha.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "9-3-q3",
+        "section": "social",
+        "question": "The Hindu idea that the soul is reborn into a new life is called what?",
+        "choices": {
+          "A": "Bartering",
+          "B": "Monotheism",
+          "C": "Democracy",
+          "D": "Reincarnation"
+        },
+        "correctAnswer": "D",
+        "explanation": "Reincarnation is the rebirth of the soul into a new life.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q4",
+        "section": "social",
+        "question": "What did the Buddha teach leads to peace?",
+        "choices": {
+          "A": "Worshipping the pharaoh",
+          "B": "Gaining as much money as possible",
+          "C": "Letting go of selfish desire",
+          "D": "Conquering other lands"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Buddha taught that ending selfish desire brings peace.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q5",
+        "section": "social",
+        "question": "Which Mauryan ruler spread Buddhism and ideas of peace?",
+        "choices": {
+          "A": "Asoka",
+          "B": "Sargon",
+          "C": "Augustus",
+          "D": "Nebuchadnezzar"
+        },
+        "correctAnswer": "A",
+        "explanation": "Asoka of the Mauryan Empire spread Buddhism and peace.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q6",
+        "section": "social",
+        "question": "Which empire is called India's 'Golden Age'?",
+        "choices": {
+          "A": "The Roman Empire",
+          "B": "The Gupta Empire",
+          "C": "The Persian Empire",
+          "D": "The Akkadian Empire"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Gupta Empire was India's Golden Age.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q7",
+        "section": "social",
+        "question": "Which important math idea is connected to Gupta India?",
+        "choices": {
+          "A": "The concept of zero",
+          "B": "The Roman numeral system only",
+          "C": "Cuneiform numbers",
+          "D": "Base-60 hours"
+        },
+        "correctAnswer": "A",
+        "explanation": "Gupta mathematicians helped develop the concept of zero.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "9-3-q8",
+        "section": "social",
+        "question": "What does the title 'Buddha' mean?",
+        "choices": {
+          "A": "The great king",
+          "B": "The enlightened one",
+          "C": "The high priest",
+          "D": "The sun god"
+        },
+        "correctAnswer": "B",
+        "explanation": "'Buddha' means 'the enlightened one.'",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q9",
+        "section": "social",
+        "question": "The Hindu idea that your actions affect your future is called what?",
+        "choices": {
+          "A": "Empire",
+          "B": "Caste",
+          "C": "Surplus",
+          "D": "Karma"
+        },
+        "correctAnswer": "D",
+        "explanation": "Karma is the idea that actions affect one's future.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "9-3-q10",
+        "section": "social",
+        "question": "What happened to Hinduism and Buddhism after they began in India?",
+        "choices": {
+          "A": "They stayed only in one city",
+          "B": "They disappeared completely",
+          "C": "They spread across much of Asia",
+          "D": "They moved only to Europe"
+        },
+        "correctAnswer": "C",
+        "explanation": "Both religions spread from India across much of Asia.",
+        "standard": "SS.6.W.4.2",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}

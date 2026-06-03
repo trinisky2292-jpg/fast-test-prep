@@ -1,0 +1,473 @@
+{
+  "2-1": {
+    "title": "Hunter-Gatherers and Human Migration",
+    "standard": "SS.6.W.2.1",
+    "learn": "KEY IDEAS — HUNTER-GATHERERS AND EARLY MIGRATION\n\nFor most of human history, people were hunter-gatherers. This means they hunted wild animals for meat and gathered wild plants, nuts, fruits, and roots for food. Because the food was wild and ran out in each area, hunter-gatherers were nomads — they moved from place to place following animal herds and ripe plants instead of building permanent towns.\n\nArchaeologists, scientists who study the things ancient people left behind, find the oldest evidence of humans in AFRICA. From there, people slowly spread, or migrated, across the whole planet. Scientists trace these journeys by following clues like bones, stone tools, and cave art left along the way.\n\nThese long migrations carried people and their cultures to nearly every continent. As small groups moved into new lands, they adapted to different climates, learned new skills, and spread human culture around the world. Movement, not staying still, was the normal way of life for early humans.",
+    "questions": [
+      {
+        "id": "2-1-q1",
+        "section": "social",
+        "question": "What did hunter-gatherers do for food?",
+        "choices": {
+          "A": "Raised cattle in barns",
+          "B": "Grew crops on big farms",
+          "C": "Bought food at markets",
+          "D": "Hunted animals and gathered wild plants"
+        },
+        "correctAnswer": "D",
+        "explanation": "Hunter-gatherers hunted wild animals and gathered wild plants for food.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q2",
+        "section": "social",
+        "question": "Why did hunter-gatherers move from place to place?",
+        "choices": {
+          "A": "To follow animals and find ripe wild plants",
+          "B": "Because they hated their homes",
+          "C": "To attend school in new towns",
+          "D": "To trade with shops"
+        },
+        "correctAnswer": "A",
+        "explanation": "They were nomads who followed food sources like herds and seasonal plants.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q3",
+        "section": "social",
+        "question": "On which continent do scientists find the OLDEST evidence of humans?",
+        "choices": {
+          "A": "Europe",
+          "B": "Asia",
+          "C": "Australia",
+          "D": "Africa"
+        },
+        "correctAnswer": "D",
+        "explanation": "The earliest human evidence is found in Africa.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q4",
+        "section": "social",
+        "question": "What word describes people who move around instead of settling permanently?",
+        "choices": {
+          "A": "Nomads",
+          "B": "Farmers",
+          "C": "Kings",
+          "D": "Scribes"
+        },
+        "correctAnswer": "A",
+        "explanation": "People who move from place to place are called nomads.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q5",
+        "section": "social",
+        "question": "What clues do scientists follow to trace early human migrations?",
+        "choices": {
+          "A": "Printed newspapers",
+          "B": "Modern road signs",
+          "C": "Bones, tools, and cave art",
+          "D": "Computer files"
+        },
+        "correctAnswer": "C",
+        "explanation": "Archaeologists trace migration using bones, tools, and cave art.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-1-q6",
+        "section": "social",
+        "question": "The slow movement of people into new lands over time is called what?",
+        "choices": {
+          "A": "Education",
+          "B": "Migration",
+          "C": "Irrigation",
+          "D": "Civilization"
+        },
+        "correctAnswer": "B",
+        "explanation": "Migration is the movement of people from one region to another.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q7",
+        "section": "social",
+        "question": "What is an archaeologist?",
+        "choices": {
+          "A": "A person who farms crops",
+          "B": "A scientist who studies things ancient people left behind",
+          "C": "A ruler of a city-state",
+          "D": "A modern map maker"
+        },
+        "correctAnswer": "B",
+        "explanation": "Archaeologists study the artifacts and remains of ancient people.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-1-q8",
+        "section": "social",
+        "question": "As people migrated into new lands, what did they have to do?",
+        "choices": {
+          "A": "Adapt to different climates and conditions",
+          "B": "Keep everything exactly the same",
+          "C": "Stop using tools",
+          "D": "Forget all their culture"
+        },
+        "correctAnswer": "A",
+        "explanation": "Migrating groups adapted to new climates and learned new skills.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q9",
+        "section": "social",
+        "question": "What was the MAIN effect of human migrations across the planet?",
+        "choices": {
+          "A": "All people stayed in one small area",
+          "B": "People and their cultures spread to nearly every continent",
+          "C": "Humans stopped using fire",
+          "D": "Cities were built before farming"
+        },
+        "correctAnswer": "B",
+        "explanation": "Migration spread people and cultures to almost every continent.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-1-q10",
+        "section": "social",
+        "question": "Which statement about early humans is TRUE?",
+        "choices": {
+          "A": "They never hunted animals",
+          "B": "They lived in large permanent cities from the start",
+          "C": "Moving around was the normal way of life for a very long time",
+          "D": "They had written laws"
+        },
+        "correctAnswer": "C",
+        "explanation": "For most of human history, a moving, nomadic life was normal.",
+        "standard": "SS.6.W.2.1",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "2-2": {
+    "title": "The Agricultural Revolution",
+    "standard": "SS.6.W.2.2",
+    "learn": "KEY IDEAS — THE AGRICULTURAL REVOLUTION\n\nAbout 10,000 years ago, some groups of people learned to plant crops and raise animals. This huge change is called the Agricultural Revolution (also called the Neolithic Revolution). Instead of always moving to find food, farmers could stay in one place. People who settle in one place are leading a sedentary life.\n\nFarming had powerful effects. People could grow and store EXTRA food, called a surplus. With a food surplus, not everyone had to farm. Some people could become builders, priests, traders, soldiers, or leaders instead. This is called a division of labor, or specialization of jobs.\n\nStaying in one place also let people build permanent homes and grow into larger communities, which slowly became villages, towns, and eventually cities. The Agricultural Revolution was a turning point: it changed humans from wandering hunter-gatherers into settled farmers and set the stage for the first civilizations.",
+    "questions": [
+      {
+        "id": "2-2-q1",
+        "section": "social",
+        "question": "What major change happened during the Agricultural Revolution?",
+        "choices": {
+          "A": "People stopped eating food",
+          "B": "People learned to plant crops and raise animals",
+          "C": "People invented airplanes",
+          "D": "People moved deeper into caves"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Agricultural Revolution began when people started farming and raising animals.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q2",
+        "section": "social",
+        "question": "About how long ago did the Agricultural Revolution begin?",
+        "choices": {
+          "A": "About 100 years ago",
+          "B": "About 1,000 years ago",
+          "C": "About 10,000 years ago",
+          "D": "About 1 million years ago"
+        },
+        "correctAnswer": "C",
+        "explanation": "Farming began about 10,000 years ago.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q3",
+        "section": "social",
+        "question": "Extra food that farmers could grow and store is called a what?",
+        "choices": {
+          "A": "Nomad",
+          "B": "Migration",
+          "C": "Timeline",
+          "D": "Surplus"
+        },
+        "correctAnswer": "D",
+        "explanation": "Extra stored food is called a surplus.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q4",
+        "section": "social",
+        "question": "How did farming let some people do other jobs besides growing food?",
+        "choices": {
+          "A": "Hunting paid people money",
+          "B": "Farming made everyone a farmer forever",
+          "C": "Crops did all the work by themselves",
+          "D": "A food surplus meant not everyone had to farm"
+        },
+        "correctAnswer": "D",
+        "explanation": "With surplus food, some people could specialize in other jobs.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q5",
+        "section": "social",
+        "question": "Because of farming, people could finally do what instead of always moving?",
+        "choices": {
+          "A": "Stay in one place and build permanent homes",
+          "B": "Travel even more constantly",
+          "C": "Stop eating plants",
+          "D": "Forget how to hunt at all once"
+        },
+        "correctAnswer": "A",
+        "explanation": "Farming let people settle and build permanent homes.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q6",
+        "section": "social",
+        "question": "When different people do different jobs (builder, priest, trader), it is called what?",
+        "choices": {
+          "A": "Hunting",
+          "B": "Migration",
+          "C": "Specialization, or division of labor",
+          "D": "Sequencing"
+        },
+        "correctAnswer": "C",
+        "explanation": "Different people doing different jobs is specialization or division of labor.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q7",
+        "section": "social",
+        "question": "Living settled in one place is described as a what kind of life?",
+        "choices": {
+          "A": "Sedentary",
+          "B": "Nomadic",
+          "C": "Migratory",
+          "D": "Wandering"
+        },
+        "correctAnswer": "A",
+        "explanation": "A settled, stay-in-one-place life is called sedentary.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-2-q8",
+        "section": "social",
+        "question": "Why is the Agricultural Revolution called a 'turning point' in history?",
+        "choices": {
+          "A": "It changed people from wandering hunters into settled farmers",
+          "B": "It ended all human life",
+          "C": "It made people stop building homes",
+          "D": "It had no lasting effects"
+        },
+        "correctAnswer": "A",
+        "explanation": "Farming transformed nomadic hunter-gatherers into settled farmers, leading to civilizations.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-2-q9",
+        "section": "social",
+        "question": "Settled farming communities slowly grew into what?",
+        "choices": {
+          "A": "Empty deserts",
+          "B": "Villages, towns, and eventually cities",
+          "C": "Hunting parties",
+          "D": "Single tents only"
+        },
+        "correctAnswer": "B",
+        "explanation": "Permanent farming settlements grew into villages, towns, and cities.",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-2-q10",
+        "section": "social",
+        "question": "Which is the BEST cause-and-effect statement about farming?",
+        "choices": {
+          "A": "Because people moved more, they invented farming",
+          "B": "Because farming made extra food, people could take on new specialized jobs",
+          "C": "Because cities came first, people then learned to farm",
+          "D": "Because hunting failed, animals disappeared"
+        },
+        "correctAnswer": "B",
+        "explanation": "Surplus food (cause) allowed job specialization (effect).",
+        "standard": "SS.6.W.2.2",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "2-3": {
+    "title": "The Characteristics of a Civilization",
+    "standard": "SS.6.W.2.3",
+    "learn": "KEY IDEAS — WHAT MAKES A CIVILIZATION\n\nA civilization is more than just a big group of people. Historians look for several key features, or characteristics, to call a society a civilization. These usually include: (1) cities, (2) an organized government, (3) a writing system, (4) specialized jobs, (5) social classes (groups ranked high to low), and (6) a shared religion or culture. Often advanced technology, art, and public buildings are added too.\n\nLearning to work metals helped these societies grow. During the Bronze Age, people mixed copper and tin to make bronze, a strong metal used for better tools and weapons. Stronger tools improved farming and building, and stronger weapons helped armies.\n\nSpotting these characteristics helps us tell a true civilization apart from a small village. A small farming village might have homes and fields, but if it lacks cities, writing, government, and specialized jobs, it has not yet become a full civilization. These shared features appear again and again in the great early civilizations you will study.",
+    "questions": [
+      {
+        "id": "2-3-q1",
+        "section": "social",
+        "question": "Which is a key characteristic of a civilization?",
+        "choices": {
+          "A": "Cities and an organized government",
+          "B": "Having no rules at all",
+          "C": "Only one family living alone",
+          "D": "Constant moving with no homes"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cities and organized government are core features of a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q2",
+        "section": "social",
+        "question": "Which of these is one of the features that defines a civilization?",
+        "choices": {
+          "A": "A writing system",
+          "B": "No language",
+          "C": "No leaders",
+          "D": "No buildings"
+        },
+        "correctAnswer": "A",
+        "explanation": "A writing system is one of the main characteristics of civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "2-3-q3",
+        "section": "social",
+        "question": "Groups of people ranked from higher to lower in a society are called what?",
+        "choices": {
+          "A": "Surpluses",
+          "B": "Time eras",
+          "C": "Continents",
+          "D": "Social classes"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ranked groups in a society are called social classes.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q4",
+        "section": "social",
+        "question": "What strong metal did early people make by mixing copper and tin?",
+        "choices": {
+          "A": "Plastic",
+          "B": "Gold",
+          "C": "Bronze",
+          "D": "Glass"
+        },
+        "correctAnswer": "C",
+        "explanation": "Bronze is made by mixing copper and tin.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q5",
+        "section": "social",
+        "question": "How did learning to make bronze tools and weapons help early societies?",
+        "choices": {
+          "A": "It ended writing",
+          "B": "It made people stop working",
+          "C": "It destroyed all cities",
+          "D": "Stronger tools and weapons improved farming, building, and armies"
+        },
+        "correctAnswer": "D",
+        "explanation": "Bronze gave stronger tools and weapons, helping societies grow.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q6",
+        "section": "social",
+        "question": "Having builders, priests, and traders instead of everyone farming shows which feature?",
+        "choices": {
+          "A": "Nomadic life",
+          "B": "Specialized jobs",
+          "C": "No government",
+          "D": "One single class"
+        },
+        "correctAnswer": "B",
+        "explanation": "Different specialized jobs are a characteristic of civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q7",
+        "section": "social",
+        "question": "What helps historians tell a true civilization apart from a small village?",
+        "choices": {
+          "A": "The color of the houses",
+          "B": "The presence of features like cities, writing, and government",
+          "C": "The number of trees nearby",
+          "D": "Whether it is hot or cold there"
+        },
+        "correctAnswer": "B",
+        "explanation": "Key features such as cities, writing, and government mark a civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q8",
+        "section": "social",
+        "question": "A small farming village has homes and fields but no cities, writing, or government. It is BEST described as what?",
+        "choices": {
+          "A": "Not yet a full civilization",
+          "B": "A complete civilization",
+          "C": "An empire",
+          "D": "A modern country"
+        },
+        "correctAnswer": "A",
+        "explanation": "Without the key characteristics, a village is not yet a full civilization.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "2-3-q9",
+        "section": "social",
+        "question": "A shared religion or culture is one characteristic of a civilization. What does 'shared' mean here?",
+        "choices": {
+          "A": "Each person believes something totally different",
+          "B": "Many people in the society hold common beliefs or customs",
+          "C": "Nobody has any beliefs",
+          "D": "Only one person decides everything"
+        },
+        "correctAnswer": "B",
+        "explanation": "A shared culture or religion means common beliefs and customs across the people.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "2-3-q10",
+        "section": "social",
+        "question": "Which list correctly names THREE characteristics of a civilization?",
+        "choices": {
+          "A": "Decade, century, millennium",
+          "B": "Deserts, rivers, mountains",
+          "C": "Cities, writing, organized government",
+          "D": "Bones, tools, cave art"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cities, writing, and organized government are all civilization characteristics.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}

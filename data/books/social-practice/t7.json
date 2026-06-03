@@ -1,0 +1,316 @@
+{
+  "7-1": {
+    "title": "Building the Pyramids",
+    "standard": "SS.6.W.2.5",
+    "learn": "KEY IDEAS — BUILDING THE PYRAMIDS\n\nThe Egyptians built enormous stone PYRAMIDS as TOMBS for their pharaohs. The pyramids were giant burial places meant to protect the pharaoh's body and treasures and to help the pharaoh reach the afterlife. The most famous is the Great Pyramid at Giza, the largest pyramid of all, built for the pharaoh Khufu. It is one of the Seven Wonders of the Ancient World and still stands today.\n\nBuilding a pyramid was an incredible task. Thousands of skilled workers cut, moved, and stacked huge blocks of stone, some weighing many tons, with amazing precision. They used ramps, levers, and careful planning, lining the pyramid up almost perfectly with the directions of the compass.\n\nThe pyramids show off Egypt's incredible ENGINEERING, MATH, and ORGANIZATION. To build something so huge and exact, Egyptians needed advanced geometry, skilled architects, and a government strong enough to organize thousands of workers and supplies. The pyramids prove how advanced and well-organized ancient Egyptian civilization really was. Remember: pyramids = Egyptian tombs.",
+    "questions": [
+      {
+        "id": "7-1-q1",
+        "section": "social",
+        "question": "What were the Egyptian pyramids built to be?",
+        "choices": {
+          "A": "Tombs for pharaohs",
+          "B": "Schools for children",
+          "C": "Farms for crops",
+          "D": "Markets for trade"
+        },
+        "correctAnswer": "A",
+        "explanation": "Pyramids were giant tombs built for pharaohs.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q2",
+        "section": "social",
+        "question": "Which is the largest and most famous Egyptian pyramid?",
+        "choices": {
+          "A": "A ziggurat in Sumer",
+          "B": "The Great Pyramid at Giza",
+          "C": "The Colosseum",
+          "D": "The Parthenon"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Great Pyramid at Giza is the largest pyramid.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q3",
+        "section": "social",
+        "question": "Who built the pyramids?",
+        "choices": {
+          "A": "Only priests",
+          "B": "A single pharaoh alone",
+          "C": "Foreign sailors",
+          "D": "Thousands of skilled workers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Thousands of skilled workers cut and stacked the stone blocks.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q4",
+        "section": "social",
+        "question": "What do the pyramids show about Egyptian civilization?",
+        "choices": {
+          "A": "Strong engineering, math, and organization",
+          "B": "A weak, disorganized society",
+          "C": "That Egyptians could not build",
+          "D": "That they had no leaders"
+        },
+        "correctAnswer": "A",
+        "explanation": "The pyramids reveal advanced engineering, math, and organization.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q5",
+        "section": "social",
+        "question": "Why did building a pyramid require a strong government?",
+        "choices": {
+          "A": "Because no one wanted to help",
+          "B": "It took organizing thousands of workers and supplies",
+          "C": "Because pyramids were tiny and easy",
+          "D": "Because there were no workers"
+        },
+        "correctAnswer": "B",
+        "explanation": "Organizing thousands of workers and resources needed a powerful, organized government.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-1-q6",
+        "section": "social",
+        "question": "What were the pyramids built out of?",
+        "choices": {
+          "A": "Dried mud bricks only",
+          "B": "Wooden planks",
+          "C": "Huge blocks of stone",
+          "D": "Sheets of metal"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pyramids were built from huge stone blocks.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-1-q7",
+        "section": "social",
+        "question": "Why were pyramids built for pharaohs specifically?",
+        "choices": {
+          "A": "To store grain for everyone",
+          "B": "To use as a market",
+          "C": "To protect their bodies and treasures for the afterlife",
+          "D": "To house the army"
+        },
+        "correctAnswer": "C",
+        "explanation": "Pyramids protected the pharaoh's body and goods for the afterlife.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q8",
+        "section": "social",
+        "question": "What kind of advanced knowledge did Egyptians need to build pyramids so exactly?",
+        "choices": {
+          "A": "Only luck",
+          "B": "Geometry and careful planning",
+          "C": "Modern machines",
+          "D": "Electric tools"
+        },
+        "correctAnswer": "B",
+        "explanation": "Precise pyramids required advanced geometry and planning.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-1-q9",
+        "section": "social",
+        "question": "The Great Pyramid is considered one of what famous list?",
+        "choices": {
+          "A": "The Seven Wonders of the Ancient World",
+          "B": "The Ten Commandments",
+          "C": "The Five Themes of Geography",
+          "D": "The Twelve Tables"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Great Pyramid is a Wonder of the Ancient World.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-1-q10",
+        "section": "social",
+        "question": "Which statement BEST connects the pyramids to Egyptian beliefs?",
+        "choices": {
+          "A": "Pyramids were used as ships",
+          "B": "Pyramids were built to grow crops",
+          "C": "Pyramids had nothing to do with religion",
+          "D": "Belief in the afterlife led Egyptians to build huge tombs for pharaohs"
+        },
+        "correctAnswer": "D",
+        "explanation": "Belief in the afterlife caused Egyptians to build pyramid tombs.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "7-2": {
+    "title": "Hieroglyphics and Egyptian Achievements",
+    "standard": "SS.6.W.2.5",
+    "learn": "KEY IDEAS — HIEROGLYPHICS AND EGYPTIAN ACHIEVEMENTS\n\nThe Egyptians created their own picture-writing system called HIEROGLYPHICS. In this system, small pictures and symbols stood for sounds, words, and ideas. Special trained writers called scribes learned the thousands of symbols. Egyptians wrote hieroglyphics on temple walls and on PAPYRUS, an early kind of paper made from a reed plant that grew along the Nile.\n\nFor a long time, no one could read hieroglyphics. The key to unlocking them was the Rosetta Stone, a stone with the same message written in hieroglyphics and Greek, which let scholars finally translate the symbols.\n\nThe Egyptians made many other ACHIEVEMENTS. They were skilled in medicine (treating wounds and setting bones), mathematics (especially geometry), astronomy (studying the stars), and engineering. They created an accurate 365-DAY CALENDAR based on the Nile's flooding and the stars. Many of their achievements still amaze scientists today. Remember: hieroglyphics = Egypt's picture writing (NOT cuneiform, which was Sumer's).",
+    "questions": [
+      {
+        "id": "7-2-q1",
+        "section": "social",
+        "question": "What was the Egyptian picture-writing system called?",
+        "choices": {
+          "A": "Hieroglyphics",
+          "B": "Cuneiform",
+          "C": "The alphabet",
+          "D": "Braille"
+        },
+        "correctAnswer": "A",
+        "explanation": "Egyptians wrote using hieroglyphics.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q2",
+        "section": "social",
+        "question": "What early kind of paper did Egyptians write on?",
+        "choices": {
+          "A": "Bamboo strips",
+          "B": "Clay tablets",
+          "C": "Animal skins only",
+          "D": "Papyrus"
+        },
+        "correctAnswer": "D",
+        "explanation": "Egyptians wrote on papyrus made from a reed plant.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q3",
+        "section": "social",
+        "question": "In hieroglyphics, what did the small pictures and symbols stand for?",
+        "choices": {
+          "A": "Only the king's name",
+          "B": "Only numbers",
+          "C": "Sounds, words, and ideas",
+          "D": "Nothing at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "Hieroglyphic symbols represented sounds, words, and ideas.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q4",
+        "section": "social",
+        "question": "Which civilization invented hieroglyphics?",
+        "choices": {
+          "A": "Sumer",
+          "B": "Egypt",
+          "C": "Rome",
+          "D": "China"
+        },
+        "correctAnswer": "B",
+        "explanation": "Hieroglyphics were the writing of ancient Egypt, not Sumer's cuneiform.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q5",
+        "section": "social",
+        "question": "What helped scholars finally read hieroglyphics?",
+        "choices": {
+          "A": "The Rosetta Stone",
+          "B": "The Code of Hammurabi",
+          "C": "The Ten Commandments",
+          "D": "A papyrus map"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Rosetta Stone allowed scholars to translate hieroglyphics.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q6",
+        "section": "social",
+        "question": "The trained writers who learned hieroglyphics were called what?",
+        "choices": {
+          "A": "Scribes",
+          "B": "Pharaohs",
+          "C": "Satraps",
+          "D": "Consuls"
+        },
+        "correctAnswer": "A",
+        "explanation": "Scribes were the trained writers of Egypt.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q7",
+        "section": "social",
+        "question": "The Egyptians created an accurate calendar with how many days?",
+        "choices": {
+          "A": "60 days",
+          "B": "100 days",
+          "C": "365 days",
+          "D": "500 days"
+        },
+        "correctAnswer": "C",
+        "explanation": "Egyptians developed an accurate 365-day calendar.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "medium"
+      },
+      {
+        "id": "7-2-q8",
+        "section": "social",
+        "question": "In which fields were the Egyptians skilled?",
+        "choices": {
+          "A": "Only swimming",
+          "B": "Medicine, math, astronomy, and engineering",
+          "C": "Only pottery",
+          "D": "None of these"
+        },
+        "correctAnswer": "B",
+        "explanation": "Egyptians excelled in medicine, math, astronomy, and engineering.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "easy"
+      },
+      {
+        "id": "7-2-q9",
+        "section": "social",
+        "question": "Why was inventing papyrus so useful for Egypt?",
+        "choices": {
+          "A": "It replaced the Nile",
+          "B": "It could be eaten as food",
+          "C": "It was used to build pyramids",
+          "D": "It gave a lighter surface to write and store records on"
+        },
+        "correctAnswer": "D",
+        "explanation": "Papyrus provided a practical surface for writing and keeping records.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      },
+      {
+        "id": "7-2-q10",
+        "section": "social",
+        "question": "Which statement is TRUE about Egyptian achievements?",
+        "choices": {
+          "A": "They made no scientific progress",
+          "B": "Their 365-day calendar and medicine still impress scientists today",
+          "C": "They invented the wheel before Sumer",
+          "D": "They had no writing system"
+        },
+        "correctAnswer": "B",
+        "explanation": "Egyptian achievements like the calendar and medicine still amaze us today.",
+        "standard": "SS.6.W.2.5",
+        "difficulty": "hard"
+      }
+    ]
+  }
+}

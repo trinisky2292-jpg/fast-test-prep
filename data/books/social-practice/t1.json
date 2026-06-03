@@ -1,0 +1,473 @@
+{
+  "1-1": {
+    "title": "Time, Timelines, and Eras",
+    "standard": "SS.6.W.1.2",
+    "learn": "KEY IDEAS — MEASURING TIME IN HISTORY\n\nHistorians put events in order from oldest to newest. A timeline is a line that shows events in the order they happened, with the earliest events on the left and the latest on the right. Putting events in order is called chronological order, or sequencing.\n\nTime words help us talk about big amounts of time. A decade is 10 years, a century is 100 years, and a millennium is 1,000 years. So the years 2000 to 2100 make up one century, and 1,000 years make up a millennium.\n\nHistorians also split time into two big eras. 'BC' (before Christ) or 'BCE' (before the common era) counts the years BACKWARD before the year zero — so a bigger BC number is actually further in the PAST. 'AD' or 'CE' counts the years FORWARD after the year zero. Because of this, the year 500 BC happened LONG BEFORE the year 500 AD. When you read BC dates, remember the numbers count down toward zero as time moves forward.",
+    "questions": [
+      {
+        "id": "1-1-q1",
+        "section": "social",
+        "question": "What is a timeline used for?",
+        "choices": {
+          "A": "To list the rulers of one country only",
+          "B": "To measure the temperature of the past",
+          "C": "To draw a map of an ancient city",
+          "D": "To show events in the order they happened"
+        },
+        "correctAnswer": "D",
+        "explanation": "A timeline places events in chronological order, from oldest to newest.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q2",
+        "section": "social",
+        "question": "How many years are in a century?",
+        "choices": {
+          "A": "10 years",
+          "B": "50 years",
+          "C": "1,000 years",
+          "D": "100 years"
+        },
+        "correctAnswer": "D",
+        "explanation": "A century is 100 years; a decade is 10 and a millennium is 1,000.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q3",
+        "section": "social",
+        "question": "How many years are in a millennium?",
+        "choices": {
+          "A": "100 years",
+          "B": "500 years",
+          "C": "1,000 years",
+          "D": "10,000 years"
+        },
+        "correctAnswer": "C",
+        "explanation": "A millennium equals 1,000 years.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q4",
+        "section": "social",
+        "question": "Which event happened first, earlier in time?",
+        "choices": {
+          "A": "500 BC",
+          "B": "500 AD",
+          "C": "They happened at the same time",
+          "D": "100 AD"
+        },
+        "correctAnswer": "A",
+        "explanation": "BC dates count backward and come before AD dates, so 500 BC happened long before 500 AD.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q5",
+        "section": "social",
+        "question": "What does 'BC' (or 'BCE') tell you about a date?",
+        "choices": {
+          "A": "It comes after the year zero",
+          "B": "It comes before the year zero",
+          "C": "It means the date is unknown",
+          "D": "It means the date is in the future"
+        },
+        "correctAnswer": "B",
+        "explanation": "BC/BCE marks years before the year zero, counted backward.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q6",
+        "section": "social",
+        "question": "On a standard timeline, where are the EARLIEST events placed?",
+        "choices": {
+          "A": "On the right side",
+          "B": "In the middle",
+          "C": "On the left side",
+          "D": "At the bottom"
+        },
+        "correctAnswer": "C",
+        "explanation": "Timelines run oldest-to-newest left to right, so earliest events sit on the left.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q7",
+        "section": "social",
+        "question": "Putting events in the order they happened is called what?",
+        "choices": {
+          "A": "Alphabetical order",
+          "B": "Chronological order",
+          "C": "Random order",
+          "D": "Reverse order"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ordering events by time is called chronological order, or sequencing.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-1-q8",
+        "section": "social",
+        "question": "Which of these is the LONGEST amount of time?",
+        "choices": {
+          "A": "A millennium",
+          "B": "A century",
+          "C": "A decade",
+          "D": "A year"
+        },
+        "correctAnswer": "A",
+        "explanation": "A millennium (1,000 years) is longer than a century (100) or decade (10).",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-1-q9",
+        "section": "social",
+        "question": "Among BC dates, which year is the EARLIEST (furthest in the past)?",
+        "choices": {
+          "A": "1000 BC",
+          "B": "500 BC",
+          "C": "100 BC",
+          "D": "50 BC"
+        },
+        "correctAnswer": "A",
+        "explanation": "BC numbers count backward, so the larger the BC number, the further in the past — 1000 BC is earliest.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-1-q10",
+        "section": "social",
+        "question": "A historian says an event happened 'two centuries ago.' About how many years is that?",
+        "choices": {
+          "A": "20 years",
+          "B": "200 years",
+          "C": "2,000 years",
+          "D": "2 years"
+        },
+        "correctAnswer": "B",
+        "explanation": "One century is 100 years, so two centuries is 200 years.",
+        "standard": "SS.6.W.1.2",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "1-2": {
+    "title": "Primary and Secondary Sources",
+    "standard": "SS.6.W.1.3",
+    "learn": "KEY IDEAS — PRIMARY VS. SECONDARY SOURCES\n\nHistorians study the past using clues called sources. There are two main kinds. A primary source comes straight from the time and place being studied. Examples include a diary written by someone who lived then, a clay tablet, an old letter, a photograph, a speech, or an ancient coin. Primary sources give the most direct evidence about the past because they were made by people who were actually there.\n\nA secondary source is created LATER by someone who studied the primary sources. Examples include a history textbook, a museum sign, an encyclopedia article, or a biography written today about an ancient king. Secondary sources are useful because they explain and organize information, but they are one step removed from the event.\n\nHistorians use both. They often start with primary sources for direct evidence, then read secondary sources to understand what experts think it all means. Knowing the difference helps you judge how trustworthy a source is and how close it is to the actual events.",
+    "questions": [
+      {
+        "id": "1-2-q1",
+        "section": "social",
+        "question": "Which of these is a PRIMARY source?",
+        "choices": {
+          "A": "An encyclopedia article about the war",
+          "B": "A textbook written 100 years after the war",
+          "C": "A museum sign describing the war",
+          "D": "A diary written by a soldier during the war"
+        },
+        "correctAnswer": "D",
+        "explanation": "A diary from the time of the event is a firsthand, primary source.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q2",
+        "section": "social",
+        "question": "Which of these is a SECONDARY source?",
+        "choices": {
+          "A": "An ancient coin",
+          "B": "A modern textbook about ancient Sumer",
+          "C": "A clay tablet from Sumer",
+          "D": "A letter written by a Sumerian trader"
+        },
+        "correctAnswer": "B",
+        "explanation": "A modern textbook was made later by people studying the past, so it is secondary.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q3",
+        "section": "social",
+        "question": "Why do historians value primary sources?",
+        "choices": {
+          "A": "They are always easier to read",
+          "B": "They are written by modern experts",
+          "C": "They give the most direct evidence from the time studied",
+          "D": "They never contain mistakes"
+        },
+        "correctAnswer": "C",
+        "explanation": "Primary sources come straight from the time, giving the most direct evidence.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q4",
+        "section": "social",
+        "question": "An old coin from ancient Rome is an example of what?",
+        "choices": {
+          "A": "A primary source",
+          "B": "A secondary source",
+          "C": "A modern source",
+          "D": "Not a source at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "An object made during the time being studied, like a coin, is a primary source.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q5",
+        "section": "social",
+        "question": "What makes a secondary source different from a primary source?",
+        "choices": {
+          "A": "It is always wrong",
+          "B": "It is created later by someone studying the past",
+          "C": "It is made of stone",
+          "D": "It comes directly from the event"
+        },
+        "correctAnswer": "B",
+        "explanation": "Secondary sources are made later by people who studied primary evidence.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q6",
+        "section": "social",
+        "question": "A student writes a biography today about an ancient pharaoh. The biography is what kind of source?",
+        "choices": {
+          "A": "Secondary",
+          "B": "Primary",
+          "C": "An artifact",
+          "D": "A tablet"
+        },
+        "correctAnswer": "A",
+        "explanation": "Written long after the events by someone studying them, it is a secondary source.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q7",
+        "section": "social",
+        "question": "Which list contains ONLY primary sources?",
+        "choices": {
+          "A": "A biography, a letter, a website",
+          "B": "A textbook, a diary, a coin",
+          "C": "A museum sign, an encyclopedia, a tablet",
+          "D": "A diary, a clay tablet, an old letter"
+        },
+        "correctAnswer": "D",
+        "explanation": "A diary, a clay tablet, and an old letter are all firsthand items from the past.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-2-q8",
+        "section": "social",
+        "question": "Why might a historian use BOTH primary and secondary sources?",
+        "choices": {
+          "A": "Primary gives direct evidence; secondary helps explain its meaning",
+          "B": "Secondary sources are always more accurate",
+          "C": "Primary sources are never trustworthy",
+          "D": "Both kinds are exactly the same"
+        },
+        "correctAnswer": "A",
+        "explanation": "Primary sources give direct evidence, while secondary sources help interpret and organize it.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-2-q9",
+        "section": "social",
+        "question": "A museum display sign explaining an exhibit is BEST described as what?",
+        "choices": {
+          "A": "A primary source",
+          "B": "An ancient artifact",
+          "C": "A secondary source",
+          "D": "A first-person account"
+        },
+        "correctAnswer": "C",
+        "explanation": "The sign was written later by museum staff who studied the objects, so it is secondary.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-2-q10",
+        "section": "social",
+        "question": "Which question would BEST help a student decide if a source is primary?",
+        "choices": {
+          "A": "Is the source written in English?",
+          "B": "Was it made by someone present at the time of the event?",
+          "C": "Is the source long or short?",
+          "D": "Does the source have pictures?"
+        },
+        "correctAnswer": "B",
+        "explanation": "Primary sources are made by people present during the time being studied.",
+        "standard": "SS.6.W.1.3",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "1-3": {
+    "title": "How Historians and Geographers Investigate",
+    "standard": "SS.6.W.1.4",
+    "learn": "KEY IDEAS — INVESTIGATING THE PAST AND PLACE\n\nHistorical inquiry means asking questions about the past and hunting for evidence to answer them, almost like a detective. Historians gather sources, compare them, and look for agreement or differences. They quickly notice that two people can describe the SAME event in different ways, so they check multiple sources before deciding what likely happened. This careful checking is called corroboration.\n\nGeographers study WHERE events happened and why place matters. They use the five themes of geography: location (where something is), place (what it is like), human-environment interaction (how people and nature affect each other), movement (of people, goods, and ideas), and region (areas with shared features). Tools like maps and globes help them. Lines called latitude (run east-west) and longitude (run north-south) help pinpoint any spot on Earth.\n\nTogether, historians and geographers show that both TIME and PLACE shape history. Where a civilization grew — near a river, on an island, in a desert — often explains how it lived and grew.",
+    "questions": [
+      {
+        "id": "1-3-q1",
+        "section": "social",
+        "question": "What does 'historical inquiry' mean?",
+        "choices": {
+          "A": "Ignoring old sources",
+          "B": "Memorizing every date in a book",
+          "C": "Drawing maps of the future",
+          "D": "Asking questions about the past and looking for evidence"
+        },
+        "correctAnswer": "D",
+        "explanation": "Historical inquiry is investigating the past by asking questions and gathering evidence.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q2",
+        "section": "social",
+        "question": "Why do historians compare more than one source about an event?",
+        "choices": {
+          "A": "Because all sources always agree",
+          "B": "Because two people may describe the same event differently",
+          "C": "Because they want more pages to read",
+          "D": "Because sources are decorations"
+        },
+        "correctAnswer": "B",
+        "explanation": "Different witnesses can describe the same event differently, so historians compare sources.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q3",
+        "section": "social",
+        "question": "What do geographers mainly study?",
+        "choices": {
+          "A": "Where things are and why place matters",
+          "B": "Only the dates of wars",
+          "C": "How to write poetry",
+          "D": "The chemistry of rocks"
+        },
+        "correctAnswer": "A",
+        "explanation": "Geographers study location and how place shapes events and people.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q4",
+        "section": "social",
+        "question": "Which is one of the five themes of geography?",
+        "choices": {
+          "A": "Spelling",
+          "B": "Multiplication",
+          "C": "Movement",
+          "D": "Punctuation"
+        },
+        "correctAnswer": "C",
+        "explanation": "Movement is one of the five themes, along with location, place, region, and human-environment interaction.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q5",
+        "section": "social",
+        "question": "Lines of latitude and longitude are used to do what?",
+        "choices": {
+          "A": "Pinpoint an exact location on Earth",
+          "B": "Tell the year of an event",
+          "C": "Measure a person's height",
+          "D": "Name a country's leader"
+        },
+        "correctAnswer": "A",
+        "explanation": "Latitude and longitude lines let you locate any exact spot on the globe.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q6",
+        "section": "social",
+        "question": "Comparing sources to see if they back each other up is a way historians do what?",
+        "choices": {
+          "A": "Avoid all reading",
+          "B": "Check how trustworthy the evidence is",
+          "C": "Decide which source is the prettiest",
+          "D": "Guess randomly"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cross-checking sources helps historians judge whether evidence is reliable.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "1-3-q7",
+        "section": "social",
+        "question": "Why might WHERE a civilization grew (such as near a river) matter to historians?",
+        "choices": {
+          "A": "Place never affects history",
+          "B": "Place often explains how a civilization lived and grew",
+          "C": "Rivers have nothing to do with farming",
+          "D": "Location only matters today"
+        },
+        "correctAnswer": "B",
+        "explanation": "Geography, like nearby rivers, often shapes how a civilization survives and grows.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "1-3-q8",
+        "section": "social",
+        "question": "A historian acting 'like a detective' is mostly doing what?",
+        "choices": {
+          "A": "Memorizing one source only",
+          "B": "Inventing stories with no proof",
+          "C": "Gathering clues and weighing evidence",
+          "D": "Refusing to ask questions"
+        },
+        "correctAnswer": "C",
+        "explanation": "Like a detective, a historian collects clues (sources) and weighs the evidence.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q9",
+        "section": "social",
+        "question": "Which tool would a geographer MOST likely use?",
+        "choices": {
+          "A": "A telescope for stars only",
+          "B": "A microscope for germs",
+          "C": "A calculator for taxes",
+          "D": "A map or globe"
+        },
+        "correctAnswer": "D",
+        "explanation": "Geographers use maps and globes to study location and place.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "1-3-q10",
+        "section": "social",
+        "question": "Two ancient writers describe a battle differently. What should a careful historian do?",
+        "choices": {
+          "A": "Compare both accounts and look for more evidence before deciding",
+          "B": "Pick the longer account automatically",
+          "C": "Throw both away",
+          "D": "Believe whichever one is newer"
+        },
+        "correctAnswer": "A",
+        "explanation": "A historian corroborates by comparing accounts and seeking more evidence.",
+        "standard": "SS.6.W.1.4",
+        "difficulty": "hard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "3-1": {
+    "title": "The Land Between Two Rivers",
+    "standard": "SS.6.W.2.3",
+    "learn": "KEY IDEAS — MESOPOTAMIA, LAND BETWEEN TWO RIVERS\n\nThe word Mesopotamia means 'land between the rivers.' It sat between two great rivers, the Tigris and the Euphrates, in the part of the world we now call the Middle East. Because civilization began here, this region is often called the 'cradle of civilization.'\n\nThe two rivers were the secret to its success. Each year they flooded and left behind a layer of rich, dark soil called silt, which made the land excellent for farming. This curved strip of good farmland is nicknamed the Fertile Crescent because of its rich soil and crescent (moon) shape.\n\nGood farmland produced extra food, and that surplus allowed one of the world's FIRST civilizations to grow here. To control the river water, people dug channels called irrigation to carry water to their fields, even when the rivers were low. The rivers gave life, but their floods could be unpredictable and dangerous, so people had to work together to manage them — another reason organized communities formed.",
+    "questions": [
+      {
+        "id": "3-1-q1",
+        "section": "social",
+        "question": "What does the word 'Mesopotamia' mean?",
+        "choices": {
+          "A": "City of gold",
+          "B": "Land between the rivers",
+          "C": "Land of the pharaohs",
+          "D": "Mountain of the gods"
+        },
+        "correctAnswer": "B",
+        "explanation": "Mesopotamia means 'land between the rivers.'",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q2",
+        "section": "social",
+        "question": "Which TWO rivers gave Mesopotamia its name?",
+        "choices": {
+          "A": "The Indus and the Ganges",
+          "B": "The Nile and the Amazon",
+          "C": "The Yellow and the Yangtze",
+          "D": "The Tigris and the Euphrates"
+        },
+        "correctAnswer": "D",
+        "explanation": "Mesopotamia lay between the Tigris and Euphrates rivers.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q3",
+        "section": "social",
+        "question": "Why was the soil in Mesopotamia so good for farming?",
+        "choices": {
+          "A": "Yearly floods left behind rich soil",
+          "B": "It never rained there",
+          "C": "The soil was made of sand only",
+          "D": "Snow covered the fields all year"
+        },
+        "correctAnswer": "A",
+        "explanation": "River floods left rich silt that made farming successful.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q4",
+        "section": "social",
+        "question": "What is the nickname for the curved area of rich farmland in this region?",
+        "choices": {
+          "A": "The Sahara Desert",
+          "B": "The Fertile Crescent",
+          "C": "The Roman Forum",
+          "D": "The Great Wall"
+        },
+        "correctAnswer": "B",
+        "explanation": "The rich, crescent-shaped farmland is called the Fertile Crescent.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q5",
+        "section": "social",
+        "question": "In which part of the world is Mesopotamia located?",
+        "choices": {
+          "A": "The Middle East",
+          "B": "South America",
+          "C": "Northern Europe",
+          "D": "Eastern Australia"
+        },
+        "correctAnswer": "A",
+        "explanation": "Mesopotamia was in the Middle East.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-1-q6",
+        "section": "social",
+        "question": "Digging channels to bring river water to crops is called what?",
+        "choices": {
+          "A": "Specialization",
+          "B": "Migration",
+          "C": "Irrigation",
+          "D": "Corroboration"
+        },
+        "correctAnswer": "C",
+        "explanation": "Bringing water to fields through channels is irrigation.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q7",
+        "section": "social",
+        "question": "Why is Mesopotamia called the 'cradle of civilization'?",
+        "choices": {
+          "A": "No people ever lived there",
+          "B": "It was the coldest place on Earth",
+          "C": "One of the world's first civilizations grew there",
+          "D": "It was the last place humans reached"
+        },
+        "correctAnswer": "C",
+        "explanation": "Civilization is said to have begun there, earning it the nickname 'cradle of civilization.'",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q8",
+        "section": "social",
+        "question": "How did good farmland help a civilization grow in Mesopotamia?",
+        "choices": {
+          "A": "It had no effect on people",
+          "B": "It forced everyone to keep moving",
+          "C": "It stopped people from farming",
+          "D": "Extra food let people settle and build a society"
+        },
+        "correctAnswer": "D",
+        "explanation": "Rich farmland produced surplus food, allowing a civilization to grow.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-1-q9",
+        "section": "social",
+        "question": "Why did people sometimes need to work together in Mesopotamia?",
+        "choices": {
+          "A": "To manage river floods and irrigation",
+          "B": "To avoid all farming",
+          "C": "To stop the sun from shining",
+          "D": "To prevent any cities from forming"
+        },
+        "correctAnswer": "A",
+        "explanation": "Managing unpredictable floods and irrigation required cooperation.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-1-q10",
+        "section": "social",
+        "question": "Which BEST explains how geography helped civilization begin in Mesopotamia?",
+        "choices": {
+          "A": "Tall mountains kept all people out",
+          "B": "Two rivers flooded and left rich soil, making farming and surplus food possible",
+          "C": "A frozen sea provided food",
+          "D": "Deserts grew crops without water"
+        },
+        "correctAnswer": "B",
+        "explanation": "The two rivers' floods created fertile soil that enabled farming and surplus.",
+        "standard": "SS.6.W.2.3",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "3-2": {
+    "title": "Sumer: Writing, the Wheel, and Cities",
+    "standard": "SS.6.W.2.7",
+    "learn": "KEY IDEAS — SUMERIAN INVENTIONS\n\nThe Sumerians lived in southern Mesopotamia and gave the world some huge 'firsts.' Their most famous invention was cuneiform, one of the earliest writing systems. Cuneiform was made by pressing a wedge-shaped tool, called a stylus, into soft clay tablets. (The name cuneiform means 'wedge-shaped.') At first writing was used to keep records of trade and crops.\n\nThe Sumerians also built the first true CITIES, used the WHEEL for carts and pottery, and developed early math based on the number 60. That is why we still have 60 minutes in an hour and 360 degrees in a circle today. They also invented the plow, sailboats, and the arch.\n\nThese inventions were so useful that they shaped other civilizations for thousands of years. Writing, in particular, let people record laws, stories, and history, so knowledge could be saved and passed on. Remember: cuneiform belongs to Sumer in Mesopotamia — NOT to Egypt, which used hieroglyphics.",
+    "questions": [
+      {
+        "id": "3-2-q1",
+        "section": "social",
+        "question": "What was the Sumerian system of writing called?",
+        "choices": {
+          "A": "Cuneiform",
+          "B": "Hieroglyphics",
+          "C": "The alphabet",
+          "D": "Braille"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Sumerians of Mesopotamia wrote in cuneiform.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q2",
+        "section": "social",
+        "question": "How was cuneiform writing made?",
+        "choices": {
+          "A": "By typing on a keyboard",
+          "B": "By painting on cloth",
+          "C": "By carving into gold coins",
+          "D": "By pressing a wedge-shaped tool into wet clay"
+        },
+        "correctAnswer": "D",
+        "explanation": "Cuneiform was pressed into clay tablets with a wedge-shaped stylus.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q3",
+        "section": "social",
+        "question": "The Sumerians are credited with building the first what?",
+        "choices": {
+          "A": "Airplanes",
+          "B": "Cities",
+          "C": "Skyscrapers of steel",
+          "D": "Printing presses"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Sumerians built the world's first cities.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q4",
+        "section": "social",
+        "question": "The Sumerian number system was based on the number 60. What do we still use because of it?",
+        "choices": {
+          "A": "12 months in a year",
+          "B": "100 cents in a dollar",
+          "C": "60 minutes in an hour",
+          "D": "7 days in a week"
+        },
+        "correctAnswer": "C",
+        "explanation": "Our 60-minute hour comes from the Sumerian base-60 math.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q5",
+        "section": "social",
+        "question": "Which useful invention is credited to the Sumerians?",
+        "choices": {
+          "A": "The wheel",
+          "B": "The car engine",
+          "C": "Electricity",
+          "D": "The telephone"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Sumerians used the wheel for carts and pottery.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q6",
+        "section": "social",
+        "question": "Cuneiform was first used mainly to do what?",
+        "choices": {
+          "A": "Send emails",
+          "B": "Write comic books",
+          "C": "Keep records of trade and crops",
+          "D": "Print newspapers"
+        },
+        "correctAnswer": "C",
+        "explanation": "Early writing tracked trade goods and crops.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q7",
+        "section": "social",
+        "question": "Why was the invention of writing so important?",
+        "choices": {
+          "A": "It made farming impossible",
+          "B": "It let people record and pass on knowledge, laws, and stories",
+          "C": "It stopped trade",
+          "D": "It destroyed cities"
+        },
+        "correctAnswer": "B",
+        "explanation": "Writing allowed knowledge to be saved and shared across generations.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-2-q8",
+        "section": "social",
+        "question": "Which civilization invented cuneiform?",
+        "choices": {
+          "A": "Ancient Egypt",
+          "B": "Sumer, in Mesopotamia",
+          "C": "Ancient Rome",
+          "D": "The Maya"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cuneiform was invented by the Sumerians of Mesopotamia, not Egypt.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-2-q9",
+        "section": "social",
+        "question": "The clay surfaces the Sumerians wrote on were called what?",
+        "choices": {
+          "A": "Maps",
+          "B": "Scrolls",
+          "C": "Books",
+          "D": "Tablets"
+        },
+        "correctAnswer": "D",
+        "explanation": "Cuneiform was pressed into clay tablets.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-2-q10",
+        "section": "social",
+        "question": "Which statement BEST shows the lasting impact of Sumerian inventions?",
+        "choices": {
+          "A": "Their writing, wheel, and math shaped civilizations for thousands of years",
+          "B": "Their ideas were forgotten right away",
+          "C": "They had no effect on later peoples",
+          "D": "Only Sumer ever used the wheel"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sumerian firsts like writing, the wheel, and base-60 math influenced later civilizations for millennia.",
+        "standard": "SS.6.W.2.7",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "3-3": {
+    "title": "Religion and Daily Life in Sumer",
+    "standard": "SS.6.W.2.4",
+    "learn": "KEY IDEAS — RELIGION AND DAILY LIFE IN SUMER\n\nThe Sumerians believed in MANY gods, a belief called polytheism. They thought gods controlled nature, such as the sky, the rivers, and the harvest, so keeping the gods happy was very important. To honor their gods, the Sumerians built giant stepped temples called ziggurats. A ziggurat looked like a pyramid with flat levels, and a temple sat at the very top. The ziggurat was often the tallest and most important building in a Sumerian city.\n\nSumerian society had social classes. At the top were kings and priests, who held the most power because they were believed to speak for the gods and lead the city. Below them were merchants, crafters, and the largest group, farmers. Enslaved people were at the bottom. Most ordinary people farmed the land or worked as crafters making pottery, cloth, and tools.\n\nReligion shaped nearly everything. It explained the world around the Sumerians, gave the priests and kings their power, and decided how cities were organized and run.",
+    "questions": [
+      {
+        "id": "3-3-q1",
+        "section": "social",
+        "question": "The Sumerians believed in many gods. This belief is called what?",
+        "choices": {
+          "A": "Democracy",
+          "B": "Monotheism",
+          "C": "Polytheism",
+          "D": "Migration"
+        },
+        "correctAnswer": "C",
+        "explanation": "Belief in many gods is called polytheism.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q2",
+        "section": "social",
+        "question": "What were the giant stepped temples of Sumer called?",
+        "choices": {
+          "A": "Ziggurats",
+          "B": "Pyramids of Giza",
+          "C": "Coliseums",
+          "D": "Castles"
+        },
+        "correctAnswer": "A",
+        "explanation": "Sumerians built stepped temples called ziggurats.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q3",
+        "section": "social",
+        "question": "Who held the MOST power at the top of Sumerian society?",
+        "choices": {
+          "A": "Kings and priests",
+          "B": "Enslaved people",
+          "C": "Farmers only",
+          "D": "Foreign traders"
+        },
+        "correctAnswer": "A",
+        "explanation": "Kings and priests had the most power in Sumer.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q4",
+        "section": "social",
+        "question": "What did most ordinary Sumerians do for work?",
+        "choices": {
+          "A": "Farmed or worked as crafters",
+          "B": "Ruled the city",
+          "C": "Wrote all the laws",
+          "D": "Led the armies"
+        },
+        "correctAnswer": "A",
+        "explanation": "Most Sumerians farmed or worked as crafters.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "3-3-q5",
+        "section": "social",
+        "question": "Why did the Sumerians try hard to keep their gods happy?",
+        "choices": {
+          "A": "Gods gave out money",
+          "B": "They believed gods controlled nature, like rivers and harvests",
+          "C": "Gods built their houses",
+          "D": "Gods wrote their laws for them"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sumerians believed gods controlled nature, so pleasing them was vital.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q6",
+        "section": "social",
+        "question": "A ziggurat looked most like which shape?",
+        "choices": {
+          "A": "A long straight wall",
+          "B": "A flat square box",
+          "C": "A round dome",
+          "D": "A stepped pyramid with a temple on top"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ziggurats were stepped, pyramid-like towers with a temple at the top.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q7",
+        "section": "social",
+        "question": "How did religion affect the way Sumerian cities were run?",
+        "choices": {
+          "A": "It had no effect on cities",
+          "B": "It gave priests and kings power and shaped city life",
+          "C": "It banned all building",
+          "D": "It forced everyone to leave the city"
+        },
+        "correctAnswer": "B",
+        "explanation": "Religion gave leaders their authority and shaped how cities were organized.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "3-3-q8",
+        "section": "social",
+        "question": "In a Sumerian city, the ziggurat was usually what?",
+        "choices": {
+          "A": "A river crossing",
+          "B": "A small unimportant hut",
+          "C": "A farm field",
+          "D": "The tallest, most important building"
+        },
+        "correctAnswer": "D",
+        "explanation": "The ziggurat was often the tallest and most important building.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q9",
+        "section": "social",
+        "question": "Which group was at the BOTTOM of Sumerian society?",
+        "choices": {
+          "A": "Priests",
+          "B": "Kings",
+          "C": "Enslaved people",
+          "D": "High merchants"
+        },
+        "correctAnswer": "C",
+        "explanation": "Enslaved people were at the lowest level of society.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "3-3-q10",
+        "section": "social",
+        "question": "Sumerian religion mainly helped people do what?",
+        "choices": {
+          "A": "Forget the past",
+          "B": "Explain the world around them",
+          "C": "Avoid building cities",
+          "D": "Stop farming"
+        },
+        "correctAnswer": "B",
+        "explanation": "Their religion explained the natural world and gave order to life.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}

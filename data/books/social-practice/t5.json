@@ -1,0 +1,473 @@
+{
+  "5-1": {
+    "title": "The Assyrians, Chaldeans, and Persians",
+    "standard": "SS.6.W.2.4",
+    "learn": "KEY IDEAS — EMPIRES AFTER BABYLON\n\nAfter Babylon, several powerful empires rose in the Middle East, each larger than the last. The Assyrians built one of the first great empires by creating a strong, well-organized army that used iron weapons, war chariots, and siege machines to conquer their neighbors. They were known for being fierce in war.\n\nNext, the Chaldeans (also called the New Babylonians) defeated the Assyrians. Their king Nebuchadnezzar rebuilt the city of Babylon and is remembered for the famous Hanging Gardens.\n\nThen came the huge PERSIAN EMPIRE, the largest of all. The Persian king Cyrus the Great was famous for treating conquered peoples fairly, letting them keep their own religion and customs. Later kings like Darius connected the empire with long roads (like the Royal Road) and divided it into provinces, each run by a governor called a satrap. The Persians built a fair, organized system that let one ruler govern many different peoples across a vast distance. Each empire grew larger by uniting many peoples under one ruler.",
+    "questions": [
+      {
+        "id": "5-1-q1",
+        "section": "social",
+        "question": "The Assyrians were especially known for what?",
+        "choices": {
+          "A": "Inventing democracy",
+          "B": "A strong, fierce army",
+          "C": "Building the pyramids",
+          "D": "Writing the first alphabet"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Assyrians built their empire with a powerful, fierce army.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-1-q2",
+        "section": "social",
+        "question": "Which empire was the LARGEST of these three?",
+        "choices": {
+          "A": "The Persian Empire",
+          "B": "The Assyrian Empire",
+          "C": "The Chaldean Empire",
+          "D": "The city-state of Ur"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Persian Empire was the largest of the three.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q3",
+        "section": "social",
+        "question": "The Persian king Cyrus the Great was famous for doing what?",
+        "choices": {
+          "A": "Destroying every city he took",
+          "B": "Treating conquered peoples fairly",
+          "C": "Banning all religions",
+          "D": "Refusing to build roads"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cyrus let conquered peoples keep their religions and customs.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q4",
+        "section": "social",
+        "question": "How did the Persians help connect their huge empire?",
+        "choices": {
+          "A": "They removed all leaders",
+          "B": "They banned all travel",
+          "C": "They built long roads and used governors",
+          "D": "They had no organization"
+        },
+        "correctAnswer": "C",
+        "explanation": "Persia used roads and provincial governors to connect and run the empire.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q5",
+        "section": "social",
+        "question": "A Persian governor who ran a province was called a what?",
+        "choices": {
+          "A": "Satrap",
+          "B": "Pharaoh",
+          "C": "Senator",
+          "D": "Consul"
+        },
+        "correctAnswer": "A",
+        "explanation": "Persian provinces were run by governors called satraps.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q6",
+        "section": "social",
+        "question": "Which empire came RIGHT after the Assyrians by defeating them?",
+        "choices": {
+          "A": "The Maya",
+          "B": "The Romans",
+          "C": "The Greeks",
+          "D": "The Chaldeans (New Babylonians)"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Chaldeans defeated the Assyrians.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q7",
+        "section": "social",
+        "question": "The famous Hanging Gardens were part of which rebuilt city?",
+        "choices": {
+          "A": "Rome",
+          "B": "Babylon",
+          "C": "Athens",
+          "D": "Memphis"
+        },
+        "correctAnswer": "B",
+        "explanation": "Nebuchadnezzar rebuilt Babylon, home of the Hanging Gardens.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q8",
+        "section": "social",
+        "question": "How did each of these empires grow so large?",
+        "choices": {
+          "A": "By uniting many different peoples under one ruler",
+          "B": "By keeping everyone separate",
+          "C": "By avoiding all conquest",
+          "D": "By having no army"
+        },
+        "correctAnswer": "A",
+        "explanation": "Each empire grew by uniting many peoples under a single ruler.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-1-q9",
+        "section": "social",
+        "question": "Dividing the empire into provinces with governors helped the Persians do what?",
+        "choices": {
+          "A": "End all trade",
+          "B": "Lose control of their land",
+          "C": "Stop collecting taxes",
+          "D": "Govern many far-apart peoples in an organized way"
+        },
+        "correctAnswer": "D",
+        "explanation": "Provinces and governors let Persia manage its vast, diverse empire.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-1-q10",
+        "section": "social",
+        "question": "What is one reason the Persian system of government worked well?",
+        "choices": {
+          "A": "It punished all people the same harsh way",
+          "B": "It had no rules",
+          "C": "It was fair and organized, with roads and governors",
+          "D": "It banned roads"
+        },
+        "correctAnswer": "C",
+        "explanation": "Persia's fair, organized system with roads and governors held the empire together.",
+        "standard": "SS.6.W.2.4",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "5-2": {
+    "title": "The Phoenicians and Their Alphabet",
+    "standard": "SS.6.W.3.1",
+    "learn": "KEY IDEAS — THE PHOENICIANS: TRADERS AND THE ALPHABET\n\nThe Phoenicians lived on the eastern coast of the Mediterranean Sea (in present-day Lebanon). They were master SAILORS and TRADERS who sailed all across the Mediterranean. They set up trading colonies in faraway places, including the powerful city of Carthage in North Africa.\n\nThe Phoenicians are MOST famous for creating an easy ALPHABET. Instead of hundreds of picture symbols like cuneiform or hieroglyphics, their alphabet used a small set of letters, where each letter stood for a SOUND. This made reading and writing much simpler and faster to learn. The Greeks and Romans later borrowed and changed this alphabet, and it became the ancestor of the alphabet we use today.\n\nThrough their trade and travel, the Phoenicians spread goods such as cedar wood, glass, and a rare, expensive purple dye. But their most important 'export' was an IDEA — the alphabet — which spread the gift of easy writing across the ancient world. Remember: Phoenicians = the alphabet and Mediterranean sea trade.",
+    "questions": [
+      {
+        "id": "5-2-q1",
+        "section": "social",
+        "question": "The Phoenicians are MOST famous for creating what?",
+        "choices": {
+          "A": "Democracy",
+          "B": "The pyramids",
+          "C": "Cuneiform",
+          "D": "An easy alphabet"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Phoenicians created an alphabet where letters stood for sounds.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q2",
+        "section": "social",
+        "question": "The Phoenicians were master what?",
+        "choices": {
+          "A": "Sailors and traders",
+          "B": "Pyramid builders",
+          "C": "Desert farmers",
+          "D": "Mountain climbers"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Phoenicians were skilled sailors and traders.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-2-q3",
+        "section": "social",
+        "question": "On which sea did the Phoenicians mostly sail and trade?",
+        "choices": {
+          "A": "The Pacific Ocean",
+          "B": "The Mediterranean Sea",
+          "C": "The Arctic Ocean",
+          "D": "The Caspian Sea"
+        },
+        "correctAnswer": "B",
+        "explanation": "They sailed and traded across the Mediterranean Sea.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q4",
+        "section": "social",
+        "question": "In the Phoenician alphabet, each letter stood for what?",
+        "choices": {
+          "A": "A whole word",
+          "B": "A sound",
+          "C": "A number",
+          "D": "A god"
+        },
+        "correctAnswer": "B",
+        "explanation": "Each letter in the alphabet represented a sound.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q5",
+        "section": "social",
+        "question": "Which famous colony did the Phoenicians found in North Africa?",
+        "choices": {
+          "A": "Athens",
+          "B": "Carthage",
+          "C": "Babylon",
+          "D": "Memphis"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Phoenicians founded the colony of Carthage.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q6",
+        "section": "social",
+        "question": "Why was the Phoenician alphabet easier than cuneiform or hieroglyphics?",
+        "choices": {
+          "A": "It could only be written in clay",
+          "B": "It used more symbols than ever before",
+          "C": "It used a small set of letters instead of hundreds of symbols",
+          "D": "It had no letters at all"
+        },
+        "correctAnswer": "C",
+        "explanation": "A small set of sound-letters was far simpler than hundreds of picture symbols.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-2-q7",
+        "section": "social",
+        "question": "Which valuable item did Phoenician traders spread?",
+        "choices": {
+          "A": "Rare purple dye",
+          "B": "Gunpowder",
+          "C": "Paper money",
+          "D": "Steel cars"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Phoenicians were known for trading a rare, expensive purple dye.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q8",
+        "section": "social",
+        "question": "How did the Phoenician alphabet affect later civilizations?",
+        "choices": {
+          "A": "It was used only for math",
+          "B": "It disappeared and was never used again",
+          "C": "It replaced all spoken language",
+          "D": "Greeks and Romans borrowed it, shaping today's alphabet"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Greeks and Romans adapted it, leading to our modern alphabet.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-2-q9",
+        "section": "social",
+        "question": "Besides goods, what important IDEA did the Phoenicians spread?",
+        "choices": {
+          "A": "The alphabet and easy writing",
+          "B": "The Mandate of Heaven",
+          "C": "Pyramid building",
+          "D": "The number zero"
+        },
+        "correctAnswer": "A",
+        "explanation": "Their greatest 'export' was the idea of an easy alphabet.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-2-q10",
+        "section": "social",
+        "question": "Which best describes the Phoenicians?",
+        "choices": {
+          "A": "Mountain farmers who built ziggurats",
+          "B": "Desert nomads who never wrote anything",
+          "C": "Sea traders who spread the alphabet around the Mediterranean",
+          "D": "Egyptian pharaohs who built tombs"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Phoenicians were Mediterranean sea traders who spread the alphabet.",
+        "standard": "SS.6.W.3.1",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "5-3": {
+    "title": "The Israelites and Monotheism",
+    "standard": "SS.6.W.2.9",
+    "learn": "KEY IDEAS — THE ISRAELITES AND MONOTHEISM\n\nThe ancient Israelites were special among early peoples because they believed in just ONE God. This belief in a single God is called monotheism. Most of their neighbors, like the Sumerians and Egyptians, practiced polytheism (many gods), so the Israelites' belief was very different and new for the ancient world.\n\nThe Israelites recorded their beliefs, history, and laws in their sacred writings (the Hebrew Bible, also called the Torah). Their religion stressed following moral laws — rules about how to live a good, fair life. The most famous of these are the Ten Commandments, a set of moral and religious rules. Important leaders in their story include Abraham, considered the father of their people, and Moses, who is connected with the Ten Commandments.\n\nThe Israelites' religion grew into Judaism. Their powerful idea of one God and moral law later helped shape two other major world religions, Christianity and Islam. So a fairly small group had a HUGE influence on the world's religious history. Remember: monotheism = belief in one God = Israelites/Judaism.",
+    "questions": [
+      {
+        "id": "5-3-q1",
+        "section": "social",
+        "question": "What made the ancient Israelites different from most of their neighbors?",
+        "choices": {
+          "A": "They believed in only one God",
+          "B": "They had no religion",
+          "C": "They worshipped hundreds of gods",
+          "D": "They never wrote anything down"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Israelites practiced monotheism — belief in one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q2",
+        "section": "social",
+        "question": "The belief in ONE God is called what?",
+        "choices": {
+          "A": "Monotheism",
+          "B": "Polytheism",
+          "C": "Democracy",
+          "D": "Migration"
+        },
+        "correctAnswer": "A",
+        "explanation": "Belief in one God is monotheism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q3",
+        "section": "social",
+        "question": "What is the famous set of moral and religious rules connected to the Israelites?",
+        "choices": {
+          "A": "The Code of Hammurabi",
+          "B": "The Ten Commandments",
+          "C": "The Mandate of Heaven",
+          "D": "The Twelve Tables"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Ten Commandments are the Israelites' famous moral laws.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q4",
+        "section": "social",
+        "question": "The religion of the Israelites is known as what?",
+        "choices": {
+          "A": "Buddhism",
+          "B": "Hinduism",
+          "C": "Judaism",
+          "D": "Daoism"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Israelites' religion became Judaism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q5",
+        "section": "social",
+        "question": "Most of the Israelites' neighbors practiced what?",
+        "choices": {
+          "A": "Only ancestor worship",
+          "B": "Monotheism",
+          "C": "No religion at all",
+          "D": "Polytheism, worshipping many gods"
+        },
+        "correctAnswer": "D",
+        "explanation": "Their neighbors worshipped many gods (polytheism).",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q6",
+        "section": "social",
+        "question": "What did the Israelite religion stress that people should follow?",
+        "choices": {
+          "A": "Moral laws about how to live",
+          "B": "Rules for building pyramids",
+          "C": "Laws about sailing ships",
+          "D": "Rules for making bronze"
+        },
+        "correctAnswer": "A",
+        "explanation": "Their faith emphasized following moral laws.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "5-3-q7",
+        "section": "social",
+        "question": "Which leader is considered the father of the Israelite people?",
+        "choices": {
+          "A": "Cyrus",
+          "B": "Sargon",
+          "C": "Hammurabi",
+          "D": "Abraham"
+        },
+        "correctAnswer": "D",
+        "explanation": "Abraham is regarded as the father of the Israelites.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q8",
+        "section": "social",
+        "question": "The Israelites' idea of one God later helped shape which two other major religions?",
+        "choices": {
+          "A": "Hinduism and Buddhism",
+          "B": "Christianity and Islam",
+          "C": "Daoism and Confucianism",
+          "D": "Shinto and Jainism"
+        },
+        "correctAnswer": "B",
+        "explanation": "Judaism's monotheism influenced Christianity and Islam.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "5-3-q9",
+        "section": "social",
+        "question": "Where did the Israelites record their beliefs, history, and laws?",
+        "choices": {
+          "A": "On Egyptian pyramids",
+          "B": "In their sacred writings",
+          "C": "On Roman coins",
+          "D": "In the Mandate of Heaven"
+        },
+        "correctAnswer": "B",
+        "explanation": "They recorded beliefs and laws in their sacred texts.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "5-3-q10",
+        "section": "social",
+        "question": "Why is the Israelites' belief in one God so important in world history?",
+        "choices": {
+          "A": "It had no effect on anyone",
+          "B": "It was quickly forgotten",
+          "C": "It was a new idea that shaped three major world religions",
+          "D": "It was the same as everyone else's beliefs"
+        },
+        "correctAnswer": "C",
+        "explanation": "Monotheism was a new idea that influenced Judaism, Christianity, and Islam.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      }
+    ]
+  }
+}

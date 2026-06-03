@@ -1,0 +1,316 @@
+{
+  "13-1": {
+    "title": "Geography and the Rise of City-States",
+    "standard": "SS.6.W.3.2",
+    "learn": "KEY IDEAS — GREECE'S GEOGRAPHY AND CITY-STATES\n\nAncient Greece is a land of MOUNTAINS and ISLANDS. Rugged mountains cut the land into many small, separated pieces, and many Greeks lived on islands in the sea. This geography made travel by land hard and divided the Greeks into many independent communities instead of one united country.\n\nBecause of this, Greece developed into separate CITY-STATES. A Greek city-state was called a POLIS. Each polis had its own government, laws, and army, and ran itself independently — almost like its own little country. Famous examples include Athens and Sparta.\n\nThe SEA was very important to the Greeks. Since farmland was limited among the mountains, and the sea was always near, Greeks became skilled SAILORS and TRADERS. The sea became a 'highway' that let them trade goods and spread Greek ideas around the Mediterranean and set up colonies. So geography had two big effects: it kept Greece divided into city-states, and it pushed the Greeks toward the sea for trade. This geography is a big reason Greece never became one single country in ancient times. Remember: polis = Greek city-state; mountains divided Greece, the sea connected it.",
+    "questions": [
+      {
+        "id": "13-1-q1",
+        "section": "social",
+        "question": "What kind of land is ancient Greece?",
+        "choices": {
+          "A": "A single river valley",
+          "B": "A flat open desert",
+          "C": "A land of mountains and islands",
+          "D": "A frozen tundra"
+        },
+        "correctAnswer": "C",
+        "explanation": "Greece is a land of mountains and islands.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "13-1-q2",
+        "section": "social",
+        "question": "A Greek city-state was called a what?",
+        "choices": {
+          "A": "Polis",
+          "B": "Dynasty",
+          "C": "Satrap",
+          "D": "Caste"
+        },
+        "correctAnswer": "A",
+        "explanation": "A Greek city-state was called a polis.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "easy"
+      },
+      {
+        "id": "13-1-q3",
+        "section": "social",
+        "question": "How did Greece's mountains affect its people?",
+        "choices": {
+          "A": "They united all Greeks into one country",
+          "B": "They divided Greeks into separate city-states",
+          "C": "They had no effect on Greece",
+          "D": "They made farming easy everywhere"
+        },
+        "correctAnswer": "B",
+        "explanation": "Mountains split Greece into independent city-states.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-1-q4",
+        "section": "social",
+        "question": "Why did the Greeks become skilled sailors and traders?",
+        "choices": {
+          "A": "Farmland was limited and the sea was always near",
+          "B": "They had endless flat farmland",
+          "C": "They disliked the sea",
+          "D": "They had no boats"
+        },
+        "correctAnswer": "A",
+        "explanation": "Limited farmland and nearby seas pushed Greeks toward sea trade.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "13-1-q5",
+        "section": "social",
+        "question": "What did each Greek polis have of its own?",
+        "choices": {
+          "A": "A single nationwide law",
+          "B": "One shared king for all Greece",
+          "C": "No leaders at all",
+          "D": "Its own government, laws, and army"
+        },
+        "correctAnswer": "D",
+        "explanation": "Each polis governed itself with its own laws and army.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-1-q6",
+        "section": "social",
+        "question": "The sea acted like a what for the Greeks?",
+        "choices": {
+          "A": "A place they avoided",
+          "B": "A wall that blocked all travel",
+          "C": "A farm for growing crops",
+          "D": "A highway for trade and spreading ideas"
+        },
+        "correctAnswer": "D",
+        "explanation": "The sea was a 'highway' for Greek trade and ideas.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-1-q7",
+        "section": "social",
+        "question": "Which two famous city-states were part of ancient Greece?",
+        "choices": {
+          "A": "Harappa and Mohenjo-Daro",
+          "B": "Athens and Sparta",
+          "C": "Memphis and Thebes",
+          "D": "Ur and Uruk"
+        },
+        "correctAnswer": "B",
+        "explanation": "Athens and Sparta were famous Greek city-states.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-1-q8",
+        "section": "social",
+        "question": "Why did Greece never become one single country in ancient times?",
+        "choices": {
+          "A": "Its geography kept it divided into separate city-states",
+          "B": "It had no people",
+          "C": "It was conquered by Egypt",
+          "D": "It had only one city"
+        },
+        "correctAnswer": "A",
+        "explanation": "Mountainous, divided geography prevented one unified Greek nation.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "13-1-q9",
+        "section": "social",
+        "question": "Greek geography had which TWO big effects?",
+        "choices": {
+          "A": "It united Greece and stopped all trade",
+          "B": "It divided Greece into city-states and pushed Greeks to the sea",
+          "C": "It created endless farmland and banned ships",
+          "D": "It had no effects at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "Geography divided Greece and encouraged sea trade.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "hard"
+      },
+      {
+        "id": "13-1-q10",
+        "section": "social",
+        "question": "A polis was MOST like which of these?",
+        "choices": {
+          "A": "A single farm field",
+          "B": "A modern shopping mall",
+          "C": "Its own little independent country",
+          "D": "A trade ship"
+        },
+        "correctAnswer": "C",
+        "explanation": "A polis ran itself independently, like a small country.",
+        "standard": "SS.6.W.3.2",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "13-2": {
+    "title": "Athens, Sparta, and Democracy",
+    "standard": "SS.6.W.3.3",
+    "learn": "KEY IDEAS — ATHENS, SPARTA, AND DEMOCRACY\n\nThe two most famous Greek city-states, ATHENS and SPARTA, were VERY different from each other.\n\nATHENS created an early form of DEMOCRACY, which means 'rule by the people.' In Athens, citizens could gather, vote on laws, and take part in their own government. This was a huge new idea in the ancient world. Athens valued education, art, and ideas. However, it was a LIMITED democracy: only free adult MEN who were citizens could vote. WOMEN, ENSLAVED people, and FOREIGNERS were NOT allowed to vote.\n\nSPARTA was almost the opposite. It was a military city-state that focused almost entirely on training tough SOLDIERS. Spartan boys began strict military training at a young age, and the whole society was built around discipline and war. Sparta had little interest in art or democracy.\n\nComparing them shows how two neighbors could build completely different ways of life. Even though Athenian democracy was limited, its idea that citizens should help govern themselves still shapes governments today, including the United States. Remember: democracy = Athens; military discipline = Sparta.",
+    "questions": [
+      {
+        "id": "13-2-q1",
+        "section": "social",
+        "question": "Which Greek city-state created an early form of democracy?",
+        "choices": {
+          "A": "Babylon",
+          "B": "Sparta",
+          "C": "Athens",
+          "D": "Carthage"
+        },
+        "correctAnswer": "C",
+        "explanation": "Athens created an early democracy.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "13-2-q2",
+        "section": "social",
+        "question": "What does 'democracy' mean?",
+        "choices": {
+          "A": "Rule by the people",
+          "B": "Rule by one king",
+          "C": "Rule by priests only",
+          "D": "Rule by soldiers"
+        },
+        "correctAnswer": "A",
+        "explanation": "Democracy means 'rule by the people.'",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "13-2-q3",
+        "section": "social",
+        "question": "What was Sparta MOST focused on?",
+        "choices": {
+          "A": "Building pyramids",
+          "B": "Writing poetry",
+          "C": "Sea trade",
+          "D": "Training tough soldiers"
+        },
+        "correctAnswer": "D",
+        "explanation": "Sparta focused on military training.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "easy"
+      },
+      {
+        "id": "13-2-q4",
+        "section": "social",
+        "question": "In Athenian democracy, who was allowed to vote?",
+        "choices": {
+          "A": "Only foreigners",
+          "B": "Everyone, including women and the enslaved",
+          "C": "Only free adult male citizens",
+          "D": "Only children"
+        },
+        "correctAnswer": "C",
+        "explanation": "Only free adult male citizens could vote in Athens.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-2-q5",
+        "section": "social",
+        "question": "Who could NOT vote in Athens?",
+        "choices": {
+          "A": "Women, enslaved people, and foreigners",
+          "B": "All adult men",
+          "C": "Wealthy citizens",
+          "D": "Government leaders"
+        },
+        "correctAnswer": "A",
+        "explanation": "Women, enslaved people, and foreigners were excluded from voting.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-2-q6",
+        "section": "social",
+        "question": "When did Spartan boys begin their military training?",
+        "choices": {
+          "A": "Only as old men",
+          "B": "At a young age",
+          "C": "Never",
+          "D": "After age fifty"
+        },
+        "correctAnswer": "B",
+        "explanation": "Spartan boys started strict training young.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-2-q7",
+        "section": "social",
+        "question": "Why is Athenian democracy called 'limited'?",
+        "choices": {
+          "A": "Only kings could vote",
+          "B": "It lasted only one day",
+          "C": "It allowed no voting at all",
+          "D": "Only some people (free adult male citizens) could vote"
+        },
+        "correctAnswer": "D",
+        "explanation": "It was limited because only free adult male citizens could vote.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "13-2-q8",
+        "section": "social",
+        "question": "How does Athenian democracy still affect the world today?",
+        "choices": {
+          "A": "It has no effect on modern life",
+          "B": "Its idea that citizens help govern shapes modern governments",
+          "C": "It made all modern kings",
+          "D": "It ended all voting forever"
+        },
+        "correctAnswer": "B",
+        "explanation": "The idea of citizens governing themselves still shapes governments like the U.S.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "hard"
+      },
+      {
+        "id": "13-2-q9",
+        "section": "social",
+        "question": "What does comparing Athens and Sparta show?",
+        "choices": {
+          "A": "Two neighbors could build completely different ways of life",
+          "B": "They were exactly the same",
+          "C": "Neither had a government",
+          "D": "Both ignored their armies"
+        },
+        "correctAnswer": "A",
+        "explanation": "Athens and Sparta show how differently two neighbors could live.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "medium"
+      },
+      {
+        "id": "13-2-q10",
+        "section": "social",
+        "question": "Which city-state is correctly matched with its focus?",
+        "choices": {
+          "A": "Athens — only military training",
+          "B": "Sparta — military discipline",
+          "C": "Sparta — early democracy",
+          "D": "Athens — no education at all"
+        },
+        "correctAnswer": "B",
+        "explanation": "Sparta focused on military discipline; Athens on democracy and ideas.",
+        "standard": "SS.6.W.3.3",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}

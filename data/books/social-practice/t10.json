@@ -1,0 +1,473 @@
+{
+  "10-1": {
+    "title": "Rivers, Dynasties, and the Mandate of Heaven",
+    "standard": "SS.6.W.4.6",
+    "learn": "KEY IDEAS — CHINA'S RIVERS, DYNASTIES, AND THE MANDATE OF HEAVEN\n\nChinese civilization grew along two great rivers: the YELLOW RIVER (Huang He) and the YANGTZE River. Like other early civilizations, China grew where river floods left rich soil for farming. The Yellow River is sometimes called 'China's Sorrow' because its floods could be deadly.\n\nChina was ruled by families called DYNASTIES. A dynasty is a series of rulers from the same family, where power passes down from parent to child. When one ruling family was overthrown, a new dynasty took its place; this rise and fall is called the dynastic cycle.\n\nThe Chinese explained who had the right to rule with the MANDATE OF HEAVEN. This was the idea that Heaven (a divine power) gave a ruler the right to rule — but ONLY as long as he ruled WISELY and FAIRLY. If a dynasty became cruel, weak, or brought disasters, people believed it had LOST the Mandate of Heaven, and it was acceptable to replace it with a new, better ruler. The Mandate of Heaven both justified a ruler's power and gave a reason to overthrow a bad one. Remember: Mandate of Heaven = China's idea of the right to rule.",
+    "questions": [
+      {
+        "id": "10-1-q1",
+        "section": "social",
+        "question": "Along which two rivers did Chinese civilization grow?",
+        "choices": {
+          "A": "The Nile and Tigris",
+          "B": "The Yellow and Yangtze Rivers",
+          "C": "The Indus and Ganges",
+          "D": "The Tiber and Po"
+        },
+        "correctAnswer": "B",
+        "explanation": "China grew along the Yellow and Yangtze rivers.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q2",
+        "section": "social",
+        "question": "A series of rulers from the same family is called a what?",
+        "choices": {
+          "A": "Dynasty",
+          "B": "Republic",
+          "C": "City-state",
+          "D": "Caste"
+        },
+        "correctAnswer": "A",
+        "explanation": "A ruling family line is called a dynasty.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-1-q3",
+        "section": "social",
+        "question": "What was the Mandate of Heaven?",
+        "choices": {
+          "A": "A set of written laws on stone",
+          "B": "The idea that Heaven gave a ruler the right to rule if he ruled well",
+          "C": "A trade route to the west",
+          "D": "A type of Chinese money"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Mandate of Heaven gave rulers the right to rule, but only if they ruled wisely.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q4",
+        "section": "social",
+        "question": "According to the Mandate of Heaven, when could a ruler lose the right to rule?",
+        "choices": {
+          "A": "Never, no matter what",
+          "B": "Only when he died of old age",
+          "C": "When he became cruel, weak, or unfair",
+          "D": "When the rivers stopped flowing"
+        },
+        "correctAnswer": "C",
+        "explanation": "A cruel or weak ruler was believed to lose the Mandate of Heaven.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q5",
+        "section": "social",
+        "question": "Why did rivers matter for early Chinese farming?",
+        "choices": {
+          "A": "They froze all crops",
+          "B": "They had no effect on farming",
+          "C": "Floods left rich soil for crops",
+          "D": "They were used only for swimming"
+        },
+        "correctAnswer": "C",
+        "explanation": "River floods provided fertile soil for farming.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q6",
+        "section": "social",
+        "question": "In a dynasty, how does power usually pass on?",
+        "choices": {
+          "A": "To whoever is richest",
+          "B": "By a public election",
+          "C": "To a foreign king",
+          "D": "From parent to child in the same family"
+        },
+        "correctAnswer": "D",
+        "explanation": "In a dynasty, power passes down within one family.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q7",
+        "section": "social",
+        "question": "Why is the Yellow River sometimes called 'China's Sorrow'?",
+        "choices": {
+          "A": "Its floods could be deadly",
+          "B": "It never had any water",
+          "C": "It was too small to use",
+          "D": "It flowed the wrong way"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Yellow River's dangerous floods earned it the name 'China's Sorrow.'",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-1-q8",
+        "section": "social",
+        "question": "How did the Mandate of Heaven justify overthrowing a ruler?",
+        "choices": {
+          "A": "It never allowed any change of ruler",
+          "B": "A bad ruler was believed to have lost Heaven's support",
+          "C": "It required a vote of the people",
+          "D": "It only applied to farmers"
+        },
+        "correctAnswer": "B",
+        "explanation": "If a ruler lost Heaven's favor, replacing him was seen as acceptable.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q9",
+        "section": "social",
+        "question": "The repeated rise and fall of dynasties is known as the what?",
+        "choices": {
+          "A": "Dynastic cycle",
+          "B": "Mandate of Heaven",
+          "C": "Caste system",
+          "D": "Pax Romana"
+        },
+        "correctAnswer": "A",
+        "explanation": "The pattern of dynasties rising and falling is the dynastic cycle.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-1-q10",
+        "section": "social",
+        "question": "Which civilization is correctly matched with the Mandate of Heaven?",
+        "choices": {
+          "A": "Sumer",
+          "B": "Egypt",
+          "C": "Greece",
+          "D": "China"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Mandate of Heaven was a Chinese idea.",
+        "standard": "SS.6.W.4.6",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "10-2": {
+    "title": "Confucius, Laozi, and Chinese Thinkers",
+    "standard": "SS.6.W.4.7",
+    "learn": "KEY IDEAS — CHINA'S GREAT THINKERS\n\nAncient China produced famous teachers whose ideas guided life for centuries. These belief systems are called philosophies — ways of thinking about how people should live and how rulers should govern.\n\nCONFUCIUS taught CONFUCIANISM. He stressed RESPECT, especially respect for elders and family, along with good manners, education, and order. Confucius believed leaders should set a GOOD EXAMPLE so the people would follow. His teachings shaped Chinese family life and government for thousands of years.\n\nLAOZI is connected with DAOISM (also spelled Taoism). Daoism taught living SIMPLY and in HARMONY with nature, rather than seeking power or following lots of rules.\n\nHAN FEI ZI taught LEGALISM. Legalism is very different: it taught that people need STRICT LAWS and HARSH PUNISHMENTS to keep order, because rulers should be feared, not just admired. So China had three big ideas: Confucianism (respect and good example), Daoism (harmony with nature), and Legalism (strict laws). Remember which teacher goes with which idea.",
+    "questions": [
+      {
+        "id": "10-2-q1",
+        "section": "social",
+        "question": "Which teacher founded Confucianism?",
+        "choices": {
+          "A": "Laozi",
+          "B": "Confucius",
+          "C": "Han Fei Zi",
+          "D": "Siddhartha Gautama"
+        },
+        "correctAnswer": "B",
+        "explanation": "Confucius founded Confucianism.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q2",
+        "section": "social",
+        "question": "What did Confucius mainly teach?",
+        "choices": {
+          "A": "Respect, good manners, and leaders setting a good example",
+          "B": "Strict laws and harsh punishments",
+          "C": "Worship of the pharaoh",
+          "D": "Conquering other lands"
+        },
+        "correctAnswer": "A",
+        "explanation": "Confucius taught respect, manners, and good leadership by example.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q3",
+        "section": "social",
+        "question": "Daoism (Taoism), connected with Laozi, taught people to do what?",
+        "choices": {
+          "A": "Live simply and in harmony with nature",
+          "B": "Make strict laws",
+          "C": "Seek as much power as possible",
+          "D": "Build the most pyramids"
+        },
+        "correctAnswer": "A",
+        "explanation": "Daoism taught simple living in harmony with nature.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q4",
+        "section": "social",
+        "question": "Which philosophy taught that strict laws and harsh punishments keep order?",
+        "choices": {
+          "A": "Daoism",
+          "B": "Confucianism",
+          "C": "Legalism",
+          "D": "Buddhism"
+        },
+        "correctAnswer": "C",
+        "explanation": "Legalism relied on strict laws and harsh punishments.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q5",
+        "section": "social",
+        "question": "Who is connected with the philosophy of Daoism?",
+        "choices": {
+          "A": "Hammurabi",
+          "B": "Confucius",
+          "C": "Laozi",
+          "D": "Asoka"
+        },
+        "correctAnswer": "C",
+        "explanation": "Laozi is associated with Daoism.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q6",
+        "section": "social",
+        "question": "Who taught Legalism?",
+        "choices": {
+          "A": "Laozi",
+          "B": "Han Fei Zi",
+          "C": "Confucius",
+          "D": "Cyrus"
+        },
+        "correctAnswer": "B",
+        "explanation": "Han Fei Zi taught Legalism.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q7",
+        "section": "social",
+        "question": "According to Confucius, how should a good leader behave?",
+        "choices": {
+          "A": "Rule only through fear",
+          "B": "Set a good example for the people to follow",
+          "C": "Ignore the people completely",
+          "D": "Avoid all education"
+        },
+        "correctAnswer": "B",
+        "explanation": "Confucius said leaders should lead by good example.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-2-q8",
+        "section": "social",
+        "question": "These belief systems about how to live and govern are called what?",
+        "choices": {
+          "A": "Castes",
+          "B": "Dynasties",
+          "C": "Empires",
+          "D": "Philosophies"
+        },
+        "correctAnswer": "D",
+        "explanation": "Ways of thinking about life and government are philosophies.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-2-q9",
+        "section": "social",
+        "question": "How is Legalism MOST different from Confucianism?",
+        "choices": {
+          "A": "Legalism relies on fear and harsh laws, not respect and good example",
+          "B": "They are exactly the same",
+          "C": "Legalism worships nature",
+          "D": "Confucianism uses only punishments"
+        },
+        "correctAnswer": "A",
+        "explanation": "Legalism uses strict, harsh rule, while Confucianism uses respect and example.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-2-q10",
+        "section": "social",
+        "question": "Confucius's teachings shaped Chinese what for thousands of years?",
+        "choices": {
+          "A": "The caste system",
+          "B": "Sea trade only",
+          "C": "Pyramid building",
+          "D": "Family life and government"
+        },
+        "correctAnswer": "D",
+        "explanation": "Confucianism shaped Chinese family life and government for ages.",
+        "standard": "SS.6.W.4.7",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "10-3": {
+    "title": "Inventions, the Silk Roads, and the Mongols",
+    "standard": "SS.6.W.4.10",
+    "learn": "KEY IDEAS — CHINESE INVENTIONS, THE SILK ROADS, AND THE MONGOLS\n\nAncient China gave the world many important INVENTIONS, including PAPER, SILK (a smooth cloth from silkworms), the magnetic COMPASS (for finding direction), and GUNPOWDER. China also built the GREAT WALL, a huge wall constructed over centuries to help defend China's northern border from invaders.\n\nThe SILK ROADS were long TRADE ROUTES that stretched across Asia, connecting China to India, the Middle East, and the Mediterranean world. They were named for the valuable Chinese silk carried along them. The Silk Roads carried Chinese goods WEST and brought new goods, ideas, and religions back EAST. They were a major example of cultural diffusion, spreading culture between distant lands.\n\nLater, the MONGOLS, fierce horseback warriors led by GENGHIS KHAN, conquered a vast territory and built the LARGEST LAND EMPIRE in history. Although the Mongols were feared in war, they made the Silk Roads SAFER for travel and trade, which helped goods and ideas move even more freely. Remember: China = paper, silk, compass, gunpowder, Great Wall; Genghis Khan = Mongol Empire.",
+    "questions": [
+      {
+        "id": "10-3-q1",
+        "section": "social",
+        "question": "Which of these was invented in ancient China?",
+        "choices": {
+          "A": "Paper",
+          "B": "The wheel",
+          "C": "Cuneiform",
+          "D": "The alphabet"
+        },
+        "correctAnswer": "A",
+        "explanation": "Paper was a Chinese invention.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q2",
+        "section": "social",
+        "question": "What were the Silk Roads?",
+        "choices": {
+          "A": "Rivers in India",
+          "B": "Walls around Chinese cities",
+          "C": "Long trade routes connecting China to the west",
+          "D": "Roman roads in Italy"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Silk Roads were long trade routes linking China to other lands.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "10-3-q3",
+        "section": "social",
+        "question": "Who led the Mongols to build the largest land empire in history?",
+        "choices": {
+          "A": "Augustus",
+          "B": "Confucius",
+          "C": "Cyrus the Great",
+          "D": "Genghis Khan"
+        },
+        "correctAnswer": "D",
+        "explanation": "Genghis Khan led the Mongols to their vast empire.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q4",
+        "section": "social",
+        "question": "Why did China build the Great Wall?",
+        "choices": {
+          "A": "To trade silk",
+          "B": "To store grain",
+          "C": "To defend its northern border from invaders",
+          "D": "To worship the gods"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Great Wall helped defend China from northern invaders.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q5",
+        "section": "social",
+        "question": "Which Chinese invention helped sailors find direction?",
+        "choices": {
+          "A": "The compass",
+          "B": "Paper",
+          "C": "Silk",
+          "D": "Gunpowder"
+        },
+        "correctAnswer": "A",
+        "explanation": "The magnetic compass helped find direction.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q6",
+        "section": "social",
+        "question": "Besides goods, what did the Silk Roads spread between distant lands?",
+        "choices": {
+          "A": "Only sand",
+          "B": "Ideas and religions",
+          "C": "Nothing but silk worms",
+          "D": "Empty wagons"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Silk Roads spread ideas and religions, not just goods.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q7",
+        "section": "social",
+        "question": "How did the Mongols actually HELP trade on the Silk Roads?",
+        "choices": {
+          "A": "They made the routes safer to travel",
+          "B": "They destroyed all the roads",
+          "C": "They banned all trade",
+          "D": "They had no effect on trade"
+        },
+        "correctAnswer": "A",
+        "explanation": "Despite being feared in war, the Mongols made the Silk Roads safer.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "10-3-q8",
+        "section": "social",
+        "question": "Why were the Silk Roads given that name?",
+        "choices": {
+          "A": "They were paved with silk",
+          "B": "Valuable Chinese silk was carried along them",
+          "C": "Only silkworms used them",
+          "D": "They led to a city named Silk"
+        },
+        "correctAnswer": "B",
+        "explanation": "The routes were named for the silk traded along them.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q9",
+        "section": "social",
+        "question": "Which list contains ONLY Chinese inventions?",
+        "choices": {
+          "A": "Democracy, the Republic, aqueducts",
+          "B": "Pyramids, papyrus, hieroglyphics",
+          "C": "The alphabet, coins, ziggurats",
+          "D": "Paper, silk, the compass, gunpowder"
+        },
+        "correctAnswer": "D",
+        "explanation": "Paper, silk, the compass, and gunpowder were all Chinese inventions.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "10-3-q10",
+        "section": "social",
+        "question": "The Mongol Empire is described as the largest WHAT in history?",
+        "choices": {
+          "A": "Sea empire",
+          "B": "Land empire",
+          "C": "City-state",
+          "D": "Trade fair"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Mongols built the largest land empire in history.",
+        "standard": "SS.6.W.4.10",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}

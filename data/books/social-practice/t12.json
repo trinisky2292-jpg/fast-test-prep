@@ -1,0 +1,316 @@
+{
+  "12-1": {
+    "title": "The Israelites and Their Beliefs",
+    "standard": "SS.6.W.2.9",
+    "learn": "KEY IDEAS — THE ISRAELITES AND THEIR BELIEFS\n\nThe Israelites were an ancient people who lived in the eastern Mediterranean region (the land sometimes called Canaan). Their most important belief was MONOTHEISM, the belief in just ONE God. This set them apart from neighbors who worshipped many gods (polytheism).\n\nThe Israelites recorded their history, beliefs, and laws in SACRED TEXTS (the Hebrew Bible, including the Torah). Several leaders are central to their story. ABRAHAM is honored as the father of their people; the Israelites believed God made a special agreement, or covenant, with him. MOSES is remembered for leading the Israelites out of slavery in Egypt (the Exodus) and is connected with receiving the TEN COMMANDMENTS. Later, KING DAVID and his son Solomon were important kings who united the people and made Jerusalem their capital; Solomon built a great temple there.\n\nWhat made the Israelite religion so different was its focus on MORAL LAWS — rules like the Ten Commandments about living a good and fair life — rather than just rituals to please many gods. Remember: Israelites = one God (monotheism), Abraham, Moses, David, and moral law.",
+    "questions": [
+      {
+        "id": "12-1-q1",
+        "section": "social",
+        "question": "The Israelites believed in how many gods?",
+        "choices": {
+          "A": "One God",
+          "B": "Many gods",
+          "C": "No gods",
+          "D": "Exactly twelve gods"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Israelites practiced monotheism, belief in one God.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q2",
+        "section": "social",
+        "question": "Who is honored as the father of the Israelite people?",
+        "choices": {
+          "A": "Sargon",
+          "B": "Confucius",
+          "C": "Abraham",
+          "D": "Genghis Khan"
+        },
+        "correctAnswer": "C",
+        "explanation": "Abraham is considered the father of the Israelites.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q3",
+        "section": "social",
+        "question": "Which leader is connected with leading the Israelites out of Egypt and the Ten Commandments?",
+        "choices": {
+          "A": "David",
+          "B": "Moses",
+          "C": "Hammurabi",
+          "D": "Cyrus"
+        },
+        "correctAnswer": "B",
+        "explanation": "Moses led the Israelites out of Egypt and is tied to the Ten Commandments.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q4",
+        "section": "social",
+        "question": "Where did the Israelites record their beliefs and laws?",
+        "choices": {
+          "A": "On Egyptian pyramids",
+          "B": "In their sacred texts",
+          "C": "On Roman coins",
+          "D": "On Chinese silk"
+        },
+        "correctAnswer": "B",
+        "explanation": "Their beliefs and laws were written in sacred texts.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-1-q5",
+        "section": "social",
+        "question": "What made the Israelite religion different from its neighbors?",
+        "choices": {
+          "A": "It worshipped the pharaoh",
+          "B": "It worshipped the most gods",
+          "C": "It had no beliefs at all",
+          "D": "Its focus on one God and moral laws"
+        },
+        "correctAnswer": "D",
+        "explanation": "Belief in one God and moral law set it apart.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q6",
+        "section": "social",
+        "question": "King David is remembered for doing what?",
+        "choices": {
+          "A": "Uniting the people and making Jerusalem the capital",
+          "B": "Building the pyramids",
+          "C": "Inventing the alphabet",
+          "D": "Leading the Mongols"
+        },
+        "correctAnswer": "A",
+        "explanation": "King David united the Israelites and made Jerusalem the capital.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q7",
+        "section": "social",
+        "question": "What are the Ten Commandments?",
+        "choices": {
+          "A": "Rules for building ships",
+          "B": "Moral laws about living a good and fair life",
+          "C": "A list of Chinese inventions",
+          "D": "A trade agreement"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Ten Commandments are moral and religious laws.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q8",
+        "section": "social",
+        "question": "The Israelites believed God made a special agreement with Abraham. This agreement is called a what?",
+        "choices": {
+          "A": "Covenant",
+          "B": "Caste",
+          "C": "Mandate",
+          "D": "Republic"
+        },
+        "correctAnswer": "A",
+        "explanation": "The special agreement with God is called a covenant.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-1-q9",
+        "section": "social",
+        "question": "Which king built a great temple in Jerusalem?",
+        "choices": {
+          "A": "Augustus",
+          "B": "Nebuchadnezzar",
+          "C": "Asoka",
+          "D": "Solomon"
+        },
+        "correctAnswer": "D",
+        "explanation": "Solomon, David's son, built a great temple in Jerusalem.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-1-q10",
+        "section": "social",
+        "question": "The Israelites' belief in one God is best described as what?",
+        "choices": {
+          "A": "Daoism",
+          "B": "Polytheism",
+          "C": "Monotheism",
+          "D": "Legalism"
+        },
+        "correctAnswer": "C",
+        "explanation": "Belief in one God is monotheism.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "12-2": {
+    "title": "The Legacy of Judaism",
+    "standard": "SS.6.W.2.9",
+    "learn": "KEY IDEAS — THE LEGACY OF JUDAISM\n\nThe Israelites built two kingdoms, ISRAEL and JUDAH. Over time, powerful empires CONQUERED these kingdoms. As a result, many Hebrews were forced to leave their homeland and scatter to new lands. This scattering of the Jewish people is called the DIASPORA. (The word 'Jewish' comes from the kingdom of Judah.)\n\nEven though they were far from home and spread out, the Jewish people kept their FAITH and TRADITIONS alive. They held onto their belief in one God, their sacred texts, and their customs wherever they went. This is remarkable because many conquered peoples lost their identity, but the Jews did not.\n\nThe biggest part of Judaism's LEGACY is its lasting influence. Judaism's idea of ONE GOD (monotheism) and its focus on moral law deeply influenced two later world religions that grew out of or were shaped by it: CHRISTIANITY and ISLAM. Together, these three religions are sometimes called the Abrahamic religions because they all trace back to Abraham. So a small ancient people's beliefs ended up shaping the faith of billions of people across the whole world. Remember: Diaspora = scattering; Judaism influenced Christianity and Islam.",
+    "questions": [
+      {
+        "id": "12-2-q1",
+        "section": "social",
+        "question": "What were the two kingdoms of the Israelites called?",
+        "choices": {
+          "A": "Athens and Sparta",
+          "B": "Israel and Judah",
+          "C": "Ur and Uruk",
+          "D": "Kush and Axum"
+        },
+        "correctAnswer": "B",
+        "explanation": "The two Israelite kingdoms were Israel and Judah.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q2",
+        "section": "social",
+        "question": "The scattering of the Jewish people to new lands is called the what?",
+        "choices": {
+          "A": "Migration cycle",
+          "B": "Exodus",
+          "C": "Diffusion",
+          "D": "Diaspora"
+        },
+        "correctAnswer": "D",
+        "explanation": "The scattering of the Jews is called the Diaspora.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q3",
+        "section": "social",
+        "question": "What happened to the kingdoms of Israel and Judah over time?",
+        "choices": {
+          "A": "They were never touched",
+          "B": "They grew into the largest empire ever",
+          "C": "They were conquered by powerful empires",
+          "D": "They conquered Rome"
+        },
+        "correctAnswer": "C",
+        "explanation": "Israel and Judah were eventually conquered.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      },
+      {
+        "id": "12-2-q4",
+        "section": "social",
+        "question": "What did the Jewish people do even after being scattered far from home?",
+        "choices": {
+          "A": "Kept their faith and traditions alive",
+          "B": "Gave up their religion immediately",
+          "C": "Forgot their sacred texts",
+          "D": "Started worshipping many gods"
+        },
+        "correctAnswer": "A",
+        "explanation": "Despite the Diaspora, they preserved their faith and traditions.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q5",
+        "section": "social",
+        "question": "Judaism's idea of one God influenced which two later religions?",
+        "choices": {
+          "A": "Hinduism and Buddhism",
+          "B": "Christianity and Islam",
+          "C": "Daoism and Legalism",
+          "D": "Shinto and Jainism"
+        },
+        "correctAnswer": "B",
+        "explanation": "Judaism influenced Christianity and Islam.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q6",
+        "section": "social",
+        "question": "Why is it remarkable that the Jews kept their identity after the Diaspora?",
+        "choices": {
+          "A": "They had a huge army",
+          "B": "It was easy and common to do",
+          "C": "Many conquered peoples lost their identity, but the Jews did not",
+          "D": "They were never conquered"
+        },
+        "correctAnswer": "C",
+        "explanation": "Most conquered, scattered peoples lost their identity; the Jews preserved theirs.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q7",
+        "section": "social",
+        "question": "The word 'Jewish' comes from the name of which kingdom?",
+        "choices": {
+          "A": "Judah",
+          "B": "Israel",
+          "C": "Babylon",
+          "D": "Persia"
+        },
+        "correctAnswer": "A",
+        "explanation": "'Jewish' comes from the kingdom of Judah.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q8",
+        "section": "social",
+        "question": "Judaism, Christianity, and Islam are sometimes called what because they trace back to Abraham?",
+        "choices": {
+          "A": "The Mandate religions",
+          "B": "The Eastern religions",
+          "C": "The river religions",
+          "D": "The Abrahamic religions"
+        },
+        "correctAnswer": "D",
+        "explanation": "All three trace to Abraham, so they are called Abrahamic religions.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "hard"
+      },
+      {
+        "id": "12-2-q9",
+        "section": "social",
+        "question": "What is the BIGGEST part of Judaism's legacy?",
+        "choices": {
+          "A": "Its invention of gunpowder",
+          "B": "Its lasting influence on two other major world religions",
+          "C": "Its building of the pyramids",
+          "D": "Its creation of the alphabet"
+        },
+        "correctAnswer": "B",
+        "explanation": "Judaism's lasting legacy is its influence on Christianity and Islam.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "medium"
+      },
+      {
+        "id": "12-2-q10",
+        "section": "social",
+        "question": "Which idea from Judaism most influenced later religions?",
+        "choices": {
+          "A": "The belief in one God and moral law",
+          "B": "The worship of many gods",
+          "C": "The Mandate of Heaven",
+          "D": "The caste system"
+        },
+        "correctAnswer": "A",
+        "explanation": "Monotheism and moral law were Judaism's key influences.",
+        "standard": "SS.6.W.2.9",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}

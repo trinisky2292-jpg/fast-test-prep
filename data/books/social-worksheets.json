@@ -1,0 +1,497 @@
+{
+  "1-1": {
+    "title": "Time, Timelines, and Eras",
+    "standard": "SS.6.W.1.2",
+    "problems": [
+      { "q": "How many years are in a century?", "answer": "100 years" },
+      { "q": "How many years are in a millennium?", "answer": "1,000 years" },
+      { "q": "Which happened first, 500 BC or 500 AD?", "answer": "500 BC" },
+      { "q": "What is a tool that shows events in the order they happened?", "answer": "A timeline" },
+      { "q": "Among BC dates, which is earliest: 200 BC or 800 BC?", "answer": "800 BC" }
+    ]
+  },
+  "1-2": {
+    "title": "Primary and Secondary Sources",
+    "standard": "SS.6.W.1.3",
+    "problems": [
+      { "q": "A diary written by someone who lived during an event is which kind of source?", "answer": "A primary source" },
+      { "q": "A modern textbook about ancient Egypt is which kind of source?", "answer": "A secondary source" },
+      { "q": "Name one example of a primary source.", "answer": "A diary, letter, clay tablet, or old coin (any one)" },
+      { "q": "Why do historians value primary sources?", "answer": "They give the most direct evidence from the time studied" },
+      { "q": "An ancient Roman coin is a primary or secondary source?", "answer": "Primary source" }
+    ]
+  },
+  "1-3": {
+    "title": "How Historians and Geographers Investigate",
+    "standard": "SS.6.W.1.4",
+    "problems": [
+      { "q": "What is it called when historians ask questions about the past and look for evidence?", "answer": "Historical inquiry" },
+      { "q": "Why do historians compare more than one source about an event?", "answer": "Because people may describe the same event differently" },
+      { "q": "What do geographers mainly study?", "answer": "Where things are and why place matters" },
+      { "q": "Name one of the five themes of geography.", "answer": "Location, place, movement, region, or human-environment interaction (any one)" },
+      { "q": "What tools do geographers use to study location?", "answer": "Maps and globes" }
+    ]
+  },
+  "2-1": {
+    "title": "Hunter-Gatherers and Human Migration",
+    "standard": "SS.6.W.2.1",
+    "problems": [
+      { "q": "How did hunter-gatherers get their food?", "answer": "By hunting wild animals and gathering wild plants" },
+      { "q": "On which continent is the oldest evidence of humans found?", "answer": "Africa" },
+      { "q": "What word describes people who move from place to place instead of settling?", "answer": "Nomads" },
+      { "q": "What is the slow movement of people into new lands called?", "answer": "Migration" },
+      { "q": "What is a scientist who studies things ancient people left behind called?", "answer": "An archaeologist" }
+    ]
+  },
+  "2-2": {
+    "title": "The Agricultural Revolution",
+    "standard": "SS.6.W.2.2",
+    "problems": [
+      { "q": "About how long ago did people first begin farming?", "answer": "About 10,000 years ago" },
+      { "q": "Extra food that farmers could store is called a what?", "answer": "A surplus" },
+      { "q": "How did a food surplus let people take new jobs?", "answer": "Not everyone had to farm, so some could do other jobs" },
+      { "q": "What kind of life means staying settled in one place?", "answer": "A sedentary life" },
+      { "q": "Farming settlements slowly grew into what?", "answer": "Villages, towns, and cities" }
+    ]
+  },
+  "2-3": {
+    "title": "The Characteristics of a Civilization",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "Name two characteristics of a civilization.", "answer": "Cities, government, writing, specialized jobs, social classes, or shared religion (any two)" },
+      { "q": "Ranked groups in a society are called what?", "answer": "Social classes" },
+      { "q": "What strong metal did people make by mixing copper and tin?", "answer": "Bronze" },
+      { "q": "Having builders, priests, and traders instead of all farmers shows which feature?", "answer": "Specialized jobs (division of labor)" },
+      { "q": "What helps tell a true civilization apart from a small village?", "answer": "Features like cities, writing, and organized government" }
+    ]
+  },
+  "3-1": {
+    "title": "The Land Between Two Rivers",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "What does the word 'Mesopotamia' mean?", "answer": "Land between the rivers" },
+      { "q": "Which two rivers gave Mesopotamia its name?", "answer": "The Tigris and the Euphrates" },
+      { "q": "What is the nickname for the rich curved farmland of the region?", "answer": "The Fertile Crescent" },
+      { "q": "What did the yearly river floods leave behind that helped farming?", "answer": "Rich soil (silt)" },
+      { "q": "Digging channels to bring river water to crops is called what?", "answer": "Irrigation" }
+    ]
+  },
+  "3-2": {
+    "title": "Sumer: Writing, the Wheel, and Cities",
+    "standard": "SS.6.W.2.7",
+    "problems": [
+      { "q": "What was the Sumerian writing system called?", "answer": "Cuneiform" },
+      { "q": "What did the Sumerians press their writing into?", "answer": "Clay tablets" },
+      { "q": "Name one important Sumerian invention besides writing.", "answer": "The wheel, the first cities, the plow, or sailboats (any one)" },
+      { "q": "The Sumerian number system was based on what number, giving us 60-minute hours?", "answer": "60" },
+      { "q": "Which civilization invented cuneiform — Sumer or Egypt?", "answer": "Sumer" }
+    ]
+  },
+  "3-3": {
+    "title": "Religion and Daily Life in Sumer",
+    "standard": "SS.6.W.2.4",
+    "problems": [
+      { "q": "What is the belief in many gods called?", "answer": "Polytheism" },
+      { "q": "What were the giant stepped temples of Sumer called?", "answer": "Ziggurats" },
+      { "q": "Who held the most power at the top of Sumerian society?", "answer": "Kings and priests" },
+      { "q": "What did most ordinary Sumerians do for work?", "answer": "Farmed or worked as crafters" },
+      { "q": "Why did Sumerians try to keep their gods happy?", "answer": "They believed gods controlled nature, like rivers and harvests" }
+    ]
+  },
+  "4-1": {
+    "title": "City-States and Their Rulers",
+    "standard": "SS.6.W.2.8",
+    "problems": [
+      { "q": "What is a city-state?", "answer": "A city that rules itself and the farmland around it" },
+      { "q": "What did each Mesopotamian city-state have of its own?", "answer": "Its own king, gods, and army" },
+      { "q": "Who built the world's first empire by conquering city-states?", "answer": "Sargon of Akkad" },
+      { "q": "What is an empire?", "answer": "Many lands and peoples ruled by one leader" },
+      { "q": "Why did city-states often fight each other?", "answer": "They competed over land and water" }
+    ]
+  },
+  "4-2": {
+    "title": "Hammurabi and His Famous Code",
+    "standard": "SS.6.W.2.8",
+    "problems": [
+      { "q": "Hammurabi was a king of which city?", "answer": "Babylon" },
+      { "q": "What is Hammurabi most famous for?", "answer": "Writing down one of the first sets of laws" },
+      { "q": "The idea that the punishment should match the crime is often called what?", "answer": "An eye for an eye" },
+      { "q": "Why was writing the laws down important?", "answer": "Rules applied to everyone and could be known ahead of time" },
+      { "q": "Where were Hammurabi's laws displayed so people could see them?", "answer": "Carved on a tall stone in public" }
+    ]
+  },
+  "5-1": {
+    "title": "The Assyrians, Chaldeans, and Persians",
+    "standard": "SS.6.W.2.4",
+    "problems": [
+      { "q": "The Assyrians were especially known for what?", "answer": "A strong, fierce army" },
+      { "q": "Which of these three empires was the largest?", "answer": "The Persian Empire" },
+      { "q": "The Persian king Cyrus the Great was famous for doing what?", "answer": "Treating conquered peoples fairly" },
+      { "q": "How did the Persians connect their huge empire?", "answer": "With long roads and governors (satraps)" },
+      { "q": "How did each of these empires grow so large?", "answer": "By uniting many different peoples under one ruler" }
+    ]
+  },
+  "5-2": {
+    "title": "The Phoenicians and Their Alphabet",
+    "standard": "SS.6.W.3.1",
+    "problems": [
+      { "q": "The Phoenicians are most famous for creating what?", "answer": "An easy alphabet" },
+      { "q": "In the Phoenician alphabet, each letter stood for what?", "answer": "A sound" },
+      { "q": "The Phoenicians were master sailors and what else?", "answer": "Traders" },
+      { "q": "On which sea did the Phoenicians mostly trade?", "answer": "The Mediterranean Sea" },
+      { "q": "Which famous colony did the Phoenicians found in North Africa?", "answer": "Carthage" }
+    ]
+  },
+  "5-3": {
+    "title": "The Israelites and Monotheism",
+    "standard": "SS.6.W.2.9",
+    "problems": [
+      { "q": "The belief in one God is called what?", "answer": "Monotheism" },
+      { "q": "What made the Israelites different from most neighbors?", "answer": "They believed in only one God" },
+      { "q": "What is the famous set of moral laws connected to the Israelites?", "answer": "The Ten Commandments" },
+      { "q": "The religion of the Israelites is known as what?", "answer": "Judaism" },
+      { "q": "Judaism's idea of one God later helped shape which two religions?", "answer": "Christianity and Islam" }
+    ]
+  },
+  "6-1": {
+    "title": "The Gift of the Nile",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "Along which river did ancient Egypt grow?", "answer": "The Nile River" },
+      { "q": "What did the Nile's yearly floods leave behind that helped farming?", "answer": "Rich, dark soil" },
+      { "q": "What protected Egypt from invaders like a natural wall?", "answer": "The surrounding deserts" },
+      { "q": "Who called Egypt 'the gift of the Nile'?", "answer": "The Greek historian Herodotus" },
+      { "q": "On which continent is Egypt located?", "answer": "Africa" }
+    ]
+  },
+  "6-2": {
+    "title": "Pharaohs and Key Figures of Egypt",
+    "standard": "SS.6.W.2.6",
+    "problems": [
+      { "q": "What were the kings of ancient Egypt called?", "answer": "Pharaohs" },
+      { "q": "How did Egyptians view the pharaoh?", "answer": "As a god-like leader" },
+      { "q": "Which boy-king's untouched tomb was found in 1922?", "answer": "Tutankhamun (King Tut)" },
+      { "q": "Hatshepsut is remembered as what?", "answer": "One of the few female pharaohs" },
+      { "q": "Who sat at the very top of Egyptian society?", "answer": "The pharaoh" }
+    ]
+  },
+  "6-3": {
+    "title": "Egyptian Religion and Daily Life",
+    "standard": "SS.6.W.2.4",
+    "problems": [
+      { "q": "Did the Egyptians believe in one god or many gods?", "answer": "Many gods" },
+      { "q": "What did Egyptians believe happened after death?", "answer": "There was an afterlife" },
+      { "q": "What is the process of preserving a dead body in Egypt called?", "answer": "Mummification" },
+      { "q": "Why did Egyptians preserve bodies as mummies?", "answer": "They believed the body was needed in the afterlife" },
+      { "q": "For most ordinary Egyptians, daily life centered on which three things?", "answer": "Family, farming, and faith" }
+    ]
+  },
+  "7-1": {
+    "title": "Building the Pyramids",
+    "standard": "SS.6.W.2.5",
+    "problems": [
+      { "q": "What were the Egyptian pyramids built to be?", "answer": "Tombs for pharaohs" },
+      { "q": "Which is the largest and most famous Egyptian pyramid?", "answer": "The Great Pyramid at Giza" },
+      { "q": "What were the pyramids built out of?", "answer": "Huge blocks of stone" },
+      { "q": "What do the pyramids show about Egyptian civilization?", "answer": "Strong engineering, math, and organization" },
+      { "q": "Why did building a pyramid require a strong government?", "answer": "It took organizing thousands of workers and supplies" }
+    ]
+  },
+  "7-2": {
+    "title": "Hieroglyphics and Egyptian Achievements",
+    "standard": "SS.6.W.2.5",
+    "problems": [
+      { "q": "What was the Egyptian picture-writing system called?", "answer": "Hieroglyphics" },
+      { "q": "What early kind of paper did Egyptians write on?", "answer": "Papyrus" },
+      { "q": "Which civilization invented hieroglyphics — Egypt or Sumer?", "answer": "Egypt" },
+      { "q": "The Egyptians created an accurate calendar with how many days?", "answer": "365 days" },
+      { "q": "Name one field, besides writing, in which Egyptians were skilled.", "answer": "Medicine, math, astronomy, or engineering (any one)" }
+    ]
+  },
+  "8-1": {
+    "title": "The Kingdom of Kush",
+    "standard": "SS.6.W.3.18",
+    "problems": [
+      { "q": "Where was the kingdom of Kush located?", "answer": "South of Egypt along the Nile" },
+      { "q": "Kush is also known by what other name?", "answer": "Nubia" },
+      { "q": "How did Kush become rich?", "answer": "By trading gold, ivory, and iron" },
+      { "q": "Kush became especially famous for working which metal?", "answer": "Iron" },
+      { "q": "What surprising thing did Kushite kings do for a time?", "answer": "They conquered and ruled Egypt" }
+    ]
+  },
+  "8-2": {
+    "title": "Axum and East African Trade",
+    "standard": "SS.6.W.3.18",
+    "problems": [
+      { "q": "Where was the kingdom of Axum located?", "answer": "East Africa (today's Ethiopia/Eritrea area)" },
+      { "q": "What made Axum powerful?", "answer": "It was a busy center of trade" },
+      { "q": "Axum was one of the first kingdoms to adopt which religion?", "answer": "Christianity" },
+      { "q": "From Axum, Christianity spread into which modern country?", "answer": "Ethiopia" },
+      { "q": "What sign showed Axum was a strong, advanced kingdom?", "answer": "It minted its own coins" }
+    ]
+  },
+  "8-3": {
+    "title": "Trade and Money in the Ancient World",
+    "standard": "SS.6.E.3.1",
+    "problems": [
+      { "q": "What is bartering?", "answer": "Trading goods directly for other goods" },
+      { "q": "What did civilizations create to make trading easier than barter?", "answer": "Money" },
+      { "q": "Which came first in history, barter or coins?", "answer": "Barter" },
+      { "q": "Besides goods, what did trade routes help spread?", "answer": "Ideas, inventions, and religions" },
+      { "q": "The spreading of culture from one place to another is called what?", "answer": "Cultural diffusion" }
+    ]
+  },
+  "9-1": {
+    "title": "The Indus Valley Civilization",
+    "standard": "SS.6.W.2.3",
+    "problems": [
+      { "q": "Near which river did the Indus Valley Civilization grow?", "answer": "The Indus River" },
+      { "q": "Name one famous city of the Indus Valley.", "answer": "Harappa or Mohenjo-Daro" },
+      { "q": "What advanced feature did Indus cities have?", "answer": "Indoor plumbing and sewer systems" },
+      { "q": "How were the streets of Indus cities arranged?", "answer": "In a straight grid pattern" },
+      { "q": "What does the careful planning of Indus cities show about their society?", "answer": "It was organized and skilled in engineering" }
+    ]
+  },
+  "9-2": {
+    "title": "Aryan Migrations and the Caste System",
+    "standard": "SS.6.W.4.1",
+    "problems": [
+      { "q": "Which group migrated into India after the Indus cities declined?", "answer": "The Aryans" },
+      { "q": "The ranked social groups of ancient India were called the what?", "answer": "The caste system" },
+      { "q": "In the caste system, what decided a person's place in society?", "answer": "The family they were born into" },
+      { "q": "Could people usually move from one caste to another?", "answer": "No" },
+      { "q": "The Aryans strongly shaped India's what?", "answer": "Language and culture" }
+    ]
+  },
+  "9-3": {
+    "title": "Hinduism, Buddhism, and India's Empires",
+    "standard": "SS.6.W.4.2",
+    "problems": [
+      { "q": "Which two major religions began in India?", "answer": "Hinduism and Buddhism" },
+      { "q": "Who founded Buddhism?", "answer": "Siddhartha Gautama (the Buddha)" },
+      { "q": "What did the Buddha teach leads to peace?", "answer": "Letting go of selfish desire" },
+      { "q": "Which empire is called India's 'Golden Age'?", "answer": "The Gupta Empire" },
+      { "q": "Which important math idea is connected to Gupta India?", "answer": "The concept of zero" }
+    ]
+  },
+  "10-1": {
+    "title": "Rivers, Dynasties, and the Mandate of Heaven",
+    "standard": "SS.6.W.4.6",
+    "problems": [
+      { "q": "Along which two rivers did Chinese civilization grow?", "answer": "The Yellow and Yangtze Rivers" },
+      { "q": "A series of rulers from the same family is called a what?", "answer": "A dynasty" },
+      { "q": "What was the Mandate of Heaven?", "answer": "The idea that Heaven gave a ruler the right to rule if he ruled well" },
+      { "q": "According to the Mandate of Heaven, when could a ruler lose the right to rule?", "answer": "When he became cruel, weak, or unfair" },
+      { "q": "Which civilization is matched with the Mandate of Heaven?", "answer": "China" }
+    ]
+  },
+  "10-2": {
+    "title": "Confucius, Laozi, and Chinese Thinkers",
+    "standard": "SS.6.W.4.7",
+    "problems": [
+      { "q": "Which teacher founded Confucianism?", "answer": "Confucius" },
+      { "q": "What did Confucius mainly teach?", "answer": "Respect, good manners, and leaders setting a good example" },
+      { "q": "Daoism, connected with Laozi, taught people to do what?", "answer": "Live simply and in harmony with nature" },
+      { "q": "Which philosophy taught strict laws and harsh punishments?", "answer": "Legalism" },
+      { "q": "Who taught Legalism?", "answer": "Han Fei Zi" }
+    ]
+  },
+  "10-3": {
+    "title": "Inventions, the Silk Roads, and the Mongols",
+    "standard": "SS.6.W.4.10",
+    "problems": [
+      { "q": "Name one important invention from ancient China.", "answer": "Paper, silk, the compass, or gunpowder (any one)" },
+      { "q": "What were the Silk Roads?", "answer": "Long trade routes connecting China to the west" },
+      { "q": "Who led the Mongols to build the largest land empire in history?", "answer": "Genghis Khan" },
+      { "q": "Why did China build the Great Wall?", "answer": "To defend its northern border from invaders" },
+      { "q": "Besides goods, what did the Silk Roads spread?", "answer": "Ideas and religions" }
+    ]
+  },
+  "11-1": {
+    "title": "Early Peoples of the Americas",
+    "standard": "SS.6.W.2.10",
+    "problems": [
+      { "q": "What was the most important crop for early peoples of the Americas?", "answer": "Maize (corn)" },
+      { "q": "Besides corn, name one crop early American peoples grew.", "answer": "Beans or squash" },
+      { "q": "How did farming change life for early American peoples?", "answer": "It let them settle down and build larger communities" },
+      { "q": "On which continents did early American peoples settle?", "answer": "North, Central, and South America" },
+      { "q": "What does the rise of American civilizations teach about civilization?", "answer": "Civilization can develop independently in different parts of the world" }
+    ]
+  },
+  "11-2": {
+    "title": "The Maya and Other Civilizations",
+    "standard": "SS.6.W.2.10",
+    "problems": [
+      { "q": "Where did the Maya civilization develop?", "answer": "Central America (Mesoamerica)" },
+      { "q": "What impressive structures did the Maya build in the rainforest?", "answer": "Stone pyramids and temples" },
+      { "q": "In which two subjects were the Maya especially skilled?", "answer": "Astronomy and mathematics" },
+      { "q": "Which important math idea did the Maya understand?", "answer": "The concept of zero" },
+      { "q": "The Maya used their knowledge of the sky to create an accurate what?", "answer": "Calendar" }
+    ]
+  },
+  "12-1": {
+    "title": "The Israelites and Their Beliefs",
+    "standard": "SS.6.W.2.9",
+    "problems": [
+      { "q": "The Israelites believed in how many gods?", "answer": "One God" },
+      { "q": "Who is honored as the father of the Israelite people?", "answer": "Abraham" },
+      { "q": "Which leader led the Israelites out of Egypt and is connected with the Ten Commandments?", "answer": "Moses" },
+      { "q": "Where did the Israelites record their beliefs and laws?", "answer": "In their sacred texts" },
+      { "q": "King David made which city the capital?", "answer": "Jerusalem" }
+    ]
+  },
+  "12-2": {
+    "title": "The Legacy of Judaism",
+    "standard": "SS.6.W.2.9",
+    "problems": [
+      { "q": "What were the two kingdoms of the Israelites called?", "answer": "Israel and Judah" },
+      { "q": "The scattering of the Jewish people to new lands is called the what?", "answer": "The Diaspora" },
+      { "q": "What did the Jewish people do even after being scattered?", "answer": "Kept their faith and traditions alive" },
+      { "q": "Judaism's idea of one God influenced which two later religions?", "answer": "Christianity and Islam" },
+      { "q": "What is the biggest part of Judaism's legacy?", "answer": "Its lasting influence on two other major world religions" }
+    ]
+  },
+  "13-1": {
+    "title": "Geography and the Rise of City-States",
+    "standard": "SS.6.W.3.2",
+    "problems": [
+      { "q": "What kind of land is ancient Greece?", "answer": "A land of mountains and islands" },
+      { "q": "A Greek city-state was called a what?", "answer": "A polis" },
+      { "q": "How did Greece's mountains affect its people?", "answer": "They divided Greeks into separate city-states" },
+      { "q": "Why did the Greeks become skilled sailors and traders?", "answer": "Farmland was limited and the sea was always near" },
+      { "q": "The sea acted like a what for the Greeks?", "answer": "A highway for trade and spreading ideas" }
+    ]
+  },
+  "13-2": {
+    "title": "Athens, Sparta, and Democracy",
+    "standard": "SS.6.W.3.3",
+    "problems": [
+      { "q": "Which Greek city-state created an early form of democracy?", "answer": "Athens" },
+      { "q": "What does 'democracy' mean?", "answer": "Rule by the people" },
+      { "q": "What was Sparta most focused on?", "answer": "Training tough soldiers" },
+      { "q": "In Athens, who was allowed to vote?", "answer": "Only free adult male citizens" },
+      { "q": "Name one group that could NOT vote in Athens.", "answer": "Women, enslaved people, or foreigners (any one)" }
+    ]
+  },
+  "14-1": {
+    "title": "The Persian and Peloponnesian Wars",
+    "standard": "SS.6.W.3.4",
+    "problems": [
+      { "q": "Who invaded Greece in the Persian Wars?", "answer": "The Persian Empire" },
+      { "q": "What did the Greek city-states do when Persia invaded?", "answer": "They united to fight the common enemy" },
+      { "q": "Which two city-states fought each other in the Peloponnesian War?", "answer": "Athens and Sparta" },
+      { "q": "What was the result of the Peloponnesian War for Greece?", "answer": "It weakened all of Greece" },
+      { "q": "Who won the Peloponnesian War?", "answer": "Sparta" }
+    ]
+  },
+  "14-2": {
+    "title": "Greek Achievements",
+    "standard": "SS.6.W.3.5",
+    "problems": [
+      { "q": "Which subject, meaning 'love of wisdom,' did the Greeks develop?", "answer": "Philosophy" },
+      { "q": "Name one famous Greek philosopher.", "answer": "Socrates, Plato, or Aristotle (any one)" },
+      { "q": "What athletic games did the Greeks start?", "answer": "The Olympics" },
+      { "q": "Which form of entertainment did the Greeks create?", "answer": "Theater" },
+      { "q": "Greek art and architecture were especially known for what?", "answer": "Balance and beauty" }
+    ]
+  },
+  "14-3": {
+    "title": "Alexander the Great and the Hellenistic Age",
+    "standard": "SS.6.W.3.7",
+    "problems": [
+      { "q": "Where was Alexander the Great from?", "answer": "Macedonia (north of Greece)" },
+      { "q": "How far east did Alexander's empire stretch?", "answer": "All the way to India" },
+      { "q": "What did Alexander spread wherever he went?", "answer": "Greek culture" },
+      { "q": "The blending of Greek and Eastern cultures is called the what?", "answer": "The Hellenistic Age" },
+      { "q": "Which Egyptian city became a great Hellenistic center of learning?", "answer": "Alexandria" }
+    ]
+  },
+  "15-1": {
+    "title": "The Roman Republic",
+    "standard": "SS.6.W.3.10",
+    "problems": [
+      { "q": "Rome's early government was a what?", "answer": "A republic" },
+      { "q": "What is a republic?", "answer": "A government where citizens elect their leaders" },
+      { "q": "What were Rome's important elected leaders called?", "answer": "Senators" },
+      { "q": "Why did Rome use a 'separation of powers'?", "answer": "To stop any one person from gaining too much power" },
+      { "q": "Which later country was influenced by Roman ideas of government?", "answer": "The United States" }
+    ]
+  },
+  "15-2": {
+    "title": "The Punic Wars and Roman Expansion",
+    "standard": "SS.6.W.3.9",
+    "problems": [
+      { "q": "The Punic Wars were fought between Rome and which city?", "answer": "Carthage" },
+      { "q": "How many Punic Wars were there?", "answer": "Three" },
+      { "q": "Which Carthaginian general marched elephants over the Alps?", "answer": "Hannibal" },
+      { "q": "Who won the Punic Wars?", "answer": "Rome" },
+      { "q": "Why were the Punic Wars a major turning point for Rome?", "answer": "They made Rome the master of the Mediterranean" }
+    ]
+  },
+  "15-3": {
+    "title": "From Republic to Empire",
+    "standard": "SS.6.W.3.11",
+    "problems": [
+      { "q": "Which Roman general took control of Rome before being assassinated?", "answer": "Julius Caesar" },
+      { "q": "Who became the first emperor of Rome?", "answer": "Augustus" },
+      { "q": "What is the Pax Romana?", "answer": "A long period of Roman peace" },
+      { "q": "What was the biggest change going from Republic to Empire?", "answer": "Power shifted from elected leaders to one emperor" },
+      { "q": "What does 'Pax Romana' mean?", "answer": "Roman Peace" }
+    ]
+  },
+  "16-1": {
+    "title": "The Beginnings of Christianity",
+    "standard": "SS.6.W.3.13",
+    "problems": [
+      { "q": "In which Roman region did Christianity begin?", "answer": "Judea" },
+      { "q": "Christianity grew out of which earlier religion?", "answer": "Judaism" },
+      { "q": "Whose life and teachings does Christianity follow?", "answer": "Jesus" },
+      { "q": "Christianity teaches belief in how many gods?", "answer": "One God" },
+      { "q": "How did Roman roads affect Christianity?", "answer": "They helped the new ideas spread quickly across the empire" }
+    ]
+  },
+  "16-2": {
+    "title": "Christianity Spreads Through the Empire",
+    "standard": "SS.6.W.3.13",
+    "problems": [
+      { "q": "How did the Roman government first treat Christians?", "answer": "They persecuted them" },
+      { "q": "What does 'persecution' mean?", "answer": "Being treated cruelly for one's beliefs" },
+      { "q": "Which emperor made Christianity legal in the Roman Empire?", "answer": "Constantine" },
+      { "q": "Despite persecution, what did Christianity keep doing?", "answer": "Growing" },
+      { "q": "What was the big effect of Christianity's spread?", "answer": "It reshaped the culture and beliefs of the ancient world" }
+    ]
+  },
+  "17-1": {
+    "title": "Roman Achievements and Daily Life",
+    "standard": "SS.6.W.3.14",
+    "problems": [
+      { "q": "What structures did the Romans build to carry water into cities?", "answer": "Aqueducts" },
+      { "q": "The Romans were especially skilled at what?", "answer": "Building and engineering" },
+      { "q": "Who were the patricians in Roman society?", "answer": "The rich, upper-class families" },
+      { "q": "Who were the plebeians?", "answer": "The common people, like farmers and workers" },
+      { "q": "Name one Roman achievement that still affects us today.", "answer": "Roads, aqueducts, concrete, or law (any one)" }
+    ]
+  },
+  "17-2": {
+    "title": "The Fall of the Western Roman Empire",
+    "standard": "SS.6.W.3.15",
+    "problems": [
+      { "q": "Which half of the Roman Empire fell first?", "answer": "The Western half" },
+      { "q": "In what year did the Western Roman Empire fall?", "answer": "476 AD" },
+      { "q": "Name one cause of Rome's fall.", "answer": "Weak leaders, money problems, huge size, or invasions (any one)" },
+      { "q": "Did the Western Roman Empire fall suddenly or gradually?", "answer": "Gradually, over many years" },
+      { "q": "Was there one single cause for the fall of Rome?", "answer": "No, many problems combined" }
+    ]
+  },
+  "17-3": {
+    "title": "The Lasting Legacy of the Ancient World",
+    "standard": "SS.6.W.1.6",
+    "problems": [
+      { "q": "Which idea is part of the legacy of ancient Greece?", "answer": "Democracy" },
+      { "q": "Which legacy came from ancient Rome?", "answer": "Law and republican government" },
+      { "q": "The alphabet is part of the legacy of which people?", "answer": "The Phoenicians" },
+      { "q": "The idea of monotheism came from which people?", "answer": "The Israelites (Judaism)" },
+      { "q": "Why is studying ancient civilizations useful today?", "answer": "It helps us understand the roots of the modern world" }
+    ]
+  }
+}

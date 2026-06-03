@@ -1,0 +1,316 @@
+{
+  "11-1": {
+    "title": "Early Peoples of the Americas",
+    "standard": "SS.6.W.2.10",
+    "learn": "KEY IDEAS — EARLY PEOPLES OF THE AMERICAS\n\nLong ago, early peoples settled across North, Central, and South America. Many scientists believe the first peoples reached the Americas thousands of years ago, possibly by crossing a land bridge from Asia during the Ice Age, then spreading out across the two continents.\n\nLike peoples elsewhere, they learned to FARM. The most important crop was MAIZE (corn), along with beans and squash. These three crops are often called the 'Three Sisters' because they grew well together. Farming was a turning point in the Americas just as it was in Africa and Asia: it allowed people to settle down, store surplus food, and grow larger communities.\n\nOver time, farming let some American peoples build villages and then large CITIES and CIVILIZATIONS. The amazing thing is that these cultures grew FAR AWAY from the river valleys of Africa and Asia, with no contact between them, yet they solved many of the SAME challenges — developing farming, cities, government, and writing on their own. This shows that civilization can develop independently in different parts of the world. Remember: maize (corn) was the key crop of the Americas.",
+    "questions": [
+      {
+        "id": "11-1-q1",
+        "section": "social",
+        "question": "What was the most important crop for early peoples of the Americas?",
+        "choices": {
+          "A": "Wheat",
+          "B": "Maize (corn)",
+          "C": "Rice",
+          "D": "Barley"
+        },
+        "correctAnswer": "B",
+        "explanation": "Maize, or corn, was the key crop of the Americas.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q2",
+        "section": "social",
+        "question": "Besides corn, which two crops did early American peoples grow?",
+        "choices": {
+          "A": "Olives and grapes",
+          "B": "Beans and squash",
+          "C": "Cotton and flax",
+          "D": "Apples and pears"
+        },
+        "correctAnswer": "B",
+        "explanation": "Corn, beans, and squash were grown together.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q3",
+        "section": "social",
+        "question": "Many scientists believe the first peoples reached the Americas by doing what?",
+        "choices": {
+          "A": "Crossing a land bridge from Asia during the Ice Age",
+          "B": "Flying in airplanes",
+          "C": "Building a giant tunnel",
+          "D": "Sailing from Egypt"
+        },
+        "correctAnswer": "A",
+        "explanation": "Many believe early peoples crossed a land bridge from Asia.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q4",
+        "section": "social",
+        "question": "How did farming change life for early American peoples?",
+        "choices": {
+          "A": "It let them settle down and build larger communities",
+          "B": "It forced them to wander forever",
+          "C": "It stopped them from eating",
+          "D": "It had no effect at all"
+        },
+        "correctAnswer": "A",
+        "explanation": "Farming allowed settling, surplus food, and larger communities.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q5",
+        "section": "social",
+        "question": "On which continents did early American peoples settle?",
+        "choices": {
+          "A": "North, Central, and South America",
+          "B": "Only Africa",
+          "C": "Only Europe",
+          "D": "Only Asia"
+        },
+        "correctAnswer": "A",
+        "explanation": "Early peoples settled across North, Central, and South America.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-1-q6",
+        "section": "social",
+        "question": "Corn, beans, and squash grown together are often called what?",
+        "choices": {
+          "A": "The Fertile Crescent",
+          "B": "The Three Sisters",
+          "C": "The Silk Roads",
+          "D": "The Mandate of Heaven"
+        },
+        "correctAnswer": "B",
+        "explanation": "Corn, beans, and squash are nicknamed the Three Sisters.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q7",
+        "section": "social",
+        "question": "What is surprising about how civilizations grew in the Americas?",
+        "choices": {
+          "A": "They were taught by the Romans",
+          "B": "They copied Egypt directly",
+          "C": "They never had any farming",
+          "D": "They grew far from Africa and Asia, with no contact, yet solved similar challenges"
+        },
+        "correctAnswer": "D",
+        "explanation": "American civilizations developed independently yet solved the same problems.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-1-q8",
+        "section": "social",
+        "question": "What did farming let some American peoples eventually build?",
+        "choices": {
+          "A": "Pyramids in Egypt",
+          "B": "Only single tents",
+          "C": "Nothing permanent",
+          "D": "Villages, cities, and civilizations"
+        },
+        "correctAnswer": "D",
+        "explanation": "Farming allowed the growth of villages, cities, and civilizations.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q9",
+        "section": "social",
+        "question": "What big lesson does the rise of American civilizations teach?",
+        "choices": {
+          "A": "Farming was unknown in the Americas",
+          "B": "All civilizations came from one place",
+          "C": "Civilization can develop independently in different parts of the world",
+          "D": "Only river valleys could grow cities"
+        },
+        "correctAnswer": "C",
+        "explanation": "American civilizations show that civilization can arise independently.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-1-q10",
+        "section": "social",
+        "question": "Farming was a turning point in the Americas similar to what event in Africa and Asia?",
+        "choices": {
+          "A": "The Mongol conquests",
+          "B": "The fall of Rome",
+          "C": "The Agricultural Revolution",
+          "D": "The building of the pyramids"
+        },
+        "correctAnswer": "C",
+        "explanation": "Like the Agricultural Revolution elsewhere, farming transformed American life.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "11-2": {
+    "title": "The Maya and Other Civilizations",
+    "standard": "SS.6.W.2.10",
+    "learn": "KEY IDEAS — THE MAYA AND AMERICAN CIVILIZATIONS\n\nThe MAYA were a great civilization of CENTRAL AMERICA (Mesoamerica), living in the rainforests of what are now Mexico and Central America. Even in the thick jungle, the Maya built impressive stone PYRAMIDS, temples, and large cities with plazas and ball courts.\n\nThe Maya were skilled in several areas. They were excellent at ASTRONOMY, carefully studying the sun, moon, and stars. They were strong in MATHEMATICS — remarkably, they understood the idea of ZERO, just as Gupta India did, and used it in their number system. Using their sky knowledge and math, they created a very accurate CALENDAR. The Maya also developed a written LANGUAGE made of symbols called glyphs, which they carved on monuments.\n\nComparing the Maya to the river civilizations of Africa and Asia shows something important: people in completely SEPARATE parts of the world independently developed the same key features of civilization — CITIES, WRITING, math, calendars, and GOVERNMENT. The Maya prove that complex civilization arose in the Americas on its own. Remember: Maya = Central America, pyramids, astronomy, zero, and an accurate calendar.",
+    "questions": [
+      {
+        "id": "11-2-q1",
+        "section": "social",
+        "question": "Where did the Maya civilization develop?",
+        "choices": {
+          "A": "Northern Europe",
+          "B": "Central America (Mesoamerica)",
+          "C": "The Indus Valley",
+          "D": "Egypt"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Maya lived in Central America.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q2",
+        "section": "social",
+        "question": "What impressive structures did the Maya build in the rainforest?",
+        "choices": {
+          "A": "Steel bridges",
+          "B": "Stone pyramids and temples",
+          "C": "Glass towers",
+          "D": "Iron ships"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Maya built stone pyramids and temples.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      },
+      {
+        "id": "11-2-q3",
+        "section": "social",
+        "question": "In which subjects were the Maya especially skilled?",
+        "choices": {
+          "A": "Working iron like Kush",
+          "B": "Sailing the Mediterranean",
+          "C": "Building the Great Wall",
+          "D": "Astronomy and mathematics"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Maya excelled in astronomy and math.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q4",
+        "section": "social",
+        "question": "Which important math idea did the Maya understand?",
+        "choices": {
+          "A": "Roman numerals",
+          "B": "The concept of zero",
+          "C": "Base-60 time only",
+          "D": "Cuneiform numbers"
+        },
+        "correctAnswer": "B",
+        "explanation": "The Maya understood the concept of zero.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q5",
+        "section": "social",
+        "question": "The Maya used their knowledge of the sky to create an accurate what?",
+        "choices": {
+          "A": "Coin",
+          "B": "Alphabet",
+          "C": "Calendar",
+          "D": "Aqueduct"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Maya created an accurate calendar.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q6",
+        "section": "social",
+        "question": "The Maya wrote using a system of what?",
+        "choices": {
+          "A": "The Phoenician alphabet",
+          "B": "Cuneiform wedges",
+          "C": "Egyptian hieroglyphics",
+          "D": "Symbols called glyphs"
+        },
+        "correctAnswer": "D",
+        "explanation": "The Maya wrote with symbols called glyphs.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q7",
+        "section": "social",
+        "question": "What does comparing the Maya to river civilizations show us?",
+        "choices": {
+          "A": "Separate peoples independently developed cities, writing, and government",
+          "B": "The Maya copied Egypt exactly",
+          "C": "Only river valleys had civilization",
+          "D": "The Maya had no writing"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Maya independently developed the same key features as river civilizations.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "hard"
+      },
+      {
+        "id": "11-2-q8",
+        "section": "social",
+        "question": "Which TWO civilizations both understood the idea of zero?",
+        "choices": {
+          "A": "The Maya and Gupta India",
+          "B": "Egypt and Sumer",
+          "C": "Rome and Greece",
+          "D": "Persia and Phoenicia"
+        },
+        "correctAnswer": "A",
+        "explanation": "Both the Maya and Gupta India understood zero independently.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q9",
+        "section": "social",
+        "question": "The Maya built large cities even in what kind of environment?",
+        "choices": {
+          "A": "An open ocean",
+          "B": "A frozen tundra",
+          "C": "A thick rainforest",
+          "D": "A sandy desert with no plants"
+        },
+        "correctAnswer": "C",
+        "explanation": "The Maya built cities in the rainforest jungle.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "medium"
+      },
+      {
+        "id": "11-2-q10",
+        "section": "social",
+        "question": "Which statement BEST describes the Maya?",
+        "choices": {
+          "A": "A Central American civilization skilled in astronomy, math, and writing",
+          "B": "A river civilization in the Middle East",
+          "C": "Sea traders who created the alphabet",
+          "D": "A Chinese dynasty"
+        },
+        "correctAnswer": "A",
+        "explanation": "The Maya were a Central American civilization skilled in astronomy, math, and writing.",
+        "standard": "SS.6.W.2.10",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}
